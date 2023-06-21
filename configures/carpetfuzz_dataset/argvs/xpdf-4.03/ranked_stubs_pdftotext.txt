@@ -1,0 +1,788 @@
+787
+pdftotext -l 5 -layout -lineprinter -fixed 8 -enc Latin1 -eol dos -nopgbrk -marginr 0.25 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -simple -table -fixed 8 -linespacing 4 -nodiag -enc Latin1 -eol dos -nopgbrk -bom -marginr 0.25 -upw 123456  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -fixed 8 -clip -enc ZapfDingbats -eol dos -nopgbrk -marginb 0.25 -opw 123456  @@ /tmp/foo
+pdftotext -l 5 -simple2 -raw -linespacing 4 -enc Symbol -eol mac -bom -margint 0.75 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -lineprinter -linespacing 4 -clip -enc ZapfDingbats -eol mac -nopgbrk -margint 0.75  @@ /tmp/foo
+pdftotext -l 5 -table -fixed 8 -linespacing 4 -clip -enc Symbol -eol dos -bom -marginb 0.25  @@ /tmp/foo
+pdftotext -f 2 -simple2 -lineprinter -raw -fixed 8 -linespacing 4 -enc ZapfDingbats -eol dos -bom -marginr 0.25 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -simple -table -linespacing 4 -nodiag -enc ZapfDingbats -eol mac -marginb 0.25 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -lineprinter -raw -fixed 8 -enc Latin1 -eol unix -bom -margint 0.75 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -f 2 -layout -table -raw -fixed 8 -clip -nodiag -enc ZapfDingbats -eol dos -nopgbrk -bom -marginl 0.5 -upw 123456  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -fixed 8 -clip -enc Latin1 -eol dos -nopgbrk -bom -marginl 0.5 -opw 123456  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -raw -fixed 8 -linespacing 4 -enc Symbol -nopgbrk -bom -marginr 0.25 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -f 2 -simple -table -clip -enc Symbol -eol mac -nopgbrk -bom -margint 0.75 -opw 123456  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -raw -linespacing 4 -clip -enc Symbol -nopgbrk -marginb 0.25 -upw 123456  @@ /tmp/foo
+pdftotext -simple -raw -linespacing 4 -enc Symbol -eol mac -nopgbrk -bom -marginr 0.25 -opw 123456  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -raw -clip -nodiag -enc Latin1 -eol unix -nopgbrk -bom -marginr 0.25 -upw 123456  @@ /tmp/foo
+pdftotext -f 2 -layout -table -lineprinter -raw -linespacing 4 -enc Symbol -margint 0.75 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -lineprinter -linespacing 4 -clip -enc Symbol -marginb 0.25 -opw 123456  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -lineprinter -fixed 8 -linespacing 4 -clip -enc ASCII7 -eol unix -nopgbrk -bom -margint 0.75 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -raw -fixed 8 -clip -enc Symbol -marginr 0.25  @@ /tmp/foo
+pdftotext -l 5 -simple -lineprinter -fixed 8 -clip -nodiag -enc Symbol -margint 0.75  @@ /tmp/foo
+pdftotext -l 5 -lineprinter -fixed 8 -linespacing 4 -enc Latin1 -eol mac -bom -marginl 0.5 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -simple -table -fixed 8 -linespacing 4 -nodiag -enc Symbol -margint 0.75 -opw 123456  @@ /tmp/foo
+pdftotext -layout -simple2 -table -lineprinter -raw -fixed 8 -linespacing 4 -enc Symbol -eol dos -nopgbrk -margint 0.75 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -layout -raw -fixed 8 -linespacing 4 -nodiag -enc ZapfDingbats -nopgbrk -bom -margint 0.75  @@ /tmp/foo
+pdftotext -l 5 -simple -linespacing 4 -clip -enc Latin1 -nopgbrk -bom -margint 0.75 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -raw -fixed 8 -clip -nodiag -enc Symbol -nopgbrk -marginl 0.5 -opw 123456  @@ /tmp/foo
+pdftotext -f 2 -simple -fixed 8 -linespacing 4 -clip -nodiag -enc ZapfDingbats -eol mac -bom -marginl 0.5 -opw 123456  @@ /tmp/foo
+pdftotext -f 2 -table -raw -linespacing 4 -clip -nodiag -enc Symbol -nopgbrk -bom -marginl 0.5 -opw 123456  @@ /tmp/foo
+pdftotext -f 2 -layout -lineprinter -fixed 8 -linespacing 4 -clip -eol dos -nopgbrk -bom -marginb 0.25 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -simple -table -linespacing 4 -clip -nodiag -eol unix -nopgbrk -marginr 0.25  @@ /tmp/foo
+pdftotext -l 5 -simple -lineprinter -raw -fixed 8 -linespacing 4 -clip -nodiag -enc Latin1 -marginb 0.25 -opw 123456  @@ /tmp/foo
+pdftotext -l 5 -layout -lineprinter -linespacing 4 -nodiag -enc ASCII7 -eol unix -margint 0.75 -opw 123456  @@ /tmp/foo
+pdftotext -f 2 -layout -lineprinter -raw -linespacing 4 -clip -nodiag -eol dos -nopgbrk -bom -marginr 0.25 -opw 123456  @@ /tmp/foo
+pdftotext -f 2 -simple2 -table -lineprinter -fixed 8 -linespacing 4 -nodiag -enc UCS-2 -eol mac -nopgbrk -marginb 0.25  @@ /tmp/foo
+pdftotext -f 2 -simple -fixed 8 -clip -nodiag -enc ASCII7 -eol unix -marginr 0.25  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -raw -fixed 8 -linespacing 4 -clip -nodiag -enc Symbol -marginl 0.5 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -layout -lineprinter -raw -fixed 8 -clip -nodiag -eol dos -nopgbrk -bom -margint 0.75 -opw 123456  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -raw -fixed 8 -eol unix -nopgbrk -marginb 0.25 -opw 123456  @@ /tmp/foo
+pdftotext -f 2 -simple -lineprinter -linespacing 4 -enc UCS-2 -eol dos -nopgbrk -marginb 0.25 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -simple -fixed 8 -clip -nodiag -eol mac -nopgbrk -marginb 0.25 -opw 123456  @@ /tmp/foo
+pdftotext -l 5 -simple -raw -linespacing 4 -clip -enc UCS-2 -eol mac -nopgbrk -margint 0.75  @@ /tmp/foo
+pdftotext -l 5 -simple2 -table -raw -linespacing 4 -clip -nodiag -enc ZapfDingbats -nopgbrk -bom -marginl 0.5 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -simple -lineprinter -fixed 8 -eol unix -nopgbrk -bom -margint 0.75  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -lineprinter -raw -linespacing 4 -eol dos -nopgbrk -bom -marginb 0.25 -upw 123456  @@ /tmp/foo
+pdftotext -f 2 -layout -raw -nodiag -enc Symbol -nopgbrk -bom -marginb 0.25 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -simple -table -lineprinter -fixed 8 -linespacing 4 -clip -enc Latin1 -marginr 0.25 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -fixed 8 -linespacing 4 -clip -nodiag -eol dos -nopgbrk -bom -margint 0.75 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -linespacing 4 -clip -nodiag -enc UTF-8 -eol mac -nopgbrk -bom -marginb 0.25  @@ /tmp/foo
+pdftotext -l 5 -table -lineprinter -fixed 8 -linespacing 4 -enc ZapfDingbats -margint 0.75 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -simple2 -table -lineprinter -linespacing 4 -clip -nodiag -eol unix -nopgbrk -bom -marginb 0.25 -upw 123456  @@ /tmp/foo
+pdftotext -simple -table -lineprinter -raw -fixed 8 -linespacing 4 -nodiag -enc Latin1 -eol dos -nopgbrk -marginb 0.25 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -f 2 -simple2 -lineprinter -fixed 8 -clip -nodiag -enc ZapfDingbats -marginb 0.25 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -lineprinter -fixed 8 -eol mac -nopgbrk -bom -marginr 0.25 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -simple -raw -linespacing 4 -clip -nodiag -enc Symbol -marginl 0.5 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -f 2 -simple -table -raw -fixed 8 -linespacing 4 -nodiag -enc UCS-2 -eol unix -nopgbrk -margint 0.75 -opw 123456  @@ /tmp/foo
+pdftotext -f 2 -simple -linespacing 4 -clip -nodiag -eol mac -nopgbrk -marginb 0.25 -upw 123456  @@ /tmp/foo
+pdftotext -f 2 -layout -table -lineprinter -raw -fixed 8 -clip -nodiag -enc Latin1 -bom -marginb 0.25 -upw 123456  @@ /tmp/foo
+pdftotext -f 2 -simple -table -lineprinter -linespacing 4 -clip -nodiag -eol unix -nopgbrk -bom -margint 0.75 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -simple -fixed 8 -clip -eol unix -nopgbrk -marginl 0.5  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -linespacing 4 -nodiag -enc UTF-8 -eol mac -nopgbrk -bom -marginl 0.5  @@ /tmp/foo
+pdftotext -f 2 -simple -lineprinter -fixed 8 -enc ASCII7 -nopgbrk -marginr 0.25 -opw 123456  @@ /tmp/foo
+pdftotext -l 5 -simple2 -nodiag -enc Latin1 -nopgbrk -bom -marginb 0.25  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -raw -fixed 8 -clip -nodiag -eol dos -bom -marginb 0.25 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -simple -table -raw -linespacing 4 -clip -nodiag -eol unix -bom -margint 0.75 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -simple -lineprinter -raw -fixed 8 -clip -eol unix -bom -marginr 0.25  @@ /tmp/foo
+pdftotext -layout -simple2 -raw -linespacing 4 -enc ZapfDingbats -eol dos -nopgbrk -marginl 0.5 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -fixed 8 -clip -nodiag -enc UTF-8 -eol unix -marginr 0.25 -opw 123456  @@ /tmp/foo
+pdftotext -f 2 -simple2 -lineprinter -fixed 8 -nodiag -eol unix -nopgbrk -marginl 0.5 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -f 2 -simple -lineprinter -linespacing 4 -nodiag -eol mac -bom -margint 0.75 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -simple2 -table -lineprinter -raw -fixed 8 -clip -eol mac -marginb 0.25 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -simple2 -table -raw -fixed 8 -clip -eol unix -nopgbrk -marginl 0.5 -upw 123456  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -raw -fixed 8 -nodiag -eol unix -marginr 0.25  @@ /tmp/foo
+pdftotext -f 2 -simple -lineprinter -raw -fixed 8 -linespacing 4 -eol dos -nopgbrk -bom -marginl 0.5 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -simple2 -table -lineprinter -raw -nodiag -enc ZapfDingbats -eol unix -marginl 0.5 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -lineprinter -raw -nodiag -enc Latin1 -nopgbrk -bom -margint 0.75  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -raw -linespacing 4 -eol mac -bom -marginb 0.25 -opw 123456  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -lineprinter -raw -linespacing 4 -clip -nodiag -eol unix -bom -marginr 0.25 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -simple -table -raw -fixed 8 -clip -nodiag -enc ASCII7 -nopgbrk -marginb 0.25  @@ /tmp/foo
+pdftotext -l 5 -simple -lineprinter -raw -linespacing 4 -clip -nodiag -enc UTF-8 -eol unix -marginr 0.25 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -f 2 -layout -lineprinter -raw -fixed 8 -clip -eol dos -margint 0.75 -opw 123456  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -lineprinter -clip -enc Symbol -margint 0.75 -opw 123456  @@ /tmp/foo
+pdftotext -l 5 -layout -fixed 8 -nodiag -eol dos -nopgbrk -bom -marginl 0.5 -opw 123456  @@ /tmp/foo
+pdftotext -f 2 -simple -nodiag -enc Symbol -bom -marginb 0.25 -opw 123456  @@ /tmp/foo
+pdftotext -l 5 -layout -fixed 8 -eol mac -marginb 0.25 -opw 123456  @@ /tmp/foo
+pdftotext -l 5 -table -lineprinter -raw -fixed 8 -linespacing 4 -nodiag -eol dos -margint 0.75 -opw 123456  @@ /tmp/foo
+pdftotext -l 5 -simple -table -clip -enc Latin1 -nopgbrk -bom -marginb 0.25 -opw 123456  @@ /tmp/foo
+pdftotext -l 5 -simple2 -table -raw -fixed 8 -linespacing 4 -clip -enc ASCII7 -nopgbrk -marginr 0.25  @@ /tmp/foo
+pdftotext -f 2 -simple2 -table -raw -fixed 8 -linespacing 4 -clip -eol mac -margint 0.75 -opw 123456  @@ /tmp/foo
+pdftotext -l 5 -simple -table -lineprinter -fixed 8 -clip -enc ASCII7 -nopgbrk -bom -marginr 0.25 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -lineprinter -fixed 8 -clip -eol mac -marginr 0.25  @@ /tmp/foo
+pdftotext -l 5 -simple -table -lineprinter -raw -linespacing 4 -enc ASCII7 -marginr 0.25  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -lineprinter -fixed 8 -linespacing 4 -nodiag -nopgbrk -marginr 0.25 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -simple2 -lineprinter -raw -linespacing 4 -clip -eol mac -bom -marginl 0.5 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -f 2 -simple -table -fixed 8 -linespacing 4 -eol dos -marginl 0.5 -upw 123456  @@ /tmp/foo
+pdftotext -f 2 -simple2 -table -raw -eol dos -nopgbrk -margint 0.75 -opw 123456  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -lineprinter -raw -enc ZapfDingbats -marginb 0.25  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -fixed 8 -linespacing 4 -clip -enc UCS-2 -nopgbrk -marginb 0.25 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -layout -lineprinter -linespacing 4 -clip -nodiag -nopgbrk -bom -marginr 0.25 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -f 2 -simple -table -raw -nodiag -eol unix -nopgbrk -marginb 0.25 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -f 2 -simple -table -lineprinter -fixed 8 -linespacing 4 -clip -nopgbrk -bom -margint 0.75 -opw 123456  @@ /tmp/foo
+pdftotext -l 5 -simple -table -lineprinter -linespacing 4 -nodiag -nopgbrk -margint 0.75 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -fixed 8 -clip -nodiag -nopgbrk -margint 0.75 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -lineprinter -raw -linespacing 4 -clip -nodiag -eol dos -bom -marginl 0.5 -opw 123456  @@ /tmp/foo
+pdftotext -l 5 -simple2 -table -raw -fixed 8 -clip -nodiag -enc ASCII7 -bom -margint 0.75 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -layout -raw -clip -enc ASCII7 -eol mac -marginb 0.25 -upw 123456  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -lineprinter -fixed 8 -linespacing 4 -clip -enc UCS-2 -nopgbrk -bom -marginr 0.25  @@ /tmp/foo
+pdftotext -f 2 -simple2 -table -lineprinter -enc ASCII7 -eol mac -marginr 0.25  @@ /tmp/foo
+pdftotext -raw -fixed 8 -linespacing 4 -nodiag -enc Symbol -bom -marginb 0.25 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -raw -clip -eol unix -nopgbrk -marginr 0.25 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -f 2 -simple -table -fixed 8 -nodiag -nopgbrk -bom -margint 0.75 -upw 123456  @@ /tmp/foo
+pdftotext -f 2 -simple -lineprinter -nodiag -eol dos -nopgbrk -marginr 0.25 -upw 123456  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -lineprinter -linespacing 4 -clip -nodiag -eol mac -marginl 0.5 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -simple2 -table -lineprinter -enc ASCII7 -nopgbrk -bom -margint 0.75  @@ /tmp/foo
+pdftotext -f 2 -layout -fixed 8 -linespacing 4 -nodiag -enc UTF-8 -bom -margint 0.75 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -raw -linespacing 4 -enc UCS-2 -bom -marginb 0.25 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -layout -raw -fixed 8 -linespacing 4 -nodiag -enc UCS-2 -eol mac -nopgbrk -bom -marginb 0.25  @@ /tmp/foo
+pdftotext -simple2 -table -lineprinter -linespacing 4 -clip -enc UTF-8 -eol mac -nopgbrk -marginr 0.25 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -simple -lineprinter -fixed 8 -linespacing 4 -nopgbrk -marginb 0.25  @@ /tmp/foo
+pdftotext -layout -linespacing 4 -clip -enc UCS-2 -eol unix -nopgbrk -bom -margint 0.75 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -f 2 -simple -raw -fixed 8 -linespacing 4 -nodiag -enc UCS-2 -bom -marginb 0.25 -upw 123456  @@ /tmp/foo
+pdftotext -f 2 -simple -raw -fixed 8 -margint 0.75 -opw 123456  @@ /tmp/foo
+pdftotext -simple -table -raw -fixed 8 -eol unix -nopgbrk -marginr 0.25 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -f 2 -simple -lineprinter -linespacing 4 -nodiag -bom -marginr 0.25 -opw 123456  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -lineprinter -fixed 8 -linespacing 4 -nodiag -bom -marginb 0.25 -opw 123456  @@ /tmp/foo
+pdftotext -l 5 -layout -table -lineprinter -fixed 8 -clip -nodiag -nopgbrk -bom -marginr 0.25  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -lineprinter -fixed 8 -nodiag -enc UCS-2 -nopgbrk -marginl 0.5  @@ /tmp/foo
+pdftotext -f 2 -simple2 -nodiag -eol mac -margint 0.75  @@ /tmp/foo
+pdftotext -l 5 -simple -table -fixed 8 -linespacing 4 -clip -nopgbrk -bom -marginl 0.5 -opw 123456  @@ /tmp/foo
+pdftotext -f 2 -simple -table -lineprinter -raw -fixed 8 -linespacing 4 -clip -bom -marginb 0.25 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -f 2 -simple -table -lineprinter -raw -fixed 8 -nodiag -nopgbrk -marginb 0.25  @@ /tmp/foo
+pdftotext -simple -lineprinter -raw -enc ZapfDingbats -eol mac -bom -marginb 0.25 -opw 123456  @@ /tmp/foo
+pdftotext -f 2 -simple -table -lineprinter -fixed 8 -linespacing 4 -nodiag -nopgbrk -marginl 0.5 -opw 123456  @@ /tmp/foo
+pdftotext -lineprinter -fixed 8 -linespacing 4 -clip -nodiag -eol dos -nopgbrk -marginr 0.25 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -raw -linespacing 4 -clip -nodiag -enc ASCII7 -bom -marginl 0.5 -opw 123456  @@ /tmp/foo
+pdftotext -f 2 -layout -lineprinter -fixed 8 -linespacing 4 -clip -nodiag -enc UTF-8 -nopgbrk -marginl 0.5  @@ /tmp/foo
+pdftotext -simple -table -nodiag -enc ZapfDingbats -eol mac -marginb 0.25 -opw 123456  @@ /tmp/foo
+pdftotext -l 5 -simple -lineprinter -raw -linespacing 4 -nodiag -marginb 0.25 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -f 2 -simple -fixed 8 -linespacing 4 -nodiag -nopgbrk -bom -marginb 0.25  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -fixed 8 -bom -marginb 0.25 -opw 123456  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -lineprinter -raw -clip -nodiag -eol mac -bom -marginb 0.25 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -layout -lineprinter -raw -clip -enc UTF-8 -eol dos -bom -marginl 0.5 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -table -raw -clip -nopgbrk -bom -marginr 0.25 -opw 123456  @@ /tmp/foo
+pdftotext -l 5 -simple -linespacing 4 -clip -enc UCS-2 -bom -marginl 0.5  @@ /tmp/foo
+pdftotext -l 5 -simple -table -raw -clip -nodiag -eol unix -bom -marginl 0.5  @@ /tmp/foo
+pdftotext -f 2 -simple -lineprinter -raw -clip -nodiag -enc UCS-2 -eol unix -marginl 0.5  @@ /tmp/foo
+pdftotext -f 2 -layout -table -linespacing 4 -bom -marginr 0.25  @@ /tmp/foo
+pdftotext -l 5 -layout -table -lineprinter -clip -nodiag -enc ASCII7 -marginb 0.25 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -fixed 8 -linespacing 4 -nopgbrk -bom -marginl 0.5  @@ /tmp/foo
+pdftotext -f 2 -simple2 -lineprinter -raw -clip -nopgbrk -bom -margint 0.75 -upw 123456  @@ /tmp/foo
+pdftotext -f 2 -layout -table -clip -nodiag -enc UCS-2 -nopgbrk -margint 0.75 -opw 123456  @@ /tmp/foo
+pdftotext -f 2 -raw -linespacing 4 -enc UTF-8 -eol dos -opw 123456  @@ /tmp/foo
+pdftotext -f 2 -table -lineprinter -raw -fixed 8 -marginl 0.5 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -simple2 -table -raw -fixed 8 -bom -marginr 0.25  @@ /tmp/foo
+pdftotext -f 2 -simple -table -raw -clip -enc ASCII7 -bom -marginr 0.25 -opw 123456  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -lineprinter -clip -nodiag -enc UCS-2 -nopgbrk -marginr 0.25 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -simple2 -lineprinter -clip -nodiag -enc UCS-2 -nopgbrk -bom -marginr 0.25 -opw 123456  @@ /tmp/foo
+pdftotext -l 5 -simple2 -clip -nodiag -eol mac -bom -marginl 0.5 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -layout -simple2 -table -lineprinter -raw -enc Latin1 -nopgbrk -marginb 0.25 -upw 123456  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -linespacing 4 -marginl 0.5 -opw 123456  @@ /tmp/foo
+pdftotext -simple2 -lineprinter -fixed 8 -clip -nodiag -enc Latin1 -marginl 0.5 -upw 123456  @@ /tmp/foo
+pdftotext -f 2 -simple2 -table -raw -clip -nodiag -nopgbrk -marginr 0.25 -opw 123456  @@ /tmp/foo
+pdftotext -f 2 -simple2 -table -fixed 8 -linespacing 4 -clip -nopgbrk -bom -marginl 0.5  @@ /tmp/foo
+pdftotext -f 2 -simple -table -raw -clip -enc UTF-8 -nopgbrk -marginl 0.5 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -layout -table -lineprinter -linespacing 4 -nodiag -bom -marginl 0.5  @@ /tmp/foo
+pdftotext -simple -table -lineprinter -raw -nodiag -enc UTF-8 -eol unix -nopgbrk -bom -margint 0.75 -opw 123456  @@ /tmp/foo
+pdftotext -f 2 -simple -lineprinter -enc ASCII7 -bom -marginl 0.5 -upw 123456  @@ /tmp/foo
+pdftotext -layout -simple2 -lineprinter -raw -fixed 8 -nodiag -nopgbrk -marginr 0.25 -opw 123456  @@ /tmp/foo
+pdftotext -l 5 -simple -table -lineprinter -raw -linespacing 4 -marginl 0.5  @@ /tmp/foo
+pdftotext -f 2 -simple -table -lineprinter -raw -clip -nodiag -bom -marginr 0.25 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -simple -lineprinter -raw -nodiag -nopgbrk -marginb 0.25  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -raw -fixed 8 -nodiag -nopgbrk -upw 123456  @@ /tmp/foo
+pdftotext -f 2 -layout -lineprinter -raw -fixed 8 -linespacing 4 -nopgbrk -bom -upw 123456  @@ /tmp/foo
+pdftotext -simple -raw -fixed 8 -nodiag -nopgbrk -bom -marginl 0.5 -upw 123456  @@ /tmp/foo
+pdftotext -layout -table -eol mac -marginr 0.25 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -layout -simple2 -lineprinter -raw -nodiag -eol mac -margint 0.75 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -layout -table -raw -bom -margint 0.75  @@ /tmp/foo
+pdftotext -simple2 -fixed 8 -linespacing 4 -bom -margint 0.75 -opw 123456  @@ /tmp/foo
+pdftotext -simple2 -table -lineprinter -fixed 8 -clip -enc UCS-2 -bom -marginb 0.25 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -simple -lineprinter -raw -clip -nodiag -eol mac -margint 0.75 -opw 123456  @@ /tmp/foo
+pdftotext -simple -raw -linespacing 4 -nodiag -marginr 0.25 -upw 123456  @@ /tmp/foo
+pdftotext -simple -linespacing 4 -clip -bom -marginb 0.25 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -layout -table -lineprinter -raw -eol mac -nopgbrk -bom -marginl 0.5 -opw 123456  @@ /tmp/foo
+pdftotext -simple -lineprinter -fixed 8 -linespacing 4 -nodiag -margint 0.75 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -simple2 -raw -fixed 8 -clip -enc UCS-2 -bom -marginl 0.5 -opw 123456  @@ /tmp/foo
+pdftotext -simple -table -lineprinter -clip -nodiag -nopgbrk -bom -marginb 0.25 -upw 123456  @@ /tmp/foo
+pdftotext -layout -table -fixed 8 -enc UCS-2 -bom -marginl 0.5 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -layout -simple2 -table -lineprinter -fixed 8 -clip -marginl 0.5 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -f 2 -simple2 -table -raw -nodiag -bom -marginl 0.5  @@ /tmp/foo
+pdftotext -f 2 -simple2 -table -lineprinter -linespacing 4 -nodiag -enc Symbol -eol dos -nopgbrk -margint 0.75 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -table -lineprinter -clip -margint 0.75 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -l 5 -simple -table -raw -linespacing 4 -clip -enc Symbol -eol unix -nopgbrk -bom -marginr 0.25 -q  @@ /tmp/foo
+pdftotext -f 2 -layout -table -lineprinter -fixed 8 -clip -nodiag -enc Symbol -eol unix -nopgbrk -marginr 0.25 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -simple -lineprinter -raw -linespacing 4 -enc Symbol -eol mac -nopgbrk -bom -marginb 0.25 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -simple -clip -nodiag -nopgbrk -margint 0.75  @@ /tmp/foo
+pdftotext -f 2 -simple -table -lineprinter -raw -fixed 8 -clip -enc ZapfDingbats -eol dos -nopgbrk -bom -marginb 0.25 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -layout -table -lineprinter -linespacing 4 -clip -enc ZapfDingbats -eol mac -nopgbrk -bom -marginb 0.25 -opw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -simple -table -lineprinter -fixed 8 -nodiag -enc Latin1 -eol dos -nopgbrk -margint 0.75 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -raw -linespacing 4 -clip -enc Symbol -eol unix -margint 0.75 -upw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -lineprinter -raw -fixed 8 -nodiag -enc Latin1 -eol unix -nopgbrk -bom -marginb 0.25 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -simple2 -table -fixed 8 -nodiag -enc Symbol -eol unix -bom -margint 0.75 -opw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -raw -linespacing 4 -clip -enc Symbol -eol dos -nopgbrk -marginl 0.5 -q  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -lineprinter -raw -fixed 8 -linespacing 4 -enc Latin1 -eol dos -nopgbrk -bom -marginl 0.5 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -simple -table -lineprinter -fixed 8 -clip -enc Symbol -eol dos -marginl 0.5 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -simple -lineprinter -clip -eol dos -nopgbrk -bom -opw 123456 -upw 123456  @@ /tmp/foo
+pdftotext -f 2 -lineprinter -fixed 8 -linespacing 4 -nodiag -enc ZapfDingbats -eol mac -marginb 0.25 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -simple -lineprinter -fixed 8 -clip -enc Symbol -nopgbrk -marginb 0.25 -opw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -lineprinter -raw -fixed 8 -linespacing 4 -clip -enc Latin1 -eol dos -bom -marginb 0.25 -q  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -fixed 8 -enc Symbol -eol dos -marginl 0.5 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -simple -linespacing 4 -enc Symbol -nopgbrk -bom -marginl 0.5 -opw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -simple -table -raw -fixed 8 -linespacing 4 -nodiag -enc Symbol -marginr 0.25 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -layout -raw -fixed 8 -linespacing 4 -enc ZapfDingbats -eol dos -marginl 0.5 -opw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -simple -raw -fixed 8 -enc ZapfDingbats -eol dos -bom -marginl 0.5 -opw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -simple -table -lineprinter -fixed 8 -linespacing 4 -clip -nodiag -enc ASCII7 -eol unix -nopgbrk -bom -marginr 0.25 -q  @@ /tmp/foo
+pdftotext -l 5 -simple -lineprinter -raw -fixed 8 -linespacing 4 -clip -nodiag -enc Latin1 -nopgbrk -bom -margint 0.75 -opw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -layout -table -lineprinter -nodiag -enc ZapfDingbats -eol mac -nopgbrk -bom -margint 0.75 -q  @@ /tmp/foo
+pdftotext -l 5 -simple2 -table -lineprinter -raw -fixed 8 -linespacing 4 -nodiag -enc ZapfDingbats -nopgbrk -bom -marginb 0.25 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -raw -linespacing 4 -enc ZapfDingbats -nopgbrk -marginb 0.25 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -raw -linespacing 4 -enc Latin1 -nopgbrk -bom -marginr 0.25 -upw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -simple -table -clip -nodiag -enc ZapfDingbats -eol mac -nopgbrk -bom -margint 0.75 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -simple -lineprinter -fixed 8 -enc Symbol -nopgbrk -marginl 0.5 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -simple -table -raw -nodiag -enc Latin1 -eol mac -nopgbrk -bom -marginb 0.25 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -simple2 -table -fixed 8 -clip -nodiag -enc Latin1 -eol mac -bom -marginl 0.5 -q  @@ /tmp/foo
+pdftotext -f 2 -lineprinter -raw -linespacing 4 -clip -enc UCS-2 -eol dos -nopgbrk -bom -margint 0.75 -opw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -raw -fixed 8 -clip -nodiag -enc UCS-2 -eol unix -nopgbrk -marginr 0.25 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -simple -table -lineprinter -raw -fixed 8 -linespacing 4 -clip -enc ASCII7 -eol unix -margint 0.75 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -simple2 -linespacing 4 -eol unix -nopgbrk -marginr 0.25 -q  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -fixed 8 -linespacing 4 -clip -eol unix -nopgbrk -bom -marginr 0.25 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -lineprinter -linespacing 4 -clip -nodiag -enc ZapfDingbats -bom -margint 0.75 -q  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -lineprinter -raw -fixed 8 -linespacing 4 -clip -nodiag -eol mac -nopgbrk -marginb 0.25 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -raw -fixed 8 -linespacing 4 -nodiag -eol dos -nopgbrk -bom -margint 0.75 -opw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -simple -table -raw -linespacing 4 -enc ASCII7 -eol mac -bom -margint 0.75 -q  @@ /tmp/foo
+pdftotext -f 2 -simple -fixed 8 -eol dos -nopgbrk -bom -marginb 0.25 -q  @@ /tmp/foo
+pdftotext -f 2 -table -linespacing 4 -enc Latin1 -marginr 0.25 -opw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -simple -table -lineprinter -fixed 8 -linespacing 4 -enc ASCII7 -eol dos -bom -marginb 0.25 -upw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -simple -lineprinter -raw -fixed 8 -eol mac -nopgbrk -bom -margint 0.75 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -lineprinter -raw -clip -enc Latin1 -eol dos -bom -margint 0.75 -opw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -layout -table -lineprinter -raw -fixed 8 -clip -enc Symbol -bom -marginl 0.5 -opw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -simple -raw -fixed 8 -linespacing 4 -enc ASCII7 -eol mac -marginb 0.25 -opw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -layout -raw -fixed 8 -nodiag -eol dos -nopgbrk -marginr 0.25 -q  @@ /tmp/foo
+pdftotext -f 2 -simple -table -linespacing 4 -nodiag -eol dos -nopgbrk -bom -marginr 0.25 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -layout -table -linespacing 4 -clip -eol unix -nopgbrk -bom -margint 0.75 -q  @@ /tmp/foo
+pdftotext -simple -table -fixed 8 -linespacing 4 -clip -enc Symbol -eol mac -nopgbrk -bom -marginl 0.5 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -simple -lineprinter -raw -linespacing 4 -enc ASCII7 -eol mac -marginr 0.25 -opw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -table -lineprinter -raw -fixed 8 -linespacing 4 -nodiag -enc Latin1 -marginr 0.25 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -raw -fixed 8 -clip -nodiag -eol dos -margint 0.75 -q  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -fixed 8 -clip -nodiag -enc UCS-2 -eol dos -bom -marginb 0.25 -opw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -simple2 -table -lineprinter -fixed 8 -linespacing 4 -nodiag -enc ASCII7 -eol unix -marginl 0.5 -upw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -simple2 -linespacing 4 -clip -nodiag -eol unix -marginb 0.25 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -simple2 -lineprinter -fixed 8 -clip -eol mac -margint 0.75 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -simple -lineprinter -linespacing 4 -clip -eol unix -marginr 0.25 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -simple -table -raw -fixed 8 -enc ASCII7 -nopgbrk -margint 0.75 -q  @@ /tmp/foo
+pdftotext -f 2 -simple -lineprinter -fixed 8 -linespacing 4 -clip -nodiag -enc UCS-2 -eol mac -nopgbrk -bom -marginl 0.5 -opw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -layout -table -lineprinter -raw -enc ZapfDingbats -nopgbrk -bom -marginr 0.25 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -layout -table -fixed 8 -linespacing 4 -nodiag -eol dos -margint 0.75 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -simple -lineprinter -fixed 8 -linespacing 4 -nodiag -eol unix -bom -marginb 0.25 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -nodiag -enc ASCII7 -eol unix -nopgbrk -marginb 0.25 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -simple -table -lineprinter -raw -linespacing 4 -clip -nodiag -eol dos -bom -marginb 0.25 -q  @@ /tmp/foo
+pdftotext -layout -simple2 -table -lineprinter -fixed 8 -linespacing 4 -nodiag -enc ZapfDingbats -eol unix -bom -marginr 0.25 -q  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -raw -fixed 8 -linespacing 4 -nodiag -enc ASCII7 -nopgbrk -marginr 0.25 -opw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -layout -linespacing 4 -clip -nodiag -enc ASCII7 -nopgbrk -marginb 0.25 -q  @@ /tmp/foo
+pdftotext -l 5 -simple2 -raw -enc Symbol -marginr 0.25 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -simple -table -fixed 8 -nodiag -enc Latin1 -bom -marginl 0.5 -q  @@ /tmp/foo
+pdftotext -l 5 -simple -table -raw -fixed 8 -linespacing 4 -clip -nodiag -eol mac -nopgbrk -marginl 0.5 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -simple -lineprinter -raw -fixed 8 -linespacing 4 -clip -eol unix -margint 0.75 -opw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -simple -table -lineprinter -nodiag -enc ZapfDingbats -nopgbrk -marginr 0.25 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -fixed 8 -clip -nodiag -enc UTF-8 -eol dos -margint 0.75 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -raw -linespacing 4 -nodiag -eol dos -marginr 0.25 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -lineprinter -fixed 8 -clip -eol mac -nopgbrk -marginl 0.5 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -lineprinter -fixed 8 -enc ASCII7 -nopgbrk -bom -marginr 0.25 -upw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -raw -linespacing 4 -clip -enc UCS-2 -eol mac -marginb 0.25 -opw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -simple2 -table -lineprinter -raw -fixed 8 -clip -nodiag -eol unix -nopgbrk -bom -marginl 0.5 -opw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -simple -table -lineprinter -fixed 8 -linespacing 4 -clip -eol mac -margint 0.75 -opw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -lineprinter -linespacing 4 -nodiag -enc Latin1 -bom -marginl 0.5 -upw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -raw -fixed 8 -nodiag -enc UTF-8 -eol mac -bom -marginr 0.25 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -simple -lineprinter -raw -linespacing 4 -clip -nodiag -enc UTF-8 -eol mac -nopgbrk -bom -marginl 0.5 -upw 123456 -q  @@ /tmp/foo
+pdftotext -simple2 -table -lineprinter -linespacing 4 -enc Latin1 -eol mac -bom -marginb 0.25 -q  @@ /tmp/foo
+pdftotext -simple -fixed 8 -linespacing 4 -enc Symbol -nopgbrk -bom -marginb 0.25 -upw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -simple2 -table -lineprinter -fixed 8 -linespacing 4 -clip -eol dos -nopgbrk -bom -marginl 0.5 -upw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -layout -table -raw -linespacing 4 -enc ASCII7 -eol mac -bom -marginl 0.5 -opw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -simple -table -lineprinter -raw -fixed 8 -nodiag -eol unix -bom -marginl 0.5 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -simple2 -fixed 8 -linespacing 4 -clip -enc UTF-8 -nopgbrk -margint 0.75 -upw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -layout -table -raw -fixed 8 -clip -nodiag -enc UTF-8 -nopgbrk -bom -marginb 0.25 -opw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -simple -table -lineprinter -nodiag -enc ASCII7 -eol dos -marginb 0.25 -opw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -raw -linespacing 4 -clip -nodiag -enc UTF-8 -nopgbrk -margint 0.75 -opw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -simple -lineprinter -raw -fixed 8 -linespacing 4 -clip -nodiag -nopgbrk -marginr 0.25 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -layout -lineprinter -raw -fixed 8 -linespacing 4 -clip -nopgbrk -bom -margint 0.75 -upw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -simple2 -raw -fixed 8 -linespacing 4 -nopgbrk -marginb 0.25 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -lineprinter -enc ASCII7 -eol dos -bom -marginr 0.25 -opw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -simple -table -lineprinter -raw -clip -eol unix -nopgbrk -bom -marginr 0.25 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -layout -lineprinter -raw -linespacing 4 -nopgbrk -marginb 0.25 -opw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -simple -clip -nodiag -enc ZapfDingbats -nopgbrk -bom -marginl 0.5 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -simple -table -fixed 8 -linespacing 4 -clip -nopgbrk -bom -marginb 0.25 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -simple -linespacing 4 -nopgbrk -marginb 0.25 -opw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -lineprinter -raw -fixed 8 -linespacing 4 -clip -nodiag -nopgbrk -bom -marginb 0.25 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -simple -table -raw -nodiag -eol mac -nopgbrk -bom -margint 0.75 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -simple2 -raw -fixed 8 -linespacing 4 -eol unix -bom -marginl 0.5 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -linespacing 4 -nodiag -enc UTF-8 -eol dos -marginl 0.5 -q  @@ /tmp/foo
+pdftotext -l 5 -layout -table -lineprinter -raw -clip -eol dos -nopgbrk -margint 0.75 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -fixed 8 -linespacing 4 -nodiag -enc UCS-2 -nopgbrk -bom -margint 0.75 -upw 123456 -q  @@ /tmp/foo
+pdftotext -layout -table -lineprinter -linespacing 4 -clip -nodiag -enc ZapfDingbats -eol unix -marginr 0.25 -q  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -lineprinter -raw -fixed 8 -eol unix -marginl 0.5 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -simple -lineprinter -raw -linespacing 4 -eol mac -marginl 0.5 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -simple2 -table -lineprinter -fixed 8 -linespacing 4 -enc UTF-8 -nopgbrk -bom -marginb 0.25 -q  @@ /tmp/foo
+pdftotext -l 5 -simple -table -nodiag -nopgbrk  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -raw -nodiag -eol mac -nopgbrk -margint 0.75 -opw 123456 -q  @@ /tmp/foo
+pdftotext -layout -simple2 -table -lineprinter -raw -linespacing 4 -enc ASCII7 -eol dos -nopgbrk -marginr 0.25 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -layout -table -raw -fixed 8 -linespacing 4 -clip -bom -marginr 0.25 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -layout -lineprinter -linespacing 4 -clip -nodiag -enc UTF-8 -nopgbrk -marginl 0.5 -upw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -simple -table -fixed 8 -clip -enc UCS-2 -bom -marginr 0.25 -upw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -lineprinter -clip -nodiag -enc UCS-2 -eol mac -nopgbrk -bom -marginl 0.5 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -simple2 -lineprinter -raw -fixed 8 -linespacing 4 -nodiag -nopgbrk -marginl 0.5 -opw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -simple2 -table -raw -linespacing 4 -clip -nodiag -bom -margint 0.75 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -layout -linespacing 4 -nodiag -nopgbrk -marginl 0.5 -opw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -lineprinter -clip -eol unix -bom -margint 0.75 -q  @@ /tmp/foo
+pdftotext -f 2 -simple -table -lineprinter -raw -linespacing 4 -nodiag -enc UCS-2 -nopgbrk -bom -marginl 0.5 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -lineprinter -fixed 8 -nopgbrk -bom -marginb 0.25 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -simple2 -lineprinter -raw -clip -nodiag -eol unix -bom -marginr 0.25 -q  @@ /tmp/foo
+pdftotext -f 2 -simple -table -fixed 8 -linespacing 4 -clip -enc UTF-8 -marginb 0.25 -q  @@ /tmp/foo
+pdftotext -l 5 -simple -lineprinter -raw -nodiag -enc ASCII7 -nopgbrk -margint 0.75 -upw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -layout -lineprinter -fixed 8 -linespacing 4 -clip -nodiag -marginr 0.25 -opw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -layout -table -lineprinter -raw -eol unix -bom -marginb 0.25 -q  @@ /tmp/foo
+pdftotext -l 5 -simple -table -linespacing 4 -clip -enc UTF-8 -bom -margint 0.75 -opw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -layout -fixed 8 -linespacing 4 -clip -nodiag -bom -marginb 0.25 -upw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -simple -table -linespacing 4 -clip -nopgbrk -margint 0.75 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -simple -lineprinter -nodiag -eol unix -marginr 0.25 -q  @@ /tmp/foo
+pdftotext -l 5 -simple2 -table -raw -fixed 8 -nodiag -enc UTF-8 -marginb 0.25 -opw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -lineprinter -fixed 8 -linespacing 4 -nopgbrk -margint 0.75 -q  @@ /tmp/foo
+pdftotext -f 2 -simple -raw -fixed 8 -linespacing 4 -nopgbrk -marginr 0.25 -q  @@ /tmp/foo
+pdftotext -simple -fixed 8 -clip -enc UCS-2 -eol unix -nopgbrk -marginb 0.25 -upw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -simple2 -lineprinter -fixed 8 -nodiag -marginr 0.25 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -simple -lineprinter -clip -enc UCS-2 -eol dos -nopgbrk -bom -marginl 0.5 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -layout -simple2 -lineprinter -fixed 8 -clip -nodiag -eol unix -nopgbrk -bom -marginr 0.25 -opw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -simple -table -nodiag -eol mac -bom -margint 0.75 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -fixed 8 -linespacing 4 -clip -bom -margint 0.75 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -simple -table -lineprinter -raw -linespacing 4 -eol unix -nopgbrk -bom -marginr 0.25 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -simple -table -lineprinter -fixed 8 -clip -nodiag -margint 0.75 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -simple -table -lineprinter -raw -nodiag -eol unix -nopgbrk -marginl 0.5 -opw 123456 -q  @@ /tmp/foo
+pdftotext -simple2 -lineprinter -fixed 8 -enc Symbol -margint 0.75 -q  @@ /tmp/foo
+pdftotext -l 5 -table -raw -fixed 8 -nodiag -margint 0.75 -upw 123456 -q  @@ /tmp/foo
+pdftotext -layout -simple2 -table -lineprinter -raw -clip -nodiag -enc Symbol -marginr 0.25 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -lineprinter -raw -fixed 8 -nodiag -margint 0.75 -q  @@ /tmp/foo
+pdftotext -f 2 -layout -table -lineprinter -raw -fixed 8 -linespacing 4 -clip -nopgbrk -marginl 0.5 -q  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -clip -nopgbrk -marginr 0.25 -upw 123456 -q  @@ /tmp/foo
+pdftotext -simple2 -table -raw -fixed 8 -linespacing 4 -nodiag -eol mac -bom -marginr 0.25 -opw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -simple -fixed 8 -nodiag -bom -marginr 0.25 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -layout -lineprinter -fixed 8 -clip -nodiag -bom -marginl 0.5 -upw 123456 -q  @@ /tmp/foo
+pdftotext -simple -table -raw -fixed 8 -linespacing 4 -clip -eol dos -bom -margint 0.75 -q  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -raw -clip -nodiag -eol dos -marginl 0.5 -q  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -fixed 8 -linespacing 4 -clip -enc UCS-2 -marginl 0.5 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -simple -fixed 8 -linespacing 4 -nodiag -enc UCS-2 -eol mac -margint 0.75 -upw 123456 -q  @@ /tmp/foo
+pdftotext -simple -lineprinter -linespacing 4 -clip -eol unix -nopgbrk -marginl 0.5 -upw 123456 -q  @@ /tmp/foo
+pdftotext -simple -raw -fixed 8 -clip -nodiag -eol mac -marginb 0.25 -q  @@ /tmp/foo
+pdftotext -f 2 -simple -table -raw -linespacing 4 -clip -nodiag -bom -marginl 0.5 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -simple -lineprinter -clip -enc UCS-2 -nopgbrk -bom -margint 0.75 -opw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -lineprinter -raw -linespacing 4 -clip -marginr 0.25 -q  @@ /tmp/foo
+pdftotext -l 5 -layout -lineprinter -raw -nodiag -enc ASCII7 -nopgbrk -marginl 0.5 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -lineprinter -clip -nodiag -nopgbrk -marginb 0.25 -upw 123456 -q  @@ /tmp/foo
+pdftotext -simple -raw -fixed 8 -linespacing 4 -clip -enc UCS-2 -eol mac -bom -marginr 0.25 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -simple -lineprinter -fixed 8 -linespacing 4 -clip -marginl 0.5 -upw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -simple -clip -nodiag -nopgbrk -bom -margint 0.75 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -simple -raw -clip -nopgbrk -margint 0.75 -upw 123456 -q  @@ /tmp/foo
+pdftotext -lineprinter -fixed 8 -nodiag -enc ASCII7 -nopgbrk -bom -margint 0.75 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -simple2 -table -lineprinter -raw -linespacing 4 -margint 0.75 -q  @@ /tmp/foo
+pdftotext -simple -table -fixed 8 -linespacing 4 -nodiag -nopgbrk -marginb 0.25 -opw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -simple -raw -bom -marginb 0.25 -upw 123456 -q  @@ /tmp/foo
+pdftotext -layout -simple2 -lineprinter -linespacing 4 -eol dos -bom -marginl 0.5 -opw 123456 -q  @@ /tmp/foo
+pdftotext -simple2 -lineprinter -raw -linespacing 4 -clip -nopgbrk -bom -marginb 0.25 -opw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -simple -table -raw -clip -nodiag -marginr 0.25 -opw 123456 -q  @@ /tmp/foo
+pdftotext -layout -simple2 -lineprinter -fixed 8 -enc ZapfDingbats -nopgbrk -opw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -simple2 -table -raw -clip -nopgbrk -marginb 0.25 -q  @@ /tmp/foo
+pdftotext -layout -simple2 -table -lineprinter -linespacing 4 -clip -enc UTF-8 -nopgbrk -bom -marginr 0.25 -opw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -raw -fixed 8 -bom -marginl 0.5 -q  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -lineprinter -clip -nodiag -marginb 0.25 -opw 123456 -q  @@ /tmp/foo
+pdftotext -simple -table -raw -linespacing 4 -clip -enc ASCII7 -nopgbrk -marginl 0.5 -q  @@ /tmp/foo
+pdftotext -layout -simple2 -table -lineprinter -raw -fixed 8 -nodiag -enc UCS-2 -nopgbrk -margint 0.75 -opw 123456 -q  @@ /tmp/foo
+pdftotext -f 2 -simple -table -clip -bom -marginb 0.25 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -simple -table -lineprinter -nodiag -enc UCS-2 -nopgbrk -marginl 0.5 -q  @@ /tmp/foo
+pdftotext -f 2 -simple -lineprinter -fixed 8 -clip -nopgbrk -marginl 0.5 -q  @@ /tmp/foo
+pdftotext -l 5 -lineprinter -fixed 8 -clip -nopgbrk -marginl 0.5 -q  @@ /tmp/foo
+pdftotext -table -lineprinter -clip -nodiag -eol dos -nopgbrk -bom -marginl 0.5 -opw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -simple -table -lineprinter -clip -marginl 0.5 -opw 123456 -q  @@ /tmp/foo
+pdftotext -layout -table -fixed 8 -nopgbrk -bom -margint 0.75 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -layout -table -raw -nopgbrk -marginl 0.5 -q  @@ /tmp/foo
+pdftotext -f 2 -simple2 -table -enc UCS-2 -nopgbrk -bom -marginl 0.5 -q  @@ /tmp/foo
+pdftotext -layout -table -lineprinter -fixed 8 -linespacing 4 -clip -nodiag -nopgbrk -bom -marginl 0.5 -upw 123456 -q  @@ /tmp/foo
+pdftotext -layout -table -lineprinter -clip -nodiag -enc ZapfDingbats -marginl 0.5 -q  @@ /tmp/foo
+pdftotext -layout -simple2 -table -fixed 8 -clip -nodiag -bom -marginb 0.25 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -simple -table -clip -eol dos -marginr 0.25 -q  @@ /tmp/foo
+pdftotext -simple2 -table -raw -linespacing 4 -clip -margint 0.75 -upw 123456 -q  @@ /tmp/foo
+pdftotext -l 5 -table -nodiag -bom -marginl 0.5 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -simple2 -table -nodiag -eol mac -nopgbrk -marginl 0.5 -q  @@ /tmp/foo
+pdftotext -layout -raw -nodiag -enc ASCII7 -bom -marginr 0.25 -q  @@ /tmp/foo
+pdftotext -simple -raw -nodiag -eol unix -bom -marginl 0.5 -upw 123456 -q  @@ /tmp/foo
+pdftotext -layout -simple2 -table -linespacing 4 -nopgbrk -bom -marginl 0.5 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftotext -simple2 -table -lineprinter -marginb 0.25 -upw 123456 -q  @@ /tmp/foo
+pdftotext -simple2 -table -clip -nodiag -bom -marginr 0.25 -upw 123456 -q  @@ /tmp/foo
+pdftotext -layout -fixed 8 -marginb 0.25 -q  @@ /tmp/foo
+pdftotext @@ /tmp/foo
+pdftotext -f 2 -table -lineprinter -raw -linespacing 4 -nodiag -bom -marginb 0.25 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -table -fixed 8 -linespacing 4 -clip -nodiag -enc UCS-2 -eol unix -nopgbrk -bom -margint 0.75 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -raw -fixed 8 -nopgbrk -bom -marginr 0.25 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -raw -linespacing 4 -nodiag -eol mac -nopgbrk -marginb 0.25 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -raw -linespacing 4 -nodiag -enc UTF-8 -eol mac -bom -marginr 0.25 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -lineprinter -linespacing 4 -clip -enc ASCII7 -eol mac -marginb 0.25 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -table -raw -fixed 8 -linespacing 4 -clip -enc ZapfDingbats -nopgbrk -margint 0.75 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -lineprinter -fixed 8 -nodiag -enc ASCII7 -nopgbrk -bom -marginr 0.25 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -lineprinter -raw -fixed 8 -linespacing 4 -clip -enc UCS-2 -eol dos -nopgbrk -marginr 0.25 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -table -raw -linespacing 4 -clip -nodiag -enc UCS-2 -eol unix -marginr 0.25 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -table -lineprinter -fixed 8 -nodiag -eol unix -bom -marginb 0.25 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -table -lineprinter -raw -fixed 8 -nodiag -enc ASCII7 -eol dos -nopgbrk -margint 0.75 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -table -raw -fixed 8 -linespacing 4 -eol unix -nopgbrk -bom -marginb 0.25 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -table -lineprinter -fixed 8 -linespacing 4 -eol unix -nopgbrk -marginr 0.25 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -raw -fixed 8 -linespacing 4 -clip -nodiag -nopgbrk -bom -marginr 0.25 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -raw -linespacing 4 -clip -enc ZapfDingbats -nopgbrk -marginb 0.25 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -lineprinter -fixed 8 -linespacing 4 -enc UCS-2 -bom -marginb 0.25 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -fixed 8 -linespacing 4 -enc ZapfDingbats -eol mac -bom -margint 0.75 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -table -linespacing 4 -clip -marginb 0.25 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple2 -table -lineprinter -linespacing 4 -clip -nodiag -enc ASCII7 -nopgbrk -bom -marginb 0.25 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -table -lineprinter -raw -fixed 8 -clip -nodiag -eol dos -marginr 0.25 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -fixed 8 -eol mac -bom -marginb 0.25 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -raw -linespacing 4 -eol dos -nopgbrk -margint 0.75 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -lineprinter -fixed 8 -clip -nodiag -enc ZapfDingbats -eol mac -marginr 0.25 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple2 -fixed 8 -linespacing 4 -nodiag -marginr 0.25 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -lineprinter -raw -linespacing 4 -eol unix -nopgbrk -margint 0.75 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -raw -fixed 8 -clip -enc ZapfDingbats -eol dos -nopgbrk -bom -margint 0.75 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -lineprinter -raw -linespacing 4 -marginr 0.25 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple2 -lineprinter -fixed 8 -linespacing 4 -nodiag -enc ASCII7 -nopgbrk -bom -margint 0.75 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple2 -table -linespacing 4 -clip -enc UTF-8 -eol unix -nopgbrk -bom -marginr 0.25 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple2 -lineprinter -raw -fixed 8 -clip -nodiag -nopgbrk -bom -marginb 0.25 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -lineprinter -fixed 8 -linespacing 4 -bom -margint 0.75 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -table -lineprinter -fixed 8 -eol unix -nopgbrk -bom -marginr 0.25 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -table -fixed 8 -clip -enc UCS-2 -marginb 0.25 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -lineprinter -raw -fixed 8 -clip -marginb 0.25 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -table -lineprinter -raw -linespacing 4 -bom -margint 0.75 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple2 -table -lineprinter -raw -linespacing 4 -clip -nodiag -enc Latin1 -eol unix -margint 0.75 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple2 -raw -fixed 8 -linespacing 4 -clip -enc Symbol -eol mac -bom -marginb 0.25 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -raw -linespacing 4 -enc Latin1 -eol unix -bom -marginb 0.25 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -fixed 8 -linespacing 4 -clip -enc UCS-2 -marginr 0.25 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -lineprinter -raw -fixed 8 -nodiag -enc Latin1 -marginb 0.25 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -table -lineprinter -raw -fixed 8 -enc UTF-8 -nopgbrk -bom -marginb 0.25 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -table -raw -fixed 8 -nodiag -eol dos -nopgbrk -bom -margint 0.75 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple2 -raw -linespacing 4 -nodiag -enc Latin1 -nopgbrk -bom -marginr 0.25 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -table -fixed 8 -nodiag -nopgbrk -marginb 0.25 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -lineprinter -linespacing 4 -clip -eol mac -nopgbrk -margint 0.75 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple2 -table -lineprinter -raw -fixed 8 -clip -enc Latin1 -nopgbrk -marginr 0.25 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -raw -fixed 8 -linespacing 4 -clip -nodiag -enc ZapfDingbats -margint 0.75 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -raw -fixed 8 -linespacing 4 -nodiag -eol mac -margint 0.75 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -linespacing 4 -clip -nodiag -eol dos -nopgbrk -bom -marginb 0.25 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple2 -table -fixed 8 -clip -eol unix -nopgbrk -bom -margint 0.75 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple2 -table -lineprinter -raw -fixed 8 -linespacing 4 -clip -nodiag -enc ZapfDingbats -bom -marginr 0.25 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -table -raw -fixed 8 -clip -enc UTF-8 -eol dos -bom -margint 0.75 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -linespacing 4 -enc UCS-2 -eol mac -nopgbrk -marginr 0.25 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -table -lineprinter -raw -linespacing 4 -nodiag -enc Symbol -eol unix -bom -margint 0.75 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -lineprinter -raw -linespacing 4 -eol mac -bom -marginr 0.25 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -raw -fixed 8 -linespacing 4 -nodiag -nopgbrk -bom -marginb 0.25 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -fixed 8 -nodiag -eol mac -margint 0.75 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -lineprinter -linespacing 4 -clip -nodiag -nopgbrk -marginr 0.25 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -table -raw -linespacing 4 -clip -eol mac -marginb 0.25 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple2 -lineprinter -fixed 8 -nodiag -enc ZapfDingbats -bom -margint 0.75 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple2 -raw -linespacing 4 -clip -nodiag -enc ZapfDingbats -eol mac -bom -marginb 0.25 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -fixed 8 -linespacing 4 -nodiag -eol mac -bom -marginr 0.25 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -fixed 8 -linespacing 4 -clip -nopgbrk -bom -marginr 0.25 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -fixed 8 -linespacing 4 -enc UCS-2 -nopgbrk -bom -margint 0.75 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple2 -fixed 8 -nodiag -eol dos -nopgbrk -marginr 0.25 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple2 -lineprinter -raw -fixed 8 -linespacing 4 -nopgbrk -margint 0.75 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -lineprinter -fixed 8 -clip -nodiag -enc ASCII7 -eol unix -nopgbrk -margint 0.75 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -raw -fixed 8 -linespacing 4 -clip -nodiag -marginr 0.25 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -lineprinter -fixed 8 -linespacing 4 -clip -nodiag -enc UTF-8 -eol mac -nopgbrk -margint 0.75 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -table -lineprinter -raw -fixed 8 -linespacing 4 -clip -nodiag -bom -margint 0.75 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple2 -table -fixed 8 -linespacing 4 -eol unix -nopgbrk -bom -marginb 0.25 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -lineprinter -raw -linespacing 4 -clip -nodiag -enc UTF-8 -eol dos -nopgbrk -marginb 0.25 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -table -raw -fixed 8 -clip -nodiag -enc Symbol -eol dos -nopgbrk -bom -marginb 0.25 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -table -lineprinter -raw -fixed 8 -nodiag -enc ASCII7 -eol mac -marginr 0.25 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -lineprinter -raw -fixed 8 -linespacing 4 -nodiag -enc UTF-8 -eol dos -nopgbrk -bom -marginr 0.25 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -table -lineprinter -fixed 8 -clip -nodiag -bom -margint 0.75 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -fixed 8 -linespacing 4 -nodiag -enc UTF-8 -marginb 0.25 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -lineprinter -fixed 8 -eol mac -marginb 0.25 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -table -raw -fixed 8 -linespacing 4 -enc ASCII7 -eol mac -nopgbrk -marginr 0.25 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -lineprinter -raw -fixed 8 -linespacing 4 -clip -enc ASCII7 -nopgbrk -bom -marginb 0.25 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -table -lineprinter -raw -linespacing 4 -clip -nopgbrk -marginr 0.25 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -table -raw -fixed 8 -linespacing 4 -clip -eol dos -marginr 0.25 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -linespacing 4 -clip -nodiag -enc Latin1 -marginr 0.25 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -table -linespacing 4 -nodiag -nopgbrk -bom -marginb 0.25 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -lineprinter -linespacing 4 -enc UCS-2 -marginr 0.25 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -table -raw -fixed 8 -enc Symbol -bom -marginr 0.25 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -lineprinter -raw -fixed 8 -linespacing 4 -nodiag -eol mac -nopgbrk -bom -margint 0.75 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -table -raw -fixed 8 -clip -nodiag -bom -marginb 0.25 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -fixed 8 -linespacing 4 -clip -nodiag -enc ASCII7 -nopgbrk -marginb 0.25 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -table -linespacing 4 -enc ASCII7 -eol dos -bom -marginr 0.25 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -table -raw -linespacing 4 -nodiag -enc UTF-8 -nopgbrk -bom -marginb 0.25 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -table -lineprinter -raw -fixed 8 -linespacing 4 -enc ZapfDingbats -eol mac -marginb 0.25 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -lineprinter -raw -fixed 8 -clip -enc ASCII7 -eol unix -margint 0.75 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple2 -table -fixed 8 -linespacing 4 -clip -nodiag -eol dos -nopgbrk -bom -marginr 0.25 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -lineprinter -raw -linespacing 4 -nodiag -enc UCS-2 -nopgbrk -marginr 0.25 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -table -lineprinter -raw -fixed 8 -enc Symbol -bom -marginr 0.25 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -table -lineprinter -raw -fixed 8 -enc ASCII7 -eol unix -marginb 0.25 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -raw -linespacing 4 -nodiag -enc Symbol -eol dos -nopgbrk -bom -margint 0.75 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -lineprinter -raw -linespacing 4 -nodiag -eol dos -margint 0.75 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -lineprinter -raw -fixed 8 -clip -enc UCS-2 -eol dos -nopgbrk -bom -marginb 0.25 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple2 -table -lineprinter -fixed 8 -linespacing 4 -clip -enc Latin1 -margint 0.75 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple2 -lineprinter -fixed 8 -linespacing 4 -enc ZapfDingbats -marginb 0.25 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple2 -lineprinter -raw -fixed 8 -enc Symbol -eol dos -nopgbrk -marginb 0.25 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -fixed 8 -clip -nodiag -nopgbrk -marginb 0.25 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -lineprinter -fixed 8 -enc ASCII7 -nopgbrk -marginb 0.25 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -table -lineprinter -linespacing 4 -clip -eol mac -nopgbrk -bom -marginr 0.25 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple2 -table -raw -fixed 8 -eol dos -marginr 0.25 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -table -lineprinter -raw -fixed 8 -nodiag -enc UCS-2 -eol mac -nopgbrk -bom -marginr 0.25 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -lineprinter -raw -fixed 8 -linespacing 4 -nodiag -bom -marginr 0.25 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple2 -fixed 8 -clip -enc UCS-2 -eol mac -bom -marginr 0.25 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -fixed 8 -linespacing 4 -clip -nodiag -enc ASCII7 -eol unix -nopgbrk -bom -marginr 0.25 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -table -fixed 8 -bom -marginr 0.25 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -table -raw -fixed 8 -enc UCS-2 -margint 0.75 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -table -raw -fixed 8 -linespacing 4 -clip -enc UCS-2 -nopgbrk -bom -marginb 0.25 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -lineprinter -raw -linespacing 4 -clip -nodiag -enc ASCII7 -eol unix -nopgbrk -bom -margint 0.75 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -fixed 8 -linespacing 4 -eol unix -nopgbrk -marginb 0.25 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -lineprinter -raw -fixed 8 -clip -eol dos -nopgbrk -margint 0.75 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -lineprinter -linespacing 4 -nodiag -eol dos -bom -marginr 0.25 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple2 -lineprinter -linespacing 4 -clip -nopgbrk -margint 0.75 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -lineprinter -fixed 8 -eol mac -bom -margint 0.75 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -table -linespacing 4 -nodiag -eol dos -marginb 0.25 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -raw -fixed 8 -nodiag -enc Latin1 -nopgbrk -marginb 0.25 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -raw -linespacing 4 -eol unix -nopgbrk -bom -marginr 0.25 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple2 -linespacing 4 -nopgbrk -marginb 0.25 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple2 -lineprinter -raw -fixed 8 -linespacing 4 -nodiag -eol dos -nopgbrk -marginr 0.25 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -raw -linespacing 4 -enc Latin1 -bom -margint 0.75 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -lineprinter -linespacing 4 -nodiag -margint 0.75 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -lineprinter -raw -linespacing 4 -nodiag -enc ASCII7 -eol mac -nopgbrk -marginb 0.25 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -fixed 8 -nodiag -nopgbrk -margint 0.75 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -table -lineprinter -fixed 8 -clip -nodiag -eol dos -nopgbrk -bom -marginb 0.25 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple2 -table -linespacing 4 -clip -nodiag -enc Latin1 -marginr 0.25 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -fixed 8 -linespacing 4 -clip -nodiag -eol dos -bom -marginr 0.25 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -fixed 8 -linespacing 4 -nodiag -eol dos -nopgbrk -marginb 0.25 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -linespacing 4 -clip -eol dos -nopgbrk -bom -margint 0.75 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -fixed 8 -linespacing 4 -clip -eol unix -bom -marginr 0.25 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -linespacing 4 -clip -nodiag -enc ZapfDingbats -eol dos -bom -marginr 0.25 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple2 -lineprinter -raw -fixed 8 -linespacing 4 -clip -enc ASCII7 -nopgbrk -margint 0.75 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -table -linespacing 4 -nodiag -eol unix -marginr 0.25 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -table -lineprinter -linespacing 4 -enc Symbol -eol unix -nopgbrk -marginr 0.25 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -lineprinter -fixed 8 -linespacing 4 -clip -enc Symbol -eol mac -bom -margint 0.75 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple2 -table -raw -linespacing 4 -clip -nodiag -enc UCS-2 -eol unix -nopgbrk -marginr 0.25 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -lineprinter -fixed 8 -enc ZapfDingbats -eol unix -bom -marginb 0.25 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -lineprinter -fixed 8 -clip -enc UTF-8 -eol unix -bom -marginr 0.25 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -lineprinter -raw -fixed 8 -clip -nodiag -enc UCS-2 -nopgbrk -bom -marginr 0.25 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -lineprinter -fixed 8 -linespacing 4 -clip -nodiag -eol mac -marginb 0.25 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -lineprinter -linespacing 4 -nodiag -nopgbrk -marginb 0.25 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -lineprinter -fixed 8 -nopgbrk -marginr 0.25 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -table -lineprinter -raw -fixed 8 -nopgbrk -bom -margint 0.75 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple2 -table -linespacing 4 -bom -marginr 0.25 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -fixed 8 -clip -enc UCS-2 -eol unix -nopgbrk -bom -marginb 0.25 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -lineprinter -fixed 8 -eol mac -nopgbrk -marginb 0.25 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -linespacing 4 -nodiag -enc Symbol -eol mac -bom -marginr 0.25 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple2 -table -lineprinter -raw -fixed 8 -linespacing 4 -nodiag -eol dos -margint 0.75 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -table -raw -fixed 8 -nopgbrk -marginr 0.25 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -raw -fixed 8 -enc Symbol -nopgbrk -margint 0.75 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -raw -fixed 8 -linespacing 4 -clip -enc Symbol -eol unix -bom -marginb 0.25 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -lineprinter -fixed 8 -linespacing 4 -clip -nodiag -enc Symbol -eol mac -bom -marginb 0.25 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -linespacing 4 -marginr 0.25 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -fixed 8 -enc ASCII7 -bom -marginb 0.25 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -table -fixed 8 -linespacing 4 -enc ASCII7 -eol dos -margint 0.75 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -table -raw -fixed 8 -nodiag -enc UCS-2 -eol mac -nopgbrk -bom -marginr 0.25 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple2 -table -lineprinter -raw -fixed 8 -linespacing 4 -enc ZapfDingbats -bom -marginr 0.25 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -lineprinter -fixed 8 -eol unix -nopgbrk -marginr 0.25 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -table -linespacing 4 -nodiag -enc UTF-8 -nopgbrk -bom -marginb 0.25 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -fixed 8 -enc ZapfDingbats -eol mac -bom -marginr 0.25 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -lineprinter -fixed 8 -clip -eol mac -bom -marginb 0.25 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple2 -table -raw -fixed 8 -enc ASCII7 -eol unix -nopgbrk -bom -marginb 0.25 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -lineprinter -raw -fixed 8 -nopgbrk -bom -margint 0.75 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple2 -fixed 8 -linespacing 4 -nodiag -enc UTF-8 -nopgbrk -margint 0.75 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -table -lineprinter -fixed 8 -enc UTF-8 -eol unix -marginl 0.5 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -lineprinter -fixed 8 -clip -nodiag -bom -marginl 0.5 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple2 -table -raw -fixed 8 -linespacing 4 -nodiag -eol dos -bom -marginl 0.5 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -table -lineprinter -linespacing 4 -eol dos -nopgbrk -bom -marginl 0.5 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -table -linespacing 4 -enc ZapfDingbats -nopgbrk -bom -marginl 0.5 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -table -lineprinter -raw -linespacing 4 -clip -nodiag -enc ZapfDingbats -nopgbrk -marginl 0.5 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -lineprinter -raw -fixed 8 -nodiag -bom -margint 0.75 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -table -raw -fixed 8 -nodiag -enc UTF-8 -marginl 0.5 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -fixed 8 -linespacing 4 -clip -nodiag -eol dos -nopgbrk -bom -marginl 0.5 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -table -lineprinter -raw -fixed 8 -linespacing 4 -clip -nodiag -nopgbrk -marginb 0.25 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -lineprinter -linespacing 4 -nodiag -bom -marginl 0.5 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -table -raw -fixed 8 -nodiag -enc Latin1 -nopgbrk -marginl 0.5 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -lineprinter -raw -linespacing 4 -nodiag -bom -marginb 0.25 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -lineprinter -fixed 8 -linespacing 4 -nodiag -enc Latin1 -eol dos -nopgbrk -marginl 0.5 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -raw -fixed 8 -linespacing 4 -clip -eol dos -nopgbrk -bom -marginl 0.5 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -table -lineprinter -linespacing 4 -enc ASCII7 -nopgbrk -bom -marginl 0.5 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -table -raw -fixed 8 -linespacing 4 -clip -nodiag -enc ZapfDingbats -eol mac -nopgbrk -marginl 0.5 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -raw -fixed 8 -linespacing 4 -clip -eol unix -nopgbrk -marginl 0.5 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -lineprinter -raw -fixed 8 -clip -enc Symbol -nopgbrk -bom -marginl 0.5 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -linespacing 4 -margint 0.75 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -table -fixed 8 -enc Symbol -eol mac -marginb 0.25 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple2 -fixed 8 -clip -enc UTF-8 -nopgbrk -marginl 0.5 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -raw -linespacing 4 -nodiag -enc UCS-2 -eol mac -nopgbrk -bom -marginl 0.5 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -table -lineprinter -raw -linespacing 4 -clip -nodiag -nopgbrk -margint 0.75 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple2 -linespacing 4 -clip -nodiag -enc Latin1 -eol unix -margint 0.75 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -table -fixed 8 -clip -nodiag -marginl 0.5 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple2 -lineprinter -fixed 8 -clip -nopgbrk -marginr 0.25 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -lineprinter -raw -fixed 8 -nodiag -enc Symbol -nopgbrk -bom -marginl 0.5 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -lineprinter -raw -linespacing 4 -clip -marginl 0.5 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple2 -lineprinter -linespacing 4 -enc Symbol -eol mac -nopgbrk -bom -marginl 0.5 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -raw -fixed 8 -nodiag -enc ASCII7 -bom -marginl 0.5 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -lineprinter -raw -fixed 8 -linespacing 4 -clip -nopgbrk -marginl 0.5 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -lineprinter -linespacing 4 -clip -eol dos -nopgbrk -marginl 0.5 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -table -lineprinter -fixed 8 -linespacing 4 -bom -marginb 0.25 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -table -lineprinter -raw -fixed 8 -linespacing 4 -nodiag -enc UCS-2 -eol unix -nopgbrk -marginl 0.5 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -table -lineprinter -fixed 8 -clip -eol unix -nopgbrk -bom -marginl 0.5 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -table -fixed 8 -linespacing 4 -clip -eol mac -marginl 0.5 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple2 -table -linespacing 4 -nodiag -marginl 0.5 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple2 -raw -linespacing 4 -clip -nodiag -bom -margint 0.75 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -lineprinter -raw -linespacing 4 -nodiag -eol unix -marginl 0.5 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -lineprinter -raw -linespacing 4 -clip -enc UCS-2 -marginl 0.5 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -lineprinter -raw -fixed 8 -linespacing 4 -clip -enc ASCII7 -eol mac -marginl 0.5 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -lineprinter -fixed 8 -nodiag -enc Latin1 -eol mac -bom -marginl 0.5 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -linespacing 4 -clip -enc Latin1 -bom -marginl 0.5 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -table -lineprinter -fixed 8 -linespacing 4 -clip -nodiag -enc Symbol -eol mac -bom -marginl 0.5 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple2 -table -fixed 8 -clip -nodiag -enc ASCII7 -eol dos -bom -marginl 0.5 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -fixed 8 -clip -nodiag -bom -marginb 0.25 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -table -lineprinter -fixed 8 -linespacing 4 -clip -enc ASCII7 -nopgbrk -bom -marginl 0.5 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -table -fixed 8 -linespacing 4 -clip -bom -margint 0.75 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -lineprinter -raw -linespacing 4 -nodiag -eol unix -bom -marginl 0.5 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -fixed 8 -linespacing 4 -clip -enc Symbol -bom -marginl 0.5 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -lineprinter -raw -linespacing 4 -enc UTF-8 -bom -marginl 0.5 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -lineprinter -raw -fixed 8 -clip -marginr 0.25 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple2 -table -lineprinter -fixed 8 -nopgbrk -bom -marginl 0.5 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -linespacing 4 -enc Symbol -eol dos -nopgbrk -marginl 0.5 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple2 -table -lineprinter -linespacing 4 -clip -nodiag -enc UCS-2 -eol mac -nopgbrk -marginl 0.5 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -fixed 8 -linespacing 4 -nodiag -eol unix -nopgbrk -marginl 0.5 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -linespacing 4 -enc ZapfDingbats -nopgbrk -marginl 0.5 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -table -lineprinter -raw -fixed 8 -clip -eol dos -marginl 0.5 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -fixed 8 -linespacing 4 -clip -nodiag -nopgbrk -bom -marginl 0.5 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -lineprinter -fixed 8 -linespacing 4 -nodiag -enc ASCII7 -eol mac -bom -marginl 0.5 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -table -lineprinter -fixed 8 -linespacing 4 -nodiag -nopgbrk -bom -margint 0.75 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple2 -table -raw -linespacing 4 -bom -marginl 0.5 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -table -fixed 8 -nodiag -enc ZapfDingbats -eol dos -nopgbrk -marginl 0.5 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -raw -linespacing 4 -nodiag -eol mac -nopgbrk -bom -marginl 0.5 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple2 -table -lineprinter -raw -fixed 8 -linespacing 4 -nodiag -enc Latin1 -marginl 0.5 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -fixed 8 -clip -margint 0.75 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -fixed 8 -enc ASCII7 -eol mac -bom -marginl 0.5 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -table -raw -fixed 8 -linespacing 4 -clip -nodiag -enc ASCII7 -marginl 0.5 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -lineprinter -raw -fixed 8 -enc Latin1 -eol mac -marginl 0.5 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -lineprinter -linespacing 4 -nodiag -nopgbrk -bom -marginr 0.25 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -table -raw -fixed 8 -clip -enc ZapfDingbats -eol dos -bom -marginl 0.5 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple2 -table -lineprinter -fixed 8 -linespacing 4 -clip -bom -marginl 0.5 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -fixed 8 -marginl 0.5 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -lineprinter -raw -clip -eol dos -nopgbrk -marginb 0.25 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple2 -raw -nodiag -enc UTF-8 -margint 0.75 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -table -lineprinter -clip -nodiag -enc Latin1 -margint 0.75 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -lineprinter -eol mac -nopgbrk -margint 0.75 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -lineprinter -raw -clip -nopgbrk -bom -margint 0.75 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple2 -table -lineprinter -raw -nodiag -eol mac -nopgbrk -bom -marginr 0.25 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -table -clip -enc ASCII7 -eol unix -bom -margint 0.75 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -table -raw -enc Latin1 -nopgbrk -marginr 0.25 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -lineprinter -raw -nodiag -enc UCS-2 -eol dos -nopgbrk -marginb 0.25 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -lineprinter -clip -nodiag -enc Latin1 -bom -marginb 0.25 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -nodiag -enc Latin1 -nopgbrk -bom -marginr 0.25 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -clip -nodiag -eol unix -bom -margint 0.75 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -clip -eol dos -nopgbrk -bom -marginb 0.25 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -raw -enc UCS-2 -eol dos -marginr 0.25 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -clip -enc UTF-8 -bom -marginr 0.25 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -table -raw -clip -nodiag -enc ASCII7 -nopgbrk -margint 0.75 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -table -lineprinter -clip -nodiag -enc ASCII7 -eol mac -bom -marginr 0.25 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -clip -enc Latin1 -nopgbrk -bom -marginb 0.25 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -lineprinter -clip -enc Symbol -nopgbrk -bom -marginr 0.25 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -raw -clip -bom -marginb 0.25 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -table -lineprinter -clip -nodiag -eol mac -nopgbrk -bom -marginb 0.25 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -lineprinter -nodiag -bom -margint 0.75 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -table -enc Symbol -eol mac -nopgbrk -margint 0.75 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -clip -eol mac -bom -marginr 0.25 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -lineprinter -nodiag -eol dos -bom -marginb 0.25 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -lineprinter -nodiag -enc UCS-2 -nopgbrk -bom -margint 0.75 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple2 -fixed 8 -linespacing 4 -enc Symbol -eol unix -marginl 0.5 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -lineprinter -raw -clip -nodiag -eol mac -marginb 0.25 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -lineprinter -raw -enc ASCII7 -eol unix -nopgbrk -margint 0.75 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple2 -raw -nodiag -enc ASCII7 -eol unix -marginb 0.25 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple2 -lineprinter -raw -clip -nodiag -enc ASCII7 -eol dos -nopgbrk -bom -margint 0.75 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -raw -clip -margint 0.75 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -raw -fixed 8 -clip -nodiag -marginl 0.5 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -table -raw -clip -enc Latin1 -eol unix -nopgbrk -bom -marginr 0.25 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -raw -clip -eol unix -bom -marginr 0.25 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -table -lineprinter -enc UTF-8 -nopgbrk -marginb 0.25 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple2 -table -lineprinter -eol unix -bom -marginb 0.25 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -raw -nodiag -nopgbrk -margint 0.75 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -table -linespacing 4 -clip -marginl 0.5 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -enc UTF-8 -eol dos -nopgbrk -bom -margint 0.75 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -table -raw -enc Latin1 -bom -margint 0.75 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -raw -clip -nodiag -enc Symbol -eol mac -nopgbrk -marginr 0.25 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -lineprinter -raw -clip -nodiag -enc Symbol -bom -marginr 0.25 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -raw -enc ZapfDingbats -nopgbrk -margint 0.75 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -lineprinter -raw -fixed 8 -linespacing 4 -nodiag -marginl 0.5 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -table -clip -nodiag -eol mac -nopgbrk -margint 0.75 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -lineprinter -raw -enc UCS-2 -margint 0.75 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -clip -nopgbrk -bom -margint 0.75 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -table -lineprinter -clip -enc ZapfDingbats -bom -marginb 0.25 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -lineprinter -raw -fixed 8 -clip -nopgbrk -bom -marginl 0.5 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -raw -clip -nodiag -eol unix -nopgbrk -bom -marginb 0.25 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -lineprinter -nodiag -nopgbrk -marginr 0.25 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -raw -clip -enc Symbol -eol unix -nopgbrk -bom -marginr 0.25 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -table -lineprinter -clip -nodiag -eol mac -bom -margint 0.75 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -raw -nodiag -enc Symbol -eol mac -nopgbrk -margint 0.75 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -table -lineprinter -raw -clip -nodiag -nopgbrk -marginb 0.25 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple2 -table -lineprinter -raw -clip -enc UTF-8 -nopgbrk -marginb 0.25 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -lineprinter -raw -clip -nodiag -enc UCS-2 -eol dos -marginr 0.25 -q -listencodings  @@ /tmp/foo
+pdftotext -simple2 -linespacing 4 -clip -marginr 0.25 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -simple2 -table -raw -fixed 8 -enc UCS-2 -eol dos -nopgbrk -marginb 0.25 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -layout -simple2 -table -lineprinter -fixed 8 -linespacing 4 -clip -nodiag -eol dos -nopgbrk -margint 0.75 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -table -clip -nodiag -enc ZapfDingbats -eol mac -bom -marginl 0.5 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -clip -nodiag -nopgbrk -bom -marginl 0.5 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -table -raw -eol unix -bom -marginl 0.5 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -layout -simple2 -table -linespacing 4 -enc ASCII7 -margint 0.75 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple2 -lineprinter -raw -clip -enc Symbol -bom -marginl 0.5 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -layout -simple2 -lineprinter -raw -linespacing 4 -clip -nodiag -nopgbrk -bom -margint 0.75 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -raw -clip -nodiag -bom -marginl 0.5 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -simple2 -nodiag -enc UTF-8 -marginl 0.5 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -nodiag -eol unix -nopgbrk -marginl 0.5 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -table -nodiag -nopgbrk -bom -margint 0.75 -q -listencodings  @@ /tmp/foo
+pdftotext -simple -table -lineprinter -fixed 8 -linespacing 4 -clip -nodiag -enc Symbol -bom -marginr 0.25 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -clip -enc ASCII7 -eol dos -nopgbrk -marginl 0.5 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -layout -lineprinter -fixed 8 -clip -enc ZapfDingbats -margint 0.75 -listencodings  @@ /tmp/foo
+pdftotext -layout -simple2 -lineprinter -raw -fixed 8 -bom -marginr 0.25 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -lineprinter -enc ASCII7 -eol dos -marginl 0.5 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -table -nodiag -nopgbrk -marginr 0.25 -q -listencodings  @@ /tmp/foo
+pdftotext -layout -simple2 -lineprinter -linespacing 4 -eol unix -nopgbrk -bom -marginb 0.25 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -lineprinter -clip -bom -marginr 0.25 -listencodings  @@ /tmp/foo
+pdftotext -layout -table -raw -fixed 8 -clip -eol unix -nopgbrk -bom -marginr 0.25 -q -listencodings  @@ /tmp/foo
+pdftotext -layout -table -lineprinter -raw -fixed 8 -linespacing 4 -clip -nodiag -enc UCS-2 -eol unix -bom -marginb 0.25 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -simple2 -table -lineprinter -fixed 8 -clip -nodiag -enc UTF-8 -eol dos -bom -marginb 0.25 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -table -lineprinter -eol mac -nopgbrk -marginl 0.5 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -simple -table -lineprinter -fixed 8 -clip -enc ASCII7 -eol mac -margint 0.75 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -clip -eol unix -margint 0.75 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -simple -lineprinter -raw -linespacing 4 -enc Symbol -bom -margint 0.75 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -simple -raw -fixed 8 -clip -enc UTF-8 -nopgbrk -marginr 0.25 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -raw -eol unix -nopgbrk -marginl 0.5 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -simple -lineprinter -raw -fixed 8 -linespacing 4 -nodiag -marginb 0.25 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -raw -nodiag -bom -marginr 0.25 -listencodings  @@ /tmp/foo
+pdftotext -layout -table -fixed 8 -clip -enc ZapfDingbats -nopgbrk -marginr 0.25 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -simple -raw -fixed 8 -clip -nodiag -enc ASCII7 -bom -margint 0.75 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -table -lineprinter -raw -nopgbrk -bom -marginl 0.5 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -layout -simple2 -fixed 8 -linespacing 4 -clip -eol unix -marginb 0.25 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -simple -lineprinter -linespacing 4 -nodiag -eol unix -nopgbrk -marginb 0.25 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -marginb 0.25 -listencodings  @@ /tmp/foo
+pdftotext -layout -simple2 -table -raw -fixed 8 -clip -enc Latin1 -nopgbrk -bom -margint 0.75 -listencodings  @@ /tmp/foo
+pdftotext -layout -simple2 -table -linespacing 4 -nodiag -eol dos -nopgbrk -marginr 0.25 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -layout -table -linespacing 4 -nodiag -nopgbrk -bom -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -simple -table -linespacing 4 -bom -marginr 0.25 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -simple -lineprinter -fixed 8 -linespacing 4 -margint 0.75 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -lineprinter -raw -fixed 8 -linespacing 4 -clip -nodiag -enc UCS-2 -eol mac -nopgbrk -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -layout -table -raw -linespacing 4 -clip -nodiag -enc ASCII7 -margint 0.75 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -simple -table -lineprinter -fixed 8 -linespacing 4 -eol dos -bom -marginr 0.25 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -layout -simple2 -raw -linespacing 4 -clip -nodiag -enc ASCII7 -eol mac -nopgbrk -marginr 0.25 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -table -clip -eol unix -bom -marginl 0.5 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -simple -table -raw -fixed 8 -linespacing 4 -enc UTF-8 -nopgbrk -bom -margint 0.75 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -simple -table -linespacing 4 -clip -enc Latin1 -eol mac -bom -marginb 0.25 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple -table -clip -enc Latin1 -eol dos -bom -marginl 0.5 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -simple -linespacing 4 -enc UCS-2 -nopgbrk -bom -marginr 0.25 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -simple2 -table -raw -fixed 8 -nodiag -nopgbrk -marginb 0.25 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -layout -simple2 -table -raw -fixed 8 -linespacing 4 -nodiag -enc Latin1 -eol dos -bom -margint 0.75 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -simple -table -linespacing 4 -eol mac -nopgbrk -bom -margint 0.75 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -layout -simple2 -lineprinter -raw -fixed 8 -linespacing 4 -clip -nodiag -enc ASCII7 -eol mac -bom -marginl 0.5 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -simple -lineprinter -raw -fixed 8 -linespacing 4 -marginl 0.5 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -f 2 -simple2 -lineprinter -raw -clip -nodiag -nopgbrk -marginl 0.5 -listencodings  @@ /tmp/foo
+pdftotext -simple -table -raw -fixed 8 -clip -enc UTF-8 -eol dos -bom -marginl 0.5 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -layout -fixed 8 -nodiag -enc Symbol -eol mac -nopgbrk -marginl 0.5 -q -listencodings  @@ /tmp/foo
+pdftotext -table -raw -linespacing 4 -nodiag -marginl 0.5 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -layout -simple2 -table -raw -linespacing 4 -clip -nodiag -marginb 0.25 -listencodings  @@ /tmp/foo
+pdftotext -simple -table -linespacing 4 -nodiag -enc UCS-2 -eol unix -bom -marginl 0.5 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -simple -table -lineprinter -raw -fixed 8 -eol unix -nopgbrk -marginl 0.5 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple -table -raw -fixed 8 -linespacing 4 -clip -nodiag -bom -listencodings  @@ /tmp/foo
+pdftotext -simple -lineprinter -fixed 8 -linespacing 4 -clip -nodiag -enc UCS-2 -nopgbrk -marginl 0.5 -listencodings  @@ /tmp/foo
+pdftotext -simple2 -table -lineprinter -raw -linespacing 4 -clip -enc ZapfDingbats -eol dos -nopgbrk -marginl 0.5 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -lineprinter -raw -fixed 8 -linespacing 4 -nodiag -marginr 0.25 -q -listencodings  @@ /tmp/foo
+pdftotext -l 5 -simple2 -table -linespacing 4 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -layout -simple2 -table -lineprinter -raw -fixed 8 -linespacing 4 -nodiag -enc ASCII7 -nopgbrk -bom -marginl 0.5 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -layout -simple2 -table -raw -fixed 8 -nodiag -enc Symbol -eol mac -nopgbrk -marginl 0.5 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -simple -table -lineprinter -fixed 8 -clip -enc Symbol -nopgbrk -bom -marginl 0.5 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -simple -fixed 8 -linespacing 4 -clip -enc Symbol -eol mac -bom -marginl 0.5 -listencodings  @@ /tmp/foo
+pdftotext -simple -raw -fixed 8 -nodiag -marginl 0.5 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -simple -lineprinter -nodiag -enc ASCII7 -eol unix -nopgbrk -bom -marginr 0.25 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -layout -simple2 -clip -nodiag -enc Symbol -eol mac -nopgbrk -marginb 0.25 -opw 123456 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -simple -table -lineprinter -raw -clip -marginb 0.25 -opw 123456 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -simple -table -enc Symbol -nopgbrk -bom -marginb 0.25 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -simple2 -raw -nodiag -eol mac -nopgbrk -bom -margint 0.75 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -simple -table -lineprinter -clip -nodiag -enc ZapfDingbats -eol mac -nopgbrk -marginr 0.25 -opw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -simple2 -table -lineprinter -nodiag -eol unix -bom -margint 0.75 -upw 123456 -listencodings  @@ /tmp/foo
+pdftotext -layout -table -raw -nodiag -eol dos -nopgbrk -marginb 0.25 -q -listencodings  @@ /tmp/foo
+pdftotext -layout -simple2 -raw -clip -nodiag -eol dos -nopgbrk -marginl 0.5 -opw 123456 -listencodings  @@ /tmp/foo
+pdftotext -layout -simple2 -lineprinter -raw -enc UTF-8 -eol unix -marginl 0.5 -upw 123456 -q -listencodings  @@ /tmp/foo
+pdftotext -layout -simple2 -lineprinter -nodiag -nopgbrk -bom -marginl 0.5 -listencodings  @@ /tmp/foo
+pdftotext -l 5 -layout -simple2 -table -lineprinter -raw -clip -nodiag -enc Symbol -eol unix -bom -upw 123456 -q -listencodings  @@ /tmp/foo

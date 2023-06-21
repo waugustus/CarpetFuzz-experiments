@@ -1,0 +1,612 @@
+611
+img2sixel -7 -p 128 -e -k -i -I -C 1 -d jajuni -f auto -s auto -c 500x400+0+0 -w 128 -r bilinear -l disable -b xterm16 -P  @@ -o /tmp/foo
+img2sixel -8 -I -u -g -d burkes -c 500x400+0+0 -q auto -l disable -t rgb -b vt340mono -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -i -I -n 8 -C 1 -g -d jajuni -f auto -s histogram -c 500x400+0+0 -h 128 -r lanczos2 -l auto -E fast -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -I -u -C 1 -s average -w 128 -r lanczos3 -t auto -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -7 -R -e -i -I -u -n 8 -C 1 -g -S -d stucki -w 128 -h 128 -l disable -t rgb -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -7 -R -e -u -C 1 -g -S -d a_dither -c 500x400+0+0 -q low -l disable -b vt340mono -E auto -P  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -I -n 8 -C 1 -g -s center -w 128 -q full -l force -b xterm16 -E auto -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -e -I -g -S -h 128 -l force -t hls -b vt340color -E auto  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -I -u -n 8 -C 1 -g -f norm -s center -h 128 -r lanczos3 -q auto -b xterm16  @@ -o /tmp/foo
+img2sixel -7 -p 128 -e -k -i -n 8 -d fs -f auto -s histogram -c 500x400+0+0 -h 128 -r hanning -q low -t rgb -b vt340color -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -I -u -n 8 -C 1 -g -d atkinson -f lum -s auto -w 128 -r lanczos4 -P  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -k -i -C 1 -S -d atkinson -f lum -q auto -t hls -E size -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -i -I -C 1 -g -S -d burkes -f lum -s center -c 500x400+0+0 -q auto -l disable -b xterm256 -E auto -P -v  @@ -o /tmp/foo
+img2sixel -7 -p 128 -e -i -I -u -C 1 -S -s average -c 500x400+0+0 -w 128 -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -7 -R -e -k -i -I -u -C 1 -d fs -w 128 -h 128 -r hanning -l auto -t hls -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -i -I -u -g -f auto -c 500x400+0+0 -t rgb  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -k -i -C 1 -g -f lum -s auto -h 128 -r lanczos2 -q high -l auto -b vt340mono -E size -P  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -u -n 8 -C 1 -g -d stucki -f auto -s average -c 500x400+0+0 -h 128 -b xterm256 -E fast -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -p 128 -e -i -u -g -S -f norm -s average -c 500x400+0+0 -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -i -I -u -n 8 -C 1 -f auto -s histogram -c 500x400+0+0 -h 128 -r hamming -q high -l force -t rgb -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -8 -R -e -i -I -n 8 -g -h 128 -r lanczos3 -l disable -t hls -E auto -P -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -k -i -I -u -S -d auto -f norm -t rgb -b vt340color -v  @@ -o /tmp/foo
+img2sixel -R -p 128 -e -i -I -n 8 -S -d a_dither -f norm -c 500x400+0+0 -h 128 -r hamming -q low -l force -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -k -i -I -u -C 1 -g -S -s histogram -c 500x400+0+0 -h 128 -r lanczos2 -l auto -t rgb -b vt340color -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -7 -R -I -u -S -d stucki -c 500x400+0+0 -b xterm256 -P  @@ -o /tmp/foo
+img2sixel -8 -R -e -k -n 8 -g -d none -w 128 -h 128 -r nearest -q auto -l disable -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -8 -k -u -g -w 128 -r hamming -q low -l auto -t hls -P -v  @@ -o /tmp/foo
+img2sixel -7 -R -I -u -n 8 -g -S -c 500x400+0+0 -h 128 -r nearest -q low -b vt340mono -E auto -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -7 -p 128 -e -k -i -u -g -S -d none -s average -h 128 -l disable -b vt340color -E auto -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -p 128 -e -k -g -S -d jajuni -f lum -w 128 -r bilinear -q auto -l auto -b vt340mono -E auto  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -k -I -u -n 8 -C 1 -s auto -h 128 -r lanczos4 -q high -t auto -b vt340mono -E fast -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -k -i -u -g -d none -f auto -q auto -E auto -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -R -e -k -i -I -u -n 8 -h 128 -P -v  @@ -o /tmp/foo
+img2sixel -R -I -u -C 1 -g -S -w 128 -h 128 -l auto -b xterm16 -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -g -S -q low -b vt340mono -E auto -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -i -u -n 8 -d jajuni -s center -c 500x400+0+0 -w 128 -h 128 -E size -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -7 -R -I -u -n 8 -C 1 -d a_dither -c 500x400+0+0 -h 128 -r lanczos4 -q low -E fast -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -7 -R -u -n 8 -C 1 -S -b xterm256 -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -k -i -I -n 8 -g -S -d auto -f lum -c 500x400+0+0 -w 128 -h 128 -r hanning -q full -l force -t hls  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -k -i -u -C 1 -f norm -s auto -h 128 -t auto -b vt340color -E auto -P -v  @@ -o /tmp/foo
+img2sixel -7 -I -u -n 8 -g -S -c 500x400+0+0 -w 128 -r lanczos3 -t auto -b vt340mono -E auto -P  @@ -o /tmp/foo
+img2sixel -p 128 -e -I -n 8 -C 1 -g -d jajuni -s histogram -c 500x400+0+0 -w 128 -h 128 -r gaussian -q full -t auto -E fast -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -i -I -u -n 8 -C 1 -g -f lum -c 500x400+0+0 -h 128 -l disable -b xterm256  @@ -o /tmp/foo
+img2sixel -7 -R -k -I -n 8 -C 1 -S -d fs -w 128 -h 128 -t hls -P -v  @@ -o /tmp/foo
+img2sixel -8 -u -n 8 -C 1 -g -d atkinson -c 500x400+0+0 -b xterm16 -E auto -v  @@ -o /tmp/foo
+img2sixel -R -e -i -u -C 1 -g -c 500x400+0+0 -w 128 -h 128 -r lanczos3 -q high  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -k -I -u -n 8 -g -S -d auto -f norm -s center -w 128 -r nearest -l force -t rgb -b vt340mono -P -v  @@ -o /tmp/foo
+img2sixel -8 -R -e -i -n 8 -C 1 -d jajuni -c 500x400+0+0 -w 128 -h 128 -q auto -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -7 -R -e -i -I -g -S -d a_dither -c 500x400+0+0 -h 128 -r lanczos4 -q auto -l force -P -v  @@ -o /tmp/foo
+img2sixel -8 -R -k -I -d atkinson -h 128 -r lanczos2 -q low -t rgb -b xterm256 -E fast  @@ -o /tmp/foo
+img2sixel -R -k -I -u -C 1 -d stucki -c 500x400+0+0 -w 128 -h 128 -r lanczos4 -l force -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -7 -R -e -k -i -n 8 -C 1 -d fs -w 128 -h 128 -q auto -l auto -t auto -E size -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -7 -k -C 1 -g -S -c 500x400+0+0 -w 128 -h 128 -q full -l disable -t hls -b xterm16 -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -7 -R -k -I -u -n 8 -g -S -w 128 -h 128 -q low -t auto -b xterm16 -E auto -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -e -k -i -C 1 -d auto -c 500x400+0+0 -w 128 -h 128 -l auto -t rgb -b vt340color -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -7 -k -u -C 1 -g -S -d jajuni -w 128 -h 128 -r lanczos2 -l auto -t hls -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -7 -I -n 8 -g -d stucki -c 500x400+0+0 -q low -t hls -b xterm256 -E size -P  @@ -o /tmp/foo
+img2sixel -p 128 -k -C 1 -S -d none -s average -c 500x400+0+0 -b xterm16 -P  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -k -I -g -S -s average -c 500x400+0+0 -h 128 -r bicubic -q full -l auto -E fast -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -k -u -n 8 -C 1 -S -d stucki -f norm -s average -c 500x400+0+0 -w 128 -h 128 -r lanczos3 -l auto -t auto -b xterm256 -E auto -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -I -u -n 8 -g -S -h 128 -r bicubic -l force -t auto -b xterm256 -P  @@ -o /tmp/foo
+img2sixel -p 128 -C 1 -g -f norm -s center -w 128 -r gaussian -q low -t hls -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -7 -p 128 -k -I -u -n 8 -f auto -c 500x400+0+0 -w 128 -h 128 -q auto -P -v  @@ -o /tmp/foo
+img2sixel -7 -p 128 -e -k -I -u -g -f auto -c 500x400+0+0 -q full -l disable -t hls -b vt340mono -E auto -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -7 -R -u -n 8 -g -S -d fs -w 128 -r lanczos3 -q full -t rgb -v  @@ -o /tmp/foo
+img2sixel -8 -e -i -I -n 8 -S -w 128 -r hamming -E fast -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -8 -R -I -n 8 -g -c 500x400+0+0 -w 128 -r bicubic -q full -l disable -t hls -b xterm256 -E size -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -i -I -u -C 1 -g -S -b vt340mono -P -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -k -i -u -n 8 -g -S -d a_dither -c 500x400+0+0 -w 128 -q full -l auto -b xterm256 -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -e -i -n 8 -C 1 -g -S -d fs -h 128 -l auto -t rgb -b xterm256 -E fast  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -k -I -u -n 8 -C 1 -S -f lum -s auto -l auto -b vt340color -E fast -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel @@ -o /tmp/foo
+img2sixel -8 -e -k -i -I -u -n 8 -g -S -d stucki -h 128 -r hanning -q full -l auto -t auto -E fast -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -i -n 8 -S -d auto -f norm -c 500x400+0+0 -w 128 -r bilinear -q high -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -7 -R -n 8 -g -d auto -w 128 -h 128 -r lanczos2 -q auto -l disable -b vt340mono -P -v  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -k -C 1 -g -d a_dither -s histogram -c 500x400+0+0 -w 128 -h 128 -q full -l disable -t auto -P -v  @@ -o /tmp/foo
+img2sixel -7 -p 128 -I -u -n 8 -C 1 -d atkinson -s center -c 500x400+0+0 -w 128 -h 128 -r nearest -b vt340mono -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -7 -p 128 -e -k -I -g -d none -f auto -s histogram -c 500x400+0+0 -w 128 -h 128 -q auto -l auto -b vt340color -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -R -e -k -i -u -g -S -d a_dither -c 500x400+0+0 -E auto -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -k -i -n 8 -C 1 -S -f auto -s average -c 500x400+0+0 -h 128 -l auto -t hls -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -8 -e -k -i -I -u -n 8 -g -c 500x400+0+0 -w 128 -r nearest -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -i -I -u -C 1 -g -f norm -s average -w 128 -h 128 -b xterm16 -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -7 -R -k -C 1 -S -d none -c 500x400+0+0 -q auto -l disable -t rgb -E fast -v  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -u -f lum -c 500x400+0+0 -h 128 -r nearest -q full -E fast -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -n 8 -f norm -w 128 -h 128 -l auto -b vt340mono -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -k -I -C 1 -g -S -f lum -s auto -w 128 -r lanczos3 -q high -l force -E auto -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -I -C 1 -g -d stucki -f auto -c 500x400+0+0 -h 128 -r bilinear -l auto -t rgb -b xterm16 -v  @@ -o /tmp/foo
+img2sixel -7 -R -k -d burkes -c 500x400+0+0 -w 128 -r bilinear -q full -b xterm256 -E size -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -k -i -g -S -c 500x400+0+0 -l force -t hls -b xterm16 -E auto -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -7 -e -k -i -g -b vt340mono -E size -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -p 128 -k -u -g -d x_dither -f norm -s histogram -h 128 -q auto -l force -E auto -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -C 1 -S -f norm -c 500x400+0+0 -w 128 -r nearest -l auto -t hls -E auto -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -k -C 1 -s center -c 500x400+0+0 -w 128 -r welsh -l auto -t rgb -b vt340mono -E fast -v  @@ -o /tmp/foo
+img2sixel -R -p 128 -e -i -I -g -S -f norm -c 500x400+0+0 -w 128 -r hanning -E auto -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -f norm -s average -h 128 -P  @@ -o /tmp/foo
+img2sixel -8 -u -S -w 128 -h 128 -q full -P  @@ -o /tmp/foo
+img2sixel -7 -R -k -I -g -d burkes -w 128 -h 128 -r lanczos2 -l auto -t rgb -b vt340color -E fast -P  @@ -o /tmp/foo
+img2sixel -R -I -C 1 -g -S -w 128 -h 128 -q full -l auto -E fast -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -8 -p 128 -u -C 1 -g -S -f norm -l disable -t auto -E fast -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -p 128 -u -g -s auto -c 500x400+0+0 -h 128 -q auto -t hls -E fast -P -v  @@ -o /tmp/foo
+img2sixel -p 128 -u -g -S -d x_dither -c 500x400+0+0 -w 128 -h 128 -r bicubic -t auto -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -8 -e -i -u -n 8 -C 1 -g -S -c 500x400+0+0 -h 128 -r hanning -q low -b xterm16 -E fast -P -v  @@ -o /tmp/foo
+img2sixel -7 -p 128 -k -u -C 1 -f auto -w 128 -h 128 -b xterm16 -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -7 -p 128 -u -n 8 -C 1 -g -d x_dither -s center -w 128 -r nearest -q high -E fast -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -k -I -g -f norm -w 128 -h 128 -r nearest -l force -t auto -b vt340mono -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -k -I -u -n 8 -C 1 -g -S -d none -f norm -h 128 -r lanczos2 -q low -l disable -t auto -b vt340color -E auto -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -i -u -C 1 -g -f lum -s histogram -w 128 -r lanczos4 -l auto -t auto -b vt340color -E size -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -k -S -d a_dither -s auto -q auto -l disable -t rgb -b xterm256 -v  @@ -o /tmp/foo
+img2sixel -7 -p 128 -e -i -u -n 8 -C 1 -g -S -f norm -s average -c 500x400+0+0 -q high -E fast -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -R -p 128 -e -i -u -g -f norm -c 500x400+0+0 -h 128 -r lanczos3 -q low -l disable -t hls -b xterm256 -E fast -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -7 -p 128 -u -C 1 -S -d fs -f lum -s histogram -c 500x400+0+0 -w 128 -r hamming -q low -l disable -t hls -b xterm16 -E size -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -7 -p 128 -e -k -I -C 1 -g -S -d a_dither -f lum -s auto -t auto -b vt340mono -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -7 -p 128 -e -k -i -I -u -C 1 -S -d x_dither -h 128 -r lanczos4 -t auto -E auto -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -7 -p 128 -e -i -u -C 1 -g -S -d burkes -s auto -h 128 -r lanczos4 -P -v  @@ -o /tmp/foo
+img2sixel -7 -R -k -I -u -n 8 -C 1 -d burkes -w 128 -r lanczos4 -q auto -l disable -b xterm256 -v  @@ -o /tmp/foo
+img2sixel -7 -R -e -k -I -n 8 -C 1 -g -S -c 500x400+0+0 -w 128 -h 128 -q high -t hls -E size  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -I -u -C 1 -g -S -s histogram -c 500x400+0+0 -w 128 -r lanczos3 -t hls -b vt340color  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -i -n 8 -C 1 -S -d auto -s average -c 500x400+0+0 -w 128 -r welsh -q low -t hls -E fast -v  @@ -o /tmp/foo
+img2sixel -7 -p 128 -I -C 1 -g -f auto -h 128 -r bicubic -q full -l auto -v  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -i -n 8 -C 1 -g -S -f auto -c 500x400+0+0 -w 128 -h 128 -r bicubic -q high -b vt340color -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -i -I -C 1 -f lum -s center -q full  @@ -o /tmp/foo
+img2sixel -8 -k -I -u -g -S -d stucki -h 128 -r lanczos3 -q high -l force -E auto  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -I -u -C 1 -S -f norm -c 500x400+0+0 -h 128 -r hanning -q low -l auto -t rgb -b vt340color -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -R -p 128 -e -k -C 1 -S -d jajuni -q low -t rgb -b vt340mono -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -u -n 8 -C 1 -g -f norm -c 500x400+0+0 -w 128 -h 128 -t hls -E auto -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -i -I -u -S -d stucki -f norm -w 128 -h 128 -r gaussian -b xterm16 -E size -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -8 -p 128 -I -u -n 8 -g -S -s center -w 128 -E size -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -7 -p 128 -u -n 8 -g -d auto -f norm -c 500x400+0+0 -h 128 -r lanczos3 -t rgb -b vt340mono -P -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -k -I -u -C 1 -S -d burkes -s center -q full -b xterm16 -E fast -P  @@ -o /tmp/foo
+img2sixel -R -p 128 -k -I -u -C 1 -g -d x_dither -c 500x400+0+0 -l auto -E size  @@ -o /tmp/foo
+img2sixel -8 -R -e -I -u -n 8 -C 1 -d jajuni -c 500x400+0+0 -w 128 -r bicubic -q high -l auto -t hls -E fast -P  @@ -o /tmp/foo
+img2sixel -R -k -g -d jajuni -t rgb -b xterm16 -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -8 -R -e -k -i -I -u -n 8 -g -S -d a_dither -w 128 -r gaussian -q full -E auto -P  @@ -o /tmp/foo
+img2sixel -7 -R -e -k -n 8 -C 1 -c 500x400+0+0 -q full -l auto -b xterm256 -E fast -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -R -k -u -g -h 128 -r welsh -q low -b vt340color -E fast -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -I -u -g -S -f auto -s average -h 128 -r hamming -q high -b vt340mono -E size -P -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -k -I -u -n 8 -d none -f lum -c 500x400+0+0 -w 128 -r gaussian -t rgb -E auto -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -k -n 8 -g -S -d a_dither -f norm -c 500x400+0+0 -w 128 -l force -b vt340mono -E auto -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -p 128 -I -C 1 -f auto -c 500x400+0+0 -b xterm16 -E auto -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -8 -e -i -I -u -n 8 -C 1 -S -d a_dither -c 500x400+0+0 -h 128 -r lanczos2 -q low -l force -t hls -b vt340color -P  @@ -o /tmp/foo
+img2sixel -7 -p 128 -k -u -n 8 -C 1 -g -S -d x_dither -f auto -s auto -c 500x400+0+0 -q auto -t auto -b xterm256 -E auto  @@ -o /tmp/foo
+img2sixel -p 128 -k -I -u -n 8 -d atkinson -f norm -s average -c 500x400+0+0 -w 128 -b xterm256 -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -k -n 8 -C 1 -S -f norm -s histogram -c 500x400+0+0 -w 128 -r lanczos3 -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -k -f norm -q high -l auto -b xterm256 -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -i -I -d a_dither -f auto -s center -c 500x400+0+0 -w 128 -r bilinear -l force -t hls -E fast -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -7 -e -k -i -I -u -C 1 -g -S -c 500x400+0+0 -w 128 -r bicubic -l force -t auto -E size -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -i -g -S -f auto -c 500x400+0+0 -h 128 -r gaussian -q high -l auto -t auto -b vt340color  @@ -o /tmp/foo
+img2sixel -8 -e -k -i -u -g -S -d atkinson -l force -P  @@ -o /tmp/foo
+img2sixel -R -p 128 -e -u -g -s histogram -c 500x400+0+0 -w 128 -l force -b xterm16 -E auto -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -7 -k -I -n 8 -g -S -d auto -w 128 -q auto -l force -b vt340color -P  @@ -o /tmp/foo
+img2sixel -R -p 128 -I -n 8 -g -S -s average -w 128 -h 128 -r bicubic -q high -l auto -b vt340mono -P -v  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -k -I -n 8 -d fs -s center -c 500x400+0+0 -w 128 -r welsh -E fast -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -R -p 128 -e -i -u -g -f norm -s histogram -q low -b xterm16 -E size  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -n 8 -g -S -f lum -c 500x400+0+0 -q low -t hls -b vt340mono -P -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -S -f lum -s average -w 128 -l force -t rgb -b vt340color -E auto -P -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -k -i -I -g -S -f lum -c 500x400+0+0 -h 128 -q full -E fast -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -7 -p 128 -n 8 -g -f lum -s auto -w 128 -E auto -P -v  @@ -o /tmp/foo
+img2sixel -7 -p 128 -e -u -g -S -d atkinson -f auto -s histogram -w 128 -h 128 -b vt340mono -E fast -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -8 -R -e -I -n 8 -g -h 128 -r nearest -E size -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -k -u -g -S -d atkinson -f lum -s histogram -w 128 -q high -t hls -b vt340color -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -k -I -u -g -d stucki -f norm -s average -c 500x400+0+0 -h 128 -r welsh -l disable -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -8 -R -e -k -i -u -n 8 -S -c 500x400+0+0 -w 128 -h 128 -l force -b xterm256 -E auto -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -i -u -n 8 -d a_dither -f auto -q low -l auto -t hls -b vt340color -E auto -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -7 -e -i -C 1 -c 500x400+0+0 -w 128 -r gaussian -q high -t hls -b vt340color -v  @@ -o /tmp/foo
+img2sixel -7 -n 8 -d a_dither -c 500x400+0+0 -w 128 -r nearest -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -p 128 -e -k -i -f lum -s average -c 500x400+0+0 -l auto -t auto -b xterm16 -E size -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -k -d none -c 500x400+0+0 -h 128 -r lanczos4 -l auto -b vt340mono -E auto  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -k -I -g -f auto -w 128 -q auto -l auto -t auto -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -8 -e -k -u -d auto -q full -t auto -b vt340mono -E auto -P -v  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -i -C 1 -g -S -d a_dither -f auto -s average -c 500x400+0+0 -w 128 -q full -b vt340color -P -v  @@ -o /tmp/foo
+img2sixel -7 -R -e -i -I -u -S -w 128 -q full -t hls -E fast -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -k -I -C 1 -g -f auto -c 500x400+0+0 -h 128 -r bicubic -t auto -E fast -P -v  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -k -i -I -n 8 -C 1 -s average -c 500x400+0+0 -t auto -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -k -i -u -g -S -f lum -s histogram -h 128 -r bicubic -q low -t hls -b xterm16 -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -7 -p 128 -e -I -u -d x_dither -s average -c 500x400+0+0 -l disable -b vt340mono -P -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -i -u -C 1 -f lum -w 128 -r bicubic -t auto -b vt340color -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -8 -p 128 -k -I -C 1 -g -S -d a_dither -s histogram -q low -t auto -E auto -P -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -k -i -u -n 8 -g -d atkinson -f lum -w 128 -r lanczos4 -l disable -t rgb -E fast -v  @@ -o /tmp/foo
+img2sixel -p 128 -e -k -u -g -S -f auto -w 128 -h 128 -r bilinear -t rgb -v  @@ -o /tmp/foo
+img2sixel -p 128 -k -u -n 8 -S -f norm -c 500x400+0+0 -h 128 -r gaussian -E size  @@ -o /tmp/foo
+img2sixel -p 128 -I -u -n 8 -f norm -s center -c 500x400+0+0 -w 128 -r lanczos2 -l disable -b xterm16 -E fast -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -I -u -S -d jajuni -h 128 -r nearest -q full -b xterm256 -E size -P -v  @@ -o /tmp/foo
+img2sixel -8 -e -n 8 -C 1 -g -S -d x_dither -c 500x400+0+0 -h 128 -r bilinear -l force -v  @@ -o /tmp/foo
+img2sixel -R -p 128 -e -k -C 1 -g -f norm -s histogram -c 500x400+0+0 -t rgb -E auto  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -i -I -n 8 -g -S -d auto -s center -q full -t hls -E auto  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -I -g -S -s average -h 128 -t rgb  @@ -o /tmp/foo
+img2sixel -7 -e -k -i -I -n 8 -C 1 -g -w 128 -h 128 -q full -l auto -b vt340color -E auto -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -8 -e -k -I -n 8 -g -l disable -P -v  @@ -o /tmp/foo
+img2sixel -7 -p 128 -k -I -n 8 -g -d jajuni -s histogram -c 500x400+0+0 -q high -l force -t rgb -P  @@ -o /tmp/foo
+img2sixel -p 128 -e -i -u -n 8 -C 1 -g -S -d jajuni -f auto -s histogram -c 500x400+0+0 -l auto -t hls -E size -v  @@ -o /tmp/foo
+img2sixel -8 -e -u -C 1 -g -d auto -h 128 -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -8 -e -i -I -w 128 -r bicubic -q full -l disable -b xterm16 -E fast  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -i -u -g -S -d burkes -f auto -c 500x400+0+0 -w 128 -h 128 -q low -l auto -t rgb -E fast -P  @@ -o /tmp/foo
+img2sixel -7 -R -u -C 1 -c 500x400+0+0 -w 128 -h 128 -t hls -E fast -v  @@ -o /tmp/foo
+img2sixel -7 -e -i -I -n 8 -C 1 -g -d atkinson -c 500x400+0+0 -w 128 -r lanczos3 -q low -t auto -E auto -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -R -I -n 8 -C 1 -g -c 500x400+0+0 -h 128 -r gaussian -q auto -l disable -b xterm16 -v  @@ -o /tmp/foo
+img2sixel -7 -p 128 -e -k -I -n 8 -C 1 -f auto -w 128 -r bicubic -q auto -l force -b xterm256 -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -I -u -n 8 -g -S -f lum -c 500x400+0+0 -w 128 -h 128 -r nearest -q auto -l disable -E size -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -I -u -S -d x_dither -f norm -h 128 -r lanczos3 -l auto -t auto -E auto  @@ -o /tmp/foo
+img2sixel -p 128 -e -k -i -I -g -d a_dither -f lum -s histogram -c 500x400+0+0 -w 128 -h 128 -l force -t hls -E fast -P  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -k -i -I -u -C 1 -f auto -h 128 -r lanczos3 -l force -t hls -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -7 -p 128 -e -k -I -u -n 8 -g -s auto -w 128 -h 128 -q full -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -k -u -C 1 -S -d x_dither -f auto -s auto -w 128 -q high -l force -E fast -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -8 -R -e -k -i -u -n 8 -C 1 -c 500x400+0+0 -w 128 -r welsh -E size -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -7 -e -k -i -I -g -S -h 128 -r nearest -q auto -l auto -t auto -b xterm16 -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -i -u -n 8 -C 1 -g -f norm -w 128 -r bicubic -q low -l auto -b xterm16 -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -7 -p 128 -e -i -I -c 500x400+0+0 -w 128 -h 128 -l disable -t hls -E fast -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -p 128 -e -k -i -I -u -n 8 -S -d burkes -s histogram -w 128 -h 128 -q auto -l disable -t rgb -b xterm16 -E fast -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -R -e -I -C 1 -d jajuni -c 500x400+0+0 -q high -b vt340mono -E auto -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -k -i -I -n 8 -C 1 -g -h 128 -r bilinear  @@ -o /tmp/foo
+img2sixel -8 -R -u -c 500x400+0+0 -w 128 -h 128 -r hamming -q low -l disable -b vt340color -P  @@ -o /tmp/foo
+img2sixel -R -p 128 -C 1 -d none -f auto -s auto -h 128 -r nearest -q auto -l disable -t auto -b vt340mono -P -v  @@ -o /tmp/foo
+img2sixel -R -p 128 -e -k -i -I -u -C 1 -g -d fs -s auto -h 128 -q full -l auto -t rgb -b vt340mono -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -R -e -i -I -C 1 -g -S -w 128 -q low -l auto -t auto -P -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -I -u -d jajuni -f norm -s histogram -c 500x400+0+0 -w 128 -h 128 -q auto -t auto -b xterm16 -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -7 -p 128 -e -k -i -n 8 -g -S -d auto -f norm -w 128 -r nearest -l disable -E fast -P  @@ -o /tmp/foo
+img2sixel -7 -R -I -C 1 -S -c 500x400+0+0 -w 128 -h 128 -q auto -l auto -t auto -b vt340mono -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -7 -p 128 -e -k -n 8 -C 1 -d atkinson -f lum -s auto -c 500x400+0+0 -h 128 -r nearest -l disable -E auto  @@ -o /tmp/foo
+img2sixel -8 -e -i -u -C 1 -g -d atkinson -c 500x400+0+0 -w 128 -t hls -b vt340mono -E fast -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -8 -R -I -u -n 8 -S -w 128 -r hamming -b vt340mono -v  @@ -o /tmp/foo
+img2sixel -7 -R -e -k -i -u -n 8 -C 1 -g -S -d a_dither -c 500x400+0+0 -w 128 -r lanczos2 -t hls -b vt340color -E auto -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -7 -p 128 -e -k -i -I -u -c 500x400+0+0 -w 128 -t rgb -v  @@ -o /tmp/foo
+img2sixel -p 128 -e -k -i -u -n 8 -C 1 -S -d stucki -f lum -c 500x400+0+0 -w 128 -h 128 -r hanning -t hls -b xterm256 -P -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -u -n 8 -C 1 -S -d atkinson -s center -w 128 -h 128 -q auto -t hls -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -k -I -u -n 8 -d x_dither -s auto -c 500x400+0+0 -h 128 -r nearest -q low -t auto -b xterm16 -E size -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -k -u -n 8 -C 1 -d fs -s center -h 128 -r hamming -t rgb -b vt340color -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -k -i -u -n 8 -d jajuni -f auto -s auto -c 500x400+0+0 -w 128 -h 128 -q auto -E size  @@ -o /tmp/foo
+img2sixel -7 -k -I -w 128 -t hls -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -d jajuni -s histogram -h 128 -r lanczos4 -t auto -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -R -p 128 -e -i -n 8 -C 1 -S -d jajuni -s center -h 128 -E size -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -R -p 128 -e -i -I -n 8 -C 1 -g -d auto -w 128 -r bicubic -q high -t auto -b xterm256 -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -7 -p 128 -e -k -i -u -g -d fs -f lum -l auto -b xterm16 -v  @@ -o /tmp/foo
+img2sixel -8 -R -I -n 8 -S -d a_dither -c 500x400+0+0 -h 128 -r bilinear -q low -l auto -b vt340mono -E auto -P -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -I -u -g -d fs -f lum -s center -c 500x400+0+0 -w 128 -r lanczos3 -l force -b xterm256 -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -7 -R -e -i -u -n 8 -C 1 -g -d auto -w 128 -l auto -b vt340mono -E fast  @@ -o /tmp/foo
+img2sixel -7 -p 128 -k -u -f lum -s histogram -w 128 -r hamming -l disable -b xterm16 -v  @@ -o /tmp/foo
+img2sixel -R -I -n 8 -w 128 -r welsh -t hls -E fast -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -R -e -k -u -S -c 500x400+0+0 -w 128 -t rgb -b vt340color -E fast -P  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -I -n 8 -C 1 -S -f norm -s average -w 128 -h 128 -l auto -t auto -E fast -v  @@ -o /tmp/foo
+img2sixel -8 -R -e -k -u -C 1 -S -h 128 -r lanczos4 -q high -l disable -t hls -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -C 1 -S -c 500x400+0+0 -h 128 -r hamming -t rgb -b xterm256 -P -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -k -I -n 8 -d atkinson -f norm -c 500x400+0+0 -h 128 -r lanczos2 -b vt340color -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -k -I -u -S -f auto -s auto -c 500x400+0+0 -q full -t auto -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -I -u -C 1 -g -d stucki -f lum -w 128 -r hamming -q auto -t hls -P  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -k -i -I -g -S -f lum -t rgb -b vt340color -P  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -i -C 1 -g -w 128 -h 128 -r hamming -l force -E auto -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -R -e -i -I -C 1 -S -d burkes -c 500x400+0+0 -l force -t hls -b xterm16 -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -7 -u -g -S -c 500x400+0+0 -w 128  @@ -o /tmp/foo
+img2sixel -k -u -C 1 -S -d auto -h 128 -r bilinear -q full -b xterm256  @@ -o /tmp/foo
+img2sixel -8 -R -e -k -i -I -n 8 -C 1 -g -S -d none -q full -l auto -b xterm16 -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -n 8 -g -c 500x400+0+0 -h 128 -q full -l force -P -v  @@ -o /tmp/foo
+img2sixel -8 -I -C 1 -g -S -c 500x400+0+0 -h 128 -r bicubic -t auto -E auto -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -k -I -n 8 -C 1 -g -d auto -q full -l force -E auto -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -R -e -i -I -u -n 8 -g -S -d x_dither -c 500x400+0+0 -w 128 -r lanczos3 -t hls -E size -v  @@ -o /tmp/foo
+img2sixel -7 -R -e -I -c 500x400+0+0 -w 128 -r bilinear -q full -l auto -t rgb -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -k -i -I -u -n 8 -g -S -d atkinson -f norm -s auto -h 128 -t auto -E size  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -i -I -n 8 -C 1 -g -S -f norm -c 500x400+0+0 -w 128 -h 128 -q full -b xterm16 -P  @@ -o /tmp/foo
+img2sixel -7 -e -k -i -u -n 8 -C 1 -g -S -d auto -q high -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -k -i -I -g -d burkes -f norm -s histogram -w 128 -r welsh -l disable -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -k -n 8 -g -S -d a_dither -c 500x400+0+0 -w 128 -h 128 -l force -t auto -b vt340mono -v  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -k -i -I -n 8 -C 1 -g -d stucki -f auto -s histogram -q auto -l disable -E fast -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -7 -p 128 -e -k -i -I -g -S -d none -s auto -c 500x400+0+0 -w 128 -q low -t hls -b xterm16 -E fast -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -i -u -n 8 -g -S -f auto -s auto -w 128 -l auto -v  @@ -o /tmp/foo
+img2sixel -7 -p 128 -e -i -I -n 8 -S -f auto -s center -c 500x400+0+0 -w 128 -r lanczos3 -t auto -E fast -P  @@ -o /tmp/foo
+img2sixel -7 -p 128 -e -k -i -u -C 1 -g -d fs -f auto -s auto -c 500x400+0+0 -w 128 -t auto -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -7 -e -i -C 1 -S -h 128 -t rgb -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -i -u -n 8 -C 1 -s histogram -w 128 -q high -t hls -b vt340color -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -i -g -S -d stucki -f auto -s average -c 500x400+0+0 -w 128 -r bicubic -q high -t hls -b xterm256 -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -p 128 -k -I -u -S -f lum -q auto -l disable -t auto -b xterm256 -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -e -I -u -n 8 -S -d x_dither -l disable -b vt340color -E fast -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -k -n 8 -C 1 -g -S -f lum -h 128 -r welsh  @@ -o /tmp/foo
+img2sixel -7 -p 128 -k -S -d a_dither -f lum -c 500x400+0+0 -q auto -l force -t auto -P  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -k -u -n 8 -S -f lum -s histogram -c 500x400+0+0 -h 128 -l force -t rgb -b vt340color -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -R -e -k -i -n 8 -C 1 -g -S -q low -l force -t auto -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -n 8 -C 1 -d x_dither -f lum -s center -q full -l force -t auto -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -k -i -u -n 8 -C 1 -d x_dither -c 500x400+0+0 -l disable -b xterm16 -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -k -n 8 -g -f auto -s average -q low -b xterm256 -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -k -n 8 -f lum -s histogram -w 128 -h 128 -l force -b vt340mono -E auto -P  @@ -o /tmp/foo
+img2sixel -7 -p 128 -e -i -I -n 8 -g -S -d jajuni -s center -c 500x400+0+0 -q auto -l disable -b vt340mono -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -k -i -u -n 8 -g -d fs -s auto -c 500x400+0+0 -w 128  @@ -o /tmp/foo
+img2sixel -e -k -i -g -S -d x_dither -w 128 -h 128 -l auto -E fast -P -v  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -k -i -u -C 1 -S -s auto -c 500x400+0+0 -w 128 -r gaussian -q low -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -7 -p 128 -e -i -n 8 -C 1 -S -f lum -s average -w 128 -h 128 -l disable -b xterm256 -v  @@ -o /tmp/foo
+img2sixel -7 -p 128 -I -g -S -d auto -f auto -s center -c 500x400+0+0 -w 128 -h 128 -l auto -E size -P -v  @@ -o /tmp/foo
+img2sixel -7 -C 1 -g -S -c 500x400+0+0 -t hls -b xterm256 -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -u -C 1 -g -S -w 128 -r bilinear -b vt340color -E size -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -R -p 128 -k -I -n 8 -C 1 -g -f norm -c 500x400+0+0 -l force -t auto -E fast -P -v  @@ -o /tmp/foo
+img2sixel -8 -k -u -C 1 -S -d jajuni -c 500x400+0+0 -w 128 -r nearest -q low -t auto -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -R -k -S -w 128 -r nearest -l auto -t rgb -b vt340mono -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -8 -e -k -i -I -n 8 -C 1 -S -w 128 -h 128 -r lanczos4 -q high -b xterm16 -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -k -i -u -C 1 -S -f lum -s average -c 500x400+0+0 -w 128 -h 128 -q auto -l force -t rgb -b xterm256  @@ -o /tmp/foo
+img2sixel -7 -R -e -k -i -n 8 -C 1 -S -d none -h 128 -r hanning -q low -l force -E fast  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -I -n 8 -g -w 128 -l disable -b vt340color -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -I -u -n 8 -g -S -d atkinson -f auto -s auto -w 128 -r welsh -q full -t hls -b vt340color -E size -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -7 -e -k -I -C 1 -g -c 500x400+0+0 -h 128 -r lanczos2 -b xterm256 -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -i -n 8 -C 1 -d none -f auto -c 500x400+0+0 -h 128 -r lanczos2 -b xterm256 -E auto -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -7 -p 128 -I -u -n 8 -C 1 -f auto -c 500x400+0+0 -w 128 -b vt340mono -E auto -v  @@ -o /tmp/foo
+img2sixel -7 -R -e -k -i -I -C 1 -g -S -c 500x400+0+0 -w 128 -r hamming -q high -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -e -k -i -I -u -C 1 -d x_dither -c 500x400+0+0 -w 128 -h 128 -q high -l disable -E size -v  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -I -n 8 -C 1 -S -d stucki -f norm -c 500x400+0+0 -w 128 -r lanczos2 -l force -b vt340color -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -7 -e -u -n 8 -g -S -c 500x400+0+0 -w 128 -r hamming -l auto -b xterm16 -E auto -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -k -I -u -n 8 -C 1 -g -S -d auto -f lum -s histogram -c 500x400+0+0 -h 128 -l force -t rgb -P -v  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -u -n 8 -S -d atkinson -f lum -s center -c 500x400+0+0 -w 128 -q low -t rgb -b vt340mono -E fast -v  @@ -o /tmp/foo
+img2sixel -8 -R -e -k -I -u -n 8 -g -S -d burkes -c 500x400+0+0 -w 128 -h 128 -r gaussian -q auto -b vt340color -v  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -I -u -n 8 -C 1 -S -c 500x400+0+0 -w 128 -h 128 -r hanning -l disable -b xterm256 -E fast -v  @@ -o /tmp/foo
+img2sixel -8 -I -u -n 8 -C 1 -g -w 128 -h 128 -r hanning -t auto -b xterm16 -P  @@ -o /tmp/foo
+img2sixel -8 -R -e -k -i -u -n 8 -C 1 -g -d fs -w 128 -r lanczos2 -l disable -t auto -b vt340mono -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -7 -p 128 -e -k -i -C 1 -f lum -c 500x400+0+0 -w 128 -r bilinear -l force -t auto -b xterm256 -E fast -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -7 -k -u -n 8 -q high -l disable -t hls -b vt340color -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -k -i -I -d atkinson -f norm -s auto -c 500x400+0+0 -w 128 -h 128 -q auto -t rgb -E fast -P -v  @@ -o /tmp/foo
+img2sixel -8 -e -k -u -n 8 -C 1 -g -S -d auto -l auto -E fast -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -k -I -u -C 1 -S -d fs -f norm -s auto -c 500x400+0+0 -E auto -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -k -i -I -n 8 -g -S -d auto -c 500x400+0+0 -h 128 -r lanczos4 -l force -t auto -b vt340color -E auto  @@ -o /tmp/foo
+img2sixel -8 -p 128 -k -n 8 -g -S -s average -c 500x400+0+0 -h 128 -r nearest -b xterm256  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -u -n 8 -C 1 -d a_dither -f norm -s average -c 500x400+0+0 -w 128 -l force -P -v  @@ -o /tmp/foo
+img2sixel -8 -R -e -u -n 8 -C 1 -g -c 500x400+0+0 -h 128 -q low -t rgb -b vt340color -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -I -C 1 -g -S -h 128 -r lanczos2 -l auto -t rgb -P  @@ -o /tmp/foo
+img2sixel -8 -k -I -C 1 -d burkes -w 128 -h 128 -l force -t hls -b xterm256 -E fast -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -u -n 8 -S -d x_dither -s center -l force -t auto -E size -v  @@ -o /tmp/foo
+img2sixel -7 -k -u -n 8 -C 1 -w 128 -l disable -b vt340mono -P  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -g -s center -c 500x400+0+0 -q high -b xterm256 -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -k -C 1 -g -S -f lum -s auto -c 500x400+0+0 -l auto -P -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -i -u -C 1 -g -S -f auto -c 500x400+0+0 -q full -t hls -b xterm256 -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -R -p 128 -e -k -i -I -u -C 1 -g -S -d stucki -f auto -w 128 -h 128 -r hamming -q high -l disable -t rgb -b vt340mono -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -k -i -I -n 8 -f lum -w 128 -r nearest -t auto -b xterm16 -E auto  @@ -o /tmp/foo
+img2sixel -7 -R -e -k -l force -E fast  @@ -o /tmp/foo
+img2sixel -8 -p 128 -S -f lum -t auto -b xterm256 -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -8 -R -k -I -C 1 -g -c 500x400+0+0 -w 128 -q high -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -7 -I -n 8 -S -c 500x400+0+0 -h 128 -q low -l force -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -k -I -u -n 8 -S -f auto -s center -w 128 -r welsh -l auto -b vt340color -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -R -p 128 -k -n 8 -C 1 -g -S -d none -f lum -s average -v  @@ -o /tmp/foo
+img2sixel -7 -p 128 -I -g -d x_dither -f norm -E fast -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -I -n 8 -S -d auto -w 128 -r lanczos4 -l auto -t hls -P -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -k -n 8 -C 1 -g -f auto -h 128 -q high -t hls -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -p 128 -k -I -s average -h 128 -r bicubic -q high -l auto -E auto -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -R -n 8 -C 1 -g -S -d fs -c 500x400+0+0 -w 128 -r bicubic -l disable -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -8 -R -u -C 1 -g -S -d x_dither -c 500x400+0+0 -w 128 -h 128 -r hanning -b vt340color -E auto -P  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -i -u -g -S -d burkes -s histogram -c 500x400+0+0 -w 128 -h 128 -l disable -t rgb -b vt340color -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -k -i -u -n 8 -w 128 -h 128 -r gaussian -q high -t auto -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -7 -p 128 -k -u -C 1 -g -S -s histogram -c 500x400+0+0 -h 128 -r welsh -q high -l auto -b xterm256 -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -k -i -I -n 8 -C 1 -S -d fs -f norm -s auto -h 128 -r hamming -l auto -t hls -b xterm256 -P -v  @@ -o /tmp/foo
+img2sixel -8 -R -I -u -n 8 -g -q high  @@ -o /tmp/foo
+img2sixel -8 -p 128 -u -n 8 -g -S -f auto -s auto -q full -l auto -v  @@ -o /tmp/foo
+img2sixel -8 -R -I -u -S -d fs -w 128 -r hanning -l auto -t hls -b xterm16 -E auto -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -R -p 128 -e -k -i -n 8 -g -f norm -s average -c 500x400+0+0 -w 128 -h 128 -q auto -t hls -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -e -i -I -n 8 -g -S -d x_dither -c 500x400+0+0 -h 128 -r nearest -b vt340mono -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -7 -p 128 -e -i -I -u -C 1 -S -d auto -f auto -c 500x400+0+0 -h 128 -q high -t rgb -b vt340color -E auto -v  @@ -o /tmp/foo
+img2sixel -7 -R -e -i -g -S -d fs -c 500x400+0+0 -w 128 -l auto -b xterm256 -E size -v  @@ -o /tmp/foo
+img2sixel -7 -e -k -i -I -g -S -E size -P -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -C 1 -S -f norm -s center -w 128 -h 128 -r welsh -q high -b vt340mono -E fast -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -k -i -I -u -n 8 -S -d none -f auto -w 128 -h 128 -q auto -b vt340mono -E size -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -e -u -n 8 -S -d a_dither -c 500x400+0+0 -w 128 -h 128 -q auto -l force -b vt340mono -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -7 -p 128 -k -C 1 -s auto -c 500x400+0+0 -w 128 -r welsh -l auto -t rgb -E fast -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -k -i -S -s histogram -c 500x400+0+0 -w 128 -h 128 -r hanning -l force -t rgb -E size  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -I -u -n 8 -f lum -s center -c 500x400+0+0 -w 128 -h 128 -l force -t rgb -b xterm16 -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -R -p 128 -I -u -S -f lum -s center -t auto -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -7 -p 128 -n 8 -C 1 -s center -c 500x400+0+0 -w 128 -h 128 -q high -b vt340color -E auto  @@ -o /tmp/foo
+img2sixel -7 -p 128 -e -i -I -u -n 8 -S -f lum -s auto -q auto -l disable -t auto -P  @@ -o /tmp/foo
+img2sixel -8 -p 128 -k -u -n 8 -g -S -d atkinson -f lum -q auto -l auto -b xterm16  @@ -o /tmp/foo
+img2sixel -7 -p 128 -I -C 1 -S -d burkes -s average -l force -b vt340color -E fast -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -C 1 -d x_dither -f lum -c 500x400+0+0 -w 128 -r gaussian -q auto -b xterm256 -E fast -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -8 -R -C 1 -d burkes -b vt340mono -E size -v  @@ -o /tmp/foo
+img2sixel -8 -R -k -u -n 8 -g -S -w 128 -r nearest -E size -P  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -g -S -d fs -f norm -h 128 -r lanczos3 -q low -t hls -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -7 -e -k -i -u -n 8 -S -c 500x400+0+0 -w 128 -r nearest -q high -t rgb -b vt340color -E size -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -i -u -C 1 -g -f auto -c 500x400+0+0 -h 128 -r bilinear -q high -l disable -t hls -E size -v  @@ -o /tmp/foo
+img2sixel -7 -R -e -k -i -I -u -n 8 -d auto -c 500x400+0+0 -q high -l auto -t auto -E auto -P -v  @@ -o /tmp/foo
+img2sixel -7 -R -e -i -I -u -C 1 -d none -h 128 -r gaussian -t rgb -E fast  @@ -o /tmp/foo
+img2sixel -8 -e -k -i -u -g -w 128 -q high -t hls -b xterm16 -E auto -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -R -k -u -S -d burkes -w 128 -h 128 -l disable -b xterm256 -E fast -P  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -i -I -n 8 -C 1 -g -d atkinson -f norm -s center -h 128 -l force -b vt340color -E auto -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -i -u -n 8 -f auto -s average -c 500x400+0+0 -h 128 -l disable -b xterm256 -E size -P -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -k -i -u -n 8 -d atkinson -f norm -s auto -l disable -t hls -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -k -C 1 -g -S -d burkes -f norm -c 500x400+0+0 -w 128 -h 128 -b vt340color -E auto -P  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -k -u -g -d auto -s histogram -w 128 -h 128 -b vt340mono -E auto -P -v  @@ -o /tmp/foo
+img2sixel -7 -p 128 -e -k -i -n 8 -C 1 -d fs -q low -t auto -b xterm256 -E fast -P  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -n 8 -g -d stucki -s auto -c 500x400+0+0 -w 128 -r gaussian -q low -l auto -t rgb -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -8 -n 8 -C 1 -g -S -d x_dither -w 128 -h 128 -r bicubic -l auto -t hls -E auto  @@ -o /tmp/foo
+img2sixel -7 -R -I -C 1 -g -d auto -w 128 -r lanczos4 -t rgb -E size -v  @@ -o /tmp/foo
+img2sixel -p 128 -e -i -I -n 8 -C 1 -f norm -w 128 -h 128 -r hamming -q auto -E fast -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -u -C 1 -S -h 128 -r lanczos4 -q full -l force -t rgb -b xterm16 -E fast -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -k -u -g -f auto -s auto -c 500x400+0+0 -t auto -E size -P  @@ -o /tmp/foo
+img2sixel -8 -e -k -n 8 -S -d atkinson -c 500x400+0+0 -q low -t rgb -E fast -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -e -k -i -C 1 -g -d burkes -c 500x400+0+0 -h 128 -r lanczos3 -t auto -E auto -P  @@ -o /tmp/foo
+img2sixel -8 -R -k -C 1 -c 500x400+0+0 -h 128 -l disable -E size -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -7 -p 128 -e -i -g -s average -c 500x400+0+0 -h 128 -r bicubic -q high -l force -t rgb -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -7 -k -I -u -n 8 -c 500x400+0+0 -w 128 -q low -b vt340mono -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -I -n 8 -d jajuni -f lum -s auto -t auto -b xterm256 -E size -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -7 -p 128 -k -I -n 8 -C 1 -g -S -f norm -s center -c 500x400+0+0 -l disable -b xterm256 -E fast -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -k -I -u -n 8 -C 1 -g -S -d burkes -s average -c 500x400+0+0 -w 128 -r hanning -t auto -b xterm16 -E auto -P -v  @@ -o /tmp/foo
+img2sixel -7 -R -e -n 8 -C 1 -g -d x_dither -w 128 -t hls -b vt340color  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -k -u -C 1 -g -d none -f lum -s auto -q full -l force -t auto -b xterm16 -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -R -k -I -g -S -d atkinson -c 500x400+0+0 -h 128 -r bicubic -q full -b xterm256 -E auto -P -v  @@ -o /tmp/foo
+img2sixel -7 -e -k -i -I -n 8 -d x_dither -c 500x400+0+0 -w 128 -l disable -t hls -b vt340mono  @@ -o /tmp/foo
+img2sixel -R -e -I -u -n 8 -g -S -d fs -c 500x400+0+0 -t rgb -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -i -d stucki -f auto -w 128 -h 128 -t auto -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -I -n 8 -C 1 -S -d a_dither -E auto -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -7 -p 128 -e -i -C 1 -g -S -f norm -s histogram -c 500x400+0+0 -h 128 -q high -l force -t rgb -b vt340color -E fast -P  @@ -o /tmp/foo
+img2sixel -8 -p 128 -k -I -n 8 -C 1 -g -f lum -s center -c 500x400+0+0 -w 128 -h 128 -r lanczos4 -v  @@ -o /tmp/foo
+img2sixel -R -p 128 -e -i -I -u -C 1 -S -d a_dither -s auto -c 500x400+0+0 -w 128 -r nearest -l disable -b vt340color -E auto -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -7 -R -I -u -n 8 -S -d jajuni -w 128 -r lanczos3 -l auto -t auto  @@ -o /tmp/foo
+img2sixel -7 -R -e -i -I -u -n 8 -g -S -w 128 -r hamming -l disable -b xterm256 -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -8 -p 128 -k -I -n 8 -C 1 -g -S -d x_dither -c 500x400+0+0 -q full -l disable -t rgb -b xterm256  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -k -i -u -n 8 -g -S -f auto -s average -c 500x400+0+0 -h 128 -r hamming -E size -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -8 -k -I -u -n 8 -C 1 -S -c 500x400+0+0 -t auto -b vt340mono -E size  @@ -o /tmp/foo
+img2sixel -8 -p 128 -k -C 1 -g -d atkinson -f auto -s center -c 500x400+0+0 -w 128 -r bilinear -l disable -t rgb -b vt340mono -E fast  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -k -I -S -f lum -s center -w 128 -h 128 -r hanning -t rgb -b xterm256 -E size -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -e -u -n 8 -C 1 -q full -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -i -n 8 -C 1 -g -d fs -s auto -c 500x400+0+0 -t auto -b vt340mono -E auto -P  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -k -i -C 1 -d none -s center -c 500x400+0+0 -w 128 -h 128 -r nearest -q full -b xterm256 -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -7 -p 128 -I -u -n 8 -C 1 -f norm -c 500x400+0+0 -w 128 -r gaussian -q high -t rgb -P  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -k -C 1 -S -s average -c 500x400+0+0 -w 128 -h 128 -r bicubic -l force -E auto -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -7 -k -n 8 -C 1 -g -w 128 -q full -b vt340color -E fast -P -v  @@ -o /tmp/foo
+img2sixel -7 -k -u -n 8 -C 1 -g -c 500x400+0+0 -w 128 -h 128 -r hamming -q low -l disable -b xterm16 -P  @@ -o /tmp/foo
+img2sixel -7 -e -I -u -C 1 -g -S -q full -l auto -t rgb -b xterm16 -E auto -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -i -u -C 1 -S -d stucki -f auto -s histogram -h 128 -r nearest -l force -b xterm256  @@ -o /tmp/foo
+img2sixel -8 -p 128 -k -u -n 8 -s auto -c 500x400+0+0 -w 128 -r lanczos3 -q low -t rgb -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -I -g -S -f auto -s center -c 500x400+0+0 -l disable -b vt340color -P  @@ -o /tmp/foo
+img2sixel -8 -p 128 -k -I -u -C 1 -g -S -w 128 -h 128 -q full -l disable -E auto -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -k -i -I -u -S -s average -q low -l force -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -7 -p 128 -k -I -u -n 8 -C 1 -S -s histogram -h 128 -r welsh -l disable -t auto -E fast -v  @@ -o /tmp/foo
+img2sixel -8 -R -g -S -w 128 -h 128 -r hanning -q low -t auto -E fast -v  @@ -o /tmp/foo
+img2sixel -R -p 128 -e -k -i -I -u -n 8 -C 1 -g -f auto -c 500x400+0+0 -w 128 -b vt340color -E auto -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -k -i -C 1 -f auto -c 500x400+0+0 -w 128 -q low -P  @@ -o /tmp/foo
+img2sixel -7 -p 128 -k -g -c 500x400+0+0 -w 128 -r lanczos2 -q low -l auto -t hls -b vt340mono -E fast -v  @@ -o /tmp/foo
+img2sixel -8 -I -u -n 8 -C 1 -w 128 -h 128 -q low -l disable -E fast -P -v  @@ -o /tmp/foo
+img2sixel -R -e -i -n 8 -c 500x400+0+0 -w 128 -q auto -l force -t rgb -E fast -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -7 -p 128 -k -u -n 8 -C 1 -S -s center -w 128 -h 128 -l disable -P  @@ -o /tmp/foo
+img2sixel -7 -k -I -u -g -d jajuni -h 128 -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -i -I -n 8 -C 1 -g -d x_dither -f lum -c 500x400+0+0 -w 128 -q high -l force -t auto -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -k -I -C 1 -d jajuni -f norm -s center -w 128 -h 128  @@ -o /tmp/foo
+img2sixel -8 -R -e -i -n 8 -g -d a_dither -w 128 -r gaussian -q full -l auto -b xterm256 -E fast -P -v  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -u -g -S -f lum -c 500x400+0+0 -w 128 -h 128 -r bilinear -l force -b vt340mono -E fast -P -v  @@ -o /tmp/foo
+img2sixel -8 -R -g -c 500x400+0+0 -h 128 -r hamming -l disable -t rgb -P  @@ -o /tmp/foo
+img2sixel -7 -e -k -u -S -d burkes -w 128 -h 128 -r lanczos4 -q auto -t hls -b vt340mono -P -v  @@ -o /tmp/foo
+img2sixel -8 -R -e -k -i -I -C 1 -g -S -d jajuni -c 500x400+0+0 -h 128 -r bicubic -q full -t auto -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -7 -R -e -k -i -I -g -S -d fs -c 500x400+0+0 -h 128 -b vt340mono -E fast -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -k -I -S -d burkes -f lum -s auto -c 500x400+0+0 -w 128 -h 128 -r lanczos4 -q full -P  @@ -o /tmp/foo
+img2sixel -7 -g -d none -l disable -t auto -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -k -i -u -n 8 -d stucki -f auto -c 500x400+0+0 -h 128 -r bilinear -q full -l auto -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -7 -I -C 1 -S -d stucki -w 128 -r hanning -q low -l disable -b vt340color -E auto -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -8 -u -n 8 -C 1 -c 500x400+0+0 -w 128 -q full -l auto -t hls -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -k -I -n 8 -g -S -d fs -f lum -s histogram -c 500x400+0+0 -h 128 -r gaussian -l disable -t hls -E size -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -7 -p 128 -e -k -i -I -u -n 8 -g -f lum -s histogram -h 128 -r gaussian -q full -t rgb -P -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -i -u -n 8 -S -s auto -q full -l disable -t auto -b xterm256 -E size -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -8 -k -u -C 1 -g -S -c 500x400+0+0 -l disable -b vt340mono -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -7 -p 128 -k -I -C 1 -f auto -s center -c 500x400+0+0 -w 128 -h 128 -r bilinear -q high -t rgb -E fast -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -7 -p 128 -e -k -i -I -u -s auto -w 128 -r lanczos3 -q low -l disable -b xterm16 -E size -P  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -I -d atkinson -f auto -w 128 -q full -l auto -E size  @@ -o /tmp/foo
+img2sixel -8 -p 128 -n 8 -S -d x_dither -f norm -s average -c 500x400+0+0 -w 128 -r gaussian -q high -b vt340color -E size  @@ -o /tmp/foo
+img2sixel -R -p 128 -e -i -I -u -C 1 -S -s auto -c 500x400+0+0 -h 128 -r nearest -q full -l disable -t rgb -b vt340color -E size -P  @@ -o /tmp/foo
+img2sixel -8 -e -i -I -n 8 -S -d auto -t hls  @@ -o /tmp/foo
+img2sixel -7 -p 128 -n 8 -C 1 -g -s auto -h 128 -r lanczos2 -l disable -t hls -b vt340mono -E size -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -7 -p 128 -k -I -n 8 -S -d none -f lum -s auto -w 128 -r nearest -q high -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -R -k -u -n 8 -C 1 -g -S -d fs -c 500x400+0+0 -h 128 -q low -t auto -b xterm16 -E fast -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -7 -p 128 -n 8 -S -c 500x400+0+0 -q low -E fast -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -8 -R -C 1 -d atkinson -q full -t auto -b vt340mono  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -u -n 8 -S -d fs -f auto -s average -h 128 -r lanczos4 -q high -P  @@ -o /tmp/foo
+img2sixel -R -p 128 -e -k -i -I -u -d auto -f auto -s auto -c 500x400+0+0 -h 128 -r hanning -b vt340color -E auto -P -v  @@ -o /tmp/foo
+img2sixel -e -k -i -I -C 1 -S -d stucki -w 128 -r nearest -q high -t rgb -E fast  @@ -o /tmp/foo
+img2sixel -7 -R -k -n 8 -h 128 -r welsh -E fast -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -7 -R -e -k -I -u -n 8 -d burkes -c 500x400+0+0 -h 128 -t rgb -b xterm256  @@ -o /tmp/foo
+img2sixel -7 -e -i -u -n 8 -C 1 -g -c 500x400+0+0 -h 128 -q full -l disable -t hls -E fast -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -I -n 8 -S -s histogram -q high -t auto -b xterm16  @@ -o /tmp/foo
+img2sixel -8 -p 128 -u -C 1 -d a_dither -f auto -s center -c 500x400+0+0 -t auto -E fast -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -R -e -i -u -S -d atkinson -c 500x400+0+0 -q high -l force -t auto -b xterm16 -E fast -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -u -g -S -d fs -s histogram -h 128 -r lanczos4 -q auto -l disable -t rgb -E size -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -7 -R -k -u -C 1 -g -S -h 128 -r nearest -l force -t rgb -P -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -k -n 8 -d stucki -s center -w 128 -q auto -l disable -b vt340mono -E fast -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -7 -R -k -u -n 8 -C 1 -g -d none -c 500x400+0+0 -q auto -t auto -P -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -k -u -n 8 -C 1 -d fs -w 128 -r hanning -q high -E auto -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -k -I -g -S -f auto -w 128 -q full -l disable -b vt340mono -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -8 -e -k -n 8 -S -w 128 -r hanning -q full -t hls  @@ -o /tmp/foo
+img2sixel -8 -R -e -k -i -C 1 -g -c 500x400+0+0 -l auto -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -k -i -n 8 -d stucki -s auto -w 128 -h 128 -r bilinear -l disable -t rgb -E size -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -I -n 8 -C 1 -g -d fs -s auto -c 500x400+0+0 -h 128 -r nearest -q low -l force -b xterm256 -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -I -u -n 8 -g -S -f norm -q low -b vt340color -E size  @@ -o /tmp/foo
+img2sixel -R -e -k -i -I -u -C 1 -S -w 128 -h 128 -r bilinear -t rgb -b vt340color -E auto -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -7 -e -k -i -n 8 -C 1 -d atkinson -c 500x400+0+0 -b vt340mono -P -v  @@ -o /tmp/foo
+img2sixel -e -k -i -I -u -n 8 -g -d none -h 128 -r lanczos3 -l force -t rgb -b xterm16 -E auto -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -7 -p 128 -k -I -u -C 1 -g -d fs -f lum -w 128 -r lanczos4 -q high -t rgb -E auto -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -8 -R -e -i -I -S -d stucki -c 500x400+0+0 -h 128 -q high -b xterm16 -P  @@ -o /tmp/foo
+img2sixel -8 -R -k -n 8 -C 1 -h 128 -r nearest -q auto -l disable -t rgb -b xterm256 -P -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -C 1 -g -S -d auto -s center -w 128 -h 128 -q full -l auto -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -C 1 -f lum -s center -c 500x400+0+0 -q auto -l auto -t hls -P -v  @@ -o /tmp/foo
+img2sixel -7 -p 128 -I -C 1 -d auto -f auto -s auto -h 128 -q high -t hls -b vt340mono -v  @@ -o /tmp/foo
+img2sixel -8 -u -h 128 -r lanczos4 -q low -l auto -t auto -E fast -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -n 8 -d auto -w 128 -h 128 -b vt340color -E fast -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -e -i -I -u -d jajuni -w 128 -h 128 -q auto -l force -b vt340color -P  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -I -n 8 -s center -w 128 -r bicubic -l force -t rgb -b xterm16 -E auto  @@ -o /tmp/foo
+img2sixel -8 -p 128 -k -I -n 8 -C 1 -d none -f lum -s auto -c 500x400+0+0 -h 128 -q auto -b xterm16 -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -I -u -C 1 -g -f norm -s histogram -h 128 -q low -l disable -t auto -b vt340mono -E fast -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -k -n 8 -g -f norm -s auto -c 500x400+0+0 -w 128 -q full -l force -t auto -E auto -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -7 -R -e -k -i -I -u -C 1 -d jajuni -c 500x400+0+0 -w 128 -q auto -l disable -b vt340mono -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -7 -p 128 -e -k -i -I -u -C 1 -S -d a_dither -f lum -s center -h 128 -r bilinear -q full -E auto -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -7 -p 128 -e -i -I -u -g -d none -f auto -s histogram -w 128 -h 128 -r bilinear -q high -t auto -b vt340mono -E fast -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -7 -p 128 -e -i -n 8 -C 1 -S -d x_dither -f norm -s average -w 128 -r nearest -q full -l auto -t rgb -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -p 128 -k -I -u -n 8 -C 1 -d jajuni -s auto -w 128 -r lanczos4 -l force -t auto  @@ -o /tmp/foo
+img2sixel -8 -R -e -k -i -I -C 1 -g -S -d jajuni -c 500x400+0+0 -q high -t auto -b vt340mono -E auto -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -i -I -n 8 -d stucki -f auto -s auto -h 128 -r bilinear -q auto -l auto -t rgb -b vt340color  @@ -o /tmp/foo
+img2sixel -R -p 128 -I -g -d a_dither -f lum -s histogram -c 500x400+0+0 -w 128 -q full -v  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -I -u -n 8 -g -d auto -w 128 -h 128 -q low -b vt340color -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -k -I -u -C 1 -g -d none -s histogram -c 500x400+0+0 -h 128 -l force -b vt340mono  @@ -o /tmp/foo
+img2sixel -7 -R -I -n 8 -C 1 -g -h 128 -l disable -E auto -P  @@ -o /tmp/foo
+img2sixel -R -p 128 -e -k -I -u -n 8 -C 1 -S -f auto -s average -w 128 -h 128 -q full -l auto -E fast -P  @@ -o /tmp/foo
+img2sixel -8 -e -i -C 1 -S -c 500x400+0+0 -w 128 -r nearest -l force -P -v  @@ -o /tmp/foo
+img2sixel -R -e -I -C 1 -g -S -d fs -w 128 -h 128 -r welsh -q high -l auto -t auto -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -u -n 8 -S -f lum -c 500x400+0+0 -t auto -b vt340mono -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -7 -e -i -u -C 1 -d atkinson -h 128 -r lanczos4 -l auto -b vt340color -E fast -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -8 -R -e -k -i -I -u -C 1 -l force -t hls -b xterm16 -E fast -P -v  @@ -o /tmp/foo
+img2sixel -7 -p 128 -e -n 8 -S -f norm -s center -w 128 -h 128 -r hamming -q full -l auto -t hls -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -i -I -u -n 8 -C 1 -g -S -d a_dither -f lum -s center -c 500x400+0+0 -w 128 -r hanning -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -7 -e -k -I -u -C 1 -S -d none -c 500x400+0+0 -w 128 -l force -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -R -e -I -d stucki -c 500x400+0+0 -w 128 -l force -t hls -b xterm16 -E size -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -n 8 -C 1 -g -d jajuni -f auto -s average -w 128 -r bicubic -q low -t auto -b xterm256 -P -v  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -k -i -I -u -S -f lum -c 500x400+0+0 -w 128 -r bilinear -q high -l disable -P -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -k -i -I -u -n 8 -C 1 -g -f auto -s auto -c 500x400+0+0 -q low -b xterm16 -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -8 -p 128 -k -g -S -s auto -w 128 -h 128 -r nearest -q auto -t auto -b vt340color -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -I -S -f lum -s histogram -h 128 -r lanczos2 -l auto -E auto  @@ -o /tmp/foo
+img2sixel -7 -u -n 8 -g -d fs -w 128 -r lanczos3 -q high -l force -t hls -E auto -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -8 -p 128 -k -I -u -C 1 -S -d atkinson -f lum -h 128 -l force -t auto -P -v  @@ -o /tmp/foo
+img2sixel -7 -R -e -k -i -C 1 -c 500x400+0+0 -h 128 -r nearest -q full -b vt340color -E size -P -v  @@ -o /tmp/foo
+img2sixel -8 -R -I -u -C 1 -S -d auto -h 128 -r lanczos3 -b vt340mono -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -7 -R -e -i -u -C 1 -S -w 128 -r bicubic -q auto -l disable -t hls -P  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -i -I -u -n 8 -g -s histogram -c 500x400+0+0 -w 128 -r bilinear -q auto -l force -E size -v  @@ -o /tmp/foo
+img2sixel -p 128 -e -k -i -I -n 8 -C 1 -s average -c 500x400+0+0 -w 128 -l disable -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -n 8 -C 1 -S -c 500x400+0+0 -h 128 -r bilinear -l auto -t auto -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -k -i -I -C 1 -g -S -s histogram -c 500x400+0+0 -w 128 -h 128 -t hls -b xterm16 -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -R -p 128 -e -k -C 1 -S -f lum -s center -c 500x400+0+0 -w 128 -r lanczos3 -q full -t auto -P  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -k -i -I -u -g -S -h 128 -r gaussian -q full -t rgb -P  @@ -o /tmp/foo
+img2sixel -8 -R -C 1 -g -c 500x400+0+0 -q full -E size -P  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -i -I -u -n 8 -C 1 -g -S -d auto -f norm -s average -c 500x400+0+0 -w 128 -h 128 -r nearest -q low -t auto -E fast -v  @@ -o /tmp/foo
+img2sixel -7 -k -I -u -n 8 -S -c 500x400+0+0 -h 128 -r bicubic -l disable -E fast -P -v  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -k -i -I -u -n 8 -C 1 -g -d a_dither -s center -c 500x400+0+0 -w 128 -h 128 -r nearest -l disable -t hls -b vt340mono -E size -P  @@ -o /tmp/foo
+img2sixel -8 -R -k -I -C 1 -c 500x400+0+0 -h 128 -r lanczos2 -q low -t auto -E fast -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -p 128 -k -I -u -n 8 -g -d x_dither -f norm -c 500x400+0+0 -w 128 -h 128 -q auto -l force -t hls -b vt340mono -E size  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -u -n 8 -C 1 -g -S -s average -c 500x400+0+0 -w 128 -r bilinear -q high -l force -t hls -b xterm16  @@ -o /tmp/foo
+img2sixel -k -I -n 8 -g -S -c 500x400+0+0 -w 128 -q auto -l auto -P  @@ -o /tmp/foo
+img2sixel -8 -R -n 8 -g -S -d x_dither -h 128 -q high -t rgb -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -i -n 8 -s center -h 128 -r nearest -q high -l disable -v  @@ -o /tmp/foo
+img2sixel -7 -R -e -i -n 8 -S -c 500x400+0+0 -h 128 -r bicubic -t rgb -b vt340color  @@ -o /tmp/foo
+img2sixel -7 -k -I -u -n 8 -C 1 -g -d burkes -c 500x400+0+0 -w 128 -r lanczos4 -b xterm16  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -k -u -g -S -s center -l auto -t auto -E fast -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -R -p 128 -k -u -n 8 -C 1 -g -f auto -s center -c 500x400+0+0 -w 128 -h 128 -r lanczos3 -l disable -t rgb -b xterm16 -E auto -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -7 -p 128 -e -n 8 -C 1 -S -f norm -t rgb -E auto -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -7 -R -u -q high -l force -E size -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -7 -e -k -i -I -u -C 1 -g -S -c 500x400+0+0 -w 128 -h 128 -q high -b vt340color -P  @@ -o /tmp/foo
+img2sixel -8 -R -e -I -u -S -d a_dither -h 128 -r lanczos2 -q low -l disable -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -k -i -n 8 -g -S -s auto -w 128 -r hamming -t rgb -b xterm16 -P  @@ -o /tmp/foo
+img2sixel -p 128 -e -i -u -g -S -w 128 -t auto -E size -v  @@ -o /tmp/foo
+img2sixel -7 -R -e -i -I -g -d fs -q high -P  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -i -n 8 -g -d burkes -f auto -s auto -c 500x400+0+0 -h 128 -r lanczos2 -b vt340mono -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -7 -p 128 -e -i -I -u -g -S -d x_dither -f auto -c 500x400+0+0 -E fast -P  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -k -i -n 8 -C 1 -S -f norm -s auto -w 128 -E auto -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -k -i -I -u -n 8 -g -S -d atkinson -s average -c 500x400+0+0 -q low -l auto -t rgb -P -v  @@ -o /tmp/foo
+img2sixel -p 128 -e -k -i -I -u -n 8 -C 1 -g -S -d fs -s average -w 128 -r bilinear -q high -b xterm16 -E size -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -8 -R -e -k -I -C 1 -g -S -d auto -w 128 -r lanczos4 -b vt340color -E fast -v  @@ -o /tmp/foo
+img2sixel -p 128 -I -n 8 -C 1 -g -S -d none -f auto -s histogram -w 128 -h 128 -q full -t auto -b vt340color -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -k -i -S -d fs -s auto -h 128 -q high -b xterm16 -E auto -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -k -i -I -g -s center -w 128 -r bicubic -q full -b vt340color -E size -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -7 -p 128 -k -I -u -n 8 -C 1 -S -f lum -h 128 -l disable -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -8 -R -e -i -u -d a_dither -h 128 -r gaussian -t rgb -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -R -p 128 -k -I -u -n 8 -C 1 -S -s average -c 500x400+0+0 -q high -b vt340color -E fast -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -p 128 -e -I -u -C 1 -S -f lum -s auto -c 500x400+0+0 -h 128 -r lanczos3 -t auto -b vt340color -E size -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -e -k -i -u -n 8 -C 1 -g -S -d none -w 128 -h 128 -q high -t rgb -b xterm256 -P  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -g -S -d x_dither -f lum -s average -c 500x400+0+0 -w 128 -r bilinear -l auto -P  @@ -o /tmp/foo
+img2sixel -7 -p 128 -I -u -S -d burkes -s average -w 128 -h 128 -q low -l force -t rgb -E size  @@ -o /tmp/foo
+img2sixel -7 -e -k -u -n 8 -g -S -d x_dither -c 500x400+0+0 -h 128 -q full -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -k -i -I -u -C 1 -f auto -h 128 -r bilinear -l disable -t auto -E size -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -p 128 -e -k -i -n 8 -g -S -s center -h 128 -r welsh -l disable -b vt340color -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -8 -I -u -n 8 -g -S -c 500x400+0+0 -w 128 -r hamming -q full -E fast -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -7 -R -e -k -u -g -d fs -c 500x400+0+0 -w 128 -r nearest -E size -B rgb:128/0/0 -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -k -n 8 -d none -f auto -s histogram -c 500x400+0+0 -h 128 -r hamming -q full -t hls -E size -P -v  @@ -o /tmp/foo
+img2sixel -8 -R -e -i -I -n 8 -g -c 500x400+0+0 -h 128 -q high -l disable -b vt340mono -E auto -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -7 -e -i -g -S -d burkes -c 500x400+0+0 -w 128 -h 128 -r lanczos2 -q low -l auto -E size -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -7 -e -i -I -u -n 8 -C 1 -S -w 128 -b vt340color -E auto -P -v  @@ -o /tmp/foo
+img2sixel -R -I -n 8 -S -c 500x400+0+0 -w 128 -h 128 -r gaussian -b vt340color -P  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -i -u -C 1 -d x_dither -f auto -s histogram -w 128 -r nearest -q high -E auto -P -v  @@ -o /tmp/foo
+img2sixel -8 -R -e -i -C 1 -S -w 128 -q low -l auto -t auto -b xterm256 -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -7 -p 128 -I -u -n 8 -C 1 -g -S -d atkinson -f norm -s center -c 500x400+0+0 -q auto -l auto -t hls -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -7 -e -k -i -I -u -n 8 -S -d x_dither -w 128 -h 128 -l force -b vt340mono -E size -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -7 -R -e -i -u -n 8 -c 500x400+0+0 -l disable -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -7 -k -u -n 8 -C 1 -g -S -d jajuni -c 500x400+0+0 -h 128 -r lanczos4 -t hls -E size  @@ -o /tmp/foo
+img2sixel -8 -R -e -k -i -I -g -c 500x400+0+0 -w 128 -h 128 -t hls  @@ -o /tmp/foo
+img2sixel -8 -e -k -i -I -n 8 -C 1 -g -c 500x400+0+0 -w 128 -r lanczos4 -q low -l auto -E size -P  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -k -n 8 -C 1 -d atkinson -f lum -h 128 -r welsh -q low -t auto -b vt340mono -E fast  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -k -I -c 500x400+0+0 -w 128 -r hanning -q full -b vt340color -E fast  @@ -o /tmp/foo
+img2sixel -p 128 -e -i -I -u -n 8 -g -d stucki -f norm -s average -h 128 -r bilinear -E size -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -8 -e -k -i -I -u -d a_dither -c 500x400+0+0 -b xterm16  @@ -o /tmp/foo
+img2sixel -7 -e -u -n 8 -d atkinson -c 500x400+0+0 -w 128 -h 128 -l force -t hls -E size -P -v  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -k -i -I -u -C 1 -g -s auto -l auto -t rgb -E size -P  @@ -o /tmp/foo
+img2sixel -R -I -u -n 8 -S -d none -c 500x400+0+0 -w 128 -q auto -t auto -b xterm256 -v  @@ -o /tmp/foo
+img2sixel -8 -R -e -I -n 8 -C 1 -S -c 500x400+0+0 -h 128 -E fast -P  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -i -I -n 8 -C 1 -g -S -f lum -s auto -h 128 -r welsh -t auto -b xterm256 -E auto -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -7 -R -p 128 -e -i -I -n 8 -S -f norm -s histogram -q auto -l force -b xterm16 -E auto -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -C 1 -d fs -f lum -h 128 -l auto -b vt340mono -E size -P  @@ -o /tmp/foo
+img2sixel -8 -p 128 -e -i -C 1 -s center -c 500x400+0+0 -q full -l force -E fast -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -8 -R -k -I -u -n 8 -d atkinson -c 500x400+0+0 -w 128 -h 128 -l disable -t rgb -E fast -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -i -I -u -S -s center -c 500x400+0+0 -h 128 -r lanczos4 -E auto  @@ -o /tmp/foo
+img2sixel -7 -e -k -i -n 8 -g -d jajuni -w 128 -h 128 -q auto -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -e -i -I -S -s auto -w 128 -h 128 -q low -l auto -t hls -b xterm16 -P  @@ -o /tmp/foo
+img2sixel -e -k -i -C 1 -b vt340color -B rgb:128/0/0  @@ -o /tmp/foo
+img2sixel -p 128 -e -I -u -n 8 -C 1 -d atkinson -f auto -s average -q high -l force -t rgb -E fast -P  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -k -u -n 8 -C 1 -g -d auto -f lum -w 128 -h 128 -r hanning -q full -E auto -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -8 -R -p 128 -k -I -n 8 -C 1 -S -f lum -c 500x400+0+0 -w 128 -r lanczos2 -q high -l force -t auto -b vt340mono -E auto -P -v  @@ -o /tmp/foo
+img2sixel -7 -R -e -k -i -I -u -c 500x400+0+0 -h 128 -r lanczos4 -q full -l disable -t auto -b xterm256 -B rgb:128/0/0 -P  @@ -o /tmp/foo
+img2sixel -8 -R -I -n 8 -C 1 -g -S -w 128 -r lanczos3 -P -v  @@ -o /tmp/foo
+img2sixel -8 -e -c 500x400+0+0 -w 128 -h 128 -r hamming -t hls -b vt340color -E size -B rgb:128/0/0 -P -v  @@ -o /tmp/foo
+img2sixel -R -p 128 -e -i -u -n 8 -g -f auto -h 128 -l auto -t rgb -b xterm16 -P  @@ -o /tmp/foo
+img2sixel -R -p 128 -e -k -i -n 8 -d stucki -f lum -s center -c 500x400+0+0 -w 128 -r hanning -q auto -l auto -t auto -b vt340mono -P -v  @@ -o /tmp/foo
+img2sixel -p 128 -e -i -u -n 8 -S -d stucki -f norm -s average -c 500x400+0+0 -h 128 -r lanczos4 -q full -t auto -b vt340color -P  @@ -o /tmp/foo

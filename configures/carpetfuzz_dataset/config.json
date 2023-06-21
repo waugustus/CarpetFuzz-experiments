@@ -1,0 +1,95 @@
+{
+    "cmark": {
+        "package": "cmark-git-9c8e8",
+        "stub": "cmark @@",
+        "prioritization": "true"
+    },
+    "editcap": {
+        "package": "wireshark-4.0.1",
+        "stub": "editcap @@ /tmp/foo",
+        "prioritization": "true"
+    },
+    "eu-elfclassify": {
+        "package": "elfutils-0.188",
+        "stub": "eu-elfclassify @@"
+    }, 
+    "img2sixel": {
+        "package": "libsixel-git-6a5be",
+        "stub": "img2sixel @@ -o /tmp/foo",
+        "prioritization": "true"
+    }, 
+    "jpegoptim": {
+        "package": "jpegoptim-1.5.0",
+        "stub": "jpegoptim @@",
+        "prioritization": "true"
+    }, 
+    "jpegtran": {
+        "package": "libjpeg-turbo-2.1.4",
+        "stub": "jpegtran -outfile /tmp/foo @@"
+    }, 
+    "jq": {
+        "package": "jq-1.6",
+        "stub": "jq . @@"
+    }, 
+    "lrzip": {
+        "package": "lrzip-0.651",
+        "stub": "lrzip -f -p 1 @@ -o /tmp/foo",
+        "timeout": "5000+"
+    }, 
+    "ogg123": {
+        "package": "vorbis-tools-1.4.2",
+        "stub": "ogg123 @@ -d wav -f /tmp/foo",
+        "timeout": "5000+"
+    }, 
+    "openssl-asn1parse": {
+        "package": "openssl-git-31ff3", 
+        "stub": "openssl asn1parse -in @@ -out /tmp/foo",
+        "prioritization": "true"
+    }, 
+    "openssl-ec": {
+        "package": "openssl-git-31ff3", 
+        "stub": "openssl ec -in @@ -out /tmp/foo",
+        "prioritization": "true"
+    },  
+    "openssl-rsa": {
+        "package": "openssl-git-31ff3", 
+        "stub": "openssl rsa -in @@ -out /tmp/foo"
+    }, 
+    "pdftops": {
+        "package": "xpdf-4.03", 
+        "stub": "pdftops @@ /tmp/foo"
+    }, 
+    "pdftotext": {
+        "package": "xpdf-4.03",
+        "stub": "pdftotext @@ /tmp/foo",
+        "prioritization": "true"
+    }, 
+    "podofoencrypt": {
+        "package": "podofo-0.9.8",
+        "stub": "podofoencrypt -o 123456 @@ /tmp/foo"
+    }, 
+    "speexdec": {
+        "package": "speex-Speex-1.2.1",
+        "stub": "speexdec @@ /tmp/foo",
+        "prioritization": "true",
+        "timeout": "5000+"
+    }, 
+    "tcpprep": {
+        "package": "tcpreplay-4.4.2",
+        "stub": "tcpprep -a client -i @@ -o /tmp/foo"
+    }, 
+    "tcpreplay": {
+        "package": "tcpreplay-4.4.2",
+        "stub": "tcpreplay -i eth0 @@"
+    }, 
+    "tiffcp": {
+        "package": "libtiff-git-b51bb",
+        "stub": "tiffcp @@ /tmp/foo",
+        "prioritization": "true"
+    }, 
+    "tiffcrop": {
+        "package": "libtiff-git-b51bb",
+        "stub": "tiffcrop @@ /tmp/foo",
+        "prioritization": "true"
+    }
+}

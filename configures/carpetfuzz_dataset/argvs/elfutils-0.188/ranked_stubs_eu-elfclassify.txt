@@ -1,0 +1,1111 @@
+1110
+eu-elfclassify -v --no-stdin --matching --print0 -z --not-matching --shared --print -f  @@
+eu-elfclassify -v --no-stdin --matching --no-print --print0 --not-matching --print -f --elf-archive  @@
+eu-elfclassify -v --matching --no-print --print0 -z --not-matching --print -f --debug-only  @@
+eu-elfclassify -v --no-stdin --matching --no-print -z --not-matching --print -f --debug-only  @@
+eu-elfclassify -v --no-stdin --matching --no-print -z --not-matching --print -f --elf-archive  @@
+eu-elfclassify -v --no-stdin --matching --no-print -z --not-matching --shared --print -f  @@
+eu-elfclassify -v --matching --no-print --print0 -z --not-matching -f --elf-archive  @@
+eu-elfclassify -v --core --no-print --print0 -z --not-matching --print -f  @@
+eu-elfclassify -v --no-stdin --matching --print0 -z --print -f --linux-kernel-module  @@
+eu-elfclassify -v --no-stdin --matching --no-print --print0 -z -f --library  @@
+eu-elfclassify -v --matching --no-print --unstripped -z --not-matching --print -f  @@
+eu-elfclassify -v --no-stdin --matching --no-print --print0 --executable --not-matching --print -f  @@
+eu-elfclassify -v --no-stdin --matching --no-print --print0 --not-matching --shared -f  @@
+eu-elfclassify -v --no-stdin --matching --no-print --print0 -z --not-matching --print --debug-only  @@
+eu-elfclassify -v --matching --no-print --print0 --not-matching --print -f --library  @@
+eu-elfclassify -v --core --no-stdin --matching --print0 --not-matching --print -f  @@
+eu-elfclassify -v --no-stdin --matching --no-print --print0 --print -f --library  @@
+eu-elfclassify -v --no-stdin --matching --print0 --not-matching --print -f --linux-kernel-module  @@
+eu-elfclassify -v --no-stdin --print0 -z --not-matching --shared --print -f  @@
+eu-elfclassify -v --no-stdin --matching --no-print --print0 --shared --print -f  @@
+eu-elfclassify -v --no-stdin --no-print --print0 -z --not-matching -f --debug-only  @@
+eu-elfclassify -v --no-stdin --matching --print0 -z --not-matching --print -f --program  @@
+eu-elfclassify -v --no-stdin --matching --no-print --not-matching --print -f --linux-kernel-module  @@
+eu-elfclassify -v --matching --no-print --print0 -z --not-matching --print -f --loadable  @@
+eu-elfclassify -v --core --no-stdin --matching -z --not-matching --print -f  @@
+eu-elfclassify -v --no-stdin --matching --print0 -z --print -f --program  @@
+eu-elfclassify -v --no-stdin --no-print --print0 --unstripped --not-matching -f  @@
+eu-elfclassify -v --no-stdin --no-print --not-matching --print -f --library  @@
+eu-elfclassify -v --no-stdin --no-print -z --not-matching --print -f --elf-file  @@
+eu-elfclassify -v --no-stdin --matching --no-print --print0 -z -f --elf  @@
+eu-elfclassify -v --no-print -z --not-matching --print -f --linux-kernel-module  @@
+eu-elfclassify -v --no-stdin --matching --no-print --not-matching --print -f --program  @@
+eu-elfclassify -v --matching --no-print --print0 --shared --print -f  @@
+eu-elfclassify -v --matching --no-print --print0 --executable -z --print -f  @@
+eu-elfclassify -v --no-stdin --matching --no-print --print0 -z --not-matching --print --elf-file  @@
+eu-elfclassify -v --no-stdin --matching --no-print -z --not-matching -f --linux-kernel-module  @@
+eu-elfclassify -v --no-stdin --no-print --print0 --not-matching -f --debug-only  @@
+eu-elfclassify -v --matching -z --not-matching --print -f --elf-archive  @@
+eu-elfclassify -v --no-stdin --print0 --not-matching --print -f --library  @@
+eu-elfclassify -v --no-print --print0 -z --not-matching --print -f --program  @@
+eu-elfclassify -v --no-stdin --matching --print0 -z --print -f --elf-file  @@
+eu-elfclassify -v --no-stdin --no-print --unstripped -z --print -f  @@
+eu-elfclassify -v --core --no-stdin --print0 -z --not-matching -f  @@
+eu-elfclassify -v --no-stdin --matching --no-print --print0 --unstripped -z --not-matching  @@
+eu-elfclassify -v --matching --no-print -z --shared --print -f  @@
+eu-elfclassify -v --no-print --print0 -z --print -f --linux-kernel-module  @@
+eu-elfclassify -v --matching --print0 -z --not-matching -f --debug-only  @@
+eu-elfclassify -v --no-print --print0 --unstripped -z --print -f  @@
+eu-elfclassify -v --no-stdin --matching --print0 --not-matching --print -f --loadable  @@
+eu-elfclassify -v --matching --print0 -z --not-matching -f --elf-archive  @@
+eu-elfclassify -v --matching --print0 --unstripped -z --not-matching -f  @@
+eu-elfclassify -v --no-print -z --not-matching --print -f --library  @@
+eu-elfclassify -v --no-stdin --no-print -z --not-matching --print -f --program  @@
+eu-elfclassify -v --no-stdin --matching --no-print --print0 -z --not-matching --print --elf  @@
+eu-elfclassify -v --core --matching --no-print --not-matching --print -f  @@
+eu-elfclassify -v --no-print --print0 --not-matching --print -f --debug-only  @@
+eu-elfclassify -v --core --matching --no-print --print0 --not-matching -f  @@
+eu-elfclassify -v --core --no-stdin --matching --no-print -z --not-matching --print  @@
+eu-elfclassify -v --no-stdin --matching --not-matching --print -f --debug-only  @@
+eu-elfclassify -v --no-stdin --matching --not-matching --print -f --elf  @@
+eu-elfclassify -v --matching --print0 --unstripped --print -f  @@
+eu-elfclassify -v --no-stdin -z --print -f --debug-only  @@
+eu-elfclassify -v --no-stdin --matching --no-print --unstripped -z -f  @@
+eu-elfclassify -v --no-stdin --matching --print0 -z --print --elf-archive  @@
+eu-elfclassify -v --no-stdin --no-print -z --print -f --elf  @@
+eu-elfclassify -v --matching --no-print --print0 --unstripped -z --print  @@
+eu-elfclassify -v --core --matching --print0 -z --not-matching --print  @@
+eu-elfclassify -v --core --no-stdin --no-print --print -f  @@
+eu-elfclassify -v --no-stdin --matching --no-print --not-matching --print --linux-kernel-module  @@
+eu-elfclassify -v --no-stdin --print0 --not-matching -f --elf-archive  @@
+eu-elfclassify -v --no-print --print0 --not-matching --print -f --elf  @@
+eu-elfclassify -v --matching --no-print --print0 -f --linux-kernel-module  @@
+eu-elfclassify -v --matching --executable -z --not-matching --print -f  @@
+eu-elfclassify -v --no-stdin --matching --no-print --print0 --executable -z --not-matching  @@
+eu-elfclassify -v --core --no-stdin --matching --no-print --print0 --not-matching  @@
+eu-elfclassify -v --no-stdin -z --print -f --library  @@
+eu-elfclassify -v --no-stdin --print0 -z --print -f --loadable  @@
+eu-elfclassify -v --no-stdin --no-print --print0 -z --not-matching --linux-kernel-module  @@
+eu-elfclassify -v --print0 -z --not-matching --print -f --loadable  @@
+eu-elfclassify -v --no-stdin --matching --no-print -z --not-matching --print --loadable  @@
+eu-elfclassify -v --no-stdin --matching --no-print --print0 --print --debug-only  @@
+eu-elfclassify -v --no-stdin --print0 --executable -z --not-matching -f  @@
+eu-elfclassify -v --no-stdin --no-print -z --not-matching --shared -f  @@
+eu-elfclassify -v --matching -z --not-matching --print -f --elf-file  @@
+eu-elfclassify -v --no-stdin --matching --no-print -z --print --library  @@
+eu-elfclassify -v --no-stdin --matching --print0 --not-matching -f --elf-file  @@
+eu-elfclassify -v --no-stdin --no-print --print0 --print -f --elf-file  @@
+eu-elfclassify -v --no-stdin --no-print --print0 -z -f --program  @@
+eu-elfclassify -v --matching --no-print --not-matching --print -f --elf  @@
+eu-elfclassify -v --matching --no-print --print0 -f --elf-archive  @@
+eu-elfclassify -v --core --no-stdin --matching --no-print --print0 --print  @@
+eu-elfclassify -v --no-stdin --print0 -z --not-matching --print --debug-only  @@
+eu-elfclassify -v --no-stdin --no-print --print0 -z --not-matching --shared  @@
+eu-elfclassify -v --matching --print0 -z --shared -f  @@
+eu-elfclassify -v --no-stdin --matching --print0 --unstripped --not-matching --print  @@
+eu-elfclassify -v --core --matching -z --print -f  @@
+eu-elfclassify -v --core --no-stdin --matching --no-print --print0 -z  @@
+eu-elfclassify -v --no-stdin --matching --no-print --print0 --print --linux-kernel-module  @@
+eu-elfclassify -v --no-stdin --no-print --print0 -z --not-matching --print --program  @@
+eu-elfclassify -v --matching -z --not-matching --print -f --elf  @@
+eu-elfclassify -v --no-stdin --matching --no-print --unstripped --not-matching --print  @@
+eu-elfclassify -v --no-stdin --matching --no-print -z -f --elf-archive  @@
+eu-elfclassify -v --no-stdin --print0 -z --not-matching -f --elf-file  @@
+eu-elfclassify -v --matching --no-print -z --print -f --elf  @@
+eu-elfclassify -v --no-stdin --matching --no-print --print0 -z --linux-kernel-module  @@
+eu-elfclassify -v --no-stdin --no-print -z --not-matching -f --linux-kernel-module  @@
+eu-elfclassify -v --matching --no-print --print0 -z --print --library  @@
+eu-elfclassify -v --no-stdin --no-print --print0 --not-matching --print --loadable  @@
+eu-elfclassify -v --no-print --print0 -z --shared --print  @@
+eu-elfclassify -v --matching --print0 -z --not-matching --linux-kernel-module  @@
+eu-elfclassify -v --no-stdin --no-print --not-matching --shared --print  @@
+eu-elfclassify -v --matching --no-print --print0 -z --print --loadable  @@
+eu-elfclassify -v --print0 --print -f --elf-archive  @@
+eu-elfclassify -v --no-stdin --matching --print0 -z --not-matching --loadable  @@
+eu-elfclassify -v --core --not-matching --print -f  @@
+eu-elfclassify -v --no-stdin --matching --not-matching --print --library  @@
+eu-elfclassify -v --matching --no-print --print0 -f --program  @@
+eu-elfclassify -v --print0 -z -f --debug-only  @@
+eu-elfclassify -v --no-stdin --no-print --not-matching --print --elf-archive  @@
+eu-elfclassify -v --print0 --unstripped -z --not-matching --print  @@
+eu-elfclassify -v --not-matching --print -f --debug-only  @@
+eu-elfclassify -v --no-stdin --matching --unstripped -z --print  @@
+eu-elfclassify -v --no-print --print0 --not-matching -f --elf-file  @@
+eu-elfclassify -v --no-stdin --no-print --print0 -z --elf-archive  @@
+eu-elfclassify -v --no-stdin --matching --no-print -z -f --loadable  @@
+eu-elfclassify -v --not-matching --shared --print -f  @@
+eu-elfclassify -v --no-stdin --matching --print0 --not-matching --library  @@
+eu-elfclassify -v --matching --no-print --print0 --not-matching --shared  @@
+eu-elfclassify -v --print0 -z -f --linux-kernel-module  @@
+eu-elfclassify -v --no-stdin --no-print -z --print --debug-only  @@
+eu-elfclassify -v --no-stdin --no-print --print0 --executable -z --print  @@
+eu-elfclassify -v --no-stdin --matching --no-print --not-matching -f --elf-file  @@
+eu-elfclassify -v --no-stdin --matching --print0 --not-matching --debug-only  @@
+eu-elfclassify -v --matching --print0 --not-matching --print --library  @@
+eu-elfclassify -v --no-stdin --print0 -z -f --elf-file  @@
+eu-elfclassify -v --no-stdin --matching --no-print -f --debug-only  @@
+eu-elfclassify -v --matching --no-print -z -f --linux-kernel-module  @@
+eu-elfclassify -v --no-stdin --print0 -f --library  @@
+eu-elfclassify -v --no-print --executable -z --print -f  @@
+eu-elfclassify -v --matching -z --not-matching -f --linux-kernel-module  @@
+eu-elfclassify -v --no-stdin --matching -z --not-matching -f --loadable  @@
+eu-elfclassify -v --no-stdin --print0 --executable --print -f  @@
+eu-elfclassify -v --matching --no-print -z --not-matching --print --elf  @@
+eu-elfclassify -v --matching --print0 -z --not-matching --shared  @@
+eu-elfclassify -v --no-stdin --matching --print -f --elf  @@
+eu-elfclassify -v --no-stdin --print0 --not-matching --print --linux-kernel-module  @@
+eu-elfclassify -v --matching --no-print --not-matching -f --library  @@
+eu-elfclassify -v --no-stdin --matching --no-print --shared --print  @@
+eu-elfclassify -v --print0 -z --not-matching --print --library  @@
+eu-elfclassify -v --print0 -z --not-matching --print --linux-kernel-module  @@
+eu-elfclassify -v --no-stdin --matching --print0 --not-matching --print --elf  @@
+eu-elfclassify -v --no-stdin --print0 -z --print --library  @@
+eu-elfclassify -v --matching --no-print --print0 -f --elf-file  @@
+eu-elfclassify -v --print0 --unstripped --not-matching -f  @@
+eu-elfclassify -v --no-print -z --print -f --elf-file  @@
+eu-elfclassify -v --print0 -z --not-matching --print --elf-archive  @@
+eu-elfclassify -v --matching --print0 -z --not-matching --print --loadable  @@
+eu-elfclassify -v --core --no-stdin --matching -f  @@
+eu-elfclassify -v --matching --print0 -z --not-matching --program  @@
+eu-elfclassify -v --no-print --executable -z --not-matching -f  @@
+eu-elfclassify -v --no-stdin -z --shared -f  @@
+eu-elfclassify -v --core --no-print --print0 -z  @@
+eu-elfclassify -v --matching -z --print --library  @@
+eu-elfclassify -v --no-stdin --matching --print0 --executable --print  @@
+eu-elfclassify -v --no-stdin --matching --print0 --shared  @@
+eu-elfclassify -v --matching --not-matching --shared -f  @@
+eu-elfclassify -v --no-print --print0 --print --library  @@
+eu-elfclassify -v --no-stdin --print0 --not-matching --print --elf-file  @@
+eu-elfclassify -v --no-stdin --print0 -z --print --elf  @@
+eu-elfclassify -v --matching --no-print -z --print --program  @@
+eu-elfclassify -v --matching --no-print -z --not-matching --library  @@
+eu-elfclassify -v --no-print --print0 --executable -f  @@
+eu-elfclassify -v --matching --no-print -z -f --elf-file  @@
+eu-elfclassify -v --print0 -z -f --elf  @@
+eu-elfclassify -v --print -f --linux-kernel-module  @@
+eu-elfclassify -v --no-stdin --matching --no-print --executable -f  @@
+eu-elfclassify -v --core --print0 -f  @@
+eu-elfclassify -v --matching --print -f --loadable  @@
+eu-elfclassify -v --core --no-print -z --print  @@
+eu-elfclassify -v --matching --no-print --print0 --print --elf  @@
+eu-elfclassify -v --no-print -z -f --elf-archive  @@
+eu-elfclassify -v --matching --print0 --print --debug-only  @@
+eu-elfclassify -v --no-stdin --print -f --program  @@
+eu-elfclassify -v --no-print --print0 -f --loadable  @@
+eu-elfclassify -v --matching --no-print --print0 -z --elf  @@
+eu-elfclassify -v --matching -z --not-matching -f --program  @@
+eu-elfclassify -v -z --not-matching --print --linux-kernel-module  @@
+eu-elfclassify -v --matching --no-print --executable --not-matching --print  @@
+eu-elfclassify -v --no-print --print0 --print --linux-kernel-module  @@
+eu-elfclassify -v --matching --not-matching --shared --print  @@
+eu-elfclassify -v --no-stdin --matching --no-print -z --debug-only  @@
+eu-elfclassify -v --no-stdin --matching --print0 --executable -z  @@
+eu-elfclassify -v --no-print --print0 --not-matching --print --program  @@
+eu-elfclassify -v --core --no-stdin -z --print  @@
+eu-elfclassify -v --no-stdin --no-print --not-matching -f --elf  @@
+eu-elfclassify -v --no-print --print0 -z --not-matching --elf-file  @@
+eu-elfclassify -v --matching --not-matching --print --elf-archive  @@
+eu-elfclassify -v --no-stdin -z --not-matching --print --program  @@
+eu-elfclassify -v --matching --not-matching --print --debug-only  @@
+eu-elfclassify -v --no-stdin --matching -z --not-matching --shared  @@
+eu-elfclassify -v --matching --not-matching --print --linux-kernel-module  @@
+eu-elfclassify -v --executable --not-matching --print -f  @@
+eu-elfclassify -v --matching --print0 --executable -z --not-matching  @@
+eu-elfclassify -v --no-print -z -f --library  @@
+eu-elfclassify -v --core --no-stdin --print0 --not-matching  @@
+eu-elfclassify -v --no-stdin --matching --no-print --print0 --loadable  @@
+eu-elfclassify -v --matching --no-print --print0 --print --elf-file  @@
+eu-elfclassify -v --no-print --print0 --unstripped --print  @@
+eu-elfclassify -v --print0 -z --print --debug-only  @@
+eu-elfclassify -v --no-print --not-matching -f --library  @@
+eu-elfclassify -v --no-print --print -f --loadable  @@
+eu-elfclassify -v --no-print --print -f --program  @@
+eu-elfclassify -v --no-stdin --matching --unstripped -f  @@
+eu-elfclassify -v --no-stdin --print0 --shared --print  @@
+eu-elfclassify -v --no-stdin --no-print --executable -z -f  @@
+eu-elfclassify -v --print0 --not-matching -f --loadable  @@
+eu-elfclassify -v --print0 --not-matching --library  @@
+eu-elfclassify -v --no-stdin --no-print -z --not-matching --program  @@
+eu-elfclassify -v --no-print --print --debug-only  @@
+eu-elfclassify -v --no-print --not-matching --print --elf-file  @@
+eu-elfclassify -v -z --not-matching --print --loadable  @@
+eu-elfclassify -v --matching -f --library  @@
+eu-elfclassify -v --no-stdin --unstripped --print  @@
+eu-elfclassify -v --matching --no-print -z --elf-archive  @@
+eu-elfclassify -v --no-stdin --executable --not-matching -f  @@
+eu-elfclassify -v --no-stdin --matching -z --not-matching --elf  @@
+eu-elfclassify -v --no-stdin -z --print --elf-file  @@
+eu-elfclassify -v --no-print --print0 --executable --not-matching  @@
+eu-elfclassify -v -z --not-matching --print --elf  @@
+eu-elfclassify -v --core --print0 --print  @@
+eu-elfclassify -v --no-stdin --print0 --elf-archive  @@
+eu-elfclassify -v --no-print --shared -f  @@
+eu-elfclassify -v --no-print -z --not-matching --debug-only  @@
+eu-elfclassify -v --no-stdin -z --not-matching --library  @@
+eu-elfclassify -v --matching --print0 --not-matching --elf  @@
+eu-elfclassify -v --no-stdin -z --not-matching --elf-archive  @@
+eu-elfclassify -v --no-stdin --executable --not-matching --print  @@
+eu-elfclassify -v --matching -z -f --loadable  @@
+eu-elfclassify -v --core --no-stdin --no-print --not-matching  @@
+eu-elfclassify -v --print0 --shared --print  @@
+eu-elfclassify -v --no-print --print --elf-archive  @@
+eu-elfclassify -v --matching --no-print --unstripped --not-matching  @@
+eu-elfclassify -v --no-print -z -f --elf  @@
+eu-elfclassify -v --no-stdin -f --elf-archive  @@
+eu-elfclassify -v --no-stdin --print0 --unstripped  @@
+eu-elfclassify -v --not-matching -f --linux-kernel-module  @@
+eu-elfclassify -v --no-stdin --print0 --not-matching --program  @@
+eu-elfclassify -v --not-matching -f --elf-archive  @@
+eu-elfclassify -v --no-stdin --print --library  @@
+eu-elfclassify -v --no-stdin --no-print --print --program  @@
+eu-elfclassify -v --no-stdin --no-print --print0 --elf  @@
+eu-elfclassify -v --matching --not-matching --print --program  @@
+eu-elfclassify -v --print -f --elf  @@
+eu-elfclassify -v --no-print --unstripped --not-matching  @@
+eu-elfclassify -v -z -f --program  @@
+eu-elfclassify -v --no-stdin --matching --not-matching --elf-file  @@
+eu-elfclassify -v --matching --no-print --not-matching --elf  @@
+eu-elfclassify -v --no-stdin -f --loadable  @@
+eu-elfclassify -v --no-stdin --not-matching --debug-only  @@
+eu-elfclassify -v -z -f --elf-file  @@
+eu-elfclassify -v --no-stdin --unstripped --not-matching  @@
+eu-elfclassify -v --core --matching --no-print  @@
+eu-elfclassify -v --matching --print --elf-file  @@
+eu-elfclassify -v --core --matching -z  @@
+eu-elfclassify -v --print0 --debug-only  @@
+eu-elfclassify -v --core -z --not-matching  @@
+eu-elfclassify -v --no-stdin --no-print -z --loadable  @@
+eu-elfclassify -v --print0 --elf-file  @@
+eu-elfclassify -v --no-stdin --linux-kernel-module  @@
+eu-elfclassify -v -z --elf-archive  @@
+eu-elfclassify -v --matching --executable -z  @@
+eu-elfclassify -v --no-print --not-matching --loadable  @@
+eu-elfclassify -v --no-stdin --matching --program  @@
+eu-elfclassify -v --unstripped -z  @@
+eu-elfclassify -v --print --elf  @@
+eu-elfclassify -v --print0 --program  @@
+eu-elfclassify -v --no-print --library  @@
+eu-elfclassify -v --no-print --shared  @@
+eu-elfclassify -v --matching --loadable  @@
+eu-elfclassify -v --no-print --elf  @@
+eu-elfclassify -v --no-stdin --elf  @@
+eu-elfclassify -v --core --no-stdin --matching --no-print --print0 -z --not-matching -f -q  @@
+eu-elfclassify --no-stdin --matching --no-print --print0 -z --not-matching --print -f --library -q  @@
+eu-elfclassify --no-stdin --matching --no-print --print0 --unstripped -z --not-matching --print -f -q  @@
+eu-elfclassify -v --no-stdin --no-print --print0 -z --not-matching --print -f --elf-archive -q  @@
+eu-elfclassify -v --no-stdin --no-print --print0 -z --not-matching --print -f --linux-kernel-module -q  @@
+eu-elfclassify -v --no-stdin --matching --print0 -z --not-matching --print -f --linux-kernel-module -q  @@
+eu-elfclassify -v --no-stdin --matching --no-print --print0 -z --not-matching --shared -f -q  @@
+eu-elfclassify -v --no-stdin --matching --no-print --print0 --not-matching -f -q --debug-only  @@
+eu-elfclassify -v --matching --print0 -z --not-matching --print -f --library -q  @@
+eu-elfclassify --no-stdin --matching --no-print --print0 -z --not-matching --print -f --elf -q  @@
+eu-elfclassify -v --matching --no-print --print0 -z --not-matching --print -f --elf-file -q  @@
+eu-elfclassify --no-stdin --matching --print0 -z --not-matching --print -f -q --debug-only  @@
+eu-elfclassify -v --no-stdin --matching --no-print --print0 --print -f -q --debug-only  @@
+eu-elfclassify -v --matching --no-print -z --not-matching --print -f -q --debug-only  @@
+eu-elfclassify -v --no-stdin --matching --no-print --print0 -z -f --linux-kernel-module -q  @@
+eu-elfclassify --no-stdin --matching --no-print --print0 --not-matching --print -f --elf-archive -q  @@
+eu-elfclassify --core --matching --no-print --print0 -z --not-matching --print -f -q  @@
+eu-elfclassify -v --no-stdin --print0 --unstripped -z --not-matching --print -f -q  @@
+eu-elfclassify --no-stdin --matching --no-print --print0 -z --not-matching -f --elf-archive -q  @@
+eu-elfclassify -v --no-stdin --matching --no-print --print0 --unstripped --print -f -q  @@
+eu-elfclassify --no-stdin --matching --no-print --print0 -z --shared --print -f -q  @@
+eu-elfclassify -v --no-stdin --matching --no-print --print0 --not-matching -f --linux-kernel-module -q  @@
+eu-elfclassify -v --no-stdin --no-print --print0 --executable -z --print -f -q  @@
+eu-elfclassify --core --no-stdin --matching --print0 -z --not-matching --print -f  @@
+eu-elfclassify -v --no-stdin --matching --no-print --unstripped -z --not-matching --print -q  @@
+eu-elfclassify --matching --print0 -z --not-matching --print -f --elf-archive -q  @@
+eu-elfclassify --no-stdin --matching --no-print --print0 -z --not-matching -f --loadable -q  @@
+eu-elfclassify --no-print --print0 -z --not-matching --print -f -q --debug-only  @@
+eu-elfclassify -v --no-stdin --matching --print0 -z -f -q --debug-only  @@
+eu-elfclassify -v --no-stdin --matching --no-print --shared --print -f -q  @@
+eu-elfclassify -v --matching --no-print --print0 -z --not-matching --print --linux-kernel-module -q  @@
+eu-elfclassify -v --no-stdin --matching --print0 --unstripped --not-matching -f -q  @@
+eu-elfclassify --no-stdin --matching --no-print --print0 --not-matching --print -f --program -q  @@
+eu-elfclassify -v --no-stdin --no-print --print0 -z --print -f --loadable -q  @@
+eu-elfclassify -v --no-print --print0 --not-matching --shared --print -f -q  @@
+eu-elfclassify -v --core --no-stdin --print0 -z --print -f -q  @@
+eu-elfclassify -v --matching --no-print --print0 -z --not-matching -f --elf -q  @@
+eu-elfclassify -v --no-stdin --matching --print0 --print -f --elf-archive -q  @@
+eu-elfclassify --no-stdin --no-print -z --not-matching --shared --print -f -q  @@
+eu-elfclassify --no-stdin --no-print --print0 --unstripped -z --print -f -q  @@
+eu-elfclassify -v --no-stdin --matching --executable -z --not-matching --print -f -q  @@
+eu-elfclassify -v --no-stdin --matching --print0 --not-matching --shared -f -q  @@
+eu-elfclassify -v --no-stdin --print0 -z --not-matching -f --library -q  @@
+eu-elfclassify --no-stdin --matching --print0 --not-matching --print -f --library -q  @@
+eu-elfclassify -v --no-stdin --matching --no-print --print0 --print -f --elf -q  @@
+eu-elfclassify -v --matching --no-print --print0 -z --not-matching --shared --print -q  @@
+eu-elfclassify -v --no-stdin --matching --print0 --unstripped -z -f -q  @@
+eu-elfclassify --no-stdin --no-print --print0 -z --not-matching --print -f --program -q  @@
+eu-elfclassify --no-stdin --no-print --print0 --executable -z --not-matching --print -f -q  @@
+eu-elfclassify -v --no-stdin --matching --not-matching --print -f --elf-archive -q  @@
+eu-elfclassify -v --no-stdin --no-print --print0 --not-matching --print -f --loadable -q  @@
+eu-elfclassify --no-stdin --matching --no-print --not-matching --print -f --linux-kernel-module -q  @@
+eu-elfclassify --no-stdin --matching -z --not-matching --shared --print -f -q  @@
+eu-elfclassify -v --matching --no-print --print0 -z -f -q --debug-only  @@
+eu-elfclassify -v --matching --no-print -z --print -f --library -q  @@
+eu-elfclassify -v --matching --no-print --print0 --executable -z --not-matching -f -q  @@
+eu-elfclassify -v --matching --no-print --print0 -z -f --elf-archive -q  @@
+eu-elfclassify -v --no-stdin --matching --no-print --print0 -z --not-matching --elf-archive -q  @@
+eu-elfclassify -v --no-stdin --matching --not-matching --print -f --library -q  @@
+eu-elfclassify -v --no-stdin --matching --no-print --not-matching --print -f --elf -q  @@
+eu-elfclassify --no-stdin --matching --print0 --unstripped -z --not-matching --print -f  @@
+eu-elfclassify -v --no-stdin --matching --no-print --print0 --executable -z -f -q  @@
+eu-elfclassify --core --no-stdin --no-print --print0 -z --not-matching --print -f  @@
+eu-elfclassify --matching --no-print --print0 --not-matching --print -f --linux-kernel-module -q  @@
+eu-elfclassify -v --no-stdin --matching --print0 -z --print -f --elf -q  @@
+eu-elfclassify --matching --no-print --print0 -z --print -f --elf-archive -q  @@
+eu-elfclassify -v --no-stdin --no-print --print0 -z --not-matching -f --program -q  @@
+eu-elfclassify -v --no-stdin --matching --print0 --executable --not-matching --print -f -q  @@
+eu-elfclassify -v --no-stdin --matching --no-print -z --shared -f -q  @@
+eu-elfclassify --no-print --print0 --unstripped -z --not-matching -f -q  @@
+eu-elfclassify -v --core --matching --not-matching --print -f -q  @@
+eu-elfclassify --core --no-stdin --matching --no-print -z --print -f  @@
+eu-elfclassify -v --core --no-stdin --matching --print0 -z --print -q  @@
+eu-elfclassify -v --no-stdin --no-print --print0 -z --print --library -q  @@
+eu-elfclassify --no-stdin --matching --print0 --not-matching -f --linux-kernel-module -q  @@
+eu-elfclassify --no-stdin --matching --no-print --print0 --not-matching -f --elf-file -q  @@
+eu-elfclassify -v --no-print -z --not-matching --print -f --loadable -q  @@
+eu-elfclassify -v --matching --no-print --print -f --elf-archive -q  @@
+eu-elfclassify --no-stdin --matching --no-print --print0 -z --not-matching --print --library  @@
+eu-elfclassify --no-stdin --no-print --print0 --not-matching --print -f --linux-kernel-module  @@
+eu-elfclassify --no-stdin --no-print --print0 -z -f --elf-archive -q  @@
+eu-elfclassify -v --core --matching --no-print -z --not-matching --print -q  @@
+eu-elfclassify --matching --no-print -z --not-matching --shared --print -f  @@
+eu-elfclassify -v --matching --no-print --print0 --print -f --program -q  @@
+eu-elfclassify --no-stdin --matching --no-print --print0 -z -f --program -q  @@
+eu-elfclassify --no-stdin --matching --no-print --print0 --not-matching --shared --print -q  @@
+eu-elfclassify --no-stdin --matching --print0 --executable -z --not-matching -f -q  @@
+eu-elfclassify --no-stdin --print0 -z --not-matching --print -f --elf-file -q  @@
+eu-elfclassify -v --core --no-stdin --no-print --print0 --not-matching --print -q  @@
+eu-elfclassify -v --core --no-print --print0 --not-matching -f -q  @@
+eu-elfclassify -v --no-stdin --not-matching --print -f --linux-kernel-module -q  @@
+eu-elfclassify --matching --print0 -z --not-matching --shared -f -q  @@
+eu-elfclassify --no-print --print0 -z --print -f --linux-kernel-module -q  @@
+eu-elfclassify --no-stdin --matching --print0 -z --print -f --loadable -q  @@
+eu-elfclassify -v --matching --no-print --print0 -z -f --elf-file -q  @@
+eu-elfclassify -v --matching --no-print --print0 --not-matching -f --loadable -q  @@
+eu-elfclassify -v --no-stdin --matching --print0 --unstripped -z --print -q  @@
+eu-elfclassify --no-stdin --matching --no-print --print0 -z --not-matching -q --debug-only  @@
+eu-elfclassify -v --no-print --print0 -z -f --library -q  @@
+eu-elfclassify -v --core --matching --no-print --print0 -f -q  @@
+eu-elfclassify -v --matching -z --print -f -q --debug-only  @@
+eu-elfclassify -v --no-stdin --matching --print0 -z --shared --print -q  @@
+eu-elfclassify --no-stdin --matching --no-print --print0 --unstripped --print -f  @@
+eu-elfclassify -v --no-stdin --no-print --print0 -z -f --elf -q  @@
+eu-elfclassify --matching --print0 -z --not-matching --print -f --library  @@
+eu-elfclassify --no-stdin --no-print --print0 -z --not-matching --print -f --elf-file  @@
+eu-elfclassify -v --matching --no-print --print0 --not-matching --print --elf-archive -q  @@
+eu-elfclassify --matching -z --not-matching --print -f --linux-kernel-module -q  @@
+eu-elfclassify --core --no-stdin --matching --no-print --print0 -z -f  @@
+eu-elfclassify -v --no-stdin --matching --no-print -z --not-matching -f --program -q  @@
+eu-elfclassify --matching --no-print --print0 --not-matching -f --linux-kernel-module -q  @@
+eu-elfclassify --no-stdin --matching -z --print -f --library -q  @@
+eu-elfclassify --core --no-stdin --matching --no-print -z --not-matching --print -q  @@
+eu-elfclassify -v --print0 -z --print -f -q --debug-only  @@
+eu-elfclassify --core --no-stdin --matching --print0 --print -f -q  @@
+eu-elfclassify -v --no-stdin --matching --print0 --not-matching -f --loadable -q  @@
+eu-elfclassify -v --no-stdin --not-matching --shared --print -f -q  @@
+eu-elfclassify -v --no-print --print0 --not-matching -f --linux-kernel-module -q  @@
+eu-elfclassify -v --no-stdin --matching --no-print --print0 -z --print --program -q  @@
+eu-elfclassify --core --no-stdin --no-print --not-matching --print -f -q  @@
+eu-elfclassify -v --no-stdin --print0 -z --shared -f -q  @@
+eu-elfclassify -v --core --matching --no-print --print -f -q  @@
+eu-elfclassify -v --no-stdin --no-print --print0 -z --not-matching --library -q  @@
+eu-elfclassify --no-stdin --matching --print0 --executable -z --print -f -q  @@
+eu-elfclassify -v --no-stdin --matching -z --not-matching --print --library -q  @@
+eu-elfclassify --matching --print0 -z --not-matching --print -f --loadable -q  @@
+eu-elfclassify -v --print0 -z --not-matching --print -f --elf -q  @@
+eu-elfclassify -v --no-stdin --no-print --not-matching --print -f --elf-file -q  @@
+eu-elfclassify -v --no-stdin --no-print --unstripped -z --not-matching -f -q  @@
+eu-elfclassify -v --matching -z --shared --print -f -q  @@
+eu-elfclassify --matching --no-print --print0 -z --not-matching -f --linux-kernel-module  @@
+eu-elfclassify --no-stdin --matching -z --not-matching --print -f --debug-only  @@
+eu-elfclassify -v --no-stdin --not-matching --print -f -q --debug-only  @@
+eu-elfclassify --no-print --print0 --unstripped -z --not-matching --print -f  @@
+eu-elfclassify -v --core --print0 -z --not-matching -f -q  @@
+eu-elfclassify --matching --print0 --unstripped --not-matching --print -f -q  @@
+eu-elfclassify -v --core --no-stdin --no-print -z --not-matching -f -q  @@
+eu-elfclassify --no-stdin --matching --no-print -z --print -f --debug-only  @@
+eu-elfclassify -v --matching --no-print -z --not-matching --print --elf-archive -q  @@
+eu-elfclassify --no-stdin --matching --no-print -z --print -f --elf-file -q  @@
+eu-elfclassify -v --matching -z --print -f --linux-kernel-module -q  @@
+eu-elfclassify -v --no-print --print0 --print -f --library -q  @@
+eu-elfclassify -v --no-stdin --matching --unstripped --print -f -q  @@
+eu-elfclassify -v --matching --print0 --not-matching -f -q --debug-only  @@
+eu-elfclassify -v --no-stdin --matching --print0 -f --library -q  @@
+eu-elfclassify --matching --no-print --print0 -z --print -f --elf-archive  @@
+eu-elfclassify -v --no-print --not-matching --print -f --elf-archive -q  @@
+eu-elfclassify -v --no-stdin --matching --no-print -z --print --linux-kernel-module -q  @@
+eu-elfclassify --no-print --print0 -z --print -f --library -q  @@
+eu-elfclassify --matching --no-print --print0 -z --not-matching --print -f --elf  @@
+eu-elfclassify -v --no-stdin --print0 -z -f --elf-archive -q  @@
+eu-elfclassify -v --no-stdin --matching --print0 -z -f --loadable -q  @@
+eu-elfclassify --no-stdin --matching --print0 -z --not-matching -f --elf-archive  @@
+eu-elfclassify --matching --no-print --executable -z --not-matching --print -f -q  @@
+eu-elfclassify --no-stdin --matching --print0 -z --not-matching -f --elf -q  @@
+eu-elfclassify -v --no-stdin --no-print -z --not-matching --print --library -q  @@
+eu-elfclassify -v --no-stdin --no-print -z --not-matching --print -q --debug-only  @@
+eu-elfclassify --print0 -z --not-matching --shared --print -f -q  @@
+eu-elfclassify --matching --print0 -z --print -f --linux-kernel-module -q  @@
+eu-elfclassify --no-stdin --matching --print0 --not-matching -f --elf-archive -q  @@
+eu-elfclassify --no-stdin --no-print --print0 -z --print -f --elf-archive  @@
+eu-elfclassify --no-print --print0 -z --not-matching --shared --print -f  @@
+eu-elfclassify -v --no-stdin --matching --print0 --print -f --program -q  @@
+eu-elfclassify -v --no-print -z --shared --print -f -q  @@
+eu-elfclassify -v --core --no-stdin --matching --print0 -f -q  @@
+eu-elfclassify -v --no-stdin --no-print -z --print -f --loadable -q  @@
+eu-elfclassify --matching --no-print -z --print -f -q --debug-only  @@
+eu-elfclassify --no-stdin --matching --unstripped -z --print -f -q  @@
+eu-elfclassify --no-stdin --matching --print0 -z --print -f --library  @@
+eu-elfclassify -v --matching --print0 -z -f --library -q  @@
+eu-elfclassify -v --no-stdin --print0 -z --not-matching -f --loadable -q  @@
+eu-elfclassify --no-stdin --matching --no-print --print0 --unstripped --not-matching --print -q  @@
+eu-elfclassify -v --print0 --not-matching --print -f --library -q  @@
+eu-elfclassify --core --no-stdin --matching --no-print --print0 -z --not-matching --print  @@
+eu-elfclassify --matching --print0 --not-matching --shared --print -f -q  @@
+eu-elfclassify --core --matching --no-print --print0 --not-matching --print -f  @@
+eu-elfclassify --matching --no-print --unstripped --not-matching --print -f -q  @@
+eu-elfclassify --no-stdin --matching --no-print --print0 --not-matching -f --library  @@
+eu-elfclassify -v --matching --no-print --unstripped -z --not-matching --print -q  @@
+eu-elfclassify -v --no-stdin --matching -z --not-matching --print -q --debug-only  @@
+eu-elfclassify --no-stdin --no-print -z --not-matching -f --linux-kernel-module -q  @@
+eu-elfclassify --no-stdin --print0 -z --not-matching --print --elf-archive -q  @@
+eu-elfclassify --no-stdin --matching --no-print --print -f --loadable -q  @@
+eu-elfclassify --matching --no-print --print0 -z --print -q --debug-only  @@
+eu-elfclassify --no-stdin --print0 --shared --print -f -q  @@
+eu-elfclassify --no-stdin --no-print --print0 --not-matching --shared -f  @@
+eu-elfclassify -v --no-stdin --print0 --not-matching --print -q --debug-only  @@
+eu-elfclassify -v --no-stdin --no-print --print0 --print --linux-kernel-module -q  @@
+eu-elfclassify --matching --no-print -z --print -f --linux-kernel-module  @@
+eu-elfclassify --no-stdin --matching -z --not-matching --print -f --loadable  @@
+eu-elfclassify -v --no-stdin --print0 -z --not-matching --print --elf -q  @@
+eu-elfclassify -v --no-print -z --not-matching -f --library -q  @@
+eu-elfclassify -v --no-stdin --matching --no-print --print0 --not-matching --elf -q  @@
+eu-elfclassify -v --no-stdin --matching --no-print --print0 --not-matching --program -q  @@
+eu-elfclassify --no-stdin --matching --no-print -z --not-matching --print --loadable -q  @@
+eu-elfclassify --no-stdin --no-print --print0 --not-matching -f --library  @@
+eu-elfclassify --no-print --print0 -z --shared -f -q  @@
+eu-elfclassify -v --matching --print0 --not-matching -f --program -q  @@
+eu-elfclassify -v --no-stdin --matching --no-print -f --library -q  @@
+eu-elfclassify --no-stdin --print0 -z --not-matching --print -f --elf  @@
+eu-elfclassify --no-stdin --matching --executable --not-matching --print -f -q  @@
+eu-elfclassify --matching --print0 --not-matching --print -f --debug-only  @@
+eu-elfclassify -v --matching --unstripped -z --not-matching -f -q  @@
+eu-elfclassify --matching --no-print --print0 --executable --print -f -q  @@
+eu-elfclassify --no-stdin --matching --no-print -z --print --elf-archive -q  @@
+eu-elfclassify --core --no-stdin --no-print --print0 -z --print -q  @@
+eu-elfclassify --no-print --print0 -z --not-matching -f --library  @@
+eu-elfclassify -v --matching --no-print --print0 --not-matching --library -q  @@
+eu-elfclassify -v --print0 --unstripped --print -f -q  @@
+eu-elfclassify -v --print0 --not-matching --print -f --elf-file -q  @@
+eu-elfclassify --no-stdin --matching --no-print --not-matching --print -q --debug-only  @@
+eu-elfclassify --no-stdin --matching --print0 -z --not-matching --print --linux-kernel-module  @@
+eu-elfclassify -v --no-stdin --matching --print -f --elf-file -q  @@
+eu-elfclassify --no-stdin --no-print --print0 --print -f --debug-only  @@
+eu-elfclassify --core --no-stdin --no-print --print0 --not-matching -f  @@
+eu-elfclassify -v --no-stdin --no-print -z --shared --print -q  @@
+eu-elfclassify --matching --print0 -z --not-matching -f --program -q  @@
+eu-elfclassify --core --no-stdin --matching --print0 --not-matching --print -q  @@
+eu-elfclassify -v --no-stdin --matching -z -f --elf-archive -q  @@
+eu-elfclassify --core --matching --print0 -z -f -q  @@
+eu-elfclassify --no-stdin --matching --no-print --print0 --executable -z --print -q  @@
+eu-elfclassify --no-stdin --matching --print0 -z --print -q --debug-only  @@
+eu-elfclassify -v --no-print --print0 --unstripped --not-matching --print -q  @@
+eu-elfclassify --matching --print0 -z --not-matching -f --elf-file -q  @@
+eu-elfclassify --no-stdin --no-print --print0 -z --not-matching --shared -q  @@
+eu-elfclassify --no-stdin --no-print --print0 --shared --print -f  @@
+eu-elfclassify -v --no-print --print0 -z --print --elf-archive -q  @@
+eu-elfclassify -v --no-stdin --no-print --print0 -z --not-matching --loadable -q  @@
+eu-elfclassify --core --no-stdin --print0 -z --not-matching --print -q  @@
+eu-elfclassify -v --no-stdin --matching --print0 --print --linux-kernel-module -q  @@
+eu-elfclassify --no-stdin --no-print --print0 --print -f --elf -q  @@
+eu-elfclassify -v --matching --no-print --print0 -z --not-matching --elf-file -q  @@
+eu-elfclassify --no-stdin --matching --no-print --print -f --program -q  @@
+eu-elfclassify -v --matching --executable -z --print -f -q  @@
+eu-elfclassify --no-print --unstripped --not-matching --print -f -q  @@
+eu-elfclassify --no-stdin --matching --print0 --not-matching -f --debug-only  @@
+eu-elfclassify --no-stdin --print0 --unstripped --not-matching -f -q  @@
+eu-elfclassify --matching --no-print -z --not-matching --print -f --program  @@
+eu-elfclassify -v -z --print -f --elf-archive -q  @@
+eu-elfclassify -v --no-stdin --matching --no-print --print0 --print --loadable -q  @@
+eu-elfclassify -v --no-stdin --matching --no-print --executable --not-matching --print -q  @@
+eu-elfclassify -v --no-print -z --not-matching -f -q --debug-only  @@
+eu-elfclassify -v --matching --no-print --print -f --elf-file -q  @@
+eu-elfclassify -v --no-stdin --matching --no-print --executable --not-matching -f -q  @@
+eu-elfclassify -v --no-stdin --print0 --not-matching -f --elf -q  @@
+eu-elfclassify -v --no-stdin --no-print --print0 --print --elf-archive -q  @@
+eu-elfclassify --no-stdin --matching -z --print -f --elf-archive  @@
+eu-elfclassify -v --matching -z --print -f --program -q  @@
+eu-elfclassify --no-stdin --no-print --not-matching --print -f --debug-only  @@
+eu-elfclassify --no-stdin --print0 -z --print -f --linux-kernel-module  @@
+eu-elfclassify --matching --print0 -z --print -f --debug-only  @@
+eu-elfclassify -v --no-print --print0 -z --not-matching --print --program -q  @@
+eu-elfclassify --core --no-print --print0 --print -f -q  @@
+eu-elfclassify --no-stdin --matching -z --not-matching --print -f --elf-file  @@
+eu-elfclassify --no-stdin --no-print --print0 --not-matching --print --library -q  @@
+eu-elfclassify --matching --print0 --not-matching --print -f --program -q  @@
+eu-elfclassify --no-stdin --no-print --print0 -z --print -f --loadable  @@
+eu-elfclassify -v --no-stdin --matching --print0 -z --library -q  @@
+eu-elfclassify -v --matching -z --print -f --loadable -q  @@
+eu-elfclassify --matching --no-print --unstripped -z --not-matching -f -q  @@
+eu-elfclassify -v --no-stdin --print0 -f -q --debug-only  @@
+eu-elfclassify --matching --no-print --print0 --not-matching -f --elf -q  @@
+eu-elfclassify -v --unstripped --not-matching --print -f -q  @@
+eu-elfclassify --matching --print0 --not-matching -f --library -q  @@
+eu-elfclassify -v --no-stdin --print0 -f --linux-kernel-module -q  @@
+eu-elfclassify --matching --no-print --print0 -z --not-matching --print --linux-kernel-module  @@
+eu-elfclassify -v --no-stdin --shared --print -f -q  @@
+eu-elfclassify -v --no-print --print0 -z -f --loadable -q  @@
+eu-elfclassify -v --matching --print0 --unstripped -z --not-matching -q  @@
+eu-elfclassify --no-stdin --matching --no-print -z --not-matching --shared -f  @@
+eu-elfclassify --no-stdin --print0 -z --not-matching --print --linux-kernel-module -q  @@
+eu-elfclassify --matching --no-print --not-matching --shared --print -f  @@
+eu-elfclassify --matching --no-print --print0 -z --not-matching --library -q  @@
+eu-elfclassify -v --core --matching --no-print --print0 --print -q  @@
+eu-elfclassify -v --no-stdin --print0 --print -f --elf-file -q  @@
+eu-elfclassify --no-stdin --matching --no-print --executable --print -f -q  @@
+eu-elfclassify --matching --no-print --print0 -z -f --elf -q  @@
+eu-elfclassify --no-stdin --matching --print0 --print -f --elf-file -q  @@
+eu-elfclassify --no-stdin --no-print --print0 -z --not-matching -q --debug-only  @@
+eu-elfclassify -v --no-stdin --print0 --not-matching --print --elf-archive -q  @@
+eu-elfclassify --no-stdin --matching --print -f --linux-kernel-module -q  @@
+eu-elfclassify -v --no-stdin --matching --no-print --not-matching -f --elf-file -q  @@
+eu-elfclassify --no-stdin --matching --no-print --print0 -z --linux-kernel-module -q  @@
+eu-elfclassify --no-stdin --no-print -z --not-matching --print -f --elf  @@
+eu-elfclassify --matching --no-print --print0 -z -f --debug-only  @@
+eu-elfclassify --matching --no-print -z --not-matching -f --linux-kernel-module -q  @@
+eu-elfclassify --no-stdin --matching --print0 -z -f --linux-kernel-module  @@
+eu-elfclassify --no-stdin --no-print -z --not-matching --print --elf-archive -q  @@
+eu-elfclassify --no-stdin --matching --unstripped -z --not-matching -f -q  @@
+eu-elfclassify --no-stdin --matching --print0 --not-matching --shared -f  @@
+eu-elfclassify --no-stdin --matching --executable -z --not-matching --print -f  @@
+eu-elfclassify -v --core --no-stdin -z --not-matching --print -q  @@
+eu-elfclassify -v --matching --no-print --unstripped -z --print -q  @@
+eu-elfclassify --core --no-stdin --matching --no-print --not-matching -f -q  @@
+eu-elfclassify --no-stdin -z --print -f --linux-kernel-module -q  @@
+eu-elfclassify --matching --no-print -z --not-matching -f --elf-archive -q  @@
+eu-elfclassify --no-stdin --matching --no-print --print0 --not-matching -f --loadable  @@
+eu-elfclassify --no-stdin --no-print --print0 -z --not-matching --print --elf-file -q  @@
+eu-elfclassify --no-print --print0 -z --not-matching --print -f --elf-file  @@
+eu-elfclassify --no-stdin --matching --no-print --print0 -z --not-matching --print --program  @@
+eu-elfclassify --no-stdin --matching --no-print --print0 --print --library -q  @@
+eu-elfclassify -v --core --no-stdin --matching --print0 --not-matching -q  @@
+eu-elfclassify --no-stdin --no-print --print0 --executable --not-matching -f -q  @@
+eu-elfclassify --no-stdin --matching --no-print --not-matching -f -q --debug-only  @@
+eu-elfclassify -v --matching --print0 -z --not-matching -q --debug-only  @@
+eu-elfclassify --matching --no-print --print0 --not-matching --shared -f  @@
+eu-elfclassify --core --no-stdin --matching --print0 --print -f  @@
+eu-elfclassify --matching --print0 --unstripped -z -f -q  @@
+eu-elfclassify --no-stdin --matching -z --not-matching --shared -f -q  @@
+eu-elfclassify --no-stdin -z --print -f --elf-archive -q  @@
+eu-elfclassify --no-stdin --matching --no-print --print0 -f --elf -q  @@
+eu-elfclassify --no-stdin --matching --print0 --not-matching --print --elf-archive -q  @@
+eu-elfclassify -v --no-stdin --matching --executable -z --not-matching --print -q  @@
+eu-elfclassify --matching --no-print --print -f --library  @@
+eu-elfclassify -v --matching --no-print --print0 --executable --not-matching -q  @@
+eu-elfclassify --no-print --print0 --print -f --elf-file -q  @@
+eu-elfclassify -v --no-stdin --matching --print -q --debug-only  @@
+eu-elfclassify --no-stdin --no-print --print -f --elf-archive  @@
+eu-elfclassify --no-print --executable --not-matching --print -f -q  @@
+eu-elfclassify -v --matching --print0 -f --elf -q  @@
+eu-elfclassify --no-stdin --matching -z --not-matching -f --library  @@
+eu-elfclassify --no-stdin -z --not-matching -f -q --debug-only  @@
+eu-elfclassify --matching --print0 -z --print -f --elf  @@
+eu-elfclassify --no-stdin --unstripped --not-matching --print -f  @@
+eu-elfclassify -v --no-stdin --no-print --not-matching --print --elf -q  @@
+eu-elfclassify --no-print -z --print -f --program -q  @@
+eu-elfclassify --no-stdin --matching -z --not-matching --print --program -q  @@
+eu-elfclassify -v --matching --print0 -z --print --elf-file -q  @@
+eu-elfclassify --no-stdin --print0 --not-matching --print -f --program  @@
+eu-elfclassify -v --no-stdin --matching --no-print --not-matching --elf-archive -q  @@
+eu-elfclassify -v --no-print --print0 -z -q --debug-only  @@
+eu-elfclassify --matching --print0 --executable -z --not-matching --print -q  @@
+eu-elfclassify --print0 --print -f --library -q  @@
+eu-elfclassify --unstripped -z --print -f -q  @@
+eu-elfclassify --matching --print -f --linux-kernel-module -q  @@
+eu-elfclassify --no-print -z --not-matching --print --library -q  @@
+eu-elfclassify -v --matching --no-print -f --linux-kernel-module -q  @@
+eu-elfclassify -v --print0 -z --not-matching --elf-archive -q  @@
+eu-elfclassify -v --no-stdin --no-print --print0 --not-matching --elf-file -q  @@
+eu-elfclassify -z --not-matching --print -f --elf-archive  @@
+eu-elfclassify --no-stdin --no-print --print0 --unstripped --print -q  @@
+eu-elfclassify --matching --no-print -z --not-matching --print --elf-file -q  @@
+eu-elfclassify --not-matching --print -f --elf-archive -q  @@
+eu-elfclassify --print0 --unstripped -z --not-matching --print -q  @@
+eu-elfclassify -v --no-stdin --matching -z -f --elf-file -q  @@
+eu-elfclassify -v --print0 --executable --not-matching -f -q  @@
+eu-elfclassify --core --no-stdin -z --not-matching -f -q  @@
+eu-elfclassify -v --matching --no-print --print0 --unstripped -q  @@
+eu-elfclassify --no-stdin --matching --print0 --not-matching --print --elf -q  @@
+eu-elfclassify --matching --no-print --print0 -z --print --elf-archive  @@
+eu-elfclassify --matching --no-print --print0 --print -f --loadable  @@
+eu-elfclassify -v --no-stdin --no-print --not-matching --print --program -q  @@
+eu-elfclassify -v --no-stdin --print0 -f --program -q  @@
+eu-elfclassify -v --no-stdin --matching -z --not-matching --linux-kernel-module -q  @@
+eu-elfclassify -v --no-stdin --executable --print -f -q  @@
+eu-elfclassify --matching --no-print --unstripped --not-matching --print -q  @@
+eu-elfclassify --matching --print0 -z --not-matching --shared --print  @@
+eu-elfclassify --no-print --print0 -z --not-matching -f --program  @@
+eu-elfclassify -v --matching --print0 --not-matching --print --elf -q  @@
+eu-elfclassify --no-stdin --no-print --unstripped -z --not-matching --print  @@
+eu-elfclassify -v --no-stdin --print0 -z --print --program -q  @@
+eu-elfclassify -v --matching --no-print --print0 -z --loadable -q  @@
+eu-elfclassify --no-stdin --no-print -z --print --library -q  @@
+eu-elfclassify --matching --no-print --print0 -z --not-matching --print --elf  @@
+eu-elfclassify --no-stdin --matching --print0 -f --elf-archive  @@
+eu-elfclassify --no-stdin --no-print --print0 -f --linux-kernel-module  @@
+eu-elfclassify --print0 -z --not-matching --print --library -q  @@
+eu-elfclassify -z --shared --print -f -q  @@
+eu-elfclassify -v --no-stdin --matching -z --print --elf -q  @@
+eu-elfclassify --matching --not-matching --print -f --elf -q  @@
+eu-elfclassify --no-stdin --matching --no-print --print0 -z --shared  @@
+eu-elfclassify --no-stdin --matching --print0 --not-matching -f --program  @@
+eu-elfclassify -v --not-matching --print -f --program -q  @@
+eu-elfclassify -v --no-stdin -z -f --linux-kernel-module -q  @@
+eu-elfclassify --core -z --print -f -q  @@
+eu-elfclassify --no-stdin --matching --no-print --executable -z --not-matching --print  @@
+eu-elfclassify -v --no-print --print0 --unstripped -z -q  @@
+eu-elfclassify -v --core --no-stdin --matching -z --not-matching -q  @@
+eu-elfclassify -v --matching --no-print --unstripped -f -q  @@
+eu-elfclassify --no-stdin --no-print --not-matching -f --library -q  @@
+eu-elfclassify -v --matching --print0 --not-matching --print --elf-file -q  @@
+eu-elfclassify --no-stdin --print -f --library -q  @@
+eu-elfclassify --no-stdin --no-print --print -f --linux-kernel-module  @@
+eu-elfclassify --no-stdin --no-print -z -f -q --debug-only  @@
+eu-elfclassify --no-stdin --no-print -z --not-matching -f --elf-archive  @@
+eu-elfclassify --print0 --not-matching --print -f --linux-kernel-module  @@
+eu-elfclassify -v --print0 --executable -z --not-matching --print -q  @@
+eu-elfclassify -v --no-stdin --no-print --print0 -z --elf-file -q  @@
+eu-elfclassify --no-print --print0 -z --not-matching --print --elf-archive  @@
+eu-elfclassify --matching --no-print --print0 --unstripped -f  @@
+eu-elfclassify --no-stdin --matching --print0 --not-matching --print --elf-file -q  @@
+eu-elfclassify -v --no-print -z --not-matching --print --elf -q  @@
+eu-elfclassify -v -z --not-matching --print --library -q  @@
+eu-elfclassify --no-stdin --print0 -z --not-matching --print --loadable -q  @@
+eu-elfclassify --no-stdin --matching --no-print --print0 -z --library  @@
+eu-elfclassify -v --no-stdin --no-print --print0 --shared -q  @@
+eu-elfclassify -v --core --no-stdin --matching --print -q  @@
+eu-elfclassify --print0 --not-matching -f --elf-archive -q  @@
+eu-elfclassify --print0 -z --not-matching --print -f --program  @@
+eu-elfclassify --no-stdin --matching --no-print --shared --print -q  @@
+eu-elfclassify --no-stdin --matching --no-print -z -f --elf -q  @@
+eu-elfclassify --print0 -z --print -f --elf-archive  @@
+eu-elfclassify -v --matching --no-print --print --library -q  @@
+eu-elfclassify -v --no-stdin -z --not-matching --print --elf-file -q  @@
+eu-elfclassify --matching --no-print --print0 --print -f --elf-file  @@
+eu-elfclassify -v --no-stdin -z --not-matching -f --elf -q  @@
+eu-elfclassify -v --no-stdin --not-matching --print --library -q  @@
+eu-elfclassify --no-stdin --no-print -z -f --library -q  @@
+eu-elfclassify --print0 --not-matching --shared --print -f  @@
+eu-elfclassify --matching -z --not-matching -f --library -q  @@
+eu-elfclassify -v --matching --print0 -f --loadable -q  @@
+eu-elfclassify -v --no-stdin --matching --print0 -z --program -q  @@
+eu-elfclassify --no-stdin --no-print -z --not-matching --print --linux-kernel-module  @@
+eu-elfclassify --print0 -z --not-matching -f --debug-only  @@
+eu-elfclassify --matching --print0 -z --shared -f  @@
+eu-elfclassify --no-stdin --no-print -z --print --linux-kernel-module -q  @@
+eu-elfclassify --no-stdin --matching --no-print --print0 --not-matching --print --elf  @@
+eu-elfclassify --no-stdin --matching --no-print --print0 -z --elf-file -q  @@
+eu-elfclassify -v --matching --print0 --not-matching --print --program -q  @@
+eu-elfclassify --core --no-print --print0 -z --not-matching -q  @@
+eu-elfclassify --core --print0 -z --print -f  @@
+eu-elfclassify --no-stdin --matching --print0 --executable -z --not-matching --print  @@
+eu-elfclassify -v --matching --no-print --not-matching -f --program -q  @@
+eu-elfclassify -v --matching --no-print -z --not-matching --shared -q  @@
+eu-elfclassify --print0 --print -f --linux-kernel-module -q  @@
+eu-elfclassify -v --matching --no-print --print -q --debug-only  @@
+eu-elfclassify --core --matching --no-print -z -f -q  @@
+eu-elfclassify -v --no-stdin --matching --print0 --executable --not-matching -q  @@
+eu-elfclassify --no-stdin --matching --no-print --print0 --not-matching --loadable -q  @@
+eu-elfclassify --no-print --print0 -z --not-matching --print --elf -q  @@
+eu-elfclassify --no-stdin --print0 --unstripped --print -f  @@
+eu-elfclassify -v --no-stdin --matching --no-print --executable -z --not-matching -q  @@
+eu-elfclassify -v --no-stdin --matching -z --print --loadable -q  @@
+eu-elfclassify --no-stdin --no-print -z --not-matching --print --library  @@
+eu-elfclassify -v --no-stdin --matching --no-print --not-matching --library -q  @@
+eu-elfclassify -z --not-matching --print -f --elf -q  @@
+eu-elfclassify --matching -z --not-matching --print --elf-archive -q  @@
+eu-elfclassify -v --no-print --not-matching -f --elf-archive -q  @@
+eu-elfclassify --core --matching --no-print --print -f  @@
+eu-elfclassify -v --no-print --executable -z --not-matching --print -q  @@
+eu-elfclassify --print0 -z --print -f --library  @@
+eu-elfclassify --no-stdin --matching --print -f --program -q  @@
+eu-elfclassify --no-print --print0 -f -q --debug-only  @@
+eu-elfclassify --core --no-stdin --print0 -f -q  @@
+eu-elfclassify -v --print0 -z -f --program -q  @@
+eu-elfclassify -v --print0 --print -f --elf -q  @@
+eu-elfclassify --no-stdin --matching --no-print --print0 --unstripped -q  @@
+eu-elfclassify -v -z --not-matching --shared -f -q  @@
+eu-elfclassify -v --no-print --print0 -z --print --elf-file -q  @@
+eu-elfclassify -v --matching --no-print --not-matching --print --loadable -q  @@
+eu-elfclassify -v --no-stdin --no-print -z -f --program -q  @@
+eu-elfclassify --matching -z --not-matching --print -q --debug-only  @@
+eu-elfclassify --no-stdin --matching --unstripped -z --not-matching -f  @@
+eu-elfclassify -v --core --no-stdin --no-print -f -q  @@
+eu-elfclassify --matching --print0 -z --not-matching --linux-kernel-module -q  @@
+eu-elfclassify --no-stdin --matching --no-print --print0 --executable -f  @@
+eu-elfclassify --no-stdin --no-print --print0 --not-matching --elf-archive -q  @@
+eu-elfclassify --no-stdin --no-print -z --print -q --debug-only  @@
+eu-elfclassify --no-stdin --print0 -z --not-matching --print --debug-only  @@
+eu-elfclassify --matching --no-print -z --not-matching --print --elf-archive  @@
+eu-elfclassify --matching --print0 -z --print -f --elf-file  @@
+eu-elfclassify --no-stdin --no-print --print0 --unstripped -z --not-matching  @@
+eu-elfclassify -v --matching --no-print -z --print --program -q  @@
+eu-elfclassify -v --core --no-print -z -f -q  @@
+eu-elfclassify -v --no-stdin --no-print --print0 --unstripped -q  @@
+eu-elfclassify --no-stdin --no-print -z --not-matching --shared --print  @@
+eu-elfclassify --no-stdin --no-print --print0 -f --loadable -q  @@
+eu-elfclassify --no-stdin --matching --no-print --not-matching --print --library  @@
+eu-elfclassify --print0 --executable -z --not-matching --print -f  @@
+eu-elfclassify -v --no-stdin --matching --not-matching -f --loadable -q  @@
+eu-elfclassify -v --core --print0 -z --print -q  @@
+eu-elfclassify --matching --no-print --print0 --not-matching --print --elf-file -q  @@
+eu-elfclassify --matching --no-print --print0 -z --not-matching --print --elf-file  @@
+eu-elfclassify --matching -z --not-matching --print --library -q  @@
+eu-elfclassify --no-stdin --unstripped -z --not-matching -f -q  @@
+eu-elfclassify -v --no-print --print0 -f --elf -q  @@
+eu-elfclassify -v --no-stdin --no-print --print --elf-archive -q  @@
+eu-elfclassify --no-stdin --matching --print0 -z --print --elf -q  @@
+eu-elfclassify --no-stdin --print0 -z --not-matching --shared --print  @@
+eu-elfclassify --no-stdin -z --not-matching -f --library -q  @@
+eu-elfclassify --print0 --not-matching --print -f --program -q  @@
+eu-elfclassify -v --no-stdin --no-print --print -q --debug-only  @@
+eu-elfclassify --matching --print0 -z -f --loadable  @@
+eu-elfclassify -v --no-print -f -q --debug-only  @@
+eu-elfclassify --matching --no-print --print0 --not-matching --print --program  @@
+eu-elfclassify --matching --no-print -z --print --elf -q  @@
+eu-elfclassify -v --matching -z --not-matching -q --debug-only  @@
+eu-elfclassify -v --matching --print0 --elf-archive -q  @@
+eu-elfclassify --no-stdin --no-print --print0 -z --debug-only  @@
+eu-elfclassify -v -z --not-matching -f --elf-file -q  @@
+eu-elfclassify --no-stdin --no-print --print0 --executable --not-matching --print  @@
+eu-elfclassify --matching --not-matching --print -f --elf-file  @@
+eu-elfclassify --no-print --print -f --elf -q  @@
+eu-elfclassify --matching --no-print --not-matching -f --debug-only  @@
+eu-elfclassify --print -f -q --debug-only  @@
+eu-elfclassify --no-stdin --no-print -z -f --elf-file -q  @@
+eu-elfclassify --print0 --not-matching -f --loadable -q  @@
+eu-elfclassify --no-stdin --no-print -z --not-matching -f --elf  @@
+eu-elfclassify -v --matching --shared --print -q  @@
+eu-elfclassify --no-stdin --no-print --unstripped -f -q  @@
+eu-elfclassify --core --matching --no-print --print0 --print  @@
+eu-elfclassify --no-stdin --print0 -z --library -q  @@
+eu-elfclassify --matching --print0 -f --library  @@
+eu-elfclassify --no-stdin --not-matching --print -f --loadable  @@
+eu-elfclassify --matching --no-print --not-matching -f --elf-archive  @@
+eu-elfclassify --no-stdin --matching --print0 --unstripped --not-matching  @@
+eu-elfclassify --matching --shared --print -f  @@
+eu-elfclassify -v --core --no-stdin --no-print -z -q  @@
+eu-elfclassify --print0 --executable -z -f -q  @@
+eu-elfclassify -z --print -f --elf-file -q  @@
+eu-elfclassify --matching --no-print --print0 -q --debug-only  @@
+eu-elfclassify --no-stdin --matching --no-print -z --shared -q  @@
+eu-elfclassify --matching --no-print -z -f --debug-only  @@
+eu-elfclassify --no-print --print0 --print -f --program  @@
+eu-elfclassify -v --no-stdin --matching --no-print -z --elf-file -q  @@
+eu-elfclassify --matching --no-print --print0 -z --not-matching --loadable  @@
+eu-elfclassify -v --no-stdin --unstripped -z --not-matching -q  @@
+eu-elfclassify --no-print --print0 --not-matching --print --loadable -q  @@
+eu-elfclassify --no-stdin --matching --no-print -z --not-matching --elf -q  @@
+eu-elfclassify --no-stdin --matching --print0 -f --elf-file  @@
+eu-elfclassify -v --matching --print0 --library -q  @@
+eu-elfclassify --no-stdin --executable -z --not-matching --print -q  @@
+eu-elfclassify -v --matching --not-matching --print --loadable -q  @@
+eu-elfclassify --no-stdin --matching --no-print --print0 --elf-archive  @@
+eu-elfclassify --no-stdin --matching --print0 -f --elf  @@
+eu-elfclassify --no-print --print0 --executable -z --not-matching -q  @@
+eu-elfclassify --no-stdin --matching --print0 --print --library  @@
+eu-elfclassify --print0 --executable --not-matching --print -f  @@
+eu-elfclassify --core --no-print -z --not-matching -f  @@
+eu-elfclassify --no-stdin --no-print --print0 -z --not-matching --elf  @@
+eu-elfclassify --no-print --print0 --not-matching --print --debug-only  @@
+eu-elfclassify --matching --print0 -z --elf-archive -q  @@
+eu-elfclassify --no-stdin --no-print -z --not-matching -f --elf-file  @@
+eu-elfclassify --matching --no-print --print --linux-kernel-module -q  @@
+eu-elfclassify --no-stdin -z --not-matching -f --program -q  @@
+eu-elfclassify --print0 --unstripped -z -f  @@
+eu-elfclassify --matching --no-print --shared -f -q  @@
+eu-elfclassify --no-stdin --matching -f -q --debug-only  @@
+eu-elfclassify --not-matching --print -f --library  @@
+eu-elfclassify --no-stdin --matching --no-print --unstripped --not-matching -q  @@
+eu-elfclassify --no-stdin --print0 --not-matching --linux-kernel-module -q  @@
+eu-elfclassify --no-print --print0 -f --elf-archive  @@
+eu-elfclassify --no-stdin --matching --no-print --unstripped -z -q  @@
+eu-elfclassify --matching --no-print --print0 --not-matching --linux-kernel-module  @@
+eu-elfclassify --no-stdin --print0 --print -f --elf  @@
+eu-elfclassify --no-stdin --print0 --not-matching --shared -q  @@
+eu-elfclassify --matching --unstripped -z --not-matching --print  @@
+eu-elfclassify --no-stdin --no-print --executable -z --print -q  @@
+eu-elfclassify -v --no-stdin --no-print --not-matching --linux-kernel-module -q  @@
+eu-elfclassify --no-stdin --matching --unstripped -z -f  @@
+eu-elfclassify --no-stdin --print0 -z --not-matching --program -q  @@
+eu-elfclassify --matching --no-print -z --shared --print  @@
+eu-elfclassify -z --print -f --loadable -q  @@
+eu-elfclassify --core --matching -z --print -q  @@
+eu-elfclassify --no-stdin --print0 -z -f --program  @@
+eu-elfclassify --no-print --print0 --shared --print -q  @@
+eu-elfclassify --no-stdin --not-matching -f --elf-archive -q  @@
+eu-elfclassify --no-stdin --matching --not-matching --shared --print  @@
+eu-elfclassify --no-stdin --no-print --print -f --loadable  @@
+eu-elfclassify --no-stdin --no-print -f --elf-archive -q  @@
+eu-elfclassify --no-stdin -z --not-matching --print --elf -q  @@
+eu-elfclassify --no-stdin --matching --not-matching --print --elf-archive  @@
+eu-elfclassify --matching --no-print --print0 --library -q  @@
+eu-elfclassify --no-print --not-matching --print -f --loadable  @@
+eu-elfclassify --no-stdin --no-print --executable --print -f  @@
+eu-elfclassify --matching --no-print --not-matching --print --library  @@
+eu-elfclassify --matching --no-print --print0 --unstripped --not-matching  @@
+eu-elfclassify --no-stdin --no-print --print0 -z --print --elf  @@
+eu-elfclassify -v --no-stdin --no-print --not-matching -q --debug-only  @@
+eu-elfclassify --print0 -z --not-matching -f --elf  @@
+eu-elfclassify -v --unstripped --not-matching --print -q  @@
+eu-elfclassify --no-stdin --no-print --print0 -f --elf-file  @@
+eu-elfclassify --no-stdin --print0 --executable --not-matching --print -q  @@
+eu-elfclassify --no-stdin --matching --no-print --print0 --print --program  @@
+eu-elfclassify -v --no-stdin --not-matching --print --loadable -q  @@
+eu-elfclassify --matching --print0 -z --not-matching --library  @@
+eu-elfclassify -v --no-print --print --linux-kernel-module -q  @@
+eu-elfclassify --matching --no-print --unstripped -z --print  @@
+eu-elfclassify --no-print --not-matching --shared -f -q  @@
+eu-elfclassify --no-print -z --not-matching --print --program -q  @@
+eu-elfclassify -z --not-matching --shared --print -q  @@
+eu-elfclassify -v --unstripped -z -f -q  @@
+eu-elfclassify -v --no-stdin --matching --print0 --elf-file -q  @@
+eu-elfclassify --matching --no-print --not-matching -f --elf-file -q  @@
+eu-elfclassify --matching --no-print -z --print --loadable -q  @@
+eu-elfclassify --no-stdin --unstripped -z --print -q  @@
+eu-elfclassify --no-print --print0 --executable -z --not-matching --print  @@
+eu-elfclassify --shared --print -f -q  @@
+eu-elfclassify -v --print0 -z --shared -q  @@
+eu-elfclassify --no-stdin --no-print --not-matching -f --loadable -q  @@
+eu-elfclassify --no-print --unstripped -z --not-matching -f  @@
+eu-elfclassify --print0 --not-matching --print -q --debug-only  @@
+eu-elfclassify --no-print --print0 -f --program -q  @@
+eu-elfclassify --matching --no-print --print0 -z --program -q  @@
+eu-elfclassify -v --core -z -f -q  @@
+eu-elfclassify --no-stdin --print0 --shared -f  @@
+eu-elfclassify -z --print -f --elf -q  @@
+eu-elfclassify -v -z --print --library -q  @@
+eu-elfclassify --no-stdin --no-print --print0 --executable --print -q  @@
+eu-elfclassify --no-stdin --no-print --print0 --print --linux-kernel-module  @@
+eu-elfclassify --no-stdin --matching --print0 --not-matching --print --loadable  @@
+eu-elfclassify --print0 --print -f --loadable -q  @@
+eu-elfclassify --no-stdin --matching --print0 -z --loadable -q  @@
+eu-elfclassify --no-stdin -z -f --elf-archive -q  @@
+eu-elfclassify --no-print --not-matching --print -q --debug-only  @@
+eu-elfclassify --no-stdin --print0 --not-matching --print --elf-archive  @@
+eu-elfclassify --no-stdin --matching --print0 --print --debug-only  @@
+eu-elfclassify -v --matching -f -q --debug-only  @@
+eu-elfclassify --matching --no-print --print0 --not-matching --debug-only  @@
+eu-elfclassify --no-print --print0 --executable --not-matching -f  @@
+eu-elfclassify -v --matching --no-print -z --not-matching --elf -q  @@
+eu-elfclassify --core --no-stdin --no-print --print -q  @@
+eu-elfclassify -z --not-matching --print --debug-only  @@
+eu-elfclassify --no-stdin --matching --not-matching --shared -q  @@
+eu-elfclassify --no-stdin --print0 --unstripped -z  @@
+eu-elfclassify -v -z --not-matching --shared -q  @@
+eu-elfclassify --core --matching --no-print -z --not-matching  @@
+eu-elfclassify --print0 -z --linux-kernel-module -q  @@
+eu-elfclassify --no-print --not-matching -f --elf -q  @@
+eu-elfclassify --no-stdin --matching --not-matching --library -q  @@
+eu-elfclassify --no-stdin --matching --no-print --print --elf-file  @@
+eu-elfclassify --no-stdin --matching --print0 -z --elf-file  @@
+eu-elfclassify --no-stdin --matching -z --not-matching --elf-archive  @@
+eu-elfclassify -v --print0 --print --loadable -q  @@
+eu-elfclassify --not-matching --print --linux-kernel-module -q  @@
+eu-elfclassify -v --no-print -z --not-matching --program -q  @@
+eu-elfclassify --no-print -z --not-matching -f --loadable  @@
+eu-elfclassify --core -z -f -q  @@
+eu-elfclassify --no-stdin --matching --no-print -z --linux-kernel-module  @@
+eu-elfclassify -v --no-print --executable --print -q  @@
+eu-elfclassify --matching -f --elf-archive -q  @@
+eu-elfclassify -z --not-matching -f --linux-kernel-module  @@
+eu-elfclassify --no-stdin -z --shared --print  @@
+eu-elfclassify --matching --unstripped --not-matching -f  @@
+eu-elfclassify --core --no-stdin --matching --no-print -q  @@
+eu-elfclassify -v --matching --no-print --executable -z -q  @@
+eu-elfclassify --no-print --print0 -z --print --elf-file  @@
+eu-elfclassify --matching --no-print --not-matching --shared -q  @@
+eu-elfclassify --matching --no-print -z --library -q  @@
+eu-elfclassify --no-stdin --matching -z --not-matching --shared  @@
+eu-elfclassify --matching --print0 -z --print --program  @@
+eu-elfclassify --core --no-stdin --not-matching --print  @@
+eu-elfclassify --no-stdin --no-print --not-matching -f --program  @@
+eu-elfclassify --no-stdin -z --print --linux-kernel-module  @@
+eu-elfclassify -v --no-print -z --linux-kernel-module -q  @@
+eu-elfclassify --print0 -z --print --linux-kernel-module  @@
+eu-elfclassify --print0 -z --not-matching --shared  @@
+eu-elfclassify -v --print0 --shared -q  @@
+eu-elfclassify --core --matching --not-matching -f  @@
+eu-elfclassify --no-print --print0 --elf-archive -q  @@
+eu-elfclassify --matching --executable --not-matching -f -q  @@
+eu-elfclassify --core --no-stdin --print0 -z  @@
+eu-elfclassify --no-stdin --matching --no-print --print --elf  @@
+eu-elfclassify --no-stdin --matching -f --linux-kernel-module  @@
+eu-elfclassify -v --print0 --linux-kernel-module -q  @@
+eu-elfclassify --matching --print0 --executable -f  @@
+eu-elfclassify --no-print -z --shared -f  @@
+eu-elfclassify --no-stdin --no-print --print --elf-file -q  @@
+eu-elfclassify --no-stdin --matching -f --loadable -q  @@
+eu-elfclassify --no-stdin --matching -z --not-matching --elf-file -q  @@
+eu-elfclassify --no-stdin --matching --not-matching -f --elf  @@
+eu-elfclassify --no-stdin --print0 -q --debug-only  @@
+eu-elfclassify --no-stdin --matching --print --debug-only  @@
+eu-elfclassify --matching --print0 --not-matching --elf-archive  @@
+eu-elfclassify --matching --print0 --unstripped --print  @@
+eu-elfclassify --matching --print0 -z --elf -q  @@
+eu-elfclassify --no-stdin --no-print --executable -f -q  @@
+eu-elfclassify --core --matching --print0 --not-matching  @@
+eu-elfclassify -v --matching --executable -f -q  @@
+eu-elfclassify -v --matching --print0 --executable -q  @@
+eu-elfclassify -v --matching --not-matching --linux-kernel-module -q  @@
+eu-elfclassify --no-print --print0 --not-matching --print --elf-file  @@
+eu-elfclassify -v --not-matching -f --loadable -q  @@
+eu-elfclassify --no-print -z --not-matching --elf-archive -q  @@
+eu-elfclassify -v -f --library -q  @@
+eu-elfclassify -v --matching -z --linux-kernel-module -q  @@
+eu-elfclassify --print0 --unstripped --not-matching -q  @@
+eu-elfclassify -v --no-stdin --matching --elf-archive -q  @@
+eu-elfclassify --core --no-stdin --matching -z --not-matching  @@
+eu-elfclassify --matching --print0 --shared -q  @@
+eu-elfclassify -v --print0 --executable --print -q  @@
+eu-elfclassify --matching --no-print --not-matching -f --loadable  @@
+eu-elfclassify --not-matching --print -f --elf-file  @@
+eu-elfclassify --no-stdin -z -f --loadable -q  @@
+eu-elfclassify -v --matching -z --not-matching --loadable -q  @@
+eu-elfclassify --no-stdin --matching --shared -f  @@
+eu-elfclassify --no-print -z -f --loadable -q  @@
+eu-elfclassify --no-print --print0 -z --program -q  @@
+eu-elfclassify --matching --no-print --print0 --executable --not-matching  @@
+eu-elfclassify -v --matching -f --elf -q  @@
+eu-elfclassify --matching --no-print --executable -z -f  @@
+eu-elfclassify --matching --no-print -z --not-matching --debug-only  @@
+eu-elfclassify --no-stdin --matching --no-print -q --debug-only  @@
+eu-elfclassify --core --matching --no-print --not-matching -q  @@
+eu-elfclassify --no-stdin --no-print -z -f --elf-file  @@
+eu-elfclassify --matching --print0 --print --elf-archive  @@
+eu-elfclassify --no-print --unstripped --print -q  @@
+eu-elfclassify --print0 -f --elf-file -q  @@
+eu-elfclassify --core --not-matching --print -q  @@
+eu-elfclassify -v --print0 -z --elf -q  @@
+eu-elfclassify --no-print --unstripped --not-matching --print  @@
+eu-elfclassify --no-print -f --linux-kernel-module -q  @@
+eu-elfclassify --matching --print0 --unstripped -z  @@
+eu-elfclassify --no-stdin -z --print --elf-file -q  @@
+eu-elfclassify --no-stdin --print0 --not-matching --elf -q  @@
+eu-elfclassify --no-stdin -z -f --library  @@
+eu-elfclassify --no-stdin --print0 --print --elf -q  @@
+eu-elfclassify --matching --no-print --print --elf-archive  @@
+eu-elfclassify --no-print -z --not-matching --linux-kernel-module -q  @@
+eu-elfclassify -v --no-stdin --no-print --executable --not-matching -q  @@
+eu-elfclassify --no-stdin --matching --executable --not-matching -f  @@
+eu-elfclassify --print0 --not-matching -f --program  @@
+eu-elfclassify --no-stdin --print0 --print --elf-file -q  @@
+eu-elfclassify --matching -z -f --program -q  @@
+eu-elfclassify --no-stdin --matching --no-print -z --not-matching --loadable  @@
+eu-elfclassify -v --no-stdin --not-matching --shared -q  @@
+eu-elfclassify -z -f --linux-kernel-module -q  @@
+eu-elfclassify --matching --no-print --print --linux-kernel-module  @@
+eu-elfclassify --executable -z --not-matching -f -q  @@
+eu-elfclassify --no-stdin --print0 --executable -z --print  @@
+eu-elfclassify --matching --no-print -z --not-matching --elf-file  @@
+eu-elfclassify -v --no-stdin -z --loadable -q  @@
+eu-elfclassify --matching --print0 --debug-only  @@
+eu-elfclassify --core --print0 -q  @@
+eu-elfclassify --no-print --print0 --executable -z  @@
+eu-elfclassify --no-stdin --matching --executable -z -q  @@
+eu-elfclassify --no-stdin --no-print --print0 --loadable  @@
+eu-elfclassify --no-stdin --no-print --print0 --program  @@
+eu-elfclassify --no-print -z --print --loadable  @@
+eu-elfclassify -v --no-stdin --executable -z -q  @@
+eu-elfclassify --no-stdin --executable -z -f  @@
+eu-elfclassify -v -z --not-matching --elf -q  @@
+eu-elfclassify --print0 --print --program -q  @@
+eu-elfclassify --no-print --print0 --elf -q  @@
+eu-elfclassify --matching --print0 --linux-kernel-module  @@
+eu-elfclassify --no-stdin --matching -z --debug-only  @@
+eu-elfclassify --no-stdin -f --elf -q  @@
+eu-elfclassify --no-stdin --print --elf-archive  @@
+eu-elfclassify --matching --no-print --unstripped -z  @@
+eu-elfclassify --print0 -z --loadable -q  @@
+eu-elfclassify --print0 -z --not-matching --elf-file  @@
+eu-elfclassify --no-stdin --print0 --executable -q  @@
+eu-elfclassify -v --no-stdin -z --elf-file -q  @@
+eu-elfclassify --matching --print0 --not-matching --loadable  @@
+eu-elfclassify -v --core --not-matching -q  @@
+eu-elfclassify --no-stdin --matching --no-print -z --program  @@
+eu-elfclassify --matching --not-matching --print --program  @@
+eu-elfclassify --no-print --unstripped -f  @@
+eu-elfclassify -v --no-stdin --no-print --loadable -q  @@
+eu-elfclassify --no-stdin --print --program -q  @@
+eu-elfclassify --no-stdin --matching --print --loadable  @@
+eu-elfclassify --print0 -z --library  @@
+eu-elfclassify --no-stdin -z --print --program  @@
+eu-elfclassify -v --no-stdin --not-matching --program -q  @@
+eu-elfclassify --print --elf-archive -q  @@
+eu-elfclassify --no-stdin --no-print --not-matching --program -q  @@
+eu-elfclassify --core --matching --print  @@
+eu-elfclassify --no-stdin --print0 --print --elf  @@
+eu-elfclassify --no-stdin --print0 -z --loadable  @@
+eu-elfclassify --no-stdin --no-print --executable -z --not-matching  @@
+eu-elfclassify --no-stdin --matching --not-matching --linux-kernel-module  @@
+eu-elfclassify --no-stdin --print0 --print --loadable  @@
+eu-elfclassify --print0 --not-matching --print --loadable  @@
+eu-elfclassify -v --no-stdin --unstripped -q  @@
+eu-elfclassify -v --no-stdin --no-print --elf -q  @@
+eu-elfclassify --matching --no-print -f --elf  @@
+eu-elfclassify -v --no-print --not-matching --elf-file -q  @@
+eu-elfclassify --matching --print0 --print --elf-file  @@
+eu-elfclassify -v -z --not-matching --program -q  @@
+eu-elfclassify --no-print --not-matching --shared -q  @@
+eu-elfclassify -v -f --elf-file -q  @@
+eu-elfclassify --core -z --not-matching -q  @@
+eu-elfclassify -v --no-stdin --matching --loadable -q  @@
+eu-elfclassify --no-print --print --library  @@
+eu-elfclassify --no-print --not-matching --print --elf  @@
+eu-elfclassify -v --matching -z --elf-file -q  @@
+eu-elfclassify --matching --no-print --print0 --elf-file  @@
+eu-elfclassify --matching --print0 --shared  @@
+eu-elfclassify --print0 --library -q  @@
+eu-elfclassify --no-stdin --matching --no-print --linux-kernel-module  @@
+eu-elfclassify --no-stdin -z --not-matching --elf -q  @@
+eu-elfclassify --matching --unstripped -q  @@
+eu-elfclassify --no-stdin --matching --no-print --executable  @@
+eu-elfclassify --no-stdin --matching -z --elf  @@
+eu-elfclassify --matching --not-matching --loadable -q  @@
+eu-elfclassify --executable -z --print  @@
+eu-elfclassify --print0 --not-matching --elf  @@
+eu-elfclassify --no-print --not-matching --elf-archive  @@
+eu-elfclassify --no-stdin --no-print --library  @@
+eu-elfclassify --matching --no-print --elf-file -q  @@
+eu-elfclassify -v --no-print --program -q  @@
+eu-elfclassify --not-matching -q --debug-only  @@
+eu-elfclassify --matching --executable --print  @@
+eu-elfclassify --no-stdin -f --elf-file  @@
+eu-elfclassify --matching --no-print --loadable -q  @@
+eu-elfclassify --not-matching --library -q  @@
+eu-elfclassify --no-stdin --no-print --shared  @@
+eu-elfclassify --no-stdin -z --not-matching --loadable  @@
+eu-elfclassify --no-print --not-matching --linux-kernel-module  @@
+eu-elfclassify --matching --no-print --executable -q  @@
+eu-elfclassify --no-stdin --no-print --not-matching --elf-file  @@
+eu-elfclassify --matching --no-print --not-matching --program  @@
+eu-elfclassify --no-stdin --no-print --unstripped  @@
+eu-elfclassify --not-matching --print --elf  @@
+eu-elfclassify --matching -f --program  @@
+eu-elfclassify -z -q --debug-only  @@
+eu-elfclassify -f --debug-only  @@
+eu-elfclassify --matching -f --elf-file  @@
+eu-elfclassify -v --executable --not-matching -q  @@
+eu-elfclassify -z --not-matching --shared  @@
+eu-elfclassify --print0 --print --elf  @@
+eu-elfclassify --matching --program -q  @@
+eu-elfclassify --not-matching --elf-file -q  @@
+eu-elfclassify --shared -q  @@
+eu-elfclassify --matching --elf -q  @@
+eu-elfclassify --core --no-print  @@
+eu-elfclassify -z --not-matching --program  @@
+eu-elfclassify -z --library  @@
+eu-elfclassify -z --elf-archive  @@
+eu-elfclassify --no-print -z --elf-file  @@
+eu-elfclassify --print --elf-file  @@
+eu-elfclassify --core --no-stdin  @@
+eu-elfclassify --executable --not-matching  @@
+eu-elfclassify -z --elf  @@
+eu-elfclassify --loadable -q  @@
+eu-elfclassify --no-print --executable  @@
+eu-elfclassify --program  @@
+eu-elfclassify --loadable  @@
+eu-elfclassify  @@

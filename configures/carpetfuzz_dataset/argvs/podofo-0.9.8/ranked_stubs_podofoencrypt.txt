@@ -1,0 +1,204 @@
+203
+podofoencrypt -u 123456 --accessible --edit --rc4v1 --highprint --print --copy --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --edit --highprint --fillandsign --print --rc4v2 --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --edit --fillandsign --print --copy --rc4v2 --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --edit --rc4v1 --fillandsign --print --copy --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --highprint --fillandsign --print --copy --rc4v2 --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --edit --highprint --fillandsign --copy --rc4v2 --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --highprint --fillandsign --print --copy --rc4v2 --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --edit --highprint --fillandsign --rc4v2 --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --edit --rc4v1 --highprint --fillandsign --print --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --edit --rc4v1 --highprint --fillandsign --print --copy  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --edit --highprint --fillandsign --copy --rc4v2 --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --edit --rc4v1 --highprint --fillandsign --print --copy --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --rc4v1 --highprint --print --copy --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --rc4v1 --highprint --print --copy --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --fillandsign --copy --rc4v2 --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --edit --rc4v1 --fillandsign --print --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --edit --print --rc4v2 --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --edit --highprint --print --copy --rc4v2  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --highprint --fillandsign --print --copy --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --highprint --fillandsign --rc4v2 --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --rc4v1 --fillandsign --print --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --edit --highprint --print --copy --rc4v2 --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --edit --rc4v1 --highprint --copy --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --edit --rc4v1 --fillandsign --print --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --rc4v1 --fillandsign --print --copy --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --edit --highprint --print --copy --rc4v2 --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --edit --rc4v1 --highprint --fillandsign --copy --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --edit --highprint --fillandsign --copy --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --rc4v1 --highprint --fillandsign --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --print --copy --rc4v2 --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --edit --highprint --fillandsign --copy --rc4v2  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --edit --rc4v1 --highprint --fillandsign --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --highprint --copy --rc4v2 --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --edit --highprint --fillandsign --print --copy --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --edit --rc4v1 --highprint --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --edit --rc4v1 --highprint --fillandsign --print --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --edit --fillandsign --print --copy --rc4v2 --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --edit --highprint --fillandsign --print --rc4v2  -o 123456 @@ /tmp/foo
+podofoencrypt --edit --highprint --fillandsign --copy --rc4v2 --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --edit --rc4v1 --copy --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --edit --rc4v1 --highprint --fillandsign --copy  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --edit --highprint --fillandsign --print --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --rc4v1 --highprint --fillandsign --print --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --edit --highprint --print --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --edit --print --copy --rc4v2 --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --edit --rc4v1 --highprint --fillandsign  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --edit --rc4v1 --highprint --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --rc4v1 --highprint --print --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --edit --highprint --fillandsign --print --rc4v2 --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --highprint --fillandsign --print --rc4v2 --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --rc4v1 --highprint --print --copy  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --rc4v1 --highprint --fillandsign --copy --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt --rc4v1 --highprint --fillandsign --print --copy --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --edit --rc4v1 --print --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --edit --fillandsign --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --edit --rc4v1 --highprint --fillandsign --print --copy --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --edit --highprint --print --rc4v2 --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --rc4v1 --fillandsign --copy --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --edit --fillandsign --copy --rc4v2 --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --edit --print --copy --rc4v2  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --edit --copy --rc4v2 --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --edit --rc4v1 --print --copy  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --highprint --print --rc4v2 --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --rc4v1 --highprint --copy --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --rc4v1 --fillandsign --print --copy --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --edit --print --copy --rc4v2 --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --rc4v1 --highprint --fillandsign --print --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --highprint --fillandsign --print --copy --rc4v2  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --edit --highprint --fillandsign --print --copy --rc4v2  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --edit --rc4v1 --highprint --print --copy --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --edit --rc4v1 --highprint --fillandsign --print --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --edit --rc4v1 --copy --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --edit --copy --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --edit --rc4v1 --highprint --print --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt --edit --highprint --fillandsign --print --copy --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --edit --fillandsign --rc4v2 --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --edit --highprint --print --rc4v2 --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --print --rc4v2 --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --rc4v1 --fillandsign --print --copy --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --edit --highprint --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --print --copy --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --edit --fillandsign --print --rc4v2 --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --edit --fillandsign --print --copy  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --highprint --print --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --edit --rc4v1 --fillandsign --print --copy  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --highprint --fillandsign --print --copy --rc4v2  -o 123456 @@ /tmp/foo
+podofoencrypt --highprint --fillandsign --print --copy --rc4v2 --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --print --copy --rc4v2 --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --fillandsign --copy --rc4v2  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --highprint --copy --rc4v2 --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --rc4v1 --print --copy --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --edit --rc4v1 --fillandsign --print --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --fillandsign --print --copy --rc4v2 --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --edit --rc4v1 --fillandsign --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --fillandsign --print --rc4v2 --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --edit --rc4v1 --print --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --edit --rc4v1 --highprint --fillandsign --copy --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --highprint --fillandsign --print --rc4v2 --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --edit --rc4v2 --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --fillandsign --print --rc4v2  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --rc4v1 --fillandsign --copy --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --edit --highprint --fillandsign --print --copy  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --edit --print --copy  -o 123456 @@ /tmp/foo
+podofoencrypt --edit --rc4v1 --highprint --copy --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --edit --fillandsign --rc4v2 --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --edit --rc4v1 --highprint --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --edit --print --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt --edit --highprint --fillandsign --print --rc4v2 --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --highprint --print --rc4v2 --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --fillandsign --copy --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --edit --rc4v1 --fillandsign --copy --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --highprint --fillandsign --copy --rc4v2 --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --edit --highprint --copy --rc4v2  -o 123456 @@ /tmp/foo
+podofoencrypt --edit --fillandsign --print --copy --rc4v2 --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --fillandsign --print --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --edit --print --copy --rc4v2 --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --rc4v1 --print --copy --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --rc4v1 --highprint --fillandsign --print --copy --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --rc4v1 --highprint --fillandsign --copy  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --fillandsign --print --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --rc4v1 --highprint --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --edit --rc4v1 --print --copy --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --highprint --copy --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --rc4v1 --highprint --fillandsign --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --rc4v1 --highprint --fillandsign --print  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --rc4v1 --highprint --print --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --edit --copy --rc4v2 --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --edit --fillandsign --copy --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --edit --rc4v1 --highprint --copy  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --fillandsign --rc4v2 --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --edit --highprint --rc4v2 --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --edit --fillandsign --print --rc4v2  -o 123456 @@ /tmp/foo
+podofoencrypt --edit --highprint --copy --rc4v2 --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --edit --rc4v1 --print --copy --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt --highprint --fillandsign --copy --rc4v2 --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --rc4v1 --fillandsign --copy --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --highprint --copy --rc4v2 --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --highprint --rc4v2 --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --rc4v1 --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --edit --rc4v2  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --rc4v1 --fillandsign  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --rc4v1 --copy --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt --fillandsign --print --copy --rc4v2 --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --edit --highprint --fillandsign --rc4v2 --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --rc4v1 --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --edit --rc4v1 --highprint --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --edit --rc4v1 --fillandsign --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --edit --highprint --copy --rc4v2 --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --highprint --rc4v2  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --highprint --fillandsign --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --rc4v1 --highprint --fillandsign --print --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --print --rc4v2 --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --edit --highprint --print --copy --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --copy --rc4v2  -o 123456 @@ /tmp/foo
+podofoencrypt --edit --rc4v1 --fillandsign --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --rc4v1 --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --copy --rc4v2 --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --edit --fillandsign --copy --rc4v2  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --rc4v1 --print  -o 123456 @@ /tmp/foo
+podofoencrypt --edit --rc4v1 --highprint --print  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --edit --rc4v2 --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt --edit --highprint --fillandsign --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --fillandsign --print --rc4v2 --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --highprint --copy  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --highprint --fillandsign --rc4v2  -o 123456 @@ /tmp/foo
+podofoencrypt --fillandsign --rc4v2 --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --edit --rc4v1 --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --rc4v1 --highprint --copy --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --highprint --fillandsign --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --fillandsign --copy --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --edit --rc4v1  -o 123456 @@ /tmp/foo
+podofoencrypt --rc4v1 --highprint --print --copy  -o 123456 @@ /tmp/foo
+podofoencrypt --highprint --print --copy --rc4v2  -o 123456 @@ /tmp/foo
+podofoencrypt --rc4v1 --highprint --print --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --edit --highprint --assemble --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --accessible --fillandsign  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --rc4v1 --print --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --highprint --rc4v2 --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt --print --copy --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt -u 123456 --fillandsign  -o 123456 @@ /tmp/foo
+podofoencrypt --edit --print --rc4v2  -o 123456 @@ /tmp/foo
+podofoencrypt --rc4v1 --fillandsign --print  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --print --rc4v2  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --rc4v2 --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --highprint --print  -o 123456 @@ /tmp/foo
+podofoencrypt --edit --print --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --rc4v1 --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --copy --rc4v2  -o 123456 @@ /tmp/foo
+podofoencrypt --print --rc4v2 --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt --highprint --fillandsign --rc4v2  -o 123456 @@ /tmp/foo
+podofoencrypt --rc4v1 --copy --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --highprint --fillandsign --print  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --highprint --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --edit --rc4v1  -o 123456 @@ /tmp/foo
+podofoencrypt --print --copy --rc4v2  -o 123456 @@ /tmp/foo
+podofoencrypt --accessible --edit  -o 123456 @@ /tmp/foo
+podofoencrypt --print --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --rc4v1 --copy  -o 123456 @@ /tmp/foo
+podofoencrypt --rc4v1 --highprint  -o 123456 @@ /tmp/foo
+podofoencrypt --fillandsign --assemble  -o 123456 @@ /tmp/foo
+podofoencrypt --copy --editnotes  -o 123456 @@ /tmp/foo
+podofoencrypt --edit  -o 123456 @@ /tmp/foo
+podofoencrypt  -o 123456 @@ /tmp/foo

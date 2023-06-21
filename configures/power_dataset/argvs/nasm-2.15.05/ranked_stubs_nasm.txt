@@ -1,0 +1,538 @@
+537
+nasm -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -F stabs -D macro=hello -f elf32 -I /tmp/ -t -U macro -s  @@ -o /tmp/foo
+nasm -g -MQ /tmp/foo.mq -w-macro-params -MT /tmp/foo.mt -MD /tmp/foo.md -X gnu -D macro=hello -I /tmp/ -t -s --prefix -a  @@ -o /tmp/foo
+nasm -g -w-macro-params -MD /tmp/foo.md -f coff -U macro -s  @@ -o /tmp/foo
+nasm -g -MF /tmp/foo.mf -X gnu -I /tmp/ -t  @@ -o /tmp/foo
+nasm  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -g -MF /tmp/foo.mf -w-macro-params -D macro=hello -t -U macro -s --prefix -a  @@ -o /tmp/foo
+nasm -Ox -E -MQ /tmp/foo.mq -MT /tmp/foo.mt -D macro=hello -f coff -t -U macro -s --prefix -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -w-macro-params -MT /tmp/foo.mt -MD /tmp/foo.md -X vc -f as86 -t -U macro --prefix -a  @@ -o /tmp/foo
+nasm -E -g -MQ /tmp/foo.mq -w-macro-params -M -MT /tmp/foo.mt -X gnu -t -U macro -s --prefix -a  @@ -o /tmp/foo
+nasm -Ox -MQ /tmp/foo.mq -MF /tmp/foo.mf -F dwarf -MP -M -MT /tmp/foo.mt -D macro=hello -f elf64 -I /tmp/ -t -U macro --prefix -a  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -E -g -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -MP -MT /tmp/foo.mt -X gnu -f macho -t -s  @@ -o /tmp/foo
+nasm -g -MQ /tmp/foo.mq -w-macro-params -MP -M -MT /tmp/foo.mt -D macro=hello -f elfx32 -t -U macro  @@ -o /tmp/foo
+nasm -Ox -E -g -MF /tmp/foo.mf -w-macro-params -M -D macro=hello -f win64 -U macro --prefix -a  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -MF /tmp/foo.mf -MP -M -MT /tmp/foo.mt -X vc -D macro=hello -t -U macro -s --prefix -a  @@ -o /tmp/foo
+nasm -O2 -E -g -MQ /tmp/foo.mq -MF /tmp/foo.mf -M -MT /tmp/foo.mt -X vc -D macro=hello -I /tmp/ -U macro -s --prefix -a  @@ -o /tmp/foo
+nasm -Ox -E -MQ /tmp/foo.mq -w-macro-params -MP -MD /tmp/foo.md -X vc -D macro=hello -s --prefix -a  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -E -g -w-macro-params -MP -M -MT /tmp/foo.mt -X vc -I /tmp/ -U macro --prefix -a  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -E -g -w-macro-params -MD /tmp/foo.md -f bin -I /tmp/ --prefix -a  @@ -o /tmp/foo
+nasm -Ox -g -MQ /tmp/foo.mq -w-macro-params -MP -M -X vc -D macro=hello -I /tmp/ -t -s  @@ -o /tmp/foo
+nasm -O2 -g -MF /tmp/foo.mf -M -X vc -t -s --prefix -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -g -MQ /tmp/foo.mq -MP -MD /tmp/foo.md -f elfx32 -U macro  @@ -o /tmp/foo
+nasm -O2 -Z /tmp/foo.err -E -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -M -MT /tmp/foo.mt -f macho64  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -g -MF /tmp/foo.mf -M -MT /tmp/foo.mt -X vc -f win -I /tmp/ -U macro -s  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -E -g -MQ /tmp/foo.mq -MF /tmp/foo.mf -MP -M -D macro=hello -f win  @@ -o /tmp/foo
+nasm -E -MF /tmp/foo.mf -M -X vc -D macro=hello -I /tmp/ -s  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -g -MD /tmp/foo.md -f as86 -I /tmp/ -t -U macro -s -a  @@ -o /tmp/foo
+nasm -O2 -g -MP -MT /tmp/foo.mt -MD /tmp/foo.md -X vc -t -U macro -s -a  @@ -o /tmp/foo
+nasm -O1 -E -g -MG /tmp/foo.mg -w-macro-params -MP -MD /tmp/foo.md -X vc -D macro=hello -f win64 -I /tmp/ -t -U macro -s --prefix  @@ -o /tmp/foo
+nasm -MG /tmp/foo.mg -MQ /tmp/foo.mq -w-macro-params -MD /tmp/foo.md -f as86 -I /tmp/ -t -U macro --prefix  @@ -o /tmp/foo
+nasm -O1 -E -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -X gnu -D macro=hello -f coff -I /tmp/ -U macro -s --prefix -a  @@ -o /tmp/foo
+nasm -O1 -E -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -w-macro-params -MT /tmp/foo.mt -MD /tmp/foo.md -D macro=hello -U macro --prefix  @@ -o /tmp/foo
+nasm -MG /tmp/foo.mg -w-macro-params -F dwarf -MP -MT /tmp/foo.mt -X gnu -D macro=hello -f macho32 -I /tmp/ --prefix  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -MP -MT /tmp/foo.mt -X gnu -D macro=hello --prefix  @@ -o /tmp/foo
+nasm -Ox -E -g -MG /tmp/foo.mg -MP -MD /tmp/foo.md -I /tmp/ -U macro --prefix  @@ -o /tmp/foo
+nasm -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -MP -M -MT /tmp/foo.mt -f win32 -I /tmp/ -t -U macro -s --prefix  @@ -o /tmp/foo
+nasm -O2 -E -g -MQ /tmp/foo.mq -w-macro-params -MD /tmp/foo.md -X gnu -t -U macro -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -MG /tmp/foo.mg -w-macro-params -MP -MT /tmp/foo.mt -MD /tmp/foo.md -X vc -D macro=hello -U macro --prefix  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -g -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -M -I /tmp/ -U macro -s --prefix  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -g -MF /tmp/foo.mf -w-macro-params -MP -M -MT /tmp/foo.mt -D macro=hello -f bin -I /tmp/ -s --prefix  @@ -o /tmp/foo
+nasm -Ox -E -g -MQ /tmp/foo.mq -MF /tmp/foo.mf -MP -MT /tmp/foo.mt -f macho -I /tmp/ -t -U macro --prefix  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -X gnu -f dbg -t -U macro -s --prefix  @@ -o /tmp/foo
+nasm -Ox -E -g -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -M -X gnu -f elf32 -t -U macro -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -g -MQ /tmp/foo.mq -w-macro-params -MP -MT /tmp/foo.mt -MD /tmp/foo.md -X vc -t -U macro --prefix  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -w-macro-params -MP -I /tmp/ -U macro -s  @@ -o /tmp/foo
+nasm -E -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -MP -MT /tmp/foo.mt -t -U macro --prefix -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -MG /tmp/foo.mg -MQ /tmp/foo.mq -w-macro-params -MP -MD /tmp/foo.md -D macro=hello -I /tmp/ -t -s  @@ -o /tmp/foo
+nasm -E -g -MQ /tmp/foo.mq -MP -MT /tmp/foo.mt -MD /tmp/foo.md -X vc -f as86 -s -a  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -MD /tmp/foo.md -I /tmp/ --prefix -a  @@ -o /tmp/foo
+nasm -O2 -Z /tmp/foo.err -E -g -MQ /tmp/foo.mq -M -MT /tmp/foo.mt -X vc -D macro=hello -I /tmp/ -a  @@ -o /tmp/foo
+nasm -E -g -MQ /tmp/foo.mq -MP -M -D macro=hello -f macho32 -I /tmp/ -t -U macro -s -a  @@ -o /tmp/foo
+nasm -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -M -MT /tmp/foo.mt -X gnu -f dbg -s -a  @@ -o /tmp/foo
+nasm -g -MG /tmp/foo.mg -MF /tmp/foo.mf -w-macro-params -MP -MT /tmp/foo.mt -f obj -t -U macro -s --prefix -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -g -MG /tmp/foo.mg -MF /tmp/foo.mf -MT /tmp/foo.mt -f dbg -I /tmp/ -s --prefix -a  @@ -o /tmp/foo
+nasm -MG /tmp/foo.mg -w-macro-params -MP -MD /tmp/foo.md -I /tmp/ --prefix -a  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -g -w-macro-params -MP -MD /tmp/foo.md -X vc -D macro=hello -f ieee -t --prefix  @@ -o /tmp/foo
+nasm -g -MP -MD /tmp/foo.md -X vc -D macro=hello -f win64 -I /tmp/ -U macro --prefix  @@ -o /tmp/foo
+nasm -Ox -g -MF /tmp/foo.mf -MP -M -X gnu -f ith -I /tmp/ -t --prefix  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -E -M -D macro=hello -f obj -I /tmp/ -U macro -a  @@ -o /tmp/foo
+nasm -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -MP -MT /tmp/foo.mt -f macho32 -t --prefix  @@ -o /tmp/foo
+nasm -O2 -E -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -MP -X gnu -D macro=hello -t --prefix -a  @@ -o /tmp/foo
+nasm -E -MT /tmp/foo.mt -MD /tmp/foo.md -D macro=hello -f dbg -I /tmp/ -U macro --prefix  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -w-macro-params -MT /tmp/foo.mt -MD /tmp/foo.md -U macro -s --prefix  @@ -o /tmp/foo
+nasm -g -MF /tmp/foo.mf -MP -M -MT /tmp/foo.mt -X vc -D macro=hello -f dbg -t -s -a  @@ -o /tmp/foo
+nasm -E -g -MG /tmp/foo.mg -w-macro-params -MP -f as86 -U macro -s --prefix -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -g -MG /tmp/foo.mg -MT /tmp/foo.mt -MD /tmp/foo.md -X gnu -f ith -I /tmp/ -t -U macro -s  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -MF /tmp/foo.mf -F dwarf -MP -M -f elf64 -I /tmp/ -s -a  @@ -o /tmp/foo
+nasm -Ox -g -MQ /tmp/foo.mq -MF /tmp/foo.mf -M -f macho -t -s -a  @@ -o /tmp/foo
+nasm -MF /tmp/foo.mf -w-macro-params -F dwarf -MP -M -X vc -f elf32 -s --prefix  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -MT /tmp/foo.mt -MD /tmp/foo.md -D macro=hello -f win32 --prefix -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -g -MQ /tmp/foo.mq -MP -M -MT /tmp/foo.mt -t -a  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -MD /tmp/foo.md -D macro=hello -t -U macro -s  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -g -MG /tmp/foo.mg -MF /tmp/foo.mf -w-macro-params -X vc -D macro=hello -f elf -s  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -g -MG /tmp/foo.mg -MD /tmp/foo.md -X vc -D macro=hello -I /tmp/ -s  @@ -o /tmp/foo
+nasm -O2 -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -X vc --prefix -a  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -E -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -MP -D macro=hello -f macho64 -I /tmp/ -t -a  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -E -g -MG /tmp/foo.mg -MF /tmp/foo.mf -MT /tmp/foo.mt -X gnu -U macro -s  @@ -o /tmp/foo
+nasm -O2 -Z /tmp/foo.err -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -w-macro-params -MP -MD /tmp/foo.md -X vc -D macro=hello -I /tmp/ -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -g -M -D macro=hello --prefix  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -MT /tmp/foo.mt -MD /tmp/foo.md -I /tmp/ -U macro -s -a  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -MG /tmp/foo.mg -MT /tmp/foo.mt -X gnu -D macro=hello -I /tmp/ -t -U macro -s -a  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -E -MG /tmp/foo.mg -MQ /tmp/foo.mq -w-macro-params -F debug -MT /tmp/foo.mt -MD /tmp/foo.md -f elfx32 -I /tmp/ -t -U macro -s --prefix -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -MT /tmp/foo.mt -X vc -D macro=hello -f dbg -I /tmp/ -t -U macro -gformat --prefix  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -E -g -w-macro-params -MD /tmp/foo.md -X gnu -f ieee -I /tmp/ -t -U macro -s -gformat --prefix -a  @@ -o /tmp/foo
+nasm -O1 -g -w-macro-params -M -MT /tmp/foo.mt -X gnu -D macro=hello -f obj -I /tmp/ -U macro -gformat --prefix -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -MG /tmp/foo.mg -MQ /tmp/foo.mq -MP -MD /tmp/foo.md -X vc -D macro=hello -s -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -F ladsoft -MP -M -MT /tmp/foo.mt -X gnu -D macro=hello -f srec -I /tmp/ -t -U macro -s -gformat --prefix  @@ -o /tmp/foo
+nasm -E -g -MG /tmp/foo.mg -MF /tmp/foo.mf -MP -X vc -D macro=hello -f dbg -t -U macro -s -a  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -E -MG /tmp/foo.mg -MQ /tmp/foo.mq -w-macro-params -F ladsoft -MP -MD /tmp/foo.md -D macro=hello -f aoutb -I /tmp/ -gformat --prefix -a  @@ -o /tmp/foo
+nasm -O2 -Z /tmp/foo.err -E -MG /tmp/foo.mg -MF /tmp/foo.mf -w-macro-params -F debug -X gnu -I /tmp/ -t -s -gformat --prefix -a  @@ -o /tmp/foo
+nasm -O1 -E -g -w-macro-params -MP -MT /tmp/foo.mt -MD /tmp/foo.md -f win -I /tmp/ -t -s -gformat --prefix -a  @@ -o /tmp/foo
+nasm -O2 -Z /tmp/foo.err -E -g -MQ /tmp/foo.mq -MF /tmp/foo.mf -MP -M -X gnu -D macro=hello -I /tmp/ -t -U macro -s -gformat --prefix  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -g -MG /tmp/foo.mg -MF /tmp/foo.mf -w-macro-params -MT /tmp/foo.mt -X vc -f elfx32 -I /tmp/ -s -gformat --prefix -a  @@ -o /tmp/foo
+nasm -O1 -E -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -F ladsoft -M -MT /tmp/foo.mt -X vc -f as86 -I /tmp/ --prefix -a  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -g -MP -MT /tmp/foo.mt -MD /tmp/foo.md -X gnu -D macro=hello -f as86 -I /tmp/ -s -gformat --prefix -a  @@ -o /tmp/foo
+nasm -MF /tmp/foo.mf -w-macro-params -F cv8 -M -MT /tmp/foo.mt -X gnu -D macro=hello -f srec -I /tmp/ -U macro -s --prefix -a  @@ -o /tmp/foo
+nasm -E -MG /tmp/foo.mg -MQ /tmp/foo.mq -w-macro-params -F stabs -MD /tmp/foo.md -D macro=hello -I /tmp/ -t -s --prefix  @@ -o /tmp/foo
+nasm -E -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -F ladsoft -MP -f elfx32 -I /tmp/ -U macro --prefix -a  @@ -o /tmp/foo
+nasm -O2 -Z /tmp/foo.err -MG /tmp/foo.mg -MD /tmp/foo.md -D macro=hello -f elfx32 -I /tmp/ -t -gformat --prefix  @@ -o /tmp/foo
+nasm -O2 -Z /tmp/foo.err -E -MG /tmp/foo.mg -MF /tmp/foo.mf -w-macro-params -F borland -MP -I /tmp/ -t --prefix  @@ -o /tmp/foo
+nasm -E -MQ /tmp/foo.mq -MF /tmp/foo.mf -F dwarf -MP -M -D macro=hello -f elf -I /tmp/ -t -s -gformat --prefix -a  @@ -o /tmp/foo
+nasm -O1 -E -MF /tmp/foo.mf -w-macro-params -X vc -I /tmp/ -t -U macro -gformat --prefix -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -g -MG /tmp/foo.mg -w-macro-params -MP -MT /tmp/foo.mt -MD /tmp/foo.md -X vc -I /tmp/ -t -U macro -gformat --prefix -a  @@ -o /tmp/foo
+nasm -E -g -MG /tmp/foo.mg -MF /tmp/foo.mf -MP -D macro=hello -f elf32 -I /tmp/ -U macro -s -gformat --prefix  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -F cv8 -X gnu -f srec -I /tmp/ -gformat --prefix  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -E -g -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -M -MT /tmp/foo.mt -D macro=hello -I /tmp/ -t -U macro -s -gformat -a  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -MG /tmp/foo.mg -MF /tmp/foo.mf -F dwarf -MP -MT /tmp/foo.mt -X gnu -I /tmp/ -U macro -gformat --prefix -a  @@ -o /tmp/foo
+nasm -E -MG /tmp/foo.mg -MQ /tmp/foo.mq -F cv8 -MP -MT /tmp/foo.mt -MD /tmp/foo.md -X gnu -D macro=hello -I /tmp/ -s -gformat --prefix  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -E -MQ /tmp/foo.mq -w-macro-params -F stabs -MT /tmp/foo.mt -MD /tmp/foo.md -X vc -D macro=hello -f elfx32 -I /tmp/ -U macro -gformat -a  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -MQ /tmp/foo.mq -w-macro-params -F dwarf -MP -M -f as86 -I /tmp/ -U macro -gformat --prefix  @@ -o /tmp/foo
+nasm -O2 -E -MF /tmp/foo.mf -w-macro-params -F borland -MT /tmp/foo.mt -D macro=hello -f srec -I /tmp/ -gformat --prefix  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -MQ /tmp/foo.mq -F borland -M -MT /tmp/foo.mt -D macro=hello -I /tmp/ -U macro -s -gformat --prefix  @@ -o /tmp/foo
+nasm -g -MQ /tmp/foo.mq -MF /tmp/foo.mf -MP -M -MT /tmp/foo.mt -X gnu -I /tmp/ -t -U macro -s -gformat --prefix -a  @@ -o /tmp/foo
+nasm -Ox -MG /tmp/foo.mg -F cv8 -MD /tmp/foo.md -X vc -f win -U macro -a  @@ -o /tmp/foo
+nasm -E -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -MD /tmp/foo.md -I /tmp/ -U macro -s -gformat --prefix -a  @@ -o /tmp/foo
+nasm -O2 -g -w-macro-params -MP -X vc -f ith -I /tmp/ -t -gformat --prefix -a  @@ -o /tmp/foo
+nasm -O2 -Z /tmp/foo.err -MQ /tmp/foo.mq -MF /tmp/foo.mf -F borland -MT /tmp/foo.mt -D macro=hello -I /tmp/ -t -s --prefix  @@ -o /tmp/foo
+nasm -O2 -E -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -F stabs -M -X vc -D macro=hello -I /tmp/ -t -U macro  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -MP -M -I /tmp/ -s -gformat --prefix -a  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -E -F stabs -MP -M -X vc -I /tmp/ -t -U macro -s --prefix  @@ -o /tmp/foo
+nasm -Ox -w-macro-params -F ladsoft -MT /tmp/foo.mt -MD /tmp/foo.md -X vc -I /tmp/ -t -U macro -gformat --prefix  @@ -o /tmp/foo
+nasm -O1 -E -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -MP -MT /tmp/foo.mt -MD /tmp/foo.md -D macro=hello -f elf32 -I /tmp/ -t -gformat -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -MQ /tmp/foo.mq -F debug -MD /tmp/foo.md -X gnu -D macro=hello -f obj -I /tmp/ -t -s --prefix  @@ -o /tmp/foo
+nasm -E -g -MG /tmp/foo.mg -MT /tmp/foo.mt -D macro=hello -I /tmp/ -s -gformat --prefix  @@ -o /tmp/foo
+nasm -O1 -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -MP -X vc -D macro=hello -f elfx32 -I /tmp/ -U macro -gformat  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -g -MQ /tmp/foo.mq -w-macro-params -MT /tmp/foo.mt -MD /tmp/foo.md -X vc -D macro=hello -f elfx32 -I /tmp/ -U macro -gformat  @@ -o /tmp/foo
+nasm -E -MF /tmp/foo.mf -F dwarf -M -MT /tmp/foo.mt -X gnu -D macro=hello -I /tmp/ -U macro -gformat --prefix  @@ -o /tmp/foo
+nasm -O2 -MQ /tmp/foo.mq -M -I /tmp/ -t -gformat --prefix -a  @@ -o /tmp/foo
+nasm -g -MG /tmp/foo.mg -MF /tmp/foo.mf -w-macro-params -MP -I /tmp/ -t -gformat --prefix  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -w-macro-params -F ladsoft -M -X vc -I /tmp/ -t --prefix -a  @@ -o /tmp/foo
+nasm -O2 -Z /tmp/foo.err -MG /tmp/foo.mg -MQ /tmp/foo.mq -w-macro-params -MP -MT /tmp/foo.mt -MD /tmp/foo.md -X gnu -D macro=hello -f elf64 -t -U macro -gformat --prefix -a  @@ -o /tmp/foo
+nasm -g -MF /tmp/foo.mf -w-macro-params -M -MT /tmp/foo.mt -D macro=hello -I /tmp/ -t -gformat --prefix  @@ -o /tmp/foo
+nasm -E -MG /tmp/foo.mg -MF /tmp/foo.mf -w-macro-params -F cv8 -MT /tmp/foo.mt -X gnu -f win32 -I /tmp/ -t -U macro -s -gformat -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -g -MF /tmp/foo.mf -MP -M -I /tmp/ -t -U macro -gformat --prefix -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -MG /tmp/foo.mg -MF /tmp/foo.mf -F stabs -f win64 -I /tmp/ -t --prefix -a  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -MQ /tmp/foo.mq -MF /tmp/foo.mf -F ladsoft -M -I /tmp/ -t -s -gformat --prefix  @@ -o /tmp/foo
+nasm -Ox -E -MQ /tmp/foo.mq -w-macro-params -F debug -MD /tmp/foo.md -X vc -D macro=hello -f elf -I /tmp/ -t -s -gformat  @@ -o /tmp/foo
+nasm -O1 -E -MQ /tmp/foo.mq -F stabs -M -MT /tmp/foo.mt -f coff -I /tmp/ -t -U macro -s -gformat -a  @@ -o /tmp/foo
+nasm -O1 -E -MQ /tmp/foo.mq -MP -MT /tmp/foo.mt -MD /tmp/foo.md -X vc -I /tmp/ -t -U macro -s -gformat  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -g -MQ /tmp/foo.mq -MT /tmp/foo.mt -I /tmp/ -t -gformat --prefix -a  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -E -g -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -MP -M -MT /tmp/foo.mt -X vc -D macro=hello -t -gformat --prefix -a  @@ -o /tmp/foo
+nasm -O2 -Z /tmp/foo.err -E -g -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -MP -M -X vc -f win -U macro -s -gformat --prefix -a  @@ -o /tmp/foo
+nasm -Ox -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -F ladsoft -M -MT /tmp/foo.mt -D macro=hello -f aoutb -I /tmp/ -U macro -s  @@ -o /tmp/foo
+nasm -O1 -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -F dwarf -f elfx32 -I /tmp/ -t -U macro -s -gformat  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -MG /tmp/foo.mg -w-macro-params -F borland -MP -MD /tmp/foo.md -X gnu -D macro=hello -f elf32 -I /tmp/ -t -U macro  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -F debug -M -MT /tmp/foo.mt -D macro=hello -I /tmp/ -t --prefix  @@ -o /tmp/foo
+nasm -O1 -MG /tmp/foo.mg -w-macro-params -F cv8 -MD /tmp/foo.md -X vc -D macro=hello -f ieee -I /tmp/ -s  @@ -o /tmp/foo
+nasm -O2 -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -MP -MT /tmp/foo.mt -X vc -D macro=hello -f win32 -U macro -s -gformat --prefix  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -g -MP -MD /tmp/foo.md -X gnu -D macro=hello -I /tmp/ -t -U macro -gformat -a  @@ -o /tmp/foo
+nasm -MQ /tmp/foo.mq -w-macro-params -F ladsoft -MP -MT /tmp/foo.mt -MD /tmp/foo.md -D macro=hello -f elf -I /tmp/ -gformat -a  @@ -o /tmp/foo
+nasm -O2 -E -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -X vc -I /tmp/ -U macro -gformat  @@ -o /tmp/foo
+nasm -E -g -MQ /tmp/foo.mq -w-macro-params -M -MT /tmp/foo.mt -f win -I /tmp/ -t -U macro -gformat  @@ -o /tmp/foo
+nasm -O1 -MQ /tmp/foo.mq -w-macro-params -MP -M -MT /tmp/foo.mt -X gnu -I /tmp/ -t -U macro -gformat  @@ -o /tmp/foo
+nasm -Ox -E -g -M -MT /tmp/foo.mt -X gnu -D macro=hello -I /tmp/ -t -s -gformat  @@ -o /tmp/foo
+nasm -O1 -E -MG /tmp/foo.mg -MF /tmp/foo.mf -F debug -MP -MT /tmp/foo.mt -D macro=hello -I /tmp/ -t -s  @@ -o /tmp/foo
+nasm -E -w-macro-params -F stabs -MP -MD /tmp/foo.md -D macro=hello -f aout -t -U macro -s -gformat --prefix -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -MG /tmp/foo.mg -MF /tmp/foo.mf -w-macro-params -F debug -D macro=hello -I /tmp/ -U macro -gformat -a  @@ -o /tmp/foo
+nasm -O2 -Z /tmp/foo.err -E -MG /tmp/foo.mg -MQ /tmp/foo.mq -F dwarf -MP -MT /tmp/foo.mt -f win -I /tmp/ -t  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -MG /tmp/foo.mg -MQ /tmp/foo.mq -w-macro-params -F dwarf -MT /tmp/foo.mt -MD /tmp/foo.md -X gnu -U macro -s -gformat --prefix -a  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -E -w-macro-params -F ladsoft -MP -MD /tmp/foo.md -I /tmp/ -s -gformat  @@ -o /tmp/foo
+nasm -O2 -Z /tmp/foo.err -MG /tmp/foo.mg -F borland -MP -MD /tmp/foo.md -X gnu -D macro=hello -f elf -U macro -s --prefix -a  @@ -o /tmp/foo
+nasm -O2 -Z /tmp/foo.err -MQ /tmp/foo.mq -F stabs -MT /tmp/foo.mt -MD /tmp/foo.md -f aout -I /tmp/ -t -U macro -s  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -E -MQ /tmp/foo.mq -w-macro-params -F stabs -MP -MT /tmp/foo.mt -MD /tmp/foo.md -U macro -s --prefix -a  @@ -o /tmp/foo
+nasm -E -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -w-macro-params -MT /tmp/foo.mt -MD /tmp/foo.md -f macho32 -I /tmp/ -gformat  @@ -o /tmp/foo
+nasm -E -MG /tmp/foo.mg -F borland -MD /tmp/foo.md -X vc -D macro=hello -f macho -I /tmp/ -t -gformat -a  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -MP -MD /tmp/foo.md -X gnu -f win64 -I /tmp/ -U macro -gformat -a  @@ -o /tmp/foo
+nasm -Ox -MG /tmp/foo.mg -MQ /tmp/foo.mq -w-macro-params -F ladsoft -X gnu -D macro=hello -t -U macro -gformat --prefix  @@ -o /tmp/foo
+nasm -Ox -g -MF /tmp/foo.mf -MP -M -MT /tmp/foo.mt -f coff -I /tmp/ -U macro -s -gformat  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -g -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -M -X vc -I /tmp/ -gformat  @@ -o /tmp/foo
+nasm -MG /tmp/foo.mg -MF /tmp/foo.mf -w-macro-params -MP -MT /tmp/foo.mt -X gnu -D macro=hello -I /tmp/ -t -s -gformat  @@ -o /tmp/foo
+nasm -O2 -MG /tmp/foo.mg -MQ /tmp/foo.mq -F cv8 -MT /tmp/foo.mt -X vc -I /tmp/ -U macro -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -MG /tmp/foo.mg -MF /tmp/foo.mf -F debug -MP -MT /tmp/foo.mt -X vc -D macro=hello -I /tmp/ -U macro -s  @@ -o /tmp/foo
+nasm -Ox -E -w-macro-params -F stabs -MP -M -MT /tmp/foo.mt -X gnu -D macro=hello -f elfx32 -s -gformat --prefix  @@ -o /tmp/foo
+nasm -Ox -MG /tmp/foo.mg -F stabs -MP -MT /tmp/foo.mt -MD /tmp/foo.md -D macro=hello -f win64 -I /tmp/ -s  @@ -o /tmp/foo
+nasm -E -MQ /tmp/foo.mq -MF /tmp/foo.mf -F debug -MP -M -MT /tmp/foo.mt -X gnu -I /tmp/ -U macro -s  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -MG /tmp/foo.mg -MF /tmp/foo.mf -U macro -a  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -E -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -MP -MD /tmp/foo.md -t -s -gformat --prefix  @@ -o /tmp/foo
+nasm -O1 -E -MQ /tmp/foo.mq -F debug -MP -M -D macro=hello -U macro -gformat --prefix -a  @@ -o /tmp/foo
+nasm -E -MQ /tmp/foo.mq -F dwarf -MT /tmp/foo.mt -MD /tmp/foo.md -I /tmp/ -t -U macro -s -gformat -a  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -MP -f elf64 -t -gformat --prefix -a  @@ -o /tmp/foo
+nasm -g -MF /tmp/foo.mf -MP -MT /tmp/foo.mt -D macro=hello -I /tmp/ -U macro -gformat -a  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -MG /tmp/foo.mg -w-macro-params -F stabs -MT /tmp/foo.mt -f win64 -t -s --prefix -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -MQ /tmp/foo.mq -MF /tmp/foo.mf -F debug -MP -M -X gnu -D macro=hello -f elf64 -I /tmp/  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -w-macro-params -F dwarf -M -MT /tmp/foo.mt -X gnu -f win64 -U macro -s -gformat --prefix -a  @@ -o /tmp/foo
+nasm -MG /tmp/foo.mg -w-macro-params -MD /tmp/foo.md -X vc -D macro=hello -I /tmp/ -t -gformat  @@ -o /tmp/foo
+nasm -E -MG /tmp/foo.mg -MF /tmp/foo.mf -w-macro-params -MT /tmp/foo.mt -X vc -U macro -s -gformat --prefix  @@ -o /tmp/foo
+nasm -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -w-macro-params -MD /tmp/foo.md -X vc -f elf -s -gformat --prefix  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -E -g -MG /tmp/foo.mg -w-macro-params -MP -MT /tmp/foo.mt -MD /tmp/foo.md -D macro=hello -f elf64 -U macro -s -gformat  @@ -o /tmp/foo
+nasm -Ox -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -F debug -MT /tmp/foo.mt -D macro=hello -t -s --prefix -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -MF /tmp/foo.mf -F cv8 -MP -M -MT /tmp/foo.mt -X vc -D macro=hello -s -gformat --prefix -a  @@ -o /tmp/foo
+nasm -E -MG /tmp/foo.mg -MF /tmp/foo.mf -F cv8 -MT /tmp/foo.mt -X vc -D macro=hello -f elf32 -gformat --prefix  @@ -o /tmp/foo
+nasm -MQ /tmp/foo.mq -F debug -M -MT /tmp/foo.mt -X vc -f win64 -I /tmp/ -s -a  @@ -o /tmp/foo
+nasm -g -MG /tmp/foo.mg -MT /tmp/foo.mt -MD /tmp/foo.md -X vc -D macro=hello -t -U macro -gformat --prefix -a  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -MQ /tmp/foo.mq -MF /tmp/foo.mf -F cv8 -M -MT /tmp/foo.mt -X vc -f ith -U macro -gformat --prefix  @@ -o /tmp/foo
+nasm -O2 -MG /tmp/foo.mg -MQ /tmp/foo.mq -F dwarf -MP -MT /tmp/foo.mt -MD /tmp/foo.md -X vc -t --prefix -a  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -E -F stabs -MD /tmp/foo.md -D macro=hello -s -gformat --prefix -a  @@ -o /tmp/foo
+nasm -Ox -MG /tmp/foo.mg -MQ /tmp/foo.mq -F cv8 -MT /tmp/foo.mt -MD /tmp/foo.md -U macro -s --prefix -a  @@ -o /tmp/foo
+nasm -O2 -E -MF /tmp/foo.mf -F ladsoft -MP -M -MT /tmp/foo.mt --prefix -a  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -E -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -w-macro-params -MD /tmp/foo.md -X gnu -D macro=hello -I /tmp/ -t -U macro -y -gformat --prefix  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -g -w-macro-params -MT /tmp/foo.mt -MD /tmp/foo.md -D macro=hello -t -s -gformat --prefix  @@ -o /tmp/foo
+nasm -Ox -F debug -M -D macro=hello -f macho -I /tmp/ -gformat  @@ -o /tmp/foo
+nasm -O2 -E -MQ /tmp/foo.mq -w-macro-params -F borland -MD /tmp/foo.md -X gnu -f aoutb -gformat --prefix  @@ -o /tmp/foo
+nasm -O2 -Z /tmp/foo.err -E -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -F borland -MP -MT /tmp/foo.mt -D macro=hello -f as86 -I /tmp/ -U macro -y -gformat --prefix -a  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -E -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -MT /tmp/foo.mt -D macro=hello -I /tmp/ -t -U macro -y -a  @@ -o /tmp/foo
+nasm -MG /tmp/foo.mg -MQ /tmp/foo.mq -F borland -MT /tmp/foo.mt -MD /tmp/foo.md -X gnu -I /tmp/  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -g -M -MT /tmp/foo.mt -I /tmp/ -gformat -a  @@ -o /tmp/foo
+nasm -Ox -MQ /tmp/foo.mq -MF /tmp/foo.mf -MP -M -MT /tmp/foo.mt -D macro=hello -f win64 -t -gformat --prefix  @@ -o /tmp/foo
+nasm -O2 -E -g -MG /tmp/foo.mg -MF /tmp/foo.mf -w-macro-params -MP -MT /tmp/foo.mt -D macro=hello -s -gformat -a  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -E -g -MF /tmp/foo.mf -MP -X vc -D macro=hello -f elf32 -U macro -gformat  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -MF /tmp/foo.mf -w-macro-params -F dwarf -MP -M -D macro=hello -f win -t -U macro -s  @@ -o /tmp/foo
+nasm -g -MQ /tmp/foo.mq -MF /tmp/foo.mf -M -X gnu -D macro=hello -f elf -t -gformat --prefix  @@ -o /tmp/foo
+nasm -MQ /tmp/foo.mq -w-macro-params -F dwarf -M -X gnu -D macro=hello -s -gformat --prefix  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -MG /tmp/foo.mg -MQ /tmp/foo.mq -F debug -MP -MD /tmp/foo.md -t -s -gformat --prefix -a  @@ -o /tmp/foo
+nasm -E -MQ /tmp/foo.mq -w-macro-params -F dwarf -MP -MT /tmp/foo.mt -MD /tmp/foo.md -X vc -D macro=hello -t -U macro -s  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -F ladsoft -MT /tmp/foo.mt -D macro=hello -f macho -U macro -s -gformat -a  @@ -o /tmp/foo
+nasm -MQ /tmp/foo.mq -MP -MT /tmp/foo.mt -MD /tmp/foo.md -D macro=hello -gformat --prefix -a  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -MG /tmp/foo.mg -MQ /tmp/foo.mq -w-macro-params -F debug -MP -MD /tmp/foo.md -X gnu -f win64 -t -s -gformat -a  @@ -o /tmp/foo
+nasm -O2 -E -MQ /tmp/foo.mq -F debug -MP -MD /tmp/foo.md -D macro=hello -f ith -U macro -gformat  @@ -o /tmp/foo
+nasm -O1 -E -MG /tmp/foo.mg -MQ /tmp/foo.mq -F ladsoft -MP -MD /tmp/foo.md -X vc -D macro=hello -I /tmp/ -t -U macro -y -s -a  @@ -o /tmp/foo
+nasm -M -D macro=hello -f ieee -U macro -s -gformat --prefix -a  @@ -o /tmp/foo
+nasm -O2 -E -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -F stabs -MP -MT /tmp/foo.mt -X gnu -D macro=hello -f aout -I /tmp/ -t -y -s --prefix  @@ -o /tmp/foo
+nasm -Ox -g -MG /tmp/foo.mg -MF /tmp/foo.mf -w-macro-params -MT /tmp/foo.mt -X vc -D macro=hello -f macho -I /tmp/ -t -U macro -y --prefix  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -MQ /tmp/foo.mq -w-macro-params -F cv8 -MT /tmp/foo.mt -MD /tmp/foo.md -X vc -D macro=hello -f coff -U macro -s  @@ -o /tmp/foo
+nasm -O2 -E -g -MQ /tmp/foo.mq -MD /tmp/foo.md -D macro=hello -f obj -t -s -gformat -a  @@ -o /tmp/foo
+nasm -O2 -Z /tmp/foo.err -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -MP -MT /tmp/foo.mt -MD /tmp/foo.md -X vc -D macro=hello -I /tmp/ -t -U macro -y -s  @@ -o /tmp/foo
+nasm -O2 -MG /tmp/foo.mg -MQ /tmp/foo.mq -w-macro-params -F cv8 -MP -MT /tmp/foo.mt -MD /tmp/foo.md -D macro=hello -I /tmp/ -U macro -y -s -gformat -a  @@ -o /tmp/foo
+nasm -O2 -Z /tmp/foo.err -w-macro-params -F stabs -M -MT /tmp/foo.mt -X gnu -D macro=hello -t -gformat  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -w-macro-params -MP -MT /tmp/foo.mt -MD /tmp/foo.md -D macro=hello -f macho -I /tmp/ -t -U macro -y -s --prefix -a  @@ -o /tmp/foo
+nasm -O2 -g -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -MP -M -X vc -U macro -gformat -a  @@ -o /tmp/foo
+nasm -MF /tmp/foo.mf -F borland -MP -X vc -D macro=hello -f bin -t -gformat --prefix  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -MG /tmp/foo.mg -MF /tmp/foo.mf -F ladsoft -X vc -D macro=hello -f macho -I /tmp/ -t -U macro -y -s -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -g -MF /tmp/foo.mf -w-macro-params -M -MT /tmp/foo.mt -f elf -t -U macro -gformat -a  @@ -o /tmp/foo
+nasm -Ox -E -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -w-macro-params -MD /tmp/foo.md -X vc -f srec -I /tmp/ -U macro -y -s -gformat -a  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -E -MF /tmp/foo.mf -F ladsoft -MP -M -MT /tmp/foo.mt -X vc -f win -t -gformat -a  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -g -MG /tmp/foo.mg -MF /tmp/foo.mf -MT /tmp/foo.mt -D macro=hello -f elf32 -t -gformat  @@ -o /tmp/foo
+nasm -O2 -Z /tmp/foo.err -MF /tmp/foo.mf -w-macro-params -MP -M -X vc -D macro=hello -s -gformat -a  @@ -o /tmp/foo
+nasm -Ox -E -MG /tmp/foo.mg -MF /tmp/foo.mf -MP -X vc -D macro=hello -f elfx32 -I /tmp/ -t -U macro -y -gformat  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -MQ /tmp/foo.mq -w-macro-params -F borland -MP -M -MT /tmp/foo.mt -D macro=hello -s -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -MF /tmp/foo.mf -MP -M -f aout -t -gformat --prefix  @@ -o /tmp/foo
+nasm -E -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -D macro=hello -I /tmp/ -t -U macro -y -s -gformat --prefix  @@ -o /tmp/foo
+nasm -O2 -E -w-macro-params -F cv8 -M -D macro=hello -f aout -t -s -a  @@ -o /tmp/foo
+nasm -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -F ladsoft -M -MT /tmp/foo.mt -X gnu -D macro=hello -s -gformat -a  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -E -MG /tmp/foo.mg -w-macro-params -F stabs -MP -MT /tmp/foo.mt -MD /tmp/foo.md -X vc -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -g -MG /tmp/foo.mg -w-macro-params -MT /tmp/foo.mt -MD /tmp/foo.md -D macro=hello -I /tmp/ -U macro -y  @@ -o /tmp/foo
+nasm -Ox -E -MG /tmp/foo.mg -w-macro-params -F borland -MD /tmp/foo.md -t -U macro -gformat  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -MG /tmp/foo.mg -MQ /tmp/foo.mq -F dwarf -MP -MT /tmp/foo.mt -MD /tmp/foo.md -D macro=hello -f elfx32 -t -U macro -gformat  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -g -MG /tmp/foo.mg -w-macro-params -MP -MT /tmp/foo.mt -X gnu -D macro=hello -f macho64 -I /tmp/ -t -U macro -y -gformat --prefix -a  @@ -o /tmp/foo
+nasm -O2 -Z /tmp/foo.err -E -MQ /tmp/foo.mq -MF /tmp/foo.mf -F stabs -M -MT /tmp/foo.mt -D macro=hello -I /tmp/ -t -U macro -y -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -MQ /tmp/foo.mq -w-macro-params -MD /tmp/foo.md -X vc -D macro=hello -f macho32 -U macro -s -gformat -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -MQ /tmp/foo.mq -MF /tmp/foo.mf -F debug -M -X vc -D macro=hello -f macho32 -t -U macro -a  @@ -o /tmp/foo
+nasm -E -g -MG /tmp/foo.mg -MF /tmp/foo.mf -w-macro-params -MP -MT /tmp/foo.mt -X gnu -f ieee -I /tmp/ -U macro -y -a  @@ -o /tmp/foo
+nasm -F dwarf -MP -M -MT /tmp/foo.mt -f win -t -U macro --prefix  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -g -MG /tmp/foo.mg -w-macro-params -MD /tmp/foo.md -X vc -D macro=hello -f ith -I /tmp/ -U macro -y -s -gformat  @@ -o /tmp/foo
+nasm -O1 -E -g -MG /tmp/foo.mg -MD /tmp/foo.md -X vc -D macro=hello -f elf -I /tmp/ -y -gformat  @@ -o /tmp/foo
+nasm -O2 -Z /tmp/foo.err -MG /tmp/foo.mg -MF /tmp/foo.mf -w-macro-params -MT /tmp/foo.mt -f macho -I /tmp/ -U macro -y -s -gformat --prefix  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -MG /tmp/foo.mg -MQ /tmp/foo.mq -w-macro-params -F borland -MP -MT /tmp/foo.mt -MD /tmp/foo.md -X vc -f elfx32 -I /tmp/ -y  @@ -o /tmp/foo
+nasm -E -MF /tmp/foo.mf -w-macro-params -F dwarf -MP -MT /tmp/foo.mt -U macro -s -a  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -E -MQ /tmp/foo.mq -w-macro-params -F debug -MP -MT /tmp/foo.mt -MD /tmp/foo.md -D macro=hello -I /tmp/ -t -y -s -gformat --prefix -a  @@ -o /tmp/foo
+nasm -E -MG /tmp/foo.mg -MQ /tmp/foo.mq -w-macro-params -F dwarf -MP -X gnu -f ieee -I /tmp/ -t -U macro -y -s -gformat --prefix  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -MT /tmp/foo.mt -MD /tmp/foo.md -X vc -t -U macro -gformat  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -MT /tmp/foo.mt -MD /tmp/foo.md -D macro=hello -f as86 -t -U macro -s -gformat -a  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -g -MG /tmp/foo.mg -w-macro-params -MT /tmp/foo.mt -MD /tmp/foo.md -X gnu -f ieee -I /tmp/ -t -y -s -gformat -a  @@ -o /tmp/foo
+nasm -g -MF /tmp/foo.mf -M -MT /tmp/foo.mt -X vc -D macro=hello -f dbg -U macro -gformat -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -F stabs -MP -X gnu -t -U macro -gformat  @@ -o /tmp/foo
+nasm -E -MG /tmp/foo.mg -MQ /tmp/foo.mq -w-macro-params -F debug -MP -MT /tmp/foo.mt -MD /tmp/foo.md -t -gformat  @@ -o /tmp/foo
+nasm -O1 -E -g -MQ /tmp/foo.mq -M -MT /tmp/foo.mt -s -gformat  @@ -o /tmp/foo
+nasm -E -MG /tmp/foo.mg -MQ /tmp/foo.mq -w-macro-params -MT /tmp/foo.mt -X vc -f win32 -t -gformat  @@ -o /tmp/foo
+nasm -O2 -Z /tmp/foo.err -E -g -MG /tmp/foo.mg -MF /tmp/foo.mf -MP -X vc -f dbg -I /tmp/ -y --prefix  @@ -o /tmp/foo
+nasm -E -MQ /tmp/foo.mq -MF /tmp/foo.mf -MP -M -D macro=hello -t -U macro -s -gformat  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -E -g -MF /tmp/foo.mf -w-macro-params -MP -MT /tmp/foo.mt -X gnu -D macro=hello -I /tmp/ -y -s --prefix -a  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -g -MQ /tmp/foo.mq -w-macro-params -MT /tmp/foo.mt -MD /tmp/foo.md -s -gformat  @@ -o /tmp/foo
+nasm -O2 -MG /tmp/foo.mg -MF /tmp/foo.mf -MT /tmp/foo.mt -X gnu -f dbg -gformat -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -F dwarf -MP -MT /tmp/foo.mt -X gnu -s --prefix  @@ -o /tmp/foo
+nasm -O2 -MF /tmp/foo.mf -F ladsoft -MP -M -X gnu -U macro -s -gformat  @@ -o /tmp/foo
+nasm -Ox -E -MQ /tmp/foo.mq -MF /tmp/foo.mf -F cv8 -MP -M -D macro=hello -f ith -I /tmp/ -t -U macro -y -gformat  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -g -MG /tmp/foo.mg -MP -MD /tmp/foo.md -D macro=hello -I /tmp/ -t -U macro -y -gformat --prefix  @@ -o /tmp/foo
+nasm -E -MG /tmp/foo.mg -w-macro-params -F ladsoft -MT /tmp/foo.mt -MD /tmp/foo.md -X gnu -I /tmp/ -U macro -y -s -a  @@ -o /tmp/foo
+nasm -O2 -E -MG /tmp/foo.mg -MF /tmp/foo.mf -F ladsoft -MT /tmp/foo.mt -I /tmp/ -U macro -y -gformat  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -E -g -MF /tmp/foo.mf -w-macro-params -MP -M -MT /tmp/foo.mt -I /tmp/ -t -U macro -y -s --prefix -a  @@ -o /tmp/foo
+nasm -O2 -E -MG /tmp/foo.mg -F debug -MD /tmp/foo.md -X gnu -t -s  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -MG /tmp/foo.mg -MF /tmp/foo.mf -F cv8 -MP -t -U macro -a  @@ -o /tmp/foo
+nasm -Ox -E -MQ /tmp/foo.mq -w-macro-params -F cv8 -MP -M -MT /tmp/foo.mt -D macro=hello -f win64 -I /tmp/ -t -y -s -gformat  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -g -MG /tmp/foo.mg -MT /tmp/foo.mt -MD /tmp/foo.md -X vc -D macro=hello -I /tmp/ -t -y -s -a  @@ -o /tmp/foo
+nasm -O2 -Z /tmp/foo.err -MG /tmp/foo.mg -MF /tmp/foo.mf -w-macro-params -MP -MT /tmp/foo.mt -X vc -I /tmp/ -y -gformat  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -MG /tmp/foo.mg -w-macro-params -MD /tmp/foo.md -I /tmp/ -t -U macro -y -s -gformat -a  @@ -o /tmp/foo
+nasm -O2 -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -MT /tmp/foo.mt -D macro=hello -I /tmp/ -y  @@ -o /tmp/foo
+nasm -O2 -Z /tmp/foo.err -E -MF /tmp/foo.mf -w-macro-params -F borland -MP -M -X gnu -f aout -I /tmp/ -y -s -gformat -a  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -MG /tmp/foo.mg -F dwarf -MT /tmp/foo.mt -MD /tmp/foo.md -I /tmp/ -U macro -y -gformat --prefix -a  @@ -o /tmp/foo
+nasm -O1 -MF /tmp/foo.mf -w-macro-params -F ladsoft -M -MT /tmp/foo.mt -f elf -I /tmp/ -t -U macro -y -s --prefix -a  @@ -o /tmp/foo
+nasm -Ox -E -w-macro-params -F ladsoft -M -MT /tmp/foo.mt -D macro=hello -I /tmp/ -U macro -y -s -gformat -a  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -E -w-macro-params -MP -MD /tmp/foo.md -D macro=hello -I /tmp/ -t -y -a  @@ -o /tmp/foo
+nasm -O2 -Z /tmp/foo.err -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -MP -MT /tmp/foo.mt -MD /tmp/foo.md -X gnu -I /tmp/ -y --prefix  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -F dwarf -MT /tmp/foo.mt -X vc -I /tmp/ -t -y -a  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -g -MF /tmp/foo.mf -w-macro-params -M -X gnu -D macro=hello -I /tmp/ -U macro -y -s -a  @@ -o /tmp/foo
+nasm -O2 -MP -MT /tmp/foo.mt -U macro -s -gformat -a  @@ -o /tmp/foo
+nasm -Ox -E -g -MG /tmp/foo.mg -MF /tmp/foo.mf -w-macro-params -I /tmp/ -t -y -s  @@ -o /tmp/foo
+nasm -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -F ladsoft -D macro=hello -t -a  @@ -o /tmp/foo
+nasm -O2 -Z /tmp/foo.err -MG /tmp/foo.mg -F borland -MP -MD /tmp/foo.md -I /tmp/ -t -U macro -y -s  @@ -o /tmp/foo
+nasm -E -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -MP -X vc -f dbg -I /tmp/ -t -U macro -y -s --prefix -a  @@ -o /tmp/foo
+nasm -O2 -Z /tmp/foo.err -F cv8 -MP -MT /tmp/foo.mt -MD /tmp/foo.md -X vc -D macro=hello -I /tmp/ -U macro -y --prefix -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -F stabs -MP -MD /tmp/foo.md -f srec --prefix  @@ -o /tmp/foo
+nasm -E -MQ /tmp/foo.mq -w-macro-params -F dwarf -MP -M -MT /tmp/foo.mt -X vc -f coff -I /tmp/ -t -U macro -y --prefix  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -MP -M -MT /tmp/foo.mt -X gnu -D macro=hello -f win32 -I /tmp/ -U macro -y -gformat -a  @@ -o /tmp/foo
+nasm -E -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -w-macro-params -MT /tmp/foo.mt -MD /tmp/foo.md -X vc -I /tmp/ -y --prefix -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -g -MG /tmp/foo.mg -MF /tmp/foo.mf -D macro=hello -I /tmp/ -t -U macro -y -s -gformat -a  @@ -o /tmp/foo
+nasm -Ox -E -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -F stabs -MP -X vc -D macro=hello -f rdf -U macro -gformat --prefix  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -MQ /tmp/foo.mq -w-macro-params -M -X vc -D macro=hello -f win64 -I /tmp/ -t -U macro -y -s -gformat --prefix  @@ -o /tmp/foo
+nasm -Ox -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -w-macro-params -MT /tmp/foo.mt -X vc -I /tmp/ -y -s --prefix -a  @@ -o /tmp/foo
+nasm -O1 -g -MQ /tmp/foo.mq -MF /tmp/foo.mf -MP -M -X gnu -D macro=hello -f macho32 -I /tmp/ -t -y -s -gformat -a  @@ -o /tmp/foo
+nasm -O2 -Z /tmp/foo.err -E -MQ /tmp/foo.mq -M -MT /tmp/foo.mt -X vc -f elf64 -I /tmp/ -t -y -s -gformat --prefix -a  @@ -o /tmp/foo
+nasm -Ox -E -g -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -MP -M -MT /tmp/foo.mt -f ith -I /tmp/ -y -gformat --prefix  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -g -MG /tmp/foo.mg -w-macro-params -MP -MT /tmp/foo.mt -MD /tmp/foo.md -I /tmp/ -y -s --prefix -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -MG /tmp/foo.mg -MQ /tmp/foo.mq -F ladsoft -MD /tmp/foo.md -D macro=hello -f ieee -I /tmp/ -U macro -y -s -gformat --prefix  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -w-macro-params -F dwarf -MP -MD /tmp/foo.md -D macro=hello -I /tmp/ -U macro -y --prefix  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -MG /tmp/foo.mg -MQ /tmp/foo.mq -MP -MT /tmp/foo.mt -MD /tmp/foo.md -X vc -f win32 -I /tmp/ -t -y -s -gformat --prefix -a  @@ -o /tmp/foo
+nasm -E -MQ /tmp/foo.mq -w-macro-params -F cv8 -MP -D macro=hello -I /tmp/ -t -U macro -y -s -gformat  @@ -o /tmp/foo
+nasm -MG /tmp/foo.mg -w-macro-params -F dwarf -MP -MD /tmp/foo.md -D macro=hello -gformat -a  @@ -o /tmp/foo
+nasm -O2 -Z /tmp/foo.err -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -X vc -I /tmp/ -y -s -gformat --prefix -a  @@ -o /tmp/foo
+nasm -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -w-macro-params -MT /tmp/foo.mt -MD /tmp/foo.md -f macho32 -I /tmp/ -t -y -s  @@ -o /tmp/foo
+nasm -Ox -E -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -MP -f elf32 -I /tmp/ -t -y -s  @@ -o /tmp/foo
+nasm -E -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -F stabs -MP -MT /tmp/foo.mt -I /tmp/ -t -U macro -y -gformat  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -g -MG /tmp/foo.mg -w-macro-params -X gnu -f win32 -I /tmp/ -U macro -y -s -gformat --prefix -a  @@ -o /tmp/foo
+nasm -g -w-macro-params -MP -MD /tmp/foo.md -t -s -gformat  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -E -g -MQ /tmp/foo.mq -MP -MD /tmp/foo.md -D macro=hello -I /tmp/ -y -s -gformat --prefix  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -F cv8 -MP -X gnu -I /tmp/ -t -U macro -y --prefix -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -g -MQ /tmp/foo.mq -MF /tmp/foo.mf -M -D macro=hello -f macho32 -I /tmp/ -U macro -y --prefix -a  @@ -o /tmp/foo
+nasm -E -g -MQ /tmp/foo.mq -MF /tmp/foo.mf -X vc -f aout -s -gformat -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -MG /tmp/foo.mg -MQ /tmp/foo.mq -F borland -MP -X vc -D macro=hello -I /tmp/ -y -gformat --prefix -a  @@ -o /tmp/foo
+nasm -E -w-macro-params -F borland -MP -MT /tmp/foo.mt -MD /tmp/foo.md -X gnu -f win64 -I /tmp/ -t -y -s  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -MP -M -X gnu -f bin -I /tmp/ -t -y --prefix  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -MQ /tmp/foo.mq -F debug -MP -MD /tmp/foo.md -t -U macro -a  @@ -o /tmp/foo
+nasm -O2 -g -MP -MD /tmp/foo.md -D macro=hello -I /tmp/ -t -U macro -y -s --prefix -a  @@ -o /tmp/foo
+nasm -O2 -Z /tmp/foo.err -MQ /tmp/foo.mq -w-macro-params -F dwarf -M -MT /tmp/foo.mt -I /tmp/ -t -y -s -gformat -a  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -MF /tmp/foo.mf -w-macro-params -F borland -M -MT /tmp/foo.mt -X gnu -I /tmp/ -y  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -w-macro-params -F borland -MD /tmp/foo.md -f macho -I /tmp/ -t -U macro -y -gformat --prefix -a  @@ -o /tmp/foo
+nasm -Ox -g -MQ /tmp/foo.mq -M -MT /tmp/foo.mt -D macro=hello -I /tmp/ -t -U macro -y  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -g -MG /tmp/foo.mg -MF /tmp/foo.mf -w-macro-params -D macro=hello -I /tmp/ -y -s -gformat -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -MG /tmp/foo.mg -w-macro-params -F debug -MP -X gnu -D macro=hello -I /tmp/ -y -s -gformat  @@ -o /tmp/foo
+nasm -MQ /tmp/foo.mq -w-macro-params -F cv8 -MP -M -X vc -D macro=hello -f elf64 -I /tmp/ -U macro -y -gformat -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -MF /tmp/foo.mf -w-macro-params -MP -M -D macro=hello -f dbg -I /tmp/ -t -U macro -y --prefix  @@ -o /tmp/foo
+nasm -O1 -E -g -w-macro-params -MP -M -f elf32 -I /tmp/ -U macro -y -s --prefix  @@ -o /tmp/foo
+nasm -Ox -E -g -MF /tmp/foo.mf -M -MT /tmp/foo.mt -X gnu -I /tmp/ -t -y -gformat --prefix  @@ -o /tmp/foo
+nasm -Ox -MF /tmp/foo.mf -w-macro-params -F stabs -MP -M -D macro=hello -I /tmp/ -t -y --prefix  @@ -o /tmp/foo
+nasm -O1 -g -MQ /tmp/foo.mq -MT /tmp/foo.mt -MD /tmp/foo.md -f aoutb -I /tmp/ -t -U macro -y -gformat -a  @@ -o /tmp/foo
+nasm -O1 -MQ /tmp/foo.mq -w-macro-params -F borland -MD /tmp/foo.md -X gnu -D macro=hello -I /tmp/ -y -s --prefix  @@ -o /tmp/foo
+nasm -Ox -E -MG /tmp/foo.mg -F dwarf -D macro=hello -f ieee -I /tmp/ -y -s -gformat --prefix -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -g -MG /tmp/foo.mg -MF /tmp/foo.mf -MP -X vc -D macro=hello -I /tmp/ -t -y -s -gformat --prefix  @@ -o /tmp/foo
+nasm -E -g -MQ /tmp/foo.mq -MT /tmp/foo.mt -MD /tmp/foo.md -X vc -D macro=hello -f obj -I /tmp/ -U macro -y -s -gformat --prefix  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -MT /tmp/foo.mt -t -gformat -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -MG /tmp/foo.mg -F cv8 -MT /tmp/foo.mt -MD /tmp/foo.md -f macho64 -I /tmp/ -y -gformat  @@ -o /tmp/foo
+nasm -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -F ladsoft -MP -D macro=hello -I /tmp/ -U macro -y -s --prefix -a  @@ -o /tmp/foo
+nasm -O1 -MQ /tmp/foo.mq -MF /tmp/foo.mf -F stabs -MP -MT /tmp/foo.mt -X vc -f ieee -I /tmp/ -y -s -gformat --prefix -a  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -E -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -MP -MT /tmp/foo.mt -X gnu -f rdf -I /tmp/ -U macro -s -gformat -a  @@ -o /tmp/foo
+nasm -E -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -w-macro-params -MP -MD /tmp/foo.md -D macro=hello -f rdf -t -U macro -y -gformat -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -MQ /tmp/foo.mq -w-macro-params -F cv8 -MP -M -X vc -I /tmp/ -t -U macro -y -s -a  @@ -o /tmp/foo
+nasm -MG /tmp/foo.mg -MF /tmp/foo.mf -F cv8 -MT /tmp/foo.mt -X vc -D macro=hello -f elfx32 -I /tmp/ -y --prefix -a  @@ -o /tmp/foo
+nasm -Ox -E -g -MQ /tmp/foo.mq -w-macro-params -MT /tmp/foo.mt -MD /tmp/foo.md -X vc -I /tmp/ -y -s -gformat --prefix  @@ -o /tmp/foo
+nasm -Ox -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -MP -MT /tmp/foo.mt -MD /tmp/foo.md -I /tmp/ -y -a  @@ -o /tmp/foo
+nasm -Ox -MG /tmp/foo.mg -F dwarf -MP -X vc -f aoutb -I /tmp/ -t -U macro -y -gformat  @@ -o /tmp/foo
+nasm -E -g -MQ /tmp/foo.mq -w-macro-params -M -I /tmp/ -t -U macro -y -gformat --prefix -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -MG /tmp/foo.mg -F dwarf -MD /tmp/foo.md -D macro=hello -I /tmp/ -y -gformat --prefix -a  @@ -o /tmp/foo
+nasm -MG /tmp/foo.mg -MQ /tmp/foo.mq -MP -MD /tmp/foo.md -X vc -f macho -I /tmp/ -U macro -y -gformat  @@ -o /tmp/foo
+nasm -E -g -MF /tmp/foo.mf -w-macro-params -MP -M -MT /tmp/foo.mt -I /tmp/ -t -y -a  @@ -o /tmp/foo
+nasm -MF /tmp/foo.mf -w-macro-params -F borland -M -X vc -f win64 -I /tmp/ -U macro -y  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -E -MQ /tmp/foo.mq -w-macro-params -F debug -MP -MD /tmp/foo.md -X vc -f rdf -t -U macro -y -gformat --prefix  @@ -o /tmp/foo
+nasm -MQ /tmp/foo.mq -w-macro-params -MP -MT /tmp/foo.mt -MD /tmp/foo.md -X vc -I /tmp/ -U macro -y -s  @@ -o /tmp/foo
+nasm -O2 -MF /tmp/foo.mf -MP -M -MT /tmp/foo.mt -X gnu -D macro=hello -I /tmp/ -y -gformat --prefix -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -MP -MT /tmp/foo.mt -f obj -I /tmp/ -y -s -gformat -a  @@ -o /tmp/foo
+nasm -g -MQ /tmp/foo.mq -M -MT /tmp/foo.mt -X vc -D macro=hello -f aoutb -I /tmp/ -U macro -y -s  @@ -o /tmp/foo
+nasm -O2 -g -MF /tmp/foo.mf -MP -f srec -I /tmp/ -U macro -y -s  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -F stabs -MT /tmp/foo.mt -f as86 -I /tmp/ -y -s -gformat  @@ -o /tmp/foo
+nasm -E -MQ /tmp/foo.mq -w-macro-params -MD /tmp/foo.md -D macro=hello -I /tmp/ -U macro -y -s --prefix -a  @@ -o /tmp/foo
+nasm -O1 -E -g -M -X vc -D macro=hello -f dbg -I /tmp/ -y -s --prefix  @@ -o /tmp/foo
+nasm -O2 -Z /tmp/foo.err -F ladsoft -M -X vc -D macro=hello -f as86 -I /tmp/ -t -y -gformat --prefix -a  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -E -MQ /tmp/foo.mq -MF /tmp/foo.mf -MP -MT /tmp/foo.mt -I /tmp/ -y --prefix -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -g -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -MT /tmp/foo.mt -f obj -I /tmp/ -y --prefix -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -MQ /tmp/foo.mq -F debug -MT /tmp/foo.mt -MD /tmp/foo.md -I /tmp/ -t -U macro -y --prefix  @@ -o /tmp/foo
+nasm -F borland -MP -M -MT /tmp/foo.mt -X gnu -D macro=hello -I /tmp/ -t -U macro -y -gformat -a  @@ -o /tmp/foo
+nasm -w-macro-params -F borland -M -U macro -s  @@ -o /tmp/foo
+nasm -Ox -E -MQ /tmp/foo.mq -F cv8 -MD /tmp/foo.md -X gnu -I /tmp/ -t -y -a  @@ -o /tmp/foo
+nasm -g -MQ /tmp/foo.mq -w-macro-params -MP -M -X vc -D macro=hello -I /tmp/ -y --prefix -a  @@ -o /tmp/foo
+nasm -O2 -Z /tmp/foo.err -E -MG /tmp/foo.mg -MQ /tmp/foo.mq -w-macro-params -F cv8 -D macro=hello -f win -t -U macro -y -a  @@ -o /tmp/foo
+nasm -MF /tmp/foo.mf -w-macro-params -M -X vc -I /tmp/ -t -U macro -y -s -gformat --prefix  @@ -o /tmp/foo
+nasm -E -g -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -MP -M -I /tmp/ -y -s  @@ -o /tmp/foo
+nasm -MF /tmp/foo.mf -w-macro-params -MT /tmp/foo.mt -D macro=hello -f srec -I /tmp/ -t -y -s -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -MF /tmp/foo.mf -F dwarf -MP -M -MT /tmp/foo.mt -f win -I /tmp/ -U macro -y -s -gformat --prefix  @@ -o /tmp/foo
+nasm -O2 -Z /tmp/foo.err -E -MG /tmp/foo.mg -F ladsoft -MP -MT /tmp/foo.mt -MD /tmp/foo.md -D macro=hello -f win -t -U macro -y -a  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -g -MQ /tmp/foo.mq -w-macro-params -M -MT /tmp/foo.mt -X vc -f rdf -t -y --prefix  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -g -MQ /tmp/foo.mq -w-macro-params -MD /tmp/foo.md -f srec -I /tmp/ -t -y -gformat  @@ -o /tmp/foo
+nasm -E -MF /tmp/foo.mf -F borland -M -X gnu -I /tmp/ -U macro -y -gformat --prefix -a  @@ -o /tmp/foo
+nasm -MG /tmp/foo.mg -F dwarf -MP -MD /tmp/foo.md -f elfx32 -I /tmp/ -t -y -s -gformat --prefix -a  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -E -F cv8 -X gnu -f win -I /tmp/ -U macro -y -a  @@ -o /tmp/foo
+nasm -E -g -MP -M -MT /tmp/foo.mt -D macro=hello -f obj -I /tmp/ -y -gformat --prefix -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -MQ /tmp/foo.mq -MT /tmp/foo.mt -MD /tmp/foo.md -X gnu -D macro=hello -I /tmp/ -y -gformat  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -MQ /tmp/foo.mq -MF /tmp/foo.mf -MT /tmp/foo.mt -X vc -f elf32 -I /tmp/ -t -U macro -y  @@ -o /tmp/foo
+nasm -w-macro-params -F dwarf -M -MT /tmp/foo.mt -D macro=hello -I /tmp/ -y -s --prefix  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -E -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -MP -MT /tmp/foo.mt -f ith -U macro -y -gformat --prefix -a  @@ -o /tmp/foo
+nasm -O2 -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -F debug -MP -MT /tmp/foo.mt -X vc -f aout -t -U macro -y -s  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -E -MG /tmp/foo.mg -MF /tmp/foo.mf -F debug -MP -MT /tmp/foo.mt -D macro=hello -t -U macro -y -s -gformat --prefix  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -MG /tmp/foo.mg -MQ /tmp/foo.mq -F borland -MT /tmp/foo.mt -MD /tmp/foo.md -X gnu -D macro=hello -t -U macro -y -s -gformat  @@ -o /tmp/foo
+nasm -O2 -E -MG /tmp/foo.mg -w-macro-params -F stabs -MD /tmp/foo.md -X gnu -D macro=hello -U macro -y -s -gformat --prefix  @@ -o /tmp/foo
+nasm -g -MF /tmp/foo.mf -M -f macho -I /tmp/ -t -U macro -y -s -gformat  @@ -o /tmp/foo
+nasm -E -MQ /tmp/foo.mq -MP -M -f dbg -I /tmp/ -U macro -y -a  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -E -g -MG /tmp/foo.mg -w-macro-params -MP -MT /tmp/foo.mt -D macro=hello -U macro -y -gformat --prefix -a  @@ -o /tmp/foo
+nasm -E -F dwarf -MP -MD /tmp/foo.md -X gnu -I /tmp/ -t -y -gformat --prefix -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -MG /tmp/foo.mg -MQ /tmp/foo.mq -w-macro-params -F borland -MP -MT /tmp/foo.mt -X vc -D macro=hello -f macho -U macro -y -s -gformat  @@ -o /tmp/foo
+nasm -O2 -Z /tmp/foo.err -g -MP -M -D macro=hello -I /tmp/ -y -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -g -MG /tmp/foo.mg -MP -f win64 -I /tmp/ -t -y -a  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -E -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -F stabs -D macro=hello -y  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -E -g -MG /tmp/foo.mg -w-macro-params -MP -MT /tmp/foo.mt -X vc -t -U macro -y -s -gformat  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -g -w-macro-params -MP -M -X vc -D macro=hello -f rdf -I /tmp/ -t -gformat  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -g -MQ /tmp/foo.mq -MP -M -MT /tmp/foo.mt -I /tmp/ -t -y -s -gformat  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -MP -M -MT /tmp/foo.mt -D macro=hello -f aout -I /tmp/ -y -s  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -MP -D macro=hello -f macho32 -U macro -y -s -gformat -a  @@ -o /tmp/foo
+nasm -O2 -Z /tmp/foo.err -E -g -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -M -X vc -D macro=hello -f as86 -t -y -s --prefix -a  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -g -MQ /tmp/foo.mq -MP -M -MT /tmp/foo.mt -X gnu -f rdf -t -U macro -s -gformat --prefix  @@ -o /tmp/foo
+nasm -O2 -Z /tmp/foo.err -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -MP -MT /tmp/foo.mt -X vc -D macro=hello -U macro -y  @@ -o /tmp/foo
+nasm -Ox -E -g -MQ /tmp/foo.mq -w-macro-params -MP -MT /tmp/foo.mt -MD /tmp/foo.md -X gnu -D macro=hello -f srec -t -y  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -E -MG /tmp/foo.mg -MF /tmp/foo.mf -F cv8 -MT /tmp/foo.mt -X vc -D macro=hello -y -gformat -a  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -g -MG /tmp/foo.mg -MF /tmp/foo.mf -w-macro-params -X vc -t -U macro -y --prefix -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -F debug -MP -MT /tmp/foo.mt -X gnu -D macro=hello -f win32 -t -y -s -gformat --prefix -a  @@ -o /tmp/foo
+nasm -Ox -E -MG /tmp/foo.mg -w-macro-params -MP -MT /tmp/foo.mt -MD /tmp/foo.md -X vc -D macro=hello -f ith -y -s -a  @@ -o /tmp/foo
+nasm -E -w-macro-params -F borland -MT /tmp/foo.mt -MD /tmp/foo.md -X gnu -f rdf -I /tmp/ -t -U macro -s --prefix -a  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -E -g -M -MT /tmp/foo.mt -D macro=hello -f elf -t -U macro -y -gformat -a  @@ -o /tmp/foo
+nasm -O1 -MG /tmp/foo.mg -MQ /tmp/foo.mq -w-macro-params -MD /tmp/foo.md -D macro=hello -f coff -t -y -gformat --prefix -a  @@ -o /tmp/foo
+nasm -O2 -E -MG /tmp/foo.mg -MQ /tmp/foo.mq -MT /tmp/foo.mt -MD /tmp/foo.md -f macho32 -U macro -y -s  @@ -o /tmp/foo
+nasm -E -MG /tmp/foo.mg -MQ /tmp/foo.mq -F dwarf -MT /tmp/foo.mt -MD /tmp/foo.md -X vc -D macro=hello -f macho32 -U macro -y --prefix  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -E -g -MG /tmp/foo.mg -MF /tmp/foo.mf -f as86 -t -U macro -y -s --prefix  @@ -o /tmp/foo
+nasm -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -w-macro-params -MT /tmp/foo.mt -MD /tmp/foo.md -D macro=hello -t -U macro -y -s -gformat -a  @@ -o /tmp/foo
+nasm -O1 -E -F borland -M -X vc -f rdf -t -U macro -y -s -gformat  @@ -o /tmp/foo
+nasm -Ox -E -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -F stabs -MP -M -MT /tmp/foo.mt -X vc -D macro=hello -t -y -s -gformat -a  @@ -o /tmp/foo
+nasm -O1 -E -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -MD /tmp/foo.md -D macro=hello -f ith -y -s --prefix -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -MG /tmp/foo.mg -MQ /tmp/foo.mq -w-macro-params -F debug -MP -MD /tmp/foo.md -X gnu -D macro=hello -U macro -y -s -gformat  @@ -o /tmp/foo
+nasm -O2 -MQ /tmp/foo.mq -w-macro-params -F debug -M -MT /tmp/foo.mt -X vc -D macro=hello -f ieee -U macro -y -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -g -MF /tmp/foo.mf -w-macro-params -MP -M -MT /tmp/foo.mt -X vc -D macro=hello -f macho -U macro -y -s -a  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -E -g -MQ /tmp/foo.mq -MT /tmp/foo.mt -MD /tmp/foo.md -X gnu -D macro=hello -f srec -U macro -y -s --prefix -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -w-macro-params -MD /tmp/foo.md -X gnu -D macro=hello -U macro -y -s  @@ -o /tmp/foo
+nasm -O2 -E -MG /tmp/foo.mg -F ladsoft -MT /tmp/foo.mt -MD /tmp/foo.md -f elfx32 -t -y -s -gformat --prefix  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -MG /tmp/foo.mg -w-macro-params -F debug -MT /tmp/foo.mt -MD /tmp/foo.md -D macro=hello -f srec -t -y --prefix  @@ -o /tmp/foo
+nasm -E -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -MT /tmp/foo.mt -X vc -D macro=hello -f macho64 -t -y -gformat --prefix -a  @@ -o /tmp/foo
+nasm -O2 -g -MG /tmp/foo.mg -w-macro-params -MP -MT /tmp/foo.mt -MD /tmp/foo.md -U macro -y -a  @@ -o /tmp/foo
+nasm -E -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -F borland -M -MT /tmp/foo.mt -D macro=hello -t -U macro -y -gformat --prefix -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -MG /tmp/foo.mg -MF /tmp/foo.mf -w-macro-params -X vc -D macro=hello -f macho -y -s -gformat --prefix -a  @@ -o /tmp/foo
+nasm -O2 -g -MF /tmp/foo.mf -w-macro-params -MT /tmp/foo.mt -X vc -D macro=hello -f as86 -t -U macro -y -s -gformat  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -E -g -MG /tmp/foo.mg -MP -MD /tmp/foo.md -X gnu -f srec -t -y -a  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -MG /tmp/foo.mg -MF /tmp/foo.mf -F debug -MP -D macro=hello -f ieee -t -y -gformat --prefix  @@ -o /tmp/foo
+nasm -Ox -g -MP -MD /tmp/foo.md -f rdf -I /tmp/ -t -y  @@ -o /tmp/foo
+nasm -E -g -MG /tmp/foo.mg -w-macro-params -MD /tmp/foo.md -D macro=hello -f macho64 -t -y --prefix  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -E -F dwarf -MP -M -MT /tmp/foo.mt -X vc -D macro=hello -t -U macro -y --prefix  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -MG /tmp/foo.mg -MQ /tmp/foo.mq -F cv8 -MT /tmp/foo.mt -D macro=hello -t -U macro -y -s --prefix  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -MF /tmp/foo.mf -w-macro-params -F ladsoft -M -MT /tmp/foo.mt -X vc -D macro=hello -f as86 -y --prefix -a  @@ -o /tmp/foo
+nasm -Ox -E -MQ /tmp/foo.mq -MF /tmp/foo.mf -MP -M -MT /tmp/foo.mt -X vc -D macro=hello -U macro -y --prefix  @@ -o /tmp/foo
+nasm -E -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -w-macro-params -MP -MD /tmp/foo.md -X gnu -t -y -gformat --prefix  @@ -o /tmp/foo
+nasm -E -MG /tmp/foo.mg -MF /tmp/foo.mf -w-macro-params -F borland -MP -D macro=hello -f aoutb -y  @@ -o /tmp/foo
+nasm -Ox -g -w-macro-params -MP -M -f rdf -y -gformat -a  @@ -o /tmp/foo
+nasm -O2 -Z /tmp/foo.err -E -g -MQ /tmp/foo.mq -MP -M -MT /tmp/foo.mt -D macro=hello -f elf32 -y -s -gformat --prefix -a  @@ -o /tmp/foo
+nasm -g -MF /tmp/foo.mf -w-macro-params -M -MT /tmp/foo.mt -X vc -D macro=hello -f obj -t -U macro -y -s --prefix  @@ -o /tmp/foo
+nasm -O2 -g -MF /tmp/foo.mf -M -MT /tmp/foo.mt -X vc -D macro=hello -t -U macro -y -gformat --prefix  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -MQ /tmp/foo.mq -F stabs -MP -M -X gnu -D macro=hello -f win64 -U macro -y -s --prefix -a  @@ -o /tmp/foo
+nasm -E -MG /tmp/foo.mg -MF /tmp/foo.mf -F ladsoft -MT /tmp/foo.mt -X vc -t -U macro -y -s --prefix  @@ -o /tmp/foo
+nasm -E -g -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -MP -M -MT /tmp/foo.mt -X vc -D macro=hello -y -s -gformat --prefix  @@ -o /tmp/foo
+nasm -O2 -Z /tmp/foo.err -E -MQ /tmp/foo.mq -w-macro-params -M -U macro -y -gformat  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -E -g -MQ /tmp/foo.mq -MF /tmp/foo.mf -MP -M -t -U macro -y -s -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -MQ /tmp/foo.mq -w-macro-params -MP -MT /tmp/foo.mt -MD /tmp/foo.md -f ieee -U macro -y -s -gformat -a  @@ -o /tmp/foo
+nasm -O1 -MG /tmp/foo.mg -MF /tmp/foo.mf -w-macro-params -F dwarf -MP -X gnu -y -s -gformat --prefix -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -F debug -X gnu -f win32 -y --prefix  @@ -o /tmp/foo
+nasm -O1 -MG /tmp/foo.mg -MD /tmp/foo.md -X vc -D macro=hello -t -y -s --prefix  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -g -MF /tmp/foo.mf -w-macro-params -MP -M -D macro=hello -U macro -y -gformat  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -g -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -MP -D macro=hello -t -y -gformat  @@ -o /tmp/foo
+nasm -O1 -E -w-macro-params -MP -M -MT /tmp/foo.mt -D macro=hello -t -y -s --prefix  @@ -o /tmp/foo
+nasm -MG /tmp/foo.mg -w-macro-params -F stabs -MP -MT /tmp/foo.mt -MD /tmp/foo.md -f elf64 -U macro -y -gformat --prefix  @@ -o /tmp/foo
+nasm -Ox -g -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -M -MT /tmp/foo.mt -t -U macro -y -s --prefix  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -g -MQ /tmp/foo.mq -w-macro-params -MP -MD /tmp/foo.md -U macro -y -s -gformat --prefix -a  @@ -o /tmp/foo
+nasm -O2 -Z /tmp/foo.err -E -MQ /tmp/foo.mq -w-macro-params -MD /tmp/foo.md -X vc -f srec -t -y -s  @@ -o /tmp/foo
+nasm -O1 -E -MQ /tmp/foo.mq -MF /tmp/foo.mf -F cv8 -X vc -D macro=hello -U macro -y -s -gformat -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -g -MG /tmp/foo.mg -MF /tmp/foo.mf -w-macro-params -MT /tmp/foo.mt -X gnu -t -y -s -gformat --prefix -a  @@ -o /tmp/foo
+nasm -g -MQ /tmp/foo.mq -MP -M -X gnu -f rdf -I /tmp/ --prefix -a  @@ -o /tmp/foo
+nasm -Ox -E -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -MP -M -MT /tmp/foo.mt -D macro=hello -y -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -g -MG /tmp/foo.mg -MT /tmp/foo.mt -MD /tmp/foo.md -X vc -f aout -t -U macro -y  @@ -o /tmp/foo
+nasm -O2 -g -MG /tmp/foo.mg -MT /tmp/foo.mt -MD /tmp/foo.md -X vc -t -y -s -gformat --prefix -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -F borland -MT /tmp/foo.mt -D macro=hello -f ith -t -U macro -y -s -gformat -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -g -MG /tmp/foo.mg -w-macro-params -MP -MD /tmp/foo.md -X gnu -f elf32 -y -gformat --prefix -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -X gnu -t -y  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -g -w-macro-params -MP -M -D macro=hello -t -U macro -y -s -gformat --prefix -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -F debug -MP -MT /tmp/foo.mt -MD /tmp/foo.md -X gnu -D macro=hello -f dbg -t -U macro -y -s -gformat -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -F ladsoft -MT /tmp/foo.mt -y -s -gformat  @@ -o /tmp/foo
+nasm -MQ /tmp/foo.mq -F borland -MT /tmp/foo.mt -MD /tmp/foo.md -f rdf -y --prefix -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -g -MQ /tmp/foo.mq -w-macro-params -MT /tmp/foo.mt -X vc -D macro=hello -f macho32 -U macro -y -s  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -MQ /tmp/foo.mq -MF /tmp/foo.mf -F debug -M -D macro=hello -U macro -y --prefix  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -g -MG /tmp/foo.mg -MQ /tmp/foo.mq -f win -U macro -y -gformat --prefix  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -MG /tmp/foo.mg -MQ /tmp/foo.mq -w-macro-params -F dwarf -MD /tmp/foo.md -f macho32 -y -s -a  @@ -o /tmp/foo
+nasm -O2 -MG /tmp/foo.mg -MQ /tmp/foo.mq -MP -f win -U macro -y --prefix  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -g -MP -M -MT /tmp/foo.mt -X gnu -D macro=hello -t -U macro -y -s --prefix  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -w-macro-params -F debug -MP -MT /tmp/foo.mt -MD /tmp/foo.md -X vc -D macro=hello -f coff -y -s -gformat  @@ -o /tmp/foo
+nasm -g -MQ /tmp/foo.mq -w-macro-params -MP -M -X gnu -D macro=hello -t -U macro -y -gformat  @@ -o /tmp/foo
+nasm -O2 -F stabs -MT /tmp/foo.mt -MD /tmp/foo.md -X gnu -D macro=hello -f ieee -U macro -y -s -gformat  @@ -o /tmp/foo
+nasm -E -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -F stabs -M -f win32 -t -y -gformat -a  @@ -o /tmp/foo
+nasm -E -g -w-macro-params -MD /tmp/foo.md -X gnu -D macro=hello -U macro -y -a  @@ -o /tmp/foo
+nasm -O2 -w-macro-params -F ladsoft -MT /tmp/foo.mt -MD /tmp/foo.md -D macro=hello -t -y  @@ -o /tmp/foo
+nasm -E -MG /tmp/foo.mg -MQ /tmp/foo.mq -F stabs -MT /tmp/foo.mt -U macro -y -s -a  @@ -o /tmp/foo
+nasm -O2 -MF /tmp/foo.mf -MT /tmp/foo.mt -D macro=hello -f obj -t -U macro -y --prefix -a  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -F borland -MP -M -MT /tmp/foo.mt -y -gformat --prefix  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -E -g -MT /tmp/foo.mt -MD /tmp/foo.md -X vc -y -gformat --prefix -a  @@ -o /tmp/foo
+nasm -O1 -w-macro-params -MP -M -X gnu -f elf64 -t -U macro -y -a  @@ -o /tmp/foo
+nasm -O1 -Z /tmp/foo.err -g -MQ /tmp/foo.mq -M -X vc -f win64 -y -s -gformat  @@ -o /tmp/foo
+nasm -O2 -E -MQ /tmp/foo.mq -F debug -MP -M -X vc -y  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -MQ /tmp/foo.mq -w-macro-params -F borland -MD /tmp/foo.md -X vc -D macro=hello -t -y --prefix -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -MQ /tmp/foo.mq -F stabs -M -MT /tmp/foo.mt -f win64 -U macro -y -gformat  @@ -o /tmp/foo
+nasm -g -MQ /tmp/foo.mq -MF /tmp/foo.mf -w-macro-params -MP -M -D macro=hello -f srec -y  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -MF /tmp/foo.mf -w-macro-params -F dwarf -MT /tmp/foo.mt -X vc -f win -U macro -y -gformat --prefix  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -E -MQ /tmp/foo.mq -MF /tmp/foo.mf -M -X vc -y --prefix  @@ -o /tmp/foo
+nasm -O1 -g -MF /tmp/foo.mf -w-macro-params -U macro -y -gformat --prefix  @@ -o /tmp/foo
+nasm -MG /tmp/foo.mg -MQ /tmp/foo.mq -MF /tmp/foo.mf -MP -D macro=hello -f as86 -y -s --prefix  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -g -MQ /tmp/foo.mq -MF /tmp/foo.mf -MP -M -MT /tmp/foo.mt -X vc -U macro -y -a  @@ -o /tmp/foo
+nasm -g -MQ /tmp/foo.mq -MP -MD /tmp/foo.md -X gnu -f ith -t -U macro -y -s --prefix  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -MF /tmp/foo.mf -F stabs -M -D macro=hello -t -y -s -gformat  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -M -MT /tmp/foo.mt -X vc -t -U macro -y  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -w-macro-params -F ladsoft -MP -M -MT /tmp/foo.mt -f as86 -t -y --prefix -a  @@ -o /tmp/foo
+nasm -MF /tmp/foo.mf -M -MT /tmp/foo.mt -D macro=hello -f elfx32 -U macro -y -s -gformat  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -MQ /tmp/foo.mq -F debug -M -f macho32 -t -y -s --prefix -a  @@ -o /tmp/foo
+nasm -E -g -MG /tmp/foo.mg -MP -MT /tmp/foo.mt -MD /tmp/foo.md -y -s -gformat  @@ -o /tmp/foo
+nasm -g -MG /tmp/foo.mg -D macro=hello -t -U macro -y -gformat  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -g -MP -MT /tmp/foo.mt -MD /tmp/foo.md -D macro=hello -t -y --prefix  @@ -o /tmp/foo
+nasm -Ox -Z /tmp/foo.err -MQ /tmp/foo.mq -F cv8 -D macro=hello -f coff -y -gformat  @@ -o /tmp/foo
+nasm -Ox -g -MD /tmp/foo.md -D macro=hello -f win64 -y -s -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -g -MQ /tmp/foo.mq -MF /tmp/foo.mf -M -D macro=hello -y -s -gformat --prefix -a  @@ -o /tmp/foo
+nasm -E -g -w-macro-params -M -f coff -t -y -s --prefix  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -MP -MD /tmp/foo.md -f bin -t -U macro -y -a  @@ -o /tmp/foo
+nasm -Ox -w-macro-params -MP -MD /tmp/foo.md -t -y -gformat  @@ -o /tmp/foo
+nasm -MQ /tmp/foo.mq -MF /tmp/foo.mf -F cv8 -MP -M -MT /tmp/foo.mt -t -y -gformat  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -g -MG /tmp/foo.mg -X gnu -f elf32 -y -gformat -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -MQ /tmp/foo.mq -MF /tmp/foo.mf -MP -M -MT /tmp/foo.mt -t -y -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -MF /tmp/foo.mf -F dwarf -M -D macro=hello -y -gformat --prefix -a  @@ -o /tmp/foo
+nasm -E -g -MP -M -X gnu -U macro -y -s -gformat --prefix -a  @@ -o /tmp/foo
+nasm -g -MF /tmp/foo.mf -M -MT /tmp/foo.mt -X vc -y -s -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -E -g -MP -D macro=hello -y -gformat --prefix -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -MP -M -MT /tmp/foo.mt -X vc -y -s -gformat -a  @@ -o /tmp/foo
+nasm -Z /tmp/foo.err -F debug -MD /tmp/foo.md -X vc -y -s -gformat  @@ -o /tmp/foo

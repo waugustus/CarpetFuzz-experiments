@@ -1,0 +1,415 @@
+414
+jpegtran -copy none -maxscans 3 -crop 500x400+0+0 -verbose -trim -progressive  -outfile /tmp/foo @@
+jpegtran -copy all -flip horizontal -maxscans 3 -restart 4 -strict -trim -progressive -perfect -report  -outfile /tmp/foo @@
+jpegtran -maxscans 3 -transpose -verbose -progressive  -outfile /tmp/foo @@
+jpegtran -optimize -transpose -restart 4 -trim -progressive -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy all -strict -grayscale -verbose -trim -transverse -progressive -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -debug -maxscans 3 -transpose -grayscale -trim -progressive -perfect -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -optimize -maxscans 3 -restart 4 -crop 500x400+0+0 -verbose -trim -perfect -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy none -optimize -debug -maxscans 3 -transpose -restart 4 -perfect -report  -outfile /tmp/foo @@
+jpegtran -copy all -optimize -restart 4 -strict -verbose -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy all -debug -arithmetic -restart 4 -strict -grayscale -progressive -perfect -report -rotate 270  -outfile /tmp/foo @@
+jpegtran -optimize -debug -maxscans 3 -restart 4 -strict -grayscale -trim -perfect -report -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy comments -maxscans 3 -arithmetic -restart 4 -strict -verbose -trim -report -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy comments -flip horizontal -maxscans 3 -strict -verbose -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy icc -maxscans 3 -arithmetic -grayscale -crop 500x400+0+0 -perfect -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran  -outfile /tmp/foo @@
+jpegtran -copy none -flip vertical -maxscans 3 -arithmetic -grayscale -verbose -trim -perfect -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -optimize -debug -arithmetic -trim -progressive -perfect -rotate 90  -outfile /tmp/foo @@
+jpegtran -optimize -arithmetic -strict -verbose -progressive  -outfile /tmp/foo @@
+jpegtran -optimize -flip horizontal -debug -arithmetic -restart 4 -strict -grayscale -trim -perfect  -outfile /tmp/foo @@
+jpegtran -copy all -optimize -debug -maxscans 3 -arithmetic -grayscale -crop 500x400+0+0 -report -rotate 270  -outfile /tmp/foo @@
+jpegtran -copy all -maxscans 3 -restart 4 -grayscale -crop 500x400+0+0 -verbose -report -maxmemory 4m -rotate 180  -outfile /tmp/foo @@
+jpegtran -flip horizontal -debug -maxscans 3 -restart 4 -grayscale -crop 500x400+0+0 -progressive -perfect -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy icc -optimize -debug -restart 4 -strict -crop 500x400+0+0 -trim -transverse -progressive -report  -outfile /tmp/foo @@
+jpegtran -copy comments -arithmetic -grayscale -crop 500x400+0+0 -verbose -trim -progressive -perfect -rotate 270  -outfile /tmp/foo @@
+jpegtran -optimize -maxscans 3 -arithmetic -transpose -strict -grayscale -crop 500x400+0+0 -trim -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy comments -optimize -flip horizontal -arithmetic -restart 4 -strict -crop 500x400+0+0 -verbose -progressive -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy comments -optimize -maxscans 3 -arithmetic -transpose -restart 4 -grayscale -crop 500x400+0+0 -progressive  -outfile /tmp/foo @@
+jpegtran -copy none -debug -arithmetic -grayscale -crop 500x400+0+0 -transverse -progressive -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy comments -optimize -crop 500x400+0+0 -verbose -transverse -report  -outfile /tmp/foo @@
+jpegtran -debug -arithmetic -strict -trim -wipe 500x400+0+0 -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -debug -maxscans 3 -restart 4 -grayscale -crop 500x400+0+0 -rotate 180  -outfile /tmp/foo @@
+jpegtran -debug -maxscans 3 -arithmetic -transpose -crop 500x400+0+0 -trim  -outfile /tmp/foo @@
+jpegtran -arithmetic -restart 4 -grayscale -crop 500x400+0+0 -trim -report -rotate 270  -outfile /tmp/foo @@
+jpegtran -strict -grayscale -verbose -trim -wipe 500x400+0+0 -perfect  -outfile /tmp/foo @@
+jpegtran -optimize -arithmetic -restart 4 -verbose -wipe 500x400+0+0 -perfect -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy icc -optimize -drop +500+400 input/not_kitty.jpg -arithmetic -strict -verbose -trim -perfect -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy none -optimize -debug -drop +500+400 input/not_kitty.jpg -arithmetic -grayscale -trim -perfect -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy all -optimize -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -restart 4 -trim  -outfile /tmp/foo @@
+jpegtran -copy all -optimize -debug -arithmetic -restart 4 -strict -crop 500x400+0+0 -trim -transverse -progressive -perfect -report -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy icc -optimize -maxscans 3 -arithmetic -restart 4 -strict -grayscale -crop 500x400+0+0 -verbose -trim -wipe 500x400+0+0 -progressive -perfect -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy icc -optimize -flip vertical -debug -maxscans 3 -arithmetic -restart 4 -grayscale -crop 500x400+0+0 -trim -transverse -wipe 500x400+0+0 -progressive  -outfile /tmp/foo @@
+jpegtran -drop +500+400 input/not_kitty.jpg -strict -grayscale -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -maxscans 3 -arithmetic -transpose -restart 4 -crop 500x400+0+0 -verbose -progressive -perfect -report -maxmemory 4m -rotate 180  -outfile /tmp/foo @@
+jpegtran -copy comments -optimize -arithmetic -grayscale -verbose -trim -wipe 500x400+0+0 -progressive -report -maxmemory 4m -rotate 270  -outfile /tmp/foo @@
+jpegtran -copy comments -flip horizontal -strict -grayscale -crop 500x400+0+0 -verbose -progressive -perfect -report -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -debug -maxscans 3 -arithmetic -strict -crop 500x400+0+0 -trim -transverse -progressive -perfect -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy icc -optimize -flip vertical -maxscans 3 -arithmetic -restart 4 -strict -grayscale -crop 500x400+0+0 -verbose -transverse -wipe 500x400+0+0 -progressive -perfect -report -rotate 90  -outfile /tmp/foo @@
+jpegtran -optimize -arithmetic -restart 4 -grayscale -crop 500x400+0+0 -verbose -transverse -perfect -maxmemory 4m -rotate 270  -outfile /tmp/foo @@
+jpegtran -copy all -optimize -transpose -strict -crop 500x400+0+0 -verbose -progressive -perfect -maxmemory 4m -rotate 180  -outfile /tmp/foo @@
+jpegtran -optimize -flip vertical -maxscans 3 -arithmetic -strict -grayscale -crop 500x400+0+0 -verbose -trim -transverse -progressive -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -optimize -strict -grayscale -verbose -trim -wipe 500x400+0+0 -progressive -perfect -maxmemory 4m -rotate 180  -outfile /tmp/foo @@
+jpegtran -copy all -optimize -flip horizontal -arithmetic -strict -grayscale -crop 500x400+0+0 -verbose -trim -transverse -wipe 500x400+0+0 -perfect -report  -outfile /tmp/foo @@
+jpegtran -copy comments -optimize -debug -arithmetic -transpose -restart 4 -strict -grayscale -crop 500x400+0+0 -transverse -wipe 500x400+0+0 -perfect -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy comments -debug -maxscans 3 -strict -grayscale -trim -wipe 500x400+0+0 -progressive -report -rotate 180  -outfile /tmp/foo @@
+jpegtran -optimize -maxscans 3 -transpose -restart 4 -strict -crop 500x400+0+0 -verbose -trim -transverse -wipe 500x400+0+0 -rotate 90  -outfile /tmp/foo @@
+jpegtran -optimize -flip horizontal -debug -maxscans 3 -strict -grayscale -crop 500x400+0+0 -trim -wipe 500x400+0+0 -progressive -report  -outfile /tmp/foo @@
+jpegtran -optimize -flip horizontal -maxscans 3 -arithmetic -strict -crop 500x400+0+0 -verbose -trim -wipe 500x400+0+0 -perfect -report -maxmemory 4m -rotate 180  -outfile /tmp/foo @@
+jpegtran -optimize -debug -maxscans 3 -arithmetic -transpose -restart 4 -crop 500x400+0+0 -trim -transverse -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy all -flip vertical -maxscans 3 -restart 4 -strict -grayscale -crop 500x400+0+0 -verbose -transverse  -outfile /tmp/foo @@
+jpegtran -flip horizontal -debug -maxscans 3 -arithmetic -restart 4 -grayscale -crop 500x400+0+0 -trim -transverse -progressive -perfect -report  -outfile /tmp/foo @@
+jpegtran -copy all -optimize -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -restart 4 -strict -grayscale -crop 500x400+0+0 -trim -progressive -report  -outfile /tmp/foo @@
+jpegtran -copy all -debug -maxscans 3 -strict -grayscale -crop 500x400+0+0 -trim -transverse -wipe 500x400+0+0  -outfile /tmp/foo @@
+jpegtran -copy icc -optimize -transpose -restart 4 -strict -grayscale -verbose -trim -wipe 500x400+0+0 -progressive -perfect -report -rotate 180  -outfile /tmp/foo @@
+jpegtran -copy none -optimize -debug -arithmetic -transpose -restart 4 -crop 500x400+0+0 -trim -transverse -rotate 270  -outfile /tmp/foo @@
+jpegtran -optimize -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -restart 4 -strict -grayscale -trim -transverse -wipe 500x400+0+0 -perfect -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy all -optimize -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -restart 4 -strict -grayscale -transverse -wipe 500x400+0+0 -progressive -report -maxmemory 4m -rotate 180  -outfile /tmp/foo @@
+jpegtran -copy all -optimize -debug -arithmetic -transpose -grayscale -crop 500x400+0+0 -trim -transverse -wipe 500x400+0+0 -progressive -perfect  -outfile /tmp/foo @@
+jpegtran -arithmetic -transpose -restart 4 -strict -grayscale -crop 500x400+0+0 -verbose -trim -wipe 500x400+0+0 -progressive  -outfile /tmp/foo @@
+jpegtran -copy icc -optimize -flip horizontal -maxscans 3 -arithmetic -restart 4 -strict -grayscale -trim -wipe 500x400+0+0 -progressive -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy icc -optimize -maxscans 3 -arithmetic -transpose -grayscale -crop 500x400+0+0 -verbose -transverse -wipe 500x400+0+0  -outfile /tmp/foo @@
+jpegtran -maxscans 3 -arithmetic -transpose -strict -grayscale -crop 500x400+0+0 -verbose -wipe 500x400+0+0 -progressive -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -optimize -restart 4 -strict -crop 500x400+0+0 -verbose -trim -transverse -wipe 500x400+0+0 -progressive -perfect -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy all -optimize -maxscans 3 -arithmetic -strict -verbose -transverse -wipe 500x400+0+0 -progressive -perfect  -outfile /tmp/foo @@
+jpegtran -copy icc -flip vertical -debug -arithmetic -strict -crop 500x400+0+0 -trim -transverse -progressive -rotate 180  -outfile /tmp/foo @@
+jpegtran -optimize -debug -maxscans 3 -transpose -restart 4 -strict -grayscale -wipe 500x400+0+0 -progressive -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -optimize -maxscans 3 -transpose -restart 4 -strict -crop 500x400+0+0 -trim -perfect -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy icc -optimize -debug -maxscans 3 -arithmetic -strict -crop 500x400+0+0 -wipe 500x400+0+0 -progressive -perfect -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy none -flip vertical -debug -maxscans 3 -restart 4 -crop 500x400+0+0 -trim -wipe 500x400+0+0 -rotate 90  -outfile /tmp/foo @@
+jpegtran -arithmetic -transpose -strict -grayscale -crop 500x400+0+0 -verbose -trim -transverse -wipe 500x400+0+0 -perfect -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy none -debug -maxscans 3 -transpose -strict -grayscale -crop 500x400+0+0 -transverse -wipe 500x400+0+0 -progressive -report -rotate 270  -outfile /tmp/foo @@
+jpegtran -copy comments -optimize -flip horizontal -restart 4 -strict -grayscale -crop 500x400+0+0 -trim -wipe 500x400+0+0 -progressive -perfect -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy icc -optimize -restart 4 -strict -grayscale -verbose -transverse -wipe 500x400+0+0 -perfect  -outfile /tmp/foo @@
+jpegtran -optimize -flip vertical -maxscans 3 -restart 4 -grayscale -crop 500x400+0+0 -verbose -transverse -wipe 500x400+0+0 -perfect -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy none -optimize -flip vertical -debug -restart 4 -grayscale -crop 500x400+0+0 -transverse -wipe 500x400+0+0 -progressive -perfect -report -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -optimize -arithmetic -transpose -restart 4 -grayscale -verbose -trim -wipe 500x400+0+0 -report -maxmemory 4m -rotate 180  -outfile /tmp/foo @@
+jpegtran -copy comments -arithmetic -transpose -restart 4 -strict -crop 500x400+0+0 -verbose -transverse -report  -outfile /tmp/foo @@
+jpegtran -copy all -optimize -drop +500+400 input/not_kitty.jpg -arithmetic -restart 4 -strict -grayscale -verbose -transverse -wipe 500x400+0+0 -progressive -perfect -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy all -optimize -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -progressive -report -maxmemory 4m -rotate 270  -outfile /tmp/foo @@
+jpegtran -optimize -flip vertical -maxscans 3 -arithmetic -strict -crop 500x400+0+0 -verbose -wipe 500x400+0+0 -progressive -perfect -report -rotate 180  -outfile /tmp/foo @@
+jpegtran -optimize -debug -maxscans 3 -restart 4 -strict -crop 500x400+0+0 -transverse -wipe 500x400+0+0 -perfect  -outfile /tmp/foo @@
+jpegtran -copy icc -optimize -flip horizontal -arithmetic -restart 4 -strict -crop 500x400+0+0 -trim -transverse -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy comments -debug -transpose -restart 4 -strict -trim -wipe 500x400+0+0 -progressive  -outfile /tmp/foo @@
+jpegtran -copy all -flip vertical -arithmetic -crop 500x400+0+0 -verbose -trim -transverse -wipe 500x400+0+0 -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -optimize -debug -arithmetic -transpose -grayscale -crop 500x400+0+0 -transverse -wipe 500x400+0+0 -progressive -rotate 270  -outfile /tmp/foo @@
+jpegtran -copy comments -optimize -debug -restart 4 -strict -crop 500x400+0+0 -wipe 500x400+0+0 -perfect -report -rotate 270  -outfile /tmp/foo @@
+jpegtran -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -restart 4 -strict -grayscale -verbose -transverse -report  -outfile /tmp/foo @@
+jpegtran -copy comments -debug -maxscans 3 -restart 4 -strict -transverse -wipe 500x400+0+0 -progressive -perfect -report -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy none -optimize -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -restart 4 -grayscale -transverse -progressive -rotate 180  -outfile /tmp/foo @@
+jpegtran -copy comments -optimize -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -restart 4 -grayscale -crop 500x400+0+0 -trim -wipe 500x400+0+0 -progressive -perfect -report -maxmemory 4m -rotate 180  -outfile /tmp/foo @@
+jpegtran -copy icc -debug -arithmetic -strict -grayscale -transverse -wipe 500x400+0+0 -perfect -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -debug -maxscans 3 -arithmetic -restart 4 -crop 500x400+0+0 -transverse -wipe 500x400+0+0 -perfect  -outfile /tmp/foo @@
+jpegtran -arithmetic -transpose -restart 4 -strict -grayscale -crop 500x400+0+0 -trim -transverse -wipe 500x400+0+0 -progressive -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -flip vertical -arithmetic -restart 4 -strict -grayscale -verbose -wipe 500x400+0+0 -perfect -report -maxmemory 4m -rotate 180  -outfile /tmp/foo @@
+jpegtran -debug -transpose -restart 4 -grayscale -crop 500x400+0+0 -trim -wipe 500x400+0+0 -perfect -report  -outfile /tmp/foo @@
+jpegtran -optimize -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -restart 4 -strict -grayscale -crop 500x400+0+0 -progressive -report -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -optimize -debug -maxscans 3 -transpose -strict -crop 500x400+0+0 -wipe 500x400+0+0 -progressive -perfect -report  -outfile /tmp/foo @@
+jpegtran -optimize -maxscans 3 -transpose -grayscale -crop 500x400+0+0 -verbose -transverse -perfect -report -maxmemory 4m -rotate 180  -outfile /tmp/foo @@
+jpegtran -copy icc -flip horizontal -debug -arithmetic -restart 4 -trim -wipe 500x400+0+0 -progressive -perfect -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy all -flip horizontal -debug -restart 4 -strict -crop 500x400+0+0 -transverse -perfect -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy all -optimize -flip horizontal -arithmetic -crop 500x400+0+0 -verbose -transverse -wipe 500x400+0+0 -progressive -perfect -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy none -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -restart 4 -strict -grayscale -crop 500x400+0+0 -transverse -progressive -perfect -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -optimize -arithmetic -transpose -restart 4 -strict -grayscale -crop 500x400+0+0 -wipe 500x400+0+0 -progressive -perfect -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -optimize -maxscans 3 -arithmetic -restart 4 -grayscale -transverse -wipe 500x400+0+0 -perfect -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -maxscans 3 -arithmetic -verbose -trim -transverse -wipe 500x400+0+0 -report -rotate 270  -outfile /tmp/foo @@
+jpegtran -copy none -optimize -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -transpose -strict -trim -progressive -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy all -maxscans 3 -transpose -grayscale -verbose -wipe 500x400+0+0 -perfect -rotate 90  -outfile /tmp/foo @@
+jpegtran -optimize -maxscans 3 -transpose -strict -grayscale -crop 500x400+0+0 -transverse -perfect -report  -outfile /tmp/foo @@
+jpegtran -copy comments -restart 4 -crop 500x400+0+0 -verbose -trim -wipe 500x400+0+0 -perfect -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy icc -optimize -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -transpose -strict -crop 500x400+0+0 -trim -transverse -wipe 500x400+0+0 -progressive -perfect -rotate 270  -outfile /tmp/foo @@
+jpegtran -flip horizontal -restart 4 -strict -crop 500x400+0+0 -verbose -transverse -report -rotate 270  -outfile /tmp/foo @@
+jpegtran -copy icc -maxscans 3 -restart 4 -grayscale -crop 500x400+0+0 -transverse -wipe 500x400+0+0 -progressive -perfect -report  -outfile /tmp/foo @@
+jpegtran -copy all -optimize -flip vertical -maxscans 3 -strict -crop 500x400+0+0 -transverse -progressive -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -optimize -debug -transpose -crop 500x400+0+0 -trim -wipe 500x400+0+0 -maxmemory 4m -rotate 270  -outfile /tmp/foo @@
+jpegtran -copy comments -debug -drop +500+400 input/not_kitty.jpg -restart 4 -strict -grayscale -wipe 500x400+0+0 -perfect -rotate 180  -outfile /tmp/foo @@
+jpegtran -maxscans 3 -arithmetic -verbose -trim -transverse -wipe 500x400+0+0 -progressive -perfect -report -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy all -optimize -restart 4 -grayscale -trim -transverse -wipe 500x400+0+0 -report -rotate 180  -outfile /tmp/foo @@
+jpegtran -copy all -optimize -arithmetic -restart 4 -strict -crop 500x400+0+0 -wipe 500x400+0+0 -report -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -flip vertical -maxscans 3 -arithmetic -restart 4 -grayscale -trim -wipe 500x400+0+0 -progressive -perfect -report -rotate 180  -outfile /tmp/foo @@
+jpegtran -debug -maxscans 3 -restart 4 -trim -transverse -wipe 500x400+0+0 -progressive  -outfile /tmp/foo @@
+jpegtran -optimize -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -restart 4 -strict -grayscale -crop 500x400+0+0 -verbose -trim -perfect  -outfile /tmp/foo @@
+jpegtran -copy comments -debug -arithmetic -transpose -grayscale -wipe 500x400+0+0 -perfect -rotate 180  -outfile /tmp/foo @@
+jpegtran -optimize -flip vertical -arithmetic -grayscale -crop 500x400+0+0 -trim -transverse -wipe 500x400+0+0 -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy none -optimize -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -transpose -restart 4 -grayscale -crop 500x400+0+0 -transverse -perfect -report  -outfile /tmp/foo @@
+jpegtran -copy icc -drop +500+400 input/not_kitty.jpg -arithmetic -restart 4 -verbose -transverse -progressive -perfect -report -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy icc -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -transpose -grayscale -crop 500x400+0+0 -trim -progressive -perfect -report -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy comments -drop +500+400 input/not_kitty.jpg -maxscans 3 -restart 4 -strict -grayscale -crop 500x400+0+0 -verbose -trim -transverse -maxmemory 4m -rotate 180  -outfile /tmp/foo @@
+jpegtran -copy comments -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -transpose -restart 4 -strict -crop 500x400+0+0 -trim -wipe 500x400+0+0 -perfect -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy none -maxscans 3 -transpose -crop 500x400+0+0 -trim -transverse -perfect -report -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -optimize -debug -drop +500+400 input/not_kitty.jpg -restart 4 -grayscale -wipe 500x400+0+0 -progressive -perfect -report  -outfile /tmp/foo @@
+jpegtran -copy icc -drop +500+400 input/not_kitty.jpg -restart 4 -strict -verbose -wipe 500x400+0+0 -progressive -report -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy icc -debug -drop +500+400 input/not_kitty.jpg -strict -grayscale -crop 500x400+0+0 -trim -wipe 500x400+0+0 -progressive -perfect -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy comments -optimize -drop +500+400 input/not_kitty.jpg -maxscans 3 -strict -grayscale -crop 500x400+0+0 -verbose -progressive -perfect  -outfile /tmp/foo @@
+jpegtran -optimize -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -strict -grayscale -crop 500x400+0+0 -verbose -transverse -wipe 500x400+0+0 -report -maxmemory 4m -rotate 270  -outfile /tmp/foo @@
+jpegtran -copy icc -arithmetic -transpose -crop 500x400+0+0 -trim -transverse -wipe 500x400+0+0 -progressive -perfect -report  -outfile /tmp/foo @@
+jpegtran -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -grayscale -crop 500x400+0+0 -trim -transverse -wipe 500x400+0+0 -perfect -maxmemory 4m -rotate 180  -outfile /tmp/foo @@
+jpegtran -copy icc -optimize -debug -drop +500+400 input/not_kitty.jpg -arithmetic -transpose -trim -wipe 500x400+0+0 -report  -outfile /tmp/foo @@
+jpegtran -optimize -restart 4 -crop 500x400+0+0 -verbose -wipe 500x400+0+0 -progressive -rotate 180  -outfile /tmp/foo @@
+jpegtran -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -grayscale -verbose -wipe 500x400+0+0 -progressive -perfect -report -rotate 90  -outfile /tmp/foo @@
+jpegtran -optimize -maxscans 3 -restart 4 -strict -wipe 500x400+0+0 -rotate 270  -outfile /tmp/foo @@
+jpegtran -copy comments -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -restart 4 -grayscale -crop 500x400+0+0 -verbose -trim -transverse -wipe 500x400+0+0 -progressive -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -flip vertical -debug -crop 500x400+0+0 -trim -transverse -wipe 500x400+0+0 -perfect -report -rotate 270  -outfile /tmp/foo @@
+jpegtran -optimize -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -transpose -restart 4 -strict -trim -wipe 500x400+0+0 -progressive -report -rotate 180  -outfile /tmp/foo @@
+jpegtran -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -strict -grayscale -trim -transverse -progressive  -outfile /tmp/foo @@
+jpegtran -copy comments -maxscans 3 -verbose -transverse -wipe 500x400+0+0 -progressive -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -debug -drop +500+400 input/not_kitty.jpg -arithmetic -restart 4 -grayscale -crop 500x400+0+0 -wipe 500x400+0+0 -progressive -report -rotate 180  -outfile /tmp/foo @@
+jpegtran -optimize -drop +500+400 input/not_kitty.jpg -arithmetic -restart 4 -strict -grayscale -crop 500x400+0+0 -verbose -trim -wipe 500x400+0+0 -perfect -report -rotate 90  -outfile /tmp/foo @@
+jpegtran -optimize -debug -drop +500+400 input/not_kitty.jpg -restart 4 -trim -transverse -wipe 500x400+0+0 -progressive -perfect -report -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -optimize -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -transpose -wipe 500x400+0+0 -perfect -maxmemory 4m -rotate 270  -outfile /tmp/foo @@
+jpegtran -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -strict -crop 500x400+0+0 -trim -transverse -report  -outfile /tmp/foo @@
+jpegtran -copy icc -optimize -flip vertical -debug -drop +500+400 input/not_kitty.jpg -transpose -strict -grayscale -progressive -report  -outfile /tmp/foo @@
+jpegtran -copy all -optimize -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -transpose -restart 4 -grayscale -crop 500x400+0+0 -verbose -wipe 500x400+0+0 -perfect -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -maxscans 3 -arithmetic -restart 4 -crop 500x400+0+0 -wipe 500x400+0+0 -progressive -maxmemory 4m -rotate 270  -outfile /tmp/foo @@
+jpegtran -copy none -optimize -flip vertical -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -strict -grayscale -crop 500x400+0+0 -transverse -perfect -report -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy comments -optimize -debug -drop +500+400 input/not_kitty.jpg -transpose -restart 4 -strict -crop 500x400+0+0 -transverse -wipe 500x400+0+0 -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -transpose -restart 4 -strict -crop 500x400+0+0 -transverse -progressive  -outfile /tmp/foo @@
+jpegtran -copy all -optimize -flip vertical -debug -drop +500+400 input/not_kitty.jpg -restart 4 -strict -trim -transverse -wipe 500x400+0+0 -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -optimize -drop +500+400 input/not_kitty.jpg -maxscans 3 -grayscale -trim -transverse -progressive -perfect -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy none -optimize -flip horizontal -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -transpose -restart 4 -grayscale -trim -transverse -wipe 500x400+0+0 -perfect -report -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy none -optimize -flip vertical -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -restart 4 -trim -transverse -progressive -perfect -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy icc -optimize -debug -drop +500+400 input/not_kitty.jpg -crop 500x400+0+0 -transverse -progressive -perfect -maxmemory 4m -rotate 270  -outfile /tmp/foo @@
+jpegtran -copy icc -optimize -flip vertical -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -restart 4 -strict -trim -wipe 500x400+0+0 -maxmemory 4m -rotate 270  -outfile /tmp/foo @@
+jpegtran -optimize -drop +500+400 input/not_kitty.jpg -verbose -trim -transverse -rotate 180  -outfile /tmp/foo @@
+jpegtran -copy all -optimize -flip vertical -debug -drop +500+400 input/not_kitty.jpg -arithmetic -strict -grayscale -crop 500x400+0+0 -wipe 500x400+0+0 -progressive -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy icc -optimize -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -transpose -strict -transverse -report -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy comments -optimize -drop +500+400 input/not_kitty.jpg -strict -trim -transverse -wipe 500x400+0+0 -progressive -perfect -report -maxmemory 4m -rotate 180  -outfile /tmp/foo @@
+jpegtran -debug -drop +500+400 input/not_kitty.jpg -strict -grayscale -crop 500x400+0+0 -transverse -progressive -perfect -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -flip vertical -debug -restart 4 -wipe 500x400+0+0 -progressive -maxmemory 4m -rotate 270  -outfile /tmp/foo @@
+jpegtran -copy none -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -transverse -perfect -report -rotate 180  -outfile /tmp/foo @@
+jpegtran -copy comments -optimize -debug -drop +500+400 input/not_kitty.jpg -transpose -grayscale -crop 500x400+0+0 -wipe 500x400+0+0 -perfect -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy comments -optimize -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -transpose -strict -verbose -trim -transverse -wipe 500x400+0+0 -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy all -optimize -flip vertical -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -transpose -restart 4 -crop 500x400+0+0 -trim -wipe 500x400+0+0 -progressive -report -rotate 180  -outfile /tmp/foo @@
+jpegtran -copy none -optimize -drop +500+400 input/not_kitty.jpg -maxscans 3 -strict -crop 500x400+0+0 -verbose -trim -transverse -perfect -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy none -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -transpose -restart 4 -strict -trim -maxmemory 4m -rotate 270  -outfile /tmp/foo @@
+jpegtran -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -transpose -restart 4 -grayscale -transverse -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -optimize -flip vertical -maxscans 3 -crop 500x400+0+0 -wipe 500x400+0+0 -perfect -rotate 180  -outfile /tmp/foo @@
+jpegtran -copy none -optimize -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -transpose -restart 4 -strict -grayscale -verbose -perfect -report -rotate 180  -outfile /tmp/foo @@
+jpegtran -copy icc -optimize -flip vertical -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -strict -grayscale -trim -transverse -rotate 270  -outfile /tmp/foo @@
+jpegtran -copy comments -optimize -debug -drop +500+400 input/not_kitty.jpg -transpose -grayscale -crop 500x400+0+0 -trim -transverse -progressive -report -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -optimize -debug -drop +500+400 input/not_kitty.jpg -strict -crop 500x400+0+0 -transverse -progressive -perfect -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy comments -debug -drop +500+400 input/not_kitty.jpg -arithmetic -transpose -strict -progressive -perfect  -outfile /tmp/foo @@
+jpegtran -copy all -optimize -drop +500+400 input/not_kitty.jpg -arithmetic -transpose -strict -grayscale -verbose -rotate 180  -outfile /tmp/foo @@
+jpegtran -optimize -flip vertical -debug -drop +500+400 input/not_kitty.jpg -arithmetic -transpose -restart 4 -strict -grayscale -trim -transverse -progressive -perfect -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -optimize -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -crop 500x400+0+0 -verbose -trim -wipe 500x400+0+0 -progressive  -outfile /tmp/foo @@
+jpegtran -debug -drop +500+400 input/not_kitty.jpg -arithmetic -transpose -strict -transverse -wipe 500x400+0+0 -perfect -report -rotate 90  -outfile /tmp/foo @@
+jpegtran -optimize -flip horizontal -arithmetic -wipe 500x400+0+0 -progressive -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy none -flip horizontal -debug -drop +500+400 input/not_kitty.jpg -transpose -strict -crop 500x400+0+0 -trim -perfect  -outfile /tmp/foo @@
+jpegtran -debug -drop +500+400 input/not_kitty.jpg -arithmetic -transpose -restart 4 -strict -grayscale -crop 500x400+0+0 -perfect -maxmemory 4m -rotate 180  -outfile /tmp/foo @@
+jpegtran -copy none -optimize -drop +500+400 input/not_kitty.jpg -arithmetic -transpose -restart 4 -strict -grayscale -crop 500x400+0+0 -trim -transverse -wipe 500x400+0+0 -progressive -report -rotate 270  -outfile /tmp/foo @@
+jpegtran -copy all -debug -drop +500+400 input/not_kitty.jpg -transpose -restart 4 -crop 500x400+0+0 -progressive -report -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -optimize -flip vertical -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -restart 4 -strict -wipe 500x400+0+0 -perfect  -outfile /tmp/foo @@
+jpegtran -copy icc -flip vertical -debug -drop +500+400 input/not_kitty.jpg -arithmetic -restart 4 -perfect -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -optimize -debug -drop +500+400 input/not_kitty.jpg -transpose -strict -grayscale -trim -transverse -wipe 500x400+0+0 -progressive -report -rotate 180  -outfile /tmp/foo @@
+jpegtran -optimize -flip horizontal -debug -drop +500+400 input/not_kitty.jpg -restart 4 -crop 500x400+0+0 -trim  -outfile /tmp/foo @@
+jpegtran -copy comments -optimize -drop +500+400 input/not_kitty.jpg -maxscans 3 -transpose -restart 4 -strict -grayscale -trim -wipe 500x400+0+0 -perfect -report  -outfile /tmp/foo @@
+jpegtran -copy none -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -transpose -restart 4 -strict -grayscale -verbose -wipe 500x400+0+0 -progressive -maxmemory 4m -rotate 180  -outfile /tmp/foo @@
+jpegtran -copy all -flip horizontal -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -transpose -strict -grayscale -transverse -perfect  -outfile /tmp/foo @@
+jpegtran -debug -drop +500+400 input/not_kitty.jpg -arithmetic -wipe 500x400+0+0 -progressive -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -optimize -flip vertical -debug -drop +500+400 input/not_kitty.jpg -arithmetic -restart 4 -strict -grayscale -crop 500x400+0+0 -transverse -wipe 500x400+0+0  -outfile /tmp/foo @@
+jpegtran -copy comments -flip vertical -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -trim -transverse -progressive -report -maxmemory 4m -rotate 270  -outfile /tmp/foo @@
+jpegtran -copy none -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -transpose -crop 500x400+0+0 -verbose -wipe 500x400+0+0 -report -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy none -flip vertical -debug -drop +500+400 input/not_kitty.jpg -arithmetic -transpose -restart 4 -crop 500x400+0+0 -transverse -wipe 500x400+0+0 -progressive -perfect -rotate 270  -outfile /tmp/foo @@
+jpegtran -optimize -flip vertical -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -transpose -strict -grayscale -transverse -wipe 500x400+0+0 -perfect -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -optimize -debug -drop +500+400 input/not_kitty.jpg -transpose -grayscale -crop 500x400+0+0 -trim -transverse -perfect  -outfile /tmp/foo @@
+jpegtran -copy none -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -transpose -strict -grayscale -crop 500x400+0+0 -progressive -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -optimize -flip vertical -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -restart 4 -transverse -rotate 270  -outfile /tmp/foo @@
+jpegtran -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -transpose -restart 4 -grayscale -crop 500x400+0+0 -transverse -wipe 500x400+0+0 -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy none -optimize -drop +500+400 input/not_kitty.jpg -arithmetic -transpose -strict -grayscale -crop 500x400+0+0 -verbose -trim -transverse -progressive -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy comments -debug -drop +500+400 input/not_kitty.jpg -transpose -restart 4 -grayscale -transverse -progressive -perfect -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -drop +500+400 input/not_kitty.jpg -strict -verbose -transverse -wipe 500x400+0+0 -progressive  -outfile /tmp/foo @@
+jpegtran -copy all -flip horizontal -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -restart 4 -strict -grayscale -trim -wipe 500x400+0+0 -report  -outfile /tmp/foo @@
+jpegtran -copy icc -optimize -drop +500+400 input/not_kitty.jpg -maxscans 3 -transpose -strict -grayscale -verbose -trim -progressive -perfect -rotate 180  -outfile /tmp/foo @@
+jpegtran -optimize -flip vertical -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -transpose -trim -perfect -report  -outfile /tmp/foo @@
+jpegtran -copy icc -flip vertical -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -grayscale -crop 500x400+0+0 -wipe 500x400+0+0 -progressive -perfect  -outfile /tmp/foo @@
+jpegtran -optimize -drop +500+400 input/not_kitty.jpg -restart 4 -strict -crop 500x400+0+0 -verbose -trim -progressive -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -optimize -flip vertical -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -grayscale -crop 500x400+0+0 -wipe 500x400+0+0 -perfect -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -drop +500+400 input/not_kitty.jpg -arithmetic -restart 4 -strict -crop 500x400+0+0 -verbose -trim -transverse -progressive -perfect -rotate 90  -outfile /tmp/foo @@
+jpegtran -optimize -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -transpose -restart 4 -strict -crop 500x400+0+0 -verbose -trim -transverse -wipe 500x400+0+0 -progressive -perfect -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -optimize -drop +500+400 input/not_kitty.jpg -arithmetic -restart 4 -crop 500x400+0+0 -transverse -progressive -perfect -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy all -optimize -drop +500+400 input/not_kitty.jpg -arithmetic -transpose -trim -transverse -wipe 500x400+0+0 -progressive -perfect -rotate 180  -outfile /tmp/foo @@
+jpegtran -optimize -flip vertical -debug -drop +500+400 input/not_kitty.jpg -arithmetic -transpose -restart 4 -strict -transverse -wipe 500x400+0+0 -perfect -report -maxmemory 4m -rotate 270  -outfile /tmp/foo @@
+jpegtran -copy none -flip horizontal -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -transpose -crop 500x400+0+0 -trim -transverse -wipe 500x400+0+0 -progressive -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -optimize -flip horizontal -debug -drop +500+400 input/not_kitty.jpg -strict -grayscale -crop 500x400+0+0 -trim -transverse -wipe 500x400+0+0 -progressive -perfect -rotate 180  -outfile /tmp/foo @@
+jpegtran -optimize -flip vertical -debug -drop +500+400 input/not_kitty.jpg -transpose -restart 4 -strict -transverse -wipe 500x400+0+0  -outfile /tmp/foo @@
+jpegtran -optimize -flip vertical -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -transpose -trim -perfect -report -maxmemory 4m -rotate 270  -outfile /tmp/foo @@
+jpegtran -copy all -optimize -flip horizontal -drop +500+400 input/not_kitty.jpg -maxscans 3 -transpose -restart 4 -strict -crop 500x400+0+0 -verbose -transverse -wipe 500x400+0+0 -progressive -perfect  -outfile /tmp/foo @@
+jpegtran -flip horizontal -debug -drop +500+400 input/not_kitty.jpg -arithmetic -restart 4 -crop 500x400+0+0 -trim -transverse -wipe 500x400+0+0 -progressive -report -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -drop +500+400 input/not_kitty.jpg -restart 4 -grayscale -crop 500x400+0+0 -verbose -trim -progressive -report  -outfile /tmp/foo @@
+jpegtran -copy all -drop +500+400 input/not_kitty.jpg -maxscans 3 -transpose -grayscale -verbose -transverse -wipe 500x400+0+0 -report  -outfile /tmp/foo @@
+jpegtran -flip vertical -debug -drop +500+400 input/not_kitty.jpg -arithmetic -restart 4 -grayscale -trim -wipe 500x400+0+0 -rotate 270  -outfile /tmp/foo @@
+jpegtran -flip horizontal -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -transpose -restart 4 -strict -grayscale -crop 500x400+0+0 -wipe 500x400+0+0 -progressive -perfect -rotate 180  -outfile /tmp/foo @@
+jpegtran -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -transpose -restart 4 -grayscale -verbose -trim -transverse -wipe 500x400+0+0 -progressive -perfect  -outfile /tmp/foo @@
+jpegtran -optimize -drop +500+400 input/not_kitty.jpg -arithmetic -transpose -restart 4 -crop 500x400+0+0 -verbose -transverse -wipe 500x400+0+0 -perfect -report -rotate 270  -outfile /tmp/foo @@
+jpegtran -copy comments -optimize -flip horizontal -drop +500+400 input/not_kitty.jpg -maxscans 3 -transpose -strict -crop 500x400+0+0 -verbose -trim -wipe 500x400+0+0 -report -rotate 180  -outfile /tmp/foo @@
+jpegtran -flip vertical -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -trim -transverse -wipe 500x400+0+0 -progressive -perfect  -outfile /tmp/foo @@
+jpegtran -transpose -grayscale -wipe 500x400+0+0 -progressive -perfect -report -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy comments -optimize -flip vertical -drop +500+400 input/not_kitty.jpg -arithmetic -restart 4 -strict -grayscale -crop 500x400+0+0 -verbose -trim -wipe 500x400+0+0 -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy all -optimize -flip horizontal -drop +500+400 input/not_kitty.jpg -transpose -restart 4 -grayscale -crop 500x400+0+0 -verbose -trim -transverse -progressive -perfect -report -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy none -drop +500+400 input/not_kitty.jpg -arithmetic -transpose -restart 4 -verbose -trim -transverse -wipe 500x400+0+0 -rotate 180  -outfile /tmp/foo @@
+jpegtran -copy none -optimize -flip horizontal -drop +500+400 input/not_kitty.jpg -maxscans 3 -transpose -restart 4 -crop 500x400+0+0 -verbose -transverse -rotate 180  -outfile /tmp/foo @@
+jpegtran -optimize -drop +500+400 input/not_kitty.jpg -arithmetic -transpose -restart 4 -strict -grayscale -crop 500x400+0+0 -verbose -progressive -perfect  -outfile /tmp/foo @@
+jpegtran -copy comments -optimize -flip vertical -drop +500+400 input/not_kitty.jpg -arithmetic -crop 500x400+0+0 -progressive -perfect -report  -outfile /tmp/foo @@
+jpegtran -flip horizontal -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -crop 500x400+0+0 -wipe 500x400+0+0 -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -debug -drop +500+400 input/not_kitty.jpg -transpose -restart 4 -strict -trim -transverse -report -maxmemory 4m -rotate 270  -outfile /tmp/foo @@
+jpegtran -drop +500+400 input/not_kitty.jpg -arithmetic -strict -crop 500x400+0+0 -trim -wipe 500x400+0+0 -perfect -report  -outfile /tmp/foo @@
+jpegtran -flip horizontal -debug -drop +500+400 input/not_kitty.jpg -transpose -strict -crop 500x400+0+0 -trim -progressive -perfect -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy none -optimize -flip horizontal -drop +500+400 input/not_kitty.jpg -restart 4 -grayscale -perfect -rotate 270  -outfile /tmp/foo @@
+jpegtran -flip horizontal -debug -drop +500+400 input/not_kitty.jpg -arithmetic -transpose -restart 4 -grayscale -crop 500x400+0+0 -trim -wipe 500x400+0+0 -progressive -perfect -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -flip horizontal -debug -drop +500+400 input/not_kitty.jpg -arithmetic -transpose -grayscale -transverse -maxmemory 4m -rotate 270  -outfile /tmp/foo @@
+jpegtran -flip horizontal -debug -drop +500+400 input/not_kitty.jpg -arithmetic -strict -crop 500x400+0+0 -report -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy none -optimize -flip horizontal -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -transpose -crop 500x400+0+0 -verbose -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy none -optimize -flip vertical -drop +500+400 input/not_kitty.jpg -maxscans 3 -transpose -restart 4 -grayscale -crop 500x400+0+0 -trim -transverse -progressive -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy icc -optimize -flip horizontal -drop +500+400 input/not_kitty.jpg -transverse -wipe 500x400+0+0 -perfect -report  -outfile /tmp/foo @@
+jpegtran -copy icc -optimize -flip vertical -drop +500+400 input/not_kitty.jpg -maxscans 3 -restart 4 -grayscale -verbose -wipe 500x400+0+0 -progressive -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy icc -optimize -flip horizontal -drop +500+400 input/not_kitty.jpg -crop 500x400+0+0 -verbose -wipe 500x400+0+0 -perfect  -outfile /tmp/foo @@
+jpegtran -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -transpose -strict -verbose -trim -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy none -optimize -flip vertical -drop +500+400 input/not_kitty.jpg -arithmetic -restart 4 -grayscale -crop 500x400+0+0 -verbose -trim -transverse -progressive -report -rotate 270  -outfile /tmp/foo @@
+jpegtran -copy icc -optimize -flip horizontal -drop +500+400 input/not_kitty.jpg -arithmetic -transpose -restart 4 -strict -verbose -trim -perfect -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy none -optimize -flip horizontal -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -grayscale -verbose -transverse -wipe 500x400+0+0 -maxmemory 4m -rotate 270  -outfile /tmp/foo @@
+jpegtran -copy icc -drop +500+400 input/not_kitty.jpg -maxscans 3 -crop 500x400+0+0 -trim -transverse -wipe 500x400+0+0  -outfile /tmp/foo @@
+jpegtran -drop +500+400 input/not_kitty.jpg -maxscans 3 -strict -crop 500x400+0+0 -verbose -perfect -report -rotate 180  -outfile /tmp/foo @@
+jpegtran -optimize -drop +500+400 input/not_kitty.jpg -maxscans 3 -transpose -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -drop +500+400 input/not_kitty.jpg -maxscans 3 -strict -crop 500x400+0+0 -verbose -transverse -wipe 500x400+0+0 -perfect -rotate 180  -outfile /tmp/foo @@
+jpegtran -optimize -drop +500+400 input/not_kitty.jpg -arithmetic -transpose -transverse -wipe 500x400+0+0 -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy all -optimize -flip vertical -drop +500+400 input/not_kitty.jpg -crop 500x400+0+0 -verbose -trim -transverse -wipe 500x400+0+0 -progressive -rotate 180  -outfile /tmp/foo @@
+jpegtran -copy icc -optimize -flip horizontal -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -transpose -restart 4 -grayscale -crop 500x400+0+0 -verbose -perfect -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy icc -drop +500+400 input/not_kitty.jpg -maxscans 3 -transpose -restart 4 -verbose -transverse -progressive -report  -outfile /tmp/foo @@
+jpegtran -flip vertical -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -transpose -grayscale -trim -progressive -perfect -rotate 180  -outfile /tmp/foo @@
+jpegtran -copy icc -optimize -flip horizontal -drop +500+400 input/not_kitty.jpg -grayscale -verbose -transverse -wipe 500x400+0+0 -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -flip vertical -debug -drop +500+400 input/not_kitty.jpg -maxscans 3 -transpose -restart 4 -grayscale -crop 500x400+0+0 -trim -transverse -wipe 500x400+0+0 -perfect -report  -outfile /tmp/foo @@
+jpegtran -copy all -flip horizontal -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -strict -grayscale -trim -transverse -wipe 500x400+0+0 -progressive -report -rotate 270  -outfile /tmp/foo @@
+jpegtran -optimize -flip vertical -drop +500+400 input/not_kitty.jpg -grayscale -crop 500x400+0+0 -verbose -trim -transverse -wipe 500x400+0+0 -perfect -report -rotate 270  -outfile /tmp/foo @@
+jpegtran -optimize -flip horizontal -drop +500+400 input/not_kitty.jpg -strict -crop 500x400+0+0 -trim -progressive -maxmemory 4m -rotate 270  -outfile /tmp/foo @@
+jpegtran -copy all -flip vertical -drop +500+400 input/not_kitty.jpg -transpose -restart 4 -grayscale -crop 500x400+0+0 -wipe 500x400+0+0 -report -maxmemory 4m -rotate 270  -outfile /tmp/foo @@
+jpegtran -copy all -flip horizontal -drop +500+400 input/not_kitty.jpg -maxscans 3 -transpose -verbose -trim -wipe 500x400+0+0 -progressive -perfect -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -optimize -flip vertical -drop +500+400 input/not_kitty.jpg -arithmetic -transpose -restart 4 -strict -verbose -transverse -wipe 500x400+0+0 -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -optimize -flip vertical -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -transpose -grayscale -crop 500x400+0+0 -trim -transverse  -outfile /tmp/foo @@
+jpegtran -optimize -flip horizontal -drop +500+400 input/not_kitty.jpg -transpose -restart 4 -verbose -trim -wipe 500x400+0+0 -progressive -perfect -rotate 90  -outfile /tmp/foo @@
+jpegtran -optimize -flip horizontal -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -transpose -restart 4 -strict -progressive -perfect -report -maxmemory 4m -rotate 270  -outfile /tmp/foo @@
+jpegtran -optimize -flip vertical -drop +500+400 input/not_kitty.jpg -maxscans 3 -restart 4 -grayscale -verbose -trim -report -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy icc -flip horizontal -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -transpose -restart 4 -strict -crop 500x400+0+0 -verbose -trim -transverse -perfect -report -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy all -flip vertical -drop +500+400 input/not_kitty.jpg -arithmetic -transpose -verbose -trim -progressive -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy comments -flip vertical -drop +500+400 input/not_kitty.jpg -arithmetic -strict -grayscale -crop 500x400+0+0 -verbose -transverse -wipe 500x400+0+0 -progressive -perfect -report  -outfile /tmp/foo @@
+jpegtran -copy none -flip vertical -drop +500+400 input/not_kitty.jpg -restart 4 -verbose -transverse -wipe 500x400+0+0 -progressive -perfect -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -drop +500+400 input/not_kitty.jpg -arithmetic -transpose -strict -grayscale -crop 500x400+0+0 -verbose -trim -transverse -perfect -report -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -optimize -flip vertical -drop +500+400 input/not_kitty.jpg -maxscans 3 -verbose -wipe 500x400+0+0 -progressive -report -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy all -flip horizontal -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -restart 4 -strict -grayscale -crop 500x400+0+0 -transverse -wipe 500x400+0+0 -perfect -rotate 270  -outfile /tmp/foo @@
+jpegtran -optimize -flip vertical -drop +500+400 input/not_kitty.jpg -arithmetic -transpose -strict -grayscale -verbose -trim -transverse -wipe 500x400+0+0 -progressive  -outfile /tmp/foo @@
+jpegtran -optimize -flip vertical -drop +500+400 input/not_kitty.jpg -restart 4 -strict -verbose -transverse -progressive -perfect -rotate 90  -outfile /tmp/foo @@
+jpegtran -optimize -drop +500+400 input/not_kitty.jpg -transpose -grayscale -crop 500x400+0+0 -verbose -trim -wipe 500x400+0+0 -progressive -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -optimize -drop +500+400 input/not_kitty.jpg -transpose -verbose -transverse -wipe 500x400+0+0 -progressive -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy none -flip vertical -drop +500+400 input/not_kitty.jpg -strict -verbose -trim -wipe 500x400+0+0 -perfect -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -optimize -flip vertical -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -restart 4 -verbose -transverse -progressive -report  -outfile /tmp/foo @@
+jpegtran -copy all -drop +500+400 input/not_kitty.jpg -transpose -restart 4 -strict -grayscale -crop 500x400+0+0 -verbose -trim -wipe 500x400+0+0  -outfile /tmp/foo @@
+jpegtran -copy none -drop +500+400 input/not_kitty.jpg -transpose -restart 4 -trim -transverse -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -optimize -flip horizontal -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -transpose -restart 4 -grayscale -verbose -transverse -progressive -perfect -rotate 180  -outfile /tmp/foo @@
+jpegtran -copy icc -flip horizontal -drop +500+400 input/not_kitty.jpg -transpose -grayscale -verbose -trim -perfect -report -rotate 180  -outfile /tmp/foo @@
+jpegtran -optimize -flip vertical -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -grayscale -crop 500x400+0+0 -verbose -transverse -wipe 500x400+0+0 -report  -outfile /tmp/foo @@
+jpegtran -copy icc -flip horizontal -drop +500+400 input/not_kitty.jpg -arithmetic -transpose -strict -crop 500x400+0+0 -transverse -wipe 500x400+0+0 -progressive -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -drop +500+400 input/not_kitty.jpg -arithmetic -transpose -grayscale -verbose  -outfile /tmp/foo @@
+jpegtran -copy icc -flip horizontal -drop +500+400 input/not_kitty.jpg -maxscans 3 -restart 4 -crop 500x400+0+0 -verbose -trim -progressive -perfect  -outfile /tmp/foo @@
+jpegtran -copy none -flip horizontal -drop +500+400 input/not_kitty.jpg -arithmetic -restart 4 -trim -transverse -wipe 500x400+0+0 -progressive -report -rotate 270  -outfile /tmp/foo @@
+jpegtran -optimize -flip horizontal -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -restart 4 -strict -crop 500x400+0+0 -verbose -trim -wipe 500x400+0+0 -maxmemory 4m -rotate 270  -outfile /tmp/foo @@
+jpegtran -copy none -flip vertical -drop +500+400 input/not_kitty.jpg -arithmetic -transpose -restart 4 -verbose -trim -transverse -wipe 500x400+0+0 -report  -outfile /tmp/foo @@
+jpegtran -optimize -flip horizontal -drop +500+400 input/not_kitty.jpg -transpose -restart 4 -strict -grayscale -crop 500x400+0+0 -verbose -trim -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy icc -flip horizontal -drop +500+400 input/not_kitty.jpg -arithmetic -strict -grayscale -crop 500x400+0+0 -trim -transverse -wipe 500x400+0+0 -perfect -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -drop +500+400 input/not_kitty.jpg -transpose -crop 500x400+0+0 -verbose -transverse -progressive -perfect -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -flip horizontal -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -crop 500x400+0+0 -verbose -perfect -rotate 270  -outfile /tmp/foo @@
+jpegtran -flip horizontal -drop +500+400 input/not_kitty.jpg -maxscans 3 -transpose -grayscale -crop 500x400+0+0 -verbose -transverse -progressive -maxmemory 4m -rotate 180  -outfile /tmp/foo @@
+jpegtran -flip vertical -drop +500+400 input/not_kitty.jpg -transpose -strict -grayscale -verbose -trim -transverse -wipe 500x400+0+0 -perfect -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -flip vertical -drop +500+400 input/not_kitty.jpg -maxscans 3 -restart 4 -strict -crop 500x400+0+0 -verbose -perfect -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -flip vertical -drop +500+400 input/not_kitty.jpg -maxscans 3 -restart 4 -strict -grayscale -verbose -trim -progressive -perfect -rotate 180  -outfile /tmp/foo @@
+jpegtran -drop +500+400 input/not_kitty.jpg -transpose -restart 4 -strict -verbose -perfect -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -flip horizontal -drop +500+400 input/not_kitty.jpg -maxscans 3 -transpose -strict -crop 500x400+0+0 -verbose -trim -transverse -progressive -report  -outfile /tmp/foo @@
+jpegtran -flip horizontal -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -strict -crop 500x400+0+0 -verbose -trim -wipe 500x400+0+0 -progressive -perfect -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -drop +500+400 input/not_kitty.jpg -transpose -restart 4 -wipe 500x400+0+0 -progressive -perfect  -outfile /tmp/foo @@
+jpegtran -flip horizontal -drop +500+400 input/not_kitty.jpg -crop 500x400+0+0 -trim -transverse -perfect -report -maxmemory 4m -rotate 270  -outfile /tmp/foo @@
+jpegtran -drop +500+400 input/not_kitty.jpg -transpose -strict -crop 500x400+0+0 -transverse -progressive -rotate 180  -outfile /tmp/foo @@
+jpegtran -flip horizontal -drop +500+400 input/not_kitty.jpg -maxscans 3 -transpose -restart 4 -crop 500x400+0+0 -transverse -wipe 500x400+0+0 -perfect -report -maxmemory 4m -rotate 270  -outfile /tmp/foo @@
+jpegtran -flip vertical -drop +500+400 input/not_kitty.jpg -arithmetic -restart 4 -grayscale -crop 500x400+0+0 -verbose -transverse -progressive -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -flip horizontal -drop +500+400 input/not_kitty.jpg -arithmetic -transpose -restart 4 -grayscale -crop 500x400+0+0 -verbose -wipe 500x400+0+0 -progressive -report  -outfile /tmp/foo @@
+jpegtran -flip horizontal -drop +500+400 input/not_kitty.jpg -maxscans 3 -transpose -restart 4 -strict -grayscale -trim -transverse -wipe 500x400+0+0 -progressive -maxmemory 4m -rotate 180  -outfile /tmp/foo @@
+jpegtran -flip horizontal -drop +500+400 input/not_kitty.jpg -arithmetic -transpose -restart 4 -strict -grayscale -crop 500x400+0+0 -transverse -progressive -perfect -report -rotate 90  -outfile /tmp/foo @@
+jpegtran -flip horizontal -drop +500+400 input/not_kitty.jpg -maxscans 3 -arithmetic -transpose -strict -grayscale -verbose -transverse -wipe 500x400+0+0 -report  -outfile /tmp/foo @@
+jpegtran -flip vertical -debug -maxscans 3 -arithmetic -restart 4 -strict -grayscale -trim -progressive -maxmemory 4m -rotate 270  -outfile /tmp/foo @@
+jpegtran -copy all -debug -maxscans 3 -arithmetic -transpose -restart 4 -strict -grayscale -trim -transverse -perfect -report -maxmemory 4m -rotate 180  -outfile /tmp/foo @@
+jpegtran -copy icc -optimize -maxscans 3 -transpose -restart 4 -grayscale -verbose -trim -transverse -progressive -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -flip vertical -debug -maxscans 3 -arithmetic -strict -progressive -perfect -report -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy none -maxscans 3 -arithmetic -transpose -restart 4 -strict -verbose -trim -transverse -progressive -perfect -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy comments -optimize -arithmetic -transpose -restart 4 -grayscale -verbose -transverse -progressive -perfect -report  -outfile /tmp/foo @@
+jpegtran -optimize -debug -maxscans 3 -arithmetic -strict -transverse -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy comments -optimize -flip horizontal -maxscans 3 -restart 4 -verbose -trim -transverse -wipe 500x400+0+0 -progressive -report  -outfile /tmp/foo @@
+jpegtran -restart 4 -verbose -trim -transverse -progressive -report -maxmemory 4m -rotate 180  -outfile /tmp/foo @@
+jpegtran -optimize -arithmetic -transpose -strict -verbose -trim -transverse -progressive -report -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -debug -transpose -restart 4 -strict -grayscale -trim -transverse -perfect -rotate 180  -outfile /tmp/foo @@
+jpegtran -optimize -flip vertical -maxscans 3 -strict -grayscale -verbose -transverse -progressive -perfect -report -rotate 180  -outfile /tmp/foo @@
+jpegtran -copy none -optimize -flip vertical -debug -grayscale -trim -transverse -wipe 500x400+0+0 -maxmemory 4m -rotate 180  -outfile /tmp/foo @@
+jpegtran -copy all -optimize -flip vertical -debug -maxscans 3 -arithmetic -transpose -grayscale -trim -wipe 500x400+0+0 -progressive -perfect -rotate 90  -outfile /tmp/foo @@
+jpegtran -optimize -debug -transpose -restart 4 -strict -grayscale -transverse -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -flip horizontal -arithmetic -restart 4 -grayscale -verbose -trim -transverse  -outfile /tmp/foo @@
+jpegtran -optimize -flip vertical -debug -arithmetic -grayscale -trim -transverse -progressive -report  -outfile /tmp/foo @@
+jpegtran -optimize -flip horizontal -debug -maxscans 3 -arithmetic -grayscale -transverse -wipe 500x400+0+0 -perfect -rotate 270  -outfile /tmp/foo @@
+jpegtran -copy comments -maxscans 3 -transpose -grayscale -progressive -perfect -report -rotate 180  -outfile /tmp/foo @@
+jpegtran -copy comments -flip vertical -debug -maxscans 3 -arithmetic -transpose -strict -crop 500x400+0+0 -wipe 500x400+0+0 -rotate 180  -outfile /tmp/foo @@
+jpegtran -copy icc -flip horizontal -debug -maxscans 3 -arithmetic -transpose -restart 4 -grayscale -wipe 500x400+0+0 -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -flip horizontal -restart 4 -strict -grayscale -verbose -transverse -wipe 500x400+0+0 -progressive -maxmemory 4m -rotate 270  -outfile /tmp/foo @@
+jpegtran -debug -transpose -trim -progressive -report -rotate 90  -outfile /tmp/foo @@
+jpegtran -optimize -flip horizontal -debug -maxscans 3 -arithmetic -transpose -crop 500x400+0+0 -transverse -wipe 500x400+0+0 -progressive -perfect -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy comments -optimize -flip vertical -debug -arithmetic -transpose -restart 4 -progressive -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy comments -optimize -flip vertical -debug -maxscans 3 -transpose -strict -grayscale -crop 500x400+0+0 -trim -transverse -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy icc -optimize -flip vertical -debug -arithmetic -transpose -strict -trim -wipe 500x400+0+0 -progressive -perfect -report -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy all -flip horizontal -debug -maxscans 3 -arithmetic -transpose -restart 4 -strict -transverse -wipe 500x400+0+0 -progressive -report  -outfile /tmp/foo @@
+jpegtran -copy all -optimize -flip vertical -arithmetic -verbose -transverse -perfect -report -maxmemory 4m -rotate 180  -outfile /tmp/foo @@
+jpegtran -flip horizontal -maxscans 3 -restart 4 -verbose -trim -transverse -wipe 500x400+0+0 -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -optimize -maxscans 3 -transpose -restart 4 -verbose -transverse -wipe 500x400+0+0 -progressive -perfect -report  -outfile /tmp/foo @@
+jpegtran -copy comments -optimize -flip vertical -debug -maxscans 3 -transpose -restart 4 -crop 500x400+0+0 -trim -progressive -perfect -maxmemory 4m -rotate 270  -outfile /tmp/foo @@
+jpegtran -copy comments -optimize -flip vertical -debug -transverse -perfect  -outfile /tmp/foo @@
+jpegtran -copy icc -optimize -flip vertical -maxscans 3 -arithmetic -transpose -restart 4 -grayscale -verbose -trim -transverse -wipe 500x400+0+0 -perfect -report -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -optimize -flip horizontal -debug -arithmetic -transpose -strict -grayscale -crop 500x400+0+0 -trim -report -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -flip vertical -arithmetic -restart 4 -strict -trim -transverse -perfect -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy comments -optimize -flip vertical -maxscans 3 -arithmetic -transpose -strict -verbose -trim -transverse -perfect  -outfile /tmp/foo @@
+jpegtran -copy icc -transpose -strict -verbose -transverse -wipe 500x400+0+0 -maxmemory 4m -rotate 270  -outfile /tmp/foo @@
+jpegtran -optimize -flip horizontal -debug -arithmetic -transpose -restart 4 -grayscale -crop 500x400+0+0 -wipe 500x400+0+0 -perfect -report -maxmemory 4m -rotate 180  -outfile /tmp/foo @@
+jpegtran -flip vertical -debug -strict -grayscale -transverse -progressive -perfect  -outfile /tmp/foo @@
+jpegtran -copy all -flip vertical -debug -arithmetic -transpose -crop 500x400+0+0 -trim -transverse -perfect -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -optimize -flip vertical -debug -maxscans 3 -transpose -strict -trim -transverse -wipe 500x400+0+0 -progressive -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -optimize -flip vertical -debug -arithmetic -transpose -restart 4 -grayscale -transverse -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -flip vertical -debug -maxscans 3 -transpose -restart 4 -transverse -report -rotate 270  -outfile /tmp/foo @@
+jpegtran -optimize -flip horizontal -maxscans 3 -arithmetic -transpose -strict -grayscale -verbose -progressive -perfect -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy comments -optimize -flip horizontal -maxscans 3 -transpose -crop 500x400+0+0 -verbose -transverse -wipe 500x400+0+0 -progressive -report -maxmemory 4m -rotate 180  -outfile /tmp/foo @@
+jpegtran -copy none -flip vertical -debug -transpose -restart 4 -grayscale -crop 500x400+0+0 -transverse -perfect -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy all -optimize -flip horizontal -arithmetic -transpose -grayscale -crop 500x400+0+0 -trim -wipe 500x400+0+0 -perfect -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy icc -flip vertical -maxscans 3 -arithmetic -transpose -restart 4 -strict -grayscale -verbose -trim -progressive -report  -outfile /tmp/foo @@
+jpegtran -flip horizontal -debug -maxscans 3 -transpose -restart 4 -strict -crop 500x400+0+0 -trim -transverse -wipe 500x400+0+0 -progressive -perfect -maxmemory 4m -rotate 180  -outfile /tmp/foo @@
+jpegtran -copy all -flip horizontal -grayscale -progressive -rotate 180  -outfile /tmp/foo @@
+jpegtran -optimize -flip horizontal -maxscans 3 -arithmetic -transpose -restart 4 -trim -transverse -wipe 500x400+0+0 -perfect  -outfile /tmp/foo @@
+jpegtran -copy all -optimize -flip vertical -maxscans 3 -transpose -restart 4 -strict -grayscale -verbose -transverse -maxmemory 4m -rotate 180  -outfile /tmp/foo @@
+jpegtran -optimize -flip vertical -debug -transpose -restart 4 -strict -trim -transverse -progressive -perfect -maxmemory 4m -rotate 180  -outfile /tmp/foo @@
+jpegtran -copy comments -flip vertical -debug -transpose -restart 4 -grayscale -trim -report  -outfile /tmp/foo @@
+jpegtran -copy all -optimize -flip vertical -maxscans 3 -transpose -strict -grayscale -verbose -wipe 500x400+0+0 -progressive -rotate 90  -outfile /tmp/foo @@
+jpegtran -optimize -flip vertical -debug -transpose -strict -crop 500x400+0+0 -progressive -perfect -rotate 180  -outfile /tmp/foo @@
+jpegtran -copy icc -flip vertical -debug -transpose -strict -grayscale -crop 500x400+0+0 -wipe 500x400+0+0 -report -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy icc -flip vertical -maxscans 3 -arithmetic -transpose -restart 4 -crop 500x400+0+0 -trim -wipe 500x400+0+0 -progressive -report  -outfile /tmp/foo @@
+jpegtran -flip horizontal -debug -arithmetic -transpose -strict -crop 500x400+0+0 -wipe 500x400+0+0 -perfect -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -optimize -flip horizontal -arithmetic -transpose -restart 4 -crop 500x400+0+0 -verbose -trim -perfect -report  -outfile /tmp/foo @@
+jpegtran -copy all -flip horizontal -arithmetic -transpose -strict -grayscale -transverse -wipe 500x400+0+0 -progressive -perfect -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -copy all -flip vertical -arithmetic -transpose -restart 4 -strict -grayscale -crop 500x400+0+0 -verbose -perfect -report  -outfile /tmp/foo @@
+jpegtran -flip horizontal -debug -transpose -grayscale -crop 500x400+0+0 -wipe 500x400+0+0  -outfile /tmp/foo @@
+jpegtran -flip vertical -maxscans 3 -arithmetic -transpose -grayscale -crop 500x400+0+0 -verbose -trim -rotate 270  -outfile /tmp/foo @@
+jpegtran -copy comments -optimize -flip vertical -transpose -strict -grayscale -verbose -wipe 500x400+0+0 -perfect -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -optimize -flip horizontal -maxscans 3 -transpose -grayscale -verbose -trim -transverse -wipe 500x400+0+0 -progressive -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -flip horizontal -maxscans 3 -arithmetic -transpose -grayscale -crop 500x400+0+0 -verbose -trim -transverse -wipe 500x400+0+0 -perfect -report -maxmemory 4m -rotate 270  -outfile /tmp/foo @@
+jpegtran -copy all -flip vertical -maxscans 3 -transpose -strict -verbose -wipe 500x400+0+0 -perfect -report -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -copy icc -flip horizontal -transpose -restart 4 -grayscale -crop 500x400+0+0 -verbose -trim -transverse -wipe 500x400+0+0 -progressive -perfect -rotate 270  -outfile /tmp/foo @@
+jpegtran -optimize -flip horizontal -transpose -restart 4 -strict -crop 500x400+0+0 -transverse -progressive -report -rotate 270  -outfile /tmp/foo @@
+jpegtran -flip vertical -arithmetic -transpose -restart 4 -verbose -wipe 500x400+0+0 -report  -outfile /tmp/foo @@
+jpegtran -flip horizontal -maxscans 3 -transpose -strict -trim -wipe 500x400+0+0 -maxmemory 4m  -outfile /tmp/foo @@
+jpegtran -flip horizontal -maxscans 3 -transpose -restart 4 -strict -grayscale -crop 500x400+0+0 -verbose -trim -wipe 500x400+0+0 -progressive -report -maxmemory 4m -rotate 270  -outfile /tmp/foo @@
+jpegtran -optimize -flip horizontal -transpose -grayscale -crop 500x400+0+0 -verbose -progressive -report  -outfile /tmp/foo @@
+jpegtran -flip vertical -arithmetic -transpose -restart 4 -strict -grayscale -perfect -report -rotate 270  -outfile /tmp/foo @@
+jpegtran -flip vertical -arithmetic -transpose -verbose -transverse -progressive -perfect -report -rotate 90  -outfile /tmp/foo @@
+jpegtran -flip vertical -arithmetic -transpose -strict -grayscale -verbose -progressive -maxmemory 4m -rotate 90  -outfile /tmp/foo @@
+jpegtran -optimize -flip vertical -transpose -restart 4 -strict -grayscale -crop 500x400+0+0 -transverse  -outfile /tmp/foo @@
+jpegtran -flip vertical -maxscans 3 -transpose -verbose -trim -transverse -perfect -maxmemory 4m -rotate 180  -outfile /tmp/foo @@
+jpegtran -flip vertical -transpose -restart 4 -verbose -trim -progressive -perfect  -outfile /tmp/foo @@

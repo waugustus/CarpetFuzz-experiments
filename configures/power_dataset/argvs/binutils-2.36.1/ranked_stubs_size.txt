@@ -1,0 +1,147 @@
+146
+size -t -d -G --common  @@
+size -t -o -G --common  @@
+size -t -x -G --common  @@
+size -t -x -G  @@
+size -t -o -G  @@
+size -t -d -G  @@
+size -t -G  @@
+size -t -x -B --common  @@
+size -t -B -d --common  @@
+size -t -o -B --common  @@
+size -t -o -B  @@
+size -t -B -d  @@
+size -t -x -B  @@
+size -t -d --common  @@
+size -t -A -d --common  @@
+size -t -o -A --common  @@
+size -t -x -A --common  @@
+size -x -A --common  @@
+size -A -d --common  @@
+size -o -A --common  @@
+size -t -A -d  @@
+size -t -o -A  @@
+size -x -G --common  @@
+size -d -G --common  @@
+size -o -G --common  @@
+size -t -x -A  @@
+size -x -A  @@
+size -o -B --common  @@
+size -A -d  @@
+size -d -G  @@
+size -x -G  @@
+size -B -d --common  @@
+size -o -A  @@
+size -x -B --common  @@
+size -o -G  @@
+size -t -A  @@
+size -B -d  @@
+size -x -B  @@
+size -o -B  @@
+size -B --common  @@
+size -o --common  @@
+size -x  @@
+size  @@
+size -t --target -x -G --common  @@
+size -t --target -d -G --common  @@
+size -t --target --format -d --common  @@
+size -t -o --target -A --common  @@
+size -t --target -B -d --common  @@
+size -t --target -x -B --common  @@
+size -t --target -x -G  @@
+size -t -o --target -G --common  @@
+size -t -o --target -B --common  @@
+size -t --target -d -G  @@
+size -t -o --target --format --common  @@
+size -t --target -A -d --common  @@
+size -t --target -x --common  @@
+size -t -o --target -B  @@
+size -t --target -x -B  @@
+size -t --target --format -d  @@
+size -t --target -A -d  @@
+size -t -o --target -A  @@
+size -t -o --target --format  @@
+size -t --target -B -d  @@
+size -t -o --target -G  @@
+size -t --target --format --common  @@
+size -t --target -B  @@
+size -t -o --target  @@
+size -t --target -x -A --common  @@
+size --target -x -B --common  @@
+size -o --target -G --common  @@
+size --target -A -d --common  @@
+size -o --target -A --common  @@
+size --target -d -G --common  @@
+size --target --format -d --common  @@
+size --target -B -d --common  @@
+size --target -x -G --common  @@
+size -t --target -x -A  @@
+size -o --target --format --common  @@
+size -o --target -B --common  @@
+size --target -x -A --common  @@
+size -o --target -B  @@
+size --target -A -d  @@
+size --target -x -B  @@
+size -o --target --format  @@
+size --target -d -G  @@
+size -o --target -A  @@
+size --target -x -A  @@
+size -o --target -G  @@
+size --target -x -G  @@
+size --target -A --common  @@
+size --target --format -d  @@
+size --target -B -d  @@
+size --target -G --common  @@
+size --target -d  @@
+size -t -x --format --common  @@
+size -t -o --format --common  @@
+size -t --target -x --format --common  @@
+size -t --target -x --format  @@
+size -t -x --format  @@
+size -t -o --format  @@
+size -o --format  @@
+size -t --radix --target -G  @@
+size -t --radix --target -A --common  @@
+size -t --radix --target -B  @@
+size -t --format -d  @@
+size --target -x --format  @@
+size -t --format -d --common  @@
+size -t --radix --target -A  @@
+size -t --radix --format  @@
+size -t --radix --format --common  @@
+size -x --format --common  @@
+size -t --radix --target --format --common  @@
+size --target -x --format --common  @@
+size -t --radix -G  @@
+size -t --radix -A  @@
+size -o --format --common  @@
+size -t --radix -B --common  @@
+size -t --radix -A --common  @@
+size -t --radix -B  @@
+size -t --radix --target -G --common  @@
+size -t --radix --target -B --common  @@
+size -t --radix --target --format  @@
+size -x --format  @@
+size -t --radix -G --common  @@
+size -t --radix --target --common  @@
+size --radix --target -G --common  @@
+size --radix -G  @@
+size --radix -A --common  @@
+size --radix --target -A  @@
+size --radix --target --format --common  @@
+size --radix --format --common  @@
+size --format -d  @@
+size --radix --target -G  @@
+size --radix -B --common  @@
+size --radix  @@
+size --radix --target -B --common  @@
+size --radix --format  @@
+size --radix --target -B  @@
+size --radix -A  @@
+size --radix --target --format  @@
+size --radix --target -A --common  @@
+size --radix -G --common  @@
+size --format -d --common  @@
+size --radix -B  @@
+size --format  @@
+size --target  @@

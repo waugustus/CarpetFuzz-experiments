@@ -1,0 +1,1328 @@
+1327
+tcpreplay --pktlen --nm-delay 20 --unique-ip -P --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -o -A nnt --flow-expiry 30 -d 1 --duration 3 -v  -i eth0 @@
+tcpreplay -K -T ioport -q -L 16 --netmap -t -I lo --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --loopdelay-ms 10 -L 16 --netmap -l 4 -x 2.0 -A nnt --flow-expiry 30 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen --unique-ip -P --netmap -l 4 -x 2.0 -A nnt --stats 1 -v  -i eth0 @@
+tcpreplay -K -T nano -q --maxsleep 10 -I lo --flow-expiry 30 --stats 1 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay -T ioport --unique-ip --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -x 2.0 -A nnt -v  -i eth0 @@
+tcpreplay --unique-ip --loopdelay-ms 10 --maxsleep 10 -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 -A nnt --flow-expiry 30 -d 1 --stats 1 -v  -i eth0 @@
+tcpreplay --pktlen --unique-ip -P -l 4 --unique-ip-loops 3 -x 2.0 -A nnt --flow-expiry 30 --stats 1 -v  -i eth0 @@
+tcpreplay -K -T gtod -P -L 16 --netmap --maxsleep 10 --no-flow-stats -x 2.0 -I lo -d 1 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --loopdelay-ms 10 -L 16 --netmap -l 4 -t -I lo --flow-expiry 30 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay -T nano -L 16 --maxsleep 10 -l 4 --no-flow-stats -o --stats 1 -v  -i eth0 @@
+tcpreplay --nm-delay 20 -l 4 -x 2.0 -I lo --flow-expiry 30 -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -q --netmap --maxsleep 10 --no-flow-stats -o -I lo --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T select -q --nm-delay 20 -L 16 --netmap -l 4 -I lo --flow-expiry 30 --duration 3 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay --pktlen -K -q --nm-delay 20 -L 16 --netmap --maxsleep 10 --pps-multi 3 -p 200 -I lo -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -q --nm-delay 20 -P -L 16 -o -A nnt -I lo -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K --nm-delay 20 -P -L 16 --pps-multi 3 -p 200 --flow-expiry 30 --stats 1 -v  -i eth0 @@
+tcpreplay -K -T nano -q --netmap --maxsleep 10 --no-flow-stats -I lo -d 1 --stats 1 --duration 3 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay -T ioport -q --unique-ip -P --loopdelay-ms 10 -L 16 --netmap -l 4 --unique-ip-loops 3 --pps-multi 3 --no-flow-stats -p 200 -A nnt -d 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --loopdelay-ms 10 --maxsleep 10 -l 4 --no-flow-stats -x 2.0 -A nnt -d 1 --duration 3 -v  -i eth0 @@
+tcpreplay -T gtod -q --unique-ip --loopdelay-ms 10 --netmap -l 4 --unique-ip-loops 3 -A nnt -I lo -d 1 --stats 1 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay -q --loopdelay-ms 10 -L 16 -l 4 -o --duration 3  -i eth0 @@
+tcpreplay -T select -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -t --flow-expiry 30 -d 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -q --unique-ip --loopdelay-ms 10 -L 16 --netmap -l 4 -I lo --flow-expiry 30 --stats 1 --duration 3 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay -q --unique-ip --loopdelay-ms 10 -L 16 --netmap -l 4 --unique-ip-loops 3 -p 200 -I lo --flow-expiry 30 -c small_capture.cache  -i eth0 @@
+tcpreplay -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 -l 4 --unique-ip-loops 3 -t -A nnt -v  -i eth0 @@
+tcpreplay --pktlen -P --maxsleep 10 -I lo --stats 1 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T gtod -q --unique-ip --netmap -l 4 --unique-ip-loops 3 --no-flow-stats -o -A nnt -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 -P --netmap -A nnt --flow-expiry 30 --stats 1 -v -M 0.8  -i eth0 @@
+tcpreplay -T nano --unique-ip --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 -t -A nnt -I lo --flow-expiry 30 -d 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen --unique-ip --loopdelay-ms 10 --netmap -l 4 -p 200 --flow-expiry 30 -d 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen --unique-ip -P --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -p 200 -I lo --flow-expiry 30 -c small_capture.cache  -i eth0 @@
+tcpreplay -T ioport --unique-ip -P --maxsleep 10 -l 4 --unique-ip-loops 3 -x 2.0 --flow-expiry 30 -d 1  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 -P --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 --pps-multi 3 -p 200 -A nnt --flow-expiry 30 -d 1 --duration 3 -v  -i eth0 @@
+tcpreplay -q --nm-delay 20 -P -L 16 --netmap --maxsleep 10 --no-flow-stats -t -I lo --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -K -T ioport -q --nm-delay 20 -P -L 16 --maxsleep 10 -t --flow-expiry 30 -d 1 --duration 3  -i eth0 @@
+tcpreplay -K -L 16 --netmap --maxsleep 10 --no-flow-stats -t -A nnt -I lo --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K -P --maxsleep 10 --no-flow-stats -A nnt -I lo -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -P --loopdelay-ms 10 --maxsleep 10 -l 4 -t -I lo -d 1 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -q --unique-ip -P --loopdelay-ms 10 --maxsleep 10 -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 --flow-expiry 30 -d 1 --stats 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen -K --nm-delay 20 -P -L 16 --no-flow-stats -x 2.0 -A nnt --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -q --netmap --no-flow-stats -o -I lo --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 --flow-expiry 30 -d 1 --stats 1 --duration 3  -i eth0 @@
+tcpreplay -T gtod -q --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 --pps-multi 3 --no-flow-stats -p 200 -I lo --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T ioport -q --maxsleep 10 -t -A nnt --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -K -T nano -q -P -L 16 --netmap --maxsleep 10 -I lo --flow-expiry 30 -d 1 --stats 1 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay -q --nm-delay 20 --unique-ip --loopdelay-ms 10 -l 4 --unique-ip-loops 3 -x 2.0 -A nnt -I lo --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K --nm-delay 20 -P -x 2.0 --stats 1  -i eth0 @@
+tcpreplay -K -q -P -L 16 --maxsleep 10 -I lo --flow-expiry 30 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay -T select --unique-ip -L 16 -l 4 --no-flow-stats -o -d 1 -v  -i eth0 @@
+tcpreplay --pktlen -T gtod -L 16 --netmap --maxsleep 10 --no-flow-stats -o -A nnt --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --maxsleep 10 -A nnt --stats 1 -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -q -P -L 16 --maxsleep 10 -l 4 -o -I lo -c small_capture.cache  -i eth0 @@
+tcpreplay -q --nm-delay 20 -L 16 --maxsleep 10 --pps-multi 3 --no-flow-stats -p 200 -I lo -d 1 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -q --unique-ip --loopdelay-ms 10 -L 16 --netmap -l 4 --unique-ip-loops 3 -x 2.0 --flow-expiry 30 -d 1 --duration 3  -i eth0 @@
+tcpreplay -T nano -q --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --netmap -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 -A nnt --flow-expiry 30 -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -K --nm-delay 20 -L 16 -t --stats 1  -i eth0 @@
+tcpreplay -T gtod --nm-delay 20 --unique-ip -P -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 -o -A nnt -I lo --flow-expiry 30 -d 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T select -q --nm-delay 20 -L 16 --netmap --no-flow-stats -t -A nnt -I lo -d 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 -P --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 --no-flow-stats -x 2.0  -i eth0 @@
+tcpreplay --pktlen -T gtod -q -P -L 16 --maxsleep 10 -x 2.0 --flow-expiry 30 --stats 1  -i eth0 @@
+tcpreplay -T nano --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 --netmap -l 4 --unique-ip-loops 3 -t -I lo --flow-expiry 30 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -T nano --unique-ip --netmap --maxsleep 10 -l 4 -x 2.0 --flow-expiry 30 -d 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -T nano -q --nm-delay 20 -P --loopdelay-ms 10 -L 16 -l 4 --no-flow-stats -o --stats 1  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --netmap -l 4 --unique-ip-loops 3 --pps-multi 3 --no-flow-stats -p 200 -I lo --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T nano -q --unique-ip --netmap -l 4 --pps-multi 3 -p 200 -A nnt -I lo --flow-expiry 30 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K --nm-delay 20 -P --maxsleep 10 -I lo --flow-expiry 30 -d 1 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay -K -q -P -o --flow-expiry 30 -d 1 --duration 3  -i eth0 @@
+tcpreplay --nm-delay 20 -L 16 --maxsleep 10 --no-flow-stats -o -d 1 --stats 1  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -A nnt -I lo -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T ioport -q --nm-delay 20 --loopdelay-ms 10 --maxsleep 10 -l 4 --pps-multi 3 -p 200 -A nnt -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 --loopdelay-ms 10 -l 4 -o -I lo --flow-expiry 30 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -K -q -P -L 16 --netmap -p 200 -d 1 --stats 1 -v  -i eth0 @@
+tcpreplay --nm-delay 20 -P --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --pps-multi 3 --no-flow-stats -p 200 -A nnt -I lo -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T ioport --nm-delay 20 -P --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 -o -I lo -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T select -q --unique-ip --loopdelay-ms 10 -L 16 -l 4 --unique-ip-loops 3 -x 2.0 -A nnt -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -K -T ioport -q --nm-delay 20 -P -L 16 --netmap --maxsleep 10 --no-flow-stats -A nnt -I lo -d 1 --stats 1 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -q --unique-ip -P --loopdelay-ms 10 --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -t -A nnt -I lo --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T gtod --nm-delay 20 --unique-ip -L 16 -l 4 -t -I lo --flow-expiry 30 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T ioport -q -P -l 4 --no-flow-stats -p 200 -I lo -d 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -K -T select -q -P --no-flow-stats -o -A nnt -d 1 --duration 3 -v  -i eth0 @@
+tcpreplay -T gtod -q --nm-delay 20 -P --loopdelay-ms 10 -L 16 -l 4 -o -A nnt --flow-expiry 30 -d 1 --stats 1 -v  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 -L 16 --maxsleep 10 -l 4 --pps-multi 3 -p 200 --flow-expiry 30 --stats 1  -i eth0 @@
+tcpreplay -q --nm-delay 20 --unique-ip -P -L 16 --netmap -l 4 --unique-ip-loops 3 --no-flow-stats -x 2.0 -A nnt --duration 3 -v  -i eth0 @@
+tcpreplay -q --nm-delay 20 -P --maxsleep 10 -o -A nnt -I lo -d 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -q -P --pps-multi 3 -p 200 -I lo --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --unique-ip --loopdelay-ms 10 -l 4 --unique-ip-loops 3 -x 2.0 -I lo --flow-expiry 30 -c small_capture.cache  -i eth0 @@
+tcpreplay -T gtod -q -P -L 16 --maxsleep 10 -x 2.0 -I lo --flow-expiry 30 -d 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T select --unique-ip -P --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -t -A nnt -I lo -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T nano --unique-ip --loopdelay-ms 10 --maxsleep 10 -l 4 --unique-ip-loops 3 -o -I lo --flow-expiry 30 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -t --flow-expiry 30 -d 1 --stats 1  -i eth0 @@
+tcpreplay --pktlen -T ioport --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 -l 4 --unique-ip-loops 3 -o -A nnt --flow-expiry 30 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay -T gtod -q --nm-delay 20 -P -L 16 -l 4 -x 2.0 --flow-expiry 30 --stats 1 --duration 3  -i eth0 @@
+tcpreplay -K -T gtod -q -P --netmap -t -A nnt -I lo --flow-expiry 30 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -T nano -P -o --flow-expiry 30 --stats 1 --duration 3  -i eth0 @@
+tcpreplay -K --nm-delay 20 --netmap --maxsleep 10 -o -d 1 -v  -i eth0 @@
+tcpreplay --pktlen -K -q -P --no-flow-stats -x 2.0 -I lo -d 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 --unique-ip -P --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --no-flow-stats -x 2.0 -I lo --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -q --netmap -o -I lo --flow-expiry 30 -d 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -q -P --loopdelay-ms 10 -L 16 -l 4 --pps-multi 3 --no-flow-stats -p 200 -A nnt -I lo -d 1 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T nano --unique-ip -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 -o -A nnt --duration 3 -v  -i eth0 @@
+tcpreplay -T gtod --unique-ip -P --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --pps-multi 3 --no-flow-stats -p 200 --duration 3  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --unique-ip --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -p 200 -A nnt -d 1 --stats 1 -v  -i eth0 @@
+tcpreplay --pktlen -q --unique-ip -P -L 16 -l 4 --unique-ip-loops 3 --no-flow-stats -x 2.0 -A nnt -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -K -T select --nm-delay 20 --netmap --maxsleep 10 -t -A nnt -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -P -L 16 --netmap --maxsleep 10 -l 4 --no-flow-stats -A nnt --duration 3 -v -M 0.8  -i eth0 @@
+tcpreplay -K -T ioport --netmap --maxsleep 10 --no-flow-stats -x 2.0 -I lo -c small_capture.cache  -i eth0 @@
+tcpreplay -K -q --nm-delay 20 -P -A nnt -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay -K -q -P -L 16 --netmap --maxsleep 10 --pps-multi 3 --no-flow-stats -p 200 -I lo -d 1 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -K -T ioport -q --nm-delay 20 --netmap --no-flow-stats -x 2.0 -A nnt -I lo -d 1 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -P --loopdelay-ms 10 --maxsleep 10 -l 4 --pps-multi 3 --no-flow-stats -p 200 -I lo -d 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T select -P -L 16 --maxsleep 10 --no-flow-stats -t -I lo --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -P --loopdelay-ms 10 -l 4 -x 2.0 -A nnt --flow-expiry 30 -d 1 -v  -i eth0 @@
+tcpreplay -T nano -t -I lo --flow-expiry 30 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T ioport -q -P --netmap -l 4 -A nnt -I lo --flow-expiry 30 --duration 3 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T select -P --maxsleep 10 --pps-multi 3 -p 200 -d 1 --stats 1 -v  -i eth0 @@
+tcpreplay -T nano -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -o -A nnt -I lo --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T nano -q --nm-delay 20 --unique-ip -P -l 4 --unique-ip-loops 3 -o -I lo --flow-expiry 30 -d 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T ioport -q --unique-ip -P -L 16 -l 4 --unique-ip-loops 3 -o -A nnt -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T nano -q --nm-delay 20 -L 16 --pps-multi 3 -p 200 --flow-expiry 30 -d 1 --stats 1  -i eth0 @@
+tcpreplay -T gtod --unique-ip --loopdelay-ms 10 --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -o -I lo --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --unique-ip -P --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -d 1 --stats 1 --duration 3 -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T nano --nm-delay 20 -L 16 --maxsleep 10 --no-flow-stats -o -I lo --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -K --maxsleep 10 -x 2.0 --flow-expiry 30 -d 1 --stats 1  -i eth0 @@
+tcpreplay -T gtod --unique-ip -P -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 -A nnt -d 1 --duration 3 -v  -i eth0 @@
+tcpreplay -q --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 -o -A nnt -I lo -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K -T nano -q --nm-delay 20 --netmap -I lo -d 1 --stats 1 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay -K -T ioport -q --nm-delay 20 -P -L 16 --maxsleep 10 --no-flow-stats -o -I lo -c small_capture.cache  -i eth0 @@
+tcpreplay -q -P -L 16 --netmap --maxsleep 10 -o -I lo --flow-expiry 30 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -q --loopdelay-ms 10 -L 16 --netmap -l 4 --no-flow-stats -o -A nnt -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip -L 16 -l 4 --unique-ip-loops 3 --no-flow-stats -x 2.0 -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -T ioport -q --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 -I lo --flow-expiry 30 -d 1 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 --netmap -l 4 --unique-ip-loops 3 -p 200 -I lo --flow-expiry 30 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -T nano --netmap --maxsleep 10 --no-flow-stats -t -d 1 --duration 3  -i eth0 @@
+tcpreplay -T ioport --nm-delay 20 --unique-ip --loopdelay-ms 10 --maxsleep 10 -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 -I lo --flow-expiry 30 -d 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T gtod --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --netmap -l 4 --unique-ip-loops 3 --no-flow-stats -v -M 0.8  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 -l 4 --unique-ip-loops 3 -o --flow-expiry 30 -d 1 --duration 3  -i eth0 @@
+tcpreplay -q -P --maxsleep 10 -l 4 --no-flow-stats --duration 3 -M 0.8  -i eth0 @@
+tcpreplay -K -T nano -q -L 16 --maxsleep 10 --no-flow-stats -t -I lo -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T nano -q --unique-ip -P --loopdelay-ms 10 --netmap -l 4 --unique-ip-loops 3 -o -I lo --flow-expiry 30 -d 1 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 -P --netmap --no-flow-stats -x 2.0 -d 1  -i eth0 @@
+tcpreplay -K -q --nm-delay 20 -P -L 16 --netmap -A nnt -I lo -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay -K -T ioport --nm-delay 20 -P --pps-multi 3 --no-flow-stats -p 200 -d 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen -T nano -q --nm-delay 20 -I lo -d 1 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T ioport --nm-delay 20 -P -L 16 --netmap -A nnt -I lo --flow-expiry 30 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T select --nm-delay 20 --unique-ip -P -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 --pps-multi 3 --no-flow-stats -p 200 -A nnt -d 1 --stats 1 -v  -i eth0 @@
+tcpreplay --pktlen -T nano --nm-delay 20 --netmap --no-flow-stats -x 2.0 -A nnt -I lo --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T nano -q --nm-delay 20 --unique-ip -L 16 --netmap -l 4 --unique-ip-loops 3 --no-flow-stats -t -A nnt -I lo --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T ioport -q --unique-ip -P --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 -x 2.0 -A nnt --flow-expiry 30 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen --unique-ip -l 4 --unique-ip-loops 3 --no-flow-stats -A nnt -d 1 -v -M 0.8  -i eth0 @@
+tcpreplay -K -T ioport -P --netmap -I lo --flow-expiry 30 --stats 1 --duration 3 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T nano --nm-delay 20 --unique-ip -P --netmap --maxsleep 10 -l 4 -I lo --flow-expiry 30 -d 1 --stats 1 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 -x 2.0 --flow-expiry 30 -d 1 --stats 1  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --unique-ip -P -L 16 -l 4 -t --flow-expiry 30 -d 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen -T select --unique-ip -P --loopdelay-ms 10 -L 16 -l 4 --unique-ip-loops 3 -t --flow-expiry 30 -d 1 --duration 3  -i eth0 @@
+tcpreplay -T ioport --unique-ip --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -t -A nnt -d 1 --duration 3 -v  -i eth0 @@
+tcpreplay -T ioport -q --nm-delay 20 --unique-ip -P -L 16 --netmap -l 4 --unique-ip-loops 3 -t --flow-expiry 30 -d 1 --stats 1 -v  -i eth0 @@
+tcpreplay --pktlen -K -T ioport --nm-delay 20 --netmap --pps-multi 3 -p 200 -I lo -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -K -T select -P --netmap --maxsleep 10 --pps-multi 3 -p 200 -I lo --flow-expiry 30 -c small_capture.cache  -i eth0 @@
+tcpreplay -K -P --netmap --maxsleep 10 --pps-multi 3 -p 200 -I lo -d 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T ioport --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 -l 4 --unique-ip-loops 3 -A nnt -I lo --duration 3 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T select --nm-delay 20 --netmap --pps-multi 3 --no-flow-stats -p 200 -A nnt -I lo -d 1 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 -P --netmap --maxsleep 10 -o --flow-expiry 30 --duration 3  -i eth0 @@
+tcpreplay -K --nm-delay 20 -P --netmap -x 2.0 --flow-expiry 30 -d 1 -v  -i eth0 @@
+tcpreplay --pktlen -q -L 16 --netmap --maxsleep 10 -t --flow-expiry 30 --stats 1  -i eth0 @@
+tcpreplay --pktlen -K --nm-delay 20 -L 16 --maxsleep 10 --no-flow-stats -x 2.0 -I lo -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K -L 16 --netmap -o -A nnt -I lo --flow-expiry 30 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T ioport --nm-delay 20 --unique-ip --netmap -l 4 --unique-ip-loops 3 --pps-multi 3 --no-flow-stats -p 200 -d 1 --stats 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 --unique-ip -P --loopdelay-ms 10 --maxsleep 10 -l 4 --unique-ip-loops 3 -t --flow-expiry 30  -i eth0 @@
+tcpreplay -T gtod --nm-delay 20 --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 --no-flow-stats -t --duration 3  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 -P --loopdelay-ms 10 -l 4 --pps-multi 3 -p 200 -A nnt -I lo --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T select --unique-ip -P -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -o -I lo --flow-expiry 30 -d 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T ioport -q -P --netmap --maxsleep 10 -l 4 -x 2.0 --flow-expiry 30 --duration 3  -i eth0 @@
+tcpreplay --pktlen -T select --nm-delay 20 --unique-ip -L 16 --maxsleep 10 -l 4 -t -I lo --flow-expiry 30 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen --unique-ip --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -p 200 -I lo -d 1 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -K -q --nm-delay 20 -P --maxsleep 10 --pps-multi 3 --no-flow-stats -p 200 -A nnt -d 1 --stats 1 -v  -i eth0 @@
+tcpreplay --pktlen -T select --nm-delay 20 --loopdelay-ms 10 --netmap -l 4 -t -d 1 --duration 3 -v  -i eth0 @@
+tcpreplay -q --unique-ip --netmap -l 4 --unique-ip-loops 3 --no-flow-stats -A nnt --stats 1 -v -M 0.8  -i eth0 @@
+tcpreplay -T gtod -P -L 16 -A nnt --flow-expiry 30 -d 1 --stats 1 --duration 3 -v -M 0.8  -i eth0 @@
+tcpreplay -K -P --maxsleep 10 --no-flow-stats -p 200 -d 1  -i eth0 @@
+tcpreplay -T ioport --nm-delay 20 --loopdelay-ms 10 --netmap -l 4 --no-flow-stats -o -A nnt -I lo -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T nano --unique-ip --maxsleep 10 -l 4 --unique-ip-loops 3 -I lo --stats 1 --duration 3 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T gtod --unique-ip -P --loopdelay-ms 10 -L 16 --netmap -l 4 --unique-ip-loops 3 -o -A nnt -I lo --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -P --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 -t -A nnt -I lo --flow-expiry 30 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K -q -t -A nnt --flow-expiry 30 -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --netmap -l 4 --unique-ip-loops 3 --flow-expiry 30 -d 1 -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T select -q --netmap -o --flow-expiry 30 --stats 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen -K -P --netmap --maxsleep 10 --pps-multi 3 -p 200 -A nnt --duration 3 -v  -i eth0 @@
+tcpreplay -q --loopdelay-ms 10 -l 4 --no-flow-stats -t --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay -T nano -q --unique-ip -P --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 --no-flow-stats -I lo -d 1 --duration 3 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay --pktlen -K -P --netmap -A nnt -d 1 --stats 1 -v -M 0.8  -i eth0 @@
+tcpreplay -T gtod -q --nm-delay 20 -L 16 --netmap --pps-multi 3 -p 200 -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --unique-ip -P --loopdelay-ms 10 --netmap -l 4 --unique-ip-loops 3 --flow-expiry 30 -d 1 --stats 1 -M 0.8  -i eth0 @@
+tcpreplay -K -T gtod -q --nm-delay 20 -L 16 --netmap -t -A nnt -I lo --flow-expiry 30 -d 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T ioport -q --unique-ip -P -L 16 --netmap --maxsleep 10 -l 4 --no-flow-stats -x 2.0 -I lo -d 1 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -q -P -L 16 --netmap --maxsleep 10 --pps-multi 3 --no-flow-stats -p 200 -A nnt -d 1 -v  -i eth0 @@
+tcpreplay -L 16 --no-flow-stats -I lo -d 1 --duration 3 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T gtod -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 --netmap -l 4 --unique-ip-loops 3 -t -A nnt --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -K -T ioport -P --netmap --pps-multi 3 --no-flow-stats -p 200 -A nnt -d 1 --stats 1 -v  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 -L 16 --maxsleep 10 --no-flow-stats -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 --unique-ip -P --loopdelay-ms 10 --netmap -l 4 --unique-ip-loops 3 --stats 1 --duration 3 -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T nano -q --netmap -p 200 --duration 3  -i eth0 @@
+tcpreplay --pktlen -T select -q --nm-delay 20 --unique-ip -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -A nnt -I lo --flow-expiry 30 -d 1 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T ioport --loopdelay-ms 10 --maxsleep 10 -l 4 --pps-multi 3 --no-flow-stats -p 200 --stats 1 -v  -i eth0 @@
+tcpreplay --pktlen -T nano --nm-delay 20 --unique-ip -P -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip -P --loopdelay-ms 10 --maxsleep 10 -l 4 --unique-ip-loops 3 -x 2.0 -I lo --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K -T nano -L 16 --netmap --maxsleep 10 --pps-multi 3 -p 200 --flow-expiry 30 -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay -T ioport --unique-ip -P --loopdelay-ms 10 --netmap -l 4 --unique-ip-loops 3 --no-flow-stats -t  -i eth0 @@
+tcpreplay -T ioport --nm-delay 20 --unique-ip -P --loopdelay-ms 10 --netmap -l 4 -x 2.0 -A nnt --flow-expiry 30 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -T nano --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 -A nnt -I lo --flow-expiry 30 -d 1 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -K --nm-delay 20 -P -L 16 --netmap --maxsleep 10 --pps-multi 3 -p 200 -A nnt -I lo --flow-expiry 30 -d 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K --netmap --no-flow-stats -t -I lo -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 -o --flow-expiry 30 --duration 3  -i eth0 @@
+tcpreplay -K -q -P -L 16 --no-flow-stats -o --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -K -T ioport -q --nm-delay 20 -P -L 16 --netmap --maxsleep 10 -o --flow-expiry 30 --duration 3  -i eth0 @@
+tcpreplay --pktlen -K -T ioport -P -L 16 --netmap -p 200 -A nnt -I lo --flow-expiry 30 -d 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --unique-ip -P -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 -x 2.0 -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -K -T ioport -P --maxsleep 10 --no-flow-stats -o -d 1  -i eth0 @@
+tcpreplay -T ioport -q --unique-ip --loopdelay-ms 10 -L 16 -l 4 --unique-ip-loops 3 -x 2.0 --flow-expiry 30  -i eth0 @@
+tcpreplay --pktlen -K -T ioport -q --nm-delay 20 -o -I lo --flow-expiry 30 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -q -P --maxsleep 10 -o -d 1 --stats 1  -i eth0 @@
+tcpreplay -K --flow-expiry 30 --stats 1 --duration 3 -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T ioport --nm-delay 20 --unique-ip -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -t -A nnt --stats 1 -v  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --unique-ip -P -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 -I lo -d 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -K -q --nm-delay 20 -L 16 -p 200 -A nnt --flow-expiry 30 -d 1 -v  -i eth0 @@
+tcpreplay --pktlen -K -T gtod -q -L 16 --pps-multi 3 --no-flow-stats -p 200 -A nnt -d 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -T gtod -q --unique-ip --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -t --duration 3  -i eth0 @@
+tcpreplay -T select --unique-ip -P -L 16 --netmap -l 4 --unique-ip-loops 3 -t -A nnt -I lo -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -P --loopdelay-ms 10 -L 16 -l 4 -A nnt --stats 1 --duration 3 -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T nano --unique-ip -P --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -o --flow-expiry 30 --stats 1  -i eth0 @@
+tcpreplay --pktlen -T gtod --loopdelay-ms 10 --netmap -l 4 -o --flow-expiry 30 -d 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -T gtod -q --nm-delay 20 --unique-ip -P -l 4 -x 2.0 -I lo --flow-expiry 30 -d 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen --unique-ip -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -o -A nnt --flow-expiry 30 -d 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -T gtod -q --nm-delay 20 --unique-ip -L 16 --netmap -l 4 --no-flow-stats -A nnt -d 1 --duration 3 -v -M 0.8  -i eth0 @@
+tcpreplay --unique-ip --loopdelay-ms 10 -L 16 -l 4 --unique-ip-loops 3 --no-flow-stats -o -A nnt -I lo -d 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -T nano -P -L 16 -x 2.0 -I lo --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -o -A nnt --duration 3 -v  -i eth0 @@
+tcpreplay -T gtod -P --netmap --no-flow-stats -t -d 1 --stats 1  -i eth0 @@
+tcpreplay --pktlen -K -q -L 16 --maxsleep 10 -o -A nnt --flow-expiry 30 --duration 3 -v  -i eth0 @@
+tcpreplay -q -P -L 16 --netmap -t -I lo --flow-expiry 30 -d 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -K -T gtod -L 16 --netmap -x 2.0 -I lo --flow-expiry 30 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -T gtod --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --netmap -l 4 -I lo --duration 3 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay -K -P -L 16 --no-flow-stats -A nnt -I lo --duration 3 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T ioport --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 -l 4 --unique-ip-loops 3 -x 2.0 -A nnt --flow-expiry 30 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen --maxsleep 10 -x 2.0 --stats 1 --duration 3  -i eth0 @@
+tcpreplay -q -P -x 2.0 -I lo --flow-expiry 30 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --nm-delay 20 --loopdelay-ms 10 --netmap -l 4 --no-flow-stats -p 200 -A nnt --stats 1 -v  -i eth0 @@
+tcpreplay -K -T ioport -q --nm-delay 20 -L 16 --no-flow-stats -t --stats 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen -K -T nano --nm-delay 20 -P -L 16 --maxsleep 10 --no-flow-stats -o -I lo --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 -A nnt -d 1 --stats 1 -v -M 0.8  -i eth0 @@
+tcpreplay -T nano --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 -x 2.0 -A nnt --flow-expiry 30 -d 1 --stats 1 -v  -i eth0 @@
+tcpreplay -K -P -L 16 --netmap -t -I lo --flow-expiry 30 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay -q --nm-delay 20 --unique-ip -P --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -t -A nnt -I lo --flow-expiry 30 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T ioport -q --netmap --maxsleep 10 -l 4 --pps-multi 3 --no-flow-stats -p 200 -I lo -d 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -T gtod --nm-delay 20 --netmap --stats 1 --duration 3 -M 0.8  -i eth0 @@
+tcpreplay -T ioport -q --nm-delay 20 --unique-ip --loopdelay-ms 10 --maxsleep 10 -l 4 --unique-ip-loops 3 --pps-multi 3 --no-flow-stats -p 200 -A nnt --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -K -T select -P --no-flow-stats -o -d 1 --stats 1 -v  -i eth0 @@
+tcpreplay -T select --unique-ip --loopdelay-ms 10 -l 4 --unique-ip-loops 3 --no-flow-stats -p 200 -A nnt -I lo -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T ioport -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --pps-multi 3 -p 200 --stats 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen -T gtod --unique-ip --loopdelay-ms 10 -L 16 -l 4 --unique-ip-loops 3 --no-flow-stats -t -A nnt --duration 3 -v  -i eth0 @@
+tcpreplay --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --no-flow-stats -t -d 1 --stats 1  -i eth0 @@
+tcpreplay --pktlen -K -q --nm-delay 20 --netmap --maxsleep 10 --flow-expiry 30 -d 1 -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T nano -q --unique-ip -P --loopdelay-ms 10 -l 4 --unique-ip-loops 3 --no-flow-stats -x 2.0 -d 1 --stats 1 --duration 3  -i eth0 @@
+tcpreplay --nm-delay 20 -P --netmap --maxsleep 10 -d 1 --stats 1 --duration 3 -M 0.8  -i eth0 @@
+tcpreplay -T select -q --nm-delay 20 --unique-ip --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 -A nnt --flow-expiry 30 -d 1 -v  -i eth0 @@
+tcpreplay --pktlen -q --loopdelay-ms 10 -l 4 -o -A nnt --flow-expiry 30 --stats 1 -v  -i eth0 @@
+tcpreplay --pktlen -T select -q --unique-ip -P --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -p 200 --stats 1  -i eth0 @@
+tcpreplay -q --nm-delay 20 --unique-ip -L 16 --netmap -l 4 --no-flow-stats -x 2.0 -I lo --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip -P -l 4 --unique-ip-loops 3 -p 200 -A nnt -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --netmap --maxsleep 10 -A nnt -I lo --flow-expiry 30 --stats 1 --duration 3 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -K -q --netmap --no-flow-stats --stats 1 --duration 3 -M 0.8  -i eth0 @@
+tcpreplay -T select -q --nm-delay 20 -P --maxsleep 10 -I lo --flow-expiry 30 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay --pktlen -K -T nano -L 16 --netmap --pps-multi 3 -p 200 -A nnt -d 1 --stats 1 -v  -i eth0 @@
+tcpreplay -K -T select -P -L 16 --netmap -o -I lo -d 1 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T ioport --nm-delay 20 --unique-ip --loopdelay-ms 10 --netmap -l 4 --unique-ip-loops 3 -o --stats 1  -i eth0 @@
+tcpreplay --unique-ip --loopdelay-ms 10 --maxsleep 10 -l 4 --pps-multi 3 -p 200 -I lo --flow-expiry 30 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay -T ioport -q --unique-ip --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 -I lo --flow-expiry 30 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --loopdelay-ms 10 -L 16 -l 4 -x 2.0 --flow-expiry 30 -d 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -K -T gtod --nm-delay 20 -P --pps-multi 3 --no-flow-stats -p 200 -I lo --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T gtod -q --unique-ip -P --loopdelay-ms 10 -L 16 -l 4 --unique-ip-loops 3 --no-flow-stats -A nnt -d 1 --stats 1 --duration 3 -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 -P -L 16 -o --flow-expiry 30 -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -K --nm-delay 20 --netmap --no-flow-stats -A nnt -I lo -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -I lo --stats 1 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay -T gtod -q --nm-delay 20 --unique-ip -L 16 -l 4 --unique-ip-loops 3 --no-flow-stats -o -I lo -d 1 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -K -T nano -P -L 16 --maxsleep 10 -o -A nnt --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay -q -L 16 --no-flow-stats -x 2.0 -A nnt -v  -i eth0 @@
+tcpreplay --pktlen -T ioport -q --maxsleep 10 -p 200 -I lo --flow-expiry 30 -d 1 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay -K -q -P --netmap --no-flow-stats -p 200 -A nnt -d 1 -v  -i eth0 @@
+tcpreplay --pktlen -K -P -L 16 --maxsleep 10 -o -I lo --flow-expiry 30 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -K -T select -q --pps-multi 3 -p 200 --flow-expiry 30 -d 1 -v  -i eth0 @@
+tcpreplay -K -q -P -L 16 --netmap --maxsleep 10 -M 0.8  -i eth0 @@
+tcpreplay --pktlen --unique-ip -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --pps-multi 3 --no-flow-stats -p 200 -A nnt -v  -i eth0 @@
+tcpreplay -K -q --nm-delay 20 -L 16 --maxsleep 10 --pps-multi 3 -p 200 -I lo -d 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -T nano --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 -l 4 --no-flow-stats -x 2.0 -A nnt -d 1 --stats 1 -v  -i eth0 @@
+tcpreplay -T select -q --unique-ip -P --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -t -A nnt -I lo --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --nm-delay 20 -P --maxsleep 10 -x 2.0 -I lo --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --unique-ip --loopdelay-ms 10 --netmap -l 4 --no-flow-stats -A nnt -I lo -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --unique-ip --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -t -A nnt -I lo --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -P --loopdelay-ms 10 -L 16 --netmap -l 4 -I lo -d 1 --stats 1 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay -T nano --nm-delay 20 -P --loopdelay-ms 10 -l 4 -t --flow-expiry 30 -d 1 -v  -i eth0 @@
+tcpreplay -T gtod --nm-delay 20 --unique-ip -P --netmap --maxsleep 10 -l 4 --pps-multi 3 -p 200 -I lo --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -q -P --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 -o --flow-expiry 30 -d 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen -T select -q -P -t --flow-expiry 30  -i eth0 @@
+tcpreplay --pktlen -T ioport -q --unique-ip -P --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -o --stats 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 -x 2.0 --flow-expiry 30 -d 1 -v  -i eth0 @@
+tcpreplay --pktlen -K -q --maxsleep 10 --no-flow-stats -x 2.0 -d 1 --stats 1 -v  -i eth0 @@
+tcpreplay --unique-ip -L 16 -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 -I lo --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T ioport -q --nm-delay 20 --unique-ip --loopdelay-ms 10 --netmap -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 --flow-expiry 30 --stats 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen --loopdelay-ms 10 -L 16 -l 4 --no-flow-stats -I lo -d 1 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay -K -T select --nm-delay 20 -P -L 16 --netmap --maxsleep 10 -A nnt --flow-expiry 30 --stats 1 -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -K -T nano -q --nm-delay 20 -L 16 --no-flow-stats -A nnt -d 1 --stats 1 -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --no-flow-stats -v -M 0.8  -i eth0 @@
+tcpreplay --unique-ip -P --loopdelay-ms 10 --netmap -l 4 --unique-ip-loops 3 --no-flow-stats -x 2.0 -A nnt -I lo --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T gtod -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 -l 4 -x 2.0 -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 --loopdelay-ms 10 --netmap -l 4 -p 200 --flow-expiry 30 -d 1  -i eth0 @@
+tcpreplay --pktlen -T gtod -q -P --netmap --maxsleep 10 -x 2.0 -A nnt -d 1 -v  -i eth0 @@
+tcpreplay --pktlen -T nano --unique-ip -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 -p 200 -I lo --flow-expiry 30 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --unique-ip -P -L 16 --netmap -l 4 -t -I lo -d 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -q --nm-delay 20 --unique-ip --loopdelay-ms 10 --netmap -l 4 -x 2.0 --flow-expiry 30 --duration 3  -i eth0 @@
+tcpreplay -T select --nm-delay 20 --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 -p 200 --flow-expiry 30 -d 1 --duration 3  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip --netmap -l 4 --unique-ip-loops 3 -o --flow-expiry 30 -d 1 --stats 1  -i eth0 @@
+tcpreplay -T select -q -P --loopdelay-ms 10 -L 16 -l 4 -o -A nnt -I lo --flow-expiry 30 -d 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K --nm-delay 20 -L 16 --pps-multi 3 --no-flow-stats -p 200 -A nnt -d 1 --duration 3 -v  -i eth0 @@
+tcpreplay --netmap --maxsleep 10 -l 4 -x 2.0 -I lo --flow-expiry 30 -d 1 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -K -T select --nm-delay 20 -L 16 -t -A nnt --flow-expiry 30 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --unique-ip --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 -t -I lo --flow-expiry 30 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -q --unique-ip -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 -A nnt --flow-expiry 30 -v  -i eth0 @@
+tcpreplay --pktlen -K -T select -q --nm-delay 20 -P --maxsleep 10 --pps-multi 3 -p 200 -A nnt -I lo --flow-expiry 30 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --loopdelay-ms 10 -L 16 -l 4 --no-flow-stats -o -A nnt -I lo --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T gtod -q --unique-ip --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -t -I lo --flow-expiry 30 -d 1 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay -q --unique-ip -P --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 -p 200 -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T gtod --loopdelay-ms 10 -l 4 --no-flow-stats -x 2.0 -I lo -d 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T ioport -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -l 4 --unique-ip-loops 3 --no-flow-stats -o -A nnt --stats 1 -v  -i eth0 @@
+tcpreplay --pktlen -K -T ioport -q --nm-delay 20 -P --netmap --maxsleep 10 --no-flow-stats -o -d 1 --stats 1 -v  -i eth0 @@
+tcpreplay -T select -q --nm-delay 20 --unique-ip -P -l 4 --unique-ip-loops 3 --no-flow-stats -t --duration 3  -i eth0 @@
+tcpreplay -T ioport -q -L 16 --netmap --maxsleep 10 -I lo --flow-expiry 30 -d 1 --stats 1 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay -T gtod --unique-ip -P --loopdelay-ms 10 -L 16 -l 4 -x 2.0  -i eth0 @@
+tcpreplay -K -T gtod -q --nm-delay 20 -P -L 16 -p 200 -A nnt -I lo --flow-expiry 30 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -T select -q --maxsleep 10 -I lo --stats 1 --duration 3 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay --pktlen -K -T gtod -q -P -x 2.0 --flow-expiry 30 -d 1 --stats 1  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 --unique-ip --loopdelay-ms 10 --netmap -l 4 --unique-ip-loops 3 --no-flow-stats -A nnt -I lo --stats 1 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T select -q --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 -o -I lo -d 1 -c small_capture.cache  -i eth0 @@
+tcpreplay -T ioport -q --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 -l 4 --pps-multi 3 -p 200 -A nnt --flow-expiry 30 --stats 1 -v  -i eth0 @@
+tcpreplay --pktlen -K --nm-delay 20 -P -L 16 --netmap --maxsleep 10 -t -I lo --flow-expiry 30 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -q --nm-delay 20 --unique-ip --loopdelay-ms 10 --maxsleep 10 -l 4 --unique-ip-loops 3 -x 2.0 --flow-expiry 30 --stats 1  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip -P -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -t -I lo -d 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -K --nm-delay 20 -P -L 16 --netmap --maxsleep 10 --pps-multi 3 --no-flow-stats -p 200 --stats 1 --duration 3  -i eth0 @@
+tcpreplay -T select -q --unique-ip -l 4 --no-flow-stats -d 1 --stats 1 --duration 3 -M 0.8  -i eth0 @@
+tcpreplay --pktlen --maxsleep 10 -p 200 -A nnt --flow-expiry 30 -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay -q --nm-delay 20 --maxsleep 10 --no-flow-stats -t -I lo -d 1 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -T gtod -q -P --loopdelay-ms 10 -L 16 --netmap -l 4 -A nnt -I lo --flow-expiry 30 -d 1 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -K -T select -q --maxsleep 10 --no-flow-stats -A nnt -I lo -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay -q --unique-ip -P --loopdelay-ms 10 --netmap -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 -I lo --flow-expiry 30 -d 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --unique-ip --netmap -l 4 --unique-ip-loops 3 -x 2.0 --flow-expiry 30 -d 1 --duration 3  -i eth0 @@
+tcpreplay -K --maxsleep 10 -d 1 --duration 3 -M 0.8  -i eth0 @@
+tcpreplay -K -P -L 16 --netmap --maxsleep 10 --no-flow-stats -p 200 --stats 1  -i eth0 @@
+tcpreplay --pktlen -K -T gtod --maxsleep 10 -o -A nnt --flow-expiry 30 -d 1 -v  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --unique-ip -L 16 -l 4 --unique-ip-loops 3 -o --flow-expiry 30 --stats 1 -v  -i eth0 @@
+tcpreplay --pktlen -K -T select -q --nm-delay 20 -L 16 --netmap -x 2.0 -A nnt --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay -T nano --loopdelay-ms 10 -L 16 --netmap -l 4 --no-flow-stats -A nnt -d 1 --stats 1 --duration 3 -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -K -T ioport -q --netmap --no-flow-stats -t -I lo -d 1 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay -K --nm-delay 20 --netmap --maxsleep 10 -A nnt -I lo --stats 1 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay -K -T select --nm-delay 20 --no-flow-stats -A nnt -I lo -d 1 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --pps-multi 3 --no-flow-stats -p 200  -i eth0 @@
+tcpreplay --pktlen -K -P -L 16 --netmap --no-flow-stats -t -A nnt -d 1 --duration 3 -v  -i eth0 @@
+tcpreplay --nm-delay 20 -L 16 --netmap --maxsleep 10 -t --duration 3 -v  -i eth0 @@
+tcpreplay -T select -q --unique-ip -l 4 --unique-ip-loops 3 --flow-expiry 30 -d 1 --duration 3 -M 0.8  -i eth0 @@
+tcpreplay --pktlen --unique-ip --loopdelay-ms 10 --netmap -l 4 --unique-ip-loops 3 -t --flow-expiry 30 --stats 1  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip --loopdelay-ms 10 -l 4 --unique-ip-loops 3 -t -A nnt -I lo --flow-expiry 30 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -T nano -q --nm-delay 20 -P -L 16 --netmap --maxsleep 10 --no-flow-stats -p 200 -I lo --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T nano -q --nm-delay 20 --unique-ip -P -l 4 --unique-ip-loops 3 --no-flow-stats -x 2.0 -I lo --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -q --nm-delay 20 --unique-ip -L 16 --netmap -l 4 --unique-ip-loops 3 --no-flow-stats -p 200 -A nnt -d 1 --duration 3 -v  -i eth0 @@
+tcpreplay --unique-ip --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 -A nnt -I lo --flow-expiry 30 -d 1 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay -T ioport --unique-ip --loopdelay-ms 10 -l 4 --unique-ip-loops 3 --no-flow-stats -o -d 1 --stats 1 -v  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 -l 4 --unique-ip-loops 3 -A nnt --flow-expiry 30 -v -M 0.8  -i eth0 @@
+tcpreplay -T gtod -q --unique-ip --loopdelay-ms 10 --maxsleep 10 -l 4 -o -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T nano -q --unique-ip -P --loopdelay-ms 10 -L 16 -l 4 --unique-ip-loops 3 --pps-multi 3 --no-flow-stats -p 200 -A nnt --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -T select -q -P -L 16 -l 4 -A nnt --flow-expiry 30 -d 1 --stats 1 -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T ioport -q --nm-delay 20 -P --netmap --maxsleep 10 --pps-multi 3 -p 200 -I lo --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip -P --netmap -l 4 -x 2.0 -I lo -d 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -K --maxsleep 10 -t --flow-expiry 30 --duration 3  -i eth0 @@
+tcpreplay --pktlen -q --netmap -x 2.0 -A nnt -I lo --flow-expiry 30 -d 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T gtod -q -P --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 --pps-multi 3 -p 200 -I lo --flow-expiry 30 -d 1 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -K --nm-delay 20 --netmap -p 200 --flow-expiry 30 --stats 1 -v  -i eth0 @@
+tcpreplay --pktlen -K -q --netmap --maxsleep 10 -x 2.0 -I lo -d 1 -c small_capture.cache  -i eth0 @@
+tcpreplay -q --nm-delay 20 --unique-ip -L 16 --netmap -l 4 --pps-multi 3 --no-flow-stats -p 200 -A nnt -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -K -q --nm-delay 20 -t -A nnt -I lo --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --unique-ip -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -d 1 -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T nano --netmap --maxsleep 10 -A nnt -I lo --stats 1 --duration 3 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T ioport -q -P --loopdelay-ms 10 --maxsleep 10 -l 4 --flow-expiry 30 --stats 1 -M 0.8  -i eth0 @@
+tcpreplay --pktlen -q --unique-ip -L 16 -l 4 -A nnt -I lo -d 1 --stats 1 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay -l 4 -o -A nnt -I lo --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T nano -q -L 16 --maxsleep 10 --no-flow-stats -p 200 -A nnt -I lo -d 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -q -L 16 --maxsleep 10 -o --flow-expiry 30  -i eth0 @@
+tcpreplay -T gtod --unique-ip -P --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --no-flow-stats -o -d 1 --stats 1  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 --unique-ip -L 16 -l 4 --no-flow-stats -t --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --unique-ip --loopdelay-ms 10 --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -o -d 1 --stats 1 --duration 3  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip --loopdelay-ms 10 -l 4 --unique-ip-loops 3 -o -A nnt -I lo --flow-expiry 30 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T gtod -q --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 -p 200 -A nnt -d 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 --unique-ip -P --maxsleep 10 -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 -I lo --flow-expiry 30 -d 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen --loopdelay-ms 10 -L 16 -l 4 --no-flow-stats -o -d 1 --stats 1  -i eth0 @@
+tcpreplay -q --unique-ip --loopdelay-ms 10 -l 4 --no-flow-stats -t -I lo -d 1 -c small_capture.cache  -i eth0 @@
+tcpreplay -T ioport -q --nm-delay 20 -P -L 16 -o -A nnt -I lo --flow-expiry 30 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T ioport --unique-ip -P --loopdelay-ms 10 -l 4 -o -A nnt -I lo --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -q --unique-ip --loopdelay-ms 10 --netmap -l 4 -t --flow-expiry 30 --duration 3 -v  -i eth0 @@
+tcpreplay --nm-delay 20 -P --loopdelay-ms 10 -L 16 -l 4 --no-flow-stats -t -A nnt -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --unique-ip -L 16 -l 4 --unique-ip-loops 3 -d 1 -M 0.8  -i eth0 @@
+tcpreplay --pktlen -q --unique-ip -P --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -o -A nnt -d 1 -v  -i eth0 @@
+tcpreplay --pktlen -K --nm-delay 20 -P -L 16 --maxsleep 10 -t -A nnt -I lo --flow-expiry 30 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T select -q --unique-ip -P --loopdelay-ms 10 --netmap -l 4 --unique-ip-loops 3 --pps-multi 3 --no-flow-stats -p 200 -I lo --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -o -A nnt -d 1 -v  -i eth0 @@
+tcpreplay -K -q --nm-delay 20 -L 16 --no-flow-stats -x 2.0 -I lo -d 1 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 -L 16 --maxsleep 10 -l 4 -x 2.0 -I lo -c small_capture.cache  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 -l 4 --unique-ip-loops 3 -o -I lo --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -q --loopdelay-ms 10 --maxsleep 10 -l 4 --pps-multi 3 --no-flow-stats -p 200 -d 1 --stats 1 --duration 3  -i eth0 @@
+tcpreplay -T ioport -q --nm-delay 20 --unique-ip -P --netmap -l 4 -p 200 -A nnt --flow-expiry 30 --duration 3 -v  -i eth0 @@
+tcpreplay -T nano --nm-delay 20 --unique-ip -P --netmap -l 4 -A nnt --flow-expiry 30 -d 1 --duration 3 -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T gtod --unique-ip --netmap -l 4 --unique-ip-loops 3 --no-flow-stats -A nnt -I lo -d 1 --stats 1 --duration 3 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay -K -T nano -P -L 16 --maxsleep 10 -p 200 -I lo -d 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -T select -P -L 16 --netmap --maxsleep 10 --pps-multi 3 -p 200 --flow-expiry 30 -d 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --unique-ip -P --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -o -A nnt -I lo -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T nano -q --nm-delay 20 --unique-ip -L 16 -l 4 --unique-ip-loops 3 --pps-multi 3 --no-flow-stats -p 200 -I lo -d 1 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay -K -T nano -q -L 16 --netmap --maxsleep 10 --pps-multi 3 --no-flow-stats -p 200 -v  -i eth0 @@
+tcpreplay -q -L 16 --maxsleep 10 -x 2.0 -I lo -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -q --nm-delay 20 -P --loopdelay-ms 10 --maxsleep 10 -l 4 --no-flow-stats -x 2.0 -I lo --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen --unique-ip -P -L 16 --netmap -l 4 --no-flow-stats -M 0.8  -i eth0 @@
+tcpreplay -K -T ioport -q -P --netmap --no-flow-stats -A nnt -I lo -d 1 --stats 1 --duration 3 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay -q --unique-ip -P --netmap --maxsleep 10 -l 4 --pps-multi 3 --no-flow-stats -p 200 --duration 3 -v  -i eth0 @@
+tcpreplay -K -q -P -L 16 --no-flow-stats -I lo -d 1 --stats 1 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay -q --unique-ip -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -o -A nnt -I lo --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -x 2.0 -A nnt -I lo -d 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T ioport -q --nm-delay 20 --unique-ip --netmap -l 4 --unique-ip-loops 3 --no-flow-stats -o -I lo --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -q -P --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 -p 200 -A nnt -I lo --flow-expiry 30 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T select -q -P -L 16 -l 4 --no-flow-stats -t -I lo --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -q --unique-ip -P --loopdelay-ms 10 --maxsleep 10 -l 4 --unique-ip-loops 3 -o --flow-expiry 30  -i eth0 @@
+tcpreplay --pktlen --unique-ip --loopdelay-ms 10 --maxsleep 10 -l 4 -t -A nnt --stats 1 -v  -i eth0 @@
+tcpreplay --pktlen -T select --nm-delay 20 --maxsleep 10 -l 4 -p 200 --flow-expiry 30 --stats 1  -i eth0 @@
+tcpreplay -K -T select --nm-delay 20 --netmap --maxsleep 10 -o --flow-expiry 30 --stats 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen -q --unique-ip --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --pps-multi 3 --no-flow-stats -p 200 -I lo -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -q --nm-delay 20 -P --netmap --maxsleep 10 --no-flow-stats -A nnt -I lo --stats 1 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -P --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --no-flow-stats -o -I lo -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -t -I lo -d 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T ioport --nm-delay 20 --unique-ip -P --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -o -I lo -d 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -q --unique-ip --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -p 200 -A nnt --flow-expiry 30 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay -K -T gtod --nm-delay 20 -P --netmap --no-flow-stats -t -I lo --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -K --netmap --maxsleep 10 --pps-multi 3 --no-flow-stats -p 200 -I lo --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --unique-ip -P -l 4 --unique-ip-loops 3 -A nnt -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -K -T gtod -q --no-flow-stats -t -A nnt -I lo --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K -T nano -L 16 --maxsleep 10 -t -A nnt -I lo --flow-expiry 30 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T nano --nm-delay 20 --unique-ip -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 -A nnt -I lo --flow-expiry 30 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T nano -q -L 16 --netmap --no-flow-stats -I lo --duration 3 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay -T nano --nm-delay 20 -P --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 -t -I lo --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -K --nm-delay 20 -L 16 --netmap --maxsleep 10 -x 2.0 -A nnt -I lo -d 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -q --nm-delay 20 -P -L 16 --no-flow-stats -t --duration 3  -i eth0 @@
+tcpreplay -T nano -q --nm-delay 20 --unique-ip -P -l 4 -o --flow-expiry 30 --duration 3  -i eth0 @@
+tcpreplay --pktlen --unique-ip -P -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 -x 2.0 -A nnt -I lo --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T select --nm-delay 20 --netmap --maxsleep 10 -l 4 --no-flow-stats -t -d 1 --duration 3  -i eth0 @@
+tcpreplay -q --nm-delay 20 -P -L 16 --netmap --maxsleep 10 --pps-multi 3 --no-flow-stats -p 200 -I lo -d 1 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --unique-ip -L 16 --maxsleep 10 -l 4 --no-flow-stats -o -d 1 --duration 3  -i eth0 @@
+tcpreplay -K -T gtod -q -P --maxsleep 10 -t -I lo --flow-expiry 30 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 --stats 1 --duration 3 -M 0.8  -i eth0 @@
+tcpreplay --pktlen -K -T gtod -q --netmap --no-flow-stats -t -A nnt -I lo -d 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T select --nm-delay 20 --netmap --no-flow-stats -t -I lo --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -K -T select -q -P -L 16 --netmap --maxsleep 10 -t --flow-expiry 30 --stats 1  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --pps-multi 3 -p 200 --flow-expiry 30 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -T nano --nm-delay 20 --unique-ip --loopdelay-ms 10 --netmap -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay -T ioport -q --unique-ip -P --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --pps-multi 3 -p 200 -A nnt --flow-expiry 30 --stats 1 -v  -i eth0 @@
+tcpreplay -q --unique-ip --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -x 2.0 -I lo -d 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T nano -q -P --loopdelay-ms 10 --netmap -l 4 --pps-multi 3 -p 200 -A nnt --flow-expiry 30 -v  -i eth0 @@
+tcpreplay --unique-ip -P --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --no-flow-stats -p 200 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay -T select -q -P --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 -t --flow-expiry 30 --duration 3  -i eth0 @@
+tcpreplay --pktlen -T gtod -P --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --no-flow-stats -x 2.0 --duration 3  -i eth0 @@
+tcpreplay --pktlen --unique-ip --loopdelay-ms 10 -L 16 -l 4 --unique-ip-loops 3 --no-flow-stats -x 2.0 -d 1 --stats 1  -i eth0 @@
+tcpreplay --pktlen -K -q --nm-delay 20 -P --maxsleep 10 -I lo --flow-expiry 30 --stats 1 --duration 3 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T nano -q --nm-delay 20 -L 16 -t -I lo --flow-expiry 30 -d 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K -T ioport -q -P -L 16 --netmap -x 2.0 -I lo --flow-expiry 30 -d 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -T ioport -q --unique-ip -P --loopdelay-ms 10 --maxsleep 10 -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 --flow-expiry 30  -i eth0 @@
+tcpreplay -T select -P -L 16 --maxsleep 10 -o -I lo --flow-expiry 30 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -T gtod -q --nm-delay 20 --unique-ip -P --netmap -l 4 --unique-ip-loops 3 -o -A nnt --flow-expiry 30 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -T gtod --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 -t -A nnt --flow-expiry 30 --duration 3 -v  -i eth0 @@
+tcpreplay -T nano --nm-delay 20 -P --pps-multi 3 -p 200 -A nnt --flow-expiry 30 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen --netmap --pps-multi 3 -p 200 -A nnt -I lo --flow-expiry 30 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -q -P --loopdelay-ms 10 -l 4 -A nnt -I lo --flow-expiry 30 --duration 3 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --netmap --maxsleep 10 -l 4 --no-flow-stats -I lo --stats 1 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay -T select --nm-delay 20 --loopdelay-ms 10 --netmap -l 4 -A nnt -I lo --flow-expiry 30 --stats 1 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay -T gtod -q --unique-ip -P --loopdelay-ms 10 -l 4 -t -I lo --flow-expiry 30 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T ioport -P --loopdelay-ms 10 -L 16 -l 4 -t -A nnt -I lo --flow-expiry 30 -d 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 --unique-ip -P --loopdelay-ms 10 --netmap -l 4 -o -A nnt --flow-expiry 30 -v  -i eth0 @@
+tcpreplay -K -T ioport --nm-delay 20 -P -L 16 --netmap --pps-multi 3 --no-flow-stats -p 200 -I lo --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -T nano --maxsleep 10 -x 2.0 -I lo -d 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T nano -q --unique-ip --loopdelay-ms 10 -L 16 --netmap -l 4 -x 2.0 -A nnt -I lo --flow-expiry 30 -d 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 -t -A nnt -I lo --flow-expiry 30 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K -T gtod --no-flow-stats -o -I lo --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 --unique-ip --loopdelay-ms 10 --netmap -l 4 --unique-ip-loops 3 --no-flow-stats -A nnt --stats 1 --duration 3 -v -M 0.8  -i eth0 @@
+tcpreplay -K --nm-delay 20 --netmap --pps-multi 3 -p 200 -A nnt --flow-expiry 30 --stats 1 -v  -i eth0 @@
+tcpreplay --pktlen -T ioport -q --unique-ip -P --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --pps-multi 3 --no-flow-stats -p 200 -A nnt --stats 1 -v  -i eth0 @@
+tcpreplay -K -q -o -I lo -d 1 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -T nano -q -P --loopdelay-ms 10 -L 16 -l 4 --pps-multi 3 --no-flow-stats -p 200 -A nnt -d 1 -v  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 --unique-ip -P -L 16 -l 4 --pps-multi 3 -p 200 -A nnt -I lo --flow-expiry 30 -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T select --nm-delay 20 -P --netmap -l 4 --no-flow-stats -x 2.0 -A nnt -d 1 -v  -i eth0 @@
+tcpreplay --pktlen -T nano --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 -t --flow-expiry 30 -d 1  -i eth0 @@
+tcpreplay --pktlen -q --unique-ip -P --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -p 200 -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay -K -q -L 16 --netmap -x 2.0 -A nnt --flow-expiry 30 -d 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -q --unique-ip --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -t -A nnt -I lo --flow-expiry 30 -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T nano -q --nm-delay 20 --netmap --maxsleep 10 --no-flow-stats -I lo -d 1 --stats 1 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay -K -T nano -q --nm-delay 20 --netmap --maxsleep 10 --flow-expiry 30 --duration 3 -M 0.8  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --unique-ip -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -x 2.0  -i eth0 @@
+tcpreplay -K -q --netmap --no-flow-stats -p 200 -I lo -d 1 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T gtod -q -L 16 --maxsleep 10 --no-flow-stats -t -A nnt -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay -K -T ioport -q --nm-delay 20 -P -L 16 --netmap --maxsleep 10 -t -d 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen --unique-ip -P --loopdelay-ms 10 --netmap -l 4 --unique-ip-loops 3 -t -A nnt --flow-expiry 30 -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay -T gtod -q -L 16 --netmap --maxsleep 10 --pps-multi 3 -p 200 -A nnt -I lo --flow-expiry 30 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T ioport --unique-ip --loopdelay-ms 10 --netmap -l 4 --unique-ip-loops 3 -I lo --flow-expiry 30 -d 1 --duration 3 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay -P --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 -t --flow-expiry 30 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --unique-ip --netmap -l 4 --unique-ip-loops 3 --no-flow-stats -x 2.0 --stats 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --unique-ip -L 16 -l 4 -A nnt --flow-expiry 30 -v -M 0.8  -i eth0 @@
+tcpreplay -q -P --no-flow-stats -o -A nnt -I lo -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T nano --unique-ip -P -L 16 -l 4 --unique-ip-loops 3 --flow-expiry 30 -d 1 -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -K -T gtod --nm-delay 20 -P --netmap -t --flow-expiry 30  -i eth0 @@
+tcpreplay --pktlen -K -q -P -L 16 --netmap --maxsleep 10 -t -A nnt --flow-expiry 30 -v  -i eth0 @@
+tcpreplay --nm-delay 20 --netmap --maxsleep 10 --pps-multi 3 -p 200 -I lo -d 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T select --unique-ip --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 -A nnt -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --nm-delay 20 -P -L 16 --netmap -l 4 -t -I lo --flow-expiry 30 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -K -T nano --nm-delay 20 --netmap --maxsleep 10 -o -I lo --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -T gtod -q --nm-delay 20 --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --no-flow-stats -x 2.0 -I lo --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -K -T ioport -q -L 16 --maxsleep 10 -p 200 -A nnt -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T gtod --unique-ip -P --netmap -l 4 --unique-ip-loops 3 -x 2.0 -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T gtod -q --unique-ip -P --loopdelay-ms 10 --maxsleep 10 -l 4 --no-flow-stats -A nnt -d 1 --stats 1 --duration 3 -v -M 0.8  -i eth0 @@
+tcpreplay --nm-delay 20 --loopdelay-ms 10 -L 16 --netmap -l 4 --pps-multi 3 -p 200 -A nnt --duration 3 -v  -i eth0 @@
+tcpreplay --unique-ip -L 16 -l 4 -x 2.0 -A nnt --flow-expiry 30 -d 1 --duration 3 -v  -i eth0 @@
+tcpreplay -T ioport -q --nm-delay 20 --loopdelay-ms 10 --netmap -l 4 --no-flow-stats -t -I lo -d 1 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay -K --nm-delay 20 -L 16 --maxsleep 10 --pps-multi 3 --no-flow-stats -p 200 -I lo -d 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T ioport --unique-ip --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -x 2.0 -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -T ioport --nm-delay 20 --unique-ip --netmap --maxsleep 10 -l 4 --no-flow-stats -t -I lo --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T select -q --nm-delay 20 --netmap --maxsleep 10 -l 4 --no-flow-stats -t -I lo -d 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T select -q --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --netmap -l 4 --unique-ip-loops 3 -t --flow-expiry 30 --duration 3  -i eth0 @@
+tcpreplay --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 -o --flow-expiry 30 --stats 1 -v  -i eth0 @@
+tcpreplay --pktlen -T gtod --loopdelay-ms 10 --netmap -l 4 --pps-multi 3 -p 200 --flow-expiry 30 -d 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 -p 200 --flow-expiry 30  -i eth0 @@
+tcpreplay -T nano -q -P --netmap -x 2.0 --flow-expiry 30 --duration 3 -v  -i eth0 @@
+tcpreplay -q --nm-delay 20 --unique-ip -P --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 -A nnt --flow-expiry 30 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen --unique-ip --loopdelay-ms 10 -L 16 --netmap -l 4 -o -A nnt -I lo --flow-expiry 30 -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K -T nano -q -L 16 --maxsleep 10 -o --flow-expiry 30 -d 1 --stats 1  -i eth0 @@
+tcpreplay -K -q -P --netmap -x 2.0 -A nnt --flow-expiry 30 --stats 1 -v  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 -A nnt --flow-expiry 30 --stats 1 -v -M 0.8  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 -l 4 --unique-ip-loops 3 --no-flow-stats -t -A nnt -d 1 --stats 1 -v  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 -o -I lo --flow-expiry 30 -d 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -T select --nm-delay 20 -L 16 --maxsleep 10 --no-flow-stats -t -I lo -d 1 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay -T nano -q --nm-delay 20 --loopdelay-ms 10 --netmap -l 4 --no-flow-stats -o --stats 1 --duration 3  -i eth0 @@
+tcpreplay -T ioport -q --unique-ip -P -l 4 --unique-ip-loops 3 -o -d 1  -i eth0 @@
+tcpreplay --pktlen -T nano -q --nm-delay 20 -P -L 16 -l 4 --pps-multi 3 --no-flow-stats -p 200 -I lo -d 1 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen --unique-ip -l 4 --no-flow-stats -o -I lo -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T select -q --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --netmap -l 4 -t -A nnt -d 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen --unique-ip -P -L 16 --netmap -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 -A nnt -I lo --flow-expiry 30 -d 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -T select --nm-delay 20 -I lo --flow-expiry 30 --duration 3 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T gtod -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 --netmap -l 4 -t -A nnt -I lo --flow-expiry 30 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T nano -q --unique-ip --loopdelay-ms 10 --maxsleep 10 -l 4 -d 1 -M 0.8  -i eth0 @@
+tcpreplay --pktlen -K -T gtod -q -P -L 16 --maxsleep 10 --pps-multi 3 --no-flow-stats -p 200 -d 1  -i eth0 @@
+tcpreplay -T nano --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -t -A nnt --flow-expiry 30 -d 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -T nano --nm-delay 20 --unique-ip --maxsleep 10 -l 4 -o -A nnt -v  -i eth0 @@
+tcpreplay --pktlen -K -T ioport -q --nm-delay 20 -P -L 16 --netmap --pps-multi 3 -p 200 -d 1 --stats 1 --duration 3  -i eth0 @@
+tcpreplay -K -q --nm-delay 20 -P -L 16 --netmap -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay -q -P --maxsleep 10 -x 2.0 -I lo --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -K --nm-delay 20 -P --netmap --maxsleep 10 --no-flow-stats -I lo -d 1 --stats 1 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T ioport --unique-ip -L 16 --maxsleep 10 -l 4 --no-flow-stats -x 2.0 -A nnt -I lo -d 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K -T gtod -P --maxsleep 10 --pps-multi 3 -p 200 -I lo --flow-expiry 30 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 --maxsleep 10 --no-flow-stats -o -A nnt -I lo -d 1 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -o -I lo --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay -T gtod -q --unique-ip -P --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --pps-multi 3 --no-flow-stats -p 200 -A nnt -I lo -d 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T ioport --nm-delay 20 --unique-ip -P --loopdelay-ms 10 --netmap -l 4 --unique-ip-loops 3 --no-flow-stats -x 2.0 -I lo -d 1 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -K -T select -q -P --netmap --maxsleep 10 -I lo --flow-expiry 30 -d 1 --duration 3 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay -K -q --nm-delay 20 -P -x 2.0 -A nnt -d 1 -v  -i eth0 @@
+tcpreplay --pktlen -T select --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 --no-flow-stats -p 200 -A nnt -d 1 -v  -i eth0 @@
+tcpreplay -T nano -P -L 16 --netmap --maxsleep 10 -l 4 --pps-multi 3 -p 200 -d 1  -i eth0 @@
+tcpreplay --pktlen -T ioport -q --unique-ip --loopdelay-ms 10 -l 4 --pps-multi 3 -p 200 -I lo --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -T gtod -q --nm-delay 20 --loopdelay-ms 10 -L 16 -l 4 -x 2.0 --flow-expiry 30 -d 1 --stats 1 --duration 3  -i eth0 @@
+tcpreplay -T select -q --nm-delay 20 --unique-ip -P -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -x 2.0 --flow-expiry 30 --duration 3 -v  -i eth0 @@
+tcpreplay --nm-delay 20 -P --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 --no-flow-stats -p 200 -I lo -d 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --nm-delay 20 --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 -I lo --flow-expiry 30 --stats 1 --duration 3 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay -T nano --nm-delay 20 -P -L 16 -t -I lo -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -q --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 --pps-multi 3 -p 200 -I lo --flow-expiry 30 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -q --unique-ip --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -I lo --duration 3 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay -K -T nano -q --maxsleep 10 --no-flow-stats -o -A nnt -I lo --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T gtod -q --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -x 2.0 -I lo -d 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -T select --unique-ip -P --loopdelay-ms 10 --maxsleep 10 -l 4 --unique-ip-loops 3 -A nnt -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T ioport -P --netmap --maxsleep 10 -o -A nnt -I lo --flow-expiry 30 -d 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -q --unique-ip -P -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 -I lo --flow-expiry 30 -d 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K -T select -q --nm-delay 20 --netmap --maxsleep 10 --no-flow-stats -x 2.0 -A nnt -v  -i eth0 @@
+tcpreplay -T nano -q --nm-delay 20 --loopdelay-ms 10 -L 16 -l 4 --flow-expiry 30 -d 1 -M 0.8  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -x 2.0 -A nnt -d 1 -v  -i eth0 @@
+tcpreplay -q --unique-ip --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --no-flow-stats -x 2.0 -A nnt -I lo -d 1 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T gtod --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 -x 2.0 -I lo -c small_capture.cache  -i eth0 @@
+tcpreplay -K -T ioport -P --maxsleep 10 -t -A nnt -d 1 --duration 3 -v  -i eth0 @@
+tcpreplay -q --nm-delay 20 --unique-ip --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -t --flow-expiry 30 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -K --nm-delay 20 -P -L 16 --flow-expiry 30 --duration 3 -M 0.8  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 --unique-ip --loopdelay-ms 10 -l 4 -I lo --flow-expiry 30 --stats 1 --duration 3 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay -T nano -q --unique-ip -P --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 --flow-expiry 30 -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay -T gtod --unique-ip -P --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -A nnt -I lo --flow-expiry 30 --stats 1 --duration 3 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay -K -T nano --nm-delay 20 -P -L 16 --netmap --maxsleep 10 -o --flow-expiry 30 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -T ioport -q --unique-ip -L 16 --netmap -l 4 --unique-ip-loops 3 --flow-expiry 30 -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -q -P --netmap --maxsleep 10 -l 4 --pps-multi 3 -p 200 --flow-expiry 30 -d 1 --stats 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen -T select --nm-delay 20 -P --maxsleep 10 -l 4 -o --flow-expiry 30 -d 1 --duration 3  -i eth0 @@
+tcpreplay -K --nm-delay 20 -t -I lo --flow-expiry 30 -d 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -K --nm-delay 20 -L 16 --maxsleep 10 --no-flow-stats -A nnt -I lo -d 1 --stats 1 --duration 3 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 --netmap -l 4 --unique-ip-loops 3 -x 2.0 -I lo --flow-expiry 30 -d 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T nano -q --unique-ip -P --maxsleep 10 -l 4 --no-flow-stats -t -A nnt -d 1 -v  -i eth0 @@
+tcpreplay -T ioport --nm-delay 20 --unique-ip --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats --duration 3 -M 0.8  -i eth0 @@
+tcpreplay --pktlen -q --unique-ip -L 16 --maxsleep 10 -l 4 -t -I lo --flow-expiry 30 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -T nano -q --nm-delay 20 --unique-ip --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -p 200 -I lo -d 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -T gtod --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -o -A nnt -I lo -d 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen --unique-ip --loopdelay-ms 10 --netmap -l 4 --unique-ip-loops 3 --no-flow-stats -t -A nnt -I lo -d 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T select -q --unique-ip --loopdelay-ms 10 -l 4 --pps-multi 3 -p 200 -A nnt -I lo --flow-expiry 30 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T select -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -o -A nnt --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -K -T select --nm-delay 20 --no-flow-stats -o  -i eth0 @@
+tcpreplay --unique-ip -P --loopdelay-ms 10 --netmap -l 4 --unique-ip-loops 3 --no-flow-stats -x 2.0 --stats 1  -i eth0 @@
+tcpreplay --pktlen -T ioport -q --unique-ip -P --loopdelay-ms 10 -L 16 -l 4 --no-flow-stats -o --duration 3 -v  -i eth0 @@
+tcpreplay -T nano -q --nm-delay 20 -P --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --pps-multi 3 --no-flow-stats -p 200 -d 1 -v  -i eth0 @@
+tcpreplay -T select --unique-ip -P --loopdelay-ms 10 -l 4 --unique-ip-loops 3 --pps-multi 3 --no-flow-stats -p 200 --stats 1 -v  -i eth0 @@
+tcpreplay -K -P -L 16 --maxsleep 10 --no-flow-stats -t -A nnt -d 1 -v  -i eth0 @@
+tcpreplay --pktlen -P --loopdelay-ms 10 -L 16 --netmap -l 4 -x 2.0 -A nnt -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip -P -l 4 --unique-ip-loops 3 --no-flow-stats -p 200 --stats 1 --duration 3  -i eth0 @@
+tcpreplay -T select -q --unique-ip -P -l 4 -p 200 -A nnt -I lo --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T ioport --nm-delay 20 --netmap --maxsleep 10 -x 2.0 -I lo --flow-expiry 30 -d 1 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay -q --nm-delay 20 --netmap -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -q --unique-ip --loopdelay-ms 10 --maxsleep 10 -l 4 --unique-ip-loops 3 -o -A nnt -I lo --flow-expiry 30 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -q --nm-delay 20 --unique-ip -P --maxsleep 10 -l 4 --unique-ip-loops 3 -x 2.0 --flow-expiry 30 -d 1 --stats 1 -v  -i eth0 @@
+tcpreplay --pktlen -T gtod --nm-delay 20 --unique-ip -P --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -x 2.0 -A nnt -I lo --flow-expiry 30 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -q --unique-ip -P -l 4 --pps-multi 3 -p 200 --flow-expiry 30 -d 1 --stats 1  -i eth0 @@
+tcpreplay -T select --nm-delay 20 -P --netmap --maxsleep 10 --no-flow-stats -A nnt --stats 1 -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T nano -q --maxsleep 10 --pps-multi 3 --no-flow-stats -p 200 -A nnt -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --nm-delay 20 --loopdelay-ms 10 --netmap -l 4 -x 2.0 --flow-expiry 30 --stats 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen -T ioport --nm-delay 20 --loopdelay-ms 10 -l 4 --no-flow-stats -A nnt -I lo --stats 1 --duration 3 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -K -T nano -q --nm-delay 20 -P -L 16 --pps-multi 3 -p 200 -A nnt -v  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --unique-ip -P -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 -A nnt -I lo --flow-expiry 30 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T select -q -P --netmap -l 4 -o -I lo --flow-expiry 30 -d 1 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay -K -T nano -q --maxsleep 10 --no-flow-stats -x 2.0 --stats 1 --duration 3  -i eth0 @@
+tcpreplay -T ioport -q --unique-ip -L 16 --netmap --maxsleep 10 -l 4 --no-flow-stats -t -A nnt --stats 1 -v  -i eth0 @@
+tcpreplay -q --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --netmap -l 4 --unique-ip-loops 3 -A nnt -I lo --flow-expiry 30 -d 1 --duration 3 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T select -q --nm-delay 20 --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 -A nnt -I lo --flow-expiry 30 -d 1 --duration 3 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --unique-ip -L 16 -l 4 --unique-ip-loops 3 -x 2.0 --flow-expiry 30 --stats 1 --duration 3  -i eth0 @@
+tcpreplay -L 16 --netmap -x 2.0 --stats 1  -i eth0 @@
+tcpreplay --pktlen -K -P --netmap --pps-multi 3 --no-flow-stats -p 200 -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay -K -T nano -L 16 --netmap --maxsleep 10 --no-flow-stats -I lo --stats 1 --duration 3 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T gtod -q --nm-delay 20 --unique-ip --netmap -l 4 --pps-multi 3 --no-flow-stats -p 200 -A nnt -I lo -d 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K --nm-delay 20 -P --netmap --no-flow-stats -o -A nnt --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay -T ioport -q --unique-ip --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -o -I lo --flow-expiry 30 -c small_capture.cache  -i eth0 @@
+tcpreplay -T select -q --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 -o -A nnt --flow-expiry 30 --stats 1 -v  -i eth0 @@
+tcpreplay -T gtod --unique-ip -P --loopdelay-ms 10 -L 16 -l 4 --no-flow-stats -x 2.0 -I lo --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -K -q -L 16 --maxsleep 10 --no-flow-stats -x 2.0 -A nnt --stats 1 -v  -i eth0 @@
+tcpreplay --pktlen -T gtod --unique-ip --loopdelay-ms 10 --maxsleep 10 -l 4 -x 2.0 --flow-expiry 30 -d 1 --duration 3  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --pps-multi 3 --no-flow-stats -p 200 --stats 1  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 --flow-expiry 30 --stats 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen -T select --unique-ip -L 16 --netmap -l 4 --unique-ip-loops 3 --no-flow-stats -x 2.0 -A nnt -v  -i eth0 @@
+tcpreplay -K -q -L 16 --netmap -A nnt -I lo --flow-expiry 30 --stats 1 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -L 16 -t -A nnt -I lo --flow-expiry 30 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K --nm-delay 20 -L 16 --netmap --maxsleep 10 --no-flow-stats -I lo --duration 3 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay -q --unique-ip -L 16 -l 4 --unique-ip-loops 3 -A nnt --duration 3 -v -M 0.8  -i eth0 @@
+tcpreplay -T gtod -q -P -L 16 --pps-multi 3 -p 200 -A nnt -I lo --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K --nm-delay 20 -P --netmap --maxsleep 10 -o -I lo --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -q --nm-delay 20 -L 16 --netmap --maxsleep 10 -o -A nnt --flow-expiry 30 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 -L 16 --maxsleep 10 -t --flow-expiry 30 -d 1 --duration 3  -i eth0 @@
+tcpreplay -q --nm-delay 20 -P --loopdelay-ms 10 -l 4 --no-flow-stats -o -I lo -d 1 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T nano -L 16 --netmap --maxsleep 10 -t -I lo --flow-expiry 30 -c small_capture.cache  -i eth0 @@
+tcpreplay -T select -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 --maxsleep 10 -l 4 --unique-ip-loops 3 -A nnt --flow-expiry 30 -d 1 --stats 1 --duration 3 -v -M 0.8  -i eth0 @@
+tcpreplay -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --no-flow-stats -t -d 1 --stats 1  -i eth0 @@
+tcpreplay --pktlen -T select -q --nm-delay 20 -P --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --pps-multi 3 --no-flow-stats -p 200 -A nnt -I lo --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T select --unique-ip --loopdelay-ms 10 --maxsleep 10 -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 -A nnt -I lo -d 1 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -T gtod --nm-delay 20 --netmap --pps-multi 3 -p 200 -I lo --flow-expiry 30 -d 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -K -T nano -q -P -L 16 --netmap --no-flow-stats -x 2.0 -A nnt -I lo -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K -q --nm-delay 20 -L 16 --netmap --pps-multi 3 -p 200 --flow-expiry 30 -d 1 --stats 1  -i eth0 @@
+tcpreplay --pktlen -K -T nano -q --pps-multi 3 -p 200 -A nnt --flow-expiry 30 -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --unique-ip --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -A nnt -I lo --flow-expiry 30 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --unique-ip -P --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -I lo -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay -K -q --nm-delay 20 -P -L 16 -x 2.0 -A nnt -I lo --flow-expiry 30 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T select -q --nm-delay 20 --unique-ip --loopdelay-ms 10 -l 4 --unique-ip-loops 3 --no-flow-stats -t -I lo --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K -T select --nm-delay 20 --maxsleep 10 --pps-multi 3 -p 200 -A nnt -I lo --flow-expiry 30 -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T ioport --unique-ip --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 -x 2.0 -A nnt --flow-expiry 30 -d 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -T nano -q --unique-ip -P --loopdelay-ms 10 --netmap -l 4 --unique-ip-loops 3 -x 2.0 -d 1 -v  -i eth0 @@
+tcpreplay -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -l 4 --no-flow-stats -o -A nnt -I lo --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --unique-ip -P --loopdelay-ms 10 --maxsleep 10 -l 4 -x 2.0 --flow-expiry 30 -d 1 --stats 1  -i eth0 @@
+tcpreplay --pktlen -K -q -L 16 -x 2.0 -I lo --flow-expiry 30 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T select -q --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 -t -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K -T select --nm-delay 20 --netmap --no-flow-stats -p 200 -A nnt -I lo -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T gtod -q --unique-ip -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 --pps-multi 3 --no-flow-stats -p 200 -A nnt -I lo --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -T gtod -P -L 16 --no-flow-stats -p 200 -d 1 --stats 1  -i eth0 @@
+tcpreplay --pktlen -K --maxsleep 10 -p 200 -I lo --flow-expiry 30 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen --unique-ip -P --loopdelay-ms 10 -L 16 --netmap -l 4 --unique-ip-loops 3 --no-flow-stats -A nnt -d 1 -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -K -q --nm-delay 20 -P -L 16 -x 2.0 -A nnt -I lo --flow-expiry 30 -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T nano -q --unique-ip -l 4 --unique-ip-loops 3 -x 2.0 -A nnt -I lo --flow-expiry 30 -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K -T ioport -q --nm-delay 20 -L 16 --maxsleep 10 --no-flow-stats -I lo -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay -K -q -P --maxsleep 10 --no-flow-stats -t -I lo -d 1 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T select --unique-ip -P -L 16 --netmap -l 4 --unique-ip-loops 3 --no-flow-stats -x 2.0 -A nnt -d 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -K -T select -q -L 16 --netmap --maxsleep 10 -x 2.0 -A nnt --flow-expiry 30 -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -K -T gtod -q --nm-delay 20 --netmap --maxsleep 10 --no-flow-stats -t -I lo --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T gtod -q --nm-delay 20 --unique-ip --netmap -l 4 --unique-ip-loops 3 --no-flow-stats -t -I lo --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -q -P --loopdelay-ms 10 -l 4 --no-flow-stats -o -A nnt -d 1 -v  -i eth0 @@
+tcpreplay --pktlen -q -L 16 --maxsleep 10 -l 4 -x 2.0 -A nnt -I lo --flow-expiry 30 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T gtod --nm-delay 20 --loopdelay-ms 10 -L 16 -l 4 -x 2.0 -A nnt -d 1 --stats 1 -v  -i eth0 @@
+tcpreplay --pktlen -T gtod -q --nm-delay 20 --loopdelay-ms 10 --netmap -l 4 -o -A nnt -I lo --flow-expiry 30 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -P --pps-multi 3 -p 200 --flow-expiry 30 -d 1  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 -A nnt --flow-expiry 30 --duration 3 -v -M 0.8  -i eth0 @@
+tcpreplay -T ioport --unique-ip -P --loopdelay-ms 10 -L 16 -l 4 --no-flow-stats -t -d 1 --duration 3  -i eth0 @@
+tcpreplay -K -T ioport -x 2.0 -A nnt -I lo --flow-expiry 30 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 -A nnt --stats 1 -v  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 -l 4 --pps-multi 3 --no-flow-stats -p 200 -d 1 --stats 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen -K -T select -q -P --maxsleep 10 -o -I lo -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -K -q --nm-delay 20 --netmap --pps-multi 3 --no-flow-stats -p 200 -A nnt -I lo -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -q -P -L 16 --netmap -l 4 -p 200 -A nnt -I lo --flow-expiry 30 -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -q --nm-delay 20 --unique-ip -l 4 --unique-ip-loops 3 --no-flow-stats -t -d 1  -i eth0 @@
+tcpreplay --pktlen -q --loopdelay-ms 10 --netmap -l 4 --pps-multi 3 -p 200 --flow-expiry 30 -d 1 --stats 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen -T gtod --nm-delay 20 --unique-ip -P -L 16 -l 4 --unique-ip-loops 3 --no-flow-stats -o -d 1  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 -P --netmap --maxsleep 10 --pps-multi 3 --no-flow-stats -p 200 -I lo -d 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T ioport --nm-delay 20 -P -L 16 --maxsleep 10 -p 200 -I lo --flow-expiry 30 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T select -P --maxsleep 10 --no-flow-stats -A nnt -I lo -d 1 --duration 3 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T nano --nm-delay 20 -P -L 16 --maxsleep 10 -t -I lo -d 1 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T nano -q --nm-delay 20 --unique-ip -P -l 4 --unique-ip-loops 3 --no-flow-stats -A nnt -I lo --duration 3 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -K --nm-delay 20 -L 16 --maxsleep 10 -x 2.0 -A nnt -I lo --flow-expiry 30 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -T ioport --nm-delay 20 -L 16 --netmap --no-flow-stats -x 2.0 -d 1 --stats 1  -i eth0 @@
+tcpreplay --pktlen -K -T nano --nm-delay 20 -L 16 --no-flow-stats -o -A nnt -I lo -d 1 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T gtod --unique-ip -L 16 -l 4 --unique-ip-loops 3 -t --flow-expiry 30 -d 1  -i eth0 @@
+tcpreplay -K -q --nm-delay 20 -P --netmap --maxsleep 10 -p 200 --flow-expiry 30 -d 1 --stats 1 --duration 3  -i eth0 @@
+tcpreplay -T select --unique-ip -P --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -x 2.0 -A nnt -v  -i eth0 @@
+tcpreplay --pktlen -P -L 16 -l 4 --no-flow-stats -x 2.0 -I lo -d 1 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -q --unique-ip -P --loopdelay-ms 10 --netmap -l 4 --pps-multi 3 -p 200 -A nnt -d 1 -v  -i eth0 @@
+tcpreplay --pktlen -K -q -P --netmap --maxsleep 10 -t -I lo -d 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -q -P --loopdelay-ms 10 -L 16 -l 4 --no-flow-stats -p 200 -A nnt -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -P -L 16 -x 2.0 -A nnt --flow-expiry 30 -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay -T ioport --unique-ip --maxsleep 10 -l 4 --flow-expiry 30 -v -M 0.8  -i eth0 @@
+tcpreplay -K -T gtod -q --nm-delay 20 --maxsleep 10 -t -d 1 --stats 1  -i eth0 @@
+tcpreplay -T gtod -L 16 --maxsleep 10 --no-flow-stats -x 2.0 -d 1  -i eth0 @@
+tcpreplay -K -P --maxsleep 10 --pps-multi 3 -p 200 -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 -d 1 --duration 3 -v  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip -P --netmap -l 4 --unique-ip-loops 3 --no-flow-stats -t -I lo -d 1 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip -P --loopdelay-ms 10 --maxsleep 10 -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 -I lo -d 1 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay -T ioport -q --unique-ip -P -l 4 --unique-ip-loops 3 -t -A nnt -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -P --loopdelay-ms 10 -L 16 -l 4 -t -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -K -L 16 --netmap -x 2.0 -A nnt --flow-expiry 30 -v  -i eth0 @@
+tcpreplay -q --unique-ip -P --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -x 2.0 -A nnt --flow-expiry 30 -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay -q --nm-delay 20 -P --loopdelay-ms 10 -L 16 --netmap -l 4 --no-flow-stats -t -A nnt -I lo --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T nano -q --maxsleep 10 -A nnt -I lo --stats 1 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T select -q --unique-ip -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --pps-multi 3 --no-flow-stats -p 200 --duration 3 -v  -i eth0 @@
+tcpreplay -T nano --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 -p 200 -A nnt --flow-expiry 30 -d 1 --stats 1 -v  -i eth0 @@
+tcpreplay -q --nm-delay 20 -P --netmap --pps-multi 3 -p 200 -I lo --flow-expiry 30 -d 1 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay -q --nm-delay 20 --netmap --no-flow-stats -A nnt --duration 3 -v -M 0.8  -i eth0 @@
+tcpreplay -T select -q --nm-delay 20 -P -L 16 --netmap --maxsleep 10 -x 2.0 -A nnt -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -T gtod -q --nm-delay 20 -L 16 --netmap --maxsleep 10 --pps-multi 3 -p 200 -I lo --flow-expiry 30 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T nano -q -L 16 --netmap --pps-multi 3 -p 200 -A nnt -I lo --flow-expiry 30 -d 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K -T select --nm-delay 20 -L 16 --netmap --maxsleep 10 -x 2.0 --flow-expiry 30 --stats 1  -i eth0 @@
+tcpreplay --pktlen -T ioport -q -L 16 -l 4 --no-flow-stats -t -A nnt --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -T gtod --nm-delay 20 -L 16 --maxsleep 10 --pps-multi 3 -p 200 -I lo --flow-expiry 30 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -q -P -l 4 --pps-multi 3 -p 200 -A nnt --flow-expiry 30 -v  -i eth0 @@
+tcpreplay -T nano -P --loopdelay-ms 10 --maxsleep 10 -l 4 --no-flow-stats -o -A nnt --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -T select -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 --netmap -l 4 --flow-expiry 30 -d 1 --stats 1 -M 0.8  -i eth0 @@
+tcpreplay --pktlen -K -T ioport -q --netmap -A nnt --flow-expiry 30 --duration 3 -v -M 0.8  -i eth0 @@
+tcpreplay -K -T select --nm-delay 20 -P -L 16 --maxsleep 10 --no-flow-stats -x 2.0 -A nnt -I lo -d 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T gtod -q -P -L 16 --maxsleep 10 -t -A nnt -I lo --flow-expiry 30 -d 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 --unique-ip --netmap -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 -I lo --flow-expiry 30 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -q --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -o -A nnt --stats 1 -v  -i eth0 @@
+tcpreplay -K -q -P --netmap --pps-multi 3 --no-flow-stats -p 200 -A nnt -I lo -d 1 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 -I lo --flow-expiry 30 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -q --nm-delay 20 --maxsleep 10 --no-flow-stats -x 2.0 -I lo -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -K -q --nm-delay 20 -P --netmap --maxsleep 10 -o -I lo --flow-expiry 30 -d 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -K -T select --maxsleep 10 --no-flow-stats -p 200 -d 1  -i eth0 @@
+tcpreplay -T ioport --unique-ip --loopdelay-ms 10 -L 16 --netmap -l 4 --no-flow-stats -o  -i eth0 @@
+tcpreplay -T gtod --nm-delay 20 -P --netmap --maxsleep 10 --no-flow-stats -o -I lo -d 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -q --unique-ip -P --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --flow-expiry 30 --duration 3 -M 0.8  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --unique-ip -P --netmap -l 4 --unique-ip-loops 3 --no-flow-stats -o -I lo --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -T ioport --nm-delay 20 --unique-ip -P --loopdelay-ms 10 --maxsleep 10 -l 4 --flow-expiry 30 --stats 1 -v -M 0.8  -i eth0 @@
+tcpreplay -K -P -L 16 --netmap --maxsleep 10 --pps-multi 3 --no-flow-stats -p 200  -i eth0 @@
+tcpreplay -q --nm-delay 20 -o -I lo -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -K -q -P -L 16 --netmap --maxsleep 10 --no-flow-stats --duration 3 -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T gtod -q --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --no-flow-stats -o -A nnt -d 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 --unique-ip --loopdelay-ms 10 --maxsleep 10 -l 4 --unique-ip-loops 3 --pps-multi 3 --no-flow-stats -p 200 -I lo --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T ioport -q --nm-delay 20 --unique-ip --maxsleep 10 -l 4 -x 2.0 -A nnt -d 1 --stats 1 -v  -i eth0 @@
+tcpreplay -K -q -P -L 16 --netmap --pps-multi 3 -p 200 --flow-expiry 30 --duration 3  -i eth0 @@
+tcpreplay -P --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --no-flow-stats -I lo --stats 1 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay --nm-delay 20 --flow-expiry 30 -d 1 --stats 1 -v -M 0.8  -i eth0 @@
+tcpreplay -T nano -q --nm-delay 20 --unique-ip -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 -x 2.0 -A nnt -I lo --flow-expiry 30 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -t -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay -T nano -q --unique-ip --loopdelay-ms 10 -L 16 --netmap -l 4 --unique-ip-loops 3 -o -A nnt --flow-expiry 30 -d 1 -v  -i eth0 @@
+tcpreplay --pktlen -q --unique-ip -L 16 --netmap --maxsleep 10 -l 4 --no-flow-stats -o --stats 1  -i eth0 @@
+tcpreplay --pktlen -K -P -L 16 -I lo --flow-expiry 30 -d 1 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay -T gtod --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --pps-multi 3 -p 200 --flow-expiry 30 -d 1 --duration 3  -i eth0 @@
+tcpreplay -T select -q --nm-delay 20 --unique-ip -P -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 -o --flow-expiry 30 -d 1 --stats 1 --duration 3  -i eth0 @@
+tcpreplay -q --unique-ip -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -d 1 --stats 1 -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T gtod -P --loopdelay-ms 10 --netmap -l 4 --no-flow-stats -t -I lo -d 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T nano -q --nm-delay 20 -P --no-flow-stats -I lo --stats 1 --duration 3 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip -P -L 16 --maxsleep 10 -l 4 --no-flow-stats -A nnt -I lo --stats 1 --duration 3 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --nm-delay 20 --netmap --maxsleep 10 --pps-multi 3 -p 200 --flow-expiry 30 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay -T select --nm-delay 20 -P -L 16 --pps-multi 3 --no-flow-stats -p 200 -I lo -d 1 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -K -q --nm-delay 20 -P -L 16 -o -I lo --flow-expiry 30 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -K -T nano -q -P -L 16 --netmap -o -A nnt -v  -i eth0 @@
+tcpreplay --pktlen -T select --unique-ip --loopdelay-ms 10 -l 4 --unique-ip-loops 3 -p 200 -I lo --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -T nano -q --unique-ip --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --flow-expiry 30 --stats 1 -M 0.8  -i eth0 @@
+tcpreplay -q --unique-ip -P --loopdelay-ms 10 -l 4 --unique-ip-loops 3 -I lo --flow-expiry 30 --stats 1 --duration 3 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -K -q --nm-delay 20 -P --netmap --maxsleep 10 --no-flow-stats -t -A nnt -I lo --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -q --netmap --maxsleep 10 -M 0.8  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 -P -L 16 --netmap --maxsleep 10 --flow-expiry 30 -d 1 --duration 3 -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T gtod --unique-ip -P -l 4 --unique-ip-loops 3 -o -I lo --flow-expiry 30 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K -q -L 16 --maxsleep 10 --pps-multi 3 --no-flow-stats -p 200 -A nnt --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -K -T nano -q --nm-delay 20 -L 16 --netmap --maxsleep 10 --pps-multi 3 --no-flow-stats -p 200 -I lo -d 1 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T gtod -q --nm-delay 20 --unique-ip --maxsleep 10 -l 4 --pps-multi 3 -p 200 --flow-expiry 30 -d 1 -v  -i eth0 @@
+tcpreplay -K -T nano --nm-delay 20 -x 2.0 -I lo --flow-expiry 30 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -P -L 16 --netmap -p 200 -I lo --flow-expiry 30 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T nano -q --unique-ip --loopdelay-ms 10 --maxsleep 10 -l 4 --unique-ip-loops 3 -t -I lo -d 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -T select --nm-delay 20 --unique-ip --netmap -l 4 --unique-ip-loops 3 -x 2.0 -A nnt --flow-expiry 30 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -K -T gtod --nm-delay 20 -P --maxsleep 10 --pps-multi 3 --no-flow-stats -p 200 -I lo --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay -T nano --nm-delay 20 --loopdelay-ms 10 -l 4 --no-flow-stats -x 2.0 --duration 3 -v  -i eth0 @@
+tcpreplay -q --nm-delay 20 -P --maxsleep 10 --no-flow-stats -t -I lo -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -q --unique-ip -P --loopdelay-ms 10 -L 16 --netmap -l 4 --unique-ip-loops 3 --no-flow-stats -o -A nnt -I lo -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T gtod --loopdelay-ms 10 -l 4 --pps-multi 3 --no-flow-stats -p 200 -A nnt --stats 1 -v  -i eth0 @@
+tcpreplay -K -L 16 --netmap --maxsleep 10 --no-flow-stats -o -d 1 --duration 3  -i eth0 @@
+tcpreplay -q --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --pps-multi 3 -p 200 -A nnt -I lo -d 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -P -L 16 --netmap --maxsleep 10 -x 2.0 --flow-expiry 30 --stats 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen -T nano --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 -l 4 -o --flow-expiry 30 -d 1 --stats 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen -T gtod -q --unique-ip -P --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -x 2.0 -I lo --flow-expiry 30 -c small_capture.cache  -i eth0 @@
+tcpreplay -T ioport -q --unique-ip -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -x 2.0 -A nnt -I lo --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -q --unique-ip -P -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --pps-multi 3 --no-flow-stats -p 200 -d 1 --stats 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen -T nano -P --netmap --maxsleep 10 --pps-multi 3 -p 200 --flow-expiry 30  -i eth0 @@
+tcpreplay --pktlen -T nano --nm-delay 20 --unique-ip --loopdelay-ms 10 -l 4 --pps-multi 3 --no-flow-stats -p 200 -I lo -d 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -q --unique-ip -P -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 -o -A nnt -I lo --flow-expiry 30 -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T select --nm-delay 20 -L 16 --maxsleep 10 -o --stats 1 --duration 3  -i eth0 @@
+tcpreplay --unique-ip -P -l 4 -t -A nnt --flow-expiry 30 -d 1 -v  -i eth0 @@
+tcpreplay --pktlen -T select -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -I lo -d 1 --duration 3 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay -T gtod -q --nm-delay 20 --unique-ip --loopdelay-ms 10 -l 4 --unique-ip-loops 3 -I lo --flow-expiry 30 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay --pktlen --unique-ip -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -o --flow-expiry 30 -d 1 --stats 1 --duration 3  -i eth0 @@
+tcpreplay -P -L 16 --netmap --maxsleep 10 --pps-multi 3 --no-flow-stats -p 200 -I lo --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --nm-delay 20 -l 4 --no-flow-stats -t -A nnt -I lo -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip -P --loopdelay-ms 10 --netmap -l 4 -t --stats 1  -i eth0 @@
+tcpreplay -K -T select -q -P -L 16 --pps-multi 3 -p 200 -A nnt -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -P --netmap --maxsleep 10 --no-flow-stats -p 200 -d 1 -v  -i eth0 @@
+tcpreplay --pktlen -K -q -L 16 --no-flow-stats -o -A nnt -d 1 --stats 1 -v  -i eth0 @@
+tcpreplay -T ioport -q --nm-delay 20 -P --loopdelay-ms 10 --maxsleep 10 -l 4 -o --flow-expiry 30 --stats 1  -i eth0 @@
+tcpreplay -K -T nano --nm-delay 20 --maxsleep 10 --pps-multi 3 -p 200 --stats 1  -i eth0 @@
+tcpreplay -T gtod --unique-ip --netmap -l 4 --unique-ip-loops 3 --no-flow-stats -t -I lo -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T ioport --nm-delay 20 --unique-ip -P -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -o -v  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --loopdelay-ms 10 -L 16 -l 4 --pps-multi 3 --no-flow-stats -p 200 --duration 3 -v  -i eth0 @@
+tcpreplay -q --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -o -I lo --flow-expiry 30 -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T select --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -x 2.0 -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -K -T nano --nm-delay 20 --netmap -t -A nnt -I lo -d 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T ioport --nm-delay 20 --unique-ip --loopdelay-ms 10 --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -t -I lo -d 1 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -K -T gtod --nm-delay 20 -P --netmap --maxsleep 10 --no-flow-stats -x 2.0 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay -T nano -q -P --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --no-flow-stats -p 200 -d 1 --stats 1 --duration 3  -i eth0 @@
+tcpreplay -K -T ioport --nm-delay 20 -P -L 16 --maxsleep 10 --pps-multi 3 --no-flow-stats -p 200 -A nnt -I lo -d 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -q -P -L 16 --maxsleep 10 --no-flow-stats -d 1 --stats 1 -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T gtod --unique-ip --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --flow-expiry 30 --stats 1 -M 0.8  -i eth0 @@
+tcpreplay -K -T ioport -q -L 16 --maxsleep 10 -A nnt -I lo --stats 1 --duration 3 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T nano -q -P --netmap --flow-expiry 30 -M 0.8  -i eth0 @@
+tcpreplay --pktlen -K -L 16 --netmap -A nnt -I lo --flow-expiry 30 --stats 1 --duration 3 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -q -L 16 --netmap -x 2.0 -I lo -d 1 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -P --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 -x 2.0 -d 1 --stats 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen -T ioport --nm-delay 20 --unique-ip --netmap --maxsleep 10 -l 4 -o -A nnt -I lo --flow-expiry 30 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -q --nm-delay 20 -L 16 --netmap --maxsleep 10 -o -A nnt -I lo --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K -q --nm-delay 20 -P --pps-multi 3 -p 200 -I lo --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 -P --loopdelay-ms 10 -l 4 -t --flow-expiry 30 -d 1 --duration 3  -i eth0 @@
+tcpreplay -q --nm-delay 20 --unique-ip --netmap --maxsleep 10 -l 4 --pps-multi 3 --no-flow-stats -p 200 -d 1  -i eth0 @@
+tcpreplay --pktlen -K -T nano -q -L 16 --maxsleep 10 --no-flow-stats -d 1 --stats 1 -v -M 0.8  -i eth0 @@
+tcpreplay -T gtod --nm-delay 20 -P --loopdelay-ms 10 -l 4 --no-flow-stats -I lo -d 1 --stats 1 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T gtod -q --unique-ip --netmap -l 4 --no-flow-stats -x 2.0 --stats 1  -i eth0 @@
+tcpreplay --pktlen -K -q --nm-delay 20 --netmap -o -A nnt --flow-expiry 30 -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --unique-ip -P --loopdelay-ms 10 -L 16 --netmap -l 4 --unique-ip-loops 3 -o -A nnt -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --unique-ip --netmap -l 4 --no-flow-stats -o -A nnt -d 1 -v  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --no-flow-stats -t --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay -T select --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -l 4 --no-flow-stats -t -A nnt -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -T select --unique-ip -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -o -I lo --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K -q -P -L 16 --maxsleep 10 --pps-multi 3 -p 200 -A nnt --flow-expiry 30 --stats 1 -v  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 -P --netmap --maxsleep 10 -t -A nnt --flow-expiry 30 -d 1 --stats 1 -v  -i eth0 @@
+tcpreplay --pktlen -K -q --nm-delay 20 -P --no-flow-stats -t -v  -i eth0 @@
+tcpreplay --pktlen -K -T nano -q --maxsleep 10 -x 2.0 -A nnt --flow-expiry 30 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -T select -q --unique-ip -P --loopdelay-ms 10 -L 16 --netmap -l 4 --unique-ip-loops 3 --no-flow-stats -p 200 --duration 3  -i eth0 @@
+tcpreplay --pktlen -q -P --netmap --maxsleep 10 --no-flow-stats -t -d 1 --stats 1 -v  -i eth0 @@
+tcpreplay --pktlen -K -T select -q --nm-delay 20 -P -L 16 --no-flow-stats -d 1 --duration 3 -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T ioport -q --nm-delay 20 --unique-ip -P -l 4 --unique-ip-loops 3 --pps-multi 3 --no-flow-stats -p 200 -d 1  -i eth0 @@
+tcpreplay -K -P -x 2.0 --flow-expiry 30 -d 1 --duration 3  -i eth0 @@
+tcpreplay -K -T gtod --nm-delay 20 --netmap --no-flow-stats -o -I lo -d 1 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay -K -T gtod -q --nm-delay 20 -P -t -I lo --flow-expiry 30 -d 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K -T nano -q -L 16 --maxsleep 10 -x 2.0 -I lo --flow-expiry 30 -d 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen --unique-ip -P --loopdelay-ms 10 --maxsleep 10 -l 4 --unique-ip-loops 3 --pps-multi 3 --no-flow-stats -p 200 -I lo -d 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -T select -q --nm-delay 20 --unique-ip --maxsleep 10 -l 4 --unique-ip-loops 3 -t --flow-expiry 30 --stats 1 --duration 3  -i eth0 @@
+tcpreplay --unique-ip -P --netmap -l 4 --pps-multi 3 -p 200 -I lo --flow-expiry 30 -d 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T gtod --nm-delay 20 -P --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 -A nnt -I lo --flow-expiry 30 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --unique-ip --maxsleep 10 -l 4 -I lo --stats 1 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay -K -q --nm-delay 20 -P -L 16 --netmap --no-flow-stats -t -I lo -d 1 -c small_capture.cache  -i eth0 @@
+tcpreplay -T select -q --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 -l 4 --unique-ip-loops 3 -p 200 -d 1 --stats 1  -i eth0 @@
+tcpreplay -T select -q --nm-delay 20 -P -L 16 --netmap --no-flow-stats -o -A nnt -d 1 -v  -i eth0 @@
+tcpreplay --pktlen --unique-ip --loopdelay-ms 10 --netmap -l 4 --no-flow-stats -t -A nnt -I lo -d 1 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T ioport -q --nm-delay 20 --unique-ip -P -L 16 --maxsleep 10 -l 4 --pps-multi 3 --no-flow-stats -p 200 -I lo -c small_capture.cache  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --netmap -l 4 -o -d 1  -i eth0 @@
+tcpreplay -K -T gtod -q -P -L 16 --netmap --maxsleep 10 --no-flow-stats -o -A nnt -I lo --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T select -q --nm-delay 20 -P -L 16 --maxsleep 10 -l 4 --no-flow-stats -d 1 --stats 1 --duration 3 -v -M 0.8  -i eth0 @@
+tcpreplay -K -q --nm-delay 20 --netmap --maxsleep 10 -t -A nnt -I lo --flow-expiry 30 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T ioport -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -l 4 --unique-ip-loops 3 -t -A nnt -I lo --flow-expiry 30 -d 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -q -L 16 --netmap --maxsleep 10 --pps-multi 3 -p 200 -A nnt -I lo --flow-expiry 30 -d 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -P --netmap --no-flow-stats -o -I lo --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay -q --nm-delay 20 --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 -t -A nnt --flow-expiry 30 -d 1 -v  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 -P --netmap --maxsleep 10 -l 4 -t -A nnt --flow-expiry 30 -d 1 -v  -i eth0 @@
+tcpreplay -K -T select -q --nm-delay 20 -P --maxsleep 10 --no-flow-stats -t -A nnt -I lo -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T ioport --unique-ip -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 -t -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -q --nm-delay 20 -P --netmap --maxsleep 10 --no-flow-stats -x 2.0 --stats 1  -i eth0 @@
+tcpreplay -q --unique-ip -P --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 -p 200 -A nnt -v  -i eth0 @@
+tcpreplay --pktlen -K -P -L 16 --pps-multi 3 --no-flow-stats -p 200 -I lo -c small_capture.cache  -i eth0 @@
+tcpreplay -T nano --nm-delay 20 -L 16 --netmap --maxsleep 10 -l 4 -d 1 -v -M 0.8  -i eth0 @@
+tcpreplay -K -T ioport --nm-delay 20 -L 16 -o -A nnt -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -q --unique-ip --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -x 2.0 -A nnt -I lo --flow-expiry 30 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --unique-ip -P --netmap -l 4 --unique-ip-loops 3 --flow-expiry 30 --stats 1 -M 0.8  -i eth0 @@
+tcpreplay --pktlen -K -q --nm-delay 20 -P -L 16 --no-flow-stats -o -I lo -d 1 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -K --maxsleep 10 -I lo --flow-expiry 30 -d 1 --stats 1 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T select -q -L 16 --maxsleep 10 -l 4 -t --flow-expiry 30 -d 1  -i eth0 @@
+tcpreplay --pktlen -K -q --maxsleep 10 -t -I lo --flow-expiry 30 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -P -L 16 --maxsleep 10 -o -I lo --flow-expiry 30 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K --nm-delay 20 --no-flow-stats -t -d 1 --stats 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen -q -P --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --no-flow-stats -I lo -d 1 --duration 3 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay -q --nm-delay 20 --no-flow-stats -p 200 -I lo -d 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -T ioport -q --unique-ip -P -L 16 --maxsleep 10 -l 4 -t -A nnt --flow-expiry 30 --duration 3 -v  -i eth0 @@
+tcpreplay -T ioport --nm-delay 20 -P -L 16 --netmap --maxsleep 10 -l 4 --pps-multi 3 -p 200 -A nnt -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -q --nm-delay 20 --netmap --maxsleep 10 --pps-multi 3 -p 200 --flow-expiry 30 -d 1 --stats 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 --maxsleep 10 -o -I lo --flow-expiry 30 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay -T select -q --nm-delay 20 -P --loopdelay-ms 10 -L 16 -l 4 --pps-multi 3 -p 200 --flow-expiry 30 --duration 3  -i eth0 @@
+tcpreplay -T nano -q --unique-ip --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 -o -I lo --flow-expiry 30 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen --netmap --no-flow-stats -t -A nnt -I lo -d 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -P --netmap --maxsleep 10 -l 4 -t --flow-expiry 30 -d 1 --stats 1 --duration 3  -i eth0 @@
+tcpreplay -T gtod --nm-delay 20 --unique-ip -P -L 16 --maxsleep 10 -l 4 -t -A nnt -I lo --flow-expiry 30 -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip -P -L 16 --netmap -l 4 --unique-ip-loops 3 -I lo --flow-expiry 30 --duration 3 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 --flow-expiry 30 -d 1 --duration 3 -M 0.8  -i eth0 @@
+tcpreplay -K --nm-delay 20 -P -L 16 --maxsleep 10 -x 2.0 -I lo --flow-expiry 30 -d 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T select --unique-ip --loopdelay-ms 10 --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -x 2.0 -I lo --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T gtod -q --nm-delay 20 -P --maxsleep 10 -o --flow-expiry 30 -d 1 --stats 1 --duration 3  -i eth0 @@
+tcpreplay -T select -q --nm-delay 20 --unique-ip -P -L 16 --netmap --maxsleep 10 -l 4 --no-flow-stats -o -I lo -d 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 -P --loopdelay-ms 10 --netmap -l 4 --flow-expiry 30 -d 1 --duration 3 -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -q --unique-ip -P --loopdelay-ms 10 -L 16 -l 4 --pps-multi 3 -p 200 -I lo --flow-expiry 30 -d 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -q --unique-ip -P -L 16 -l 4 --unique-ip-loops 3 --no-flow-stats -p 200 -I lo -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T nano -q --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --netmap -l 4 --unique-ip-loops 3 -o -I lo --flow-expiry 30 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -K --netmap --maxsleep 10 --no-flow-stats -x 2.0 -A nnt -d 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -q --unique-ip -P --netmap --maxsleep 10 -l 4 -x 2.0 -A nnt -I lo --flow-expiry 30 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -q --unique-ip -l 4 --unique-ip-loops 3 -t -A nnt --flow-expiry 30 --stats 1 -v  -i eth0 @@
+tcpreplay --pktlen -q --unique-ip -L 16 -l 4 --unique-ip-loops 3 --no-flow-stats -x 2.0 -A nnt -I lo -d 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -q --nm-delay 20 -P --maxsleep 10 --pps-multi 3 -p 200 -I lo --flow-expiry 30 -d 1 -c small_capture.cache  -i eth0 @@
+tcpreplay -T gtod -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -l 4 --unique-ip-loops 3 --no-flow-stats -o --duration 3 -v  -i eth0 @@
+tcpreplay -q --unique-ip -P -L 16 --netmap -l 4 --unique-ip-loops 3 --no-flow-stats -o --duration 3  -i eth0 @@
+tcpreplay --pktlen -T ioport -q --nm-delay 20 --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 --no-flow-stats --stats 1 --duration 3 -v -M 0.8  -i eth0 @@
+tcpreplay --nm-delay 20 -P --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --pps-multi 3 -p 200 --flow-expiry 30 -d 1 --stats 1 -v  -i eth0 @@
+tcpreplay --pktlen -q --unique-ip --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --no-flow-stats -t -A nnt --duration 3 -v  -i eth0 @@
+tcpreplay -T gtod -o -A nnt --flow-expiry 30 -v  -i eth0 @@
+tcpreplay --pktlen -K -q --nm-delay 20 -L 16 --netmap --no-flow-stats -t --stats 1  -i eth0 @@
+tcpreplay -K -q -L 16 --netmap --maxsleep 10 --no-flow-stats -o -I lo --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay -q --nm-delay 20 -P --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 --no-flow-stats -A nnt -d 1 -v -M 0.8  -i eth0 @@
+tcpreplay -T gtod --loopdelay-ms 10 -L 16 --netmap -l 4 --pps-multi 3 --no-flow-stats -p 200 -I lo --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -K -q --nm-delay 20 -L 16 --no-flow-stats -A nnt --stats 1 -v -M 0.8  -i eth0 @@
+tcpreplay -T select --nm-delay 20 -P --loopdelay-ms 10 --netmap -l 4 --pps-multi 3 -p 200 -I lo --flow-expiry 30 -d 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen --unique-ip -P --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --pps-multi 3 --no-flow-stats -p 200 -A nnt --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --maxsleep 10 --no-flow-stats -p 200 -I lo --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T gtod -q --nm-delay 20 -L 16 --maxsleep 10 -A nnt -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay -T nano -q --unique-ip -P -L 16 --netmap --maxsleep 10 -l 4 -o -A nnt --flow-expiry 30 -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 --loopdelay-ms 10 -L 16 -l 4 --flow-expiry 30 --duration 3 -M 0.8  -i eth0 @@
+tcpreplay -K -q --netmap -o --flow-expiry 30  -i eth0 @@
+tcpreplay -K -T select -q --nm-delay 20 -P --netmap --maxsleep 10 --pps-multi 3 -p 200 -A nnt --flow-expiry 30 -d 1 --duration 3 -v  -i eth0 @@
+tcpreplay -T nano -q --nm-delay 20 -L 16 --netmap --maxsleep 10 -l 4 --no-flow-stats -x 2.0 -I lo -c small_capture.cache  -i eth0 @@
+tcpreplay -q --nm-delay 20 --unique-ip -P -L 16 -l 4 -o --flow-expiry 30 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -K --nm-delay 20 --netmap --no-flow-stats -d 1 --duration 3 -M 0.8  -i eth0 @@
+tcpreplay -q -P --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 -x 2.0 --flow-expiry 30 -v  -i eth0 @@
+tcpreplay --pktlen -T ioport -q --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 --no-flow-stats -p 200 -I lo --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T gtod -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -p 200 -A nnt -I lo -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen --unique-ip --loopdelay-ms 10 -L 16 -l 4 --unique-ip-loops 3 -t -A nnt -I lo --flow-expiry 30 -d 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K -L 16 -x 2.0 -A nnt -I lo -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --unique-ip -L 16 -l 4 --unique-ip-loops 3 --pps-multi 3 --no-flow-stats -p 200 -A nnt -I lo -d 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K -q -L 16 --netmap --no-flow-stats -x 2.0 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -K -T gtod --nm-delay 20 -L 16 --maxsleep 10 --flow-expiry 30 -d 1 --stats 1 --duration 3 -M 0.8  -i eth0 @@
+tcpreplay -K -q --nm-delay 20 -o -I lo --flow-expiry 30 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -T gtod -q --loopdelay-ms 10 -l 4 -t -A nnt --flow-expiry 30 --stats 1 -v  -i eth0 @@
+tcpreplay --pktlen --unique-ip -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -A nnt --flow-expiry 30 -d 1 --stats 1 --duration 3 -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -q -P --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 -o -A nnt --flow-expiry 30 -d 1 -v  -i eth0 @@
+tcpreplay --pktlen -T gtod --nm-delay 20 --unique-ip --netmap -l 4 --unique-ip-loops 3 -o -A nnt -I lo -d 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --netmap -l 4 --no-flow-stats -x 2.0 -A nnt --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay -K -T select --nm-delay 20 -P -L 16 -o -A nnt -I lo --flow-expiry 30 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K -q --nm-delay 20 -L 16 --maxsleep 10 -x 2.0 -A nnt --flow-expiry 30 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip -P --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -o -A nnt -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --unique-ip -P -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -t -d 1 --stats 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen -T gtod -q --unique-ip -L 16 -l 4 --unique-ip-loops 3 -x 2.0 -A nnt -d 1 -v  -i eth0 @@
+tcpreplay -K -T ioport --nm-delay 20 -P -L 16 -t -d 1  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --unique-ip -P -L 16 --netmap --maxsleep 10 -l 4 -o -I lo --flow-expiry 30 -c small_capture.cache  -i eth0 @@
+tcpreplay -T select -q --maxsleep 10 --no-flow-stats -x 2.0 -A nnt -I lo -d 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T gtod --nm-delay 20 --unique-ip -L 16 --netmap -l 4 --unique-ip-loops 3 --no-flow-stats -x 2.0 -I lo --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -T gtod --nm-delay 20 -P --loopdelay-ms 10 -L 16 --netmap -l 4 -o --flow-expiry 30 -d 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen -K -T select -q --nm-delay 20 -L 16 --maxsleep 10 -I lo -d 1 --stats 1 --duration 3 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay -T ioport -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -x 2.0 -d 1 --stats 1  -i eth0 @@
+tcpreplay --pktlen -K -T gtod -q --netmap --maxsleep 10 --pps-multi 3 -p 200 -A nnt -I lo --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T nano --unique-ip -P -L 16 -l 4 --unique-ip-loops 3 --no-flow-stats -I lo --stats 1 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T select --nm-delay 20 -L 16 --maxsleep 10 -d 1 -M 0.8  -i eth0 @@
+tcpreplay -T nano --nm-delay 20 --unique-ip -P -L 16 --netmap -l 4 --unique-ip-loops 3 -x 2.0 -I lo --flow-expiry 30 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay -q -P --loopdelay-ms 10 -L 16 --netmap -l 4 --no-flow-stats -x 2.0 -A nnt -d 1 --stats 1 -v  -i eth0 @@
+tcpreplay --pktlen -T select -q --unique-ip -P --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -t --stats 1  -i eth0 @@
+tcpreplay --pktlen -T select -q -P -L 16 --pps-multi 3 --no-flow-stats -p 200 -I lo -d 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -T select -q --unique-ip -P --netmap --maxsleep 10 -l 4 -A nnt -I lo --duration 3 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay -K --nm-delay 20 --maxsleep 10 --no-flow-stats -t -A nnt -v  -i eth0 @@
+tcpreplay -K -T select -L 16 --netmap --flow-expiry 30 -d 1 --stats 1 --duration 3 -M 0.8  -i eth0 @@
+tcpreplay --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 -x 2.0 -I lo --flow-expiry 30 -d 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -K -L 16 --no-flow-stats -t -I lo --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --unique-ip -P -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -t --stats 1 -v  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip -P --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -x 2.0  -i eth0 @@
+tcpreplay -q --nm-delay 20 -L 16 --netmap -l 4 --no-flow-stats -o -d 1  -i eth0 @@
+tcpreplay -K -T gtod -q --nm-delay 20 --maxsleep 10 -o -A nnt -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T gtod --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 --netmap -l 4 --pps-multi 3 --no-flow-stats -p 200 -A nnt -v  -i eth0 @@
+tcpreplay -K -q --nm-delay 20 -P -L 16 --netmap --maxsleep 10 -x 2.0 -A nnt -I lo --flow-expiry 30 -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K -T nano -q --nm-delay 20 -L 16 --maxsleep 10 --no-flow-stats -p 200 --duration 3 -v  -i eth0 @@
+tcpreplay -q --maxsleep 10 --pps-multi 3 --no-flow-stats -p 200 -I lo -c small_capture.cache  -i eth0 @@
+tcpreplay -T nano -q --unique-ip -P --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -A nnt --stats 1 --duration 3 -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -K -L 16 --no-flow-stats -x 2.0 -I lo --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -K -T gtod -P --netmap --maxsleep 10 -o -A nnt -I lo --flow-expiry 30 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --unique-ip --loopdelay-ms 10 --maxsleep 10 -l 4 --unique-ip-loops 3 -x 2.0 -A nnt -I lo --flow-expiry 30 -d 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 -P --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 --pps-multi 3 --no-flow-stats -p 200 -I lo -d 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -q --unique-ip -P --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 -x 2.0 -I lo -d 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -K -L 16 --netmap --maxsleep 10 -t --flow-expiry 30 -d 1 -v  -i eth0 @@
+tcpreplay -K -q --nm-delay 20 -L 16 --maxsleep 10 --no-flow-stats -t -A nnt -I lo -d 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -q --nm-delay 20 -P -L 16 --netmap -p 200 -A nnt --stats 1 -v  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -o --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --unique-ip --netmap -l 4 --unique-ip-loops 3 -o -I lo --flow-expiry 30 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -K -T nano -q -P --netmap --maxsleep 10 -x 2.0  -i eth0 @@
+tcpreplay -K --maxsleep 10 -p 200 -I lo -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip -P --netmap -l 4 --unique-ip-loops 3 --no-flow-stats -I lo -d 1 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay --pktlen -K --nm-delay 20 -L 16 --netmap --maxsleep 10 -o -I lo --flow-expiry 30 -d 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T gtod --netmap -o -I lo -d 1 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay -K -T select -q --maxsleep 10 -o -A nnt --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay -q -L 16 --maxsleep 10 --flow-expiry 30 --duration 3 -M 0.8  -i eth0 @@
+tcpreplay -K -T nano --nm-delay 20 -P -L 16 --netmap --no-flow-stats -t -A nnt --stats 1 -v  -i eth0 @@
+tcpreplay -T nano -q --unique-ip -P --loopdelay-ms 10 --maxsleep 10 -l 4 -I lo --flow-expiry 30 -d 1 --duration 3 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T nano --unique-ip -P -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -d 1 --duration 3 -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T select -q --nm-delay 20 --unique-ip -P -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -x 2.0 -A nnt --flow-expiry 30 -d 1 --stats 1 -v  -i eth0 @@
+tcpreplay -q -P --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 -o -I lo --flow-expiry 30 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -K -q -P --netmap --maxsleep 10 --flow-expiry 30 --stats 1 -M 0.8  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 --unique-ip -P -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -t -A nnt -I lo -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K -P --netmap --maxsleep 10 --pps-multi 3 -p 200 -A nnt -I lo --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -L 16 --pps-multi 3 --no-flow-stats -p 200 -I lo --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T select -q --nm-delay 20 --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --no-flow-stats -t -A nnt --stats 1 -v  -i eth0 @@
+tcpreplay -T gtod --nm-delay 20 -x 2.0 -A nnt --flow-expiry 30 --stats 1 -v  -i eth0 @@
+tcpreplay -K --nm-delay 20 -P --maxsleep 10 -o -A nnt --flow-expiry 30 --stats 1 -v  -i eth0 @@
+tcpreplay --pktlen -q --unique-ip -P -L 16 --netmap -l 4 --unique-ip-loops 3 --no-flow-stats -t -A nnt -v  -i eth0 @@
+tcpreplay --pktlen -T nano -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -I lo -d 1 --stats 1 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 -P --loopdelay-ms 10 --maxsleep 10 -l 4 --no-flow-stats -t -I lo -c small_capture.cache  -i eth0 @@
+tcpreplay -q --unique-ip --loopdelay-ms 10 -L 16 -l 4 --unique-ip-loops 3 --no-flow-stats -I lo --stats 1 --duration 3 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T gtod -q --unique-ip -P --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -t -I lo --flow-expiry 30 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T nano --unique-ip -P --loopdelay-ms 10 --maxsleep 10 -l 4 --unique-ip-loops 3 -t -A nnt -I lo --flow-expiry 30 -d 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T select -q --unique-ip -P -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 -I lo --flow-expiry 30 -d 1 --stats 1 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip -P -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -x 2.0 -d 1  -i eth0 @@
+tcpreplay -T ioport -q --unique-ip --loopdelay-ms 10 -L 16 -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 -I lo -d 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen --unique-ip -P --loopdelay-ms 10 -L 16 --netmap -l 4 --no-flow-stats -t -I lo -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 --maxsleep 10 -l 4 -A nnt --flow-expiry 30 -d 1 --stats 1 --duration 3 -v -M 0.8  -i eth0 @@
+tcpreplay -K -T nano -q --nm-delay 20 -L 16 --netmap --maxsleep 10 -o -A nnt -I lo --flow-expiry 30 -d 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip -P -L 16 --maxsleep 10 -l 4 --no-flow-stats -o -A nnt -d 1 -v  -i eth0 @@
+tcpreplay --unique-ip -P --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 -A nnt -I lo --flow-expiry 30 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T ioport -q --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -t -A nnt -I lo -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K --nm-delay 20 -P --netmap --no-flow-stats -x 2.0 -I lo -c small_capture.cache  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip --loopdelay-ms 10 -l 4 --unique-ip-loops 3 --no-flow-stats --duration 3 -v -M 0.8  -i eth0 @@
+tcpreplay -T select --unique-ip -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 -d 1  -i eth0 @@
+tcpreplay --pktlen -q --unique-ip -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -p 200 -A nnt -v  -i eth0 @@
+tcpreplay -K -T gtod --nm-delay 20 -P --maxsleep 10 -A nnt -I lo --flow-expiry 30 -d 1 --duration 3 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --unique-ip -P -L 16 --maxsleep 10 -l 4 --pps-multi 3 --no-flow-stats -p 200 -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -K -P -L 16 --no-flow-stats -o -I lo -d 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -q --unique-ip -P -L 16 -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 -A nnt -I lo --flow-expiry 30 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --unique-ip -P -l 4 --unique-ip-loops 3 -t --flow-expiry 30 --stats 1  -i eth0 @@
+tcpreplay -q --nm-delay 20 --unique-ip --maxsleep 10 -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 --flow-expiry 30 -d 1 --stats 1  -i eth0 @@
+tcpreplay -K -T nano -P --maxsleep 10 --no-flow-stats --stats 1 -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T select --nm-delay 20 --loopdelay-ms 10 -L 16 -l 4 -o -I lo -d 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K -q -L 16 -p 200 --flow-expiry 30 --stats 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 -P -L 16 --pps-multi 3 --no-flow-stats -p 200 --duration 3  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 -l 4 -x 2.0 -I lo --flow-expiry 30 -d 1 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay -T gtod --nm-delay 20 --maxsleep 10 -l 4 --pps-multi 3 --no-flow-stats -p 200 -A nnt --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --unique-ip --maxsleep 10 -l 4 --no-flow-stats -p 200 -A nnt -I lo -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -q --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --netmap -l 4 -o --flow-expiry 30 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -K -T gtod -q --nm-delay 20 -L 16 -I lo --flow-expiry 30 --stats 1 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay -q --unique-ip -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 -t -A nnt --flow-expiry 30 -d 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -q --unique-ip --loopdelay-ms 10 -L 16 --netmap -l 4 --unique-ip-loops 3 -o -I lo --flow-expiry 30 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -P --loopdelay-ms 10 -l 4 --no-flow-stats -x 2.0 -A nnt --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay -K -T nano --nm-delay 20 -P -L 16 --netmap --maxsleep 10 --pps-multi 3 --no-flow-stats -p 200 -A nnt -I lo --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K --maxsleep 10 -o -I lo --flow-expiry 30 -d 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T nano --nm-delay 20 --unique-ip --netmap -l 4 --unique-ip-loops 3 -p 200 -A nnt -I lo --flow-expiry 30 -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 -x 2.0 --flow-expiry 30 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -T select -q --loopdelay-ms 10 --maxsleep 10 -l 4 --no-flow-stats -o -I lo -d 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --unique-ip -P -l 4 --unique-ip-loops 3 -t -I lo -d 1 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --loopdelay-ms 10 -l 4 -p 200 -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T select --nm-delay 20 --unique-ip --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -x 2.0 --flow-expiry 30 -d 1 --stats 1 -v  -i eth0 @@
+tcpreplay -K -T ioport -q -P --netmap --maxsleep 10 --no-flow-stats -t --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 -P -L 16 --maxsleep 10 -x 2.0 --flow-expiry 30 -d 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen -P --loopdelay-ms 10 -l 4 --pps-multi 3 -p 200 -I lo --flow-expiry 30 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -q --maxsleep 10 -l 4 -t  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 -A nnt -I lo --flow-expiry 30 -d 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K -T ioport -q --nm-delay 20 -P -L 16 --pps-multi 3 -p 200 -I lo --flow-expiry 30 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -q -L 16 --netmap --maxsleep 10 --pps-multi 3 -p 200 --flow-expiry 30 -d 1 --duration 3  -i eth0 @@
+tcpreplay -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --no-flow-stats -x 2.0 -d 1 -v  -i eth0 @@
+tcpreplay --pktlen -K -T nano --nm-delay 20 -P -L 16 --netmap --maxsleep 10 -A nnt --flow-expiry 30 --duration 3 -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T gtod -q --nm-delay 20 --netmap --maxsleep 10 --no-flow-stats -o -I lo -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T select -q --nm-delay 20 --unique-ip -P -L 16 --netmap -l 4 --unique-ip-loops 3 -A nnt -d 1 --duration 3 -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T ioport --nm-delay 20 --unique-ip -P -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -A nnt --stats 1 -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -q --unique-ip -P --loopdelay-ms 10 -l 4 --unique-ip-loops 3 --no-flow-stats -M 0.8  -i eth0 @@
+tcpreplay --pktlen -K -T ioport -q -P -L 16 --netmap -t -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -T ioport --nm-delay 20 -P --loopdelay-ms 10 --maxsleep 10 -l 4 -I lo --duration 3 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay -T nano -q --nm-delay 20 -P --loopdelay-ms 10 --netmap -l 4 --no-flow-stats -o -I lo --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -K -q -P -L 16 --maxsleep 10 --no-flow-stats -x 2.0 -d 1  -i eth0 @@
+tcpreplay -K -T ioport --nm-delay 20 -P -L 16 --maxsleep 10 --no-flow-stats -x 2.0 -A nnt -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -K -T select -q --nm-delay 20 -P -L 16 --netmap --maxsleep 10 --no-flow-stats -t -A nnt -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -T nano --unique-ip -P --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 --flow-expiry 30 -d 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen -K -T ioport -q --nm-delay 20 -t -I lo --flow-expiry 30 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -K -T select --nm-delay 20 --no-flow-stats -x 2.0 -d 1  -i eth0 @@
+tcpreplay --pktlen -K -T select -q -P --stats 1 -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T ioport --nm-delay 20 --unique-ip --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --no-flow-stats -d 1 --stats 1 --duration 3 -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T gtod -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -o -I lo --flow-expiry 30 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -q --unique-ip --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --pps-multi 3 --no-flow-stats -p 200 -I lo -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -T nano -P -L 16 --maxsleep 10 -o -I lo --flow-expiry 30 -d 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T select -q --loopdelay-ms 10 --netmap -l 4 -x 2.0 -I lo --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -q --maxsleep 10 -l 4 -x 2.0 --flow-expiry 30 -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay -T gtod -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -I lo --stats 1 --duration 3 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay -q --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --no-flow-stats -A nnt -I lo -d 1 --stats 1 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -K -q --nm-delay 20 --maxsleep 10 --no-flow-stats -d 1 --stats 1 -v -M 0.8  -i eth0 @@
+tcpreplay  -i eth0 @@
+tcpreplay --pktlen -T nano -q --unique-ip -L 16 -l 4 --unique-ip-loops 3 --no-flow-stats -t -I lo -d 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -q --unique-ip -P --loopdelay-ms 10 -L 16 --netmap -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 -d 1 --stats 1  -i eth0 @@
+tcpreplay --pktlen -q -P --maxsleep 10 --pps-multi 3 -p 200 -A nnt -I lo --flow-expiry 30 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -T select -P --maxsleep 10 --no-flow-stats -A nnt --stats 1 -v -M 0.8  -i eth0 @@
+tcpreplay -T gtod --unique-ip -P --loopdelay-ms 10 --maxsleep 10 -l 4 --pps-multi 3 --no-flow-stats -p 200 -A nnt -I lo -d 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T ioport -q --nm-delay 20 -P --loopdelay-ms 10 -L 16 --netmap -l 4 --flow-expiry 30 --stats 1 --duration 3 -M 0.8  -i eth0 @@
+tcpreplay --pktlen -K -T gtod -P -L 16 --netmap --no-flow-stats -I lo -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay -T gtod -q --nm-delay 20 -P --netmap -p 200 -I lo --flow-expiry 30 -d 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 --unique-ip --loopdelay-ms 10 --netmap -l 4 --unique-ip-loops 3 -x 2.0 -A nnt -I lo --flow-expiry 30 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 -P -L 16 --netmap -l 4 --no-flow-stats -d 1 --duration 3 -M 0.8  -i eth0 @@
+tcpreplay -T select -q --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 -t --flow-expiry 30 -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -K -T select -P --netmap --maxsleep 10 -x 2.0 -A nnt -I lo --flow-expiry 30 -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen --unique-ip -P --loopdelay-ms 10 --netmap -l 4 --unique-ip-loops 3 -o -I lo --flow-expiry 30 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 -t -A nnt -I lo -d 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K -q --nm-delay 20 --netmap --maxsleep 10 -x 2.0 -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -q --nm-delay 20 --unique-ip --maxsleep 10 -l 4 --no-flow-stats -x 2.0 -I lo --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay -q --unique-ip -P -L 16 -l 4 --unique-ip-loops 3 --no-flow-stats -x 2.0 -I lo -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --unique-ip --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -t --flow-expiry 30 -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -T select -q --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 -l 4 --unique-ip-loops 3 -x 2.0 --flow-expiry 30 --stats 1 -v  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip -P -L 16 --maxsleep 10 -l 4 -p 200 --flow-expiry 30 -d 1  -i eth0 @@
+tcpreplay -T ioport -L 16 --no-flow-stats -x 2.0 -A nnt -I lo --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T ioport --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -t -d 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -T gtod -q --nm-delay 20 --unique-ip -L 16 --netmap -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 --flow-expiry 30 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -T ioport --unique-ip -P -L 16 -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 --flow-expiry 30 --stats 1  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 --unique-ip --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -d 1 --duration 3 -M 0.8  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -x 2.0 -I lo -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -T gtod --netmap -t -A nnt --flow-expiry 30 --duration 3 -v  -i eth0 @@
+tcpreplay -T ioport -q --nm-delay 20 -L 16 --netmap -t -A nnt --flow-expiry 30 --stats 1 -v  -i eth0 @@
+tcpreplay --pktlen -T nano --unique-ip -L 16 --netmap -l 4 --no-flow-stats -p 200 --stats 1  -i eth0 @@
+tcpreplay -K -T nano -P -L 16 --netmap -I lo -d 1 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 -l 4 --unique-ip-loops 3 -x 2.0 -A nnt -I lo --flow-expiry 30 -d 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K --nm-delay 20 -P --netmap --maxsleep 10 --no-flow-stats -I lo --duration 3 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T nano --nm-delay 20 --unique-ip -P --netmap -l 4 --unique-ip-loops 3 -t -I lo --flow-expiry 30 -d 1 -c small_capture.cache  -i eth0 @@
+tcpreplay -T select -q --unique-ip --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -A nnt -I lo -d 1 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -q -L 16 --netmap -l 4 --pps-multi 3 --no-flow-stats -p 200 -I lo -c small_capture.cache  -i eth0 @@
+tcpreplay -K -T gtod -q -P --netmap --no-flow-stats -o -A nnt -I lo -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 -P -L 16 --netmap --maxsleep 10 --no-flow-stats -x 2.0 -A nnt -v  -i eth0 @@
+tcpreplay --pktlen --unique-ip --netmap -l 4 --unique-ip-loops 3 -o -I lo -d 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K -q --nm-delay 20 -P -L 16 --netmap --no-flow-stats -x 2.0 -A nnt -I lo --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -T select -P --no-flow-stats -t -I lo --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -T select -q -L 16 --netmap --maxsleep 10 -p 200 -A nnt -I lo --flow-expiry 30 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen --unique-ip -P --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 -o -A nnt -d 1 --stats 1 -v  -i eth0 @@
+tcpreplay --pktlen -K -T nano -q -L 16 --netmap -o -I lo --flow-expiry 30 -d 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -x 2.0 -A nnt -I lo --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -T ioport --nm-delay 20 -P --maxsleep 10 --no-flow-stats -p 200 -A nnt -I lo -d 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -T nano --netmap --maxsleep 10 --pps-multi 3 --no-flow-stats -p 200 -I lo -d 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --unique-ip -P -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -p 200 -A nnt --flow-expiry 30 -d 1 -v  -i eth0 @@
+tcpreplay --pktlen -T select --nm-delay 20 -P -L 16 --no-flow-stats -t -A nnt -v  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip --loopdelay-ms 10 --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -A nnt -d 1 --duration 3 -v -M 0.8  -i eth0 @@
+tcpreplay -T ioport -q --nm-delay 20 --loopdelay-ms 10 --netmap -l 4 --no-flow-stats -M 0.8  -i eth0 @@
+tcpreplay -q --nm-delay 20 --unique-ip -L 16 --maxsleep 10 -l 4 -x 2.0 -I lo --flow-expiry 30 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T nano -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 --netmap -l 4 --unique-ip-loops 3 --no-flow-stats --stats 1 -M 0.8  -i eth0 @@
+tcpreplay -T gtod --unique-ip -P --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 -x 2.0 -A nnt --duration 3 -v  -i eth0 @@
+tcpreplay -T select --nm-delay 20 -P -L 16 --netmap -x 2.0 -I lo -d 1 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay -T ioport -q --unique-ip -P -L 16 --maxsleep 10 -l 4 -A nnt --flow-expiry 30 -v -M 0.8  -i eth0 @@
+tcpreplay -T select -q --nm-delay 20 --unique-ip --loopdelay-ms 10 --netmap -l 4 --unique-ip-loops 3 -x 2.0 -A nnt -I lo -d 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 --unique-ip -L 16 --maxsleep 10 -l 4 --pps-multi 3 -p 200 -A nnt -I lo --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -q -P -L 16 --maxsleep 10 -A nnt -I lo --flow-expiry 30 -d 1 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -K -T ioport -P -L 16 --netmap --maxsleep 10 -t -I lo --flow-expiry 30 -d 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K -T gtod -q --nm-delay 20 -L 16 --netmap -t -I lo --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T select -q --unique-ip --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -o -d 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen -T nano -P -l 4 --pps-multi 3 -p 200 -A nnt --flow-expiry 30 -d 1 --stats 1 -v  -i eth0 @@
+tcpreplay -T ioport -q --nm-delay 20 -P --netmap --maxsleep 10 --no-flow-stats -x 2.0 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -K -T select -q --nm-delay 20 -P -L 16 --maxsleep 10 --no-flow-stats -x 2.0 -I lo --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -T ioport --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 -p 200 -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 -o -A nnt -I lo --flow-expiry 30 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K -T nano -q --nm-delay 20 -P --flow-expiry 30 -d 1 -M 0.8  -i eth0 @@
+tcpreplay --pktlen -K -P --maxsleep 10 --no-flow-stats -x 2.0 -A nnt -I lo --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen --unique-ip -L 16 -l 4 --unique-ip-loops 3 --no-flow-stats -o -A nnt -v  -i eth0 @@
+tcpreplay --pktlen -K --nm-delay 20 -L 16 --netmap --no-flow-stats -I lo --stats 1 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 -P --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 -o -d 1 --duration 3  -i eth0 @@
+tcpreplay -T nano --nm-delay 20 -P --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --pps-multi 3 -p 200 -I lo -c small_capture.cache  -i eth0 @@
+tcpreplay -T select --nm-delay 20 --unique-ip -P --netmap -l 4 --unique-ip-loops 3 --pps-multi 3 --no-flow-stats -p 200 -A nnt -I lo --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K -T nano -q --netmap --maxsleep 10 -p 200 -A nnt --flow-expiry 30 -v  -i eth0 @@
+tcpreplay --pktlen -K -q --nm-delay 20 -P --no-flow-stats -p 200 -I lo --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -K -q --nm-delay 20 --netmap --maxsleep 10 --no-flow-stats -I lo --stats 1 --duration 3 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -K -T ioport -q --nm-delay 20 -L 16 --netmap --maxsleep 10 --no-flow-stats -o -A nnt -v  -i eth0 @@
+tcpreplay --pktlen -K -T nano -q --nm-delay 20 -L 16 -x 2.0 --flow-expiry 30 -d 1  -i eth0 @@
+tcpreplay -T select -q --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --netmap -l 4 --unique-ip-loops 3 --no-flow-stats -x 2.0 -d 1 --duration 3 -v  -i eth0 @@
+tcpreplay -K -T gtod --nm-delay 20 -L 16 --netmap -p 200 -I lo --flow-expiry 30 -c small_capture.cache  -i eth0 @@
+tcpreplay -K -q --nm-delay 20 -P -L 16 --maxsleep 10 -x 2.0 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -q -P --loopdelay-ms 10 -L 16 -l 4 -t -d 1 --stats 1 -v  -i eth0 @@
+tcpreplay --pktlen -T ioport --nm-delay 20 --unique-ip -P --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 -A nnt -I lo --flow-expiry 30 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T select -q --nm-delay 20 -P -L 16 --netmap --no-flow-stats -o -A nnt -I lo --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T nano -q --nm-delay 20 -P --netmap --pps-multi 3 --no-flow-stats -p 200 -A nnt -I lo -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T select -q --nm-delay 20 -P --loopdelay-ms 10 -L 16 --netmap -l 4 -o -A nnt -I lo --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T ioport --nm-delay 20 -P -L 16 --netmap --no-flow-stats -o -I lo -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T select -q --nm-delay 20 -P --loopdelay-ms 10 -l 4 -x 2.0 -A nnt -I lo --flow-expiry 30 -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K -q -P -L 16 --netmap --maxsleep 10 -t -A nnt -I lo --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K -L 16 --maxsleep 10 --pps-multi 3 -p 200 --flow-expiry 30  -i eth0 @@
+tcpreplay -q --loopdelay-ms 10 --maxsleep 10 -l 4 -I lo --flow-expiry 30 -d 1 --stats 1 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -K -q --nm-delay 20 -L 16 --netmap -o -I lo --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --unique-ip --loopdelay-ms 10 -l 4 -x 2.0 -A nnt -I lo --flow-expiry 30 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -q --nm-delay 20 -L 16 --maxsleep 10 --no-flow-stats -I lo --stats 1 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay -T nano --nm-delay 20 -P --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 -x 2.0 -A nnt -I lo --flow-expiry 30 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -q --nm-delay 20 --netmap --maxsleep 10 -x 2.0 -I lo --flow-expiry 30 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -o -I lo --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -K -T select -q --netmap --pps-multi 3 --no-flow-stats -p 200  -i eth0 @@
+tcpreplay -K -q -P --maxsleep 10 --pps-multi 3 --no-flow-stats -p 200 -I lo --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -K -T select --nm-delay 20 -P -L 16 --netmap --maxsleep 10 --pps-multi 3 -p 200 -I lo --flow-expiry 30 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --unique-ip -P --loopdelay-ms 10 --netmap -l 4 --unique-ip-loops 3 --no-flow-stats -o -d 1  -i eth0 @@
+tcpreplay -q --nm-delay 20 --unique-ip -P -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -t --flow-expiry 30 --duration 3  -i eth0 @@
+tcpreplay -K -T nano -P --netmap --maxsleep 10 --stats 1 --duration 3 -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T nano --unique-ip -P --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 --flow-expiry 30 -d 1 --duration 3 -M 0.8  -i eth0 @@
+tcpreplay --pktlen --unique-ip --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --no-flow-stats -o -A nnt --duration 3 -v  -i eth0 @@
+tcpreplay -q --unique-ip -P --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -o --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen --unique-ip -P --loopdelay-ms 10 -l 4 --no-flow-stats -I lo -d 1 --duration 3 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay -q -L 16 --netmap -o -I lo --flow-expiry 30 -d 1 -c small_capture.cache  -i eth0 @@
+tcpreplay -K -T ioport -q --nm-delay 20 -P --no-flow-stats -x 2.0 -I lo -d 1 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip -P --loopdelay-ms 10 --netmap -l 4 --unique-ip-loops 3 --no-flow-stats -t -A nnt --stats 1 -v  -i eth0 @@
+tcpreplay --pktlen -L 16 --netmap --maxsleep 10 --no-flow-stats -A nnt -I lo -d 1 --stats 1 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T ioport -q --unique-ip --loopdelay-ms 10 -L 16 --netmap -l 4 --unique-ip-loops 3 -p 200 -A nnt -I lo --flow-expiry 30 -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T ioport --nm-delay 20 --unique-ip -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 -I lo --flow-expiry 30 --duration 3 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -q --unique-ip -P -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 -A nnt -I lo --flow-expiry 30 -d 1 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay -K --pps-multi 3 -p 200 -A nnt -I lo --flow-expiry 30 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T gtod -q -L 16 --maxsleep 10 -l 4 -v  -i eth0 @@
+tcpreplay --pktlen -T ioport --nm-delay 20 --unique-ip -P --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -x 2.0 -A nnt -d 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 -L 16 --netmap --maxsleep 10 --pps-multi 3 -p 200 -A nnt -I lo --flow-expiry 30 -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T select --nm-delay 20 -L 16 --no-flow-stats -I lo --stats 1 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay --unique-ip -P --netmap -l 4 -o -A nnt --flow-expiry 30 -d 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -T nano -q --unique-ip --loopdelay-ms 10 -L 16 -l 4 --unique-ip-loops 3 -A nnt -I lo --flow-expiry 30 --stats 1 -c small_capture.cache -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T select -q --nm-delay 20 -L 16 --maxsleep 10 -x 2.0 -I lo --flow-expiry 30 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen --unique-ip --maxsleep 10 -l 4 --unique-ip-loops 3 -x 2.0 --duration 3  -i eth0 @@
+tcpreplay --unique-ip -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -o -A nnt --stats 1 -v  -i eth0 @@
+tcpreplay --pktlen -K -T ioport -q --nm-delay 20 -L 16 --netmap --maxsleep 10 -A nnt --flow-expiry 30 -d 1 --stats 1 --duration 3 -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 -P --maxsleep 10 --no-flow-stats -x 2.0 -I lo -d 1 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay -T nano --nm-delay 20 --unique-ip --loopdelay-ms 10 --maxsleep 10 -l 4 --unique-ip-loops 3 -p 200 -A nnt --flow-expiry 30 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -T ioport -q --nm-delay 20 --unique-ip -P -L 16 -l 4 -x 2.0 --flow-expiry 30 -d 1  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --unique-ip --netmap -l 4 -t --flow-expiry 30 -d 1 --stats 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen -T gtod -q --nm-delay 20 --unique-ip --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --flow-expiry 30 --stats 1 --duration 3 -v -M 0.8  -i eth0 @@
+tcpreplay -T gtod --nm-delay 20 --unique-ip --maxsleep 10 -l 4 --unique-ip-loops 3 -A nnt --flow-expiry 30 -d 1 --stats 1 -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T ioport -q -P --loopdelay-ms 10 -L 16 -l 4 -A nnt --flow-expiry 30 -d 1 --duration 3 -v -M 0.8  -i eth0 @@
+tcpreplay -T select -q --loopdelay-ms 10 -L 16 -l 4 --no-flow-stats -x 2.0 -A nnt -I lo -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K -q --nm-delay 20 -P --maxsleep 10 --no-flow-stats -A nnt -d 1 --stats 1 --duration 3 -v -M 0.8  -i eth0 @@
+tcpreplay --nm-delay 20 --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --no-flow-stats -o -A nnt -d 1 --duration 3 -v  -i eth0 @@
+tcpreplay -T ioport --unique-ip -L 16 --netmap -l 4 --unique-ip-loops 3 -x 2.0 -A nnt -I lo --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 --loopdelay-ms 10 -L 16 --netmap -l 4 --pps-multi 3 -p 200 --flow-expiry 30 -d 1 --stats 1  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -l 4 --unique-ip-loops 3 -o -I lo --flow-expiry 30 -d 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -K -T nano -q --nm-delay 20 -P --netmap --maxsleep 10 --no-flow-stats -o --duration 3  -i eth0 @@
+tcpreplay -T select -q --unique-ip -P -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 -p 200 -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T ioport --nm-delay 20 -P --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 -x 2.0 -I lo --flow-expiry 30 -d 1 -c small_capture.cache  -i eth0 @@
+tcpreplay -T ioport --nm-delay 20 --unique-ip -P -L 16 -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 -I lo --flow-expiry 30 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -P --maxsleep 10 -o --flow-expiry 30 -d 1 --stats 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen -T nano --unique-ip -P --loopdelay-ms 10 -l 4 --unique-ip-loops 3 -t -d 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -K -P --maxsleep 10 --no-flow-stats -o -A nnt -I lo -d 1 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip --netmap -l 4 --unique-ip-loops 3 --no-flow-stats -x 2.0 -A nnt -I lo -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -T ioport -q --nm-delay 20 -P --netmap -p 200 -d 1 --stats 1 --duration 3  -i eth0 @@
+tcpreplay -K --netmap -x 2.0 -I lo --flow-expiry 30 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --nm-delay 20 -P --maxsleep 10 -t -A nnt -I lo --flow-expiry 30 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T gtod -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -l 4 --unique-ip-loops 3 --no-flow-stats -p 200 -d 1 -v  -i eth0 @@
+tcpreplay -T ioport --unique-ip -L 16 -l 4 --pps-multi 3 --no-flow-stats -p 200 -d 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen -K -q --nm-delay 20 -L 16 --maxsleep 10 --no-flow-stats -o -d 1 --stats 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen --unique-ip --loopdelay-ms 10 -L 16 -l 4 --unique-ip-loops 3 --no-flow-stats -t --stats 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen -T nano -P -L 16 --maxsleep 10 --no-flow-stats -x 2.0 -I lo -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T ioport -q --unique-ip --loopdelay-ms 10 --netmap -l 4 --unique-ip-loops 3 --pps-multi 3 -p 200 -I lo -c small_capture.cache  -i eth0 @@
+tcpreplay -K -T gtod -L 16 --netmap --maxsleep 10 --no-flow-stats -A nnt -d 1 -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -K -q -P -L 16 -t -A nnt -I lo --flow-expiry 30 -d 1 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -T ioport -q -L 16 --maxsleep 10 --pps-multi 3 -p 200 --flow-expiry 30 --stats 1 --duration 3  -i eth0 @@
+tcpreplay -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -l 4 --unique-ip-loops 3 --pps-multi 3 --no-flow-stats -p 200 -A nnt -I lo -d 1 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip -P --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -t -A nnt -d 1 -v  -i eth0 @@
+tcpreplay --pktlen -K -P --netmap -o --flow-expiry 30 -d 1 --stats 1  -i eth0 @@
+tcpreplay --pktlen -T ioport -q --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 --netmap -l 4 --unique-ip-loops 3 --no-flow-stats -x 2.0 -I lo --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -K --nm-delay 20 -L 16 --netmap --no-flow-stats -o -A nnt -I lo -d 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T ioport --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --pps-multi 3 --no-flow-stats -p 200 -d 1 --stats 1  -i eth0 @@
+tcpreplay -T select -q --unique-ip -P -L 16 --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -o -I lo -d 1 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -K --nm-delay 20 -P -L 16 --netmap -o --flow-expiry 30 -d 1 --stats 1  -i eth0 @@
+tcpreplay -K --nm-delay 20 -P --netmap --maxsleep 10 -t -I lo --flow-expiry 30 --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay -T select --unique-ip --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 --no-flow-stats -o -A nnt -d 1 --stats 1 -v  -i eth0 @@
+tcpreplay -K --nm-delay 20 -L 16 --pps-multi 3 -p 200 -I lo --flow-expiry 30 -d 1 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -q --nm-delay 20 -L 16 --netmap --maxsleep 10 -l 4 -o -A nnt --flow-expiry 30 -v  -i eth0 @@
+tcpreplay --pktlen -K -q --nm-delay 20 -P -L 16 -x 2.0 --flow-expiry 30 --duration 3  -i eth0 @@
+tcpreplay --pktlen -K -A nnt --flow-expiry 30 -v -M 0.8  -i eth0 @@
+tcpreplay -K --nm-delay 20 -P -L 16 --netmap --maxsleep 10 -p 200 -A nnt -I lo --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T ioport --nm-delay 20 --unique-ip -P --loopdelay-ms 10 -L 16 --netmap -l 4 --unique-ip-loops 3 -p 200 -A nnt --flow-expiry 30 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --unique-ip --loopdelay-ms 10 --netmap -l 4 --unique-ip-loops 3 -t -I lo --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --netmap -l 4 --unique-ip-loops 3 --pps-multi 3 --no-flow-stats -p 200 -A nnt -I lo -d 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -T ioport --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -t -A nnt --flow-expiry 30 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay -K -q --nm-delay 20 -L 16 --netmap -t --flow-expiry 30 --duration 3  -i eth0 @@
+tcpreplay -K -T ioport -q --nm-delay 20 --maxsleep 10 --pps-multi 3 --no-flow-stats -p 200 -I lo -d 1 --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay -K -q --nm-delay 20 -P -o -A nnt -I lo --flow-expiry 30 -d 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --unique-ip --loopdelay-ms 10 -L 16 -l 4 --unique-ip-loops 3 --pps-multi 3 --no-flow-stats -p 200 -d 1  -i eth0 @@
+tcpreplay --pktlen -K --nm-delay 20 -L 16 --netmap --maxsleep 10 -p 200 -d 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen -K --nm-delay 20 -P -L 16 --maxsleep 10 --no-flow-stats -p 200 -A nnt --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay -K -T ioport -P -L 16 --no-flow-stats -x 2.0 -d 1 --stats 1  -i eth0 @@
+tcpreplay -q -P --netmap --pps-multi 3 --no-flow-stats -p 200 --stats 1 --duration 3  -i eth0 @@
+tcpreplay -T gtod -q --nm-delay 20 -P -L 16 --maxsleep 10 -l 4 -o -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -T nano -q --unique-ip -P -L 16 --netmap -l 4 --unique-ip-loops 3 -p 200 -A nnt -d 1 --duration 3 -v  -i eth0 @@
+tcpreplay -T select --loopdelay-ms 10 -L 16 -l 4 -p 200 --flow-expiry 30 --duration 3  -i eth0 @@
+tcpreplay -q --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 -l 4 --unique-ip-loops 3 -t -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T ioport -P --netmap --maxsleep 10 -l 4 --no-flow-stats -o -A nnt -I lo -d 1 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --nm-delay 20 --loopdelay-ms 10 --netmap -l 4 --pps-multi 3 -p 200 -A nnt -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --nm-delay 20 --unique-ip -P --loopdelay-ms 10 --netmap -l 4 --unique-ip-loops 3 -I lo --flow-expiry 30 -d 1 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T ioport -q --unique-ip -P --loopdelay-ms 10 -L 16 -l 4 -x 2.0 -I lo --flow-expiry 30 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -T ioport --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --no-flow-stats -t -A nnt --duration 3 -v  -i eth0 @@
+tcpreplay -K -P -L 16 --maxsleep 10 --no-flow-stats -t -d 1 --stats 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen -K -T select --nm-delay 20 -P --maxsleep 10 -x 2.0 -A nnt -I lo --flow-expiry 30 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -P --netmap --maxsleep 10 --no-flow-stats -x 2.0 -I lo -d 1 --stats 1 --duration 3 -c small_capture.cache  -i eth0 @@
+tcpreplay -T nano --loopdelay-ms 10 -L 16 --netmap -l 4 -t --flow-expiry 30  -i eth0 @@
+tcpreplay -q --nm-delay 20 --loopdelay-ms 10 --netmap -l 4 --no-flow-stats -p 200 -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay -T select -q --unique-ip --loopdelay-ms 10 -L 16 --netmap -l 4 --unique-ip-loops 3 --no-flow-stats -t -A nnt -d 1 --stats 1 --duration 3 -v  -i eth0 @@
+tcpreplay --pktlen -K -T ioport -q --nm-delay 20 -P -L 16 --maxsleep 10 -x 2.0 -I lo --stats 1 -c small_capture.cache  -i eth0 @@
+tcpreplay --pktlen -q --unique-ip -P -l 4 --unique-ip-loops 3 -t -I lo -c small_capture.cache  -i eth0 @@
+tcpreplay -q --nm-delay 20 -P -l 4 -I lo -d 1 --duration 3 -c small_capture.cache -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T select --nm-delay 20 -P --loopdelay-ms 10 --netmap -l 4 -x 2.0 --flow-expiry 30 -d 1 --stats 1  -i eth0 @@
+tcpreplay --pktlen -K -q -L 16 --netmap --flow-expiry 30 -d 1 -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T gtod -q --unique-ip -P --loopdelay-ms 10 -L 16 --maxsleep 10 -l 4 --no-flow-stats -v -M 0.8  -i eth0 @@
+tcpreplay -q --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --netmap -l 4 --pps-multi 3 --no-flow-stats -p 200 -I lo --stats 1 -c small_capture.cache -v  -i eth0 @@
+tcpreplay --pktlen -K -T nano --nm-delay 20 -L 16 --netmap -o --flow-expiry 30 -d 1 --stats 1 -v  -i eth0 @@
+tcpreplay --pktlen -T select --netmap --no-flow-stats -o -d 1  -i eth0 @@
+tcpreplay -K -P --netmap -t --flow-expiry 30 --duration 3  -i eth0 @@
+tcpreplay --pktlen -q --unique-ip --loopdelay-ms 10 --netmap --maxsleep 10 -l 4 --unique-ip-loops 3 -A nnt --flow-expiry 30 -d 1 --duration 3 -v -M 0.8  -i eth0 @@
+tcpreplay --pktlen -T gtod -q --nm-delay 20 --unique-ip --loopdelay-ms 10 -L 16 --netmap -l 4 --unique-ip-loops 3 -x 2.0 --stats 1 --duration 3  -i eth0 @@
+tcpreplay --pktlen --unique-ip -L 16 --netmap -l 4 --unique-ip-loops 3 -t -A nnt -I lo --flow-expiry 30 --duration 3 -c small_capture.cache -v  -i eth0 @@

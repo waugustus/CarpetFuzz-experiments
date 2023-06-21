@@ -1,0 +1,258 @@
+257
+ogg123 -b 128 -K 10 -y 5 -p 60 -o quiet  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 -k 2 -y 5 -z -p 60 -o matrix:L,R,C,LFE,BL,BR,SL,SR  @@ -d wav -f /tmp/foo
+ogg123 -K 10 -k 2 -q -y 5 -z -p 60 -o quiet -v  @@ -d wav -f /tmp/foo
+ogg123 --audio-buffer 128 -y 5 -z -p 60  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 -k 2 -y 5 -z -p 60  @@ -d wav -f /tmp/foo
+ogg123 -K 10 -y 5 -z -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 --audio-buffer 128 -q -y 5 -z -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 --audio-buffer 128 -k 2 -y 5 -z -p 60 -o verbose -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 --audio-buffer 128 -r -y 5 -z -o matrix:L,R,C,LFE,BL,BR,SL,SR -v  @@ -d wav -f /tmp/foo
+ogg123 -K 10 -r -y 5 -z -p 60 -o debug  @@ -d wav -f /tmp/foo
+ogg123 -K 10 --audio-buffer 128 -r -y 5 -z -p 60 -o quiet -v  @@ -d wav -f /tmp/foo
+ogg123 -K 10 --audio-buffer 128 -r -y 5 -o debug -Z  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 -x 5 -q -y 5 -z -p 60 -o verbose -v  @@ -d wav -f /tmp/foo
+ogg123 -K 10 --audio-buffer 128 -r -q -y 5 -p 60 -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -k 2 -q -y 5 -z -o debug -v  @@ -d wav -f /tmp/foo
+ogg123 -K 10 --audio-buffer 128 -r -y 5 -o matrix:L,R,C,LFE,BL,BR,SL,SR -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 -r -q -y 5 -p 60 -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 --audio-buffer 128 -r -y 5 -p 60 -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -r -q -y 5 -p 60 -o verbose -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 -k 2 -r -y 5 -p 60 -o matrix:L,R,C,LFE,BL,BR,SL,SR -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 --audio-buffer 128 -k 2 -x 5 -y 5 -z -o matrix:L,R,C,LFE,BL,BR,SL,SR  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 -k 2 -r -q -y 5 -z -o verbose -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 -r -y 5 -z -p 60 -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -r -q -y 5 -o quiet -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -K 10 -k 2 -r -y 5 -z -o matrix:L,R,C,LFE,BL,BR,SL,SR  @@ -d wav -f /tmp/foo
+ogg123 -K 10 -x 5 -q -y 5 -p 60 -o debug -v  @@ -d wav -f /tmp/foo
+ogg123 -K 10 --audio-buffer 128 -k 2 -x 5 -y 5 -p 60 -o quiet  @@ -d wav -f /tmp/foo
+ogg123 -K 10 --audio-buffer 128 -y 5 -p 60 -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -y 5 -p 60 -o quiet -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 -r -y 5  @@ -d wav -f /tmp/foo
+ogg123 -b 128 --audio-buffer 128 -r -y 5 -p 60 -Z  @@ -d wav -f /tmp/foo
+ogg123 --audio-buffer 128 -y 5 -o verbose -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 --audio-buffer 128 -k 2 -r -y 5 -p 60 -o quiet -Z  @@ -d wav -f /tmp/foo
+ogg123 -K 10 -q -y 5 -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 -x 5 -r -y 5 -z -o verbose -v  @@ -d wav -f /tmp/foo
+ogg123 --audio-buffer 128 -k 2 -y 5  @@ -d wav -f /tmp/foo
+ogg123 --audio-buffer 128 -k 2 -y 5 -p 60 -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 -x 5 -q -y 5 -p 60 -o quiet -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 -x 5 -y 5 -o verbose -Z  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -r -y 5 -z  @@ -d wav -f /tmp/foo
+ogg123 -K 10 --audio-buffer 128 -k 2 -r -y 5 -z  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 --audio-buffer 128 -x 5 -r -q -y 5 -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -K 10 --audio-buffer 128 -x 5 -y 5 -z -p 60 -o matrix:L,R,C,LFE,BL,BR,SL,SR -v  @@ -d wav -f /tmp/foo
+ogg123 -K 10 -k 2 -y 5 -o debug -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 -k 2 -r -y 5 -Z  @@ -d wav -f /tmp/foo
+ogg123 -K 10 -k 2 -r -q -y 5 -z -p 60 -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 --audio-buffer 128 -k 2 -x 5 -y 5 -z -p 60 -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 --audio-buffer 128 -x 5 -q -y 5 -o quiet -v  @@ -d wav -f /tmp/foo
+ogg123 -K 10 -x 5 -y 5 -p 60 -o quiet -Z  @@ -d wav -f /tmp/foo
+ogg123 --audio-buffer 128 -k 2 -r -q -y 5 -p 60 -o quiet -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -K 10 --audio-buffer 128 -x 5 -r -q -y 5 -z -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 --audio-buffer 128 -x 5 -q -y 5 -p 60 -o verbose -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 --audio-buffer 128 -k 2 -y 5 -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 -k 2 -x 5 -q -y 5 -z -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 --audio-buffer 128 -q -p 60 -o quiet -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -k 2 -r -y 5 -z -p 60 -o debug  @@ -d wav -f /tmp/foo
+ogg123 --audio-buffer 128 -k 2 -r -q -y 5 -o quiet -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -K 10 --audio-buffer 128 -k 2 -z -p 60 -o matrix:L,R,C,LFE,BL,BR,SL,SR  @@ -d wav -f /tmp/foo
+ogg123 -b 128 --audio-buffer 128 -x 5 -y 5 -p 60 -o debug -Z  @@ -d wav -f /tmp/foo
+ogg123 -x 5 -r -q -y 5 -z -p 60 -o matrix:L,R,C,LFE,BL,BR,SL,SR -v  @@ -d wav -f /tmp/foo
+ogg123 -K 10 -z -p 60 -o matrix:L,R,C,LFE,BL,BR,SL,SR  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 -k 2 -x 5 -y 5 -p 60 -o matrix:L,R,C,LFE,BL,BR,SL,SR -Z  @@ -d wav -f /tmp/foo
+ogg123 --audio-buffer 128 -r -y 5 -z -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 -x 5 -r -y 5 -p 60 -Z  @@ -d wav -f /tmp/foo
+ogg123 -K 10 --audio-buffer 128 -x 5 -y 5 -Z  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 --audio-buffer 128 -r -q -o debug -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -K 10 --audio-buffer 128 -k 2 -x 5 -q -y 5 -p 60 -o quiet -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 --audio-buffer 128 -x 5 -r -y 5 -o debug -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 --audio-buffer 128 -x 5 -r -y 5 -o matrix:L,R,C,LFE,BL,BR,SL,SR  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 --audio-buffer 128 -k 2 -x 5 -z -p 60 -o verbose  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 --audio-buffer 128 -k 2 -x 5 -r -y 5 -o verbose  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 --audio-buffer 128 -x 5 -r -z -p 60 -o matrix:L,R,C,LFE,BL,BR,SL,SR -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 -q -z -p 60 -v  @@ -d wav -f /tmp/foo
+ogg123 --audio-buffer 128 -k 2 -r -q -y 5 -z -p 60 -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 --audio-buffer 128 -x 5 -p 60 -o quiet -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 --audio-buffer 128 -o matrix:L,R,C,LFE,BL,BR,SL,SR -Z  @@ -d wav -f /tmp/foo
+ogg123 -K 10 -x 5 -r -y 5 -z -p 60 -v  @@ -d wav -f /tmp/foo
+ogg123 -K 10 --audio-buffer 128 -k 2 -x 5 -q -z -p 60 -o quiet -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 --audio-buffer 128 -k 2 -q -z -p 60 -v  @@ -d wav -f /tmp/foo
+ogg123 -K 10 -r -p 60 -o debug -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 --audio-buffer 128 -k 2 -r -y 5 -p 60 -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 --audio-buffer 128 -k 2 -r -q -z -p 60 -o quiet -v  @@ -d wav -f /tmp/foo
+ogg123 --audio-buffer 128 -k 2 -x 5 -q -y 5 -o debug -v  @@ -d wav -f /tmp/foo
+ogg123 -K 10 --audio-buffer 128 -k 2 -z -o matrix:L,R,C,LFE,BL,BR,SL,SR -v  @@ -d wav -f /tmp/foo
+ogg123 --audio-buffer 128 -x 5 -y 5 -p 60  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -k 2 -r -q -y 5 -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 --audio-buffer 128  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 --audio-buffer 128 -k 2 -x 5 -z -o matrix:L,R,C,LFE,BL,BR,SL,SR -v  @@ -d wav -f /tmp/foo
+ogg123 -K 10 -k 2 -x 5 -r -y 5 -p 60 -Z  @@ -d wav -f /tmp/foo
+ogg123 -K 10 --audio-buffer 128 -x 5 -r -p 60 -o debug -Z  @@ -d wav -f /tmp/foo
+ogg123 -b 128 --audio-buffer 128 -k 2 -x 5 -q -y 5 -p 60 -v  @@ -d wav -f /tmp/foo
+ogg123 -k 2 -x 5 -y 5 -z -o matrix:L,R,C,LFE,BL,BR,SL,SR -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -x 5 -y 5 -z -o verbose -v  @@ -d wav -f /tmp/foo
+ogg123 --audio-buffer 128 -q -y 5 -z -p 60 -o debug  @@ -d wav -f /tmp/foo
+ogg123 --audio-buffer 128 -k 2 -x 5 -r -y 5 -z -p 60 -o verbose  @@ -d wav -f /tmp/foo
+ogg123 -b 128 --audio-buffer 128 -x 5 -y 5 -Z  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -x 5 -r -z -p 60 -o verbose  @@ -d wav -f /tmp/foo
+ogg123 --audio-buffer 128 -r -z -p 60 -o debug -v  @@ -d wav -f /tmp/foo
+ogg123 --audio-buffer 128 -x 5 -r -y 5 -p 60 -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -q -z -o verbose -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 --audio-buffer 128 -r -z -p 60  @@ -d wav -f /tmp/foo
+ogg123 -K 10 --audio-buffer 128 -q -o matrix:L,R,C,LFE,BL,BR,SL,SR -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 -k 2 -x 5 -r -q -z -p 60 -o quiet -v  @@ -d wav -f /tmp/foo
+ogg123 -K 10 -x 5 -q -o quiet -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -K 10 --audio-buffer 128 -x 5 -r -z -o debug  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -k 2 -x 5 -r -y 5 -p 60 -o matrix:L,R,C,LFE,BL,BR,SL,SR -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -p 60 -o debug -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 --audio-buffer 128 -k 2 -x 5 -r -q -y 5 -z -o verbose -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -k 2 -x 5 -y 5 -z -p 60 -v  @@ -d wav -f /tmp/foo
+ogg123 -K 10 -r -q -z -o debug -v  @@ -d wav -f /tmp/foo
+ogg123 -K 10 --audio-buffer 128 -k 2 -x 5 -r -q -y 5 -v  @@ -d wav -f /tmp/foo
+ogg123 -K 10 -k 2 -x 5 -p 60 -o verbose  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 --audio-buffer 128 -k 2 -x 5 -r -o debug -Z  @@ -d wav -f /tmp/foo
+ogg123 -K 10 -k 2 -o matrix:L,R,C,LFE,BL,BR,SL,SR -v  @@ -d wav -f /tmp/foo
+ogg123 -K 10 --audio-buffer 128 -k 2 -r -q -o verbose -Z -v  @@ -d wav -f /tmp/foo
+ogg123 --audio-buffer 128 -k 2 -x 5 -r -y 5 -z -p 60 -o quiet -v  @@ -d wav -f /tmp/foo
+ogg123 -x 5 -y 5 -z -p 60  @@ -d wav -f /tmp/foo
+ogg123 -K 10 --audio-buffer 128 -k 2 -x 5 -y 5 -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -K 10 -k 2 -x 5 -r -y 5 -p 60 -v  @@ -d wav -f /tmp/foo
+ogg123 -k 2 -y 5 -Z  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 -k 2 -r -p 60 -o verbose  @@ -d wav -f /tmp/foo
+ogg123 -K 10 --audio-buffer 128 -k 2 -q -y 5 -z -o matrix:L,R,C,LFE,BL,BR,SL,SR  @@ -d wav -f /tmp/foo
+ogg123 -K 10 --audio-buffer 128 -p 60 -Z  @@ -d wav -f /tmp/foo
+ogg123 -b 128 --audio-buffer 128 -z  @@ -d wav -f /tmp/foo
+ogg123 -x 5 -q -y 5 -p 60 -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -q -p 60 -o verbose -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 -k 2 -r -o verbose -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 -x 5 -r -q -p 60 -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -x 5 -r -y 5 -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -k 2 -z -o quiet -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -q -y 5 -z -p 60  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 --audio-buffer 128 -k 2 -q -y 5 -o quiet  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -k 2 -x 5 -y 5 -v  @@ -d wav -f /tmp/foo
+ogg123 -K 10 -k 2 -x 5 -r -z -p 60 -o debug -v  @@ -d wav -f /tmp/foo
+ogg123 --audio-buffer 128 -r -o quiet -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 --audio-buffer 128 -k 2 -x 5 -q -y 5 -p 60 -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 --audio-buffer 128 -x 5 -r -Z  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 --audio-buffer 128 -r -q -y 5 -z -p 60 -o quiet  @@ -d wav -f /tmp/foo
+ogg123 -o matrix:L,R,C,LFE,BL,BR,SL,SR  @@ -d wav -f /tmp/foo
+ogg123 -k 2 -x 5 -r -y 5 -o matrix:L,R,C,LFE,BL,BR,SL,SR -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -k 2 -x 5 -y 5 -p 60 -Z  @@ -d wav -f /tmp/foo
+ogg123 -K 10 -k 2 -r -p 60 -Z  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 -r -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -x 5 -r -q -p 60 -o debug -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -r -p 60 -Z  @@ -d wav -f /tmp/foo
+ogg123 -b 128 --audio-buffer 128 -k 2 -x 5 -r -y 5 -z  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -r -q -z -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -k 2 -x 5 -z -o debug  @@ -d wav -f /tmp/foo
+ogg123 -b 128 --audio-buffer 128 -k 2 -p 60 -o debug -Z  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 -k 2 -r -q -z -p 60 -v  @@ -d wav -f /tmp/foo
+ogg123  @@ -d wav -f /tmp/foo
+ogg123 -b 128 --audio-buffer 128 -k 2 -x 5 -r -q -p 60 -o matrix:L,R,C,LFE,BL,BR,SL,SR -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 --audio-buffer 128 -x 5 -q -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -k 2 -r -o debug -Z  @@ -d wav -f /tmp/foo
+ogg123 -K 10 --audio-buffer 128 -x 5 -q -z -p 60 -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -x 5 -r -Z  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 -x 5 -z -p 60  @@ -d wav -f /tmp/foo
+ogg123 -b 128 --audio-buffer 128 -r -v  @@ -d wav -f /tmp/foo
+ogg123 --audio-buffer 128 -k 2 -x 5 -z -p 60  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -p 60 -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 --audio-buffer 128 -k 2 -x 5 -r -p 60 -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -k 2 -q -p 60 -v  @@ -d wav -f /tmp/foo
+ogg123 -K 10 --audio-buffer 128 -k 2 -r -z -v  @@ -d wav -f /tmp/foo
+ogg123 -K 10 -k 2 -x 5 -r -o debug -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -k 2 -z  @@ -d wav -f /tmp/foo
+ogg123 -b 128 --audio-buffer 128 -k 2 -x 5 -p 60 -o matrix:L,R,C,LFE,BL,BR,SL,SR -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 -k 2 -q -Z -v  @@ -d wav -f /tmp/foo
+ogg123 --audio-buffer 128 -x 5 -q -z -o matrix:L,R,C,LFE,BL,BR,SL,SR -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 --audio-buffer 128 -k 2 -r -o matrix:L,R,C,LFE,BL,BR,SL,SR -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 --audio-buffer 128 -k 2 -x 5 -r -z -o verbose -v  @@ -d wav -f /tmp/foo
+ogg123 -q -y 5 -z  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -k 2 -r -z -o verbose  @@ -d wav -f /tmp/foo
+ogg123 -K 10 -x 5 -r -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -K 10 -k 2 -x 5 -p 60 -Z -v  @@ -d wav -f /tmp/foo
+ogg123 --audio-buffer 128 -k 2 -p 60 -o verbose -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 -x 5 -p 60 -v  @@ -d wav -f /tmp/foo
+ogg123 -r -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 --audio-buffer 128 -k 2 -x 5  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 -k 2 -x 5 -r -z  @@ -d wav -f /tmp/foo
+ogg123 --audio-buffer 128 -r -q -y 5 -p 60 -o verbose -Z  @@ -d wav -f /tmp/foo
+ogg123 -K 10 -x 5 -z  @@ -d wav -f /tmp/foo
+ogg123 -K 10 --audio-buffer 128 -k 2 -x 5 -r -q -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -k 2 -x 5 -q -z -p 60 -v  @@ -d wav -f /tmp/foo
+ogg123 -K 10 -k 2 -q -y 5  @@ -d wav -f /tmp/foo
+ogg123 -K 10 -r -q -y 5 -p 60 -Z  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -k 2 -r -z -p 60 -v  @@ -d wav -f /tmp/foo
+ogg123 --audio-buffer 128 -x 5 -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 --audio-buffer 128 -k 2 -r -q -Z -v  @@ -d wav -f /tmp/foo
+ogg123 --audio-buffer 128 -k 2 -x 5 -r -o matrix:L,R,C,LFE,BL,BR,SL,SR -Z  @@ -d wav -f /tmp/foo
+ogg123 -b 128 --audio-buffer 128 -x 5 -z -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -k 2 -x 5 -q -o verbose -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -q -y 5 -p 60 -o verbose -Z  @@ -d wav -f /tmp/foo
+ogg123 -k 2 -r -q -p 60 -Z -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 --audio-buffer 128 -x 5 -q -y 5 -z -p 60  @@ -d wav -f /tmp/foo
+ogg123 -b 128 --audio-buffer 128 -x 5 -r -q -z -p 60 -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 --audio-buffer 128 -k 2 -Z  @@ -d wav -f /tmp/foo
+ogg123 --audio-buffer 128 -k 2 -x 5 -r -p 60  @@ -d wav -f /tmp/foo
+ogg123 -b 128 --audio-buffer 128 -q -y 5 -o verbose -Z  @@ -d wav -f /tmp/foo
+ogg123 -k 2 -x 5 -r -q -z -v  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 --audio-buffer 128 -k 2 -q -y 5 -p 60 -Z  @@ -d wav -f /tmp/foo
+ogg123 -k 2 -x 5 -o verbose -Z  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 --audio-buffer 128 -k 2 -x 5 -r -q -y 5 -p 60 -o debug -Z  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -x 5 -q -v  @@ -d wav -f /tmp/foo
+ogg123 -x 5 -z -p 60 -v  @@ -d wav -f /tmp/foo
+ogg123 -K 10 -k 2 -q -y 5 -o verbose -Z  @@ -d wav -f /tmp/foo
+ogg123 -b 128 --audio-buffer 128 -q -z -p 60 -o matrix:L,R,C,LFE,BL,BR,SL,SR  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 -k 2 -x 5 -r -q -y 5 -z -p 60 -o quiet  @@ -d wav -f /tmp/foo
+ogg123 -K 10 -x 5 -r -q -y 5 -z -o verbose  @@ -d wav -f /tmp/foo
+ogg123 --audio-buffer 128 -x 5 -r -o verbose -v  @@ -d wav -f /tmp/foo
+ogg123 -K 10 --audio-buffer 128 -x 5 -q -y 5 -o debug -Z  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -k 2 -r -q -y 5 -z -p 60 -o quiet  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 -q -z -o debug  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 -k 2 -x 5 -r -q -y 5 -o verbose -Z  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -q -y 5 -Z  @@ -d wav -f /tmp/foo
+ogg123 -K 10 --audio-buffer 128 -r -q -p 60 -o matrix:L,R,C,LFE,BL,BR,SL,SR  @@ -d wav -f /tmp/foo
+ogg123 --audio-buffer 128 -k 2 -q -y 5 -o verbose -Z  @@ -d wav -f /tmp/foo
+ogg123 --audio-buffer 128 -x 5 -q -y 5 -z -o verbose  @@ -d wav -f /tmp/foo
+ogg123 -b 128 --audio-buffer 128 -k 2 -r -q -y 5 -z  @@ -d wav -f /tmp/foo
+ogg123 -K 10 --audio-buffer 128 -k 2 -x 5 -r -q -y 5 -z -p 60  @@ -d wav -f /tmp/foo
+ogg123 -x 5 -r -q -y 5 -o quiet  @@ -d wav -f /tmp/foo
+ogg123 -k 2 -r -q -y 5 -o verbose  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 --audio-buffer 128 -q -z  @@ -d wav -f /tmp/foo
+ogg123 -K 10 --audio-buffer 128 -x 5 -r -q -o verbose  @@ -d wav -f /tmp/foo
+ogg123 -K 10 -q -p 60 -o debug -Z  @@ -d wav -f /tmp/foo
+ogg123 --audio-buffer 128 -x 5 -q -y 5  @@ -d wav -f /tmp/foo
+ogg123 -b 128 --audio-buffer 128 -k 2 -x 5 -r -q -y 5 -o quiet -Z  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -x 5 -r -q -y 5 -p 60  @@ -d wav -f /tmp/foo
+ogg123 -b 128 --audio-buffer 128 -k 2 -q -z -o verbose  @@ -d wav -f /tmp/foo
+ogg123 -b 128 --audio-buffer 128 -x 5 -r -q -z -o matrix:L,R,C,LFE,BL,BR,SL,SR  @@ -d wav -f /tmp/foo
+ogg123 --audio-buffer 128 -k 2 -x 5 -q -y 5 -z  @@ -d wav -f /tmp/foo
+ogg123 -K 10 --audio-buffer 128 -r -q -Z  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 -k 2 -q -p 60 -o debug -Z  @@ -d wav -f /tmp/foo
+ogg123 -r -q -o verbose -Z  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -k 2 -x 5 -q -z -p 60 -o verbose  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 -x 5 -q -Z  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -r -q -p 60 -Z  @@ -d wav -f /tmp/foo
+ogg123 -K 10 --audio-buffer 128 -k 2 -r -q -p 60 -Z  @@ -d wav -f /tmp/foo
+ogg123 --audio-buffer 128 -r -q -p 60 -Z  @@ -d wav -f /tmp/foo
+ogg123 -K 10 -k 2 -x 5 -q -z  @@ -d wav -f /tmp/foo
+ogg123 -K 10 -x 5 -r -q -z -p 60  @@ -d wav -f /tmp/foo
+ogg123 -K 10 -r -q  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 --audio-buffer 128 -k 2 -x 5 -r -q -p 60  @@ -d wav -f /tmp/foo
+ogg123 --audio-buffer 128 -k 2 -x 5 -r -q -y 5 -Z  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -k 2 -x 5 -r -q -y 5 -p 60 -Z  @@ -d wav -f /tmp/foo
+ogg123 -K 10 --audio-buffer 128 -k 2 -q -Z  @@ -d wav -f /tmp/foo
+ogg123 -b 128 -K 10 -k 2 -x 5 -r -q -o quiet  @@ -d wav -f /tmp/foo
+ogg123 --audio-buffer 128 -x 5 -q -p 60 -Z  @@ -d wav -f /tmp/foo
+ogg123 -k 2 -x 5 -r -q -y 5 -Z  @@ -d wav -f /tmp/foo
+ogg123 --audio-buffer 128 -r -q -z  @@ -d wav -f /tmp/foo
+ogg123 --audio-buffer 128 -k 2 -r -q -z -o verbose  @@ -d wav -f /tmp/foo
+ogg123 -k 2 -x 5 -r -q -p 60 -o debug -Z  @@ -d wav -f /tmp/foo
+ogg123 -k 2 -x 5 -q -y 5 -p 60 -Z  @@ -d wav -f /tmp/foo
+ogg123 --audio-buffer 128 -x 5 -q -p 60 -o matrix:L,R,C,LFE,BL,BR,SL,SR  @@ -d wav -f /tmp/foo
+ogg123 -b 128 --audio-buffer 128 -x 5 -r -q -p 60 -o quiet -Z  @@ -d wav -f /tmp/foo
+ogg123 -b 128 --audio-buffer 128 -k 2 -r -q -p 60  @@ -d wav -f /tmp/foo
+ogg123 -k 2 -r -q -z -p 60  @@ -d wav -f /tmp/foo
+ogg123 -b 128 --audio-buffer 128 -k 2 -x 5 -q -Z  @@ -d wav -f /tmp/foo

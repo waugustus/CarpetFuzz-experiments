@@ -1,0 +1,457 @@
+456
+pdftohtml -p -dataurls -upw 123456 -zoom 0.75 -fmt jpg -enc Latin1 -wbt 20 -xml -l 1 -noroundcoord -fontfullname -s -noframes -hidden -i  @@
+pdftohtml -nodrm -p -dataurls -nomerge -zoom 0.75 -fmt jpg -enc UTF-8 -wbt 20 -l 1 -noroundcoord -fontfullname -s -hidden -stdout -i -f 1  @@
+pdftohtml -nodrm -p -upw 123456 -nomerge -zoom 0.75 -enc ASCII7 -wbt 20 -c -xml -l 1 -fontfullname -noframes -i -f 1  @@
+pdftohtml -p -nomerge -zoom 0.75 -fmt jpg -enc ZapfDingbats -wbt 20 -xml -l 1 -fontfullname -s -noframes -i -opw 123456  @@
+pdftohtml -nodrm -p -dataurls -upw 123456 -nomerge -zoom 0.75 -fmt png -enc ASCII7 -wbt 20 -l 1 -noroundcoord -s -hidden  @@
+pdftohtml -nodrm -p -dataurls -nomerge -zoom 0.75 -fmt png -enc Latin1 -c -l 1 -noframes -hidden -stdout -i -opw 123456 -f 1  @@
+pdftohtml -p -dataurls -nomerge -fmt jpg -enc ZapfDingbats -wbt 20 -c -noroundcoord -fontfullname -noframes -hidden -stdout -i -opw 123456 -f 1  @@
+pdftohtml -nodrm -dataurls -upw 123456 -nomerge -zoom 0.75 -fmt jpg -enc UTF-8 -wbt 20 -noroundcoord -fontfullname -s -noframes -hidden -stdout -i  @@
+pdftohtml -nodrm -p -nomerge -zoom 0.75 -fmt jpg -enc Symbol -wbt 20 -c -xml -noroundcoord -noframes -hidden -f 1  @@
+pdftohtml -upw 123456 -zoom 0.75 -fmt png -enc Symbol -wbt 20 -xml -l 1 -s -noframes -hidden -stdout -f 1  @@
+pdftohtml -p -zoom 0.75 -enc ASCII7 -wbt 20 -l 1 -s -noframes -stdout -i -opw 123456 -f 1  @@
+pdftohtml -nomerge -fmt jpg -enc UTF-8 -wbt 20 -xml -l 1 -noroundcoord -fontfullname -s -noframes -hidden -stdout -opw 123456 -f 1  @@
+pdftohtml -dataurls -upw 123456 -nomerge -zoom 0.75 -enc ASCII7 -wbt 20 -c -l 1 -noroundcoord -noframes -i  @@
+pdftohtml -nodrm -p -dataurls -upw 123456 -zoom 0.75 -fmt png -wbt 20 -c -xml -l 1 -noroundcoord -fontfullname -noframes -hidden -stdout -f 1  @@
+pdftohtml -nodrm -dataurls -zoom 0.75 -enc ZapfDingbats -wbt 20 -c -xml -l 1 -noroundcoord -noframes -opw 123456  @@
+pdftohtml -nodrm -p -nomerge -zoom 0.75 -fmt jpg -enc ASCII7 -xml -l 1 -noroundcoord -s -hidden -i -opw 123456 -f 1  @@
+pdftohtml -nodrm -zoom 0.75 -enc ASCII7 -wbt 20 -c -noroundcoord -fontfullname -stdout -opw 123456 -f 1  @@
+pdftohtml -dataurls -zoom 0.75 -fmt png -enc Latin1 -wbt 20 -xml -l 1 -noroundcoord -fontfullname -stdout -f 1  @@
+pdftohtml -nodrm -zoom 0.75 -enc ASCII7 -wbt 20 -l 1 -fontfullname -s -hidden -i -opw 123456  @@
+pdftohtml -nodrm -p -nomerge -enc Latin1 -wbt 20 -xml -l 1 -noroundcoord -fontfullname -noframes -i -opw 123456 -f 1  @@
+pdftohtml -dataurls -upw 123456 -nomerge -fmt png -enc Latin1 -wbt 20 -c -xml -l 1 -noroundcoord -noframes -hidden -stdout  @@
+pdftohtml -nomerge -zoom 0.75 -fmt png -enc UTF-8 -wbt 20 -s -hidden -i -opw 123456 -f 1  @@
+pdftohtml -nodrm -p -dataurls -upw 123456 -zoom 0.75 -enc UTF-8 -wbt 20 -xml -noroundcoord -fontfullname -s -noframes -hidden  @@
+pdftohtml -nodrm -p -dataurls -upw 123456 -nomerge -enc ZapfDingbats -wbt 20 -l 1 -fontfullname -hidden -stdout -i  @@
+pdftohtml -nodrm -p -dataurls -nomerge -zoom 0.75 -enc Latin1 -c -xml -l 1 -noroundcoord -fontfullname -noframes -f 1  @@
+pdftohtml -nodrm -dataurls -nomerge -zoom 0.75 -fmt jpg -wbt 20 -c -xml -l 1 -noframes -stdout -i -opw 123456 -f 1  @@
+pdftohtml -nodrm -p -dataurls -zoom 0.75 -fmt jpg -enc Symbol -wbt 20 -xml -noroundcoord -s -stdout -opw 123456  @@
+pdftohtml -nodrm -dataurls -upw 123456 -zoom 0.75 -enc Latin1 -c -xml -l 1 -fontfullname -noframes -stdout -i  @@
+pdftohtml -nodrm -p -upw 123456 -fmt jpg -enc ZapfDingbats -wbt 20 -c -xml -l 1 -noframes -hidden -i  @@
+pdftohtml -p -dataurls -nomerge -zoom 0.75 -wbt 20 -c -xml -l 1 -fontfullname -noframes -hidden -i -opw 123456 -f 1  @@
+pdftohtml -nodrm -p -dataurls -upw 123456 -zoom 0.75 -enc ASCII7 -xml -noroundcoord -noframes -hidden -i -f 1  @@
+pdftohtml -nodrm -upw 123456 -nomerge -zoom 0.75 -fmt png -enc ZapfDingbats -xml -noroundcoord -noframes -stdout -i -f 1  @@
+pdftohtml -p -dataurls -nomerge -enc ASCII7 -wbt 20 -noroundcoord -fontfullname -s -stdout -i -opw 123456 -f 1  @@
+pdftohtml -nodrm -dataurls -nomerge -fmt jpg -enc Symbol -wbt 20 -xml -l 1 -noroundcoord -fontfullname -s -stdout -f 1  @@
+pdftohtml -nodrm -p -dataurls -nomerge -zoom 0.75 -enc ZapfDingbats -l 1 -noroundcoord -fontfullname -noframes -opw 123456 -f 1  @@
+pdftohtml -nodrm -zoom 0.75 -fmt png -enc UTF-8 -wbt 20 -noroundcoord -stdout -opw 123456 -f 1  @@
+pdftohtml -nodrm -dataurls -zoom 0.75 -fmt png -enc Latin1 -c -xml -fontfullname -hidden -opw 123456 -f 1  @@
+pdftohtml -nodrm -p -dataurls -zoom 0.75 -enc UTF-8 -wbt 20 -xml -s -noframes -i -opw 123456  @@
+pdftohtml -nodrm -p -nomerge -zoom 0.75 -fmt jpg -enc UTF-8 -wbt 20 -noroundcoord -fontfullname -i -opw 123456  @@
+pdftohtml -p -upw 123456 -nomerge -zoom 0.75 -fmt png -wbt 20 -xml -l 1 -noroundcoord -noframes -hidden -stdout -i  @@
+pdftohtml -dataurls -upw 123456 -nomerge -zoom 0.75 -enc ZapfDingbats -c -xml -noroundcoord -fontfullname -hidden -f 1  @@
+pdftohtml -upw 123456 -nomerge -zoom 0.75 -fmt jpg -enc Symbol -wbt 20 -stdout -f 1  @@
+pdftohtml -p -zoom 0.75 -enc Latin1 -wbt 20 -c -xml -noroundcoord -hidden -stdout -i -opw 123456  @@
+pdftohtml -nodrm -dataurls -upw 123456 -zoom 0.75 -fmt jpg -wbt 20 -xml -l 1 -noroundcoord -fontfullname -s -hidden -i  @@
+pdftohtml -dataurls -upw 123456 -nomerge -zoom 0.75 -wbt 20 -xml -l 1 -noroundcoord -fontfullname -s -noframes -stdout -i  @@
+pdftohtml -p -nomerge -zoom 0.75 -fmt jpg -enc ZapfDingbats -xml -noroundcoord -noframes -i -opw 123456 -f 1  @@
+pdftohtml -nodrm -dataurls -nomerge -zoom 0.75 -enc ZapfDingbats -c -l 1 -fontfullname -hidden -stdout -opw 123456  @@
+pdftohtml -p -nomerge -zoom 0.75 -fmt png -enc ASCII7 -wbt 20 -noroundcoord -fontfullname -s -noframes -stdout -i  @@
+pdftohtml -nodrm -p -nomerge -enc UTF-8 -wbt 20 -xml -noroundcoord -s -hidden -i -f 1  @@
+pdftohtml -zoom 0.75 -enc ASCII7 -wbt 20 -c -xml -l 1 -stdout -i  @@
+pdftohtml -nodrm -p -dataurls -upw 123456 -zoom 0.75 -fmt png -wbt 20 -c -noroundcoord -fontfullname -i -f 1  @@
+pdftohtml -upw 123456 -nomerge -enc UTF-8 -wbt 20 -c -xml -fontfullname -hidden -i -f 1  @@
+pdftohtml -nodrm -p -upw 123456 -zoom 0.75 -fmt jpg -wbt 20 -l 1 -fontfullname -s -noframes -stdout -f 1  @@
+pdftohtml -nodrm -nomerge -zoom 0.75 -wbt 20 -c -xml -fontfullname -hidden -stdout -i -opw 123456 -f 1  @@
+pdftohtml -p -dataurls -nomerge -fmt jpg -enc ZapfDingbats -wbt 20 -c -l 1 -stdout -opw 123456  @@
+pdftohtml -p -dataurls -nomerge -zoom 0.75 -enc UTF-8 -wbt 20 -s -hidden -stdout -opw 123456  @@
+pdftohtml -p -enc UTF-8 -wbt 20 -c -xml -fontfullname -noframes -stdout -opw 123456 -f 1  @@
+pdftohtml -nodrm -dataurls -upw 123456 -nomerge -enc ZapfDingbats -wbt 20 -xml -l 1 -fontfullname -s  @@
+pdftohtml -nomerge -zoom 0.75 -fmt png -enc UTF-8 -c -l 1 -noroundcoord -fontfullname -hidden -stdout -i  @@
+pdftohtml -dataurls -zoom 0.75 -fmt png -enc ZapfDingbats -l 1 -noroundcoord -s -stdout -i -opw 123456  @@
+pdftohtml -nodrm -p -zoom 0.75 -fmt jpg -enc ZapfDingbats -xml -s -hidden -stdout -i -f 1  @@
+pdftohtml -nodrm -zoom 0.75 -fmt png -wbt 20 -xml -noroundcoord -s -noframes -hidden -i -opw 123456 -f 1  @@
+pdftohtml -p -zoom 0.75 -enc ASCII7 -noroundcoord -fontfullname -noframes -hidden -stdout -opw 123456 -f 1  @@
+pdftohtml -nodrm -nomerge -zoom 0.75 -wbt 20 -xml -l 1 -noroundcoord -fontfullname -s -hidden -stdout -opw 123456  @@
+pdftohtml -upw 123456 -nomerge -zoom 0.75 -enc ZapfDingbats -noroundcoord -fontfullname -noframes -hidden -i -f 1  @@
+pdftohtml -nodrm -dataurls -upw 123456 -zoom 0.75 -enc Latin1 -fontfullname -s -i -f 1  @@
+pdftohtml -nodrm -p -dataurls -upw 123456 -zoom 0.75 -fmt jpg -wbt 20 -l 1 -fontfullname -hidden -f 1  @@
+pdftohtml -nodrm -nomerge -zoom 0.75 -fmt jpg -enc ASCII7 -c -xml -noroundcoord -hidden -stdout -i -opw 123456  @@
+pdftohtml -p -zoom 0.75 -wbt 20 -c -xml -l 1 -noroundcoord -noframes -stdout -i -opw 123456  @@
+pdftohtml -nodrm -dataurls -upw 123456 -zoom 0.75 -fmt png -enc Symbol -c -l 1 -i  @@
+pdftohtml -nomerge -zoom 0.75 -fmt png -wbt 20 -c -l 1 -noroundcoord -hidden -opw 123456 -f 1  @@
+pdftohtml -nodrm -dataurls -upw 123456 -nomerge -fmt jpg -wbt 20 -xml -s -noframes -hidden -stdout -i -f 1  @@
+pdftohtml -nodrm -dataurls -upw 123456 -nomerge -zoom 0.75 -wbt 20 -l 1 -s -i -f 1  @@
+pdftohtml -nomerge -zoom 0.75 -enc Latin1 -xml -s -noframes -opw 123456 -f 1  @@
+pdftohtml -dataurls -upw 123456 -zoom 0.75 -fmt png -enc ASCII7 -wbt 20 -s -noframes  @@
+pdftohtml -nodrm -upw 123456 -enc Latin1 -wbt 20 -noroundcoord -fontfullname -noframes -f 1  @@
+pdftohtml -nodrm -p -upw 123456 -nomerge -zoom 0.75 -enc Latin1 -xml -noroundcoord -fontfullname -s -stdout  @@
+pdftohtml -dataurls -upw 123456 -nomerge -zoom 0.75 -wbt 20 -fontfullname -s -noframes -stdout -f 1  @@
+pdftohtml -p -upw 123456 -nomerge -wbt 20 -c -xml -l 1 -noroundcoord -fontfullname -hidden -stdout -i -f 1  @@
+pdftohtml -fmt png -enc Latin1 -wbt 20 -xml -l 1 -fontfullname -noframes -hidden -stdout  @@
+pdftohtml -p -upw 123456 -zoom 0.75 -fmt jpg -wbt 20 -c -l 1 -noroundcoord -fontfullname -stdout  @@
+pdftohtml -nodrm -p -upw 123456 -nomerge -zoom 0.75 -fmt jpg -c -xml -l 1 -noroundcoord -noframes -hidden -i  @@
+pdftohtml -p -dataurls -upw 123456 -nomerge -zoom 0.75 -fmt png -xml -noroundcoord -s -hidden -stdout -f 1  @@
+pdftohtml -nodrm -dataurls -fmt png -wbt 20 -c -l 1 -noroundcoord -fontfullname -stdout -i -opw 123456 -f 1  @@
+pdftohtml -p -upw 123456 -zoom 0.75 -wbt 20 -xml -fontfullname -s -hidden -f 1  @@
+pdftohtml -nodrm -p -nomerge -zoom 0.75 -fmt png -enc Symbol -c -xml -noframes -opw 123456  @@
+pdftohtml -nodrm -p -upw 123456 -nomerge -zoom 0.75 -wbt 20 -c -xml -noframes -hidden -stdout -i  @@
+pdftohtml -nodrm -p -dataurls -upw 123456 -nomerge -zoom 0.75 -l 1 -noroundcoord -s -noframes -stdout -f 1  @@
+pdftohtml -p -dataurls -zoom 0.75 -wbt 20 -l 1 -fontfullname -s -noframes -opw 123456  @@
+pdftohtml -nodrm -p -dataurls -nomerge -zoom 0.75 -c -noroundcoord -noframes -stdout -opw 123456 -f 1  @@
+pdftohtml -upw 123456 -nomerge -fmt jpg -wbt 20 -l 1 -noroundcoord -fontfullname -s -stdout -i -f 1  @@
+pdftohtml -dataurls -zoom 0.75 -fmt png -l 1 -noroundcoord -fontfullname -s -noframes -i -opw 123456 -f 1  @@
+pdftohtml -nodrm -p -nomerge -fmt jpg -wbt 20 -xml -l 1 -fontfullname -s -stdout -opw 123456  @@
+pdftohtml -p -dataurls -upw 123456 -enc ASCII7 -wbt 20 -c -xml -noroundcoord -fontfullname  @@
+pdftohtml -p -zoom 0.75 -enc Latin1 -l 1 -i -opw 123456  @@
+pdftohtml -nodrm -p -dataurls -fmt png -enc ASCII7 -wbt 20 -noroundcoord -fontfullname -noframes -stdout  @@
+pdftohtml -nodrm -dataurls -upw 123456 -nomerge -zoom 0.75 -fmt jpg -xml -noroundcoord -noframes -hidden -f 1  @@
+pdftohtml -nodrm -nomerge -zoom 0.75 -fmt png -wbt 20 -l 1 -s -noframes -hidden  @@
+pdftohtml -nodrm -p -dataurls -fmt jpg -enc Latin1 -xml -l 1 -fontfullname -s -noframes -stdout -i -opw 123456 -f 1  @@
+pdftohtml -p -dataurls -fmt png -wbt 20 -xml -l 1 -s -noframes -i -opw 123456 -f 1  @@
+pdftohtml -nodrm -dataurls -zoom 0.75 -fmt png -enc Symbol -c -noframes -i -opw 123456  @@
+pdftohtml -nodrm -p -fmt jpg -enc ASCII7 -c -xml -l 1 -noroundcoord -fontfullname -hidden -stdout -i -opw 123456  @@
+pdftohtml -p -dataurls -upw 123456 -nomerge -wbt 20 -l 1 -noroundcoord -fontfullname -s -noframes  @@
+pdftohtml -nodrm -p -nomerge -zoom 0.75 -wbt 20 -c -xml -l 1 -stdout  @@
+pdftohtml -nodrm -nomerge -zoom 0.75 -fmt png -wbt 20 -noroundcoord -s -noframes -stdout -opw 123456  @@
+pdftohtml -p -dataurls -zoom 0.75 -fmt jpg -c -l 1 -fontfullname -noframes -hidden -opw 123456  @@
+pdftohtml -p -dataurls -upw 123456 -nomerge -enc Symbol -xml -l 1 -noroundcoord -s -noframes -hidden -stdout -i  @@
+pdftohtml -nodrm -wbt 20 -fontfullname -s -noframes -hidden -stdout -i -opw 123456 -f 1  @@
+pdftohtml -nodrm -zoom 0.75 -fmt png -wbt 20 -c -fontfullname -noframes -hidden -stdout -opw 123456  @@
+pdftohtml -nodrm -p -zoom 0.75 -c -xml -l 1 -noroundcoord -fontfullname -i -opw 123456  @@
+pdftohtml -nodrm -dataurls -nomerge -wbt 20 -c -noroundcoord -fontfullname -hidden -opw 123456 -f 1  @@
+pdftohtml -nodrm -p -dataurls -zoom 0.75 -fmt png -noroundcoord -s -stdout -opw 123456 -f 1  @@
+pdftohtml -nodrm -p -zoom 0.75 -fmt jpg -xml -l 1 -s -hidden -opw 123456  @@
+pdftohtml -p -dataurls -upw 123456 -nomerge -fmt png -wbt 20 -c -xml -f 1  @@
+pdftohtml -q -p -dataurls -upw 123456 -nomerge -zoom 0.75 -fmt jpg -enc Symbol -wbt 20 -c -l 1 -fontfullname -hidden -stdout -f 1  @@
+pdftohtml -nomerge -fmt png -enc Symbol -wbt 20 -xml -fontfullname -s -i  @@
+pdftohtml -dataurls -zoom 0.75 -xml -l 1 -noroundcoord -hidden -i -opw 123456 -f 1  @@
+pdftohtml -p -dataurls -zoom 0.75 -fmt png -c -xml -noframes -hidden -i -f 1  @@
+pdftohtml -nodrm -upw 123456 -nomerge -wbt 20 -xml -l 1 -fontfullname -noframes -i  @@
+pdftohtml -nodrm -p -wbt 20 -l 1 -noroundcoord -s -noframes -opw 123456 -f 1  @@
+pdftohtml -upw 123456 -fmt jpg -wbt 20 -c -l 1 -hidden -stdout -i -f 1  @@
+pdftohtml -nodrm -upw 123456 -nomerge -zoom 0.75 -c -noroundcoord -hidden -stdout -f 1  @@
+pdftohtml -q -dataurls -nomerge -zoom 0.75 -fmt jpg -enc Symbol -wbt 20 -xml -fontfullname -noframes -hidden -stdout -i -opw 123456 -f 1  @@
+pdftohtml -dataurls -fmt jpg -wbt 20 -l 1 -fontfullname -noframes -stdout -i -opw 123456  @@
+pdftohtml -dataurls -zoom 0.75 -fmt jpg -wbt 20 -c -xml -f 1  @@
+pdftohtml -nodrm -p -upw 123456 -fmt png -enc Latin1 -wbt 20 -s  @@
+pdftohtml -nodrm -p -nomerge -enc Symbol -c -xml -l 1 -noroundcoord -stdout -i -opw 123456 -f 1  @@
+pdftohtml -p -dataurls -upw 123456 -nomerge -fmt jpg -enc Latin1 -xml -l 1 -noroundcoord -s -noframes -i  @@
+pdftohtml -nodrm -dataurls -zoom 0.75 -wbt 20 -xml -noroundcoord -fontfullname -noframes -hidden -i  @@
+pdftohtml -nodrm -p -dataurls -nomerge -enc Symbol -c -xml -l 1 -fontfullname -i -opw 123456  @@
+pdftohtml -nomerge -zoom 0.75 -enc ZapfDingbats -fontfullname -noframes -hidden -i  @@
+pdftohtml -nodrm -q -dataurls -nomerge -zoom 0.75 -enc Symbol -c -xml -l 1 -noroundcoord -fontfullname -noframes -hidden -stdout -i -opw 123456 -f 1  @@
+pdftohtml -nodrm -upw 123456 -nomerge -wbt 20 -c -xml -noroundcoord -fontfullname -noframes -hidden -stdout  @@
+pdftohtml -q -p -dataurls -upw 123456 -nomerge -zoom 0.75 -enc UTF-8 -wbt 20 -l 1 -noroundcoord -s -hidden -i -f 1  @@
+pdftohtml -nodrm -p -dataurls -upw 123456 -nomerge -fmt jpg -wbt 20 -c -xml -fontfullname -i  @@
+pdftohtml -nodrm -p -dataurls -nomerge -wbt 20 -xml -noframes -stdout -i -f 1  @@
+pdftohtml -p -upw 123456 -zoom 0.75 -enc Symbol -c -stdout  @@
+pdftohtml -nomerge -zoom 0.75 -xml -fontfullname -s -noframes -hidden -stdout -i -opw 123456  @@
+pdftohtml -p -dataurls -nomerge -zoom 0.75 -fmt jpg -c -fontfullname -noframes -i -opw 123456  @@
+pdftohtml -nodrm -zoom 0.75 -l 1 -noroundcoord -fontfullname -s -hidden -stdout -f 1  @@
+pdftohtml -nodrm -p -upw 123456 -nomerge -zoom 0.75 -fmt jpg -s -noframes -stdout -i  @@
+pdftohtml -dataurls -enc UTF-8 -xml -l 1 -fontfullname -s -hidden -stdout -i -opw 123456  @@
+pdftohtml -dataurls -upw 123456 -zoom 0.75 -xml -l 1 -hidden -stdout  @@
+pdftohtml -dataurls -zoom 0.75 -c -hidden -stdout -opw 123456 -f 1  @@
+pdftohtml -p -dataurls -nomerge -zoom 0.75 -xml -noroundcoord -fontfullname -stdout -i -opw 123456  @@
+pdftohtml -nodrm -p -dataurls -wbt 20 -c -noroundcoord -fontfullname -noframes -hidden -opw 123456  @@
+pdftohtml -nodrm -q -dataurls -upw 123456 -fmt jpg -enc Latin1 -wbt 20 -c -xml -l 1 -noroundcoord -noframes -hidden -stdout -i -f 1  @@
+pdftohtml -p -upw 123456 -wbt 20 -l 1 -noroundcoord -s -i  @@
+pdftohtml -p -dataurls -zoom 0.75 -l 1 -noroundcoord -fontfullname -s -i  @@
+pdftohtml -q -p -dataurls -upw 123456 -nomerge -zoom 0.75 -enc ZapfDingbats -wbt 20 -xml -l 1 -noframes -stdout  @@
+pdftohtml -p -wbt 20 -l 1 -fontfullname -hidden -opw 123456  @@
+pdftohtml -p -upw 123456 -fmt png -enc UTF-8 -noframes -hidden -stdout -i -f 1  @@
+pdftohtml -nodrm -q -p -dataurls -zoom 0.75 -fmt png -enc Latin1 -noroundcoord -fontfullname -s -hidden -stdout -i -opw 123456 -f 1  @@
+pdftohtml -upw 123456 -enc UTF-8 -xml -l 1 -noroundcoord -s -noframes -stdout -f 1  @@
+pdftohtml -nodrm -q -zoom 0.75 -fmt png -enc Symbol -wbt 20 -xml -l 1 -noroundcoord -i -opw 123456 -f 1  @@
+pdftohtml -nodrm -p -dataurls -fmt png -wbt 20 -xml -noframes -hidden -opw 123456  @@
+pdftohtml -nodrm -dataurls -upw 123456 -nomerge -zoom 0.75 -fmt png -fontfullname -hidden -stdout  @@
+pdftohtml -nodrm -q -upw 123456 -zoom 0.75 -fmt png -enc ASCII7 -wbt 20 -c -xml -l 1 -noroundcoord -hidden  @@
+pdftohtml -nodrm -upw 123456 -nomerge -fmt png -enc UTF-8 -l 1 -noroundcoord -s -i  @@
+pdftohtml -nodrm -p -upw 123456 -nomerge -fmt jpg -xml -l 1 -noroundcoord -fontfullname -s -noframes -hidden -i -f 1  @@
+pdftohtml -q -p -nomerge -zoom 0.75 -fmt png -enc Latin1 -c -xml -l 1 -fontfullname -noframes -hidden -stdout -i -opw 123456  @@
+pdftohtml -p -fmt jpg -enc ZapfDingbats -noroundcoord -fontfullname -s -i -opw 123456 -f 1  @@
+pdftohtml -nodrm -q -upw 123456 -nomerge -zoom 0.75 -fmt png -enc UTF-8 -wbt 20 -c -hidden -i -f 1  @@
+pdftohtml -nodrm -q -upw 123456 -zoom 0.75 -enc UTF-8 -wbt 20 -xml -l 1 -noframes -hidden -i -f 1  @@
+pdftohtml -fmt jpg -enc UTF-8 -c -xml -l 1 -noframes -hidden -opw 123456 -f 1  @@
+pdftohtml -nodrm -upw 123456 -nomerge -fmt png -enc ASCII7 -c -fontfullname -stdout -f 1  @@
+pdftohtml -p -dataurls -nomerge -fmt jpg -wbt 20 -noroundcoord -s -noframes -hidden -stdout  @@
+pdftohtml -p -upw 123456 -zoom 0.75 -fmt jpg -noroundcoord -f 1  @@
+pdftohtml -nodrm -upw 123456 -fmt png -enc ASCII7 -c -fontfullname -noframes -hidden -f 1  @@
+pdftohtml -p -dataurls -upw 123456 -wbt 20 -c -noroundcoord -noframes -stdout -i  @@
+pdftohtml -nodrm -q -upw 123456 -zoom 0.75 -fmt jpg -enc UTF-8 -wbt 20 -c -xml -noroundcoord -fontfullname -noframes -hidden -stdout -i  @@
+pdftohtml -q -p -upw 123456 -zoom 0.75 -enc Latin1 -wbt 20 -xml -l 1 -noroundcoord -s -noframes -stdout  @@
+pdftohtml -upw 123456 -nomerge -wbt 20 -xml -l 1 -s  @@
+pdftohtml -nodrm -q -dataurls -nomerge -zoom 0.75 -fmt png -enc ZapfDingbats -wbt 20 -s -noframes -opw 123456 -f 1  @@
+pdftohtml -dataurls -zoom 0.75 -c -xml -noroundcoord -fontfullname -hidden -i -opw 123456  @@
+pdftohtml -nodrm -q -p -zoom 0.75 -enc Symbol -wbt 20 -l 1 -noroundcoord -s -noframes -stdout -opw 123456  @@
+pdftohtml -nodrm -q -dataurls -nomerge -zoom 0.75 -enc UTF-8 -wbt 20 -xml -l 1 -noroundcoord -hidden -opw 123456  @@
+pdftohtml -fmt jpg -wbt 20 -c -xml -noroundcoord -noframes -i -opw 123456  @@
+pdftohtml -q -p -dataurls -fmt jpg -enc Symbol -wbt 20 -c -xml -l 1 -fontfullname -hidden -i -opw 123456 -f 1  @@
+pdftohtml -upw 123456 -zoom 0.75 -fmt jpg -c -xml -fontfullname -stdout -i  @@
+pdftohtml -nodrm -dataurls -fmt png -enc Symbol -l 1 -fontfullname -s -noframes -f 1  @@
+pdftohtml -q -p -dataurls -upw 123456 -nomerge -zoom 0.75 -fmt png -enc Latin1 -xml -l 1 -fontfullname -s -i -f 1  @@
+pdftohtml -nodrm -q -dataurls -nomerge -fmt png -enc ZapfDingbats -wbt 20 -xml -noroundcoord -s -hidden -i -opw 123456 -f 1  @@
+pdftohtml -nodrm -q -p -dataurls -nomerge -zoom 0.75 -fmt jpg -enc UTF-8 -wbt 20 -c -xml -fontfullname -stdout -opw 123456  @@
+pdftohtml -nodrm -q -p -fmt jpg -enc Latin1 -wbt 20 -c -l 1 -noroundcoord -noframes -hidden -stdout -opw 123456 -f 1  @@
+pdftohtml -dataurls -nomerge -wbt 20 -l 1 -noframes -i -f 1  @@
+pdftohtml -dataurls -upw 123456 -fmt jpg -enc ZapfDingbats -noroundcoord -s -hidden -f 1  @@
+pdftohtml -p -zoom 0.75 -noroundcoord -s -hidden -stdout -i -opw 123456  @@
+pdftohtml -dataurls -upw 123456 -fmt png -wbt 20 -c -xml -hidden -i  @@
+pdftohtml -nodrm -q -dataurls -nomerge -zoom 0.75 -fmt png -enc Latin1 -wbt 20 -l 1 -opw 123456 -f 1  @@
+pdftohtml -nodrm -q -p -dataurls -nomerge -enc UTF-8 -wbt 20 -c -xml -l 1 -noframes -i -opw 123456 -f 1  @@
+pdftohtml -q -dataurls -upw 123456 -zoom 0.75 -fmt png -enc Symbol -c -xml -l 1 -noroundcoord -fontfullname -hidden -stdout -i  @@
+pdftohtml -nodrm -q -upw 123456 -nomerge -zoom 0.75 -enc Symbol -l 1 -noroundcoord -s -noframes -hidden -stdout -i -f 1  @@
+pdftohtml -nodrm -dataurls -upw 123456 -enc UTF-8 -c -xml -hidden -f 1  @@
+pdftohtml -nodrm -q -dataurls -zoom 0.75 -fmt png -enc Symbol -wbt 20 -c -noroundcoord -noframes -hidden -stdout -i -opw 123456  @@
+pdftohtml -nodrm -q -dataurls -zoom 0.75 -fmt jpg -enc UTF-8 -xml -l 1 -noroundcoord -s -noframes -hidden -i -opw 123456  @@
+pdftohtml -p -nomerge -wbt 20 -c -l 1 -noroundcoord -f 1  @@
+pdftohtml -nodrm -q -p -dataurls -zoom 0.75 -wbt 20 -xml -l 1 -fontfullname -s -noframes -hidden -stdout -opw 123456 -f 1  @@
+pdftohtml -p -dataurls -enc Latin1 -fontfullname -s -hidden -stdout -f 1  @@
+pdftohtml -nodrm -nomerge -enc UTF-8 -c -i -opw 123456 -f 1  @@
+pdftohtml -nodrm -q -p -dataurls -upw 123456 -zoom 0.75 -enc ASCII7 -c -xml -hidden -stdout -i -f 1  @@
+pdftohtml -dataurls -fmt jpg -wbt 20 -xml -fontfullname -s -opw 123456  @@
+pdftohtml -q -p -dataurls -nomerge -zoom 0.75 -fmt jpg -wbt 20 -xml -noroundcoord -s -noframes -stdout -i -opw 123456 -f 1  @@
+pdftohtml -nodrm -q -p -dataurls -upw 123456 -zoom 0.75 -enc Symbol -l 1 -fontfullname -s -noframes -hidden -f 1  @@
+pdftohtml -q -p -upw 123456 -fmt jpg -enc UTF-8 -wbt 20 -c -xml -fontfullname -hidden -stdout -i -f 1  @@
+pdftohtml -q -p -dataurls -zoom 0.75 -enc ASCII7 -xml -l 1 -noroundcoord -fontfullname -s -noframes -hidden -opw 123456  @@
+pdftohtml -p -dataurls -upw 123456 -nomerge -c -xml -l 1 -fontfullname -noframes -stdout -i -f 1  @@
+pdftohtml -nodrm -dataurls -nomerge -fmt jpg -enc Symbol -fontfullname -s -noframes -hidden -opw 123456  @@
+pdftohtml -p -fmt png -enc ASCII7 -c -l 1 -noroundcoord -noframes -i  @@
+pdftohtml -nodrm -q -upw 123456 -nomerge -zoom 0.75 -enc Latin1 -wbt 20 -s -stdout -f 1  @@
+pdftohtml -nomerge -zoom 0.75 -wbt 20 -opw 123456  @@
+pdftohtml -q -dataurls -nomerge -enc Latin1 -wbt 20 -c -l 1 -fontfullname -noframes -hidden -stdout -opw 123456 -f 1  @@
+pdftohtml -nodrm -q -p -upw 123456 -nomerge -zoom 0.75 -enc ASCII7 -wbt 20 -xml -s -hidden -stdout -i  @@
+pdftohtml -nodrm -q -dataurls -zoom 0.75 -fmt jpg -wbt 20 -xml -l 1 -noroundcoord -fontfullname -s -hidden -stdout -opw 123456 -f 1  @@
+pdftohtml -p -dataurls -fmt png -c -xml -l 1 -noroundcoord -hidden -stdout -opw 123456 -f 1  @@
+pdftohtml -nodrm -q -p -dataurls -nomerge -zoom 0.75 -fmt png -wbt 20 -l 1 -noroundcoord -s -noframes -hidden -opw 123456  @@
+pdftohtml -nodrm -q -p -upw 123456 -nomerge -fmt jpg -enc Latin1 -wbt 20 -noroundcoord -s -noframes -f 1  @@
+pdftohtml -q -p -upw 123456 -zoom 0.75 -fmt png -enc ASCII7 -wbt 20 -xml -noroundcoord -fontfullname -s -noframes  @@
+pdftohtml -nodrm -nomerge -fmt png -xml -l 1 -noroundcoord -fontfullname -s -noframes -opw 123456 -f 1  @@
+pdftohtml -q -p -dataurls -fmt jpg -enc Latin1 -wbt 20 -l 1 -s -noframes -hidden -i -opw 123456  @@
+pdftohtml -nodrm -q -zoom 0.75 -fmt jpg -enc UTF-8 -l 1 -fontfullname -s -noframes -stdout -i -opw 123456  @@
+pdftohtml -nodrm -wbt 20 -xml -noroundcoord -s -noframes -stdout -i  @@
+pdftohtml -nodrm -q -p -nomerge -zoom 0.75 -wbt 20 -l 1 -noroundcoord -fontfullname -hidden -stdout -i -opw 123456 -f 1  @@
+pdftohtml -nodrm -q -dataurls -nomerge -zoom 0.75 -enc Symbol -xml -noroundcoord -fontfullname -s -noframes -i -f 1  @@
+pdftohtml -p -dataurls -nomerge -zoom 0.75 -xml -s -noframes -hidden  @@
+pdftohtml -nodrm -q -dataurls -upw 123456 -nomerge -zoom 0.75 -fmt jpg -wbt 20 -xml -noroundcoord -fontfullname -s -hidden -f 1  @@
+pdftohtml -q -p -dataurls -upw 123456 -nomerge -fmt jpg -enc Symbol -wbt 20 -xml -fontfullname -s -noframes -hidden -stdout -i  @@
+pdftohtml -p -dataurls -nomerge -xml -fontfullname -s -noframes -hidden -stdout -opw 123456 -f 1  @@
+pdftohtml -nodrm -p -dataurls -fmt jpg -l 1 -noroundcoord -fontfullname -s -noframes -hidden -opw 123456  @@
+pdftohtml -nodrm -q -nomerge -fmt png -enc ASCII7 -wbt 20 -l 1 -noframes -hidden -stdout -opw 123456  @@
+pdftohtml -q -upw 123456 -zoom 0.75 -fmt jpg -enc Latin1 -wbt 20 -noroundcoord -fontfullname -s -hidden -stdout  @@
+pdftohtml -nodrm -q -p -upw 123456 -zoom 0.75 -wbt 20 -c -l 1 -noroundcoord -fontfullname -hidden -i -f 1  @@
+pdftohtml -q -p -zoom 0.75 -fmt jpg -enc ASCII7 -wbt 20 -c -noframes -f 1  @@
+pdftohtml -nodrm -dataurls -nomerge -wbt 20 -c -fontfullname -hidden  @@
+pdftohtml -nodrm -dataurls -nomerge -xml -l 1 -noroundcoord -s -stdout -i -opw 123456  @@
+pdftohtml -q -p -upw 123456 -zoom 0.75 -wbt 20 -c -xml -l 1 -noroundcoord -noframes -hidden -stdout -f 1  @@
+pdftohtml -nodrm -q -dataurls -upw 123456 -nomerge -zoom 0.75 -wbt 20 -c -l 1 -noroundcoord -hidden -stdout -i  @@
+pdftohtml -q -nomerge -zoom 0.75 -fmt png -enc Latin1 -xml -l 1 -s -noframes -hidden -stdout -f 1  @@
+pdftohtml -nodrm -q -p -upw 123456 -enc ASCII7 -wbt 20 -c -l 1 -fontfullname -stdout -f 1  @@
+pdftohtml -p -fmt jpg -enc ASCII7 -s -noframes -hidden -stdout -opw 123456  @@
+pdftohtml -nodrm -q -nomerge -enc ASCII7 -wbt 20 -c -l 1 -noroundcoord -fontfullname -noframes -i -f 1  @@
+pdftohtml -nodrm -q -upw 123456 -nomerge -zoom 0.75 -enc Symbol -c -l 1 -noroundcoord -fontfullname -noframes  @@
+pdftohtml -q -p -upw 123456 -enc Symbol -wbt 20 -l 1 -fontfullname -s -hidden -stdout -f 1  @@
+pdftohtml -q -p -zoom 0.75 -fmt png -enc Latin1 -xml -fontfullname -s -stdout -opw 123456 -f 1  @@
+pdftohtml -q -p -upw 123456 -fmt jpg -enc ASCII7 -wbt 20 -c -xml -l 1 -stdout -i  @@
+pdftohtml -nodrm -q -dataurls -nomerge -zoom 0.75 -enc ZapfDingbats -l 1 -s -stdout -i -opw 123456  @@
+pdftohtml -nodrm -q -dataurls -zoom 0.75 -enc ZapfDingbats -xml -noroundcoord -hidden -stdout -opw 123456 -f 1  @@
+pdftohtml -nodrm -q -upw 123456 -nomerge -zoom 0.75 -fmt png -wbt 20 -c -xml -fontfullname -noframes -f 1  @@
+pdftohtml -nodrm -q -dataurls -nomerge -enc Latin1 -wbt 20 -c -xml -noframes -stdout -f 1  @@
+pdftohtml -q -p -zoom 0.75 -fmt png -wbt 20 -c -xml -l 1 -noroundcoord -fontfullname -noframes -opw 123456  @@
+pdftohtml -p -dataurls -nomerge -l 1 -s -hidden -i -opw 123456 -f 1  @@
+pdftohtml -q -nomerge -enc Latin1 -wbt 20 -xml -l 1 -s -stdout -i -opw 123456  @@
+pdftohtml -nodrm -q -dataurls -upw 123456 -nomerge -fmt jpg -enc Latin1 -wbt 20 -xml -noroundcoord -fontfullname -stdout -i  @@
+pdftohtml -q -p -dataurls -zoom 0.75 -enc ASCII7 -c -l 1 -noroundcoord -stdout -i -f 1  @@
+pdftohtml -nodrm -dataurls -upw 123456 -nomerge -enc UTF-8 -xml -stdout  @@
+pdftohtml -p -dataurls -nomerge -fmt png -xml -l 1 -fontfullname -hidden -i -f 1  @@
+pdftohtml -nodrm -q -p -nomerge -zoom 0.75 -enc UTF-8 -xml -fontfullname -noframes -stdout -f 1  @@
+pdftohtml -nodrm -q -p -enc ZapfDingbats -wbt 20 -xml -noroundcoord -fontfullname -s -noframes -stdout -i -opw 123456  @@
+pdftohtml -q -upw 123456 -nomerge -zoom 0.75 -wbt 20 -c -xml -noroundcoord -fontfullname -noframes -hidden -f 1  @@
+pdftohtml -p -nomerge -fmt png -c -l 1 -fontfullname -noframes -stdout -f 1  @@
+pdftohtml -q -dataurls -zoom 0.75 -fmt jpg -wbt 20 -xml -l 1 -fontfullname -s -hidden -stdout -i  @@
+pdftohtml -dataurls -nomerge -l 1 -noframes -hidden -stdout -opw 123456 -f 1  @@
+pdftohtml -q -dataurls -zoom 0.75 -enc Latin1 -wbt 20 -c -fontfullname -i -opw 123456  @@
+pdftohtml -dataurls -upw 123456 -noroundcoord -s -noframes -hidden -i -f 1  @@
+pdftohtml -nodrm -q -p -dataurls -upw 123456 -nomerge -wbt 20 -c -xml -l 1 -fontfullname -noframes -hidden -i  @@
+pdftohtml -nodrm -q -nomerge -zoom 0.75 -fmt jpg -c -xml -l 1 -noroundcoord -fontfullname -noframes -hidden -i -opw 123456  @@
+pdftohtml -q -p -dataurls -zoom 0.75 -wbt 20 -c -l 1 -fontfullname -stdout -opw 123456 -f 1  @@
+pdftohtml -nodrm -q -p -dataurls -nomerge -fmt png -wbt 20 -c -xml -noroundcoord -fontfullname -noframes -opw 123456 -f 1  @@
+pdftohtml -nomerge -c -l 1 -fontfullname -noframes -stdout -opw 123456 -f 1  @@
+pdftohtml -q -p -enc UTF-8 -wbt 20 -xml -hidden -stdout -opw 123456 -f 1  @@
+pdftohtml -q -p -upw 123456 -zoom 0.75 -fmt jpg -enc UTF-8 -c -l 1 -f 1  @@
+pdftohtml -dataurls -nomerge -enc Symbol -c -xml -noroundcoord -stdout  @@
+pdftohtml -p -dataurls -upw 123456 -c -l 1 -fontfullname -hidden -stdout  @@
+pdftohtml -q -dataurls -zoom 0.75 -wbt 20 -xml -l 1 -noroundcoord -s -noframes -opw 123456 -f 1  @@
+pdftohtml -nodrm -q -upw 123456 -zoom 0.75 -fmt jpg -xml -noroundcoord -fontfullname -s -noframes -hidden -stdout -i -f 1  @@
+pdftohtml -nodrm -p -upw 123456 -xml -noroundcoord -fontfullname -s -noframes -hidden -stdout  @@
+pdftohtml -nodrm -dataurls -upw 123456 -c -xml -l 1 -noroundcoord  @@
+pdftohtml -q -p -dataurls -upw 123456 -nomerge -zoom 0.75 -fmt png -l 1 -noroundcoord -fontfullname -noframes -stdout -i  @@
+pdftohtml -nodrm -q -p -nomerge -fmt jpg -wbt 20 -fontfullname -s -noframes -hidden -i -opw 123456 -f 1  @@
+pdftohtml -q -p -enc UTF-8 -wbt 20 -xml -l 1 -fontfullname -s -noframes  @@
+pdftohtml -nodrm -q -nomerge -wbt 20 -xml -noroundcoord -fontfullname -s -noframes -stdout -i -opw 123456 -f 1  @@
+pdftohtml -q -p -upw 123456 -nomerge -zoom 0.75 -fmt jpg -c -xml -l 1 -noroundcoord -stdout -i -f 1  @@
+pdftohtml -nodrm -p -dataurls -upw 123456 -fmt png -xml -fontfullname -s -noframes -i  @@
+pdftohtml -q -nomerge -zoom 0.75 -wbt 20 -c -noroundcoord -noframes -i -opw 123456 -f 1  @@
+pdftohtml -nodrm -q -p -zoom 0.75 -fmt jpg -wbt 20 -l 1 -noroundcoord -s -stdout -i  @@
+pdftohtml -nodrm -q -dataurls -upw 123456 -nomerge -zoom 0.75 -fmt png -xml -l 1 -fontfullname -s -noframes -stdout  @@
+pdftohtml -q -p -upw 123456 -nomerge -enc UTF-8 -wbt 20 -c -noroundcoord -stdout -i  @@
+pdftohtml -q -nomerge -zoom 0.75 -fmt png -wbt 20 -c -xml -noroundcoord -noframes -hidden -stdout -opw 123456  @@
+pdftohtml -nodrm -q -dataurls -upw 123456 -zoom 0.75 -fmt jpg -c -l 1 -noroundcoord -noframes -hidden -f 1  @@
+pdftohtml -nodrm -q -p -nomerge -fmt jpg -wbt 20 -c -noroundcoord -hidden -stdout -opw 123456 -f 1  @@
+pdftohtml -q -p -nomerge -zoom 0.75 -fmt png -xml -noroundcoord -fontfullname -s -hidden -opw 123456 -f 1  @@
+pdftohtml -q -nomerge -zoom 0.75 -wbt 20 -c -xml -l 1 -hidden -opw 123456  @@
+pdftohtml -nodrm -q -p -dataurls -zoom 0.75 -fmt jpg -wbt 20 -noroundcoord -fontfullname -s -i -opw 123456  @@
+pdftohtml -nodrm -q -upw 123456 -fmt png -wbt 20 -l 1 -noroundcoord -fontfullname -s -noframes -stdout -i  @@
+pdftohtml -q -p -dataurls -fmt png -wbt 20 -xml -l 1 -noroundcoord -fontfullname -hidden -i -opw 123456  @@
+pdftohtml -q -dataurls -nomerge -zoom 0.75 -wbt 20 -c -noroundcoord -noframes -hidden -stdout -f 1  @@
+pdftohtml -nodrm -q -fmt jpg -wbt 20 -c -xml -l 1 -noframes -hidden -stdout -i -opw 123456  @@
+pdftohtml -nodrm -q -p -zoom 0.75 -fmt jpg -c -xml -hidden -stdout -i -opw 123456 -f 1  @@
+pdftohtml -q -p -dataurls -upw 123456 -nomerge -zoom 0.75 -fmt jpg -wbt 20 -fontfullname -s -hidden -stdout  @@
+pdftohtml -nodrm -q -p -nomerge -fmt jpg -wbt 20 -xml -l 1 -noroundcoord -s -i -opw 123456  @@
+pdftohtml -nodrm -q -dataurls -zoom 0.75 -fmt jpg -c -l 1 -hidden -stdout -i -opw 123456  @@
+pdftohtml -nodrm -q -p -dataurls -upw 123456 -fmt png -wbt 20 -l 1 -noroundcoord -s -f 1  @@
+pdftohtml -nodrm -c -l 1 -noframes -hidden -i -f 1  @@
+pdftohtml -q -p -nomerge -zoom 0.75 -wbt 20 -s -hidden -stdout -i -f 1  @@
+pdftohtml -nodrm -q -dataurls -upw 123456 -fmt png -wbt 20 -c -l 1 -fontfullname -noframes -stdout  @@
+pdftohtml -nodrm -p -upw 123456 -nomerge -c -noroundcoord -noframes -i  @@
+pdftohtml -q -dataurls -nomerge -zoom 0.75 -fmt png -c -noroundcoord -fontfullname -stdout -opw 123456 -f 1  @@
+pdftohtml -q -upw 123456 -zoom 0.75 -enc ZapfDingbats -xml -fontfullname -hidden -stdout -i  @@
+pdftohtml -q -dataurls -upw 123456 -zoom 0.75 -c -xml -noroundcoord -fontfullname -noframes -stdout -f 1  @@
+pdftohtml -q -upw 123456 -nomerge -zoom 0.75 -wbt 20 -l 1 -noroundcoord -fontfullname  @@
+pdftohtml -nodrm -q -dataurls -wbt 20 -xml -l 1 -s -hidden -stdout -opw 123456 -f 1  @@
+pdftohtml -nodrm -q -p -zoom 0.75 -enc ASCII7 -c -xml -fontfullname -hidden -stdout  @@
+pdftohtml -nodrm -q -p -upw 123456 -zoom 0.75 -l 1 -noroundcoord -fontfullname -s -noframes -i  @@
+pdftohtml -p -upw 123456 -c -i -f 1  @@
+pdftohtml -q -p -dataurls -upw 123456 -fmt jpg -wbt 20 -c -noroundcoord -noframes -stdout -f 1  @@
+pdftohtml -q -nomerge -fmt jpg -wbt 20 -c -xml -l 1 -fontfullname -hidden -stdout -i -f 1  @@
+pdftohtml -q -dataurls -upw 123456 -nomerge -zoom 0.75 -fmt jpg -c -l 1 -noframes -i -f 1  @@
+pdftohtml -q -p -zoom 0.75 -fmt jpg -xml -l 1 -noroundcoord -s -noframes -hidden -i -f 1  @@
+pdftohtml -q -nomerge -fmt jpg -wbt 20 -xml -l 1 -fontfullname -s -i -opw 123456 -f 1  @@
+pdftohtml -nodrm -q -p -dataurls -upw 123456 -zoom 0.75 -fmt png -wbt 20 -noroundcoord -noframes -hidden  @@
+pdftohtml -p -upw 123456 -nomerge -c -fontfullname -hidden -stdout -i  @@
+pdftohtml -q -dataurls -upw 123456 -nomerge -zoom 0.75 -fmt png -enc UTF-8 -c -fontfullname  @@
+pdftohtml -q -p -zoom 0.75 -wbt 20 -xml -fontfullname -s -noframes -stdout -f 1  @@
+pdftohtml -q -p -dataurls -nomerge -wbt 20 -c -xml -noroundcoord -fontfullname -hidden -stdout -i -opw 123456  @@
+pdftohtml -nodrm -q -upw 123456 -nomerge -enc ASCII7 -c -xml -l 1 -noroundcoord -fontfullname -hidden -stdout -f 1  @@
+pdftohtml -nodrm -q -p -nomerge -zoom 0.75 -xml -l 1 -fontfullname -opw 123456 -f 1  @@
+pdftohtml -q -p -dataurls -nomerge -fmt png -wbt 20 -c -xml -l 1 -noroundcoord -hidden  @@
+pdftohtml -nodrm -q -p -dataurls -zoom 0.75 -fmt png -wbt 20 -c -noframes -stdout -i  @@
+pdftohtml -q -upw 123456 -fmt png -wbt 20 -xml -l 1 -s -noframes -i -f 1  @@
+pdftohtml -q -p -dataurls -upw 123456 -enc ASCII7 -xml -noroundcoord -fontfullname -s -noframes -stdout -i -f 1  @@
+pdftohtml -q -p -dataurls -zoom 0.75 -xml -fontfullname -s -i -opw 123456 -f 1  @@
+pdftohtml -q -p -upw 123456 -nomerge -wbt 20 -xml -noroundcoord -hidden -i -f 1  @@
+pdftohtml -q -p -dataurls -nomerge -zoom 0.75 -wbt 20 -c -noroundcoord -fontfullname -noframes -stdout -i  @@
+pdftohtml -nodrm -q -p -dataurls -upw 123456 -nomerge -fmt png -enc ZapfDingbats -c -xml -l 1 -noroundcoord -stdout  @@
+pdftohtml -nodrm -q -p -zoom 0.75 -c -fontfullname -noframes -i -opw 123456 -f 1  @@
+pdftohtml -nodrm -q -p -dataurls -zoom 0.75 -l 1 -noroundcoord -fontfullname -s -noframes -hidden -stdout  @@
+pdftohtml -q -dataurls -upw 123456 -nomerge -fmt jpg -enc ZapfDingbats -c -xml -l 1 -fontfullname -noframes -hidden -f 1  @@
+pdftohtml -q -zoom 0.75 -noroundcoord -fontfullname -noframes -hidden -i -opw 123456 -f 1  @@
+pdftohtml -nodrm -q -zoom 0.75 -xml -s -noframes -hidden -opw 123456 -f 1  @@
+pdftohtml -q -upw 123456 -wbt 20 -c -l 1 -fontfullname -noframes -hidden -stdout  @@
+pdftohtml -q -dataurls -upw 123456 -nomerge -fmt png -enc UTF-8 -l 1 -s -noframes -hidden -i -f 1  @@
+pdftohtml -q -dataurls -upw 123456 -nomerge -fmt jpg -enc ZapfDingbats -l 1 -noroundcoord -hidden -stdout -i -f 1  @@
+pdftohtml -q -p -fmt jpg -wbt 20 -c -noroundcoord -fontfullname -hidden -i -f 1  @@
+pdftohtml -q -upw 123456 -nomerge -zoom 0.75 -c -xml -l 1 -hidden -i  @@
+pdftohtml -nodrm -q -upw 123456 -wbt 20 -c -xml -noroundcoord -i -f 1  @@
+pdftohtml -q -p -upw 123456 -nomerge -fmt jpg -wbt 20 -l 1 -fontfullname -s  @@
+pdftohtml -q -p -zoom 0.75 -fmt jpg -c -noroundcoord -i -opw 123456 -f 1  @@
+pdftohtml -nodrm -q -dataurls -upw 123456 -enc ASCII7 -l 1 -noroundcoord -fontfullname -noframes -hidden -stdout -f 1  @@
+pdftohtml -q -dataurls -upw 123456 -wbt 20 -xml -fontfullname -stdout -f 1  @@
+pdftohtml -q -p -nomerge -enc Latin1 -c -xml -noroundcoord -noframes -hidden -opw 123456 -f 1  @@
+pdftohtml -nodrm -nomerge -fmt png -noroundcoord -hidden -i  @@
+pdftohtml -nodrm -q -p -upw 123456 -zoom 0.75 -wbt 20 -c -stdout  @@
+pdftohtml -q -upw 123456 -zoom 0.75 -wbt 20 -xml -noroundcoord -s -i  @@
+pdftohtml -nodrm -q -p -wbt 20 -xml -noroundcoord -s -hidden -stdout -i -opw 123456  @@
+pdftohtml -nodrm -p -fmt png -c -noroundcoord -stdout  @@
+pdftohtml -q -p -upw 123456 -nomerge -wbt 20 -c -l 1 -f 1  @@
+pdftohtml -q -dataurls -fmt jpg -enc ZapfDingbats -c -xml -noframes -stdout -i -opw 123456 -f 1  @@
+pdftohtml -q -p -upw 123456 -nomerge -zoom 0.75 -fmt jpg -c -noroundcoord -fontfullname -hidden -i  @@
+pdftohtml -nodrm -q -p -enc ZapfDingbats -c -l 1 -noroundcoord -fontfullname -noframes -i -opw 123456  @@
+pdftohtml -nodrm -q -p -fmt jpg -enc ZapfDingbats -c -xml -l 1 -fontfullname -hidden -i -f 1  @@
+pdftohtml -q -dataurls -upw 123456 -nomerge -enc ZapfDingbats -l 1 -fontfullname -s -noframes -stdout -f 1  @@
+pdftohtml -nodrm -q -p -dataurls -upw 123456 -nomerge -fmt png -enc Latin1 -c -noroundcoord -fontfullname -noframes -hidden  @@
+pdftohtml -q -dataurls -upw 123456 -enc ASCII7 -c -l 1 -noroundcoord -fontfullname -i -f 1  @@
+pdftohtml -nodrm -q -dataurls -enc Latin1 -xml -l 1 -fontfullname -s -opw 123456 -f 1  @@
+pdftohtml -q -nomerge -wbt 20 -xml -noroundcoord -s -noframes -hidden -stdout -opw 123456  @@
+pdftohtml -q -upw 123456 -zoom 0.75 -l 1 -fontfullname -s -i  @@
+pdftohtml -nodrm -p -upw 123456 -s  @@
+pdftohtml -nodrm -q -dataurls -upw 123456 -nomerge -zoom 0.75 -xml -noroundcoord -s  @@
+pdftohtml -nodrm -q -p -dataurls -upw 123456 -nomerge -enc ZapfDingbats -noframes -f 1  @@
+pdftohtml -q -dataurls -nomerge -wbt 20 -c -noframes -hidden -i -opw 123456  @@
+pdftohtml -q -fmt jpg -wbt 20 -l 1 -noframes -stdout -f 1  @@
+pdftohtml -nodrm -q -nomerge -fmt png -enc ASCII7 -l 1 -noroundcoord -fontfullname -opw 123456  @@
+pdftohtml -nodrm -q -p -enc Symbol -c -xml -fontfullname -noframes -stdout -i -opw 123456  @@
+pdftohtml -q -p -dataurls -upw 123456 -zoom 0.75 -c -noframes -hidden  @@
+pdftohtml -q -nomerge -fmt png -enc ZapfDingbats -c -l 1 -fontfullname -opw 123456  @@
+pdftohtml -q -p -zoom 0.75 -fmt jpg -xml -noframes -stdout -opw 123456  @@
+pdftohtml -q -upw 123456 -wbt 20 -noroundcoord -fontfullname -s -noframes -hidden  @@
+pdftohtml -nodrm -q -dataurls -nomerge -fmt png -enc ZapfDingbats -s -hidden -stdout -i -opw 123456  @@
+pdftohtml -q -p -upw 123456 -fmt png -c -xml -l 1 -noroundcoord -fontfullname -noframes -i -f 1  @@
+pdftohtml -nodrm -q -dataurls -upw 123456 -fmt jpg -enc UTF-8 -xml -s -hidden -stdout  @@
+pdftohtml -nodrm -q -dataurls -upw 123456 -nomerge -c -fontfullname -noframes -hidden -stdout -i -f 1  @@
+pdftohtml -nodrm -q -zoom 0.75 -fmt png -c -xml -noroundcoord -fontfullname  @@
+pdftohtml -nodrm -q -upw 123456 -fmt png -enc ASCII7 -c -noroundcoord -noframes -stdout -i  @@
+pdftohtml -nodrm -q -dataurls -upw 123456 -zoom 0.75 -fmt jpg -i  @@
+pdftohtml -q -dataurls -upw 123456 -wbt 20 -s -stdout -i  @@
+pdftohtml -q -dataurls -fmt jpg -c -xml -noroundcoord -fontfullname -noframes -hidden -stdout -i -f 1  @@
+pdftohtml -nodrm -q -p -dataurls -nomerge -fmt png -c -l 1 -i -opw 123456 -f 1  @@
+pdftohtml -nodrm -q -p -dataurls -upw 123456 -nomerge -fontfullname -s -hidden -i -f 1  @@
+pdftohtml -nodrm -q -p -upw 123456 -nomerge -xml -l 1 -s -hidden -stdout -f 1  @@
+pdftohtml -nodrm -q -nomerge -enc Latin1 -noroundcoord -fontfullname -s -hidden -opw 123456  @@
+pdftohtml -nodrm -q -p -dataurls -fmt png -fontfullname -hidden -stdout -i -opw 123456 -f 1  @@
+pdftohtml -nodrm -q -nomerge -c -l 1 -noroundcoord -noframes -hidden -stdout -i -opw 123456  @@
+pdftohtml -q -p -nomerge -fmt jpg -xml -l 1 -noroundcoord -noframes -stdout -i -opw 123456  @@
+pdftohtml -q -dataurls -upw 123456 -nomerge -fmt jpg -xml -l 1 -noroundcoord -fontfullname -s -i  @@
+pdftohtml -q -p -dataurls -nomerge -fmt png -enc Symbol -xml -s -i  @@
+pdftohtml -nodrm -q -p -upw 123456 -nomerge -fmt jpg -xml -fontfullname -hidden -f 1  @@
+pdftohtml -q -p -upw 123456 -fmt jpg -l 1 -fontfullname -s -hidden -stdout -i  @@
+pdftohtml -q -dataurls -fmt jpg -l 1 -noroundcoord -s -noframes -hidden -stdout -opw 123456  @@
+pdftohtml -q -xml -l 1 -noroundcoord -fontfullname -s -hidden -i -opw 123456 -f 1  @@
+pdftohtml -q -dataurls -enc Latin1 -c -xml -noframes -hidden -stdout -i  @@
+pdftohtml -q -upw 123456 -nomerge -xml -l 1 -s -noframes -hidden -i  @@
+pdftohtml -nodrm -q -p -dataurls -xml -l 1 -noroundcoord -noframes -stdout -i -f 1  @@
+pdftohtml -nodrm -q -p -dataurls -nomerge -fmt jpg -xml -s -noframes -f 1  @@
+pdftohtml -nodrm -q -l 1 -noroundcoord -fontfullname -noframes -stdout -opw 123456  @@
+pdftohtml -nodrm -q -dataurls -c -xml -l 1 -noframes -opw 123456  @@
+pdftohtml -nodrm -q -p -dataurls -nomerge -fontfullname -s -noframes -stdout -opw 123456  @@
+pdftohtml -nodrm -q -p -dataurls -upw 123456 -nomerge -noroundcoord -fontfullname -noframes -i  @@
+pdftohtml -q -fmt jpg -s -stdout -opw 123456 -f 1  @@
+pdftohtml -q -p -nomerge -l 1 -s -noframes -hidden -i  @@
+pdftohtml -q -nomerge -l 1 -noroundcoord -fontfullname -s -hidden  @@
+pdftohtml -q -upw 123456 -nomerge -fmt jpg -c -xml -noframes -stdout  @@
+pdftohtml -q -p -dataurls -nomerge -c -xml -noroundcoord -opw 123456  @@
+pdftohtml -q -p -upw 123456 -fmt jpg -xml -noroundcoord -s -hidden  @@
+pdftohtml  @@
+pdftohtml -dataurls -upw 123456 -zoom 0.75 -enc UCS-2 -wbt 20 -c -noroundcoord -noframes -hidden -stdout -i -f 1  @@
+pdftohtml -nodrm -upw 123456 -nomerge -zoom 0.75 -fmt jpg -enc UCS-2 -xml -l 1 -fontfullname -s -noframes -hidden  @@
+pdftohtml -nodrm -p -dataurls -upw 123456 -enc UCS-2 -wbt 20 -xml -l 1 -s -stdout -i -f 1  @@
+pdftohtml -nodrm -upw 123456 -nomerge -zoom 0.75 -fmt png -enc UCS-2 -c -l 1 -noroundcoord -noframes -stdout -f 1  @@
+pdftohtml -nodrm -p -dataurls -upw 123456 -enc UCS-2 -wbt 20 -c -l 1 -noroundcoord -noframes -hidden -stdout  @@
+pdftohtml -dataurls -upw 123456 -enc UCS-2 -wbt 20 -c -l 1 -fontfullname -noframes -hidden -i -f 1  @@
+pdftohtml -dataurls -zoom 0.75 -fmt png -enc UCS-2 -wbt 20 -c -l 1 -fontfullname  @@
+pdftohtml -dataurls -upw 123456 -nomerge -zoom 0.75 -fmt jpg -enc UCS-2 -l 1 -fontfullname -s -stdout  @@
+pdftohtml -p -upw 123456 -nomerge -zoom 0.75 -enc UCS-2 -s -noframes -hidden -i -f 1  @@
+pdftohtml -p -upw 123456 -nomerge -zoom 0.75 -enc UCS-2 -c -l 1 -hidden  @@
+pdftohtml -nodrm -dataurls -nomerge -zoom 0.75 -enc UCS-2 -noroundcoord -fontfullname -hidden -stdout -i -opw 123456  @@
+pdftohtml -p -dataurls -enc UCS-2 -wbt 20 -noroundcoord -opw 123456 -f 1  @@
+pdftohtml -p -upw 123456 -zoom 0.75 -enc UCS-2 -c -noroundcoord -fontfullname -noframes -hidden -stdout  @@
+pdftohtml -nodrm -upw 123456 -fmt jpg -enc UCS-2 -xml -noroundcoord -fontfullname -s -hidden -stdout -i -f 1  @@
+pdftohtml -nodrm -p -upw 123456 -fmt jpg -enc UCS-2 -xml -l 1 -noroundcoord -stdout -f 1  @@
+pdftohtml -p -upw 123456 -enc UCS-2 -c -xml -noroundcoord -noframes -hidden -i -f 1  @@
+pdftohtml -dataurls -enc UCS-2 -c -l 1 -noroundcoord -noframes -hidden -i -opw 123456  @@
+pdftohtml -nodrm -p -nomerge -enc UCS-2 -c -l 1 -noframes -hidden -opw 123456  @@
+pdftohtml -p -upw 123456 -fmt png -enc UCS-2 -xml -l 1 -noroundcoord -fontfullname -hidden  @@
+pdftohtml -dataurls -nomerge -fmt png -enc UCS-2 -xml -noroundcoord -fontfullname -noframes -stdout -opw 123456  @@
+pdftohtml -q -dataurls -nomerge -zoom 0.75 -enc UCS-2 -wbt 20 -l 1 -noroundcoord -fontfullname -s -noframes -hidden -opw 123456 -f 1  @@
+pdftohtml -q -p -nomerge -zoom 0.75 -fmt png -enc UCS-2 -wbt 20 -c -l 1 -fontfullname -hidden -i -opw 123456 -f 1  @@
+pdftohtml -q -dataurls -upw 123456 -zoom 0.75 -enc UCS-2 -wbt 20 -xml -l 1 -noroundcoord -s -hidden -stdout -f 1  @@
+pdftohtml -q -zoom 0.75 -fmt png -enc UCS-2 -wbt 20 -c -xml -l 1 -noroundcoord -fontfullname -noframes -stdout -opw 123456  @@
+pdftohtml -nodrm -q -p -upw 123456 -zoom 0.75 -fmt png -enc UCS-2 -xml -l 1 -noroundcoord -s -noframes -stdout -i -f 1  @@
+pdftohtml -q -p -dataurls -upw 123456 -zoom 0.75 -fmt jpg -enc UCS-2 -wbt 20 -xml -l 1 -noframes -i  @@
+pdftohtml -nodrm -q -p -upw 123456 -nomerge -zoom 0.75 -enc UCS-2 -wbt 20 -fontfullname -s -noframes -hidden -i  @@
+pdftohtml -q -dataurls -nomerge -fmt png -enc UCS-2 -wbt 20 -c -xml -l 1 -noroundcoord -fontfullname -opw 123456 -f 1  @@
+pdftohtml -q -dataurls -nomerge -zoom 0.75 -fmt jpg -enc UCS-2 -c -xml -l 1 -noroundcoord -noframes -i  @@
+pdftohtml -nodrm -q -dataurls -enc UCS-2 -wbt 20 -l 1 -noroundcoord -s -noframes -hidden -stdout -i  @@
+pdftohtml -q -upw 123456 -nomerge -zoom 0.75 -enc UCS-2 -c -l 1 -fontfullname -noframes -stdout -i -f 1  @@
+pdftohtml -nodrm -q -p -dataurls -upw 123456 -enc UCS-2 -wbt 20 -xml -noroundcoord -fontfullname -s -f 1  @@
+pdftohtml -nodrm -q -nomerge -zoom 0.75 -fmt png -enc UCS-2 -fontfullname -s -stdout -i -f 1  @@
+pdftohtml -q -p -nomerge -zoom 0.75 -enc UCS-2 -l 1 -noroundcoord -s -stdout -opw 123456  @@
+pdftohtml -nodrm -q -p -dataurls -nomerge -zoom 0.75 -enc UCS-2 -l 1 -noroundcoord -hidden  @@
+pdftohtml -nodrm -q -dataurls -enc UCS-2 -wbt 20 -s -hidden -f 1  @@
+pdftohtml -q -dataurls -fmt jpg -enc UCS-2 -wbt 20 -c -noroundcoord -fontfullname -stdout -i -opw 123456  @@
+pdftohtml -q -dataurls -fmt jpg -enc UCS-2 -wbt 20 -noroundcoord -fontfullname -noframes -hidden -opw 123456  @@
+pdftohtml -nodrm -q -dataurls -zoom 0.75 -enc UCS-2 -noroundcoord -s -noframes -opw 123456  @@
+pdftohtml -nodrm -q -p -dataurls -nomerge -enc UCS-2 -c -xml -l 1 -noroundcoord -fontfullname -hidden -f 1  @@
+pdftohtml -nodrm -q -enc UCS-2 -wbt 20 -c -hidden -opw 123456  @@
+pdftohtml -q -p -dataurls -enc UCS-2 -c -noframes  @@

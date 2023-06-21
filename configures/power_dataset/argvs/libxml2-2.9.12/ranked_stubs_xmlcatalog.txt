@@ -1,0 +1,117 @@
+116
+xmlcatalog --del text --create -v --no-super-update --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd  @@
+xmlcatalog --noout --del text -v --no-super-update --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd --shell  @@
+xmlcatalog --noout --del text --create -v --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd --shell  @@
+xmlcatalog --noout --del text -v --no-super-update --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd  @@
+xmlcatalog --del text --create -v --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd --shell  @@
+xmlcatalog --noout --del text --create -v --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd  @@
+xmlcatalog --del text -v --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd --shell  @@
+xmlcatalog --noout --create -v --no-super-update --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd --shell  @@
+xmlcatalog --create -v --no-super-update --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd --shell  @@
+xmlcatalog --noout --create -v --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd  @@
+xmlcatalog --noout -v --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd --shell  @@
+xmlcatalog -v --no-super-update --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd  @@
+xmlcatalog -v --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd  @@
+xmlcatalog --noout --del text --create -v --no-super-update --shell  @@
+xmlcatalog --noout --del text --create -v --no-super-update  @@
+xmlcatalog --noout --del text --create -v --shell  @@
+xmlcatalog --del text -v --no-super-update --shell  @@
+xmlcatalog --del text --create -v  @@
+xmlcatalog --del text -v --no-super-update  @@
+xmlcatalog --noout --del text -v  @@
+xmlcatalog --noout --del text --create --no-super-update --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd --shell  @@
+xmlcatalog --noout --del text --create --no-super-update --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd  @@
+xmlcatalog --del text --create --no-super-update --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd  @@
+xmlcatalog --del text --no-super-update --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd --shell  @@
+xmlcatalog --del text --create --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd --shell  @@
+xmlcatalog --noout --del text --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd  @@
+xmlcatalog --del text --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd  @@
+xmlcatalog --noout --create --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd --shell  @@
+xmlcatalog --noout --no-super-update --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd  @@
+xmlcatalog --create --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd  @@
+xmlcatalog --no-super-update --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd --shell  @@
+xmlcatalog --noout --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd --shell  @@
+xmlcatalog --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd --shell  @@
+xmlcatalog --del text --create --no-super-update --shell  @@
+xmlcatalog --noout --del text --no-super-update --shell  @@
+xmlcatalog --noout --del text --shell  @@
+xmlcatalog --del text --no-super-update  @@
+xmlcatalog --noout --del text --create  @@
+xmlcatalog --del text --shell  @@
+xmlcatalog --del text --create -v --no-super-update --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd --shell  @@
+xmlcatalog --create --no-super-update --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd  @@
+xmlcatalog --del text -v --shell  @@
+xmlcatalog --create -v --no-super-update  @@
+xmlcatalog --create -v  @@
+xmlcatalog --create --no-super-update  @@
+xmlcatalog --noout --create --no-super-update  @@
+xmlcatalog --noout --del text --sgml --create -v --no-super-update --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd --shell  @@
+xmlcatalog --noout --del text --sgml --create -v --no-super-update --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd  @@
+xmlcatalog --del text --sgml --create -v --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd --shell  @@
+xmlcatalog --noout --sgml --create -v --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd --shell  @@
+xmlcatalog --sgml --create -v --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd  @@
+xmlcatalog --sgml --create -v --no-super-update --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd  @@
+xmlcatalog --noout --del text --sgml --create --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd  @@
+xmlcatalog --noout --del text --sgml -v --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd  @@
+xmlcatalog --del text --sgml --create --no-super-update --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd --shell  @@
+xmlcatalog --del text --sgml --create --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd  @@
+xmlcatalog --noout --del text --sgml -v --no-super-update --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd --shell  @@
+xmlcatalog --del text --sgml -v --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd  @@
+xmlcatalog --noout --sgml --create --no-super-update --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd  @@
+xmlcatalog --noout --sgml --create --no-super-update --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd --shell  @@
+xmlcatalog --del text --sgml -v --no-super-update --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd  @@
+xmlcatalog --sgml --create --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd --shell  @@
+xmlcatalog --noout --sgml -v --no-super-update --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd --shell  @@
+xmlcatalog --noout --sgml -v --no-super-update --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd  @@
+xmlcatalog --noout --del text --sgml --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd --shell  @@
+xmlcatalog --noout --del text --sgml --no-super-update --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd  @@
+xmlcatalog --sgml -v --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd --shell  @@
+xmlcatalog --sgml -v --no-super-update --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd --shell  @@
+xmlcatalog --del text --sgml --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd --shell  @@
+xmlcatalog --noout --sgml --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd  @@
+xmlcatalog --noout --sgml --no-super-update --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd --shell  @@
+xmlcatalog --sgml --no-super-update --add public "-//OASIS//DTD DocBook XML V4.1.2//EN" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd  @@
+xmlcatalog --del text --sgml --create -v --shell  @@
+xmlcatalog --noout --del text --sgml -v --no-super-update  @@
+xmlcatalog --noout --del text --sgml -v --shell  @@
+xmlcatalog --del text --sgml -v --no-super-update --shell  @@
+xmlcatalog --noout --del text --sgml --create -v  @@
+xmlcatalog --del text --sgml --create -v --no-super-update  @@
+xmlcatalog --noout --sgml --create -v --no-super-update  @@
+xmlcatalog --noout --sgml --create -v  @@
+xmlcatalog --noout -v --no-super-update  @@
+xmlcatalog --noout --del text --sgml --create --no-super-update --shell  @@
+xmlcatalog --noout --sgml -v  @@
+xmlcatalog --sgml -v  @@
+xmlcatalog --noout --del text --sgml --create --shell  @@
+xmlcatalog --noout --del text --sgml --create --no-super-update  @@
+xmlcatalog --noout -v  @@
+xmlcatalog --del text --sgml --no-super-update --shell  @@
+xmlcatalog --noout --del text --sgml  @@
+xmlcatalog --del text --sgml --create --no-super-update  @@
+xmlcatalog --del text --sgml --create  @@
+xmlcatalog --del text --sgml  @@
+xmlcatalog --sgml --create --no-super-update  @@
+xmlcatalog --noout --sgml --no-super-update  @@
+xmlcatalog --noout --sgml --create  @@
+xmlcatalog --sgml --no-super-update  @@
+xmlcatalog --noout  @@
+xmlcatalog --sgml  @@
+xmlcatalog  @@
+xmlcatalog --noout --sgml --create -v --no-super-update --shell  @@
+xmlcatalog --sgml --create -v --no-super-update --shell  @@
+xmlcatalog --noout --sgml -v --no-super-update --shell  @@
+xmlcatalog --noout -v --no-super-update --shell  @@
+xmlcatalog --sgml -v --no-super-update --shell  @@
+xmlcatalog --noout --create -v --shell  @@
+xmlcatalog --create -v --shell  @@
+xmlcatalog --noout --create --no-super-update --shell  @@
+xmlcatalog --sgml -v --shell  @@
+xmlcatalog --noout --sgml --no-super-update --shell  @@
+xmlcatalog --sgml --create --no-super-update --shell  @@
+xmlcatalog --noout --sgml --shell  @@
+xmlcatalog --sgml --create --shell  @@
+xmlcatalog -v --shell  @@
+xmlcatalog --sgml --no-super-update --shell  @@
+xmlcatalog --create --shell  @@
+xmlcatalog --no-super-update --shell  @@

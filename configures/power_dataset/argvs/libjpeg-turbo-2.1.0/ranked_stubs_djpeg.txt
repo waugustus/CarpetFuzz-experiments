@@ -1,0 +1,1471 @@
+1470
+djpeg -skip 10,20 -gif -nosmooth -report -crop 40x20+10+10 -grayscale -dither fs -outfile /tmp/foo -dct int -memsrc -quantize 256 -strict -onepass  @@
+djpeg -colors 128 -skip 10,20 -gif -nosmooth -report -crop 40x20+10+10 -grayscale -dither fs -outfile /tmp/foo -dct float -icc -strict -debug -fast -onepass -rgb  @@
+djpeg -skip 10,20 -gif -nosmooth -report -crop 40x20+10+10 -outfile /tmp/foo -dct float -icc -memsrc -quantize 256 -strict -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -gif -nosmooth -report -grayscale -dither none -outfile /tmp/foo -dct float -verbose -icc -strict -maxmemory 4m -fast -onepass  @@
+djpeg -skip 10,20 -gif -report -crop 40x20+10+10 -grayscale -dither fs -outfile /tmp/foo -verbose -quantize 256 -strict -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -gif -nosmooth -crop 40x20+10+10 -grayscale -outfile /tmp/foo -dct float -verbose -icc -memsrc -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -gif -nosmooth -crop 40x20+10+10 -dither none -verbose -memsrc -strict -fast -onepass -rgb  @@
+djpeg -skip 10,20 -gif -report -grayscale -dither none -outfile /tmp/foo -verbose -memsrc -quantize 256 -strict -maxmemory 4m -onepass  @@
+djpeg -skip 10,20 -gif -nosmooth -crop 40x20+10+10 -scale 1/4 -grayscale -dither none -outfile /tmp/foo -dct fast -verbose -icc -memsrc -strict -maxmemory 4m -fast -onepass  @@
+djpeg -gif -nosmooth -report -scale 1/4 -grayscale -outfile /tmp/foo -dct float -verbose -icc -memsrc -quantize 256 -strict -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -gif -nosmooth -report -crop 40x20+10+10 -scale 1/4 -grayscale -dct float -icc -memsrc -strict -debug -onepass -rgb  @@
+djpeg -gif -nosmooth -crop 40x20+10+10 -scale 1/4 -dither none -dct float -quantize 256 -strict -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -gif -nosmooth -crop 40x20+10+10 -scale 1/4 -dither ordered -outfile /tmp/foo -dct float -icc -strict -debug -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -gif -nosmooth -report -crop 40x20+10+10 -scale 1/4 -grayscale -outfile /tmp/foo -dct fast -verbose -icc -memsrc -strict -maxmemory 4m -fast  @@
+djpeg -colors 128 -skip 10,20 -gif -nosmooth -report -crop 40x20+10+10 -dither fs -debug -maxmemory 4m -onepass -rgb  @@
+djpeg -gif -nosmooth -report -scale 1/4 -grayscale -dither ordered -dct int -verbose -memsrc -strict -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -gif -crop 40x20+10+10 -dither ordered -outfile /tmp/foo -dct int -strict -fast -onepass  @@
+djpeg -colors 128 -gif -nosmooth -report -crop 40x20+10+10 -dither none -outfile /tmp/foo -dct fast -verbose -icc -memsrc -strict -fast -onepass  @@
+djpeg -skip 10,20 -gif -scale 1/4 -grayscale -dither ordered -outfile /tmp/foo -dct fast -icc -memsrc -quantize 256 -strict -maxmemory 4m -fast -onepass  @@
+djpeg -skip 10,20 -gif -report -crop 40x20+10+10 -grayscale -memsrc -debug -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -gif -report -scale 1/4 -outfile /tmp/foo -dct fast -icc -memsrc -strict -debug -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -gif -nosmooth -report -crop 40x20+10+10 -scale 1/4 -dither ordered -icc -memsrc -strict -debug -onepass  @@
+djpeg -colors 128 -gif -nosmooth -crop 40x20+10+10 -scale 1/4 -dither none -outfile /tmp/foo -dct float -memsrc -debug -onepass  @@
+djpeg -skip 10,20 -gif -report -crop 40x20+10+10 -grayscale -outfile /tmp/foo -dct fast -icc -rgb  @@
+djpeg -skip 10,20 -gif -nosmooth -scale 1/4 -grayscale -dither ordered -outfile /tmp/foo -memsrc -strict -debug -maxmemory 4m -onepass  @@
+djpeg -gif -nosmooth -report -crop 40x20+10+10 -dither none -outfile /tmp/foo -memsrc -strict -debug -fast -onepass -rgb  @@
+djpeg -colors 128 -gif -report -crop 40x20+10+10 -dither ordered -icc -memsrc -strict -debug -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -gif -scale 1/4 -dither fs -dct float -verbose -strict -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -gif -nosmooth -report -dither ordered -dct float -icc -memsrc -debug -fast -onepass  @@
+djpeg -colors 128 -gif -crop 40x20+10+10 -scale 1/4 -grayscale -dither ordered -outfile /tmp/foo -dct fast -verbose -maxmemory 4m -onepass  @@
+djpeg -colors 128 -skip 10,20 -gif -crop 40x20+10+10 -scale 1/4 -grayscale -dct fast -memsrc -debug -maxmemory 4m -fast -rgb  @@
+djpeg -skip 10,20 -gif -report -scale 1/4 -dither none -outfile /tmp/foo -dct int -verbose -memsrc -quantize 256 -maxmemory 4m -onepass -rgb  @@
+djpeg -gif -nosmooth -report -crop 40x20+10+10 -grayscale -dither none -dct fast -memsrc -debug -maxmemory 4m -onepass  @@
+djpeg -gif -report -grayscale -dct int -icc -memsrc -quantize 256 -strict -fast  @@
+djpeg -skip 10,20 -gif -crop 40x20+10+10 -dither fs -verbose -quantize 256 -onepass -rgb  @@
+djpeg -gif -nosmooth -dct fast -strict -debug -maxmemory 4m -onepass -rgb  @@
+djpeg -skip 10,20 -gif -crop 40x20+10+10 -scale 1/4 -grayscale -dither ordered -verbose -icc -memsrc -quantize 256 -maxmemory 4m -onepass  @@
+djpeg -colors 128 -gif -dither fs -verbose -memsrc -strict -maxmemory 4m -onepass  @@
+djpeg -skip 10,20 -gif -report -crop 40x20+10+10 -scale 1/4 -dct int -verbose -quantize 256 -strict -fast -onepass  @@
+djpeg -gif -nosmooth -report -grayscale -outfile /tmp/foo -dct int -verbose -memsrc -quantize 256 -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -gif -report -scale 1/4 -grayscale -dither fs -outfile /tmp/foo -memsrc -fast -onepass -rgb  @@
+djpeg -nosmooth -report -crop 40x20+10+10 -scale 1/4 -grayscale -dither none -dct int -verbose -memsrc -quantize 256 -strict -gif0 -onepass  @@
+djpeg -colors 128 -report -crop 40x20+10+10 -scale 1/4 -grayscale -dither fs -outfile /tmp/foo -dct float -icc -strict -gif0 -debug -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -crop 40x20+10+10 -grayscale -dither none -outfile /tmp/foo -dct fast -verbose -quantize 256 -strict -gif0 -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -crop 40x20+10+10 -dither ordered -dct float -memsrc -strict -gif0 -fast -onepass -rgb  @@
+djpeg -skip 10,20 -nosmooth -report -crop 40x20+10+10 -scale 1/4 -dither ordered -memsrc -strict -gif0 -debug -fast -onepass  @@
+djpeg -skip 10,20 -nosmooth -dither ordered -outfile /tmp/foo -dct int -verbose -memsrc -quantize 256 -strict -gif0 -maxmemory 4m -onepass -rgb  @@
+djpeg -skip 10,20 -gif -report -scale 1/4 -dither none -verbose -strict -maxmemory 4m -fast -onepass  @@
+djpeg -gif -report -grayscale -dither none -outfile /tmp/foo -icc -strict -debug -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -gif -nosmooth -scale 1/4 -grayscale -dither fs -dct int -icc -strict -debug -fast -onepass -rgb  @@
+djpeg -gif -scale 1/4 -dither ordered -outfile /tmp/foo -dct int -verbose -memsrc -quantize 256 -fast -onepass  @@
+djpeg -skip 10,20 -gif -nosmooth -report -scale 1/4 -grayscale -dither fs -quantize 256 -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -skip 10,20 -gif -report -scale 1/4 -dither none -outfile /tmp/foo -dct float -debug -onepass  @@
+djpeg -gif -nosmooth -crop 40x20+10+10 -grayscale -dither ordered -strict -debug -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -gif -nosmooth -report -verbose -memsrc -fast  @@
+djpeg -colors 128 -gif -nosmooth -report -crop 40x20+10+10 -scale 1/4 -icc -memsrc -strict -maxmemory 4m -fast  @@
+djpeg -colors 128 -skip 10,20 -gif -report -scale 1/4 -dither ordered -dct int -verbose -icc -memsrc -onepass  @@
+djpeg -gif -crop 40x20+10+10 -scale 1/4 -outfile /tmp/foo -dct int -verbose -icc -memsrc -quantize 256 -fast -rgb  @@
+djpeg -colors 128 -gif -crop 40x20+10+10 -grayscale -memsrc -strict -debug -maxmemory 4m -fast  @@
+djpeg -gif -nosmooth -crop 40x20+10+10 -grayscale -dct float -memsrc -quantize 256 -maxmemory 4m -fast -rgb  @@
+djpeg -nosmooth -crop 40x20+10+10 -scale 1/4 -grayscale -dither fs -outfile /tmp/foo -dct float -memsrc -gif0 -debug -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -report -crop 40x20+10+10 -dither fs -outfile /tmp/foo -dct float -verbose -gif0 -maxmemory 4m -fast -onepass  @@
+djpeg -skip 10,20 -crop 40x20+10+10 -scale 1/4 -grayscale -dither none -outfile /tmp/foo -memsrc -quantize 256 -strict -gif0 -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -gif -scale 1/4 -dct fast -verbose -icc -memsrc -strict -maxmemory 4m -fast -rgb  @@
+djpeg -colors 128 -nosmooth -crop 40x20+10+10 -dither fs -dct int -memsrc -strict -gif0 -debug -fast -onepass -rgb  @@
+djpeg -gif -nosmooth -crop 40x20+10+10 -memsrc -quantize 256 -strict -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -gif -nosmooth -report -crop 40x20+10+10 -scale 1/4 -grayscale -verbose -maxmemory 4m -onepass  @@
+djpeg -report -dither ordered -dct float -memsrc -strict -gif0 -debug -maxmemory 4m -onepass  @@
+djpeg -colors 128 -gif -crop 40x20+10+10 -grayscale -dither ordered -dct int -debug -fast -onepass  @@
+djpeg -nosmooth -report -crop 40x20+10+10 -scale 1/4 -outfile /tmp/foo -dct float -icc -memsrc -quantize 256 -gif0 -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -gif -report -crop 40x20+10+10 -outfile /tmp/foo -verbose -strict -fast -rgb  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -scale 1/4 -grayscale -dither ordered -dct int -memsrc -strict -gif0 -debug -maxmemory 4m -onepass  @@
+djpeg -gif -nosmooth -report -crop 40x20+10+10 -scale 1/4 -outfile /tmp/foo -debug -fast  @@
+djpeg -skip 10,20 -report -crop 40x20+10+10 -dither fs -dct int -memsrc -quantize 256 -gif0 -fast -onepass -rgb  @@
+djpeg -colors 128 -report -crop 40x20+10+10 -grayscale -dither ordered -icc -memsrc -strict -gif0 -maxmemory 4m -onepass  @@
+djpeg -colors 128 -skip 10,20 -report -crop 40x20+10+10 -dither none -outfile /tmp/foo -icc -memsrc -strict -gif0 -debug -onepass -rgb  @@
+djpeg -nosmooth -report -dither ordered -verbose -memsrc -strict -gif0 -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -nosmooth -report -crop 40x20+10+10 -scale 1/4 -outfile /tmp/foo -verbose -quantize 256 -strict -gif0 -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -report -crop 40x20+10+10 -scale 1/4 -grayscale -outfile /tmp/foo -dct float -verbose -gif0 -maxmemory 4m -fast  @@
+djpeg -colors 128 -gif -nosmooth -report -verbose -icc -strict -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -gif -scale 1/4 -dither none -strict -debug -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -crop 40x20+10+10 -dither ordered -outfile /tmp/foo -verbose -icc -strict -gif0 -maxmemory 4m -onepass  @@
+djpeg -colors 128 -skip 10,20 -report -scale 1/4 -grayscale -dither ordered -outfile /tmp/foo -icc -memsrc -gif0 -debug -maxmemory 4m -onepass -rgb  @@
+djpeg -skip 10,20 -nosmooth -crop 40x20+10+10 -dither ordered -outfile /tmp/foo -quantize 256 -strict -gif0 -fast -onepass  @@
+djpeg -colors 128 -nosmooth -report -crop 40x20+10+10 -grayscale -dither none -outfile /tmp/foo -icc -strict -gif0 -debug -maxmemory 4m -onepass  @@
+djpeg -colors 128 -report -grayscale -dct fast -memsrc -strict -gif0 -debug -fast -rgb  @@
+djpeg -colors 128 -report -crop 40x20+10+10 -scale 1/4 -grayscale -outfile /tmp/foo -verbose -memsrc -gif0 -maxmemory 4m -fast -rgb  @@
+djpeg -crop 40x20+10+10 -scale 1/4 -grayscale -dct fast -icc -memsrc -strict -gif0 -debug -onepass -rgb  @@
+djpeg -skip 10,20 -nosmooth -crop 40x20+10+10 -scale 1/4 -dither fs -outfile /tmp/foo -verbose -quantize 256 -gif0 -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -grayscale -outfile /tmp/foo -dct int -verbose -memsrc -strict -gif0 -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -report -scale 1/4 -grayscale -dither none -outfile /tmp/foo -dct float -verbose -icc -strict -gif0 -fast -onepass -rgb  @@
+djpeg -crop 40x20+10+10 -scale 1/4 -dither none -outfile /tmp/foo -dct int -quantize 256 -gif0 -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -skip 10,20 -report -scale 1/4 -dither ordered -verbose -memsrc -quantize 256 -gif0 -maxmemory 4m -fast -onepass  @@
+djpeg -skip 10,20 -nosmooth -bmp -report -crop 40x20+10+10 -grayscale -dither ordered -dct float -verbose -memsrc -quantize 256 -strict -maxmemory 4m -onepass  @@
+djpeg -colors 128 -gif -crop 40x20+10+10 -dither fs -dct int -icc -fast -onepass -rgb  @@
+djpeg -crop 40x20+10+10 -scale 1/4 -grayscale -dither ordered -outfile /tmp/foo -verbose -memsrc -gif0 -onepass  @@
+djpeg -skip 10,20 -nosmooth -grayscale -dither ordered -outfile /tmp/foo -dct int -verbose -quantize 256 -gif0 -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -gif -nosmooth -scale 1/4 -outfile /tmp/foo -debug -fast  @@
+djpeg -colors 128 -skip 10,20 -crop 40x20+10+10 -scale 1/4 -dither fs -outfile /tmp/foo -dct float -icc -memsrc -gif0 -onepass  @@
+djpeg -gif -scale 1/4 -dither fs -outfile /tmp/foo -icc -memsrc -debug -fast -onepass -rgb  @@
+djpeg -colors 128 -gif -nosmooth -grayscale -dither none -outfile /tmp/foo -verbose -icc -memsrc -onepass -rgb  @@
+djpeg -colors 128 -nosmooth -report -crop 40x20+10+10 -scale 1/4 -grayscale -outfile /tmp/foo -strict -gif0 -fast  @@
+djpeg -skip 10,20 -os2 -nosmooth -report -crop 40x20+10+10 -scale 1/4 -dither ordered -outfile /tmp/foo -dct fast -memsrc -quantize 256 -strict -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -gif -scale 1/4 -dct fast -icc -debug -fast -rgb  @@
+djpeg -nosmooth -scale 1/4 -grayscale -dither fs -outfile /tmp/foo -dct float -icc -strict -gif0 -debug -fast -onepass -rgb  @@
+djpeg -skip 10,20 -crop 40x20+10+10 -scale 1/4 -grayscale -verbose -memsrc -quantize 256 -strict -gif0 -fast  @@
+djpeg -colors 128 -nosmooth -crop 40x20+10+10 -grayscale -icc -memsrc -strict -gif0 -debug -maxmemory 4m -fast  @@
+djpeg -colors 128 -skip 10,20 -crop 40x20+10+10 -scale 1/4 -grayscale -outfile /tmp/foo -strict -gif0 -debug -fast -onepass  @@
+djpeg -skip 10,20 -nosmooth -report -grayscale -outfile /tmp/foo -icc -memsrc -gif0 -debug -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -report -scale 1/4 -dither fs -outfile /tmp/foo -dct int -memsrc -gif0 -debug -maxmemory 4m -fast -onepass  @@
+djpeg -skip 10,20 -gif -nosmooth -scale 1/4 -icc -memsrc -debug -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -crop 40x20+10+10 -verbose -memsrc -strict -gif0 -fast  @@
+djpeg -colors 128 -bmp -report -grayscale -dither ordered -outfile /tmp/foo -dct int -strict -debug -maxmemory 4m -onepass  @@
+djpeg -colors 128 -os2 -nosmooth -report -grayscale -dither none -verbose -memsrc -strict -fast -onepass -rgb  @@
+djpeg -colors 128 -os2 -nosmooth -report -dither ordered -dct float -strict -debug -fast -onepass -rgb  @@
+djpeg -grayscale -dither none -dct int -verbose -icc -memsrc -quantize 256 -strict -gif0 -onepass  @@
+djpeg -colors 128 -bmp -report -dither fs -dct float -memsrc -strict -debug -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -nosmooth -dither none -outfile /tmp/foo -strict -gif0 -debug -onepass  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -bmp -report -crop 40x20+10+10 -dither ordered -outfile /tmp/foo -dct float -verbose -icc -strict -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -gif -nosmooth -crop 40x20+10+10 -grayscale -outfile /tmp/foo -dct fast -verbose -icc -strict -rgb  @@
+djpeg -colors 128 -nosmooth -crop 40x20+10+10 -scale 1/4 -grayscale -verbose -icc -memsrc -strict -gif0 -onepass  @@
+djpeg -skip 10,20 -gif -nosmooth -report -scale 1/4 -grayscale -outfile /tmp/foo -verbose -quantize 256 -strict -maxmemory 4m -rgb  @@
+djpeg -skip 10,20 -bmp -report -crop 40x20+10+10 -dither ordered -outfile /tmp/foo -dct int -quantize 256 -strict -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -dither fs -outfile /tmp/foo -dct int -verbose -icc -memsrc -gif0 -fast -onepass  @@
+djpeg -crop 40x20+10+10 -dct float -icc -memsrc -quantize 256 -gif0 -onepass -rgb  @@
+djpeg -skip 10,20 -bmp -crop 40x20+10+10 -scale 1/4 -grayscale -dither ordered -outfile /tmp/foo -dct fast -icc -memsrc -quantize 256 -strict -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -bmp -scale 1/4 -grayscale -outfile /tmp/foo -dct float -memsrc -strict -debug -fast -onepass -rgb  @@
+djpeg -os2 -scale 1/4 -grayscale -dither ordered -outfile /tmp/foo -verbose -icc -memsrc -quantize 256 -strict -maxmemory 4m -onepass -rgb  @@
+djpeg -nosmooth -report -scale 1/4 -grayscale -dither ordered -targa -dct float -verbose -memsrc -quantize 256 -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -report -scale 1/4 -verbose -memsrc -strict -gif0 -maxmemory 4m  @@
+djpeg -skip 10,20 -nosmooth -icc -memsrc -strict -gif0 -debug -fast -rgb  @@
+djpeg -report -outfile /tmp/foo -icc -memsrc -strict -gif0 -debug -onepass  @@
+djpeg -colors 128 -bmp -grayscale -dither none -dct int -verbose -icc -memsrc -strict -maxmemory 4m -fast -onepass  @@
+djpeg -skip 10,20 -gif -nosmooth -crop 40x20+10+10 -scale 1/4 -verbose -memsrc -quantize 256 -strict  @@
+djpeg -colors 128 -report -scale 1/4 -dither fs -outfile /tmp/foo -verbose -icc -memsrc -gif0 -maxmemory 4m -onepass  @@
+djpeg -colors 128 -skip 10,20 -os2 -nosmooth -report -grayscale -dither ordered -icc -memsrc -strict -debug -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -skip 10,20 -os2 -report -crop 40x20+10+10 -scale 1/4 -grayscale -dither ordered -dct int -verbose -memsrc -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -report -crop 40x20+10+10 -grayscale -dither fs -targa -dct int -icc -memsrc -strict -debug -maxmemory 4m -onepass -rgb  @@
+djpeg -skip 10,20 -bmp -report -crop 40x20+10+10 -grayscale -outfile /tmp/foo -dct float -verbose -memsrc -quantize 256 -fast  @@
+djpeg -nosmooth -bmp -report -scale 1/4 -grayscale -verbose -icc -memsrc -quantize 256 -strict -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -report -crop 40x20+10+10 -scale 1/4 -dither ordered -targa -outfile /tmp/foo -dct int -verbose -memsrc -onepass  @@
+djpeg -skip 10,20 -gif -report -crop 40x20+10+10 -grayscale -dct fast -quantize 256  @@
+djpeg -nosmooth -report -crop 40x20+10+10 -scale 1/4 -grayscale -dither ordered -targa -outfile /tmp/foo -memsrc -strict -debug -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -os2 -nosmooth -report -crop 40x20+10+10 -scale 1/4 -outfile /tmp/foo -dct float -icc -memsrc -strict -debug -onepass  @@
+djpeg -colors 128 -bmp -scale 1/4 -grayscale -dither fs -outfile /tmp/foo -verbose -memsrc -strict -onepass  @@
+djpeg -colors 128 -skip 10,20 -gif -nosmooth -report -grayscale -strict -debug  @@
+djpeg -colors 128 -skip 10,20 -os2 -nosmooth -report -dither none -dct fast -memsrc -strict -fast -onepass  @@
+djpeg -skip 10,20 -nosmooth -report -crop 40x20+10+10 -grayscale -dither ordered -targa -verbose -quantize 256 -strict -maxmemory 4m -fast -onepass  @@
+djpeg -skip 10,20 -nosmooth -report -crop 40x20+10+10 -dither none -targa -outfile /tmp/foo -dct fast -icc -memsrc -quantize 256 -fast -onepass -rgb  @@
+djpeg -nosmooth -scale 1/4 -grayscale -outfile /tmp/foo -icc -memsrc -quantize 256 -strict -gif0  @@
+djpeg -crop 40x20+10+10 -grayscale -dither fs -targa -outfile /tmp/foo -dct float -memsrc -quantize 256 -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -os2 -report -scale 1/4 -grayscale -dither fs -dct int -memsrc -strict -debug -onepass  @@
+djpeg -colors 128 -nosmooth -grayscale -dither fs -outfile /tmp/foo -dct float -icc -memsrc -gif0 -debug -fast -onepass -rgb  @@
+djpeg -nosmooth -bmp -scale 1/4 -dither ordered -outfile /tmp/foo -dct fast -memsrc -quantize 256 -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -bmp -report -scale 1/4 -dither ordered -outfile /tmp/foo -icc -memsrc -strict -debug -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -os2 -nosmooth -report -crop 40x20+10+10 -grayscale -dither none -outfile /tmp/foo -verbose -icc -memsrc -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -report -crop 40x20+10+10 -scale 1/4 -grayscale -dither none -targa -dct fast -memsrc -maxmemory 4m -onepass  @@
+djpeg -colors 128 -report -crop 40x20+10+10 -dither ordered -targa -outfile /tmp/foo -icc -memsrc -strict -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -report -outfile /tmp/foo -dct int -verbose -icc -strict -gif0 -maxmemory 4m -fast -rgb  @@
+djpeg -colors 128 -os2 -nosmooth -scale 1/4 -dither none -memsrc -strict -debug -fast -onepass  @@
+djpeg -skip 10,20 -gif -grayscale -outfile /tmp/foo -memsrc -debug -maxmemory 4m -rgb  @@
+djpeg -skip 10,20 -report -crop 40x20+10+10 -scale 1/4 -targa -dct fast -verbose -memsrc -quantize 256 -strict -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -report -grayscale -dither ordered -pnm -outfile /tmp/foo -dct fast -icc -memsrc -strict -debug -fast -onepass -rgb  @@
+djpeg -colors 128 -nosmooth -scale 1/4 -grayscale -outfile /tmp/foo -verbose -memsrc -gif0 -rgb  @@
+djpeg -skip 10,20 -scale 1/4 -grayscale -memsrc -quantize 256 -gif0 -onepass -rgb  @@
+djpeg -colors 128 -os2 -report -grayscale -outfile /tmp/foo -memsrc -strict -maxmemory 4m -fast -rgb  @@
+djpeg -report -dither none -verbose -quantize 256 -gif0 -maxmemory 4m -fast -onepass  @@
+djpeg -skip 10,20 -nosmooth -crop 40x20+10+10 -outfile /tmp/foo -dct int -verbose -memsrc -strict -gif0 -maxmemory 4m  @@
+djpeg -colors 128 -skip 10,20 -bmp -report -crop 40x20+10+10 -scale 1/4 -grayscale -dither none -outfile /tmp/foo -icc -memsrc -maxmemory 4m -onepass -rgb  @@
+djpeg -skip 10,20 -os2 -report -grayscale -dither ordered -dct fast -strict -debug -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -os2 -nosmooth -scale 1/4 -dither ordered -dct fast -verbose -icc -memsrc -strict -maxmemory 4m -onepass  @@
+djpeg -skip 10,20 -nosmooth -bmp -report -grayscale -dither fs -memsrc -quantize 256 -strict -onepass -rgb  @@
+djpeg -colors 128 -nosmooth -report -scale 1/4 -grayscale -dither fs -dct int -gif0 -onepass  @@
+djpeg -skip 10,20 -crop 40x20+10+10 -scale 1/4 -grayscale -dither ordered -targa -outfile /tmp/foo -verbose -icc -memsrc -quantize 256 -strict -maxmemory 4m -onepass  @@
+djpeg -colors 128 -skip 10,20 -gif -report -crop 40x20+10+10 -scale 1/4 -outfile /tmp/foo -verbose -icc -memsrc  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -report -crop 40x20+10+10 -targa -outfile /tmp/foo -memsrc -strict -debug -fast -onepass -rgb  @@
+djpeg -bmp -report -dither fs -outfile /tmp/foo -verbose -memsrc -strict -maxmemory 4m -onepass -rgb  @@
+djpeg -crop 40x20+10+10 -dither ordered -pnm -outfile /tmp/foo -dct fast -verbose -memsrc -quantize 256 -strict -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -report -grayscale -dither none -targa -dct float -verbose -strict -onepass -rgb  @@
+djpeg -colors 128 -bmp -report -dither fs -outfile /tmp/foo -verbose -strict -fast -onepass -rgb  @@
+djpeg -skip 10,20 -nosmooth -report -scale 1/4 -grayscale -dither ordered -targa -dct fast -verbose -icc -memsrc -quantize 256 -fast -onepass  @@
+djpeg -colors 128 -os2 -grayscale -outfile /tmp/foo -strict -debug -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -report -scale 1/4 -grayscale -dither none -targa -outfile /tmp/foo -dct int -icc -memsrc -debug -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -os2 -nosmooth -scale 1/4 -grayscale -dither none -outfile /tmp/foo -dct float -debug -fast -onepass -rgb  @@
+djpeg -skip 10,20 -os2 -nosmooth -report -scale 1/4 -grayscale -outfile /tmp/foo -dct int -verbose -icc -memsrc -quantize 256 -strict -maxmemory 4m -fast  @@
+djpeg -skip 10,20 -os2 -nosmooth -report -crop 40x20+10+10 -grayscale -dither none -outfile /tmp/foo -quantize 256 -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -report -crop 40x20+10+10 -scale 1/4 -dither fs -pnm -outfile /tmp/foo -dct float -icc -strict -debug -maxmemory 4m -onepass -rgb  @@
+djpeg -skip 10,20 -os2 -nosmooth -report -grayscale -dither fs -outfile /tmp/foo -verbose -quantize 256 -strict -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -os2 -report -crop 40x20+10+10 -scale 1/4 -grayscale -dither fs -outfile /tmp/foo -icc -strict -debug -fast -onepass -rgb  @@
+djpeg -skip 10,20 -os2 -nosmooth -report -scale 1/4 -dither none -outfile /tmp/foo -verbose -quantize 256 -strict -maxmemory 4m -onepass -rgb  @@
+djpeg -report -crop 40x20+10+10 -scale 1/4 -grayscale -dither ordered -pnm -memsrc -quantize 256 -strict -onepass  @@
+djpeg -colors 128 -nosmooth -report -crop 40x20+10+10 -scale 1/4 -targa -outfile /tmp/foo -dct float -icc -strict -maxmemory 4m -fast  @@
+djpeg -skip 10,20 -crop 40x20+10+10 -grayscale -dither fs -targa -outfile /tmp/foo -dct float -icc -strict -debug -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -report -crop 40x20+10+10 -grayscale -dither fs -pnm -dct fast -strict -debug -maxmemory 4m -fast -onepass  @@
+djpeg -skip 10,20 -bmp -crop 40x20+10+10 -grayscale -dither none -dct int -memsrc -debug -fast -onepass -rgb  @@
+djpeg -bmp -report -grayscale -outfile /tmp/foo -dct fast -quantize 256 -strict -onepass  @@
+djpeg -colors 128 -os2 -scale 1/4 -outfile /tmp/foo -memsrc -strict -debug -maxmemory 4m -onepass -rgb  @@
+djpeg -skip 10,20 -os2 -nosmooth -crop 40x20+10+10 -scale 1/4 -grayscale -dither fs -dct int -verbose -memsrc -quantize 256 -onepass  @@
+djpeg -colors 128 -report -scale 1/4 -verbose -icc -strict -gif0 -fast -onepass -rgb  @@
+djpeg -skip 10,20 -nosmooth -report -scale 1/4 -grayscale -dither ordered -pnm -dct fast -verbose -memsrc -quantize 256 -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -crop 40x20+10+10 -targa -outfile /tmp/foo -dct fast -verbose -icc -memsrc -strict -maxmemory 4m -fast -rgb  @@
+djpeg -report -crop 40x20+10+10 -scale 1/4 -dither none -pnm -outfile /tmp/foo -dct int -quantize 256 -strict -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -bmp -report -crop 40x20+10+10 -dither none -outfile /tmp/foo -debug -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -grayscale -dither ordered -targa -outfile /tmp/foo -memsrc -debug -maxmemory 4m -onepass  @@
+djpeg -colors 128 -skip 10,20 -crop 40x20+10+10 -dither fs -targa -verbose -memsrc -strict -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -report -scale 1/4 -dither ordered -pnm -outfile /tmp/foo -memsrc -strict -debug -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -crop 40x20+10+10 -pnm -outfile /tmp/foo -dct fast -verbose -memsrc -strict -fast -onepass -rgb  @@
+djpeg -skip 10,20 -scale 1/4 -grayscale -dither ordered -targa -outfile /tmp/foo -memsrc -quantize 256 -fast -onepass -rgb  @@
+djpeg -skip 10,20 -os2 -crop 40x20+10+10 -scale 1/4 -dither none -memsrc -strict -debug -fast -onepass -rgb  @@
+djpeg -os2 -report -scale 1/4 -grayscale -dither none -dct fast -quantize 256 -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -crop 40x20+10+10 -dither ordered -targa -dct float -icc -strict -debug -onepass -rgb  @@
+djpeg -skip 10,20 -nosmooth -bmp -dither none -outfile /tmp/foo -memsrc -strict -debug -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -nosmooth -grayscale -targa -dct float -verbose -memsrc -strict -maxmemory 4m -rgb  @@
+djpeg -nosmooth -crop 40x20+10+10 -grayscale -dither none -pnm -verbose -quantize 256 -strict -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -nosmooth -bmp -report -scale 1/4 -grayscale -dither ordered -verbose -quantize 256 -fast -onepass  @@
+djpeg -report -crop 40x20+10+10 -scale 1/4 -dither none -targa -dct int -memsrc -strict -debug -maxmemory 4m -onepass  @@
+djpeg -colors 128 -skip 10,20 -bmp -crop 40x20+10+10 -scale 1/4 -dither none -strict -debug -maxmemory 4m -onepass  @@
+djpeg -skip 10,20 -scale 1/4 -dither fs -targa -dct fast -verbose -icc -memsrc -quantize 256 -strict -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -scale 1/4 -grayscale -targa -outfile /tmp/foo -dct float -verbose -strict -fast -onepass -rgb  @@
+djpeg -nosmooth -report -grayscale -dither fs -targa -outfile /tmp/foo -dct int -quantize 256 -strict -onepass -rgb  @@
+djpeg -skip 10,20 -report -crop 40x20+10+10 -scale 1/4 -dither none -pnm -outfile /tmp/foo -dct fast -memsrc -debug -maxmemory 4m -fast -onepass  @@
+djpeg -os2 -nosmooth -report -scale 1/4 -grayscale -verbose -icc -memsrc -strict -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -os2 -nosmooth -report -scale 1/4 -outfile /tmp/foo -verbose -memsrc -strict -fast  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -report -crop 40x20+10+10 -grayscale -dither fs -pnm -icc -memsrc -debug -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -crop 40x20+10+10 -scale 1/4 -dither fs -targa -outfile /tmp/foo -icc -memsrc -strict -debug -onepass  @@
+djpeg -nosmooth -bmp -report -scale 1/4 -grayscale -dither fs -verbose -icc -strict -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -report -crop 40x20+10+10 -scale 1/4 -dct int -verbose -icc -memsrc -gif0  @@
+djpeg -colors 128 -nosmooth -bmp -scale 1/4 -grayscale -dither none -icc -strict -debug -onepass -rgb  @@
+djpeg -nosmooth -report -grayscale -pnm -outfile /tmp/foo -dct float -memsrc -strict -debug -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -bmp -crop 40x20+10+10 -scale 1/4 -grayscale -verbose -memsrc -fast -rgb  @@
+djpeg -skip 10,20 -bmp -report -outfile /tmp/foo -verbose -icc -memsrc -quantize 256 -strict -maxmemory 4m -fast -rgb  @@
+djpeg -colors 128 -skip 10,20 -report -crop 40x20+10+10 -grayscale -dct float -verbose -icc -gif0 -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -crop 40x20+10+10 -scale 1/4 -dct int -strict -gif0 -debug -rgb  @@
+djpeg -colors 128 -report -scale 1/4 -dither ordered -targa -outfile /tmp/foo -dct int -strict -fast -onepass  @@
+djpeg -skip 10,20 -report -grayscale -dither none -targa -quantize 256 -strict -fast -onepass -rgb  @@
+djpeg -report -outfile /tmp/foo -verbose -quantize 256 -gif0 -onepass  @@
+djpeg -skip 10,20 -nosmooth -report -crop 40x20+10+10 -dither ordered -pnm -outfile /tmp/foo -dct float -debug -onepass -rgb  @@
+djpeg -colors 128 -nosmooth -crop 40x20+10+10 -scale 1/4 -grayscale -dither fs -pnm -dct int -verbose -icc -strict -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -nosmooth -report -scale 1/4 -dither ordered -targa -verbose -icc -memsrc -strict -onepass -rgb  @@
+djpeg -colors 128 -report -crop 40x20+10+10 -grayscale -targa -outfile /tmp/foo -verbose -memsrc -onepass -rgb  @@
+djpeg -colors 128 -nosmooth -scale 1/4 -grayscale -targa -outfile /tmp/foo -dct float -verbose -icc -memsrc -strict -fast  @@
+djpeg -nosmooth -scale 1/4 -grayscale -targa -outfile /tmp/foo -dct float -icc -memsrc -strict -debug -maxmemory 4m -rgb  @@
+djpeg -skip 10,20 -os2 -nosmooth -crop 40x20+10+10 -scale 1/4 -grayscale -outfile /tmp/foo -icc -memsrc -quantize 256 -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -scale 1/4 -grayscale -targa -dct float -verbose -strict -fast -rgb  @@
+djpeg -colors 128 -os2 -nosmooth -crop 40x20+10+10 -scale 1/4 -grayscale -outfile /tmp/foo -dct float -memsrc -strict -debug -maxmemory 4m -fast -rgb  @@
+djpeg -skip 10,20 -nosmooth -dither fs -targa -outfile /tmp/foo -dct int -verbose -quantize 256 -strict -fast -onepass  @@
+djpeg -skip 10,20 -nosmooth -scale 1/4 -dither none -pnm -outfile /tmp/foo -verbose -icc -memsrc -quantize 256 -strict -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -nosmooth -bmp -report -scale 1/4 -grayscale -outfile /tmp/foo -icc -memsrc -debug  @@
+djpeg -skip 10,20 -crop 40x20+10+10 -scale 1/4 -grayscale -pnm -outfile /tmp/foo -dct fast -icc -memsrc -strict -debug -maxmemory 4m -onepass  @@
+djpeg -colors 128 -nosmooth -report -scale 1/4 -grayscale -targa -outfile /tmp/foo -verbose -icc -memsrc -strict -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -crop 40x20+10+10 -grayscale -dither fs -outfile /tmp/foo -dct float -icc -gif0 -debug -maxmemory 4m -onepass  @@
+djpeg -colors 128 -report -grayscale -dither none -targa -outfile /tmp/foo -icc -memsrc -strict -debug -onepass  @@
+djpeg -colors 128 -nosmooth -crop 40x20+10+10 -scale 1/4 -targa -outfile /tmp/foo -dct fast -icc -debug -maxmemory 4m -fast -rgb  @@
+djpeg -colors 128 -skip 10,20 -bmp -crop 40x20+10+10 -dither fs -outfile /tmp/foo -dct int -verbose -onepass -rgb  @@
+djpeg -colors 128 -os2 -report -scale 1/4 -outfile /tmp/foo -dct int -icc -strict -debug -maxmemory 4m -rgb  @@
+djpeg -dither ordered -targa -outfile /tmp/foo -verbose -memsrc -quantize 256 -strict -onepass  @@
+djpeg -skip 10,20 -nosmooth -crop 40x20+10+10 -scale 1/4 -targa -dct float -memsrc -debug -maxmemory 4m -onepass  @@
+djpeg -os2 -report -icc -memsrc -strict -debug -maxmemory 4m -rgb  @@
+djpeg -colors 128 -report -crop 40x20+10+10 -grayscale -dither ordered -pnm -outfile /tmp/foo -verbose -icc -fast -onepass -rgb  @@
+djpeg -skip 10,20 -nosmooth -report -crop 40x20+10+10 -targa -outfile /tmp/foo -memsrc -debug -maxmemory 4m -fast  @@
+djpeg -colors 128 -nosmooth -report -scale 1/4 -grayscale -pnm -outfile /tmp/foo -dct float -verbose -memsrc -maxmemory 4m -fast -rgb  @@
+djpeg -colors 128 -skip 10,20 -os2 -report -verbose -memsrc -strict -maxmemory 4m -onepass -rgb  @@
+djpeg -skip 10,20 -report -targa -dct int -verbose -icc -memsrc -quantize 256 -strict -maxmemory 4m -fast -rgb  @@
+djpeg -colors 128 -scale 1/4 -dither fs -targa -memsrc -strict -debug -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -nosmooth -bmp -report -crop 40x20+10+10 -grayscale -dither none -outfile /tmp/foo -dct fast -verbose -icc -memsrc -strict -onepass -rgb  @@
+djpeg -colors 128 -nosmooth -report -scale 1/4 -grayscale -targa -dct int -debug -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -report -grayscale -targa -outfile /tmp/foo -icc -strict -debug -fast  @@
+djpeg -crop 40x20+10+10 -grayscale -dither fs -pnm -outfile /tmp/foo -dct float -verbose -quantize 256 -onepass  @@
+djpeg -skip 10,20 -bmp -scale 1/4 -dither fs -verbose -icc -memsrc -quantize 256 -strict -fast -onepass  @@
+djpeg -colors 128 -nosmooth -crop 40x20+10+10 -scale 1/4 -dither fs -pnm -outfile /tmp/foo -icc -memsrc -strict -debug -onepass -rgb  @@
+djpeg -colors 128 -nosmooth -report -crop 40x20+10+10 -scale 1/4 -outfile /tmp/foo -dct fast -icc -gif0 -debug -maxmemory 4m -fast  @@
+djpeg -colors 128 -os2 -scale 1/4 -outfile /tmp/foo -verbose -strict -maxmemory 4m  @@
+djpeg -colors 128 -bmp -report -scale 1/4 -dither ordered -debug -onepass  @@
+djpeg -colors 128 -skip 10,20 -os2 -nosmooth -report -grayscale -dither none -verbose -icc -fast -onepass  @@
+djpeg -colors 128 -report -scale 1/4 -dither none -pnm -outfile /tmp/foo -dct int -icc -memsrc -strict -debug -onepass -rgb  @@
+djpeg -colors 128 -report -scale 1/4 -dither ordered -targa -outfile /tmp/foo -debug -fast -onepass -rgb  @@
+djpeg -skip 10,20 -os2 -nosmooth -report -crop 40x20+10+10 -dither fs -dct int -icc -strict -debug -onepass  @@
+djpeg -dither none -targa -outfile /tmp/foo -memsrc -quantize 256 -strict -fast -onepass -rgb  @@
+djpeg -colors 128 -nosmooth -bmp -report -crop 40x20+10+10 -outfile /tmp/foo -dct float -memsrc -strict -debug -maxmemory 4m -onepass -rgb  @@
+djpeg -nosmooth -crop 40x20+10+10 -grayscale -dither none -outfile /tmp/foo -dct float -verbose -icc -gif0 -onepass -rgb  @@
+djpeg -colors 128 -nosmooth -report -crop 40x20+10+10 -dither none -pnm -outfile /tmp/foo -dct int -icc -strict -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -crop 40x20+10+10 -pnm -outfile /tmp/foo -icc -memsrc -strict -debug -maxmemory 4m -fast -rgb  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -report -crop 40x20+10+10 -grayscale -dither fs -verbose -icc -gif0 -fast -onepass -rgb  @@
+djpeg -nosmooth -report -crop 40x20+10+10 -scale 1/4 -grayscale -dither fs -pnm -outfile /tmp/foo -icc -debug -maxmemory 4m -fast -onepass  @@
+djpeg -nosmooth -report -crop 40x20+10+10 -scale 1/4 -dither fs -pnm -memsrc -strict -debug -onepass -rgb  @@
+djpeg -skip 10,20 -nosmooth -report -crop 40x20+10+10 -dither none -pnm -dct fast -icc -debug -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -dither fs -targa -dct int -strict -debug -onepass -rgb  @@
+djpeg -os2 -nosmooth -report -dither fs -outfile /tmp/foo -dct fast -verbose -icc -strict -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -scale 1/4 -dither fs -pnm -dct float -verbose -memsrc -maxmemory 4m -onepass  @@
+djpeg -colors 128 -skip 10,20 -os2 -report -crop 40x20+10+10 -scale 1/4 -verbose -maxmemory 4m -fast -rgb  @@
+djpeg -colors 128 -report -crop 40x20+10+10 -targa -outfile /tmp/foo -dct fast -memsrc -strict -debug -rgb  @@
+djpeg -colors 128 -gif -nosmooth -report -crop 40x20+10+10 -scale 1/4 -outfile /tmp/foo -dct fast -debug -maxmemory 4m -rgb  @@
+djpeg -skip 10,20 -report -scale 1/4 -dither ordered -pnm -memsrc -strict -debug -maxmemory 4m -onepass -rgb  @@
+djpeg -nosmooth -report -targa -dct float -icc -memsrc -strict -debug -fast -onepass -rgb  @@
+djpeg -colors 128 -nosmooth -report -crop 40x20+10+10 -scale 1/4 -dither fs -pnm -outfile /tmp/foo -icc -memsrc -debug -fast -onepass  @@
+djpeg -colors 128 -nosmooth -report -scale 1/4 -grayscale -pnm -outfile /tmp/foo -verbose -icc -memsrc -strict -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -targa -dct float -verbose -icc -memsrc -fast  @@
+djpeg -colors 128 -os2 -dither none -dct fast -memsrc -debug -maxmemory 4m -onepass -rgb  @@
+djpeg -skip 10,20 -os2 -nosmooth -grayscale -dither ordered -icc -strict -debug -maxmemory 4m -onepass  @@
+djpeg -colors 128 -skip 10,20 -report -scale 1/4 -grayscale -dither none -targa -icc -debug -onepass  @@
+djpeg -skip 10,20 -bmp -scale 1/4 -grayscale -outfile /tmp/foo -dct fast -icc -memsrc -quantize 256 -onepass -rgb  @@
+djpeg -skip 10,20 -os2 -nosmooth -report -dither ordered -outfile /tmp/foo -icc -memsrc -debug -onepass -rgb  @@
+djpeg -nosmooth -bmp -strict -debug -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -os2 -scale 1/4 -outfile /tmp/foo -dct fast -verbose -icc -strict -fast -onepass -rgb  @@
+djpeg -skip 10,20 -nosmooth -scale 1/4 -grayscale -dither fs -pnm -outfile /tmp/foo -dct int -memsrc -quantize 256 -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -os2 -report -grayscale -dct int -icc -strict -maxmemory 4m -onepass  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -crop 40x20+10+10 -scale 1/4 -grayscale -pnm -verbose -memsrc -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -os2 -grayscale -dither fs -verbose -icc -strict -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -scale 1/4 -dither fs -targa -outfile /tmp/foo -verbose -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -bmp -report -crop 40x20+10+10 -grayscale -outfile /tmp/foo -dct int -verbose -memsrc -maxmemory 4m  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -bmp -report -outfile /tmp/foo -verbose -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -dither ordered -targa -icc -debug -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -grayscale -targa -outfile /tmp/foo -dct fast -icc -debug -maxmemory 4m -onepass  @@
+djpeg -nosmooth -scale 1/4 -dither none -targa -outfile /tmp/foo -verbose -quantize 256 -maxmemory 4m -onepass  @@
+djpeg -colors 128 -nosmooth -grayscale -dither ordered -targa -icc -strict -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -os2 -scale 1/4 -grayscale -dct float -verbose -memsrc -strict -rgb  @@
+djpeg -skip 10,20 -os2 -nosmooth -dither fs -icc -memsrc -quantize 256 -strict -onepass -rgb  @@
+djpeg -colors 128 -crop 40x20+10+10 -grayscale -targa -dct int -verbose -icc -memsrc -maxmemory 4m -fast  @@
+djpeg -colors 128 -os2 -report -crop 40x20+10+10 -scale 1/4 -dither ordered -memsrc -strict -debug -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -report -crop 40x20+10+10 -dither fs -pnm -icc -strict -debug -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -report -crop 40x20+10+10 -pnm -verbose -memsrc -strict -maxmemory 4m -fast  @@
+djpeg -nosmooth -bmp -scale 1/4 -dither ordered -quantize 256 -onepass -rgb  @@
+djpeg -crop 40x20+10+10 -scale 1/4 -targa -dct fast -memsrc -debug -fast -onepass  @@
+djpeg -colors 128 -os2 -dither ordered -outfile /tmp/foo -verbose -memsrc -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -bmp -crop 40x20+10+10 -grayscale -icc -debug -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -crop 40x20+10+10 -scale 1/4 -dither fs -dct int -icc -gif0 -debug -maxmemory 4m -onepass -rgb  @@
+djpeg -os2 -nosmooth -scale 1/4 -dither none -outfile /tmp/foo -quantize 256 -fast -onepass  @@
+djpeg -os2 -scale 1/4 -grayscale -verbose -memsrc -quantize 256 -maxmemory 4m -onepass  @@
+djpeg -colors 128 -crop 40x20+10+10 -targa -verbose -icc -memsrc -strict -maxmemory 4m -onepass  @@
+djpeg -skip 10,20 -nosmooth -report -crop 40x20+10+10 -scale 1/4 -targa -dct int -verbose -memsrc -quantize 256 -maxmemory 4m  @@
+djpeg -colors 128 -skip 10,20 -os2 -nosmooth -report -scale 1/4 -dither fs -icc -debug -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -report -crop 40x20+10+10 -grayscale -targa -icc -strict -onepass  @@
+djpeg -os2 -report -crop 40x20+10+10 -scale 1/4 -grayscale -dither fs -outfile /tmp/foo -dct fast -verbose -memsrc -quantize 256 -maxmemory 4m -onepass  @@
+djpeg -os2 -nosmooth -scale 1/4 -dct float -debug -fast -onepass  @@
+djpeg -bmp -report -crop 40x20+10+10 -scale 1/4 -grayscale -dither ordered -outfile /tmp/foo -verbose -icc -memsrc -quantize 256 -fast -onepass -rgb  @@
+djpeg -colors 128 -os2 -nosmooth -scale 1/4 -verbose -icc -memsrc -maxmemory 4m -fast  @@
+djpeg -colors 128 -nosmooth -bmp -report -crop 40x20+10+10 -scale 1/4 -dither none -dct fast -verbose -memsrc -fast -onepass  @@
+djpeg -colors 128 -os2 -report -crop 40x20+10+10 -grayscale -dither fs -outfile /tmp/foo -dct fast -memsrc -debug -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -crop 40x20+10+10 -grayscale -dither fs -targa -debug -fast -onepass  @@
+djpeg -skip 10,20 -bmp -scale 1/4 -grayscale -dither fs -dct int -icc -debug -maxmemory 4m -fast -onepass  @@
+djpeg -nosmooth -report -crop 40x20+10+10 -dither none -pnm -verbose -memsrc -maxmemory 4m -onepass -rgb  @@
+djpeg -os2 -report -crop 40x20+10+10 -scale 1/4 -dither none -verbose -icc -memsrc -quantize 256 -strict -maxmemory 4m -fast -onepass  @@
+djpeg -skip 10,20 -nosmooth -scale 1/4 -grayscale -dither fs -targa -dct int -debug -fast -onepass  @@
+djpeg -nosmooth -report -crop 40x20+10+10 -scale 1/4 -pnm -outfile /tmp/foo -verbose -icc -memsrc -quantize 256 -fast  @@
+djpeg -nosmooth -report -grayscale -targa -outfile /tmp/foo -icc -memsrc -quantize 256 -maxmemory 4m  @@
+djpeg -colors 128 -bmp -report -crop 40x20+10+10 -scale 1/4 -grayscale -dct float -verbose -memsrc -maxmemory 4m -onepass -rgb  @@
+djpeg -bmp -crop 40x20+10+10 -grayscale -dither ordered -verbose -memsrc -quantize 256 -strict -maxmemory 4m -onepass  @@
+djpeg -colors 128 -nosmooth -bmp -crop 40x20+10+10 -dither fs -outfile /tmp/foo -dct float -memsrc -debug -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -report -crop 40x20+10+10 -scale 1/4 -pnm -dct int -verbose -icc -strict -fast  @@
+djpeg -colors 128 -skip 10,20 -scale 1/4 -dither ordered -pnm -outfile /tmp/foo -verbose -fast -onepass -rgb  @@
+djpeg -report -scale 1/4 -dither ordered -pnm -dct float -icc -strict -debug -maxmemory 4m -fast -onepass  @@
+djpeg -skip 10,20 -bmp -report -dither none -outfile /tmp/foo -verbose -onepass  @@
+djpeg -skip 10,20 -grayscale -pnm -outfile /tmp/foo -verbose -icc -memsrc -quantize 256 -strict -onepass  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -report -pnm -memsrc -debug -maxmemory 4m -fast -onepass  @@
+djpeg -nosmooth -dither ordered -pnm -dct float -strict -debug -onepass  @@
+djpeg -skip 10,20 -os2 -nosmooth -grayscale -dct int -verbose -memsrc -quantize 256 -strict -rgb  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -dither fs -pnm -memsrc -debug -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -os2 -nosmooth -report -grayscale -outfile /tmp/foo -dct float -verbose -icc -memsrc -rgb  @@
+djpeg -skip 10,20 -report -crop 40x20+10+10 -grayscale -map -pnm -outfile /tmp/foo -dct int -verbose -memsrc -quantize 256 -strict -maxmemory 4m -fast -rgb  @@
+djpeg -skip 10,20 -report -dither ordered -targa -debug -onepass -rgb  @@
+djpeg -colors 128 -report -dither ordered -pnm -outfile /tmp/foo -dct int -verbose -icc -memsrc -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -scale 1/4 -dither fs -pnm -outfile /tmp/foo -dct int -icc -debug -fast -onepass -rgb  @@
+djpeg -colors 128 -nosmooth -bmp -crop 40x20+10+10 -scale 1/4 -dither ordered -outfile /tmp/foo -verbose -strict -maxmemory 4m -onepass  @@
+djpeg -os2 -outfile /tmp/foo -dct int -verbose -memsrc -quantize 256 -fast -rgb  @@
+djpeg -colors 128 -skip 10,20 -report -crop 40x20+10+10 -scale 1/4 -grayscale -pnm -icc -memsrc -fast -rgb  @@
+djpeg -os2 -nosmooth -grayscale -dither none -icc -memsrc -quantize 256 -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -os2 -nosmooth -crop 40x20+10+10 -grayscale -dct fast -verbose -quantize 256 -strict -fast -onepass -rgb  @@
+djpeg -colors 128 -nosmooth -dct fast -gif0 -debug -maxmemory 4m  @@
+djpeg -skip 10,20 -bmp -report -scale 1/4 -grayscale -outfile /tmp/foo -verbose -quantize 256 -strict -maxmemory 4m -rgb  @@
+djpeg -colors 128 -scale 1/4 -grayscale -dither ordered -pnm -memsrc -debug -maxmemory 4m -onepass  @@
+djpeg -colors 128 -nosmooth -bmp -report -crop 40x20+10+10 -scale 1/4 -dither fs -dct fast -icc -memsrc -debug -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -bmp -scale 1/4 -outfile /tmp/foo -icc -fast -onepass -rgb  @@
+djpeg -skip 10,20 -report -crop 40x20+10+10 -pnm -outfile /tmp/foo -verbose -memsrc -quantize 256 -strict -maxmemory 4m  @@
+djpeg -colors 128 -bmp -report -crop 40x20+10+10 -dither ordered -outfile /tmp/foo -icc -memsrc -debug -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -os2 -scale 1/4 -grayscale -verbose -maxmemory 4m -fast  @@
+djpeg -colors 128 -crop 40x20+10+10 -scale 1/4 -grayscale -pnm -outfile /tmp/foo -dct float -memsrc -strict  @@
+djpeg -bmp -report -crop 40x20+10+10 -grayscale -dct fast -memsrc -strict -debug  @@
+djpeg -skip 10,20 -os2 -report -crop 40x20+10+10 -scale 1/4 -grayscale -outfile /tmp/foo -verbose -quantize 256 -strict  @@
+djpeg -skip 10,20 -pnm -dct float -icc -memsrc -quantize 256 -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -skip 10,20 -nosmooth -report -crop 40x20+10+10 -scale 1/4 -pnm -quantize 256 -fast -onepass  @@
+djpeg -skip 10,20 -scale 1/4 -pnm -outfile /tmp/foo -dct int -quantize 256 -strict -fast -rgb  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -bmp -report -outfile /tmp/foo -strict -debug -maxmemory 4m -rgb  @@
+djpeg -os2 -report -crop 40x20+10+10 -scale 1/4 -outfile /tmp/foo -dct int -memsrc -quantize 256 -strict -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -crop 40x20+10+10 -scale 1/4 -pnm -outfile /tmp/foo -dct fast -verbose -strict -rgb  @@
+djpeg -skip 10,20 -os2 -nosmooth -outfile /tmp/foo -dct int -icc -debug -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -grayscale -outfile /tmp/foo -verbose -icc -gif0 -maxmemory 4m -fast -rgb  @@
+djpeg -skip 10,20 -os2 -scale 1/4 -dct float -icc -debug -fast -rgb  @@
+djpeg -colors 128 -nosmooth -bmp -crop 40x20+10+10 -scale 1/4 -grayscale -outfile /tmp/foo -dct int -verbose -strict -fast -onepass  @@
+djpeg -os2 -nosmooth -crop 40x20+10+10 -scale 1/4 -dct float -quantize 256 -strict -maxmemory 4m -fast -rgb  @@
+djpeg -os2 -crop 40x20+10+10 -dither none -dct fast -verbose -quantize 256 -strict -fast -onepass  @@
+djpeg -crop 40x20+10+10 -pnm -verbose -quantize 256 -strict -onepass -rgb  @@
+djpeg -colors 128 -bmp -dither ordered -verbose -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -scale 1/4 -targa -memsrc -quantize 256 -strict -rgb  @@
+djpeg -report -scale 1/4 -pnm -outfile /tmp/foo -dct float -verbose -quantize 256 -onepass -rgb  @@
+djpeg -report -dither ordered -pnm -dct fast -icc -memsrc -quantize 256 -fast -onepass  @@
+djpeg -colors 128 -report -scale 1/4 -grayscale -targa -icc -memsrc -maxmemory 4m  @@
+djpeg -colors 128 -os2 -nosmooth -report -crop 40x20+10+10 -scale 1/4 -grayscale -dither fs -dct int -icc -debug -maxmemory 4m -onepass  @@
+djpeg -colors 128 -bmp -crop 40x20+10+10 -scale 1/4 -dct int -icc -memsrc -strict -debug -maxmemory 4m -fast -rgb  @@
+djpeg -colors 128 -nosmooth -report -pnm -verbose -strict -maxmemory 4m  @@
+djpeg -skip 10,20 -report -scale 1/4 -grayscale -dither fs -icc -gif0 -debug -fast -onepass  @@
+djpeg -crop 40x20+10+10 -dct fast -memsrc -quantize 256 -gif0  @@
+djpeg -colors 128 -os2 -crop 40x20+10+10 -scale 1/4 -grayscale -dither ordered -dct fast -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -crop 40x20+10+10 -targa -icc -memsrc -strict -debug -rgb  @@
+djpeg -colors 128 -nosmooth -grayscale -pnm -outfile /tmp/foo -dct float -icc -strict -debug -fast  @@
+djpeg -nosmooth -report -targa -verbose -quantize 256 -onepass  @@
+djpeg -nosmooth -pnm -outfile /tmp/foo -memsrc -quantize 256 -strict  @@
+djpeg -colors 128 -crop 40x20+10+10 -scale 1/4 -pnm -icc -strict -debug -onepass  @@
+djpeg -colors 128 -skip 10,20 -bmp -report -grayscale -dct int -memsrc -rgb  @@
+djpeg -skip 10,20 -report -scale 1/4 -grayscale -map -pnm -dct float -verbose -memsrc -quantize 256 -strict  @@
+djpeg -colors 128 -os2 -nosmooth -grayscale -dither none -outfile /tmp/foo -onepass  @@
+djpeg -colors 128 -os2 -nosmooth -crop 40x20+10+10 -outfile /tmp/foo -dct float -verbose -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -nosmooth -bmp -report -crop 40x20+10+10 -dct fast -strict -maxmemory 4m  @@
+djpeg -colors 128 -os2 -crop 40x20+10+10 -dither fs -outfile /tmp/foo -dct int -verbose -memsrc -onepass -rgb  @@
+djpeg -colors 128 -os2 -nosmooth -grayscale -dct int -icc -debug -fast -onepass -rgb  @@
+djpeg -colors 128 -crop 40x20+10+10 -scale 1/4 -targa -outfile /tmp/foo -verbose -memsrc -maxmemory 4m  @@
+djpeg -colors 128 -skip 10,20 -os2 -crop 40x20+10+10 -dct float -debug  @@
+djpeg -colors 128 -scale 1/4 -dither none -pnm -outfile /tmp/foo -icc -memsrc -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -icc -gif0 -debug -fast -onepass -rgb  @@
+djpeg -nosmooth -bmp -report -crop 40x20+10+10 -scale 1/4 -grayscale -dither fs -outfile /tmp/foo -debug -onepass  @@
+djpeg -colors 128 -nosmooth -dither fs -pnm -dct float -verbose -icc -strict -fast -onepass -rgb  @@
+djpeg -colors 128 -nosmooth -crop 40x20+10+10 -pnm -memsrc -maxmemory 4m -fast  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -bmp -scale 1/4 -dct fast -verbose -icc -strict -maxmemory 4m -rgb  @@
+djpeg -skip 10,20 -nosmooth -crop 40x20+10+10 -scale 1/4 -grayscale -map -pnm -outfile /tmp/foo -dct float -icc -memsrc -quantize 256 -rgb  @@
+djpeg -nosmooth -bmp -report -crop 40x20+10+10 -grayscale -map -icc -memsrc -quantize 256 -strict -maxmemory 4m -fast  @@
+djpeg -skip 10,20 -report -crop 40x20+10+10 -scale 1/4 -grayscale -targa -map -icc -memsrc -debug -maxmemory 4m -rgb  @@
+djpeg -nosmooth -report -crop 40x20+10+10 -scale 1/4 -grayscale -map -pnm -icc -memsrc -strict -debug -maxmemory 4m -fast -rgb  @@
+djpeg -colors 128 -nosmooth -report -crop 40x20+10+10 -targa -verbose -strict  @@
+djpeg -report -dither fs -pnm -dct fast -memsrc -maxmemory 4m -fast -onepass  @@
+djpeg -crop 40x20+10+10 -pnm -outfile /tmp/foo -icc -memsrc -debug -maxmemory 4m  @@
+djpeg -colors 128 -skip 10,20 -os2 -nosmooth -crop 40x20+10+10 -scale 1/4 -outfile /tmp/foo -verbose -icc -fast -rgb  @@
+djpeg -nosmooth -bmp -report -crop 40x20+10+10 -outfile /tmp/foo -dct int -verbose -icc -memsrc -quantize 256 -onepass  @@
+djpeg -nosmooth -report -scale 1/4 -pnm -dct fast -icc -strict -debug -fast -onepass -rgb  @@
+djpeg -nosmooth -bmp -report -crop 40x20+10+10 -scale 1/4 -grayscale -map -icc -memsrc -strict -debug  @@
+djpeg -colors 128 -os2 -crop 40x20+10+10 -grayscale -dct fast -verbose -icc -strict -maxmemory 4m -fast  @@
+djpeg -skip 10,20 -nosmooth -report -crop 40x20+10+10 -grayscale -map -pnm -outfile /tmp/foo -verbose -quantize 256 -strict -rgb  @@
+djpeg -colors 128 -nosmooth -grayscale -dither ordered -pnm -icc -memsrc -debug -onepass -rgb  @@
+djpeg -skip 10,20 -nosmooth -scale 1/4 -map -pnm -outfile /tmp/foo -dct fast -verbose -memsrc -strict -maxmemory 4m -fast -rgb  @@
+djpeg -scale 1/4 -dither ordered -pnm -outfile /tmp/foo -debug -maxmemory 4m -onepass -rgb  @@
+djpeg -skip 10,20 -gif -crop 40x20+10+10 -scale 1/4 -grayscale -map -icc -memsrc -strict -debug -fast -rgb  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -grayscale -pnm -dct fast -verbose -maxmemory 4m -rgb  @@
+djpeg -colors 128 -skip 10,20 -report -grayscale -pnm -outfile /tmp/foo -icc -strict -maxmemory 4m -rgb  @@
+djpeg -nosmooth -bmp -crop 40x20+10+10 -dct float -verbose -quantize 256 -fast -rgb  @@
+djpeg -skip 10,20 -report -crop 40x20+10+10 -scale 1/4 -map -pnm -verbose -memsrc -quantize 256 -strict -maxmemory 4m -fast -rgb  @@
+djpeg -nosmooth -crop 40x20+10+10 -grayscale -map -pnm -dct fast -icc -memsrc -strict -debug -fast  @@
+djpeg -skip 10,20 -report -crop 40x20+10+10 -scale 1/4 -grayscale -dither none -targa -dct int -verbose -icc -maxmemory 4m -onepass -rgb  @@
+djpeg -nosmooth -report -crop 40x20+10+10 -scale 1/4 -grayscale -targa -map -verbose -quantize 256 -maxmemory 4m -fast -rgb  @@
+djpeg -skip 10,20 -report -crop 40x20+10+10 -scale 1/4 -grayscale -dither ordered -pnm -outfile /tmp/foo -verbose -icc -quantize 256 -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -nosmooth -crop 40x20+10+10 -pnm -dct int -icc -memsrc -strict -maxmemory 4m -rgb  @@
+djpeg -skip 10,20 -nosmooth -report -crop 40x20+10+10 -scale 1/4 -targa -map -verbose -icc -memsrc -quantize 256 -strict -fast  @@
+djpeg -colors 128 -skip 10,20 -bmp -report -crop 40x20+10+10 -verbose -icc -fast  @@
+djpeg -report -scale 1/4 -grayscale -map -pnm -dct float -strict -debug -maxmemory 4m  @@
+djpeg -nosmooth -crop 40x20+10+10 -grayscale -map -pnm -outfile /tmp/foo -dct int -verbose -icc -memsrc -quantize 256 -fast -rgb  @@
+djpeg -colors 128 -nosmooth -report -crop 40x20+10+10 -scale 1/4 -grayscale -pnm -debug -rgb  @@
+djpeg -colors 128 -os2 -crop 40x20+10+10 -dither ordered -outfile /tmp/foo -icc -memsrc -onepass -rgb  @@
+djpeg -gif -report -crop 40x20+10+10 -scale 1/4 -map -verbose -memsrc -quantize 256 -strict -fast -rgb  @@
+djpeg -skip 10,20 -bmp -report -crop 40x20+10+10 -map -icc -memsrc -strict -debug -rgb  @@
+djpeg -crop 40x20+10+10 -scale 1/4 -grayscale -map -pnm -outfile /tmp/foo -dct fast -verbose -icc -strict -maxmemory 4m -fast  @@
+djpeg -colors 128 -os2 -report -crop 40x20+10+10 -scale 1/4 -outfile /tmp/foo -icc -memsrc -debug  @@
+djpeg -pnm -outfile /tmp/foo -verbose -strict -fast  @@
+djpeg -nosmooth -report -crop 40x20+10+10 -map -pnm -outfile /tmp/foo -icc -memsrc -strict -debug -rgb  @@
+djpeg -skip 10,20 -crop 40x20+10+10 -map -pnm -outfile /tmp/foo -dct fast -memsrc -debug -maxmemory 4m -fast  @@
+djpeg -skip 10,20 -nosmooth -report -scale 1/4 -grayscale -map -pnm -outfile /tmp/foo -verbose -icc -memsrc -strict -fast  @@
+djpeg -skip 10,20 -nosmooth -crop 40x20+10+10 -grayscale -targa -map -memsrc -strict -debug -fast  @@
+djpeg -bmp -crop 40x20+10+10 -dither fs -outfile /tmp/foo -icc -strict -debug -onepass -rgb  @@
+djpeg -skip 10,20 -scale 1/4 -grayscale -map -pnm -outfile /tmp/foo -dct float -verbose -icc -memsrc -quantize 256 -maxmemory 4m  @@
+djpeg -colors 128 -nosmooth -grayscale -dither ordered -verbose -icc -gif0 -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -nosmooth -bmp -report -crop 40x20+10+10 -verbose -icc -memsrc -quantize 256 -onepass  @@
+djpeg -colors 128 -nosmooth -crop 40x20+10+10 -scale 1/4 -grayscale -pnm -dct int -icc -memsrc -maxmemory 4m  @@
+djpeg -skip 10,20 -nosmooth -crop 40x20+10+10 -grayscale -map -pnm -strict -debug -maxmemory 4m -rgb  @@
+djpeg -nosmooth -report -crop 40x20+10+10 -grayscale -map -memsrc -quantize 256 -strict -fast  @@
+djpeg -nosmooth -dither ordered -pnm -memsrc -debug -maxmemory 4m -onepass  @@
+djpeg -os2 -report -crop 40x20+10+10 -scale 1/4 -outfile /tmp/foo -quantize 256 -fast -onepass -rgb  @@
+djpeg -skip 10,20 -gif -nosmooth -report -grayscale -map -verbose -icc -memsrc -quantize 256 -strict -fast -rgb  @@
+djpeg -skip 10,20 -report -map -pnm -dct float -icc -memsrc -strict -debug  @@
+djpeg -nosmooth -report -targa -map -memsrc -strict -debug -maxmemory 4m -fast -rgb  @@
+djpeg -nosmooth -bmp -crop 40x20+10+10 -dct int -icc -strict -debug -maxmemory 4m  @@
+djpeg -skip 10,20 -os2 -nosmooth -report -crop 40x20+10+10 -map -strict -debug -maxmemory 4m -fast  @@
+djpeg -skip 10,20 -os2 -crop 40x20+10+10 -dither ordered -outfile /tmp/foo -dct float -icc -quantize 256 -strict -maxmemory 4m -onepass  @@
+djpeg -skip 10,20 -nosmooth -bmp -crop 40x20+10+10 -grayscale -dither none -outfile /tmp/foo -verbose -icc -quantize 256 -maxmemory 4m -onepass -rgb  @@
+djpeg -report -crop 40x20+10+10 -scale 1/4 -map -pnm -outfile /tmp/foo -dct int -debug -maxmemory 4m -rgb  @@
+djpeg -scale 1/4 -grayscale -targa -map -verbose -memsrc -quantize 256 -strict -fast  @@
+djpeg -colors 128 -bmp -crop 40x20+10+10 -grayscale -outfile /tmp/foo -verbose -icc -strict  @@
+djpeg -skip 10,20 -nosmooth -bmp -crop 40x20+10+10 -grayscale -map -memsrc -strict -debug  @@
+djpeg -colors 128 -report -crop 40x20+10+10 -grayscale -dither fs -targa -verbose -icc -maxmemory 4m -fast -onepass  @@
+djpeg -skip 10,20 -bmp -crop 40x20+10+10 -scale 1/4 -grayscale -dither ordered -dct fast -icc -quantize 256 -onepass  @@
+djpeg -skip 10,20 -nosmooth -crop 40x20+10+10 -scale 1/4 -map -pnm -strict -debug -fast -rgb  @@
+djpeg -skip 10,20 -report -crop 40x20+10+10 -scale 1/4 -grayscale -targa -dct fast -icc -quantize 256 -fast -rgb  @@
+djpeg -skip 10,20 -report -crop 40x20+10+10 -grayscale -map -pnm -strict -maxmemory 4m -fast  @@
+djpeg -skip 10,20 -crop 40x20+10+10 -scale 1/4 -grayscale -map -icc -memsrc -gif0 -maxmemory 4m -fast -rgb  @@
+djpeg -skip 10,20 -nosmooth -crop 40x20+10+10 -map -memsrc -gif0 -debug -maxmemory 4m -fast -rgb  @@
+djpeg -skip 10,20 -report -grayscale -map -pnm -dct int -verbose -memsrc -quantize 256 -rgb  @@
+djpeg -os2 -report -crop 40x20+10+10 -outfile /tmp/foo -icc -memsrc -maxmemory 4m -onepass -rgb  @@
+djpeg -skip 10,20 -nosmooth -crop 40x20+10+10 -grayscale -map -icc -gif0 -debug -fast -rgb  @@
+djpeg -skip 10,20 -nosmooth -crop 40x20+10+10 -scale 1/4 -grayscale -targa -outfile /tmp/foo -verbose -icc -quantize 256 -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -nosmooth -report -map -pnm -memsrc -quantize 256 -strict -fast -rgb  @@
+djpeg -skip 10,20 -nosmooth -report -scale 1/4 -grayscale -targa -map -verbose -icc -memsrc -maxmemory 4m  @@
+djpeg -skip 10,20 -report -scale 1/4 -map -icc -strict -gif0 -debug -maxmemory 4m  @@
+djpeg -skip 10,20 -gif -nosmooth -report -scale 1/4 -map -icc -memsrc -debug -maxmemory 4m -fast -rgb  @@
+djpeg -os2 -nosmooth -crop 40x20+10+10 -map -memsrc -strict -debug -fast  @@
+djpeg -colors 128 -skip 10,20 -crop 40x20+10+10 -dither none -pnm -dct fast -verbose -icc -maxmemory 4m -onepass  @@
+djpeg -skip 10,20 -nosmooth -report -grayscale -map -pnm -outfile /tmp/foo -dct int -icc -debug -maxmemory 4m  @@
+djpeg -colors 128 -pnm -outfile /tmp/foo -dct fast -verbose  @@
+djpeg -skip 10,20 -nosmooth -report -crop 40x20+10+10 -grayscale -map -pnm -outfile /tmp/foo -verbose -icc -maxmemory 4m -fast -rgb  @@
+djpeg -os2 -nosmooth -report -scale 1/4 -grayscale -dither fs -outfile /tmp/foo -dct fast -verbose -icc -quantize 256 -strict -onepass -rgb  @@
+djpeg -skip 10,20 -crop 40x20+10+10 -map -pnm -outfile /tmp/foo -icc -memsrc -quantize 256 -strict  @@
+djpeg -skip 10,20 -nosmooth -report -grayscale -targa -map -verbose -quantize 256  @@
+djpeg -colors 128 -nosmooth -crop 40x20+10+10 -grayscale -targa -outfile /tmp/foo -verbose -icc -maxmemory 4m  @@
+djpeg -report -grayscale -map -pnm -outfile /tmp/foo -dct int -memsrc -debug -fast  @@
+djpeg -skip 10,20 -os2 -report -scale 1/4 -grayscale -map -verbose -memsrc -fast -rgb  @@
+djpeg -gif -grayscale -map -verbose -quantize 256 -strict -maxmemory 4m -fast -rgb  @@
+djpeg -gif -nosmooth -crop 40x20+10+10 -grayscale -map -icc -debug -maxmemory 4m -rgb  @@
+djpeg -crop 40x20+10+10 -scale 1/4 -grayscale -map -pnm -memsrc -debug  @@
+djpeg -skip 10,20 -nosmooth -report -crop 40x20+10+10 -scale 1/4 -grayscale -targa -map -dct float -verbose -strict -maxmemory 4m  @@
+djpeg -colors 128 -nosmooth -bmp -report -grayscale -outfile /tmp/foo -dct float -verbose -icc -maxmemory 4m -fast -rgb  @@
+djpeg -colors 128 -bmp -crop 40x20+10+10 -outfile /tmp/foo -icc -strict -fast  @@
+djpeg -skip 10,20 -bmp -report -scale 1/4 -map -icc -memsrc -quantize 256 -maxmemory 4m -fast -rgb  @@
+djpeg -skip 10,20 -gif -nosmooth -crop 40x20+10+10 -scale 1/4 -dither none -outfile /tmp/foo -icc -quantize 256 -strict -onepass -rgb  @@
+djpeg -nosmooth -crop 40x20+10+10 -scale 1/4 -map -memsrc -gif0 -debug -rgb  @@
+djpeg -gif -nosmooth -report -crop 40x20+10+10 -grayscale -dither fs -verbose -icc -quantize 256 -onepass  @@
+djpeg -skip 10,20 -gif -report -grayscale -map -memsrc -strict -maxmemory 4m -rgb  @@
+djpeg -skip 10,20 -nosmooth -report -crop 40x20+10+10 -grayscale -targa -map -quantize 256 -maxmemory 4m -fast -rgb  @@
+djpeg -crop 40x20+10+10 -grayscale -targa -map -memsrc -quantize 256 -maxmemory 4m  @@
+djpeg -crop 40x20+10+10 -map -pnm -dct fast -verbose -quantize 256 -fast  @@
+djpeg -report -scale 1/4 -grayscale -dither ordered -dct float -icc -quantize 256 -gif0 -maxmemory 4m -onepass -rgb  @@
+djpeg -skip 10,20 -nosmooth -report -scale 1/4 -map -pnm -outfile /tmp/foo -dct float -icc -quantize 256 -maxmemory 4m -fast  @@
+djpeg -bmp -scale 1/4 -grayscale -dither none -outfile /tmp/foo -dct fast -verbose -icc -quantize 256 -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -skip 10,20 -nosmooth -crop 40x20+10+10 -grayscale -map -pnm -dct int -verbose -icc -quantize 256 -strict -maxmemory 4m -rgb  @@
+djpeg -skip 10,20 -nosmooth -crop 40x20+10+10 -targa -map -memsrc -quantize 256  @@
+djpeg -nosmooth -report -crop 40x20+10+10 -map -verbose -gif0 -maxmemory 4m -fast  @@
+djpeg -skip 10,20 -nosmooth -crop 40x20+10+10 -grayscale -map -pnm -strict  @@
+djpeg -crop 40x20+10+10 -map -verbose -icc -memsrc -quantize 256 -gif0 -maxmemory 4m -rgb  @@
+djpeg -skip 10,20 -report -scale 1/4 -grayscale -map -pnm -verbose -icc -memsrc -maxmemory 4m -rgb  @@
+djpeg -skip 10,20 -bmp -scale 1/4 -map -memsrc -strict -debug -fast  @@
+djpeg -os2 -nosmooth -crop 40x20+10+10 -grayscale -map -debug -maxmemory 4m -rgb  @@
+djpeg -report -crop 40x20+10+10 -grayscale -pnm -dct int -verbose -icc -quantize 256 -strict -maxmemory 4m -rgb  @@
+djpeg -skip 10,20 -gif -nosmooth -scale 1/4 -grayscale -map -icc -strict -fast  @@
+djpeg -nosmooth -report -grayscale -dither ordered -pnm -outfile /tmp/foo -verbose -icc -quantize 256 -strict -onepass  @@
+djpeg -skip 10,20 -nosmooth -crop 40x20+10+10 -map -pnm -verbose -quantize 256 -rgb  @@
+djpeg -grayscale -map -pnm -quantize 256 -strict -maxmemory 4m -rgb  @@
+djpeg -skip 10,20 -nosmooth -report -map -verbose -icc -strict -gif0 -maxmemory 4m -fast -rgb  @@
+djpeg -skip 10,20 -nosmooth -report -crop 40x20+10+10 -scale 1/4 -targa -map -outfile /tmp/foo -dct float -verbose -quantize 256 -rgb  @@
+djpeg -skip 10,20 -os2 -nosmooth -report -crop 40x20+10+10 -grayscale -map -dct float -verbose -icc  @@
+djpeg -report -scale 1/4 -grayscale -map -pnm -outfile /tmp/foo -dct fast -verbose -icc -quantize 256 -strict -rgb  @@
+djpeg -skip 10,20 -nosmooth -crop 40x20+10+10 -scale 1/4 -grayscale -targa -map -outfile /tmp/foo -icc -memsrc -strict -debug -maxmemory 4m -fast -rgb  @@
+djpeg -nosmooth -report -crop 40x20+10+10 -targa -dct int -icc -quantize 256 -fast -onepass  @@
+djpeg -skip 10,20 -nosmooth -report -crop 40x20+10+10 -scale 1/4 -dither fs -icc -quantize 256 -strict -gif0 -maxmemory 4m -fast -onepass  @@
+djpeg -nosmooth -grayscale -targa -map -verbose -icc -strict -rgb  @@
+djpeg -skip 10,20 -nosmooth -report -crop 40x20+10+10 -targa -map -outfile /tmp/foo -icc -memsrc -quantize 256 -strict -maxmemory 4m -rgb  @@
+djpeg -nosmooth -crop 40x20+10+10 -dither none -targa -icc -quantize 256 -onepass  @@
+djpeg -skip 10,20 -nosmooth -crop 40x20+10+10 -grayscale -targa -map -outfile /tmp/foo -dct fast -memsrc -strict -debug -fast -rgb  @@
+djpeg -skip 10,20 -nosmooth -bmp -report -crop 40x20+10+10 -outfile /tmp/foo -icc -quantize 256  @@
+djpeg -skip 10,20 -nosmooth -crop 40x20+10+10 -scale 1/4 -dct fast -verbose -icc -quantize 256 -gif0 -maxmemory 4m  @@
+djpeg -report -scale 1/4 -map -pnm -dct fast -icc -strict -debug -fast  @@
+djpeg -skip 10,20 -nosmooth -scale 1/4 -grayscale -map -verbose -quantize 256 -gif0 -fast  @@
+djpeg -skip 10,20 -bmp -report -crop 40x20+10+10 -scale 1/4 -grayscale -map -outfile /tmp/foo -debug -fast -rgb  @@
+djpeg -skip 10,20 -os2 -report -crop 40x20+10+10 -grayscale -map -dct float -verbose -memsrc -quantize 256 -maxmemory 4m -fast -rgb  @@
+djpeg -gif -crop 40x20+10+10 -scale 1/4 -map -debug -maxmemory 4m -fast -rgb  @@
+djpeg -skip 10,20 -report -crop 40x20+10+10 -scale 1/4 -targa -map -dct fast -icc -strict -debug -rgb  @@
+djpeg -nosmooth -crop 40x20+10+10 -scale 1/4 -grayscale -targa -map -outfile /tmp/foo -dct float -verbose -memsrc -strict -maxmemory 4m -fast -rgb  @@
+djpeg -skip 10,20 -os2 -scale 1/4 -map -icc -memsrc -quantize 256 -fast  @@
+djpeg -nosmooth -crop 40x20+10+10 -targa -dct fast -icc -quantize 256 -strict -maxmemory 4m  @@
+djpeg -skip 10,20 -report -crop 40x20+10+10 -scale 1/4 -targa -map -outfile /tmp/foo -dct int -icc -memsrc -strict -debug -fast  @@
+djpeg -gif -nosmooth -report -crop 40x20+10+10 -scale 1/4 -grayscale -map -dct fast -icc -debug  @@
+djpeg -skip 10,20 -crop 40x20+10+10 -scale 1/4 -map -pnm -quantize 256 -maxmemory 4m  @@
+djpeg -os2 -nosmooth -report -crop 40x20+10+10 -grayscale -map -outfile /tmp/foo -dct fast -icc -quantize 256 -strict -rgb  @@
+djpeg -skip 10,20 -report -scale 1/4 -grayscale -targa -map -outfile /tmp/foo -icc -quantize 256 -strict -rgb  @@
+djpeg -skip 10,20 -os2 -nosmooth -report -crop 40x20+10+10 -scale 1/4 -map -outfile /tmp/foo -memsrc -debug -maxmemory 4m -rgb  @@
+djpeg -skip 10,20 -nosmooth -crop 40x20+10+10 -grayscale -outfile /tmp/foo -icc -quantize 256 -gif0 -fast -rgb  @@
+djpeg -skip 10,20 -report -outfile /tmp/foo -dct fast -verbose -icc -quantize 256 -strict -gif0 -fast -rgb  @@
+djpeg -skip 10,20 -report -crop 40x20+10+10 -grayscale -pnm -icc -quantize 256 -fast  @@
+djpeg -skip 10,20 -gif -report -crop 40x20+10+10 -scale 1/4 -grayscale -map -outfile /tmp/foo -memsrc -quantize 256 -maxmemory 4m  @@
+djpeg -skip 10,20 -report -crop 40x20+10+10 -scale 1/4 -grayscale -map -outfile /tmp/foo -dct int -verbose -quantize 256 -strict -gif0 -maxmemory 4m  @@
+djpeg -skip 10,20 -os2 -nosmooth -crop 40x20+10+10 -grayscale -map -outfile /tmp/foo -verbose -memsrc -strict -maxmemory 4m  @@
+djpeg -skip 10,20 -report -grayscale -targa -map -outfile /tmp/foo -dct float -memsrc -debug -maxmemory 4m  @@
+djpeg -skip 10,20 -nosmooth -bmp -report -crop 40x20+10+10 -scale 1/4 -map -outfile /tmp/foo -dct float -icc -memsrc -debug -maxmemory 4m -fast  @@
+djpeg -skip 10,20 -gif -report -crop 40x20+10+10 -grayscale -map -outfile /tmp/foo -dct fast -verbose -memsrc -fast  @@
+djpeg -skip 10,20 -gif -nosmooth -report -crop 40x20+10+10 -scale 1/4 -map -outfile /tmp/foo -dct int -quantize 256 -rgb  @@
+djpeg -gif -crop 40x20+10+10 -grayscale -outfile /tmp/foo -verbose -icc -quantize 256 -strict -onepass  @@
+djpeg -scale 1/4 -map -pnm -dct float -icc -debug -fast -rgb  @@
+djpeg -skip 10,20 -os2 -nosmooth -crop 40x20+10+10 -grayscale -map -outfile /tmp/foo -verbose -icc -quantize 256 -strict -fast  @@
+djpeg -skip 10,20 -nosmooth -bmp -crop 40x20+10+10 -scale 1/4 -grayscale -map -dct int -icc -memsrc -strict -debug -fast -rgb  @@
+djpeg -nosmooth -report -crop 40x20+10+10 -scale 1/4 -grayscale -map -dct int -gif0 -debug -fast -rgb  @@
+djpeg -skip 10,20 -gif -report -crop 40x20+10+10 -grayscale -map -dct int -icc -memsrc -quantize 256 -maxmemory 4m -rgb  @@
+djpeg -bmp -report -crop 40x20+10+10 -scale 1/4 -grayscale -map -outfile /tmp/foo -dct float -memsrc -quantize 256 -maxmemory 4m  @@
+djpeg -skip 10,20 -gif -grayscale -map -strict -debug -maxmemory 4m  @@
+djpeg -skip 10,20 -report -crop 40x20+10+10 -scale 1/4 -grayscale -map -dct fast -memsrc -gif0 -debug -fast  @@
+djpeg -crop 40x20+10+10 -scale 1/4 -grayscale -targa -map -outfile /tmp/foo -dct float -strict -debug -fast -rgb  @@
+djpeg -nosmooth -report -crop 40x20+10+10 -targa -map -outfile /tmp/foo -dct int -verbose -icc -memsrc -quantize 256 -maxmemory 4m  @@
+djpeg -skip 10,20 -grayscale -dither ordered -pnm -icc -quantize 256 -strict -onepass -rgb  @@
+djpeg -skip 10,20 -nosmooth -bmp -report -crop 40x20+10+10 -map -dct float -debug -maxmemory 4m -fast -rgb  @@
+djpeg -nosmooth -scale 1/4 -grayscale -dct float -verbose -icc -quantize 256 -strict -gif0 -maxmemory 4m -fast -onepass  @@
+djpeg -os2 -nosmooth -report -crop 40x20+10+10 -scale 1/4 -map -outfile /tmp/foo -verbose -strict -rgb  @@
+djpeg -os2 -report -crop 40x20+10+10 -grayscale -map -outfile /tmp/foo -icc -strict -debug -maxmemory 4m  @@
+djpeg -skip 10,20 -report -crop 40x20+10+10 -grayscale -map -outfile /tmp/foo -dct fast -icc -quantize 256 -gif0  @@
+djpeg -skip 10,20 -os2 -crop 40x20+10+10 -scale 1/4 -grayscale -map -dct float -debug -fast  @@
+djpeg -skip 10,20 -nosmooth -map -pnm -outfile /tmp/foo -verbose -icc -rgb  @@
+djpeg -skip 10,20 -gif -report -grayscale -map -verbose -fast  @@
+djpeg -gif -report -crop 40x20+10+10 -scale 1/4 -grayscale -map -outfile /tmp/foo -verbose -icc -quantize 256 -strict  @@
+djpeg -nosmooth -report -grayscale -dither fs -outfile /tmp/foo -verbose -icc -quantize 256 -strict -gif0 -maxmemory 4m -onepass  @@
+djpeg -os2 -nosmooth -report -crop 40x20+10+10 -scale 1/4 -map -dct int -verbose -icc -quantize 256 -strict -fast  @@
+djpeg -nosmooth -bmp -crop 40x20+10+10 -scale 1/4 -grayscale -map -dct float -debug -maxmemory 4m  @@
+djpeg -report -crop 40x20+10+10 -scale 1/4 -grayscale -map -outfile /tmp/foo -icc -memsrc -quantize 256 -gif0 -rgb  @@
+djpeg -skip 10,20 -bmp -crop 40x20+10+10 -scale 1/4 -grayscale -map -dct float -verbose -icc -memsrc -strict -maxmemory 4m  @@
+djpeg -report -crop 40x20+10+10 -targa -map -dct fast -verbose -icc -quantize 256 -maxmemory 4m -rgb  @@
+djpeg -skip 10,20 -bmp -report -crop 40x20+10+10 -scale 1/4 -map -dct float -verbose -icc -quantize 256 -strict -fast -rgb  @@
+djpeg -skip 10,20 -nosmooth -report -targa -map -dct fast -icc -memsrc -debug -maxmemory 4m -rgb  @@
+djpeg -nosmooth -crop 40x20+10+10 -scale 1/4 -targa -map -dct int -memsrc -quantize 256 -maxmemory 4m  @@
+djpeg -skip 10,20 -nosmooth -crop 40x20+10+10 -grayscale -map -outfile /tmp/foo -dct int -icc -strict -gif0 -debug -maxmemory 4m -fast  @@
+djpeg -skip 10,20 -nosmooth -bmp -report -scale 1/4 -grayscale -map -outfile /tmp/foo -dct float -icc -strict -debug  @@
+djpeg -skip 10,20 -gif -report -crop 40x20+10+10 -map -outfile /tmp/foo -verbose -icc -quantize 256 -maxmemory 4m  @@
+djpeg -skip 10,20 -nosmooth -report -crop 40x20+10+10 -map -outfile /tmp/foo -dct int -icc -memsrc -quantize 256 -gif0 -maxmemory 4m  @@
+djpeg -colors 128 -scale 1/4 -targa -verbose -icc -maxmemory 4m -rgb  @@
+djpeg -nosmooth -report -scale 1/4 -targa -map -outfile /tmp/foo -dct float -icc -debug -fast  @@
+djpeg -gif -nosmooth -crop 40x20+10+10 -scale 1/4 -grayscale -map -dct int -icc -quantize 256 -strict -maxmemory 4m -rgb  @@
+djpeg -nosmooth -scale 1/4 -grayscale -targa -map -dct float -verbose -icc -quantize 256 -strict -fast -rgb  @@
+djpeg -crop 40x20+10+10 -scale 1/4 -targa -map -dct fast -debug -maxmemory 4m -fast  @@
+djpeg -skip 10,20 -gif -nosmooth -crop 40x20+10+10 -scale 1/4 -map -outfile /tmp/foo -dct fast -verbose -icc -memsrc -maxmemory 4m -fast -rgb  @@
+djpeg -nosmooth -bmp -crop 40x20+10+10 -scale 1/4 -map -verbose -icc -quantize 256 -strict -rgb  @@
+djpeg -skip 10,20 -grayscale -targa -map -dct float -verbose -icc -quantize 256 -strict -maxmemory 4m  @@
+djpeg -nosmooth -crop 40x20+10+10 -targa -map -dct int -verbose -memsrc -quantize 256 -strict -maxmemory 4m -fast  @@
+djpeg -report -crop 40x20+10+10 -grayscale -map -quantize 256 -strict -gif0 -maxmemory 4m -fast -rgb  @@
+djpeg -crop 40x20+10+10 -scale 1/4 -targa -map -outfile /tmp/foo -verbose -icc -memsrc  @@
+djpeg -bmp -report -crop 40x20+10+10 -scale 1/4 -map -outfile /tmp/foo -icc  @@
+djpeg -os2 -nosmooth -report -scale 1/4 -grayscale -map -verbose -icc -quantize 256  @@
+djpeg -nosmooth -bmp -report -crop 40x20+10+10 -map -outfile /tmp/foo -verbose -memsrc -quantize 256 -maxmemory 4m  @@
+djpeg -skip 10,20 -nosmooth -bmp -report -map -debug  @@
+djpeg -nosmooth -bmp -crop 40x20+10+10 -grayscale -map -outfile /tmp/foo -icc -memsrc -debug -maxmemory 4m -fast -rgb  @@
+djpeg -skip 10,20 -nosmooth -bmp -report -grayscale -map -dct float -verbose -icc -memsrc -quantize 256 -rgb  @@
+djpeg -skip 10,20 -os2 -nosmooth -crop 40x20+10+10 -map -dct int -verbose -memsrc -fast  @@
+djpeg -nosmooth -crop 40x20+10+10 -scale 1/4 -grayscale -map -outfile /tmp/foo -memsrc -quantize 256 -gif0 -maxmemory 4m  @@
+djpeg -skip 10,20 -nosmooth -bmp -crop 40x20+10+10 -scale 1/4 -map -outfile /tmp/foo -dct float -verbose -quantize 256 -strict -maxmemory 4m -fast  @@
+djpeg -nosmooth -report -targa -map -outfile /tmp/foo -verbose -strict -maxmemory 4m  @@
+djpeg -os2 -nosmooth -crop 40x20+10+10 -scale 1/4 -map -dct int -icc -memsrc -strict -debug -rgb  @@
+djpeg -os2 -report -crop 40x20+10+10 -map -outfile /tmp/foo -dct float -icc -debug -fast -rgb  @@
+djpeg -skip 10,20 -os2 -crop 40x20+10+10 -scale 1/4 -map -outfile /tmp/foo -memsrc -strict -debug -fast  @@
+djpeg -skip 10,20 -nosmooth -report -scale 1/4 -grayscale -map -outfile /tmp/foo -verbose -icc -memsrc -quantize 256 -strict -gif0 -maxmemory 4m -fast -rgb  @@
+djpeg -skip 10,20 -nosmooth -scale 1/4 -targa -map -outfile /tmp/foo -icc -quantize 256 -maxmemory 4m -fast -rgb  @@
+djpeg -skip 10,20 -nosmooth -bmp -crop 40x20+10+10 -map -outfile /tmp/foo -dct int -verbose -icc -strict -maxmemory 4m -fast  @@
+djpeg -skip 10,20 -bmp -report -scale 1/4 -grayscale -map -outfile /tmp/foo -verbose -icc -quantize 256 -strict  @@
+djpeg -skip 10,20 -bmp -report -scale 1/4 -grayscale -map -dct float -icc -memsrc -debug -maxmemory 4m -rgb  @@
+djpeg -skip 10,20 -nosmooth -scale 1/4 -targa -map -dct fast -memsrc -strict -debug  @@
+djpeg -os2 -nosmooth -crop 40x20+10+10 -scale 1/4 -map -outfile /tmp/foo -icc -memsrc -strict -debug -maxmemory 4m -fast  @@
+djpeg -os2 -report -crop 40x20+10+10 -map -outfile /tmp/foo -dct fast -quantize 256 -strict -fast  @@
+djpeg -gif -nosmooth -crop 40x20+10+10 -grayscale -map -dct float -memsrc -strict -debug -fast -rgb  @@
+djpeg -nosmooth -report -targa -map -outfile /tmp/foo -verbose -strict -fast  @@
+djpeg -skip 10,20 -nosmooth -bmp -crop 40x20+10+10 -map -outfile /tmp/foo -dct float -icc -memsrc -maxmemory 4m -rgb  @@
+djpeg -os2 -crop 40x20+10+10 -grayscale -map -dct float -memsrc -quantize 256 -maxmemory 4m  @@
+djpeg -skip 10,20 -os2 -nosmooth -scale 1/4 -grayscale -map -outfile /tmp/foo -icc -memsrc -debug -maxmemory 4m -fast -rgb  @@
+djpeg -report -crop 40x20+10+10 -scale 1/4 -map -dct int -verbose -quantize 256 -gif0 -fast -rgb  @@
+djpeg -skip 10,20 -scale 1/4 -grayscale -map -pnm -verbose -icc -quantize 256 -fast  @@
+djpeg -nosmooth -crop 40x20+10+10 -grayscale -map -outfile /tmp/foo -verbose -memsrc -gif0 -maxmemory 4m -fast -rgb  @@
+djpeg -skip 10,20 -nosmooth -crop 40x20+10+10 -scale 1/4 -map -dct int -verbose -icc -quantize 256 -gif0 -rgb  @@
+djpeg -skip 10,20 -nosmooth -report -grayscale -map -dct fast -memsrc -quantize 256 -strict -gif0  @@
+djpeg -os2 -report -map -verbose -quantize 256 -maxmemory 4m -rgb  @@
+djpeg -nosmooth -crop 40x20+10+10 -grayscale -map -outfile /tmp/foo -strict -gif0 -debug -rgb  @@
+djpeg -skip 10,20 -os2 -grayscale -map -verbose -icc -quantize 256 -rgb  @@
+djpeg -report -targa -map -outfile /tmp/foo -dct float -verbose -icc -memsrc -quantize 256 -fast -rgb  @@
+djpeg -skip 10,20 -scale 1/4 -targa -map -outfile /tmp/foo -dct int -icc -memsrc -strict -maxmemory 4m -fast -rgb  @@
+djpeg -skip 10,20 -gif -crop 40x20+10+10 -map -outfile /tmp/foo -dct fast -icc -memsrc -strict -debug -maxmemory 4m -rgb  @@
+djpeg -bmp -report -dither fs -dct fast -icc -quantize 256 -strict -fast -onepass -rgb  @@
+djpeg -colors 128 -gif -report -grayscale -outfile /tmp/foo -icc -maxmemory 4m -rgb  @@
+djpeg -gif -nosmooth -crop 40x20+10+10 -map -outfile /tmp/foo -dct float -verbose -memsrc -quantize 256 -strict -maxmemory 4m  @@
+djpeg -grayscale -map -pnm -outfile /tmp/foo -icc -strict -debug -maxmemory 4m -rgb  @@
+djpeg -skip 10,20 -report -grayscale -map -outfile /tmp/foo -verbose -memsrc -gif0 -maxmemory 4m  @@
+djpeg -skip 10,20 -nosmooth -bmp -grayscale -map -outfile /tmp/foo -dct float -verbose -quantize 256 -fast -rgb  @@
+djpeg -report -crop 40x20+10+10 -map -outfile /tmp/foo -dct float -icc -gif0 -debug  @@
+djpeg -skip 10,20 -os2 -report -scale 1/4 -map -dct fast -memsrc -strict -debug -maxmemory 4m -fast  @@
+djpeg -skip 10,20 -crop 40x20+10+10 -scale 1/4 -map -outfile /tmp/foo -dct int -verbose -memsrc -gif0 -maxmemory 4m -fast  @@
+djpeg -skip 10,20 -targa -map -outfile /tmp/foo -dct float -icc -debug -fast -rgb  @@
+djpeg -skip 10,20 -os2 -report -scale 1/4 -map -outfile /tmp/foo -dct int -icc -memsrc -quantize 256 -fast -rgb  @@
+djpeg -nosmooth -report -scale 1/4 -map -pnm -verbose -icc -maxmemory 4m -fast  @@
+djpeg -colors 128 -skip 10,20 -os2 -nosmooth -maxscans -report -grayscale -dither ordered -verbose -maxmemory 4m -onepass  @@
+djpeg -colors 128 -skip 10,20 -os2 -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -memsrc -debug -maxmemory 4m -rgb  @@
+djpeg -colors 128 -skip 10,20 -os2 -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -dither none -outfile /tmp/foo -verbose -memsrc -strict -fast -onepass -rgb  @@
+djpeg -nosmooth -map -pnm -outfile /tmp/foo -verbose -icc -memsrc -quantize 256 -maxmemory 4m -fast  @@
+djpeg -colors 128 -skip 10,20 -os2 -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -dither none -verbose -icc -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -os2 -nosmooth -maxscans -outfile /tmp/foo -dct int -maxmemory 4m -fast -rgb  @@
+djpeg -colors 128 -skip 10,20 -os2 -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -verbose -strict -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -os2 -nosmooth -maxscans -report -crop 40x20+10+10 -grayscale -outfile /tmp/foo -dct int -verbose -strict -maxmemory 4m  @@
+djpeg -skip 10,20 -gif -nosmooth -grayscale -map -dct fast -verbose -memsrc -quantize 256 -maxmemory 4m -fast -rgb  @@
+djpeg -skip 10,20 -nosmooth -report -scale 1/4 -map -dct fast -icc -memsrc -strict -gif0 -debug -maxmemory 4m -rgb  @@
+djpeg -nosmooth -scale 1/4 -map -pnm -dct fast -icc -quantize 256 -strict -maxmemory 4m -rgb  @@
+djpeg -skip 10,20 -os2 -grayscale -map -dct float -icc -memsrc -strict -debug -fast  @@
+djpeg -scale 1/4 -targa -map -outfile /tmp/foo -icc -strict -debug -maxmemory 4m  @@
+djpeg -colors 128 -skip 10,20 -os2 -nosmooth -maxscans -report -scale 1/4 -grayscale -outfile /tmp/foo -dct int -verbose -maxmemory 4m -onepass  @@
+djpeg -colors 128 -skip 10,20 -os2 -nosmooth -maxscans -crop 40x20+10+10 -dither ordered -outfile /tmp/foo -dct float -icc -memsrc -strict -debug -maxmemory 4m -onepass  @@
+djpeg -colors 128 -nosmooth -grayscale -pnm -dct int -verbose -icc -maxmemory 4m -fast -onepass  @@
+djpeg -skip 10,20 -os2 -grayscale -map -dct float -icc -quantize 256 -strict -maxmemory 4m -rgb  @@
+djpeg -nosmooth -scale 1/4 -grayscale -outfile /tmp/foo -icc -quantize 256 -gif0 -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -os2 -nosmooth -maxscans -report -crop 40x20+10+10 -scale 1/4 -grayscale -dither ordered -dct fast -verbose -icc -strict -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -os2 -nosmooth -maxscans -grayscale -dither fs -strict -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -os2 -nosmooth -maxscans -crop 40x20+10+10 -dither ordered -memsrc -strict -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -gif -report -scale 1/4 -grayscale -map -dct fast -verbose -icc -quantize 256 -maxmemory 4m  @@
+djpeg -skip 10,20 -bmp -report -map -outfile /tmp/foo -verbose -strict -fast  @@
+djpeg -colors 128 -skip 10,20 -gif -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -dither ordered -verbose -strict -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -gif -nosmooth -maxscans -crop 40x20+10+10 -grayscale -outfile /tmp/foo -icc -memsrc -strict -debug -maxmemory 4m -onepass  @@
+djpeg -bmp -crop 40x20+10+10 -map -outfile /tmp/foo -dct float -verbose -memsrc -quantize 256 -strict -rgb  @@
+djpeg -colors 128 -skip 10,20 -gif -nosmooth -maxscans -report -scale 1/4 -dither none -outfile /tmp/foo -verbose -icc -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -gif -nosmooth -maxscans -grayscale -dither ordered -dct int -memsrc -maxmemory 4m -onepass  @@
+djpeg -colors 128 -skip 10,20 -gif -nosmooth -maxscans -report -grayscale -dither fs -icc -memsrc -debug -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -gif -nosmooth -maxscans -report -crop 40x20+10+10 -dct float -debug -fast -onepass  @@
+djpeg -os2 -nosmooth -report -grayscale -map -outfile /tmp/foo -dct int -verbose -memsrc -maxmemory 4m  @@
+djpeg -colors 128 -skip 10,20 -gif -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -dither ordered -outfile /tmp/foo -verbose -icc -memsrc -strict -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -gif -nosmooth -maxscans -report -crop 40x20+10+10 -scale 1/4 -grayscale -outfile /tmp/foo -verbose -maxmemory 4m -fast -rgb  @@
+djpeg -skip 10,20 -bmp -grayscale -map -outfile /tmp/foo -dct float -memsrc -quantize 256 -maxmemory 4m  @@
+djpeg -skip 10,20 -gif -report -map -dct float -icc -memsrc -quantize 256 -strict -maxmemory 4m -fast  @@
+djpeg -colors 128 -skip 10,20 -gif -nosmooth -maxscans -scale 1/4 -memsrc -strict -debug -maxmemory 4m -fast -rgb  @@
+djpeg -skip 10,20 -gif -report -map -outfile /tmp/foo -icc -memsrc -debug -maxmemory 4m -fast  @@
+djpeg -crop 40x20+10+10 -scale 1/4 -map -outfile /tmp/foo -verbose -icc -memsrc -strict -gif0 -maxmemory 4m -fast -rgb  @@
+djpeg -skip 10,20 -bmp -report -map -quantize 256 -rgb  @@
+djpeg -skip 10,20 -gif -report -map -dct float -quantize 256 -rgb  @@
+djpeg -skip 10,20 -nosmooth -report -map -outfile /tmp/foo -dct float -verbose -quantize 256 -gif0  @@
+djpeg -skip 10,20 -bmp -grayscale -map -outfile /tmp/foo -verbose -icc -memsrc -strict -fast -rgb  @@
+djpeg -colors 128 -skip 10,20 -gif -nosmooth -maxscans -crop 40x20+10+10 -grayscale -dither none -dct float -icc -memsrc -strict -debug -fast -onepass  @@
+djpeg -skip 10,20 -gif -report -map -outfile /tmp/foo -icc -strict -debug  @@
+djpeg -colors 128 -skip 10,20 -os2 -maxscans -scale 1/4 -dither none -dct float -icc -strict -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -os2 -maxscans -grayscale -dither none -dct fast -icc -memsrc -debug -fast -onepass  @@
+djpeg -nosmooth -bmp -report -scale 1/4 -map -dct fast -verbose -memsrc -maxmemory 4m -rgb  @@
+djpeg -colors 128 -skip 10,20 -os2 -maxscans -report -scale 1/4 -dither fs -outfile /tmp/foo -verbose -memsrc -onepass  @@
+djpeg -colors 128 -skip 10,20 -os2 -maxscans -crop 40x20+10+10 -scale 1/4 -dither none -outfile /tmp/foo -dct fast -debug -maxmemory 4m -fast -onepass  @@
+djpeg -nosmooth -bmp -scale 1/4 -grayscale -map -outfile /tmp/foo -dct fast -verbose -icc -strict -fast -rgb  @@
+djpeg -colors 128 -skip 10,20 -os2 -maxscans -report -grayscale -dither ordered -outfile /tmp/foo -dct fast -verbose -icc -memsrc -strict -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -os2 -maxscans -report -scale 1/4 -grayscale -icc -strict -debug -maxmemory 4m  @@
+djpeg -targa -icc -quantize 256 -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -os2 -maxscans -report -outfile /tmp/foo -icc -debug -fast  @@
+djpeg -skip 10,20 -gif -nosmooth -scale 1/4 -map -quantize 256 -maxmemory 4m -fast  @@
+djpeg -gif -nosmooth -report -scale 1/4 -map -outfile /tmp/foo -verbose -icc -strict -rgb  @@
+djpeg -skip 10,20 -os2 -nosmooth -map -outfile /tmp/foo -dct float -verbose -quantize 256 -strict -maxmemory 4m -fast -rgb  @@
+djpeg -nosmooth -bmp -report -grayscale -map -outfile /tmp/foo -strict -debug -maxmemory 4m -fast -rgb  @@
+djpeg -colors 128 -skip 10,20 -os2 -maxscans -report -crop 40x20+10+10 -grayscale -dither ordered -outfile /tmp/foo -memsrc -strict -debug -maxmemory 4m -onepass -rgb  @@
+djpeg -skip 10,20 -report -scale 1/4 -map -outfile /tmp/foo -strict -gif0 -maxmemory 4m -fast -rgb  @@
+djpeg -report -scale 1/4 -grayscale -map -dct int -verbose -memsrc -gif0 -rgb  @@
+djpeg -colors 128 -skip 10,20 -os2 -maxscans -report -crop 40x20+10+10 -scale 1/4 -grayscale -dither none -outfile /tmp/foo -icc -fast -onepass -rgb  @@
+djpeg -skip 10,20 -os2 -nosmooth -maxscans -map -outfile /tmp/foo -dct fast -memsrc -strict -debug  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -crop 40x20+10+10 -grayscale -dither none -targa -dct float -memsrc -debug -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -icc -memsrc -gif0 -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -bmp -grayscale -dither ordered -outfile /tmp/foo -verbose -icc -memsrc -strict -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -gif -maxscans -report -crop 40x20+10+10 -scale 1/4 -grayscale -dither ordered -outfile /tmp/foo -dct int -strict -debug -onepass  @@
+djpeg -os2 -scale 1/4 -grayscale -map -outfile /tmp/foo -dct int -quantize 256 -strict -maxmemory 4m  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -bmp -report -crop 40x20+10+10 -dither fs -dct fast -icc -onepass  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -report -scale 1/4 -dither none -targa -outfile /tmp/foo -verbose -icc -memsrc -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -report -grayscale -outfile /tmp/foo -dct int -verbose -strict -gif0 -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -grayscale -dither ordered -pnm -outfile /tmp/foo -memsrc -strict -onepass  @@
+djpeg -colors 128 -skip 10,20 -gif -maxscans -dct int -verbose -icc -fast -onepass  @@
+djpeg -skip 10,20 -os2 -nosmooth -maxscans -report -crop 40x20+10+10 -grayscale -dither none -outfile /tmp/foo -verbose -icc -memsrc -quantize 256 -strict -fast -onepass  @@
+djpeg -skip 10,20 -os2 -nosmooth -maxscans -report -scale 1/4 -map -dct int -icc -quantize 256 -rgb  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -report -scale 1/4 -dither fs -outfile /tmp/foo -verbose -strict -gif0 -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -crop 40x20+10+10 -grayscale -dither none -dct fast -verbose -memsrc -gif0 -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -report -dither ordered -pnm -outfile /tmp/foo -dct float -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -bmp -report -grayscale -strict -debug -fast  @@
+djpeg -skip 10,20 -nosmooth -bmp -map -outfile /tmp/foo -icc -memsrc -debug -rgb  @@
+djpeg -skip 10,20 -gif -nosmooth -map -outfile /tmp/foo -dct fast -strict -debug -fast  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -report -crop 40x20+10+10 -targa -dct fast -icc -debug -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -gif -maxscans -dither none -outfile /tmp/foo -dct fast -memsrc -debug -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -pnm -outfile /tmp/foo -verbose -icc -memsrc -strict  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -report -scale 1/4 -grayscale -outfile /tmp/foo -dct int -icc -memsrc -strict -gif0 -debug  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -bmp -scale 1/4 -dither none -verbose -memsrc -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -gif -maxscans -report -dct int -icc -strict -debug -maxmemory 4m -rgb  @@
+djpeg -os2 -report -scale 1/4 -map -dct int -verbose -icc -strict -maxmemory 4m -fast -rgb  @@
+djpeg -colors 128 -skip 10,20 -gif -maxscans -grayscale -outfile /tmp/foo -verbose -memsrc -strict -fast  @@
+djpeg -skip 10,20 -grayscale -map -dct float -strict -gif0 -debug -maxmemory 4m -rgb  @@
+djpeg -gif -nosmooth -scale 1/4 -grayscale -map -outfile /tmp/foo -dct float -verbose -icc -quantize 256 -strict -rgb  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -targa -outfile /tmp/foo -verbose -strict -onepass  @@
+djpeg -skip 10,20 -os2 -nosmooth -maxscans -dither fs -dct float -verbose -memsrc -quantize 256 -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -skip 10,20 -os2 -nosmooth -maxscans -crop 40x20+10+10 -grayscale -map -outfile /tmp/foo -dct int -verbose -quantize 256 -rgb  @@
+djpeg -crop 40x20+10+10 -map -outfile /tmp/foo -dct int -verbose -strict -gif0  @@
+djpeg -skip 10,20 -os2 -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -map -dct int -maxmemory 4m -fast  @@
+djpeg -skip 10,20 -os2 -nosmooth -maxscans -crop 40x20+10+10 -map -verbose -icc -memsrc -quantize 256 -strict -fast -rgb  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -bmp -scale 1/4 -grayscale -dither fs -outfile /tmp/foo -dct float -memsrc -debug -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -report -crop 40x20+10+10 -scale 1/4 -dct int -verbose -memsrc -strict -gif0 -maxmemory 4m -rgb  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -report -crop 40x20+10+10 -scale 1/4 -pnm -outfile /tmp/foo -dct float -memsrc -debug -maxmemory 4m -onepass  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -report -scale 1/4 -targa -dct float -icc -memsrc -strict -debug -maxmemory 4m  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -bmp -grayscale -dct float -verbose -icc -memsrc -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -grayscale -targa -verbose -memsrc -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -bmp -scale 1/4 -grayscale -icc -memsrc -maxmemory 4m -fast  @@
+djpeg -gif -nosmooth -scale 1/4 -grayscale -map -outfile /tmp/foo -memsrc -strict -debug -maxmemory 4m  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -bmp -report -crop 40x20+10+10 -scale 1/4 -dct int -debug  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -bmp -crop 40x20+10+10 -outfile /tmp/foo -dct float -verbose -memsrc -maxmemory 4m -fast -rgb  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -report -scale 1/4 -pnm -verbose -icc -fast  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -report -crop 40x20+10+10 -grayscale -dither ordered -pnm -strict -debug -onepass  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -scale 1/4 -pnm -outfile /tmp/foo -dct fast -memsrc -debug -fast  @@
+djpeg -colors 128 -skip 10,20 -gif -maxscans -crop 40x20+10+10 -dct int -verbose -strict -maxmemory 4m  @@
+djpeg -skip 10,20 -os2 -nosmooth -maxscans -report -crop 40x20+10+10 -verbose -memsrc -quantize 256 -strict  @@
+djpeg -skip 10,20 -os2 -nosmooth -maxscans -report -dither fs -quantize 256 -onepass  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -crop 40x20+10+10 -grayscale -targa -outfile /tmp/foo -dct float -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -bmp -scale 1/4 -dct fast -icc -memsrc -strict -debug -maxmemory 4m -onepass  @@
+djpeg -skip 10,20 -os2 -nosmooth -maxscans -report -scale 1/4 -dither ordered -verbose -icc -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -bmp -scale 1/4 -grayscale -dct int -debug -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -report -grayscale -targa -outfile /tmp/foo -memsrc -debug -rgb  @@
+djpeg -skip 10,20 -os2 -scale 1/4 -map -dct int -verbose -memsrc -quantize 256 -strict  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -bmp -report -scale 1/4 -outfile /tmp/foo -dct int -verbose -strict -fast  @@
+djpeg -skip 10,20 -os2 -nosmooth -maxscans -report -scale 1/4 -grayscale -strict -debug -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -report -crop 40x20+10+10 -scale 1/4 -targa -dct float -verbose -fast  @@
+djpeg -skip 10,20 -os2 -nosmooth -maxscans -report -scale 1/4 -outfile /tmp/foo -dct float -verbose -quantize 256 -strict -maxmemory 4m -onepass -rgb  @@
+djpeg -skip 10,20 -os2 -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -outfile /tmp/foo -dct fast -icc -memsrc -quantize 256 -fast -rgb  @@
+djpeg -skip 10,20 -os2 -nosmooth -maxscans -scale 1/4 -grayscale -map -verbose -icc -memsrc  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -bmp -report -outfile /tmp/foo -verbose -icc -memsrc -strict -onepass -rgb  @@
+djpeg -skip 10,20 -os2 -nosmooth -maxscans -report -scale 1/4 -grayscale -dither fs -outfile /tmp/foo -debug -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -report -crop 40x20+10+10 -scale 1/4 -grayscale -dither fs -targa -outfile /tmp/foo -dct float -icc -debug -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -dither fs -dct fast -verbose -icc -gif0 -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -report -scale 1/4 -grayscale -dither ordered -icc -memsrc -gif0 -debug -maxmemory 4m -onepass  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -report -crop 40x20+10+10 -scale 1/4 -grayscale -dither none -outfile /tmp/foo -verbose -icc -memsrc -strict -gif0 -maxmemory 4m -onepass  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -bmp -crop 40x20+10+10 -grayscale -outfile /tmp/foo -dct fast -icc -memsrc -strict -debug -rgb  @@
+djpeg -skip 10,20 -os2 -nosmooth -maxscans -report -crop 40x20+10+10 -scale 1/4 -grayscale -map -outfile /tmp/foo -dct fast -verbose -icc -memsrc -quantize 256 -strict -maxmemory 4m -rgb  @@
+djpeg -skip 10,20 -report -map -outfile /tmp/foo -dct int -icc -quantize 256 -gif0 -maxmemory 4m -rgb  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -report -crop 40x20+10+10 -scale 1/4 -outfile /tmp/foo -dct fast -icc -gif0 -debug -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -crop 40x20+10+10 -grayscale -dct fast -icc -memsrc -gif0 -debug -maxmemory 4m -fast  @@
+djpeg -colors 128 -skip 10,20 -gif -maxscans -report -crop 40x20+10+10 -scale 1/4 -outfile /tmp/foo -dct int -icc -strict -onepass  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -scale 1/4 -grayscale -pnm -memsrc -strict -maxmemory 4m -fast -rgb  @@
+djpeg -colors 128 -skip 10,20 -gif -maxscans -grayscale -dither ordered -verbose -icc -strict -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -report -scale 1/4 -grayscale -dither ordered -icc -memsrc -strict -gif0 -debug -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -gif -maxscans -report -crop 40x20+10+10 -scale 1/4 -dither fs -outfile /tmp/foo -icc -debug -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -skip 10,20 -nosmooth -bmp -map -outfile /tmp/foo -dct float -strict -debug -rgb  @@
+djpeg -skip 10,20 -report -map -outfile /tmp/foo -dct float -memsrc -strict -gif0 -debug -maxmemory 4m -fast -rgb  @@
+djpeg -colors 128 -skip 10,20 -gif -maxscans -report -crop 40x20+10+10 -scale 1/4 -icc -debug -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -report -crop 40x20+10+10 -scale 1/4 -grayscale -dither fs -pnm -dct float -verbose -icc -memsrc -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -verbose -icc -gif0 -maxmemory 4m -rgb  @@
+djpeg -skip 10,20 -os2 -nosmooth -maxscans -crop 40x20+10+10 -grayscale -outfile /tmp/foo -dct int -verbose -memsrc -maxmemory 4m  @@
+djpeg -skip 10,20 -os2 -nosmooth -maxscans -crop 40x20+10+10 -grayscale -map -outfile /tmp/foo -dct float -memsrc -quantize 256 -maxmemory 4m -fast  @@
+djpeg -colors 128 -skip 10,20 -gif -maxscans -crop 40x20+10+10 -scale 1/4 -outfile /tmp/foo -memsrc -strict -fast  @@
+djpeg -skip 10,20 -os2 -nosmooth -maxscans -crop 40x20+10+10 -grayscale -map -outfile /tmp/foo -dct int -memsrc -debug -maxmemory 4m -fast -rgb  @@
+djpeg -colors 128 -skip 10,20 -nosmooth -maxscans -pnm -dct fast -verbose -icc -memsrc -strict -maxmemory 4m -fast  @@
+djpeg -skip 10,20 -gif -nosmooth -maxscans -crop 40x20+10+10 -map -verbose -icc -memsrc -strict  @@
+djpeg -skip 10,20 -gif -nosmooth -maxscans -report -crop 40x20+10+10 -grayscale -outfile /tmp/foo -dct float -verbose -icc -quantize 256 -strict -maxmemory 4m -fast -rgb  @@
+djpeg -nosmooth -report -scale 1/4 -map -outfile /tmp/foo -icc -gif0 -debug -maxmemory 4m -rgb  @@
+djpeg -skip 10,20 -gif -nosmooth -maxscans -report -map -outfile /tmp/foo -verbose -memsrc -quantize 256 -maxmemory 4m -fast -rgb  @@
+djpeg -skip 10,20 -gif -nosmooth -maxscans -scale 1/4 -grayscale -outfile /tmp/foo -verbose -quantize 256 -strict -onepass  @@
+djpeg -skip 10,20 -gif -nosmooth -maxscans -scale 1/4 -dither ordered -dct int -icc -debug -maxmemory 4m -onepass  @@
+djpeg -skip 10,20 -gif -nosmooth -maxscans -report -crop 40x20+10+10 -scale 1/4 -dither none -outfile /tmp/foo -dct int -icc -memsrc -debug -fast -onepass -rgb  @@
+djpeg -skip 10,20 -gif -nosmooth -maxscans -report -scale 1/4 -grayscale -map -outfile /tmp/foo -icc -debug -maxmemory 4m  @@
+djpeg -skip 10,20 -gif -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -map -dct int -verbose -maxmemory 4m  @@
+djpeg -skip 10,20 -nosmooth -scale 1/4 -map -outfile /tmp/foo -dct fast -memsrc -quantize 256 -strict -gif0 -maxmemory 4m -fast -rgb  @@
+djpeg -skip 10,20 -gif -nosmooth -maxscans -report -crop 40x20+10+10 -scale 1/4 -dither none -dct int -verbose -icc -memsrc -quantize 256 -strict -maxmemory 4m -onepass  @@
+djpeg -skip 10,20 -gif -nosmooth -maxscans -dither fs -dct fast -icc -quantize 256 -onepass  @@
+djpeg -skip 10,20 -gif -nosmooth -maxscans -crop 40x20+10+10 -grayscale -dither ordered -dct int -memsrc -quantize 256 -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -skip 10,20 -gif -nosmooth -maxscans -grayscale -dither ordered -icc -memsrc -quantize 256 -strict -maxmemory 4m -fast -onepass  @@
+djpeg -skip 10,20 -gif -nosmooth -maxscans -report -crop 40x20+10+10 -scale 1/4 -grayscale -dither none -outfile /tmp/foo -dct float -verbose -memsrc -maxmemory 4m -onepass -rgb  @@
+djpeg -skip 10,20 -gif -scale 1/4 -map -outfile /tmp/foo -dct fast -icc -memsrc -quantize 256  @@
+djpeg -skip 10,20 -gif -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -verbose -strict  @@
+djpeg -skip 10,20 -gif -nosmooth -maxscans -crop 40x20+10+10 -grayscale -map -outfile /tmp/foo -dct fast -memsrc -debug  @@
+djpeg -skip 10,20 -gif -scale 1/4 -map -outfile /tmp/foo -dct fast -rgb  @@
+djpeg -gif -report -scale 1/4 -map -outfile /tmp/foo -dct int -memsrc -quantize 256 -fast -rgb  @@
+djpeg -skip 10,20 -gif -nosmooth -maxscans -report -scale 1/4 -outfile /tmp/foo -dct float -verbose -icc -quantize 256 -onepass -rgb  @@
+djpeg -skip 10,20 -gif -nosmooth -maxscans -report -crop 40x20+10+10 -grayscale -map -dct int -verbose -icc -strict -maxmemory 4m -fast -rgb  @@
+djpeg -skip 10,20 -gif -nosmooth -maxscans -dither fs -outfile /tmp/foo -verbose -maxmemory 4m -fast -onepass  @@
+djpeg -skip 10,20 -gif -nosmooth -maxscans -map -quantize 256 -strict  @@
+djpeg -bmp -report -grayscale -map -outfile /tmp/foo -verbose -icc -memsrc  @@
+djpeg -skip 10,20 -gif -nosmooth -maxscans -scale 1/4 -dither fs -outfile /tmp/foo -verbose -icc -memsrc -quantize 256 -strict -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -bmp -report -scale 1/4 -map -outfile /tmp/foo -dct int -memsrc -strict -debug -maxmemory 4m  @@
+djpeg -nosmooth -scale 1/4 -grayscale -map -outfile /tmp/foo -dct float -icc -strict -gif0 -debug -fast -rgb  @@
+djpeg -skip 10,20 -gif -nosmooth -maxscans -report -crop 40x20+10+10 -grayscale -dither fs -outfile /tmp/foo -icc -strict -debug -fast -onepass  @@
+djpeg -nosmooth -report -scale 1/4 -map -outfile /tmp/foo -dct int -verbose -icc -quantize 256 -strict -gif0 -maxmemory 4m -fast  @@
+djpeg -skip 10,20 -gif -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -dither none -dct float -icc -quantize 256 -maxmemory 4m -onepass  @@
+djpeg -skip 10,20 -os2 -maxscans -crop 40x20+10+10 -scale 1/4 -map -outfile /tmp/foo -verbose -icc -quantize 256 -maxmemory 4m -fast  @@
+djpeg -colors 128 -skip 10,20 -maxscans -scale 1/4 -grayscale -dither ordered -pnm -outfile /tmp/foo -dct int -icc -debug -onepass  @@
+djpeg -colors 128 -skip 10,20 -maxscans -report -grayscale -targa -outfile /tmp/foo -dct float -verbose -memsrc -strict -maxmemory 4m -fast  @@
+djpeg -colors 128 -skip 10,20 -maxscans -bmp -report -crop 40x20+10+10 -scale 1/4 -outfile /tmp/foo -verbose -icc -memsrc -strict -maxmemory 4m  @@
+djpeg -colors 128 -skip 10,20 -maxscans -report -grayscale -dither none -outfile /tmp/foo -icc -memsrc -strict -gif0 -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -maxscans -crop 40x20+10+10 -dither none -pnm -dct fast -memsrc -strict -debug -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -targa -outfile /tmp/foo -icc -rgb  @@
+djpeg -colors 128 -skip 10,20 -maxscans -bmp -report -crop 40x20+10+10 -scale 1/4 -grayscale -dither none -dct int -icc -memsrc -debug -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -maxscans -report -crop 40x20+10+10 -scale 1/4 -grayscale -dither none -pnm -outfile /tmp/foo -verbose -strict -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -maxscans -report -dither none -dct fast -icc -strict -gif0 -debug -maxmemory 4m -fast -onepass  @@
+djpeg -skip 10,20 -os2 -maxscans -report -scale 1/4 -grayscale -map -outfile /tmp/foo -dct int -verbose -maxmemory 4m -fast  @@
+djpeg -skip 10,20 -os2 -maxscans -report -crop 40x20+10+10 -scale 1/4 -map -dct int -verbose -icc -memsrc -strict -fast  @@
+djpeg -colors 128 -skip 10,20 -maxscans -scale 1/4 -grayscale -dither none -targa -verbose -strict -maxmemory 4m -onepass  @@
+djpeg -skip 10,20 -os2 -maxscans -report -map -outfile /tmp/foo -memsrc -quantize 256 -strict -maxmemory 4m -rgb  @@
+djpeg -skip 10,20 -os2 -maxscans -report -crop 40x20+10+10 -dither fs -dct int -debug -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -maxscans -report -crop 40x20+10+10 -scale 1/4 -grayscale -targa -strict -debug -maxmemory 4m -fast -rgb  @@
+djpeg -colors 128 -skip 10,20 -maxscans -bmp -scale 1/4 -grayscale -dither ordered -outfile /tmp/foo -dct fast -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -maxscans -scale 1/4 -dither ordered -verbose -gif0 -onepass -rgb  @@
+djpeg -skip 10,20 -os2 -maxscans -report -crop 40x20+10+10 -scale 1/4 -grayscale -map -icc -memsrc -quantize 256 -strict -maxmemory 4m  @@
+djpeg -skip 10,20 -os2 -maxscans -report -grayscale -map -outfile /tmp/foo -dct fast -strict -debug -rgb  @@
+djpeg -colors 128 -skip 10,20 -maxscans -bmp -outfile /tmp/foo -dct float -icc -debug -maxmemory 4m  @@
+djpeg -skip 10,20 -os2 -maxscans -scale 1/4 -grayscale -dither fs -quantize 256 -strict -fast -onepass  @@
+djpeg -skip 10,20 -os2 -maxscans -report -grayscale -dct int -icc -memsrc -quantize 256 -strict -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -skip 10,20 -os2 -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -outfile /tmp/foo -icc -debug -onepass  @@
+djpeg -os2 -nosmooth -scale 1/4 -map -dct float -verbose -icc -memsrc -quantize 256 -maxmemory 4m -rgb  @@
+djpeg -colors 128 -skip 10,20 -maxscans -scale 1/4 -grayscale -pnm -outfile /tmp/foo -strict -debug -maxmemory 4m -fast  @@
+djpeg -colors 128 -skip 10,20 -maxscans -bmp -report -scale 1/4 -grayscale -dither none -verbose -icc -strict -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -maxscans -scale 1/4 -outfile /tmp/foo -memsrc -gif0 -debug -maxmemory 4m -fast  @@
+djpeg -colors 128 -skip 10,20 -maxscans -crop 40x20+10+10 -dither none -targa -outfile /tmp/foo -dct int -verbose -icc -maxmemory 4m -onepass  @@
+djpeg -colors 128 -skip 10,20 -maxscans -bmp -report -crop 40x20+10+10 -grayscale -dither ordered -outfile /tmp/foo -memsrc -debug -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -maxscans -report -grayscale -pnm -memsrc -debug -rgb  @@
+djpeg -colors 128 -skip 10,20 -maxscans -report -crop 40x20+10+10 -scale 1/4 -dither ordered -targa -outfile /tmp/foo -dct int -icc -strict -debug -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -maxscans -crop 40x20+10+10 -dct fast -verbose -memsrc -strict -gif0 -maxmemory 4m -onepass  @@
+djpeg -colors 128 -skip 10,20 -maxscans -report -crop 40x20+10+10 -scale 1/4 -grayscale -dither none -dct float -gif0 -debug -onepass  @@
+djpeg -skip 10,20 -os2 -maxscans -crop 40x20+10+10 -scale 1/4 -map -dct float -icc -strict -debug -maxmemory 4m -rgb  @@
+djpeg -colors 128 -skip 10,20 -maxscans -dither none -outfile /tmp/foo -dct float -icc -memsrc -strict -gif0 -debug -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -dither fs -outfile /tmp/foo -dct fast -verbose -memsrc -strict -gif0 -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -maxscans -report -grayscale -dither ordered -pnm -verbose -strict -maxmemory 4m -fast -onepass  @@
+djpeg -skip 10,20 -os2 -maxscans -grayscale -outfile /tmp/foo -icc -quantize 256 -maxmemory 4m  @@
+djpeg -skip 10,20 -os2 -maxscans -report -crop 40x20+10+10 -scale 1/4 -dither fs -dct fast -verbose -icc -quantize 256 -strict -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -targa -dct float -verbose -icc -memsrc -strict -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -maxscans -report -scale 1/4 -grayscale -pnm -icc -strict -debug -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -maxscans -bmp -report -crop 40x20+10+10 -grayscale -dither ordered -outfile /tmp/foo -dct int -verbose -strict -maxmemory 4m -fast -onepass  @@
+djpeg -skip 10,20 -os2 -maxscans -crop 40x20+10+10 -dct int -verbose -memsrc -quantize 256 -onepass  @@
+djpeg -colors 128 -skip 10,20 -maxscans -report -outfile /tmp/foo -verbose -icc -memsrc -gif0 -rgb  @@
+djpeg -colors 128 -skip 10,20 -maxscans -bmp -crop 40x20+10+10 -scale 1/4 -grayscale -dither fs -outfile /tmp/foo -icc -strict -debug -fast -onepass  @@
+djpeg -colors 128 -skip 10,20 -maxscans -bmp -crop 40x20+10+10 -scale 1/4 -grayscale -dither fs -verbose -icc -strict -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -dither none -pnm -dct int -strict -fast -onepass -rgb  @@
+djpeg -colors 128 -skip 10,20 -maxscans -report -grayscale -dct fast -gif0 -maxmemory 4m -fast -rgb  @@
+djpeg -colors 128 -skip 10,20 -maxscans -scale 1/4 -pnm -dct float -verbose -memsrc -strict -rgb  @@
+djpeg -skip 10,20 -os2 -maxscans -report -dither fs -verbose -icc -memsrc -quantize 256 -maxmemory 4m -onepass  @@
+djpeg -skip 10,20 -os2 -maxscans -map -outfile /tmp/foo -icc -memsrc -debug -maxmemory 4m -fast  @@
+djpeg -skip 10,20 -os2 -maxscans -map -outfile /tmp/foo -verbose -memsrc -quantize 256 -rgb  @@
+djpeg -colors 128 -skip 10,20 -maxscans -crop 40x20+10+10 -grayscale -dither none -dct float -strict -gif0 -debug -onepass  @@
+djpeg -colors 128 -skip 10,20 -maxscans -report -scale 1/4 -outfile /tmp/foo -memsrc -gif0 -rgb  @@
+djpeg -gif -report -grayscale -map -dct fast -icc -memsrc -quantize 256 -strict -maxmemory 4m -rgb  @@
+djpeg -gif -scale 1/4 -grayscale -map -dct fast -icc -memsrc -debug -fast  @@
+djpeg -colors 128 -skip 10,20 -maxscans -scale 1/4 -dither none -targa -strict -onepass  @@
+djpeg -colors 128 -skip 10,20 -maxscans -report -scale 1/4 -grayscale -targa -verbose -icc -memsrc -maxmemory 4m  @@
+djpeg -colors 128 -skip 10,20 -maxscans -bmp -report -scale 1/4 -grayscale -dither none -dct fast -icc -memsrc -strict -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -skip 10,20 -os2 -maxscans -report -crop 40x20+10+10 -grayscale -map -outfile /tmp/foo -icc -quantize 256 -strict -maxmemory 4m -fast -rgb  @@
+djpeg -skip 10,20 -os2 -maxscans -crop 40x20+10+10 -map -memsrc -strict -rgb  @@
+djpeg -colors 128 -skip 10,20 -maxscans -report -dither fs -pnm -outfile /tmp/foo -icc -memsrc -strict -debug -maxmemory 4m -onepass  @@
+djpeg -colors 128 -skip 10,20 -maxscans -report -scale 1/4 -grayscale -targa -debug -fast  @@
+djpeg -skip 10,20 -os2 -maxscans -report -crop 40x20+10+10 -scale 1/4 -map -outfile /tmp/foo -dct fast -icc -strict -debug -fast  @@
+djpeg -os2 -nosmooth -report -map -dct int -icc -debug -rgb  @@
+djpeg -os2 -nosmooth -report -map -outfile /tmp/foo -dct float -memsrc -fast -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -report -scale 1/4 -grayscale -pnm -dct float -strict -debug -fast -rgb  @@
+djpeg -skip 10,20 -gif -maxscans -report -dither ordered -verbose -icc -memsrc -quantize 256 -strict -onepass -rgb  @@
+djpeg -skip 10,20 -gif -maxscans -report -scale 1/4 -map -dct float -verbose -fast -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -bmp -report -scale 1/4 -dither none -outfile /tmp/foo -quantize 256 -onepass -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -report -scale 1/4 -targa -map -memsrc -quantize 256 -fast  @@
+djpeg -skip 10,20 -nosmooth -maxscans -bmp -crop 40x20+10+10 -grayscale -map -outfile /tmp/foo -memsrc -strict -debug -maxmemory 4m -rgb  @@
+djpeg -skip 10,20 -scale 1/4 -map -dct int -verbose -icc -memsrc -strict -gif0  @@
+djpeg -skip 10,20 -nosmooth -maxscans -report -crop 40x20+10+10 -scale 1/4 -targa -map -outfile /tmp/foo -dct float -strict -debug -maxmemory 4m -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -grayscale -map -pnm -dct int -memsrc -quantize 256 -strict -maxmemory 4m -fast  @@
+djpeg -skip 10,20 -nosmooth -maxscans -bmp -crop 40x20+10+10 -scale 1/4 -grayscale -map -verbose -quantize 256  @@
+djpeg -skip 10,20 -nosmooth -maxscans -crop 40x20+10+10 -map -outfile /tmp/foo -verbose -memsrc -quantize 256 -strict -gif0 -rgb  @@
+djpeg -skip 10,20 -gif -maxscans -crop 40x20+10+10 -dither ordered -outfile /tmp/foo -memsrc -quantize 256 -fast -onepass  @@
+djpeg -skip 10,20 -nosmooth -maxscans -bmp -dither none -dct float -verbose -quantize 256 -strict -onepass -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -scale 1/4 -map -pnm -icc -memsrc -strict -debug -maxmemory 4m  @@
+djpeg -skip 10,20 -nosmooth -maxscans -bmp -report -scale 1/4 -grayscale -map -outfile /tmp/foo -dct float -verbose -icc -memsrc -quantize 256 -maxmemory 4m -fast  @@
+djpeg -skip 10,20 -nosmooth -maxscans -targa -map -outfile /tmp/foo -dct int -verbose -icc -maxmemory 4m -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -dct int -verbose -icc -memsrc -quantize 256 -gif0 -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -report -map -dct float -gif0 -debug -fast -rgb  @@
+djpeg -skip 10,20 -gif -maxscans -scale 1/4 -map -dct float -memsrc -quantize 256 -strict -maxmemory 4m -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -dither none -pnm -verbose -quantize 256 -fast -onepass  @@
+djpeg -skip 10,20 -nosmooth -maxscans -report -grayscale -icc -quantize 256 -strict -gif0 -onepass  @@
+djpeg -skip 10,20 -nosmooth -maxscans -crop 40x20+10+10 -map -pnm -dct int -verbose -icc -memsrc -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -report -crop 40x20+10+10 -grayscale -dither none -pnm -outfile /tmp/foo -dct int -verbose -icc -memsrc -quantize 256 -fast -onepass -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -crop 40x20+10+10 -grayscale -targa -map -icc -strict -debug -maxmemory 4m -fast  @@
+djpeg -skip 10,20 -gif -maxscans -report -crop 40x20+10+10 -grayscale -map -outfile /tmp/foo -dct float -icc -quantize 256 -maxmemory 4m -fast -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -targa -map -outfile /tmp/foo -dct int -icc -memsrc -quantize 256  @@
+djpeg -skip 10,20 -gif -maxscans -report -scale 1/4 -grayscale -map -outfile /tmp/foo -verbose -memsrc -strict -maxmemory 4m -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -report -pnm -verbose -icc -strict -maxmemory 4m -onepass -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -bmp -report -crop 40x20+10+10 -dither none -verbose -icc -memsrc -quantize 256 -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -bmp -report -crop 40x20+10+10 -scale 1/4 -grayscale -outfile /tmp/foo -dct int -icc -strict -debug -maxmemory 4m -onepass -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -report -crop 40x20+10+10 -scale 1/4 -grayscale -map -pnm -icc -memsrc -quantize 256 -strict -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -scale 1/4 -dither fs -outfile /tmp/foo -dct int -strict -gif0 -debug -maxmemory 4m -fast -onepass  @@
+djpeg -skip 10,20 -nosmooth -maxscans -report -grayscale -dither none -targa -outfile /tmp/foo -verbose -icc -quantize 256 -strict -fast -onepass -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -bmp -report -dither none -dct fast -quantize 256 -maxmemory 4m -fast -onepass  @@
+djpeg -skip 10,20 -nosmooth -maxscans -pnm -dct float -verbose -icc -memsrc -quantize 256 -strict  @@
+djpeg -skip 10,20 -nosmooth -maxscans -report -pnm -outfile /tmp/foo -dct int -quantize 256 -strict -fast -onepass -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -targa -map -dct float -quantize 256 -strict -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -crop 40x20+10+10 -grayscale -targa -outfile /tmp/foo -verbose -quantize 256  @@
+djpeg -skip 10,20 -gif -maxscans -report -crop 40x20+10+10 -scale 1/4 -dither none -outfile /tmp/foo -icc -strict -maxmemory 4m -fast -onepass  @@
+djpeg -skip 10,20 -nosmooth -maxscans -scale 1/4 -grayscale -map -outfile /tmp/foo -verbose -icc -gif0 -maxmemory 4m -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -report -scale 1/4 -targa -verbose -icc -memsrc -quantize 256 -strict -onepass -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -report -map -pnm -outfile /tmp/foo -dct float -verbose  @@
+djpeg -skip 10,20 -nosmooth -maxscans -bmp -report -map -verbose -icc -memsrc -strict  @@
+djpeg -skip 10,20 -nosmooth -maxscans -scale 1/4 -grayscale -pnm -quantize 256 -strict -maxmemory 4m -onepass  @@
+djpeg -skip 10,20 -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -dither fs -pnm -outfile /tmp/foo -dct int -verbose -icc -memsrc -strict -onepass -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -bmp -report -crop 40x20+10+10 -map -outfile /tmp/foo -dct int -verbose -quantize 256 -strict -maxmemory 4m -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -bmp -scale 1/4 -map -dct float -memsrc -quantize 256 -strict -maxmemory 4m -rgb  @@
+djpeg -report -grayscale -map -outfile /tmp/foo -memsrc -strict -gif0 -debug -fast  @@
+djpeg -skip 10,20 -nosmooth -maxscans -report -grayscale -targa -map -dct int -icc -memsrc -quantize 256 -strict -fast  @@
+djpeg -skip 10,20 -gif -maxscans -report -scale 1/4 -grayscale -dither fs -dct float -quantize 256 -onepass  @@
+djpeg -skip 10,20 -gif -maxscans -report -crop 40x20+10+10 -map -debug -fast -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -dither none -icc -memsrc -quantize 256 -gif0 -onepass  @@
+djpeg -skip 10,20 -gif -maxscans -scale 1/4 -grayscale -outfile /tmp/foo -memsrc -quantize 256 -strict -fast  @@
+djpeg -skip 10,20 -gif -maxscans -crop 40x20+10+10 -scale 1/4 -map -dct float -icc -strict -debug -fast  @@
+djpeg -skip 10,20 -nosmooth -maxscans -report -crop 40x20+10+10 -dither ordered -dct int -verbose -icc -memsrc -quantize 256 -strict -gif0 -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -crop 40x20+10+10 -grayscale -dither none -pnm -outfile /tmp/foo -debug -maxmemory 4m -onepass  @@
+djpeg -skip 10,20 -nosmooth -maxscans -bmp -report -grayscale -dither fs -dct fast -memsrc -strict -debug -onepass  @@
+djpeg -skip 10,20 -nosmooth -maxscans -report -crop 40x20+10+10 -map -pnm -outfile /tmp/foo -dct float -verbose -memsrc -quantize 256 -maxmemory 4m  @@
+djpeg -skip 10,20 -nosmooth -maxscans -bmp -crop 40x20+10+10 -scale 1/4 -dither fs -outfile /tmp/foo -dct fast -verbose -icc -memsrc -quantize 256 -strict -onepass  @@
+djpeg -skip 10,20 -nosmooth -maxscans -report -crop 40x20+10+10 -dither ordered -outfile /tmp/foo -dct float -gif0 -debug -maxmemory 4m -onepass -rgb  @@
+djpeg -skip 10,20 -gif -maxscans -map -outfile /tmp/foo -verbose -icc -quantize 256 -strict -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -report -crop 40x20+10+10 -map -outfile /tmp/foo -icc -quantize 256 -strict -gif0 -maxmemory 4m -rgb  @@
+djpeg -skip 10,20 -gif -maxscans -scale 1/4 -grayscale -verbose -memsrc -quantize 256 -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -scale 1/4 -map -outfile /tmp/foo -gif0 -debug  @@
+djpeg -skip 10,20 -nosmooth -maxscans -report -crop 40x20+10+10 -grayscale -dither none -targa -dct float -icc -quantize 256 -strict -maxmemory 4m -onepass -rgb  @@
+djpeg -nosmooth -bmp -scale 1/4 -map -outfile /tmp/foo -dct fast -strict -debug -maxmemory 4m -fast  @@
+djpeg -skip 10,20 -gif -maxscans -report -scale 1/4 -grayscale -dither ordered -dct fast -memsrc -strict -debug -fast -onepass -rgb  @@
+djpeg -skip 10,20 -gif -maxscans -crop 40x20+10+10 -verbose -icc -quantize 256 -strict -maxmemory 4m -fast  @@
+djpeg -skip 10,20 -nosmooth -maxscans -bmp -crop 40x20+10+10 -map -icc -memsrc -quantize 256 -fast -rgb  @@
+djpeg -skip 10,20 -gif -maxscans -crop 40x20+10+10 -grayscale -map -outfile /tmp/foo -dct int -verbose -quantize 256 -strict  @@
+djpeg -skip 10,20 -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -dither none -targa -outfile /tmp/foo -dct float -verbose -quantize 256 -onepass -rgb  @@
+djpeg -skip 10,20 -gif -maxscans -report -scale 1/4 -grayscale -dither ordered -outfile /tmp/foo -dct int -icc -memsrc -debug -maxmemory 4m -onepass -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -targa -dct int -icc -memsrc -quantize 256 -strict -onepass  @@
+djpeg -skip 10,20 -nosmooth -maxscans -scale 1/4 -outfile /tmp/foo -dct int -memsrc -quantize 256 -gif0 -fast -onepass  @@
+djpeg -skip 10,20 -nosmooth -maxscans -bmp -scale 1/4 -outfile /tmp/foo -verbose -icc -maxmemory 4m -fast  @@
+djpeg -skip 10,20 -nosmooth -maxscans -report -scale 1/4 -grayscale -dither fs -pnm -icc -memsrc -strict -onepass -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -bmp -crop 40x20+10+10 -grayscale -map -outfile /tmp/foo -dct fast -icc -memsrc -quantize 256 -maxmemory 4m -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -crop 40x20+10+10 -grayscale -map -outfile /tmp/foo -dct float -memsrc -quantize 256 -strict -gif0  @@
+djpeg -skip 10,20 -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -map -pnm -outfile /tmp/foo -dct int -verbose -quantize 256  @@
+djpeg -skip 10,20 -nosmooth -maxscans -bmp -report -map -dct float -memsrc -strict -maxmemory 4m -fast  @@
+djpeg -skip 10,20 -nosmooth -maxscans -map -pnm -outfile /tmp/foo -dct fast -verbose -icc -quantize 256 -strict -fast -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -scale 1/4 -grayscale -targa -map -outfile /tmp/foo -dct float -verbose -icc -memsrc -quantize 256 -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -report -crop 40x20+10+10 -grayscale -map -pnm -dct fast -icc -memsrc -strict -debug -maxmemory 4m -fast -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -bmp -crop 40x20+10+10 -scale 1/4 -grayscale -dct float -quantize 256 -strict -fast -onepass -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -bmp -scale 1/4 -outfile /tmp/foo -debug -fast -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -crop 40x20+10+10 -targa -map -outfile /tmp/foo -icc -memsrc -quantize 256 -strict -maxmemory 4m -fast  @@
+djpeg -skip 10,20 -gif -maxscans -scale 1/4 -grayscale -dither none -verbose -quantize 256 -strict -fast -onepass -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -scale 1/4 -targa -outfile /tmp/foo -verbose -quantize 256 -strict -fast -rgb  @@
+djpeg -skip 10,20 -gif -maxscans -report -scale 1/4 -map -dct fast -verbose -memsrc -quantize 256 -maxmemory 4m -fast  @@
+djpeg -skip 10,20 -nosmooth -maxscans -scale 1/4 -dither none -memsrc -quantize 256 -strict -gif0 -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -skip 10,20 -gif -maxscans -report -scale 1/4 -map -dct fast -memsrc -strict -debug -maxmemory 4m -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -dither fs -dct float -verbose -memsrc -gif0 -maxmemory 4m -fast -onepass  @@
+djpeg -skip 10,20 -nosmooth -maxscans -crop 40x20+10+10 -map -outfile /tmp/foo -icc -strict -gif0 -maxmemory 4m -fast  @@
+djpeg -skip 10,20 -nosmooth -maxscans -report -crop 40x20+10+10 -grayscale -targa -outfile /tmp/foo -verbose -icc -memsrc -fast -onepass  @@
+djpeg -skip 10,20 -nosmooth -maxscans -report -crop 40x20+10+10 -scale 1/4 -grayscale -memsrc -quantize 256 -gif0 -fast  @@
+djpeg -skip 10,20 -gif -maxscans -crop 40x20+10+10 -grayscale -map -outfile /tmp/foo -verbose -icc -memsrc -maxmemory 4m -fast  @@
+djpeg -skip 10,20 -nosmooth -maxscans -crop 40x20+10+10 -grayscale -targa -verbose -icc -memsrc -quantize 256 -fast -onepass  @@
+djpeg -skip 10,20 -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -dither none -targa -debug -fast -onepass -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -crop 40x20+10+10 -grayscale -dither none -pnm -dct int -icc -quantize 256 -strict -maxmemory 4m -onepass -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -bmp -crop 40x20+10+10 -scale 1/4 -grayscale -dither ordered -dct fast -debug -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -dither ordered -pnm -dct float -memsrc -debug -fast -onepass  @@
+djpeg -skip 10,20 -nosmooth -maxscans -crop 40x20+10+10 -grayscale -targa -map -debug -maxmemory 4m  @@
+djpeg -skip 10,20 -nosmooth -maxscans -crop 40x20+10+10 -grayscale -dither ordered -dct int -verbose -quantize 256 -gif0 -maxmemory 4m -onepass -rgb  @@
+djpeg -skip 10,20 -nosmooth -maxscans -crop 40x20+10+10 -grayscale -map -dct float -icc -gif0 -debug -fast  @@
+djpeg -skip 10,20 -nosmooth -maxscans -report -crop 40x20+10+10 -dither none -targa -outfile /tmp/foo -icc -maxmemory 4m -onepass  @@
+djpeg -skip 10,20 -nosmooth -maxscans -crop 40x20+10+10 -grayscale -pnm -dct float -verbose -icc -memsrc -quantize 256 -strict -maxmemory 4m -fast -onepass  @@
+djpeg -skip 10,20 -nosmooth -maxscans -map -dct fast -icc -memsrc -quantize 256 -strict -gif0  @@
+djpeg -os2 -report -map -outfile /tmp/foo -verbose -icc -memsrc -quantize 256  @@
+djpeg -os2 -report -map -outfile /tmp/foo -memsrc -strict -debug -maxmemory 4m -fast -rgb  @@
+djpeg -skip 10,20 -maxscans -report -crop 40x20+10+10 -scale 1/4 -grayscale -map -memsrc -gif0 -debug -maxmemory 4m  @@
+djpeg -skip 10,20 -maxscans -bmp -grayscale -map -dct fast -icc -quantize 256 -strict -maxmemory 4m -fast -rgb  @@
+djpeg -skip 10,20 -maxscans -bmp -crop 40x20+10+10 -dct fast -verbose -memsrc -quantize 256 -fast -onepass  @@
+djpeg -skip 10,20 -maxscans -report -crop 40x20+10+10 -map -pnm -outfile /tmp/foo -icc -debug -fast  @@
+djpeg -skip 10,20 -maxscans -scale 1/4 -dither fs -outfile /tmp/foo -dct int -memsrc -gif0 -debug -onepass -rgb  @@
+djpeg -skip 10,20 -maxscans -report -scale 1/4 -grayscale -dither fs -targa -outfile /tmp/foo -dct float -icc -quantize 256 -maxmemory 4m -fast -onepass  @@
+djpeg -skip 10,20 -maxscans -report -crop 40x20+10+10 -scale 1/4 -grayscale -dither ordered -outfile /tmp/foo -dct float -verbose -icc -quantize 256 -strict -gif0 -onepass -rgb  @@
+djpeg -skip 10,20 -maxscans -bmp -report -dither ordered -icc -memsrc -debug -maxmemory 4m -onepass  @@
+djpeg -skip 10,20 -maxscans -crop 40x20+10+10 -targa -map -verbose -quantize 256 -strict -fast -rgb  @@
+djpeg -skip 10,20 -maxscans -report -targa -map -outfile /tmp/foo -dct int -quantize 256  @@
+djpeg -skip 10,20 -maxscans -report -scale 1/4 -map -outfile /tmp/foo -icc -quantize 256 -gif0 -fast  @@
+djpeg -skip 10,20 -maxscans -report -grayscale -map -verbose -icc -strict -gif0 -rgb  @@
+djpeg -skip 10,20 -maxscans -map -pnm -outfile /tmp/foo -verbose -quantize 256 -strict -maxmemory 4m -rgb  @@
+djpeg -skip 10,20 -maxscans -report -crop 40x20+10+10 -scale 1/4 -dither fs -targa -outfile /tmp/foo -memsrc -quantize 256 -strict -onepass  @@
+djpeg -gif -report -map -dct float -memsrc -debug -maxmemory 4m  @@
+djpeg -skip 10,20 -maxscans -report -crop 40x20+10+10 -grayscale -targa -map -outfile /tmp/foo -verbose -icc -fast  @@
+djpeg -skip 10,20 -maxscans -report -grayscale -dither fs -targa -verbose -memsrc -quantize 256 -maxmemory 4m -onepass -rgb  @@
+djpeg -skip 10,20 -maxscans -report -crop 40x20+10+10 -scale 1/4 -map -pnm -dct fast -icc -quantize 256 -strict -maxmemory 4m -fast -rgb  @@
+djpeg -skip 10,20 -maxscans -grayscale -map -pnm -debug -maxmemory 4m -fast -rgb  @@
+djpeg -skip 10,20 -maxscans -crop 40x20+10+10 -quantize 256 -strict -gif0 -maxmemory 4m -fast  @@
+djpeg -skip 10,20 -maxscans -bmp -report -crop 40x20+10+10 -map -dct float -verbose -icc -quantize 256 -strict  @@
+djpeg -skip 10,20 -maxscans -scale 1/4 -targa -map -outfile /tmp/foo -memsrc -debug -fast -rgb  @@
+djpeg -skip 10,20 -maxscans -crop 40x20+10+10 -grayscale -dither ordered -icc -memsrc -gif0 -debug -onepass  @@
+djpeg -skip 10,20 -maxscans -crop 40x20+10+10 -grayscale -dither ordered -pnm -outfile /tmp/foo -verbose -icc -memsrc -quantize 256 -strict -maxmemory 4m -onepass  @@
+djpeg -skip 10,20 -maxscans -bmp -crop 40x20+10+10 -scale 1/4 -dither ordered -outfile /tmp/foo -dct float -strict -debug -onepass -rgb  @@
+djpeg -skip 10,20 -maxscans -bmp -crop 40x20+10+10 -scale 1/4 -map -outfile /tmp/foo -verbose -icc -quantize 256 -maxmemory 4m -rgb  @@
+djpeg -skip 10,20 -maxscans -bmp -report -crop 40x20+10+10 -grayscale -map -verbose -memsrc -fast -rgb  @@
+djpeg -skip 10,20 -maxscans -bmp -map -verbose -strict -maxmemory 4m  @@
+djpeg -skip 10,20 -maxscans -bmp -report -scale 1/4 -grayscale -verbose -memsrc -strict -fast -onepass  @@
+djpeg -skip 10,20 -maxscans -crop 40x20+10+10 -grayscale -map -outfile /tmp/foo -dct float -memsrc -gif0 -debug -rgb  @@
+djpeg -skip 10,20 -maxscans -bmp -report -crop 40x20+10+10 -grayscale -map -outfile /tmp/foo -dct int -icc -memsrc -rgb  @@
+djpeg -skip 10,20 -maxscans -report -crop 40x20+10+10 -dither none -pnm -outfile /tmp/foo -dct float -memsrc -quantize 256 -strict -fast -onepass  @@
+djpeg -skip 10,20 -maxscans -dither fs -targa -outfile /tmp/foo -dct float -verbose -memsrc -quantize 256 -maxmemory 4m -onepass -rgb  @@
+djpeg -skip 10,20 -maxscans -grayscale -map -dct fast -verbose -icc -quantize 256 -gif0 -maxmemory 4m -fast  @@
+djpeg -skip 10,20 -maxscans -report -scale 1/4 -targa -map -dct float -verbose -fast -rgb  @@
+djpeg -skip 10,20 -maxscans -crop 40x20+10+10 -map -verbose -icc -quantize 256 -strict -gif0 -fast -rgb  @@
+djpeg -skip 10,20 -maxscans -bmp -report -scale 1/4 -map -dct fast -icc -debug -fast  @@
+djpeg -skip 10,20 -maxscans -report -crop 40x20+10+10 -grayscale -pnm -verbose -memsrc -quantize 256 -fast -onepass  @@
+djpeg -skip 10,20 -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -pnm -memsrc -quantize 256 -maxmemory 4m -fast -rgb  @@
+djpeg -skip 10,20 -maxscans -report -scale 1/4 -map -pnm -verbose -memsrc -fast  @@
+djpeg -skip 10,20 -maxscans -report -crop 40x20+10+10 -scale 1/4 -map -outfile /tmp/foo -strict -gif0 -debug -fast -rgb  @@
+djpeg -skip 10,20 -maxscans -report -crop 40x20+10+10 -scale 1/4 -dither fs -dct float -quantize 256 -strict -gif0 -maxmemory 4m -onepass -rgb  @@
+djpeg -skip 10,20 -maxscans -grayscale -dither none -pnm -dct float -verbose -icc -memsrc -quantize 256 -maxmemory 4m -fast -onepass  @@
+djpeg -skip 10,20 -maxscans -scale 1/4 -grayscale -map -pnm -outfile /tmp/foo -icc -memsrc -debug -fast -rgb  @@
+djpeg -skip 10,20 -maxscans -report -dither none -pnm -verbose -icc -quantize 256 -onepass -rgb  @@
+djpeg -skip 10,20 -maxscans -bmp -crop 40x20+10+10 -scale 1/4 -map -outfile /tmp/foo -dct int -icc -memsrc -strict -debug -maxmemory 4m -fast  @@
+djpeg -skip 10,20 -maxscans -targa -map -outfile /tmp/foo -verbose -memsrc -quantize 256 -strict -maxmemory 4m -fast -rgb  @@
+djpeg -skip 10,20 -maxscans -report -verbose -icc -memsrc -quantize 256 -strict -gif0 -maxmemory 4m -fast -onepass  @@
+djpeg -skip 10,20 -maxscans -grayscale -dither none -targa -outfile /tmp/foo -icc -memsrc -strict -debug -maxmemory 4m -onepass -rgb  @@
+djpeg -skip 10,20 -maxscans -bmp -report -crop 40x20+10+10 -scale 1/4 -outfile /tmp/foo -verbose -icc -quantize 256 -maxmemory 4m -fast -onepass  @@
+djpeg -skip 10,20 -maxscans -bmp -crop 40x20+10+10 -scale 1/4 -dct int -icc -memsrc -quantize 256 -maxmemory 4m -fast -rgb  @@
+djpeg -skip 10,20 -maxscans -report -crop 40x20+10+10 -scale 1/4 -map -pnm -outfile /tmp/foo -dct float -memsrc -strict -debug -rgb  @@
+djpeg -skip 10,20 -maxscans -scale 1/4 -grayscale -targa -map -outfile /tmp/foo -dct fast -strict -debug -maxmemory 4m  @@
+djpeg -skip 10,20 -maxscans -bmp -scale 1/4 -dither none -outfile /tmp/foo -dct int -verbose -memsrc -quantize 256 -maxmemory 4m -onepass -rgb  @@
+djpeg -skip 10,20 -maxscans -bmp -grayscale -dither fs -outfile /tmp/foo -memsrc -quantize 256 -maxmemory 4m -onepass -rgb  @@
+djpeg -skip 10,20 -maxscans -report -crop 40x20+10+10 -map -outfile /tmp/foo -verbose -memsrc -gif0 -maxmemory 4m -fast  @@
+djpeg -skip 10,20 -maxscans -bmp -crop 40x20+10+10 -scale 1/4 -icc -memsrc -quantize 256 -strict  @@
+djpeg -skip 10,20 -maxscans -scale 1/4 -grayscale -map -outfile /tmp/foo -icc -memsrc -gif0 -debug -rgb  @@
+djpeg -skip 10,20 -maxscans -bmp -report -scale 1/4 -grayscale -map -outfile /tmp/foo -dct fast -verbose -memsrc -quantize 256 -fast  @@
+djpeg -skip 10,20 -maxscans -scale 1/4 -grayscale -targa -dct float -icc -memsrc -quantize 256 -strict -maxmemory 4m -fast -rgb  @@
+djpeg -skip 10,20 -maxscans -bmp -scale 1/4 -grayscale -dither fs -quantize 256 -strict -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -skip 10,20 -maxscans -crop 40x20+10+10 -map -dct int -icc -gif0 -debug -maxmemory 4m  @@
+djpeg -skip 10,20 -maxscans -report -scale 1/4 -grayscale -map -dct fast -verbose -icc -memsrc -quantize 256 -strict -gif0 -maxmemory 4m -rgb  @@
+djpeg -os2 -nosmooth -grayscale -map -dct int -debug -maxmemory 4m -fast  @@
+djpeg -colors 128 -os2 -nosmooth -maxscans -grayscale -dither fs -outfile /tmp/foo -dct float -verbose -icc -strict -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -os2 -nosmooth -maxscans -report -scale 1/4 -dither ordered -outfile /tmp/foo -icc -memsrc -strict -debug -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -os2 -nosmooth -maxscans -report -crop 40x20+10+10 -memsrc -debug -fast -onepass  @@
+djpeg -colors 128 -os2 -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -dither ordered -outfile /tmp/foo -verbose -strict -fast -onepass  @@
+djpeg -colors 128 -os2 -nosmooth -maxscans -report -crop 40x20+10+10 -dct int -verbose -icc -memsrc -rgb  @@
+djpeg -colors 128 -os2 -nosmooth -maxscans -report -grayscale -dct int -debug -fast  @@
+djpeg -colors 128 -os2 -nosmooth -maxscans -report -crop 40x20+10+10 -grayscale -dither ordered -dct int -verbose -memsrc -strict -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -os2 -nosmooth -maxscans -report -crop 40x20+10+10 -scale 1/4 -outfile /tmp/foo -icc -strict -rgb  @@
+djpeg -colors 128 -os2 -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -outfile /tmp/foo -dct fast -verbose -memsrc -fast -onepass -rgb  @@
+djpeg -colors 128 -os2 -nosmooth -maxscans -crop 40x20+10+10 -grayscale -verbose -icc -memsrc -strict  @@
+djpeg -colors 128 -os2 -nosmooth -maxscans -grayscale -outfile /tmp/foo -dct int -icc -memsrc -strict -debug -rgb  @@
+djpeg -colors 128 -os2 -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -dither fs -verbose -strict -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -os2 -nosmooth -maxscans -crop 40x20+10+10 -grayscale -dither none -dct float -icc -memsrc -strict -debug -fast -onepass  @@
+djpeg -colors 128 -os2 -nosmooth -maxscans -verbose -memsrc -strict -fast  @@
+djpeg -colors 128 -os2 -nosmooth -maxscans -outfile /tmp/foo -icc -debug -maxmemory 4m  @@
+djpeg -colors 128 -os2 -maxscans -report -crop 40x20+10+10 -grayscale -dither none -outfile /tmp/foo -memsrc -strict -maxmemory 4m -onepass  @@
+djpeg -colors 128 -os2 -maxscans -report -scale 1/4 -outfile /tmp/foo -dct fast -verbose -strict  @@
+djpeg -colors 128 -os2 -maxscans -report -crop 40x20+10+10 -dither none -verbose -icc -strict -onepass  @@
+djpeg -colors 128 -os2 -maxscans -report -crop 40x20+10+10 -scale 1/4 -grayscale -outfile /tmp/foo -verbose -icc -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -os2 -maxscans -outfile /tmp/foo -verbose -icc -memsrc -strict -fast -rgb  @@
+djpeg -colors 128 -os2 -maxscans -report -scale 1/4 -grayscale -dct float -verbose -icc -memsrc -onepass -rgb  @@
+djpeg -colors 128 -os2 -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -dither none -icc -memsrc -debug -onepass -rgb  @@
+djpeg -colors 128 -os2 -maxscans -report -crop 40x20+10+10 -dct float -icc -strict -debug -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -os2 -maxscans -report -crop 40x20+10+10 -scale 1/4 -grayscale -dct fast -memsrc -maxmemory 4m -fast  @@
+djpeg -colors 128 -os2 -maxscans -report -crop 40x20+10+10 -scale 1/4 -grayscale -dither none -outfile /tmp/foo -verbose -icc -maxmemory 4m -onepass  @@
+djpeg -colors 128 -os2 -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -dither none -outfile /tmp/foo -icc -debug -onepass  @@
+djpeg -colors 128 -os2 -maxscans -report -grayscale -verbose -maxmemory 4m -fast -rgb  @@
+djpeg -os2 -nosmooth -maxscans -report -crop 40x20+10+10 -scale 1/4 -dither fs -outfile /tmp/foo -dct float -icc -memsrc -quantize 256 -maxmemory 4m -onepass  @@
+djpeg -os2 -nosmooth -maxscans -report -scale 1/4 -grayscale -map -verbose -quantize 256 -strict -fast -rgb  @@
+djpeg -os2 -nosmooth -maxscans -report -crop 40x20+10+10 -grayscale -map -outfile /tmp/foo -icc -memsrc -debug -fast  @@
+djpeg -os2 -nosmooth -maxscans -report -crop 40x20+10+10 -map -dct float -verbose -quantize 256 -maxmemory 4m -fast  @@
+djpeg -os2 -nosmooth -maxscans -crop 40x20+10+10 -dither ordered -outfile /tmp/foo -strict -debug -onepass -rgb  @@
+djpeg -os2 -nosmooth -maxscans -scale 1/4 -grayscale -dct float -icc -memsrc -strict -debug -maxmemory 4m -fast -onepass  @@
+djpeg -os2 -nosmooth -maxscans -outfile /tmp/foo -verbose -icc -memsrc -quantize 256 -strict -onepass  @@
+djpeg -os2 -nosmooth -maxscans -map -outfile /tmp/foo -icc -strict -maxmemory 4m -fast  @@
+djpeg -nosmooth -grayscale -map -verbose -icc -quantize 256 -strict -gif0 -maxmemory 4m  @@
+djpeg -os2 -nosmooth -maxscans -report -grayscale -map -dct int -icc -memsrc -quantize 256 -fast  @@
+djpeg -os2 -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -map -outfile /tmp/foo -dct int -icc -quantize 256 -strict -maxmemory 4m  @@
+djpeg -os2 -nosmooth -maxscans -crop 40x20+10+10 -map -memsrc -quantize 256 -strict -maxmemory 4m  @@
+djpeg -os2 -nosmooth -maxscans -report -crop 40x20+10+10 -scale 1/4 -dither ordered -dct float -memsrc -strict -debug -fast -onepass  @@
+djpeg -os2 -nosmooth -maxscans -scale 1/4 -grayscale -map -outfile /tmp/foo -dct int -strict -debug -maxmemory 4m -fast -rgb  @@
+djpeg -os2 -nosmooth -maxscans -crop 40x20+10+10 -grayscale -dither none -outfile /tmp/foo -dct int -verbose -icc -memsrc -quantize 256 -fast -onepass  @@
+djpeg -os2 -nosmooth -maxscans -crop 40x20+10+10 -map -icc -strict -debug -fast -rgb  @@
+djpeg -os2 -nosmooth -maxscans -report -scale 1/4 -icc -quantize 256 -maxmemory 4m -onepass  @@
+djpeg -os2 -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -outfile /tmp/foo -dct fast -memsrc -debug -maxmemory 4m  @@
+djpeg -os2 -nosmooth -maxscans -report -map -outfile /tmp/foo -dct float -verbose -icc -memsrc -strict -fast -rgb  @@
+djpeg -os2 -nosmooth -maxscans -report -grayscale -outfile /tmp/foo -dct int -verbose -icc -quantize 256  @@
+djpeg -os2 -map -dct fast -verbose -strict -fast  @@
+djpeg -os2 -map -outfile /tmp/foo -verbose -icc -memsrc -quantize 256 -strict -maxmemory 4m -fast -rgb  @@
+djpeg -os2 -maxscans -report -dither fs -outfile /tmp/foo -dct float -verbose -icc -quantize 256 -fast -onepass -rgb  @@
+djpeg -os2 -maxscans -crop 40x20+10+10 -grayscale -map -dct int -verbose -icc -memsrc -strict -maxmemory 4m -rgb  @@
+djpeg -colors 128 -gif -nosmooth -maxscans -report -crop 40x20+10+10 -grayscale -dct int -verbose -memsrc -rgb  @@
+djpeg -os2 -maxscans -scale 1/4 -map -debug  @@
+djpeg -os2 -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -map -outfile /tmp/foo -dct float -memsrc -quantize 256 -fast -rgb  @@
+djpeg -colors 128 -gif -nosmooth -maxscans -dither ordered -outfile /tmp/foo -strict -debug -onepass  @@
+djpeg -colors 128 -gif -nosmooth -maxscans -report -scale 1/4 -outfile /tmp/foo -dct fast -verbose -memsrc -strict  @@
+djpeg -os2 -maxscans -crop 40x20+10+10 -grayscale -dither fs -quantize 256 -onepass -rgb  @@
+djpeg -os2 -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -dither fs -outfile /tmp/foo -dct fast -icc -memsrc -strict -debug -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -os2 -maxscans -report -scale 1/4 -grayscale -map -dct int -icc -memsrc -debug -maxmemory 4m -rgb  @@
+djpeg -os2 -maxscans -dither ordered -outfile /tmp/foo -icc -memsrc -debug -maxmemory 4m -onepass  @@
+djpeg -colors 128 -gif -nosmooth -maxscans -grayscale -outfile /tmp/foo -dct int -memsrc -maxmemory 4m -fast -rgb  @@
+djpeg -os2 -maxscans -report -scale 1/4 -grayscale -dither none -outfile /tmp/foo -memsrc -quantize 256 -strict -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -gif -nosmooth -maxscans -report -crop 40x20+10+10 -scale 1/4 -dither none -dct fast -verbose -memsrc -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -os2 -maxscans -report -crop 40x20+10+10 -grayscale -icc -quantize 256 -fast -rgb  @@
+djpeg -colors 128 -gif -nosmooth -maxscans -report -crop 40x20+10+10 -scale 1/4 -grayscale -dither ordered -icc -strict -onepass -rgb  @@
+djpeg -os2 -maxscans -scale 1/4 -grayscale -dither none -dct float -verbose -maxmemory 4m -onepass  @@
+djpeg -colors 128 -gif -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -dither fs -outfile /tmp/foo -memsrc -strict -fast -onepass  @@
+djpeg -os2 -maxscans -report -scale 1/4 -grayscale -dither fs -dct int -verbose -icc -quantize 256 -strict -fast -onepass  @@
+djpeg -colors 128 -gif -nosmooth -maxscans -scale 1/4 -icc -memsrc -strict -debug -maxmemory 4m -onepass  @@
+djpeg -colors 128 -gif -nosmooth -maxscans -report -scale 1/4 -outfile /tmp/foo -dct int -icc -memsrc -debug -maxmemory 4m -fast  @@
+djpeg -colors 128 -gif -nosmooth -maxscans -outfile /tmp/foo -icc -memsrc -strict -debug -fast -rgb  @@
+djpeg -os2 -maxscans -report -crop 40x20+10+10 -scale 1/4 -dither none -dct fast -maxmemory 4m -onepass  @@
+djpeg -colors 128 -gif -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -dither fs -dct int -verbose -memsrc -strict -fast -onepass -rgb  @@
+djpeg -os2 -maxscans -scale 1/4 -dither none -outfile /tmp/foo -icc -quantize 256 -fast -onepass  @@
+djpeg -os2 -maxscans -dither fs -outfile /tmp/foo -memsrc -quantize 256 -strict -onepass -rgb  @@
+djpeg -colors 128 -gif -nosmooth -maxscans -scale 1/4 -outfile /tmp/foo -dct float -verbose -strict -fast -rgb  @@
+djpeg -colors 128 -nosmooth -maxscans -crop 40x20+10+10 -pnm -outfile /tmp/foo -verbose -maxmemory 4m -fast -rgb  @@
+djpeg -nosmooth -bmp -map -outfile /tmp/foo -dct fast -icc -memsrc -quantize 256 -maxmemory 4m  @@
+djpeg -colors 128 -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -dither ordered -targa -dct int -verbose -icc -strict -maxmemory 4m -onepass  @@
+djpeg -colors 128 -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -icc -gif0 -debug -fast -rgb  @@
+djpeg -colors 128 -nosmooth -maxscans -report -crop 40x20+10+10 -outfile /tmp/foo -dct fast -memsrc -gif0 -debug -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -nosmooth -maxscans -scale 1/4 -grayscale -dither fs -verbose -icc -memsrc -gif0 -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -nosmooth -maxscans -report -scale 1/4 -dither fs -targa -outfile /tmp/foo -dct fast -verbose -strict -fast -onepass -rgb  @@
+djpeg -colors 128 -nosmooth -maxscans -bmp -report -grayscale -verbose -memsrc -strict -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -nosmooth -maxscans -bmp -report -scale 1/4 -outfile /tmp/foo -dct float -memsrc -strict -fast -onepass -rgb  @@
+djpeg -colors 128 -nosmooth -maxscans -bmp -crop 40x20+10+10 -scale 1/4 -grayscale -dither none -outfile /tmp/foo -dct float -verbose -icc -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -nosmooth -maxscans -bmp -crop 40x20+10+10 -outfile /tmp/foo -icc -debug -fast -rgb  @@
+djpeg -colors 128 -nosmooth -maxscans -report -crop 40x20+10+10 -scale 1/4 -dither fs -outfile /tmp/foo -dct int -verbose -gif0 -onepass  @@
+djpeg -colors 128 -nosmooth -maxscans -report -dither none -pnm -outfile /tmp/foo -icc -strict -debug -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -nosmooth -maxscans -crop 40x20+10+10 -grayscale -targa -outfile /tmp/foo -dct float -debug  @@
+djpeg -colors 128 -nosmooth -maxscans -bmp -report -crop 40x20+10+10 -scale 1/4 -dither ordered -memsrc -strict -debug -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -nosmooth -maxscans -report -crop 40x20+10+10 -grayscale -dither none -targa -outfile /tmp/foo -verbose -icc -memsrc -onepass -rgb  @@
+djpeg -colors 128 -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -targa -outfile /tmp/foo -verbose -memsrc -maxmemory 4m -fast -rgb  @@
+djpeg -colors 128 -nosmooth -maxscans -crop 40x20+10+10 -grayscale -pnm -dct float -icc -debug -onepass  @@
+djpeg -colors 128 -nosmooth -maxscans -report -crop 40x20+10+10 -scale 1/4 -pnm -dct int -verbose -memsrc -strict -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -nosmooth -maxscans -report -grayscale -outfile /tmp/foo -strict -gif0 -debug -maxmemory 4m -rgb  @@
+djpeg -colors 128 -nosmooth -maxscans -report -crop 40x20+10+10 -scale 1/4 -grayscale -dither none -pnm -dct int -verbose -icc -strict -onepass  @@
+djpeg -colors 128 -nosmooth -maxscans -bmp -crop 40x20+10+10 -grayscale -dither ordered -icc -memsrc -strict -debug -maxmemory 4m -onepass  @@
+djpeg -colors 128 -nosmooth -maxscans -dither ordered -pnm -outfile /tmp/foo -dct int -icc -strict -debug -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -nosmooth -maxscans -bmp -report -crop 40x20+10+10 -grayscale -outfile /tmp/foo -dct int -verbose -icc -strict -rgb  @@
+djpeg -colors 128 -nosmooth -maxscans -report -scale 1/4 -dither none -pnm -outfile /tmp/foo -dct int -debug -onepass  @@
+djpeg -colors 128 -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -dither ordered -targa -icc -memsrc -debug -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -pnm -icc -strict -debug -maxmemory 4m  @@
+djpeg -colors 128 -nosmooth -maxscans -report -dither fs -targa -outfile /tmp/foo -dct float -memsrc -strict -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -nosmooth -maxscans -report -scale 1/4 -grayscale -dither none -pnm -outfile /tmp/foo -verbose -icc -strict -maxmemory 4m -onepass  @@
+djpeg -colors 128 -nosmooth -maxscans -report -grayscale -dither ordered -dct fast -verbose -icc -strict -gif0 -fast -onepass  @@
+djpeg -colors 128 -nosmooth -maxscans -scale 1/4 -grayscale -targa -icc -memsrc -strict -debug -fast -rgb  @@
+djpeg -colors 128 -nosmooth -maxscans -bmp -report -scale 1/4 -icc -debug -maxmemory 4m -fast -rgb  @@
+djpeg -colors 128 -nosmooth -maxscans -crop 40x20+10+10 -grayscale -dither ordered -outfile /tmp/foo -icc -strict -gif0 -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -nosmooth -maxscans -pnm -outfile /tmp/foo -debug -fast -onepass  @@
+djpeg -colors 128 -nosmooth -maxscans -scale 1/4 -outfile /tmp/foo -icc -strict -gif0 -rgb  @@
+djpeg -colors 128 -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -outfile /tmp/foo -dct fast -verbose -icc -strict -gif0 -onepass  @@
+djpeg -colors 128 -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -dither none -targa -outfile /tmp/foo -dct int -icc -memsrc -strict -fast -onepass -rgb  @@
+djpeg -colors 128 -nosmooth -maxscans -report -scale 1/4 -grayscale -strict -gif0 -debug -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -nosmooth -maxscans -crop 40x20+10+10 -grayscale -dither fs -pnm -outfile /tmp/foo -dct float -verbose -memsrc -strict -onepass -rgb  @@
+djpeg -colors 128 -nosmooth -maxscans -report -pnm -outfile /tmp/foo -icc -strict -fast -rgb  @@
+djpeg -colors 128 -nosmooth -maxscans -bmp -scale 1/4 -grayscale -outfile /tmp/foo -dct int -verbose  @@
+djpeg -colors 128 -nosmooth -maxscans -bmp -crop 40x20+10+10 -grayscale -outfile /tmp/foo -verbose -icc -memsrc -onepass -rgb  @@
+djpeg -colors 128 -nosmooth -maxscans -grayscale -pnm -outfile /tmp/foo -dct int -icc -debug -maxmemory 4m -rgb  @@
+djpeg -colors 128 -nosmooth -maxscans -report -targa -outfile /tmp/foo -icc -memsrc -debug -maxmemory 4m -rgb  @@
+djpeg -colors 128 -nosmooth -maxscans -grayscale -dct fast -icc -memsrc -strict -gif0 -debug -maxmemory 4m -fast -rgb  @@
+djpeg -colors 128 -nosmooth -maxscans -dither fs -targa -dct float -icc -memsrc -debug -maxmemory 4m -fast -onepass  @@
+djpeg -gif -nosmooth -maxscans -grayscale -dither none -outfile /tmp/foo -dct int -debug -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -gif -nosmooth -maxscans -report -scale 1/4 -grayscale -map -outfile /tmp/foo -dct int -icc -memsrc -quantize 256 -strict -maxmemory 4m -fast  @@
+djpeg -gif -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -map -outfile /tmp/foo -memsrc -debug -rgb  @@
+djpeg -gif -nosmooth -maxscans -report -icc -quantize 256 -maxmemory 4m -rgb  @@
+djpeg -gif -nosmooth -maxscans -report -crop 40x20+10+10 -grayscale -map -strict -debug -maxmemory 4m -fast  @@
+djpeg -gif -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -map -verbose -memsrc -quantize 256 -fast  @@
+djpeg -gif -nosmooth -maxscans -report -scale 1/4 -dither fs -outfile /tmp/foo -verbose -quantize 256 -maxmemory 4m -fast -onepass  @@
+djpeg -gif -nosmooth -maxscans -report -dither fs -dct int -verbose -icc -quantize 256 -strict -fast -onepass  @@
+djpeg -gif -nosmooth -maxscans -report -grayscale -map -outfile /tmp/foo -dct float -icc -memsrc -strict -debug -fast -rgb  @@
+djpeg -gif -nosmooth -maxscans -report -map -dct float -verbose -icc -memsrc -quantize 256  @@
+djpeg -gif -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -outfile /tmp/foo -dct float -verbose -memsrc -onepass -rgb  @@
+djpeg -gif -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -outfile /tmp/foo -dct int -icc -quantize 256 -maxmemory 4m -fast -onepass  @@
+djpeg -gif -nosmooth -maxscans -crop 40x20+10+10 -dct fast -icc -memsrc -strict -debug -maxmemory 4m -fast -rgb  @@
+djpeg -gif -nosmooth -maxscans -report -scale 1/4 -grayscale -map -icc -memsrc -quantize 256 -fast -rgb  @@
+djpeg -gif -nosmooth -maxscans -report -crop 40x20+10+10 -scale 1/4 -grayscale -dct float -verbose -maxmemory 4m -rgb  @@
+djpeg -gif -nosmooth -maxscans -map -quantize 256 -maxmemory 4m -fast  @@
+djpeg -gif -nosmooth -maxscans -grayscale -map -dct int -icc -debug -maxmemory 4m -fast -rgb  @@
+djpeg -gif -nosmooth -maxscans -report -crop 40x20+10+10 -grayscale -map -dct fast -verbose -icc -memsrc -quantize 256 -strict -rgb  @@
+djpeg -gif -nosmooth -maxscans -report -dither none -dct fast -verbose -memsrc -quantize 256 -strict -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -gif -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -map -outfile /tmp/foo -dct float -memsrc -strict -maxmemory 4m  @@
+djpeg -gif -nosmooth -maxscans -scale 1/4 -grayscale -map -outfile /tmp/foo -verbose -memsrc  @@
+djpeg -colors 128 -gif -maxscans -report -crop 40x20+10+10 -scale 1/4 -grayscale -dct float -verbose -icc -memsrc -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -gif -maxscans -crop 40x20+10+10 -dither none -outfile /tmp/foo -dct int -verbose -icc -memsrc -strict -onepass -rgb  @@
+djpeg -colors 128 -gif -maxscans -scale 1/4 -grayscale -verbose -icc  @@
+djpeg -colors 128 -gif -maxscans -report -scale 1/4 -grayscale -dither fs -memsrc -strict -debug -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -gif -maxscans -report -scale 1/4 -grayscale -dither ordered -outfile /tmp/foo -icc -debug -fast -onepass  @@
+djpeg -colors 128 -gif -maxscans -crop 40x20+10+10 -scale 1/4 -dither ordered -verbose -icc -memsrc -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -gif -maxscans -crop 40x20+10+10 -grayscale -outfile /tmp/foo -icc -memsrc -debug  @@
+djpeg -colors 128 -gif -maxscans -scale 1/4 -grayscale -outfile /tmp/foo -dct int -strict -debug -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -bmp -grayscale -map -verbose -icc -quantize 256 -maxmemory 4m -fast  @@
+djpeg -colors 128 -gif -maxscans -report -outfile /tmp/foo -verbose -memsrc -strict -fast -onepass  @@
+djpeg -colors 128 -gif -maxscans -report -scale 1/4 -grayscale -dither fs -outfile /tmp/foo -dct fast -memsrc -debug -onepass  @@
+djpeg -colors 128 -gif -maxscans -report -scale 1/4 -dither ordered -icc -memsrc -strict -onepass  @@
+djpeg -colors 128 -gif -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -outfile /tmp/foo -dct fast -verbose -icc -memsrc -strict -maxmemory 4m -rgb  @@
+djpeg -nosmooth -maxscans -report -map -dct int -verbose -icc -memsrc -quantize 256 -gif0 -fast -rgb  @@
+djpeg -nosmooth -maxscans -scale 1/4 -grayscale -targa -map -outfile /tmp/foo -verbose -memsrc -quantize 256 -maxmemory 4m  @@
+djpeg -nosmooth -maxscans -bmp -crop 40x20+10+10 -scale 1/4 -dither fs -outfile /tmp/foo -dct fast -icc -strict -debug -fast -onepass  @@
+djpeg -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -map -dct fast -strict -gif0  @@
+djpeg -nosmooth -maxscans -report -crop 40x20+10+10 -grayscale -map -pnm -verbose -icc -quantize 256 -maxmemory 4m  @@
+djpeg -nosmooth -maxscans -report -crop 40x20+10+10 -scale 1/4 -map -pnm -outfile /tmp/foo -dct float -verbose -memsrc -strict -maxmemory 4m  @@
+djpeg -nosmooth -maxscans -scale 1/4 -grayscale -dither ordered -targa -memsrc -quantize 256 -strict -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -nosmooth -maxscans -scale 1/4 -dither none -pnm -dct fast -icc -quantize 256 -fast -onepass -rgb  @@
+djpeg -nosmooth -maxscans -scale 1/4 -grayscale -map -pnm -dct fast -verbose -fast -rgb  @@
+djpeg -nosmooth -maxscans -report -crop 40x20+10+10 -dither fs -pnm -outfile /tmp/foo -icc -memsrc -quantize 256 -maxmemory 4m -onepass -rgb  @@
+djpeg -nosmooth -maxscans -report -crop 40x20+10+10 -scale 1/4 -grayscale -map -outfile /tmp/foo -dct fast -verbose -icc -memsrc -strict -gif0 -fast -rgb  @@
+djpeg -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -dither fs -pnm -outfile /tmp/foo -memsrc -strict -debug -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -nosmooth -maxscans -bmp -report -dither ordered -outfile /tmp/foo -verbose -icc -quantize 256 -strict -maxmemory 4m -onepass  @@
+djpeg -nosmooth -maxscans -report -scale 1/4 -grayscale -dither fs -memsrc -strict -gif0 -debug -onepass -rgb  @@
+djpeg -nosmooth -maxscans -report -dither ordered -targa -dct int -icc -strict -debug -fast -onepass  @@
+djpeg -nosmooth -maxscans -bmp -crop 40x20+10+10 -grayscale -map -dct int -memsrc -quantize 256  @@
+djpeg -nosmooth -maxscans -report -crop 40x20+10+10 -dither none -targa -dct float -memsrc -quantize 256 -strict -maxmemory 4m -onepass  @@
+djpeg -nosmooth -maxscans -report -grayscale -dct float -verbose -memsrc -quantize 256 -gif0 -maxmemory 4m -rgb  @@
+djpeg -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -dither fs -targa -outfile /tmp/foo -icc -debug -maxmemory 4m -onepass -rgb  @@
+djpeg -nosmooth -maxscans -bmp -report -crop 40x20+10+10 -scale 1/4 -map -outfile /tmp/foo -quantize 256 -strict -fast  @@
+djpeg -nosmooth -maxscans -crop 40x20+10+10 -dither ordered -outfile /tmp/foo -dct fast -icc -memsrc -quantize 256 -gif0 -maxmemory 4m -onepass  @@
+djpeg -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -map -pnm -outfile /tmp/foo -quantize 256 -strict -fast  @@
+djpeg -nosmooth -maxscans -report -scale 1/4 -grayscale -map -pnm -outfile /tmp/foo -memsrc -debug -maxmemory 4m -rgb  @@
+djpeg -nosmooth -maxscans -report -scale 1/4 -grayscale -targa -map -outfile /tmp/foo -dct fast -verbose -icc -quantize 256 -strict -maxmemory 4m -fast  @@
+djpeg -nosmooth -maxscans -crop 40x20+10+10 -dither fs -icc -strict -gif0 -debug -maxmemory 4m -onepass -rgb  @@
+djpeg -nosmooth -maxscans -bmp -report -grayscale -dither none -dct int -icc -debug -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -nosmooth -maxscans -report -crop 40x20+10+10 -map -pnm -dct fast -memsrc -debug -maxmemory 4m -fast  @@
+djpeg -nosmooth -maxscans -targa -map -dct float -icc -memsrc -quantize 256 -maxmemory 4m -fast -rgb  @@
+djpeg -nosmooth -maxscans -bmp -scale 1/4 -grayscale -outfile /tmp/foo -dct float -memsrc -quantize 256 -strict -maxmemory 4m -rgb  @@
+djpeg -nosmooth -maxscans -targa -outfile /tmp/foo -dct int -icc -memsrc -strict -debug -maxmemory 4m -onepass  @@
+djpeg -nosmooth -maxscans -report -crop 40x20+10+10 -scale 1/4 -grayscale -map -icc -memsrc -strict -gif0 -debug -maxmemory 4m -fast  @@
+djpeg -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -targa -dct int -verbose -icc -memsrc -fast -rgb  @@
+djpeg -nosmooth -maxscans -grayscale -targa -map -dct float -debug -rgb  @@
+djpeg -nosmooth -maxscans -report -grayscale -dither ordered -outfile /tmp/foo -memsrc -quantize 256 -gif0 -fast -onepass -rgb  @@
+djpeg -nosmooth -maxscans -bmp -crop 40x20+10+10 -scale 1/4 -dither fs -dct float -icc -quantize 256 -strict -maxmemory 4m -fast -onepass  @@
+djpeg -nosmooth -maxscans -grayscale -map -outfile /tmp/foo -dct int -memsrc -strict -gif0 -debug -maxmemory 4m  @@
+djpeg -nosmooth -maxscans -report -crop 40x20+10+10 -scale 1/4 -dither fs -targa -verbose -quantize 256 -fast -onepass -rgb  @@
+djpeg -nosmooth -maxscans -dither ordered -targa -outfile /tmp/foo -verbose -memsrc -strict -fast -onepass  @@
+djpeg -nosmooth -maxscans -bmp -crop 40x20+10+10 -outfile /tmp/foo -memsrc -quantize 256 -strict -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -targa -map -dct fast -verbose -icc -quantize 256 -fast  @@
+djpeg -nosmooth -maxscans -bmp -scale 1/4 -map -outfile /tmp/foo -verbose -icc -memsrc -maxmemory 4m -fast -rgb  @@
+djpeg -nosmooth -maxscans -report -scale 1/4 -dct int -memsrc -gif0 -debug -fast -onepass  @@
+djpeg -nosmooth -maxscans -crop 40x20+10+10 -map -outfile /tmp/foo -verbose -icc -memsrc -quantize 256 -gif0 -fast  @@
+djpeg -nosmooth -maxscans -report -crop 40x20+10+10 -scale 1/4 -dither none -outfile /tmp/foo -dct fast -verbose -icc -quantize 256 -gif0 -maxmemory 4m -fast -onepass  @@
+djpeg -nosmooth -maxscans -report -scale 1/4 -grayscale -pnm -outfile /tmp/foo -dct fast -quantize 256 -maxmemory 4m  @@
+djpeg -nosmooth -maxscans -report -crop 40x20+10+10 -scale 1/4 -grayscale -pnm -outfile /tmp/foo -verbose -icc -quantize 256 -strict -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -nosmooth -maxscans -report -crop 40x20+10+10 -scale 1/4 -dither fs -pnm -dct float -verbose -icc -memsrc -quantize 256 -strict -maxmemory 4m -fast -onepass  @@
+djpeg -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -targa -outfile /tmp/foo -dct fast -memsrc -quantize 256 -fast -onepass  @@
+djpeg -nosmooth -maxscans -report -crop 40x20+10+10 -scale 1/4 -targa -map -outfile /tmp/foo -memsrc -quantize 256 -strict -fast -rgb  @@
+djpeg -nosmooth -maxscans -report -grayscale -targa -outfile /tmp/foo -dct float -verbose -icc -memsrc -quantize 256 -maxmemory 4m -onepass  @@
+djpeg -nosmooth -maxscans -bmp -grayscale -map -outfile /tmp/foo -dct float -icc -debug  @@
+djpeg -nosmooth -maxscans -bmp -report -crop 40x20+10+10 -scale 1/4 -map -outfile /tmp/foo -memsrc -debug  @@
+djpeg -nosmooth -maxscans -scale 1/4 -dither none -dct fast -quantize 256 -strict -gif0 -fast -onepass -rgb  @@
+djpeg -nosmooth -maxscans -report -crop 40x20+10+10 -grayscale -targa -map -outfile /tmp/foo -memsrc -strict -debug  @@
+djpeg -nosmooth -maxscans -crop 40x20+10+10 -grayscale -targa -map -verbose -icc -memsrc -quantize 256 -maxmemory 4m -rgb  @@
+djpeg -nosmooth -maxscans -scale 1/4 -pnm -memsrc -debug -fast -onepass -rgb  @@
+djpeg -nosmooth -maxscans -bmp -crop 40x20+10+10 -grayscale -map -dct float -verbose -icc -memsrc -quantize 256 -strict -fast -rgb  @@
+djpeg -nosmooth -maxscans -bmp -grayscale -dither none -strict -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -nosmooth -maxscans -report -scale 1/4 -dither ordered -outfile /tmp/foo -verbose -gif0 -onepass  @@
+djpeg -nosmooth -maxscans -report -dither fs -outfile /tmp/foo -icc -memsrc -gif0 -debug -fast -onepass -rgb  @@
+djpeg -nosmooth -maxscans -report -crop 40x20+10+10 -grayscale -targa -map -rgb  @@
+djpeg -nosmooth -maxscans -bmp -scale 1/4 -map -memsrc -debug -maxmemory 4m -rgb  @@
+djpeg -nosmooth -maxscans -report -scale 1/4 -map -icc -quantize 256 -gif0  @@
+djpeg -nosmooth -maxscans -scale 1/4 -map -pnm -outfile /tmp/foo -dct fast -icc -memsrc -maxmemory 4m -rgb  @@
+djpeg -nosmooth -maxscans -scale 1/4 -map -pnm -outfile /tmp/foo -dct float -debug -fast  @@
+djpeg -nosmooth -maxscans -bmp -scale 1/4 -grayscale -map -verbose -quantize 256 -fast -rgb  @@
+djpeg -nosmooth -maxscans -crop 40x20+10+10 -outfile /tmp/foo -icc -quantize 256 -strict -gif0 -maxmemory 4m -onepass  @@
+djpeg -nosmooth -maxscans -bmp -grayscale -outfile /tmp/foo -dct fast -quantize 256 -strict -maxmemory 4m  @@
+djpeg -nosmooth -maxscans -grayscale -dither fs -targa -icc -strict -debug -onepass -rgb  @@
+djpeg -nosmooth -maxscans -crop 40x20+10+10 -grayscale -dither fs -outfile /tmp/foo -dct float -verbose -icc -quantize 256 -strict -gif0 -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -nosmooth -maxscans -crop 40x20+10+10 -grayscale -map -pnm -outfile /tmp/foo -dct fast -icc -memsrc -strict -debug -maxmemory 4m -fast  @@
+djpeg -nosmooth -maxscans -outfile /tmp/foo -icc -quantize 256 -strict -gif0 -rgb  @@
+djpeg -nosmooth -maxscans -report -map -pnm -dct float -icc -debug -rgb  @@
+djpeg -nosmooth -maxscans -grayscale -dither ordered -pnm -outfile /tmp/foo -dct fast -memsrc -debug -maxmemory 4m -onepass  @@
+djpeg -nosmooth -maxscans -bmp -report -map -dct float -verbose -icc -quantize 256 -fast  @@
+djpeg -nosmooth -maxscans -crop 40x20+10+10 -grayscale -dither none -pnm -quantize 256 -strict -fast -onepass -rgb  @@
+djpeg -nosmooth -maxscans -grayscale -targa -dct int -memsrc -quantize 256 -strict -fast -rgb  @@
+djpeg -nosmooth -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -pnm -outfile /tmp/foo -dct int -memsrc -quantize 256 -strict -maxmemory 4m -rgb  @@
+djpeg -nosmooth -maxscans -bmp -grayscale -dither ordered -outfile /tmp/foo -memsrc -quantize 256 -maxmemory 4m -onepass  @@
+djpeg -nosmooth -maxscans -report -grayscale -outfile /tmp/foo -dct int -gif0 -debug -fast -rgb  @@
+djpeg -nosmooth -maxscans -crop 40x20+10+10 -grayscale -dither fs -pnm -debug -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -nosmooth -maxscans -bmp -report -scale 1/4 -dither none -outfile /tmp/foo -dct fast -icc -memsrc -debug -onepass  @@
+djpeg -nosmooth -maxscans -bmp -report -crop 40x20+10+10 -scale 1/4 -dither none -outfile /tmp/foo -verbose -icc -memsrc -quantize 256 -strict -maxmemory 4m -onepass -rgb  @@
+djpeg -nosmooth -maxscans -bmp -crop 40x20+10+10 -scale 1/4 -map -icc -debug -fast -rgb  @@
+djpeg -colors 128 -maxscans -dither ordered -targa -outfile /tmp/foo -icc -strict -debug -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -maxscans -bmp -crop 40x20+10+10 -scale 1/4 -grayscale -dither ordered -memsrc -strict -onepass -rgb  @@
+djpeg -colors 128 -maxscans -report -crop 40x20+10+10 -scale 1/4 -dither none -pnm -verbose -memsrc -fast -onepass -rgb  @@
+djpeg -colors 128 -maxscans -report -scale 1/4 -pnm -dct fast -icc -memsrc -debug -maxmemory 4m -fast -rgb  @@
+djpeg -colors 128 -maxscans -crop 40x20+10+10 -grayscale -outfile /tmp/foo -dct fast -verbose -icc -strict -gif0 -maxmemory 4m  @@
+djpeg -colors 128 -maxscans -scale 1/4 -dither none -targa -dct int -memsrc -debug -onepass  @@
+djpeg -colors 128 -maxscans -grayscale -dither none -pnm -verbose -memsrc -strict -fast -onepass  @@
+djpeg -colors 128 -maxscans -report -targa -maxmemory 4m -fast  @@
+djpeg -colors 128 -maxscans -bmp -report -scale 1/4 -dither fs -outfile /tmp/foo -dct int -verbose -icc -memsrc -onepass  @@
+djpeg -colors 128 -maxscans -bmp -verbose -memsrc -strict  @@
+djpeg -colors 128 -maxscans -report -crop 40x20+10+10 -verbose -icc -gif0  @@
+djpeg -colors 128 -maxscans -report -crop 40x20+10+10 -grayscale -pnm -outfile /tmp/foo -dct int -verbose -icc -memsrc  @@
+djpeg -colors 128 -maxscans -bmp -report -crop 40x20+10+10 -dct fast -icc -strict -debug -onepass -rgb  @@
+djpeg -colors 128 -maxscans -bmp -report -crop 40x20+10+10 -scale 1/4 -grayscale -outfile /tmp/foo -strict -maxmemory 4m -fast -rgb  @@
+djpeg -colors 128 -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -dither fs -targa -outfile /tmp/foo -dct float -verbose -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -maxscans -report -crop 40x20+10+10 -dither ordered -outfile /tmp/foo -dct float -verbose -icc -memsrc -gif0 -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -maxscans -scale 1/4 -pnm -outfile /tmp/foo -verbose -icc -maxmemory 4m -onepass  @@
+djpeg -colors 128 -maxscans -report -scale 1/4 -grayscale -outfile /tmp/foo -dct fast -icc -gif0 -maxmemory 4m -onepass  @@
+djpeg -colors 128 -maxscans -crop 40x20+10+10 -scale 1/4 -memsrc -strict -gif0 -debug -onepass -rgb  @@
+djpeg -colors 128 -maxscans -grayscale -pnm -verbose -icc -memsrc -strict -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -maxscans -report -grayscale -targa -dct int -verbose -icc -rgb  @@
+djpeg -colors 128 -maxscans -bmp -crop 40x20+10+10 -dither ordered -outfile /tmp/foo -verbose -icc -fast -onepass  @@
+djpeg -colors 128 -maxscans -report -scale 1/4 -targa -outfile /tmp/foo -dct float -verbose -strict -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -maxscans -scale 1/4 -dct int -verbose -icc -memsrc -strict -gif0 -fast -rgb  @@
+djpeg -colors 128 -maxscans -scale 1/4 -dither ordered -targa -outfile /tmp/foo -dct fast -strict -debug -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -maxscans -bmp -grayscale -dct int -memsrc -debug -maxmemory 4m -fast -rgb  @@
+djpeg -colors 128 -maxscans -report -crop 40x20+10+10 -dither ordered -targa -verbose -memsrc -strict -fast -onepass  @@
+djpeg -colors 128 -maxscans -crop 40x20+10+10 -scale 1/4 -dither ordered -strict -gif0 -debug -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -maxscans -crop 40x20+10+10 -scale 1/4 -targa -outfile /tmp/foo -icc -memsrc -debug -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -maxscans -report -grayscale -dither none -memsrc -gif0 -debug -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -maxscans -bmp -report -crop 40x20+10+10 -grayscale -outfile /tmp/foo -dct float -icc -memsrc -strict -debug -maxmemory 4m -fast -onepass  @@
+djpeg -colors 128 -maxscans -report -crop 40x20+10+10 -grayscale -pnm -outfile /tmp/foo -dct float -debug -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -maxscans -report -crop 40x20+10+10 -scale 1/4 -pnm -outfile /tmp/foo -dct float -icc -strict -debug -fast  @@
+djpeg -colors 128 -maxscans -report -scale 1/4 -grayscale -dither none -pnm -outfile /tmp/foo -dct int -verbose -icc -memsrc -strict -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -colors 128 -maxscans -report -scale 1/4 -pnm -outfile /tmp/foo -icc -memsrc -maxmemory 4m -onepass  @@
+djpeg -colors 128 -maxscans -report -crop 40x20+10+10 -dct float -icc -strict -gif0 -debug -maxmemory 4m -rgb  @@
+djpeg -colors 128 -maxscans -grayscale -dither fs -dct int -strict -gif0 -debug -onepass -rgb  @@
+djpeg -colors 128 -maxscans -bmp -scale 1/4 -grayscale -dither none -memsrc -debug -fast -onepass  @@
+djpeg -colors 128 -maxscans -bmp -report -scale 1/4 -outfile /tmp/foo -dct int -verbose -memsrc -fast -rgb  @@
+djpeg -colors 128 -maxscans -crop 40x20+10+10 -scale 1/4 -pnm -outfile /tmp/foo -verbose -icc -memsrc -maxmemory 4m -fast -rgb  @@
+djpeg -colors 128 -maxscans -bmp -scale 1/4 -dither ordered -verbose -maxmemory 4m -onepass -rgb  @@
+djpeg -colors 128 -maxscans -bmp -report -crop 40x20+10+10 -grayscale -outfile /tmp/foo -debug -fast -rgb  @@
+djpeg -gif -maxscans -report -crop 40x20+10+10 -scale 1/4 -map -outfile /tmp/foo -quantize 256 -strict -rgb  @@
+djpeg -gif -maxscans -crop 40x20+10+10 -grayscale -dither none -dct float -icc -memsrc -strict -debug -maxmemory 4m -fast -onepass  @@
+djpeg -gif -grayscale -map -outfile /tmp/foo -icc -quantize 256 -fast  @@
+djpeg -gif -maxscans -grayscale -map -dct fast -strict -debug -rgb  @@
+djpeg -gif -maxscans -scale 1/4 -map -outfile /tmp/foo -verbose -icc -strict -maxmemory 4m -fast  @@
+djpeg -gif -maxscans -crop 40x20+10+10 -grayscale -dither fs -outfile /tmp/foo -dct int -verbose -icc -quantize 256 -fast -onepass -rgb  @@
+djpeg -gif -maxscans -report -crop 40x20+10+10 -outfile /tmp/foo -icc -debug -fast -onepass -rgb  @@
+djpeg -gif -maxscans -report -grayscale -outfile /tmp/foo -dct float -memsrc -quantize 256 -maxmemory 4m -onepass -rgb  @@
+djpeg -gif -maxscans -crop 40x20+10+10 -map -dct float -verbose -icc -maxmemory 4m -fast -rgb  @@
+djpeg -gif -maxscans -report -crop 40x20+10+10 -scale 1/4 -map -icc -memsrc -strict -debug  @@
+djpeg -gif -maxscans -report -crop 40x20+10+10 -scale 1/4 -grayscale -map -outfile /tmp/foo -dct float -strict -debug -maxmemory 4m -fast -rgb  @@
+djpeg -gif -maxscans -scale 1/4 -grayscale -dither none -icc -quantize 256 -strict -onepass -rgb  @@
+djpeg -gif -maxscans -crop 40x20+10+10 -grayscale -map -outfile /tmp/foo -verbose -icc -memsrc -maxmemory 4m -rgb  @@
+djpeg -gif -maxscans -report -crop 40x20+10+10 -dither fs -outfile /tmp/foo -dct fast -icc -memsrc -quantize 256 -maxmemory 4m -onepass  @@
+djpeg -gif -maxscans -scale 1/4 -grayscale -dither fs -outfile /tmp/foo -verbose -memsrc -quantize 256 -maxmemory 4m -onepass -rgb  @@
+djpeg -gif -maxscans -report -grayscale -dither none -outfile /tmp/foo -dct fast -verbose -quantize 256 -strict -maxmemory 4m -onepass -rgb  @@
+djpeg -gif -maxscans -report -icc -memsrc -quantize 256 -strict -onepass -rgb  @@
+djpeg -grayscale -map -outfile /tmp/foo -dct float -icc -memsrc -quantize 256 -strict -gif0 -fast  @@
+djpeg -maxscans -scale 1/4 -outfile /tmp/foo -dct fast -verbose -memsrc -quantize 256 -strict -gif0 -maxmemory 4m -fast -rgb  @@
+djpeg -maxscans -report -scale 1/4 -dither fs -pnm -dct fast -verbose -quantize 256 -strict -maxmemory 4m -onepass  @@
+djpeg -maxscans -report -crop 40x20+10+10 -scale 1/4 -grayscale -targa -map -dct fast -verbose -icc -memsrc -quantize 256 -strict -rgb  @@
+djpeg -maxscans -crop 40x20+10+10 -grayscale -dither fs -verbose -quantize 256 -strict -gif0 -maxmemory 4m -onepass -rgb  @@
+djpeg -maxscans -bmp -report -crop 40x20+10+10 -scale 1/4 -grayscale -map -outfile /tmp/foo -dct int -verbose -maxmemory 4m -fast -rgb  @@
+djpeg -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -pnm -outfile /tmp/foo -dct int -memsrc -quantize 256 -maxmemory 4m -fast -onepass  @@
+djpeg -maxscans -bmp -crop 40x20+10+10 -grayscale -dither fs -outfile /tmp/foo -quantize 256 -fast -onepass  @@
+djpeg -maxscans -report -crop 40x20+10+10 -targa -map -icc -memsrc -debug -maxmemory 4m  @@
+djpeg -maxscans -grayscale -map -outfile /tmp/foo -quantize 256 -gif0 -maxmemory 4m -fast -rgb  @@
+djpeg -maxscans -scale 1/4 -map -pnm -outfile /tmp/foo -verbose -icc -memsrc -quantize 256 -strict -rgb  @@
+djpeg -maxscans -bmp -report -map -outfile /tmp/foo -dct int -icc -memsrc -strict -debug -fast -rgb  @@
+djpeg -maxscans -crop 40x20+10+10 -scale 1/4 -dither none -outfile /tmp/foo -verbose -icc -memsrc -quantize 256 -strict -gif0 -fast -onepass  @@
+djpeg -maxscans -bmp -scale 1/4 -dct int -verbose -quantize 256 -maxmemory 4m -onepass  @@
+djpeg -maxscans -scale 1/4 -grayscale -targa -map -icc -memsrc -strict -debug -fast  @@
+djpeg -maxscans -report -crop 40x20+10+10 -grayscale -dither ordered -outfile /tmp/foo -gif0 -debug -fast -onepass  @@
+djpeg -maxscans -bmp -scale 1/4 -grayscale -dither none -dct int -verbose -icc -memsrc -onepass -rgb  @@
+djpeg -maxscans -bmp -scale 1/4 -grayscale -map -icc -debug -maxmemory 4m -rgb  @@
+djpeg -maxscans -report -grayscale -map -pnm -outfile /tmp/foo -dct fast -verbose -icc -quantize 256 -strict -fast  @@
+djpeg -maxscans -bmp -scale 1/4 -grayscale -map -outfile /tmp/foo -verbose -memsrc -quantize 256 -strict -maxmemory 4m -fast  @@
+djpeg -maxscans -crop 40x20+10+10 -grayscale -dither none -targa -outfile /tmp/foo -dct float -verbose -icc -memsrc -quantize 256 -strict -fast -onepass  @@
+djpeg -maxscans -bmp -report -grayscale -verbose -icc -quantize 256  @@
+djpeg -maxscans -map -icc -memsrc -strict -gif0 -debug -fast  @@
+djpeg -maxscans -crop 40x20+10+10 -scale 1/4 -map -outfile /tmp/foo -dct fast -icc -gif0 -debug -maxmemory 4m -fast -rgb  @@
+djpeg -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -dither ordered -pnm -dct fast -icc -memsrc -debug -onepass -rgb  @@
+djpeg -maxscans -report -crop 40x20+10+10 -scale 1/4 -grayscale -targa -strict -debug -onepass  @@
+djpeg -maxscans -crop 40x20+10+10 -grayscale -map -pnm -outfile /tmp/foo -dct fast -strict -debug -rgb  @@
+djpeg -maxscans -bmp -report -scale 1/4 -outfile /tmp/foo -memsrc -debug -maxmemory 4m -onepass -rgb  @@
+djpeg -maxscans -report -crop 40x20+10+10 -scale 1/4 -grayscale -map -dct int -verbose -memsrc -quantize 256 -strict -gif0 -maxmemory 4m -fast  @@
+djpeg -maxscans -report -scale 1/4 -map -outfile /tmp/foo -dct float -verbose -memsrc -quantize 256 -strict -gif0 -maxmemory 4m  @@
+djpeg -maxscans -report -dither fs -pnm -icc -memsrc -debug -fast -onepass  @@
+djpeg -maxscans -report -crop 40x20+10+10 -grayscale -targa -map -outfile /tmp/foo -dct float -quantize 256 -strict -maxmemory 4m -fast  @@
+djpeg -maxscans -report -scale 1/4 -dither none -targa -verbose -icc -quantize 256 -strict -maxmemory 4m -fast -onepass  @@
+djpeg -maxscans -report -grayscale -dither none -targa -dct float -memsrc -strict -debug -onepass -rgb  @@
+djpeg -maxscans -scale 1/4 -grayscale -map -dct fast -verbose -icc -quantize 256 -strict -gif0 -rgb  @@
+djpeg -maxscans -scale 1/4 -dither ordered -outfile /tmp/foo -verbose -icc -quantize 256 -gif0 -fast -onepass -rgb  @@
+djpeg -maxscans -bmp -report -crop 40x20+10+10 -scale 1/4 -grayscale -dither fs -dct float -verbose -quantize 256 -strict -maxmemory 4m -onepass -rgb  @@
+djpeg -maxscans -bmp -report -crop 40x20+10+10 -grayscale -map -icc -strict -debug -maxmemory 4m -fast  @@
+djpeg -maxscans -report -scale 1/4 -grayscale -map -pnm -verbose -icc -quantize 256 -maxmemory 4m -fast -rgb  @@
+djpeg -maxscans -bmp -report -scale 1/4 -grayscale -map -dct fast -memsrc -quantize 256 -strict -rgb  @@
+djpeg -maxscans -report -scale 1/4 -grayscale -dither ordered -pnm -outfile /tmp/foo -dct int -icc -quantize 256 -strict -maxmemory 4m -onepass  @@
+djpeg -maxscans -bmp -map -dct float -debug -fast  @@
+djpeg -maxscans -bmp -crop 40x20+10+10 -dither ordered -outfile /tmp/foo -dct float -icc -memsrc -debug -maxmemory 4m -onepass -rgb  @@
+djpeg -maxscans -crop 40x20+10+10 -grayscale -targa -map -outfile /tmp/foo -strict -debug -rgb  @@
+djpeg -maxscans -crop 40x20+10+10 -grayscale -targa -outfile /tmp/foo -dct float -quantize 256 -strict -maxmemory 4m -onepass -rgb  @@
+djpeg -maxscans -grayscale -dither none -pnm -outfile /tmp/foo -memsrc -quantize 256 -onepass -rgb  @@
+djpeg -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -targa -map -outfile /tmp/foo -dct float -icc -memsrc -debug -fast -rgb  @@
+djpeg -maxscans -report -scale 1/4 -targa -outfile /tmp/foo -dct float -verbose -quantize 256 -strict -maxmemory 4m -fast  @@
+djpeg -maxscans -report -crop 40x20+10+10 -scale 1/4 -grayscale -outfile /tmp/foo -icc -gif0 -debug -maxmemory 4m  @@
+djpeg -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -dither ordered -dct int -memsrc -quantize 256 -gif0 -fast -onepass  @@
+djpeg -maxscans -report -dither fs -targa -outfile /tmp/foo -debug -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -maxscans -report -crop 40x20+10+10 -grayscale -map -pnm -verbose -memsrc -strict -maxmemory 4m -rgb  @@
+djpeg -maxscans -scale 1/4 -grayscale -outfile /tmp/foo -icc -gif0 -debug -maxmemory 4m -onepass  @@
+djpeg -maxscans -report -grayscale -dither ordered -targa -dct int -memsrc -debug -maxmemory 4m -fast -onepass  @@
+djpeg -maxscans -bmp -report -scale 1/4 -grayscale -dither fs -icc -memsrc -quantize 256 -strict -maxmemory 4m -onepass  @@
+djpeg -maxscans -report -grayscale -map -pnm -outfile /tmp/foo -dct fast -icc -memsrc -quantize 256 -maxmemory 4m -rgb  @@
+djpeg -maxscans -scale 1/4 -grayscale -dither none -pnm -dct float -memsrc -quantize 256 -strict -maxmemory 4m -onepass -rgb  @@
+djpeg -maxscans -report -crop 40x20+10+10 -grayscale -targa -map -outfile /tmp/foo -dct float -verbose -memsrc -strict -maxmemory 4m -rgb  @@
+djpeg -maxscans -crop 40x20+10+10 -scale 1/4 -dither fs -targa -dct int -icc -quantize 256 -maxmemory 4m -onepass -rgb  @@
+djpeg -maxscans -report -scale 1/4 -grayscale -dither none -pnm -dct float -verbose -fast -onepass  @@
+djpeg -maxscans -targa -icc -debug  @@
+djpeg -maxscans -grayscale -dither fs -outfile /tmp/foo -dct int -icc -strict -gif0 -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -maxscans -report -grayscale -targa -outfile /tmp/foo -memsrc -debug -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -dither ordered -targa -verbose -quantize 256 -fast -onepass  @@
+djpeg -maxscans -bmp -crop 40x20+10+10 -scale 1/4 -dither ordered -verbose -maxmemory 4m -onepass  @@
+djpeg -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -dither fs -outfile /tmp/foo -quantize 256 -gif0 -maxmemory 4m -onepass  @@
+djpeg -maxscans -report -grayscale -targa -map -debug -maxmemory 4m -fast -rgb  @@
+djpeg -maxscans -crop 40x20+10+10 -dither fs -targa -outfile /tmp/foo -quantize 256 -strict -maxmemory 4m -onepass -rgb  @@
+djpeg -maxscans -crop 40x20+10+10 -scale 1/4 -targa -map -outfile /tmp/foo -strict  @@
+djpeg -maxscans -crop 40x20+10+10 -grayscale -map -outfile /tmp/foo -verbose -strict -gif0 -maxmemory 4m -fast  @@
+djpeg -maxscans -crop 40x20+10+10 -scale 1/4 -dither ordered -pnm -outfile /tmp/foo -dct fast -icc -memsrc -quantize 256 -strict -maxmemory 4m -fast -onepass  @@
+djpeg -maxscans -crop 40x20+10+10 -scale 1/4 -grayscale -outfile /tmp/foo -verbose -memsrc -gif0 -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -maxscans -report -crop 40x20+10+10 -scale 1/4 -grayscale -map -pnm -outfile /tmp/foo -dct int -verbose -icc -quantize 256 -maxmemory 4m -fast  @@
+djpeg -maxscans -bmp -report -scale 1/4 -map -verbose -quantize 256 -strict -maxmemory 4m -rgb  @@
+djpeg -maxscans -report -scale 1/4 -pnm -outfile /tmp/foo -dct float -verbose -quantize 256 -maxmemory 4m -fast -onepass -rgb  @@
+djpeg -maxscans -report -scale 1/4 -targa -map -verbose -icc -quantize 256 -maxmemory 4m  @@
+djpeg -maxscans -map -pnm -verbose -icc -strict -maxmemory 4m  @@
+djpeg  @@

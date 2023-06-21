@@ -1,0 +1,833 @@
+832
+tiff2ps -W -2 -C -H -l -P P -M 512 -D -p -d -r 90 -y -s -a  @@
+tiff2ps -W -2 -C -H -l -P L -M 512 -D -h -z -T -t -p -d -c -8 -r 90 -x -s  @@
+tiff2ps -W -1 -C -w -M 512 -D -z -p -d -m -y -s -a -O /tmp/foo  @@
+tiff2ps -W -1 -H -l -M 512 -h -p -d -r auto -x -s -a  @@
+tiff2ps -W -2 -C -H -D -h -z -T -t -b -d -c -y -s -a -O /tmp/foo  @@
+tiff2ps -W -2 -H -l -w -M 512 -z -p -d -y  @@
+tiff2ps -W -2 -w -M 512 -L -D -z -T -t -p -d -r 270 -y -s -O /tmp/foo  @@
+tiff2ps -W -1 -H -P L -e -M 512 -D -T -t -b -d -m -O /tmp/foo  @@
+tiff2ps -W -1 -C -H -l -L -D -h -z -T -t -p -d -s -a -O /tmp/foo  @@
+tiff2ps -W -1 -H -P L -M 512 -h -z -T -d -c -8 -x  @@
+tiff2ps -W -1 -C -H -l -M 512 -L -D -h -T -t -p -d -y  @@
+tiff2ps -W -1 -w -P P -M 512 -D -z -T -p -b -d -c -8 -r 270 -y -a -O /tmp/foo  @@
+tiff2ps -W -2 -H -L -h -z -p -d -c -8 -r 270 -x -s  @@
+tiff2ps -W -2 -H -P P -e -L -h -t -b -d -x  @@
+tiff2ps -W -1 -H -l -w -P P -D -z -p -8 -r 90 -x -s -a -O /tmp/foo  @@
+tiff2ps -W -2 -H -l -P L -D -h -T -t -p -d -m -y -s  @@
+tiff2ps -W -1 -C -H -w -e -M 512 -T -d -c -r 90 -x -O /tmp/foo  @@
+tiff2ps -W -1 -C -H -w -M 512 -L -D -z -T -p -b -c -y -s -O /tmp/foo  @@
+tiff2ps -W -2 -l -w -P L -e -M 512 -T -t -r 180 -x -s -a  @@
+tiff2ps -W -2 -H -l -w -P P -L -z -T -p -c -8 -r 90 -y -s  @@
+tiff2ps -W -2 -H -l -P L -M 512 -L -D -h -z -T -p -c -8 -a -O /tmp/foo  @@
+tiff2ps -W -2 -C -H -w -P L -e -M 512 -L -T -b -d -c -a  @@
+tiff2ps -W -1 -C -H -P L -M 512 -D -h -t -p -b -c -r 270 -x -s -a -O /tmp/foo  @@
+tiff2ps -W -1 -C -H -w -P P -e -L -D -c -r 90 -a -O /tmp/foo  @@
+tiff2ps -W -2 -C -P P -L -D -z -T -t -8 -x -s -a  @@
+tiff2ps -W -1 -C -H -P L -e -D -h -T -b -d -c -8 -r 180 -y -s -a  @@
+tiff2ps -1 -H -l -w -M 512 -z -T -t -p -d -c -r 270 -y -s -a  @@
+tiff2ps -1 -C -l -w -P P -M 512 -L -z -T -p -d -c -8 -x -s  @@
+tiff2ps -W -2 -H -w -P L -e -M 512 -D -T -t -d -c -r 180 -y -a -O /tmp/foo  @@
+tiff2ps -W -2 -C -M 512 -L -D -z -T -p -b -d  @@
+tiff2ps -W -2 -C -l -w -P L -e -L -D -T -t -d -c -8 -x -O /tmp/foo  @@
+tiff2ps -1 -H -w -P P -M 512 -D -z -T -t -b -d -m -x -s -a -O /tmp/foo  @@
+tiff2ps -C -H -P L -M 512 -L -h -z -t -p -d -r 180 -y -a  @@
+tiff2ps -W -2 -C -H -w -M 512 -L -D -t -p -b -d -c -r 180 -s -O /tmp/foo  @@
+tiff2ps -W -2 -H -P P -M 512 -D -h -b -c -8 -y -O /tmp/foo  @@
+tiff2ps -W -1 -P L -e -L -D -h -t -c -r 180 -y -s -a  @@
+tiff2ps -W -1 -H -l -P L -e -L -h -T -t -d -8 -r 90 -x -a  @@
+tiff2ps -W -2 -C -H -l -e -M 512 -L -h -t -d -c -8 -y -a  @@
+tiff2ps -W -2 -P P -L -D -h -z -b -d -8 -r 90 -x -s -a -O /tmp/foo  @@
+tiff2ps -1 -w -M 512 -L -p -d -c -8 -y -a  @@
+tiff2ps -H -w -e -M 512 -T -t -b -d -c -8 -r 90 -x -s -a  @@
+tiff2ps -W -2 -w -P P -e -M 512 -D -b -d -y -O /tmp/foo  @@
+tiff2ps -W -1 -H -P L -M 512 -L -D -h -z -t -b -c -r 270 -x -s  @@
+tiff2ps -W -1 -C -H -w -e -M 512 -L -T -b -m -y -a -O /tmp/foo  @@
+tiff2ps -W -1 -C -L -z -t -p -b -c -y -s -a -O /tmp/foo  @@
+tiff2ps -W -1 -H -l -w -e -L -t -c -8 -r 90 -x -a -O /tmp/foo  @@
+tiff2ps -W -2 -C -l -L -h -T -t -p -r 90 -x -a -O /tmp/foo  @@
+tiff2ps -W -2 -C -e -M 512 -h -d -8 -x -a -O /tmp/foo  @@
+tiff2ps -1 -H -l -w -z -p -d -c -r 270 -a -O /tmp/foo  @@
+tiff2ps -W -2 -C -w -M 512 -L -z -T -b -d -c -8 -r 180 -y -s  @@
+tiff2ps -W -1 -C -w -e -t -b -x -s -a -O /tmp/foo  @@
+tiff2ps -1 -H -P L -e -M 512 -D -h -b -d -c -x -O /tmp/foo  @@
+tiff2ps -W -1 -H -w -M 512 -z -p -b -m -x -s  @@
+tiff2ps -1 -H -l -T -p -d -c -8 -r 90 -x -s -O /tmp/foo  @@
+tiff2ps -W -1 -H -e -M 512 -L -D -h -t -b -8 -a  @@
+tiff2ps -W -2 -C -M 512 -L -D -h -p -b -d -c -x -s  @@
+tiff2ps -W -1 -C -H -P L -M 512 -L -D -T -t -c -8 -r 270 -y -s -O /tmp/foo  @@
+tiff2ps -W -1 -w -D -z -T -t -b -c -8 -r 90 -x -s -O /tmp/foo  @@
+tiff2ps -1 -l -L -h -z -T -p -d -x -s -O /tmp/foo  @@
+tiff2ps -W -2 -w -P P -M 512 -z -t -p -b -8 -x  @@
+tiff2ps -W -1 -e -L -h -T -b -d -c -r 180 -y -O /tmp/foo  @@
+tiff2ps -W -1 -C -H -l -w -P P -M 512 -L -D -z -c -r 90 -y -O /tmp/foo  @@
+tiff2ps -W -1 -P P -e -M 512 -b -d -c -r 90 -x -s -O /tmp/foo  @@
+tiff2ps -W -1 -H -l -M 512 -L -h -c -8 -r 180 -x -O /tmp/foo  @@
+tiff2ps -W -1 -C -w -e -L -D -T -t -m -x -s  @@
+tiff2ps -W -2 -C -l -P L -D -h -z -t -p -r 180  @@
+tiff2ps -W -2 -H -l -e -T -8 -r 270 -x -s -O /tmp/foo  @@
+tiff2ps -W -1 -l -h -z -T -t -c -8 -y  @@
+tiff2ps -W -2 -l -e -L -D -h -T -c -8 -x -O /tmp/foo  @@
+tiff2ps -W -1 -C -l -e -L -h -t -m -y -s -O /tmp/foo  @@
+tiff2ps -W -2 -w -e -M 512 -L -t -8 -r 270 -x -s -O /tmp/foo  @@
+tiff2ps -1 -C -P L -M 512 -L -D -h -z -T -p -b -x -a  @@
+tiff2ps -W -1 -C -H -l -w -L -z -t -c -x -s  @@
+tiff2ps -1 -C -l -w -P L -e -M 512 -D -T -t -d -c -8 -r 270 -y -s -O /tmp/foo  @@
+tiff2ps -W -1 -C -e -h -T -b -d -c -8 -x  @@
+tiff2ps -1 -e -M 512 -L -h -T -d -s -O /tmp/foo  @@
+tiff2ps -1 -l -P L -L -D -h -z -T -p -8 -r 90 -y -O /tmp/foo  @@
+tiff2ps -1 -H -P P -M 512 -z -T -p -b -c -r 270 -y -O /tmp/foo  @@
+tiff2ps -W -1 -w -D -t -p -b -c -x -s  @@
+tiff2ps -1 -H -P P -D -t -p -c -8 -x -s -a  @@
+tiff2ps -1 -C -H -w -P L -e -M 512 -L -T -b -8 -r auto -y -a  @@
+tiff2ps -1 -l -M 512 -D -h -z -T -t -p -r auto -x -a -O /tmp/foo  @@
+tiff2ps -1 -l -P P -M 512 -D -h -z -T -y -s -a  @@
+tiff2ps -1 -H -l -M 512 -L -D -z -t -d -c -8 -y -s -a -O /tmp/foo  @@
+tiff2ps -1 -C -l -w -M 512 -L -D -p -x -s -O /tmp/foo  @@
+tiff2ps -W -o -H -w -P P -M 512 -z -T -p -b -d -r 270 -x -s -O /tmp/foo  @@
+tiff2ps -W -C -H -l -w -P L -L -z -p -c -x  @@
+tiff2ps -1 -C -l -P L -M 512 -T -t -p -c -r 90 -y -a -O /tmp/foo  @@
+tiff2ps -1 -C -H -P P -L -h -z -p -8 -y -a -O /tmp/foo  @@
+tiff2ps -1 -l -w -P P -e -M 512 -T -t -c -r 270 -x -s -a  @@
+tiff2ps -1 -C -H -w -e -M 512 -D -T -t -b -c -a -O /tmp/foo  @@
+tiff2ps -1 -C -H -l -w -e -L -D -c -r 180 -y -s -a  @@
+tiff2ps -W -o -C -l -P L -M 512 -h -z -T -p -c -y -s  @@
+tiff2ps -1 -C -l -P L -D -h -z -t -r 90 -s  @@
+tiff2ps -W -H -l -w -M 512 -D -z -y -s -a -O /tmp/foo  @@
+tiff2ps -W -o -C -H -w -P L -e -L -T -b -r auto -x -s -O /tmp/foo  @@
+tiff2ps -1 -L -D -h -p -b -d -c -r 270 -y -s -a  @@
+tiff2ps -C -w -e -D -b -c -8 -a -O /tmp/foo  @@
+tiff2ps -1 -C -P P -e -M 512 -L -t -b -c -8 -x  @@
+tiff2ps -1 -C -H -P P -L -h -T -t -p -b -c -8 -r 270 -x -O /tmp/foo  @@
+tiff2ps -1 -w -L -z -t -8 -r 270 -x -a  @@
+tiff2ps -1 -l -w -e -M 512 -L -T -c -8 -y -s -O /tmp/foo  @@
+tiff2ps -1 -H -w -M 512 -D -T -b -c -y -s  @@
+tiff2ps -W -H -l -D -h -z -T -t -8 -r 90 -x -O /tmp/foo  @@
+tiff2ps -1 -C -H -w -z -t -p -b -d -8 -r auto -x -s  @@
+tiff2ps -1 -C -H -e -M 512 -L -h -t -c -x -s  @@
+tiff2ps -W -o -H -e -M 512 -L -h -t -s -O /tmp/foo  @@
+tiff2ps -1 -H -l -P P -e -h -d -y -s  @@
+tiff2ps -1 -w -z -T -b -d -8 -x  @@
+tiff2ps -1 -b -d -8 -r 270 -x  @@
+tiff2ps  @@
+tiff2ps -3 -W -H -l -P L -e -L -D -h -t -d -c -r 180 -m -y -a -O /tmp/foo  @@
+tiff2ps -W -o -2 -H -l -w -M 512 -L -z -p -d -m -y -s -a -O /tmp/foo  @@
+tiff2ps -3 -W -o -H -l -w -P P -M 512 -D -T -p -d -r 90 -s  @@
+tiff2ps -W -o -2 -l -P L -D -h -z -T -t -p -d -c -r 90 -y -a  @@
+tiff2ps -3 -W -o -w -D -z -T -t -b -d -r 90 -m -y -a -O /tmp/foo  @@
+tiff2ps -3 -W -o -C -H -l -M 512 -D -h -z -T -p -d -c -8 -r 90 -O /tmp/foo  @@
+tiff2ps -3 -W -o -C -l -P P -L -z -p -d -r auto -m -x -a  @@
+tiff2ps -3 -C -H -w -M 512 -L -z -T -d -r 90 -y -s -a -O /tmp/foo  @@
+tiff2ps -W -o -2 -w -P L -M 512 -L -z -t -b -d -c -x -s -a  @@
+tiff2ps -2 -C -e -M 512 -D -h -b -d -r 270 -m -x -s -a  @@
+tiff2ps -3 -W -P L -M 512 -L -D -h -z -T -t -b -d -r 270 -a  @@
+tiff2ps -3 -W -o -C -H -P P -M 512 -L -h -z -T -d -c -8 -r 90 -m -y -s -a -O /tmp/foo  @@
+tiff2ps -3 -W -C -l -w -P L -M 512 -L -z -T -p -d -m -x -a -O /tmp/foo  @@
+tiff2ps -W -o -2 -l -P L -M 512 -h -p -d -c -8 -x -s -a -O /tmp/foo  @@
+tiff2ps -3 -l -M 512 -D -h -z -t -p -d -r 90 -x -s -a  @@
+tiff2ps -3 -W -o -H -l -w -L -z -T -p -d -c -8 -m -y -s -a -O /tmp/foo  @@
+tiff2ps -3 -H -l -w -M 512 -D -z -t -p -d -c -8 -m -y -a  @@
+tiff2ps -2 -L -D -h -T -p -d -c -r 270 -m -x -s -a -O /tmp/foo  @@
+tiff2ps -W -o -2 -w -P L -M 512 -z -T -p -d -c -8 -r auto -x  @@
+tiff2ps -2 -C -H -P P -M 512 -L -D -h -t -p -d -x -a -O /tmp/foo  @@
+tiff2ps -W -o -2 -C -e -h -t -d -r auto -y -s -a  @@
+tiff2ps -2 -H -w -D -t -b -d -r 90 -m -x -a  @@
+tiff2ps -W -o -2 -C -l -w -D -z -T -d -c -r 90 -s -a -O /tmp/foo  @@
+tiff2ps -3 -W -H -w -e -L -t -d -r 180 -x -a -O /tmp/foo  @@
+tiff2ps -3 -C -H -P P -D -h -z -t -b -d -c -8 -r 180 -m -a -O /tmp/foo  @@
+tiff2ps -2 -C -l -w -D -z -T -p -d -x -s -a  @@
+tiff2ps -3 -W -C -l -w -P L -z -T -t -p -d -c -x -a -O /tmp/foo  @@
+tiff2ps -3 -W -o -C -H -e -M 512 -h -T -t -b -d -y -a  @@
+tiff2ps -3 -C -l -e -M 512 -L -h -T -d -c -x -s -a  @@
+tiff2ps -2 -H -P L -e -T -d -c -8 -y -a  @@
+tiff2ps -3 -C -H -e -M 512 -L -D -h -T -t -b -d -c -8 -r auto -y -s -a  @@
+tiff2ps -2 -H -l -e -M 512 -h -T -d -m -y -s -a -O /tmp/foo  @@
+tiff2ps -3 -W -o -P P -e -D -h -b -d -c -8 -y -s -a -O /tmp/foo  @@
+tiff2ps -3 -W -H -P P -L -T -d -c -m -x -a -O /tmp/foo  @@
+tiff2ps -W -o -2 -w -M 512 -L -D -z -T -p -b -c -r 90 -x -a -O /tmp/foo  @@
+tiff2ps -2 -l -D -z -T -t -p -d -c -8 -r 180 -m -x -a  @@
+tiff2ps -2 -C -l -w -P L -e -M 512 -D -d -c -r 180 -m -x -s -O /tmp/foo  @@
+tiff2ps -3 -W -C -H -l -e -h -t -d -c -s -a  @@
+tiff2ps -3 -W -o -C -P L -e -M 512 -L -h -t -b -c -m -s -a -O /tmp/foo  @@
+tiff2ps -3 -W -o -C -H -l -e -M 512 -L -h -T -t -r 90 -m -y -s -a -O /tmp/foo  @@
+tiff2ps -3 -C -H -l -M 512 -h -z -p -c -8 -r 180 -m -y -s -a -O /tmp/foo  @@
+tiff2ps -W -o -2 -C -H -l -P P -e -L -D -t -c -r auto -m -x -s -a -O /tmp/foo  @@
+tiff2ps -3 -W -o -C -H -w -P P -M 512 -L -z -T -p -b -c -m -x -s  @@
+tiff2ps -W -o -2 -C -H -l -P L -e -M 512 -h -t -r 90 -x -s -a -O /tmp/foo  @@
+tiff2ps -3 -W -o -C -H -l -P L -M 512 -L -D -h -z -p -8 -r 90 -s -a  @@
+tiff2ps -3 -W -o -C -H -l -P L -h -z -p -m -y -s -a -O /tmp/foo  @@
+tiff2ps -W -o -2 -C -M 512 -L -h -z -T -p -c -8 -r 90 -m -x -s -O /tmp/foo  @@
+tiff2ps -3 -W -C -w -P P -L -D -z -t -p -b -c -r auto -m -y -s -a  @@
+tiff2ps -W -o -2 -C -P L -e -L -D -h -T -b -8 -m -x -s -a  @@
+tiff2ps -3 -W -h -z -p -d -c -y -O /tmp/foo  @@
+tiff2ps -3 -W -o -w -P L -e -M 512 -b -8 -r 270 -m -x -a -O /tmp/foo  @@
+tiff2ps -W -o -2 -H -P P -L -h -z -t -c -m -y -s -a -O /tmp/foo  @@
+tiff2ps -3 -H -l -w -P P -D -z -t -d -c -m -x -s -a  @@
+tiff2ps -W -o -2 -H -l -w -P P -M 512 -z -T -t -c -8 -r 180 -y -a -O /tmp/foo  @@
+tiff2ps -2 -w -P L -e -M 512 -L -D -T -t -c -m -s -a  @@
+tiff2ps -3 -C -H -w -M 512 -L -z -T -t -p -b -r 270 -s -a -O /tmp/foo  @@
+tiff2ps -3 -W -o -H -M 512 -D -h -z -T -b -8 -r 270 -m -y -a  @@
+tiff2ps -W -o -2 -H -w -p -d -a -O /tmp/foo  @@
+tiff2ps -3 -C -w -P P -e -M 512 -t -b -d -r 90 -m -y -s  @@
+tiff2ps -3 -W -o -H -P P -M 512 -z -p -b -d -c -8 -a  @@
+tiff2ps -3 -H -l -w -P P -M 512 -D -z -p -m -y -s  @@
+tiff2ps -W -o -2 -C -l -L -h -T -d -r 180 -m -x -s  @@
+tiff2ps -3 -C -P P -D -h -z -T -p -b -c -r 90 -m  @@
+tiff2ps -W -o -2 -H -e -L -D -T -t -b -d -r auto -y -s  @@
+tiff2ps -3 -W -o -C -l -w -P L -L -z -T -d -c -8 -r 270 -m -x  @@
+tiff2ps -3 -W -C -w -P P -e -M 512 -L -D -T -b -d -8 -s -a  @@
+tiff2ps -2 -H -l -w -M 512 -L -D -T -p -c -8 -r 270 -y -a  @@
+tiff2ps -3 -C -P L -e -M 512 -L -D -T -b -d -c -y -a  @@
+tiff2ps -W -o -2 -H -P L -e -M 512 -h -b -d -c -r 270 -m -y  @@
+tiff2ps -W -o -2 -C -H -l -P P -D -z -t -p -d -c -8 -m -x  @@
+tiff2ps -W -o -2 -H -l -w -M 512 -z -t -p -c -8 -x -s -a  @@
+tiff2ps -2 -C -H -w -P L -e -T -t -b -d -r auto -x  @@
+tiff2ps -3 -W -o -C -M 512 -L -h -t -p -b -d -c -8 -r 180 -x -a  @@
+tiff2ps -3 -W -o -l -w -P L -e -L -D -T -t -d -8 -r 90 -m -x -s -a -O /tmp/foo  @@
+tiff2ps -3 -W -o -H -l -M 512 -L -D -z -T -t -p -c -y -s -a -O /tmp/foo  @@
+tiff2ps -2 -H -l -w -P P -e -t -d -c -8 -s -a -O /tmp/foo  @@
+tiff2ps -3 -W -H -l -w -P P -M 512 -L -z -T -t -d -c -r 90 -y -s -a  @@
+tiff2ps -3 -W -H -l -P L -h -z -T -t -p -c -8 -r 270 -x -a  @@
+tiff2ps -W -o -2 -C -M 512 -D -h -T -p -b -x -O /tmp/foo  @@
+tiff2ps -3 -W -o -C -l -P L -L -D -h -z -p -c -r 90 -m -x -s -O /tmp/foo  @@
+tiff2ps -W -o -2 -w -P P -z -T -p -b -m -y -s  @@
+tiff2ps -3 -C -H -l -w -P L -e -M 512 -D -T -t -8 -r 90 -y -s -a  @@
+tiff2ps -3 -w -M 512 -L -z -t -p -b -c -r 270 -x -s -a  @@
+tiff2ps -2 -C -H -w -D -t -p -b -r auto -m -x -a -O /tmp/foo  @@
+tiff2ps -W -o -2 -H -l -w -M 512 -L -z -p -r 270 -y -O /tmp/foo  @@
+tiff2ps -W -o -2 -w -P L -D -p -b -d -c -r 270 -x  @@
+tiff2ps -W -o -2 -w -P P -M 512 -L -D -z -t -b -d -c -8 -m -x  @@
+tiff2ps -2 -C -w -P P -M 512 -T -p -b -c -8 -r 180 -m -x -s -a  @@
+tiff2ps -2 -H -l -M 512 -L -h -z -T -t -d -r 90 -m -x -a -O /tmp/foo  @@
+tiff2ps -3 -W -o -C -H -w -e -M 512 -D -b -d -c -8 -m -x -s -a -O /tmp/foo  @@
+tiff2ps -3 -W -H -w -P L -e -D -t -d -8 -y -a -O /tmp/foo  @@
+tiff2ps -3 -W -l -P P -M 512 -D -z -d -c -8 -r 270 -m -y -s -O /tmp/foo  @@
+tiff2ps -W -o -2 -H -l -P P -M 512 -L -D -h -z -p -m -x -a  @@
+tiff2ps -2 -C -w -e -M 512 -L -D -T -t -b -c -r 90 -y -a -O /tmp/foo  @@
+tiff2ps -3 -W -l -w -L -D -p -r 90 -m -y -s -a -O /tmp/foo  @@
+tiff2ps -W -o -2 -C -H -P P -e -M 512 -L -D -h -T -d -c -8 -r 90 -m -y -O /tmp/foo  @@
+tiff2ps -3 -w -P L -e -L -T -t -c -8 -m -y -a -O /tmp/foo  @@
+tiff2ps -3 -W -H -w -e -M 512 -L -D -b -d -c -m -y -s -a -O /tmp/foo  @@
+tiff2ps -3 -l -w -M 512 -D -T -t -d -c -r 180 -m -x -s -a  @@
+tiff2ps -W -o -2 -C -H -w -z -T -t -p -b -c -m -x -s -a -O /tmp/foo  @@
+tiff2ps -2 -H -w -P L -M 512 -L -z -T -p -b -d -c -m -x -O /tmp/foo  @@
+tiff2ps -3 -C -l -L -h -t -p -d -r 180 -m -y -O /tmp/foo  @@
+tiff2ps -2 -w -P L -L -D -t -p -b -c -x -s -a  @@
+tiff2ps -3 -C -H -l -P P -M 512 -h -d -8 -m -y -s -a  @@
+tiff2ps -3 -W -o -H -w -P P -e -L -D -T -b -d -c -r 90 -x -a  @@
+tiff2ps -3 -W -l -w -P L -L -D -z -c -8 -a -O /tmp/foo  @@
+tiff2ps -3 -W -M 512 -L -z -T -t -b -8 -m -x -a -O /tmp/foo  @@
+tiff2ps -3 -C -H -l -w -P L -e -M 512 -L -D -t -d -x -s -a -O /tmp/foo  @@
+tiff2ps -3 -P L -h -z -T -p -b -d -c -8 -m -x -s -a -O /tmp/foo  @@
+tiff2ps -3 -H -P L -D -h -t -p -b -8 -x -s  @@
+tiff2ps -3 -W -H -P P -M 512 -L -h -T -p -b -d -c -8 -r 90 -m -y -O /tmp/foo  @@
+tiff2ps -3 -W -o -P P -e -L -D -h -T -t -b -c -m -x -a -O /tmp/foo  @@
+tiff2ps -3 -W -o -H -M 512 -h -z -t -c -m -y -a  @@
+tiff2ps -3 -W -H -w -L -D -z -p -b -d -c -8 -m -x -s -a  @@
+tiff2ps -3 -W -C -H -w -P P -M 512 -T -t -p -b -d -c -8 -m -y -a  @@
+tiff2ps -2 -C -H -l -w -P P -M 512 -L -D -z -t -p -d -c -8 -r 90 -m -y  @@
+tiff2ps -3 -W -C -H -l -P L -e -D -h -T -d -m -x -O /tmp/foo  @@
+tiff2ps -W -o -2 -C -l -e -M 512 -L -D -h -t -d -c -m -y -s  @@
+tiff2ps -3 -W -o -H -w -D -T -p -b -c -8 -x -s -a -O /tmp/foo  @@
+tiff2ps -3 -W -o -C -w -M 512 -D -z -T -t -p -x -s -a  @@
+tiff2ps -3 -H -l -w -M 512 -T -p -c -8 -x -O /tmp/foo  @@
+tiff2ps -3 -C -w -L -z -p -b -d -c -r auto -x -s -a -O /tmp/foo  @@
+tiff2ps -2 -l -w -L -D -z -T -c -m -y -s -a -O /tmp/foo  @@
+tiff2ps -3 -W -H -P P -L -D -h -z -T -t -p -b -m -x -a -O /tmp/foo  @@
+tiff2ps -2 -C -H -l -M 512 -L -p -d -c -8 -m -x -O /tmp/foo  @@
+tiff2ps -3 -P L -M 512 -h -T -p -m -s -a -O /tmp/foo  @@
+tiff2ps -W -o -2 -C -l -M 512 -L -h -z -T -c -m -x -a  @@
+tiff2ps -3 -W -o -C -l -P P -e -M 512 -L -h -y -s -a -O /tmp/foo  @@
+tiff2ps -2 -C -w -P L -e -M 512 -L -T -b -d -c -8 -x -s -a -O /tmp/foo  @@
+tiff2ps -3 -W -o -C -w -D -T -t -b -d -c -y -s -O /tmp/foo  @@
+tiff2ps -3 -W -C -P P -M 512 -L -h -z -p -b -8 -y -a  @@
+tiff2ps -W -o -2 -C -D -h -t -p -c -r 270 -m -y -a  @@
+tiff2ps -3 -W -o -l -h -z -T -p -c -y -s -a  @@
+tiff2ps -3 -W -o -C -H -l -w -P P -e -M 512 -t -c -x -s -a  @@
+tiff2ps -3 -W -C -w -L -D -T -t -p -d -m -x -s -O /tmp/foo  @@
+tiff2ps -3 -H -w -M 512 -D -z -t -p -b -8 -r 270 -x -a  @@
+tiff2ps -2 -C -H -M 512 -T -t -p -d -c -m -y -s  @@
+tiff2ps -2 -P L -e -D -h -T -t -b -c -m -y -a  @@
+tiff2ps -3 -W -C -H -l -e -M 512 -L -D -T -t -c -8 -r auto -x -a -O /tmp/foo  @@
+tiff2ps -3 -W -C -P L -L -h -z -b -x -s -a -O /tmp/foo  @@
+tiff2ps -W -o -2 -M 512 -L -D -T -t -p -b -c -8 -m -y -a -O /tmp/foo  @@
+tiff2ps -W -o -2 -H -e -M 512 -h -T -b -c -r 270 -m -x -a  @@
+tiff2ps -3 -C -w -M 512 -L -D -p -b -8 -m -a  @@
+tiff2ps -3 -W -o -H -l -e -L -h -t -c -8 -r 90 -x -s -a -O /tmp/foo  @@
+tiff2ps -W -o -2 -C -L -D -z -T -p -b -d -8 -y -a  @@
+tiff2ps -3 -W -o -C -H -l -w -P P -e -d -c -8 -r 270 -y -s -O /tmp/foo  @@
+tiff2ps -3 -W -o -C -D -z -T -p -b -c -8 -r auto -x -a -O /tmp/foo  @@
+tiff2ps -2 -P L -L -h -z -p -b -c -8 -r 90 -y -a -O /tmp/foo  @@
+tiff2ps -3 -W -o -H -M 512 -L -D -h -z -T -b -d -c -r 180 -m -x -s -O /tmp/foo  @@
+tiff2ps -2 -C -w -P P -D -t -p -d -c -8 -m -x -s -O /tmp/foo  @@
+tiff2ps -3 -C -H -l -e -M 512 -T -d -y -s -O /tmp/foo  @@
+tiff2ps -3 -W -o -P P -M 512 -h -T -p -b -8 -r auto -y -a  @@
+tiff2ps -W -o -2 -H -w -D -z -t -p -b -d -r 90 -x -a  @@
+tiff2ps -3 -W -o -H -e -D -h -T -b -d -m -a -O /tmp/foo  @@
+tiff2ps -2 -C -H -e -L -h -b -c -r 270 -m -x -a -O /tmp/foo  @@
+tiff2ps -W -o -2 -w -e -M 512 -L -d -c -r auto -m -x -s -a  @@
+tiff2ps -3 -H -w -P P -e -L -t -b -d -c -8 -x -s -a -O /tmp/foo  @@
+tiff2ps -3 -W -o -e -b -d -c -8 -r 270 -m -y -s -a -O /tmp/foo  @@
+tiff2ps -3 -W -o -C -H -P L -e -L -D -h -T -d -x -s  @@
+tiff2ps -3 -W -H -w -L -z -p -c -s -a  @@
+tiff2ps -3 -W -o -C -w -P L -L -z -p -b -d -8 -r auto -m -s -O /tmp/foo  @@
+tiff2ps -3 -W -o -C -l -w -e -T -t -d -c -r auto -m -a  @@
+tiff2ps -3 -W -o -L -D -h -z -T -p -8 -r 180 -x -a -O /tmp/foo  @@
+tiff2ps -3 -W -C -e -D -h -t -b -d -c -r 90 -x -a  @@
+tiff2ps -W -o -2 -C -H -e -L -D -h -T -t -b -d -c -s  @@
+tiff2ps -3 -P L -D -p -b -d -c -r 270 -a  @@
+tiff2ps -W -o -2 -C -H -M 512 -L -D -h -z -b -m -y -a -O /tmp/foo  @@
+tiff2ps -2 -H -w -D -z -T -p -m -y -O /tmp/foo  @@
+tiff2ps -W -o -2 -C -H -P L -D -z -T -t -p -b -r auto -m -O /tmp/foo  @@
+tiff2ps -3 -W -C -H -w -L -D -z -T -t -p -d -c -8  @@
+tiff2ps -3 -W -o -C -l -P L -M 512 -D -h -z -t -d -8 -x -a  @@
+tiff2ps -3 -W -e -M 512 -D -h -T -t -b -c -8 -r auto -s -a  @@
+tiff2ps -W -o -2 -C -H -w -P P -e -M 512 -D -t -b -c -r 90 -x -s  @@
+tiff2ps -2 -C -w -P L -z -p -b -d -r 270 -y -O /tmp/foo  @@
+tiff2ps -3 -H -l -L -z -T -t -p -8 -r 270 -m -y -s -a  @@
+tiff2ps -3 -W -o -H -l -P L -e -L -D -h -T -c -8 -y -a  @@
+tiff2ps -2 -w -e -M 512 -L -t -b -d -x -s -a -O /tmp/foo  @@
+tiff2ps -3 -W -H -e -M 512 -L -D -h -t -d -c -8 -m -x -s  @@
+tiff2ps -3 -W -o -C -H -l -w -L -T -t -p -d -m -x -O /tmp/foo  @@
+tiff2ps -3 -W -o -w -e -D -t -b -d -c -8 -r 90 -m -x  @@
+tiff2ps -3 -W -o -C -H -L -D -h -z -t -p -b -d -8 -r auto -y -a -O /tmp/foo  @@
+tiff2ps -2 -C -H -l -w -P P -L -D -z -t -8 -y -a  @@
+tiff2ps -3 -W -o -C -e -M 512 -L -h -T -8 -r 90 -x -s -a  @@
+tiff2ps -3 -W -o -l -L -D -h -T -t -8 -m -x -a  @@
+tiff2ps -2 -l -w -P L -M 512 -t -p -d -c -r 270 -y -O /tmp/foo  @@
+tiff2ps -3 -W -H -l -w -L -z -t -p -c -m -x -a  @@
+tiff2ps -W -o -2 -C -w -e -M 512 -D -b -8 -y -a  @@
+tiff2ps -3 -W -o -C -w -M 512 -t -p -b -y -s -a  @@
+tiff2ps -3 -C -e -D -h -t -b -y -s -a -O /tmp/foo  @@
+tiff2ps -3 -W -H -h -z -T -p -b -d -8 -r 180 -m -x  @@
+tiff2ps -3 -W -o -l -w -e -M 512 -L -c -8 -m -y -a  @@
+tiff2ps -2 -C -H -M 512 -D -h -z -T -8 -r 90 -y -a  @@
+tiff2ps -2 -C -L -D -h -t -p -b -8 -y -s  @@
+tiff2ps -2 -C -H -l -w -P L -z -T -8 -x -a -O /tmp/foo  @@
+tiff2ps -W -o -2 -C -P L -M 512 -L -D -h -p -b -d -c -r auto -m -s -O /tmp/foo  @@
+tiff2ps -W -o -2 -H -w -P L -M 512 -p -8 -m -y -s  @@
+tiff2ps -2 -H -h -T -p -b -8 -x -a  @@
+tiff2ps -3 -W -w -P L -e -D -b -d -x -a  @@
+tiff2ps -W -o -2 -w -T -b -8 -s -a -O /tmp/foo  @@
+tiff2ps -W -o -2 -H -l -w -D -p -c -m -x  @@
+tiff2ps -W -o -2 -M 512 -z -b -c -r 90 -a  @@
+tiff2ps -3 -W -C -H -l -P L -D -h -z -8 -r auto -m -x -a  @@
+tiff2ps -3 -C -l -P P -M 512 -T -p -x  @@
+tiff2ps -3 -W -l -e -r 90 -x -s -a  @@
+tiff2ps -3 -l -e -D -h -T -t -d -8 -y -a -O /tmp/foo  @@
+tiff2ps -2 -C -H -l -P L -e -M 512 -L -h -T -c -r auto -x -s  @@
+tiff2ps -3 -C -l -P L -e -L -h -T -t -r 90 -s -O /tmp/foo  @@
+tiff2ps -W -o -2 -l -w -e -L -D -t -c -8 -x -a  @@
+tiff2ps -3 -W -o -l -w -L -z -T -p -c -8 -r auto  @@
+tiff2ps -2 -C -l -h -T -t -c -r auto -a -O /tmp/foo  @@
+tiff2ps -3 -W -o -C -w -L -p -b -c -x -a  @@
+tiff2ps -3 -W -C -H -l -p -c -8 -m -O /tmp/foo  @@
+tiff2ps -3 -W -o -H -l -w -P L -L -D -z -t -p -r 270 -x -s -O /tmp/foo  @@
+tiff2ps -W -o -2 -H -l -w -P P -D -z -t -d -x -O /tmp/foo  @@
+tiff2ps -2 -l -M 512 -D -h -z -t -p -c -x -s -O /tmp/foo  @@
+tiff2ps -2 -w -P P -e -D -T -b -d -8 -r 180 -s -O /tmp/foo  @@
+tiff2ps -3 -W -o -C -H -w -M 512 -L -D -t -p -c -8 -r auto -m -y -s -O /tmp/foo  @@
+tiff2ps -3 -W -o -H -P P -L -h -t -p -b -d -c -m -x -s  @@
+tiff2ps -2 -C -H -l -P L -e -M 512 -D -t -x -s  @@
+tiff2ps -3 -W -C -l -M 512 -L -h -z -T -t -p -O /tmp/foo  @@
+tiff2ps -W -o -2 -C -l -w -M 512 -L -D -z -t -p -c -8 -r 270 -x -s  @@
+tiff2ps -3 -H -l -w -P P -e -L -D -T -c -8 -x -s  @@
+tiff2ps -3 -W -o -C -l -w -P P -t -p -c -y -s -O /tmp/foo  @@
+tiff2ps -W -o -2 -C -w -P P -e -D -T -b -d -c -m -x -O /tmp/foo  @@
+tiff2ps -3 -W -C -H -w -P L -M 512 -z -t -r 90 -y -O /tmp/foo  @@
+tiff2ps -3 -W -w -M 512 -z -T -t -p -b -d -r 180 -m -x -s -O /tmp/foo  @@
+tiff2ps -2 -C -l -P L -M 512 -z -T -t -c -r 270 -m -y -s -O /tmp/foo  @@
+tiff2ps -3 -W -C -M 512 -D -h -z -T -t -p -b -c -m -y -s -O /tmp/foo  @@
+tiff2ps -2 -H -P L -M 512 -h -z -T -b -d -y -s  @@
+tiff2ps -3 -W -C -H -M 512 -z -T -b -d -m -y  @@
+tiff2ps -W -o -2 -H -w -P P -e -M 512 -L -D -T -m -x -s -O /tmp/foo  @@
+tiff2ps -3 -P L -M 512 -L -h -z -T -t -p -b -d -c -8 -y -s -O /tmp/foo  @@
+tiff2ps -W -o -2 -C -l -w -M 512 -D -z -8 -r auto -y -s  @@
+tiff2ps -3 -H -w -P L -e -M 512 -T -c -r 90 -m -y -s  @@
+tiff2ps -3 -C -H -P P -D -h -T -t -p -b -d -r 180 -x -s -O /tmp/foo  @@
+tiff2ps -3 -C -H -l -w -P P -M 512 -L -D -z -T -c -y -O /tmp/foo  @@
+tiff2ps -3 -W -o -H -l -P L -e -D -T -t -c -m -x -O /tmp/foo  @@
+tiff2ps -3 -C -P L -L -D -z -t -p -c -8 -r auto -m -x -s  @@
+tiff2ps -3 -W -H -l -P L -M 512 -h -z -t -d -8 -x -s -O /tmp/foo  @@
+tiff2ps -3 -H -w -P P -M 512 -z -T -b -8 -r 90 -x -s -O /tmp/foo  @@
+tiff2ps -3 -H -P L -M 512 -L -D -h -t -b -r auto -m -x  @@
+tiff2ps -W -o -2 -C -w -P L -e -M 512 -L -T -t -d -8 -m -y -s -O /tmp/foo  @@
+tiff2ps -3 -W -o -C -H -l -P P -L -z -t -d -8 -r 180 -y  @@
+tiff2ps -3 -W -l -M 512 -L -D -h -z -T -t -8 -m -x -s  @@
+tiff2ps -3 -W -o -H -w -P P -e -M 512 -L -D -t -b -r 180 -x -O /tmp/foo  @@
+tiff2ps -3 -W -o -C -l -e -D -h -T -c -r 180 -m -y  @@
+tiff2ps -3 -W -o -H -l -P P -e -M 512 -D -h -t -8 -m -y -s  @@
+tiff2ps -3 -W -H -P P -M 512 -D -t -p -b -d -8 -r 90 -y -s -O /tmp/foo  @@
+tiff2ps -3 -w -P P -L -D -T -8 -m -x -O /tmp/foo  @@
+tiff2ps -2 -P P -L -D -z -t -p -b -d -c -r 270 -x -s -O /tmp/foo  @@
+tiff2ps -3 -W -H -w -e -M 512 -D -T -b -c -8 -r 270 -m -x -O /tmp/foo  @@
+tiff2ps -W -o -2 -l -w -M 512 -L -D -z -t -p -8 -r 180 -m -y -s -O /tmp/foo  @@
+tiff2ps -3 -W -C -P L -e -M 512 -D -h -8 -m -x -O /tmp/foo  @@
+tiff2ps -3 -W -C -P L -M 512 -L -h -T -t -c -8 -r 90 -x -s -O /tmp/foo  @@
+tiff2ps -3 -L -D -T -t -p -b -d -c -r auto -m -s -O /tmp/foo  @@
+tiff2ps -2 -C -l -P L -e -M 512 -L -h -t -8 -m -s -O /tmp/foo  @@
+tiff2ps -3 -W -o -C -w -P P -e -M 512 -L -D -t -b -c -8 -r 180 -y -O /tmp/foo  @@
+tiff2ps -3 -l -w -e -M 512 -D -t -d -c -y -O /tmp/foo  @@
+tiff2ps -3 -W -H -P L -e -M 512 -L -h -b -c -r 270 -m -y  @@
+tiff2ps -3 -W -C -l -w -e -D -T -t -c -8 -r 270 -x -O /tmp/foo  @@
+tiff2ps -3 -C -H -P L -e -L -D -b -8 -m -y -s -O /tmp/foo  @@
+tiff2ps -3 -w -P L -e -M 512 -L -d -8 -r auto -x -s  @@
+tiff2ps -3 -M 512 -D -z -t -p -r 90 -m -x -O /tmp/foo  @@
+tiff2ps -2 -H -l -e -M 512 -D -h -t -c -8 -r auto -y -s -O /tmp/foo  @@
+tiff2ps -W -o -2 -C -H -l -w -P L -e -L -T -t -d -c -8 -r 270  @@
+tiff2ps -2 -H -w -M 512 -L -D -z -b -8 -m -s -O /tmp/foo  @@
+tiff2ps -3 -W -o -C -H -e -L -t -b -d -c -8 -r 90 -m -s  @@
+tiff2ps -W -o -2 -C -H -P L -M 512 -L -D -h -z -t -p -b -d -8 -r 90 -x  @@
+tiff2ps -3 -l -P L -e -t -d -8 -m -x -O /tmp/foo  @@
+tiff2ps -3 -H -w -e -M 512 -T -t -d -c -8 -r auto -m -O /tmp/foo  @@
+tiff2ps -3 -W -H -l -w -L -z -t -d -r 180 -m -s -O /tmp/foo  @@
+tiff2ps -3 -W -o -P L -h -z -t -p -8 -r 270 -m -s -O /tmp/foo  @@
+tiff2ps -2 -C -l -P P -e -M 512 -D -h -m -y  @@
+tiff2ps -3 -W -C -H -l -w -z -T -c -8 -m -x -s  @@
+tiff2ps -3 -W -C -l -e -M 512 -h -d -c -8 -r 180 -m -x -s  @@
+tiff2ps -2 -H -l -D -z -T -t -d -r 90 -y  @@
+tiff2ps -2 -H -w -P L -e -L -D -T -b -c -8 -y -s  @@
+tiff2ps -3 -C -l -P L -L -D -T -s -O /tmp/foo  @@
+tiff2ps -3 -W -o -C -e -L -T -b -d -c -8 -x -s -O /tmp/foo  @@
+tiff2ps -3 -C -H -l -w -e -L -t -r 180 -m  @@
+tiff2ps -W -o -2 -H -l -e -h -T -8 -m -y -s -O /tmp/foo  @@
+tiff2ps -3 -C -H -e -M 512 -L -D -h -t -b -c -8 -x -O /tmp/foo  @@
+tiff2ps -3 -W -o -w -L -D -z -m -x  @@
+tiff2ps -3 -W -o -H -e -M 512 -h -t -b -d -r auto -x -O /tmp/foo  @@
+tiff2ps -2 -H -e -M 512 -b -m -x -s -O /tmp/foo  @@
+tiff2ps -3 -D -z -b -8 -y -s  @@
+tiff2ps -3 -H -l -h -p -c -r 270 -m -x  @@
+tiff2ps -3 -H -l -D -c -r 180 -y  @@
+tiff2ps -3 -W -o -C -H -w -b -r auto -x -O /tmp/foo  @@
+tiff2ps -W -o -2 -w -T -t -p -b -d -8 -m -x  @@
+tiff2ps -2 -L -z -b -d -c -8 -m -x -s  @@
+tiff2ps -3 -W -C -w -e -L -T -b -y  @@
+tiff2ps -3 -C -w -t -p -b -c -8 -r 180 -m -y  @@
+tiff2ps -2 -H -l -w -e -M 512 -L -t -8 -x  @@
+tiff2ps -3 -W -o -H -l -w -z -t -p -8 -y  @@
+tiff2ps -3 -l -e -h -x  @@
+tiff2ps -W -2 -C -H -l -L -h -t -p -d -c -8 -r auto -x -s -a -O /tmp/foo  @@
+tiff2ps -W -2 -C -H -w -P P -L -D -z -p -b -d -8 -r auto -x -s -O /tmp/foo  @@
+tiff2ps -W -2 -C -l -w -M 512 -L -D -r auto -x -s -O /tmp/foo  @@
+tiff2ps -W -1 -C -H -P L -z -p -b -8 -r auto -y -s -a  @@
+tiff2ps -W -1 -C -w -P L -L -z -T -b -d -8 -r auto -a -O /tmp/foo  @@
+tiff2ps -W -1 -H -e -M 512 -L -D -T -b -8 -r auto -x -s  @@
+tiff2ps -W -o -2 -C -H -w -P P -e -M 512 -L -D -T -t -b -d -8 -r 270 -m -y -s -a  @@
+tiff2ps -3 -C -l -w -P L -D -z -T -t -p -d -8 -x -s -O /tmp/foo  @@
+tiff2ps -3 -W -C -H -l -w -M 512 -L -z -p -d -8 -r 90 -m -x -s  @@
+tiff2ps -2 -C -H -l -P L -L -h -z -p -d -8 -m -s -a  @@
+tiff2ps -3 -W -o -C -H -w -P L -M 512 -D -p -d -8 -x  @@
+tiff2ps -W -o -2 -C -l -w -P L -e -D -d -8 -m -x -a  @@
+tiff2ps -W -o -2 -P P -e -M 512 -L -D -h -T -t -b -d -8 -r 90 -m -y -a -O /tmp/foo  @@
+tiff2ps -W -2 -l -P L -e -M 512 -L -D -d -8 -r 180 -y -a  @@
+tiff2ps -3 -W -o -P L -e -L -h -T -t -b -d -8 -r 90 -y -s  @@
+tiff2ps -W -o -2 -C -l -P P -L -D -h -z -p -d -8 -m -y -s -a  @@
+tiff2ps -3 -W -C -l -L -D -h -T -p -d -8 -m -y -s -a  @@
+tiff2ps -W -1 -C -w -P P -M 512 -z -T -t -p -d -8 -r 90 -s -a -O /tmp/foo  @@
+tiff2ps -3 -W -C -P P -D -z -T -p -d -8 -r 270 -y -s  @@
+tiff2ps -3 -H -l -P P -M 512 -L -D -h -p -d -8 -r 180 -x -a -O /tmp/foo  @@
+tiff2ps -W -o -2 -C -H -l -w -L -p -d -8 -r 180 -m -y -a -O /tmp/foo  @@
+tiff2ps -3 -W -o -C -w -M 512 -L -z -t -b -d -8 -y -s -O /tmp/foo  @@
+tiff2ps -W -o -2 -H -w -M 512 -L -z -t -p -d -8 -m -x -a -O /tmp/foo  @@
+tiff2ps -W -o -P L -D -h -T -d -8 -r 270 -y -s -O /tmp/foo  @@
+tiff2ps -2 -H -l -w -L -D -T -t -p -d -8 -s -a -O /tmp/foo  @@
+tiff2ps -3 -C -H -l -w -T -p -d -8 -r 90 -y -a  @@
+tiff2ps -W -1 -C -w -M 512 -L -D -t -b -d -8 -y -s -a -O /tmp/foo  @@
+tiff2ps -W -2 -H -e -M 512 -h -T -t -b -d -8 -x -s -O /tmp/foo  @@
+tiff2ps -3 -C -H -w -L -t -b -d -8 -m -y -s -a -O /tmp/foo  @@
+tiff2ps -W -w -P L -e -M 512 -L -T -t -b -d -8 -y -a  @@
+tiff2ps -3 -H -e -M 512 -L -T -d -8 -r 180 -m -x -a  @@
+tiff2ps -3 -C -H -e -h -b -d -8 -r 90 -m -x -a  @@
+tiff2ps -3 -l -L -z -T -d -8 -x -O /tmp/foo  @@
+tiff2ps -2 -H -l -M 512 -L -D -z -t -p -d -8 -x  @@
+tiff2ps -3 -C -l -P P -L -D -h -z -d -8 -m -y -a  @@
+tiff2ps -3 -W -o -l -w -e -L -D -d -8 -m -s  @@
+tiff2ps -W -1 -H -l -e -L -D -d -8 -r 270 -y -O /tmp/foo  @@
+tiff2ps -1 -C -l -w -e -D -d -8 -x -s -a  @@
+tiff2ps -W -1 -l -w -z -p -d -8 -r 90 -y  @@
+tiff2ps -W -2 -C -l -w -P L -e -M 512 -D -T -t -d -c -8 -m -y -s -a  @@
+tiff2ps -W -2 -C -H -P L -M 512 -L -z -T -p -b -c -8 -r auto -m -x -s -a  @@
+tiff2ps -1 -C -H -e -L -h -T -t -b -d -c -8 -r 90 -m -s -a -O /tmp/foo  @@
+tiff2ps -W -1 -C -H -P L -e -M 512 -D -h -T -t -b -8 -r 90 -m -y -s  @@
+tiff2ps -W -1 -C -M 512 -L -D -h -z -t -p -b -d -c -8 -r 180 -m -x -s -a  @@
+tiff2ps -W -2 -H -l -P L -D -h -z -T -d -c -8 -r 180 -m -x -s -a  @@
+tiff2ps -W -2 -H -l -w -P P -M 512 -L -D -z -T -t -d -8 -r auto -m -x -s  @@
+tiff2ps -W -2 -C -P P -e -D -h -t -b -d -c -8 -m -x -s -a -O /tmp/foo  @@
+tiff2ps -W -o -M 512 -D -z -T -p -8 -r 180 -m -y -s -a -O /tmp/foo  @@
+tiff2ps -W -1 -H -l -w -e -M 512 -L -D -T -d -c -8 -r 90 -m -x -a -O /tmp/foo  @@
+tiff2ps -1 -C -H -l -P L -M 512 -D -z -c -r 90 -m -y -s -a -O /tmp/foo  @@
+tiff2ps -W -1 -C -H -l -P L -z -T -p -d -c -r auto -m -x -s -a  @@
+tiff2ps -W -C -H -l -w -M 512 -L -D -z -T -t -p -d -c -r 270 -m -a -O /tmp/foo  @@
+tiff2ps -W -1 -H -w -P P -L -z -p -b -c -8 -m -x -s -a -O /tmp/foo  @@
+tiff2ps -1 -C -H -l -M 512 -L -D -z -T -p -c -8 -m -x -a  @@
+tiff2ps -W -H -l -w -P L -e -L -D -d -c -8 -r 180 -m -y -s -O /tmp/foo  @@
+tiff2ps -W -2 -P L -e -M 512 -D -h -T -t -d -8 -r 270 -m -y -O /tmp/foo  @@
+tiff2ps -1 -P P -e -D -T -b -d -c -8 -m -y -a -O /tmp/foo  @@
+tiff2ps -W -1 -C -l -w -P L -M 512 -z -t -d -8 -r 270 -m -x -s -a  @@
+tiff2ps -1 -C -H -w -P P -L -D -T -t -p -b -8 -m -x -s -a -O /tmp/foo  @@
+tiff2ps -W -2 -C -l -w -D -z -p -c -8 -m -y -s -a -O /tmp/foo  @@
+tiff2ps -W -2 -l -w -P P -z -T -t -p -d -8 -r auto -m -x -s -O /tmp/foo  @@
+tiff2ps -1 -C -w -P P -M 512 -L -t -b -d -c -r 270 -m -x -s -O /tmp/foo  @@
+tiff2ps -W -1 -H -w -M 512 -L -D -z -T -t -p -b -d -8 -r 270 -m -y  @@
+tiff2ps -W -1 -C -l -P P -e -M 512 -D -h -c -8 -r auto -m -y -a  @@
+tiff2ps -W -1 -P P -M 512 -D -h -z -t -b -c -r 270 -m -y -s -O /tmp/foo  @@
+tiff2ps -W -1 -C -H -w -M 512 -L -D -z -t -p -b -d -8 -m -x -O /tmp/foo  @@
+tiff2ps -W -1 -H -l -w -e -M 512 -T -t -8 -r auto -m -y -a -O /tmp/foo  @@
+tiff2ps -W -2 -C -H -l -w -e -M 512 -L -D -T -c -m -s -a  @@
+tiff2ps -W -1 -l -P L -M 512 -L -h -z -t -p -d -c -r auto -m -x -O /tmp/foo  @@
+tiff2ps -1 -C -l -w -P P -L -z -T -t -p -8 -m -y -s -O /tmp/foo  @@
+tiff2ps -1 -l -w -P L -e -M 512 -L -D -c -m -x -a -O /tmp/foo  @@
+tiff2ps -W -1 -P L -e -M 512 -L -h -T -b -d -m -x -s -a  @@
+tiff2ps -W -2 -C -H -l -P P -M 512 -h -z -T -t -p -8 -m -y -O /tmp/foo  @@
+tiff2ps -W -C -P P -t -p -b -d -8 -r 90 -m -x -s -a -O /tmp/foo  @@
+tiff2ps -l -P P -e -M 512 -D -h -t -c -r 90 -m -x -a -O /tmp/foo  @@
+tiff2ps -W -2 -C -H -P L -e -L -h -T -b -r auto -m -y -s -O /tmp/foo  @@
+tiff2ps -W -o -H -P P -e -L -D -h -T -t -b -d -c -8 -m -y -a  @@
+tiff2ps -1 -H -w -e -L -D -t -b -c -r 270 -m -x -a -O /tmp/foo  @@
+tiff2ps -1 -w -P P -L -D -T -p -b -d -r 180 -m -y -s -a  @@
+tiff2ps -W -2 -C -P P -z -T -p -b -d -c -m -y -a -O /tmp/foo  @@
+tiff2ps -W -1 -H -l -w -P L -M 512 -T -t -p -c -8 -m -x -O /tmp/foo  @@
+tiff2ps -W -2 -C -H -l -w -e -M 512 -D -T -d -r 90 -m -y -s  @@
+tiff2ps -W -2 -H -w -M 512 -L -D -T -p -b -d -c -m -y -O /tmp/foo  @@
+tiff2ps -1 -C -l -e -L -D -T -d -r 270 -m -y -s -O /tmp/foo  @@
+tiff2ps -W -2 -M 512 -L -h -z -t -p -b -r 180 -m -y -s -a  @@
+tiff2ps -W -2 -C -P L -M 512 -h -z -T -b -d -c -m -x -O /tmp/foo  @@
+tiff2ps -W -2 -H -w -e -L -D -T -b -d -8 -m -x -a  @@
+tiff2ps -1 -l -w -P L -M 512 -L -D -z -t -r auto -m -y -a  @@
+tiff2ps -W -1 -C -H -l -w -P P -e -M 512 -c -8 -m -s  @@
+tiff2ps -W -2 -C -l -L -D -h -z -d -8 -r 270 -m -x -s -O /tmp/foo  @@
+tiff2ps -1 -H -P P -L -D -h -t -b -d -8 -r 270 -m -x -s  @@
+tiff2ps -W -1 -H -e -M 512 -L -D -h -T -c -8 -m -y -O /tmp/foo  @@
+tiff2ps -C -H -e -M 512 -L -h -b -c -8 -m -x -s -O /tmp/foo  @@
+tiff2ps -1 -w -M 512 -L -z -T -b -c -r auto -m -y -s -a  @@
+tiff2ps -1 -H -l -w -P L -M 512 -L -t -p -d -8 -m -x -a  @@
+tiff2ps -W -2 -C -H -w -P P -L -T -t -b -d -c -8 -r 180 -m -y  @@
+tiff2ps -W -1 -C -l -e -M 512 -D -t -d -m -x -s -a  @@
+tiff2ps -W -1 -C -H -l -h -z -T -t -8 -r 180 -m -x -O /tmp/foo  @@
+tiff2ps -1 -C -P P -L -h -z -T -t -d -c -m -s -a  @@
+tiff2ps -1 -H -l -e -M 512 -L -h -d -c -8 -r auto -m -y  @@
+tiff2ps -W -2 -h -z -T -t -p -b -d -m -x -s -a -O /tmp/foo  @@
+tiff2ps -C -l -P P -h -t -p -d -c -8 -m -x -s -O /tmp/foo  @@
+tiff2ps -W -2 -C -H -l -w -e -M 512 -L -t -c -m -x -O /tmp/foo  @@
+tiff2ps -1 -C -l -P L -L -D -p -d -c -r 180 -m -a -O /tmp/foo  @@
+tiff2ps -W -2 -C -H -l -w -L -T -p -d -8 -r auto -m -x -s  @@
+tiff2ps -W -o -C -h -z -T -p -b -d -r 90 -m -x -a  @@
+tiff2ps -W -2 -P P -L -D -h -t -p -b -d -m -x -s -O /tmp/foo  @@
+tiff2ps -1 -C -H -P P -e -h -t -d -8 -m -x -a  @@
+tiff2ps -W -1 -l -D -h -T -p -c -8 -m -s -O /tmp/foo  @@
+tiff2ps -W -1 -C -l -w -e -M 512 -L -t -d -r 180 -m -x -a  @@
+tiff2ps -W -2 -C -e -t -b -c -8 -r auto -m -y -O /tmp/foo  @@
+tiff2ps -1 -H -h -z -t -p -b -d -c -m -y -O /tmp/foo  @@
+tiff2ps -1 -C -H -l -w -T -t -p -r 270 -m -x -a  @@
+tiff2ps -W -2 -C -H -w -M 512 -z -t -b -r 180 -m -x -a  @@
+tiff2ps -W -2 -C -H -w -e -D -t -r 90 -m -x -s -O /tmp/foo  @@
+tiff2ps -W -2 -C -l -w -e -t -d -c -r auto -m -y -a  @@
+tiff2ps -H -P P -D -h -T -p -b -c -r auto -m -x -a  @@
+tiff2ps -W -1 -C -P P -h -T -p -c -8 -r auto -m -x  @@
+tiff2ps -1 -M 512 -h -t -p -b -d -8 -m -a -O /tmp/foo  @@
+tiff2ps -W -2 -w -P L -M 512 -D -t -p -c -8 -m -a  @@
+tiff2ps -W -o -2 -C -H -e -L  @@
+tiff2ps -1 -l -w -P P -L -D -z -T -t -p -d -c -m  @@
+tiff2ps -W -2 -l -w -P P -e -L -r auto -m -y -a -O /tmp/foo  @@
+tiff2ps -W -2 -H -l -e -D -h -t -8 -r 90 -m -a  @@
+tiff2ps -W -2 -l -e -M 512 -L -T -t -d -c -m -s -O /tmp/foo  @@
+tiff2ps -C -P P -L -D -h -z -t -b -d -8 -m -x -s -a  @@
+tiff2ps -W -1 -C -e -M 512 -L -D -t -d -c -r auto -m -y  @@
+tiff2ps -1 -C -w -L -p -b -c -8 -r auto -m -y -O /tmp/foo  @@
+tiff2ps -W -1 -P L -M 512 -L -D -h -z -d -8 -m -x -O /tmp/foo  @@
+tiff2ps -W -2 -P L -D -h -p -r 270 -m -y -s -a  @@
+tiff2ps -W -2 -C -P P -L -T -p -c -8 -r auto -m -O /tmp/foo  @@
+tiff2ps -W -1 -H -w -P L -e -t -b -d -r 180 -m -x -O /tmp/foo  @@
+tiff2ps -1 -l -P L -L -h -t -p -c -8 -m -x -s  @@
+tiff2ps -W -2 -H -e -L -h -T -t -b -c -8 -m -s  @@
+tiff2ps -W -2 -l -w -P P -L -t -p -m -x -s  @@
+tiff2ps -W -1 -w -P L -e -L -b -8 -r 180 -m -y  @@
+tiff2ps -W -o -C -H -w -e -D -b -d -r auto -m -y  @@
+tiff2ps -W -1 -P P -D -h -p -b -c -m -y -O /tmp/foo  @@
+tiff2ps -W -2 -H -D -h -z -p -b -8 -r 270 -m -s  @@
+tiff2ps -C -H -w -P P -M 512 -T -t -b -8 -r 180 -m  @@
+tiff2ps -W -1 -C -H -l -e -L -D -8 -r auto -m -x  @@
+tiff2ps -W -2 -H -l -w -L -D -z -t -c -r 90 -m  @@
+tiff2ps -W -1 -w -M 512 -L -T -p -b -r 90 -m -O /tmp/foo  @@
+tiff2ps -W -1 -C -l -w -P L -d -c -m -y  @@
+tiff2ps -1 -C -H -l -M 512 -h -z -m -a  @@
+tiff2ps -H -P L -L -z -b -c -m -x -a  @@
+tiff2ps -1 -h -T -t -b -m -x  @@
+tiff2ps -w -P L -e -L -d -m -s  @@
+tiff2ps -3 -o -C -e -M 512 -L -D -h -T -b -d -8 -r auto -m -y -O /tmp/foo  @@
+tiff2ps -W -1 -o -w -P P -e -D -T -b -c -8 -m -y -s -a  @@
+tiff2ps -1 -o -C -H -l -w -P P -e -M 512 -L -r auto -m -x -s -a -O /tmp/foo  @@
+tiff2ps -W -1 -o -C -M 512 -z -T -t -c -r 270 -m -x  @@
+tiff2ps -1 -o -H -w -P P -L -z -T -t -p -b -c -8 -r 90 -y -O /tmp/foo  @@
+tiff2ps -W -1 -o -l -e -L -D -t -8 -x -a -O /tmp/foo  @@
+tiff2ps -W -1 -o -H -l -D -h -z -T -d -c -8 -r 270 -x -s -a  @@
+tiff2ps -3 -o -H -e -D -h -t -b -m -x -s -a  @@
+tiff2ps -3 -o -P L -e -T -t -b -r auto -y -s -a -O /tmp/foo  @@
+tiff2ps -3 -o -C -l -w -D -z -p -d -c -8 -m -x -O /tmp/foo  @@
+tiff2ps -W -1 -o -C -H -P L -h -p -b -d -8 -x -s  @@
+tiff2ps -1 -o -C -l -w -M 512 -z -T -t -p -d -x -s -a -O /tmp/foo  @@
+tiff2ps -3 -o -C -H -l -P P -L -D -h -t -p -c -m -y -a -O /tmp/foo  @@
+tiff2ps -W -1 -o -H -w -L -D -t -p -b -d -c -r 270 -m -y -s  @@
+tiff2ps -1 -o -H -l -M 512 -D -h -t -p -8 -r auto -m -y  @@
+tiff2ps -W -1 -o -C -H -l -P L -e -M 512 -h -T -c -y -a -O /tmp/foo  @@
+tiff2ps -W -1 -o -e -M 512 -D -h -b -d -r 90 -y -s -a -O /tmp/foo  @@
+tiff2ps -1 -o -P L -e -L -D -h -T -t -d -c -x -O /tmp/foo  @@
+tiff2ps -3 -o -C -H -w -P P -e -M 512 -D -T -t -d -c -r 90 -m -x -a  @@
+tiff2ps -1 -o -w -P L -z -t -p -b -y -a  @@
+tiff2ps -1 -o -C -H -l -w -e -D -T -t -8 -y  @@
+tiff2ps -1 -o -C -L -p -b -c -m -x -s -O /tmp/foo  @@
+tiff2ps -1 -o -H -l -w -P L -M 512 -L -D -z -T -d -c -8 -m -a  @@
+tiff2ps -3 -o -P L -M 512 -D -h -z -b -c -x -s  @@
+tiff2ps -W -1 -o -C -l -w -P P -M 512 -L -D -T -t -p -c -8 -r 90 -s -a  @@
+tiff2ps -1 -o -C -H -P P -M 512 -L -h -z -b -d -c -r 90 -m -y -a  @@
+tiff2ps -1 -o -C -H -w -M 512 -D -T -p -b -d -c -r 270 -x  @@
+tiff2ps -3 -o -w -P L -L -D -T -p -b -d -8 -y -s  @@
+tiff2ps -3 -o -C -P P -e -D -h -d -c -8 -r auto -y -s -a  @@
+tiff2ps -3 -o -w -e -M 512 -L -T -t -b -c -m -x -s  @@
+tiff2ps -W -1 -o -l -w -M 512 -L -z -T -p -d -8 -r auto -m -x -s -O /tmp/foo  @@
+tiff2ps -1 -o -w -e -t -d -c -8 -r 180 -m -y -s -O /tmp/foo  @@
+tiff2ps -3 -o -C -H -l -P P -e -M 512 -h -T -t -8 -m -x -s -a -O /tmp/foo  @@
+tiff2ps -W -1 -o -H -L -D -h -z -b -8 -m -y -a -O /tmp/foo  @@
+tiff2ps -3 -o -H -l -P P -L -h -z -T -r 180 -x -a  @@
+tiff2ps -3 -o -C -l -w -L -z -T -t -c -8 -r 180 -m -x -s -a -O /tmp/foo  @@
+tiff2ps -W -1 -o -C -l -P L -D -h -z -t -p -d -c -8 -m -x -a -O /tmp/foo  @@
+tiff2ps -3 -o -l -w -M 512 -z -d -m  @@
+tiff2ps -3 -o -C -l -w -P P -M 512 -D -z -T -p -8 -r 90 -m -y -a  @@
+tiff2ps -1 -o -C -M 512 -h -z -T -p -b -8 -m -y -s  @@
+tiff2ps -W -1 -o -C -H -l -w -P L -M 512 -z -t -p -d -y -s -O /tmp/foo  @@
+tiff2ps -W -1 -o -H -l -e -M 512 -D -h -T -t -d -c -r 180 -m -x -s  @@
+tiff2ps -1 -o -C -l -e -M 512 -h -t -d -r 180 -x -O /tmp/foo  @@
+tiff2ps -3 -o -H -l -t -p -d -c -r 270 -m -x -s  @@
+tiff2ps -W -1 -o -C -H -M 512 -L -h -z -T -t -p -8 -r 270 -x -s -a -O /tmp/foo  @@
+tiff2ps -1 -o -H -w -e -L -T -b -d -x -s -a  @@
+tiff2ps -3 -o -H -w -P L -z -T -t -b -c -8 -m -y  @@
+tiff2ps -1 -o -e -M 512 -L -D -T -t -b -d -c -8 -r 270 -m -a  @@
+tiff2ps -3 -o -H -M 512 -L -h -z -p -b -x -O /tmp/foo  @@
+tiff2ps -1 -o -P P -e -M 512 -L -h -t -b -8 -r 270 -m -x -s -O /tmp/foo  @@
+tiff2ps -W -1 -o -C -w -P P -L -D -t -p -r 180 -x  @@
+tiff2ps -3 -o -l -P L -e -M 512 -L -h -t -d -c -r auto -m -O /tmp/foo  @@
+tiff2ps -W -1 -o -C -P L -e -M 512 -L -D -b -d -c -8 -y  @@
+tiff2ps -W -1 -o -C -w -P L -M 512 -D -z -t -b -c -8 -m -x  @@
+tiff2ps -3 -o -H -l -L -D -h -z -d -c -r 180 -y -s  @@
+tiff2ps -W -1 -o -H -l -w -e -c -m -x -O /tmp/foo  @@
+tiff2ps -1 -o -C -l -P L -e -L -h -T -t -c -8 -r 180 -m -y -a  @@
+tiff2ps -1 -o -l -w -P L -e -L -D -d -m -s -O /tmp/foo  @@
+tiff2ps -W -1 -o -H -P L -M 512 -L -D -z -T -p -d -m -y  @@
+tiff2ps -1 -o -C -l -L -D -h -z -p -d -c -8 -r auto -y -s -a  @@
+tiff2ps -1 -o -l -w -P P -z -T -c -r 270 -m -x -s  @@
+tiff2ps -W -1 -o -H -w -P L -e -M 512 -L -T -t -b -d -c -y -s -a -O /tmp/foo  @@
+tiff2ps -1 -o -C -H -w -L -D -z -T -b -d -r auto -m -x -s -O /tmp/foo  @@
+tiff2ps -3 -o -C -H -M 512 -L -D -z -t -b -d -m -x -s -a  @@
+tiff2ps -1 -o -H -P P -e -M 512 -D -h -T -8 -x -a -O /tmp/foo  @@
+tiff2ps -1 -o -H -l -M 512 -D -h -z -T -t -p -c -m -x -s -a -O /tmp/foo  @@
+tiff2ps -1 -o -C -w -P P -e -T -t -b -d -8 -r 270 -x -a -O /tmp/foo  @@
+tiff2ps -W -1 -o -P P -M 512 -D -h -T -t -b -d -r auto -m -x -a  @@
+tiff2ps -W -1 -o -C -H -l -w -e -M 512 -L -D -d -c -8 -x -s  @@
+tiff2ps -1 -o -C -l -L -D -T -a -O /tmp/foo  @@
+tiff2ps -3 -o -C -P L -e -h -b -c -8 -x -O /tmp/foo  @@
+tiff2ps -3 -o -H -l -P L -M 512 -L -h -z -T -t -p -d -c -8 -m -x  @@
+tiff2ps -1 -o -C -P L -L -D -h -z -T -t -b -d -y -s -O /tmp/foo  @@
+tiff2ps -W -1 -o -H -l -e -L -h -d -8 -m -y -s -a -O /tmp/foo  @@
+tiff2ps -W -1 -o -H -P P -L -h -T -p -b -c -s -a  @@
+tiff2ps -1 -o -H -l -P P -M 512 -L -z -p -8 -r 270 -s  @@
+tiff2ps -W -1 -o -C -l -h -z -T -t -p -d -r auto -m -y -s -a -O /tmp/foo  @@
+tiff2ps -3 -o -C -H -w -P P -L -z -T -p -8 -x -s -a  @@
+tiff2ps -3 -o -l -w -P L -e -M 512 -L -D -8 -r 180 -y -a -O /tmp/foo  @@
+tiff2ps -1 -o -l -w -P L -p -d -r auto -m -x -a -O /tmp/foo  @@
+tiff2ps -W -1 -o -D -z -T -t -p -b -d -x  @@
+tiff2ps -W -1 -o -C -H -l -P L -L -D -h -z -T -p -c -r 90 -m -y -s -O /tmp/foo  @@
+tiff2ps -W -1 -o -H -w -z -T -t -b -c -s  @@
+tiff2ps -1 -o -l -P P -M 512 -h -z -c -8 -x -s -a -O /tmp/foo  @@
+tiff2ps -3 -o -C -w -P L -M 512 -L -D -z -t -p -b -d -c -r 180 -x -O /tmp/foo  @@
+tiff2ps -W -1 -o -C -H -e -M 512 -t -b -c -m -y -a -O /tmp/foo  @@
+tiff2ps -3 -o -P L -M 512 -L -t -c -8 -r auto -y -a  @@
+tiff2ps -W -1 -o -C -P P -e -D -h -b -c -r 90 -m -x -a  @@
+tiff2ps -3 -o -w -e -L -D -c -r 90 -s -a -O /tmp/foo  @@
+tiff2ps -1 -o -C -H -l -w -D -z -T -d -c -8 -m -y -a -O /tmp/foo  @@
+tiff2ps -3 -o -C -l -M 512 -h -z -T -t -r 90 -y  @@
+tiff2ps -1 -o -C -e -L -D -h -r 180 -m  @@
+tiff2ps -1 -o -C -H -w -P L -M 512 -L -T -t -8 -m -x -O /tmp/foo  @@
+tiff2ps -W -1 -o -C -H -l -w -P P -M 512 -L -T -p -c -m -y -s -a  @@
+tiff2ps -3 -o -C -H -h -z -T -p -d -m -x -s -a -O /tmp/foo  @@
+tiff2ps -3 -o -H -e -L -h -T -t -r 90 -m -y -a -O /tmp/foo  @@
+tiff2ps -1 -o -C -H -w -P P -e -M 512 -L -D -t -b -m -x  @@
+tiff2ps -3 -o -C -H -w -M 512 -D -z -p -b -c -r 90 -y -a -O /tmp/foo  @@
+tiff2ps -1 -o -C -H -e -D -h -t -b -c -8 -r auto -y -s -O /tmp/foo  @@
+tiff2ps -W -1 -o -l -w -P P -D -T -t -p -d -8 -y -s -O /tmp/foo  @@
+tiff2ps -3 -o -l -w -P P -M 512 -L -T -p -d -c -r auto -m -x -s -a -O /tmp/foo  @@
+tiff2ps -W -1 -o -C -H -M 512 -D -h -T -p -d -c -8 -r 270 -m -x -s -a -O /tmp/foo  @@
+tiff2ps -3 -o -H -l -h -T -t -p -c -8  @@
+tiff2ps -3 -o -l -w -M 512 -L -t -p -d -8 -x -s  @@
+tiff2ps -W -1 -o -C -H -l -w -P P -L -D -T -t -d -r 180 -x -s -a  @@
+tiff2ps -1 -o -H -P P -e -M 512 -T -d -r 270 -y  @@
+tiff2ps -1 -o -C -P L -M 512 -L -D -h -z -t -p -d -m -x -s  @@
+tiff2ps -1 -o -C -H -l -P L -e -t -d -c -8 -x -s -O /tmp/foo  @@
+tiff2ps -W -1 -o -H -w -P P -D -z -T -d -8 -r auto -m -y -s  @@
+tiff2ps -1 -o -C -H -l -P P -e -M 512 -L -D -h -d -8 -r auto -x -O /tmp/foo  @@
+tiff2ps -1 -o -H -l -M 512 -L -D -h -z -t -d -8 -r 90 -x  @@
+tiff2ps -3 -o -H -l -w -P L -e -T -d -m -x -a -O /tmp/foo  @@
+tiff2ps -3 -o -C -P P -e -L -D -T -t -c -m -y -s -a  @@
+tiff2ps -3 -o -l -w -P P -e -M 512 -L -D -T -d -m -y -s -a  @@
+tiff2ps -3 -o -H -w -L -D -z -T -t -p -b -d -m -y -O /tmp/foo  @@
+tiff2ps -W -1 -o -C -l -P L -e -M 512 -D -h -T -8 -m -x -s -O /tmp/foo  @@
+tiff2ps -1 -o -C -D -h -b -d -c -m -x -s -a -O /tmp/foo  @@
+tiff2ps -3 -o -C -H -P L -h -z -T -p -b -d -c -r auto -m -y -s  @@
+tiff2ps -W -1 -o -C -w -M 512 -L -z -t -p -b -c -8 -r 90 -y -a  @@
+tiff2ps -1 -o -H -w -e -M 512 -D -T -t -b -d -c -8 -x  @@
+tiff2ps -W -1 -o -l -w -M 512 -D -z -p -r 270 -x  @@
+tiff2ps -W -1 -o -l -P L -e -M 512 -L -h -t -c  @@
+tiff2ps -1 -o -C -w -P L -e -M 512 -b -d -c -r 270 -m -s  @@
+tiff2ps -1 -o -P P -M 512 -D -h -z -T -p -b -d -c -8 -r 90 -m -x -s -a -O /tmp/foo  @@
+tiff2ps -3 -o -C -H -l -w -e -M 512 -D -t -8 -r 90 -m -s -O /tmp/foo  @@
+tiff2ps -W -1 -o -H -l -M 512 -D -h -z -t -d -r 90 -m -y -s -a  @@
+tiff2ps -W -1 -o -C -H -L -T -t -p -b -d -8 -r auto -y -a -O /tmp/foo  @@
+tiff2ps -3 -o -M 512 -D -h -t -p -d -c -m -y -a  @@
+tiff2ps -1 -o -l -w -e -M 512 -D -t -d -8 -m -y -a  @@
+tiff2ps -1 -o -l -P L -L -z -T -t -d -m -x -s -a -O /tmp/foo  @@
+tiff2ps -1 -o -l -P L -e -M 512 -L -h -t -d -c -8 -r auto -m -y -s -a -O /tmp/foo  @@
+tiff2ps -W -1 -o -H -w -e -L -D -d -r 270 -x -s -a -O /tmp/foo  @@
+tiff2ps -3 -o -l -w -P P -L -D -T -t -p -c -8 -r 90 -m -x -a -O /tmp/foo  @@
+tiff2ps -1 -o -C -w -e -D -T -t -m -y -a -O /tmp/foo  @@
+tiff2ps -W -1 -o -C -H -P P -e -D -h -b -d -8 -r 270 -O /tmp/foo  @@
+tiff2ps -W -1 -o -C -H -w -M 512 -D -z -p -b -c -8 -r 270 -m -s -O /tmp/foo  @@
+tiff2ps -W -1 -o -C -H -w -e -T -b -d -c -m -y  @@
+tiff2ps -1 -o -H -l -L -D -h -T -r 180 -m -y -s -a -O /tmp/foo  @@
+tiff2ps -W -1 -o -C -P P -h -z -t -p -d -c -8 -r 270 -y  @@
+tiff2ps -1 -o -w -P L -M 512 -L -b -d -r 90 -a  @@
+tiff2ps -W -1 -o -C -w -e -t -b -d -8 -m -s -a  @@
+tiff2ps -1 -o -C -M 512 -z -b -d -c -x -a -O /tmp/foo  @@
+tiff2ps -1 -o -w -M 512 -L -D -z -T -t -p -c -r 90 -y -s -O /tmp/foo  @@
+tiff2ps -W -1 -o -P L -e -M 512 -L -D -h -c -8 -y -s  @@
+tiff2ps -1 -o -C -H -w -e -L -D -t -b -8 -m -y  @@
+tiff2ps -3 -o -H -w -P P -e -M 512 -T -t -b -d -c -s -O /tmp/foo  @@
+tiff2ps -1 -o -H -P P -e -M 512 -D -t -b -r 90 -m -y -s -O /tmp/foo  @@
+tiff2ps -1 -o -C -H -L -D -h -z -T -p -b -d -c -m -x -a  @@
+tiff2ps -W -1 -o -l -M 512 -h -z -T -p -d -c -8 -a  @@
+tiff2ps -3 -o -C -H -l -w -e -T -d -r 180 -m -s -a  @@
+tiff2ps -1 -o -l -P P -M 512 -D -z -t -p -c -8 -m -y -s -a  @@
+tiff2ps -W -1 -o -C -P L -M 512 -h -z -T -t -p -b -d -8 -r 90 -x -s  @@
+tiff2ps -3 -o -P L -e -L -D -h -b -8 -r 180 -m -x -s -a -O /tmp/foo  @@
+tiff2ps -1 -o -l -e -h -T -c -8 -r 90 -m -x -s -a -O /tmp/foo  @@
+tiff2ps -3 -o -C -H -l -P P -M 512 -D -T -t -p -d -r auto -m -y -O /tmp/foo  @@
+tiff2ps -1 -o -H -l -P L -e -M 512 -L -T -t -d -c -8 -m -y  @@
+tiff2ps -3 -o -w -e -D -T -b -8 -x -a -O /tmp/foo  @@
+tiff2ps -W -1 -o -C -H -l -w -P L -z -T -8 -r 90 -y -a -O /tmp/foo  @@
+tiff2ps -W -1 -o -C -e -h -T -t -b -s -O /tmp/foo  @@
+tiff2ps -3 -o -l -e -M 512 -L -D -T -8 -r 180 -m -y -s -O /tmp/foo  @@
+tiff2ps -1 -o -C -H -l -P P -e -M 512 -h -T -t -c -8 -m  @@
+tiff2ps -W -1 -o -H -e -M 512 -h -t -b -r 180 -x -a  @@
+tiff2ps -W -1 -o -l -e -M 512 -L -D -T -c -r 90 -s  @@
+tiff2ps -W -1 -o -l -M 512 -L -D -h -t -p -r 180 -m -a -O /tmp/foo  @@
+tiff2ps -W -1 -o -l -h -z -t -d -c -8 -m -s -O /tmp/foo  @@
+tiff2ps -W -1 -o -H -l -w -e -M 512 -L -D -T -d -c -r 270 -x -a  @@
+tiff2ps -W -1 -o -H -P L -M 512 -h -z -T -b -8 -x -O /tmp/foo  @@
+tiff2ps -W -1 -o -H -w -D -z -t -p -d -c -x -a  @@
+tiff2ps -3 -o -C -H -P P -e -M 512 -t -d -O /tmp/foo  @@
+tiff2ps -1 -o -H -P P -M 512 -L -D -h -T -t -p -d -c -m -y -a -O /tmp/foo  @@
+tiff2ps -1 -o -C -H -P P -h -z -t -b -r 90 -m  @@
+tiff2ps -W -1 -o -l -L -h -T -p -c -8 -y -s -O /tmp/foo  @@
+tiff2ps -1 -o -l -e -D -h -T -t -s -a  @@
+tiff2ps -W -1 -o -h -z -p -r 90 -s -O /tmp/foo  @@
+tiff2ps -W -1 -o -C -w -M 512 -L -z -c -m -y  @@
+tiff2ps -1 -o -C -H -e -M 512 -L -D -h -T -b -x -s -a  @@
+tiff2ps -3 -o -C -l -P L -M 512 -h -z -T -t -p -c -8 -r auto -m -y -s  @@
+tiff2ps -3 -o -C -H -P P -h -z -t -p -c -8 -r 270 -m -x -O /tmp/foo  @@
+tiff2ps -1 -o -C -l -M 512 -h -t -c -8 -r 270 -y  @@
+tiff2ps -W -1 -o -H -w -M 512 -L -z -T -t -p -b -8  @@
+tiff2ps -W -1 -o -C -l -w -L -z -T -p -d -c -r 90 -m -y -a  @@
+tiff2ps -3 -o -C -P L -M 512 -L -b -c -8 -m -x  @@
+tiff2ps -3 -o -C -l -w -P L -e -M 512 -L -D -t -c -r 270 -m -x -O /tmp/foo  @@
+tiff2ps -W -1 -o -l -w -L -z -t -p -r 270 -m -a -O /tmp/foo  @@
+tiff2ps -3 -o -l -w -e -M 512 -c -8 -r 90 -x -s -O /tmp/foo  @@
+tiff2ps -1 -o -C -w -P P -M 512 -z -t -p -d -c -r 180 -x -a  @@
+tiff2ps -1 -o -l -w -P P -e -L -D -t -d -r 180 -m -y -s -a  @@
+tiff2ps -1 -o -w -M 512 -L -T -p -b -c -m -y -O /tmp/foo  @@
+tiff2ps -W -1 -o -w -L -D -z -t -p -b -c -r auto -m -x -O /tmp/foo  @@
+tiff2ps -3 -o -e -M 512 -h -b -8 -m -y -s -a -O /tmp/foo  @@
+tiff2ps -W -1 -o -l -e -L -h -t -d -m -y -a -O /tmp/foo  @@
+tiff2ps -W -1 -o -C -e -D -h -T -t -b -d -c -8 -y -a -O /tmp/foo  @@
+tiff2ps -W -1 -o -H -h -z -t -p -b -d -c -8 -s -O /tmp/foo  @@
+tiff2ps -1 -o -C -H -w -D -z -p -b -d -8 -r 180 -m -a -O /tmp/foo  @@
+tiff2ps -3 -o -H -e -M 512 -L -D -h -T -b -c -m -x -a  @@
+tiff2ps -W -1 -o -C -l -P L -e -L -h -T -t -c -8 -m -x -s -a  @@
+tiff2ps -1 -o -P L -L -D -z -T -p -b -c -m -x -s -a -O /tmp/foo  @@
+tiff2ps -3 -o -H -w -e -M 512 -L -T -t -d -c -r 270 -m -y -s -a  @@
+tiff2ps -3 -o -H -P L -M 512 -h -z -T -p -b -8 -r 180 -m -y -s -a  @@
+tiff2ps -o -l -L -h -z -T -p -d -m -y -s -a  @@
+tiff2ps -o -2 -C -H -l -P P -M 512 -L -D -h -T -t -d -c -8 -x -s -O /tmp/foo  @@
+tiff2ps -o -2 -l -P P -e -h -c -8 -r auto -m -x  @@
+tiff2ps -o -2 -P L -M 512 -D -z -t -p -b -d -8 -m -s -a -O /tmp/foo  @@
+tiff2ps -o -2 -H -l -w -e -L -T -d -c -r auto -y -s -O /tmp/foo  @@
+tiff2ps -o -2 -C -w -P P -L -D -z -d -r 180 -m -x -a  @@
+tiff2ps -o -2 -C -H -w -M 512 -L -t -b -8 -y -s -a -O /tmp/foo  @@
+tiff2ps -o -2 -C -H -l -L -D -h -z -p -c -r 180 -x -s  @@
+tiff2ps -o -2 -C -l -P L -M 512 -L -z -p -c -y -O /tmp/foo  @@
+tiff2ps -o -H -w -P L -M 512 -z -t -c -8 -r 270 -m -x -s -O /tmp/foo  @@
+tiff2ps -o -2 -C -H -w -P L -e -L -b -d -c -y -a  @@
+tiff2ps -o -2 -l -w -P P -M 512 -D -T -t -p -r 270 -m -x -O /tmp/foo  @@
+tiff2ps -o -2 -H -e -L -D -h -t -b -d -c -8 -r 270 -x -O /tmp/foo  @@
+tiff2ps -o -2 -H -P L -M 512 -h -T -p -b -d -r 90 -y -s -a -O /tmp/foo  @@
+tiff2ps -o -2 -C -l -e -T -t -d -8 -r auto -s -a  @@
+tiff2ps -o -2 -C -L -h -z -T -t -b -c -8 -r 180 -x  @@
+tiff2ps -o -2 -H -l -w -e -M 512 -D -d -r 180 -m -a  @@
+tiff2ps -o -2 -H -w -D -z -p -b -d -c -8 -r 90 -m -y -s -a  @@
+tiff2ps -o -2 -l -w -P P -e -M 512 -L -D -T -t -y -s  @@
+tiff2ps -o -2 -C -e -h -T -c -y -s -a -O /tmp/foo  @@
+tiff2ps -o -2 -l -e -M 512 -L -h -T -d -8 -m -O /tmp/foo  @@
+tiff2ps -o -2 -l -P P -e -M 512 -L -h -T -t -d -8 -r 90 -m -y -s -a  @@
+tiff2ps -o -2 -C -w -M 512 -D -z -T -t -p -d -c -8 -a -O /tmp/foo  @@
+tiff2ps -o -2 -H -P L -e -M 512 -L -T -t -b -8 -r 90 -m  @@
+tiff2ps -o -2 -l -w -P P -L -D -z -t -p -8 -r 180 -x -s -a -O /tmp/foo  @@
+tiff2ps -o -C -H -l -P L -e -M 512 -D -T -d -8 -x -s  @@
+tiff2ps -o -2 -C -H -l -e -M 512 -D -c -8 -r auto -m -x -a -O /tmp/foo  @@
+tiff2ps -o -2 -C -H -w -P L -e -D -T -b -8 -r 180 -m -y -s -a -O /tmp/foo  @@
+tiff2ps -o -2 -H -P P -M 512 -L -D -h -z -T -t -p -b -c -8 -m -x -s  @@
+tiff2ps -o -2 -H -z -T -b -8 -r 180 -x -s -a -O /tmp/foo  @@
+tiff2ps -o -2 -C -H -P L -M 512 -h -z -t -p -b -c -8 -r 90 -x -a -O /tmp/foo  @@
+tiff2ps -o -2 -C -l -h -z -t -d -8 -m -y  @@
+tiff2ps -o -2 -C -H -w -P L -L -T -t -p -c -r 90 -x  @@
+tiff2ps -o -2 -H -l -P L -e -L -D -h -t -d -y -a -O /tmp/foo  @@
+tiff2ps -o -w -M 512 -L -D -z -T -p -b -c -8 -r 180 -x  @@
+tiff2ps -o -2 -P L -M 512 -D -h -z -d -c -s  @@
+tiff2ps -o -2 -C -l -w -M 512 -z -T -p -d -c -r 180 -m -y -O /tmp/foo  @@
+tiff2ps -o -2 -w -P L -e -M 512 -t -b -c -8 -m -y -s -O /tmp/foo  @@
+tiff2ps -o -2 -C -H -w -e -L -T -t -b -d -c -m -x -s -O /tmp/foo  @@
+tiff2ps -o -2 -l -w -P L -D -t -c -8 -r 270 -m -O /tmp/foo  @@
+tiff2ps -o -2 -C -H -l -w -P L -M 512 -L -z -T -t -p -d -r auto -s -a -O /tmp/foo  @@
+tiff2ps -o -l -e -T -t -c -r auto -m -y  @@
+tiff2ps -o -2 -l -e -M 512 -D -T -d -x -a -O /tmp/foo  @@
+tiff2ps -o -M 512 -L -D -h -t -p -b -c -y -s -a -O /tmp/foo  @@
+tiff2ps -o -C -l -w -P P -e -T -t -8 -m -x -a -O /tmp/foo  @@
+tiff2ps -o -2 -C -l -h -T -p -d -8 -r auto -m -x  @@
+tiff2ps -o -2 -C -w -P L -e -M 512 -L -D -T -b -8 -r auto -x  @@
+tiff2ps -o -2 -H -l -e -T -t -m -y -a  @@
+tiff2ps -o -2 -C -H -l -L -h -z -T -t -p -d -c -y -s -O /tmp/foo  @@
+tiff2ps -o -2 -C -H -w -P L -M 512 -z -t -b -c -m -y -s  @@
+tiff2ps -o -2 -e -L -h -b -d -8 -y -s  @@
+tiff2ps -o -2 -H -L -h -z -T -t -p -b -d -c -r auto -m  @@
+tiff2ps -o -2 -C -H -P L -M 512 -L -D -h -z -p -b -m -y -a -O /tmp/foo  @@
+tiff2ps -o -2 -C -P P -e -L -h -t -8 -r 90 -x -s -O /tmp/foo  @@
+tiff2ps -o -2 -H -L -d -m -y -O /tmp/foo  @@
+tiff2ps -o -2 -C -H -e -D -h -b -c -8 -s -a  @@
+tiff2ps -o -2 -M 512 -L -t -p -b -d -8 -r 180 -m -x -a  @@
+tiff2ps -o -2 -H -l -M 512 -L -h -z -T -p -d -c -8 -r 180 -m -y -O /tmp/foo  @@
+tiff2ps -o -2 -C -l -P P -e -M 512 -h -T -8 -r 180 -y -s -a -O /tmp/foo  @@
+tiff2ps -o -2 -C -w -z -t -p -c -8 -m -x -a  @@
+tiff2ps -o -2 -C -H -l -P L -e -h -T -t -d -8 -m -x -s -a  @@
+tiff2ps -o -C -H -l -w -e -D -t -d -c -8 -y -s -a -O /tmp/foo  @@
+tiff2ps -o -2 -w -e -L -t -b -d -r 90 -m -x -O /tmp/foo  @@
+tiff2ps -o -2 -H -w -P L -D -T -t -p -b -y -s -a -O /tmp/foo  @@
+tiff2ps -o -2 -C -H -P L -e -D -T -b -d -c -r 270 -x -a  @@
+tiff2ps -o -2 -C -l -w -P P -M 512 -z -T -t -p -m  @@
+tiff2ps -o -2 -w -D -z -t -b -d -8 -y -O /tmp/foo  @@
+tiff2ps -o -2 -C -P P -M 512 -L -h -T -y -s  @@
+tiff2ps -o -H -l -w -M 512 -T -p -d -8 -r 180 -m -y -a -O /tmp/foo  @@
+tiff2ps -o -2 -C -l -w -M 512 -L -p -d -m -x -s  @@
+tiff2ps -o -2 -H -l -P L -M 512 -D -z -p -d -c -8 -x -s -a  @@
+tiff2ps -o -2 -l -P L -M 512 -L -D -T -t -8 -r 90 -m -y -s -a  @@
+tiff2ps -o -2 -C -w -P P -D -z -T -t -p -b -d -8 -y -O /tmp/foo  @@
+tiff2ps -o -C -w -P L -L -z -T -t -b -d -m -y -O /tmp/foo  @@
+tiff2ps -o -2 -C -l -P P -L -D -h -T -p -8 -r 180 -y -s  @@
+tiff2ps -o -2 -C -H -w -e -T -b -c -r 180 -y -s  @@
+tiff2ps -o -2 -H -l -P L -L -D -h -z -T -t -y -s -O /tmp/foo  @@
+tiff2ps -o -2 -C -H -P L -e -M 512 -T -t -b -d -c -8 -r 90 -m -y -a -O /tmp/foo  @@

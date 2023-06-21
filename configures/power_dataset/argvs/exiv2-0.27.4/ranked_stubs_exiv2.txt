@@ -1,0 +1,540 @@
+539
+exiv2  rm @@
+exiv2  in @@
+exiv2  fi @@
+exiv2 -O 1 -k -Y 1 -u -n GBK -f - -S .tiff -Q i fc  @@
+exiv2  pr @@
+exiv2  @@
+exiv2  mv @@
+exiv2  fc @@
+exiv2  ex @@
+exiv2 -q -g image -l /tmp -v -Y 1 -u -M "set Xmp.dc.title lang="en-US"" -D 1 -T -t -r parentname_%Y%m -Q w -a 1:01 pr  @@
+exiv2 -q -g time -l /tmp -v -Y 1 -F -e a -u -M "del Xmp.dc.title" -D 1 -d a - -S .png -Q e  @@
+exiv2 -q -k -g time -l /tmp -v -u -D 1 -p p -d x - -S .jpg -Q w -a -0:00:30 mv  @@
+exiv2 -q -k -g pattern -l /tmp -v -Y 1 -F -D 1 -T -t -p i -r basename_%Y%m -a -0:00:30 mv  @@
+exiv2 -q -g pattern -l /tmp -u -n UTF-8 -D 1 -f -d i -r dirname_%Y%m -S .bmp -Q e fi  @@
+exiv2 -q -g pattern -l /tmp -Y 1 -e a -n GBK -D 1 -T -d C -r dirname_%Y%m - ad  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -q -g webready -l /tmp -F -n UTF-8 -t -r dirname_%Y%m -S .bmp -a -0:00:30  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -q -g pattern -l /tmp -v -Y 1 -e i -M "set Xmp.dc.title lang="en-US" In God We Trust" -f -T -t -p t  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -q -g pattern -l /tmp -D 1 -f -d i - -a 1:01 ex  @@
+exiv2 -O 1 -q -g webready -l /tmp -v -P y -e C -M "add Xmp.myprefix.Whom Mr. Smith" -n UTF-8 -f -p C -d a -r dirname_%Y%m -S .jpg -Q d -a 1:01 pr  @@
+exiv2 -q -g image -l /tmp -P E -Y 1 -e XX -u -M "set Xmp.dc.title lang="en-US"" -f -t -p p -d i -r dirname_%Y%m - -a 1  @@
+exiv2 -O 1 -q -k -g time -l /tmp -v -P l -Y 1 -F -u -M "-Mset Exif.Photo.MaxApertureValue 557429/62500" -r basename_%Y%m -S .tiff  @@
+exiv2 -O 1 -q -k -g image -l /tmp -v -F -p X -r dirname_%Y%m - -S .png -Q i -a 1  @@
+exiv2 -k -g pattern -l /tmp -n UTF-8 -D 1 -f -p C -a 1  @@
+exiv2 -O 1 -q -k -g time -l /tmp -v -Y 1 -e C -u -T -t -p t -d C - -Q e pr  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -q -g image -l /tmp -Y 1 -e a -u -M "set Exif.Photo.UserComment charset=Unicode Robin" -n GBK -D 1 -f -T -t -p s -d a -r dirname_%Y%m - in  @@
+exiv2 -k -g time -l /tmp -v -Y 1 -F -u -n UTF-8 -D 1 -t -d e -r dirname_%Y%m - -a 1 rm  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -q -k -g time -l /tmp -v -P E -e C -M "set Xmp.dc.title lang=fr-FR Euros" -n GBK -f -t -d x - -a -0:00:30  @@
+exiv2 -O 1 -q -g pattern -l /tmp -v -P x -e e -f -T -d c -Q e rm  @@
+exiv2 -q -k -g pattern -l /tmp -F -M "set Xmp.dc.title lang=jp Yen" -n GBK -D 1 -t -r basename_%Y%m mv  @@
+exiv2 -q -k -g webready -l /tmp -v -P s -Y 1 -n GBK -D 1 -f -p p -r dirname_%Y%m - fi  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -q -g webready -l /tmp -P c -u -T -t -r dirname_%Y%m - -S .tiff -a -0:00:30 mo  @@
+exiv2 -O 1 -q -g pattern -l /tmp -v -F -u -M "set Xmp.dc.title All others pay cash" -T -t -d c -S .jpg fi  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -q -k -g time -l /tmp -Y 1 -F -e i -M "set Exif.Photo.UserComment charset=Ascii My photo" -n UTF-8 -T -Q i pr  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -q -g pattern -l /tmp -v -Y 1 -e a -M "-Mset Exif.Photo.MaxApertureValue F5.6" -n UTF-8 -D 1 -f -d x - -S .gif -a -0:00:30  @@
+exiv2 -g time -l /tmp -Y 1 -F -D 1 -T -d I -r dirname_%Y%m - -S .tiff -Q w -a 1  @@
+exiv2 -O 1 -g pattern -l /tmp -v -P c -Y 1 -F -u -M "add Xmp.myprefix.Whom Mr. Smith" -n UTF-8 -p p - -Q w fc  @@
+exiv2 -k -g pattern -l /tmp -v -P t -e C -D 1 -t -p t -d I -r dirname_%Y%m -a -0:00:30 in  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -k -g time -l /tmp -P X -Y 1 -f -T -t -p h -d x - -S .tiff -Q w  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -q -k -g pattern -l /tmp -v -F -M "add Xmp.myprefix.Whom Mr. Smith" -T -t -d I - -S .bmp -Q d -a 1:01 mv  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -g pattern -l /tmp -v -P t -Y 1 -e t -u -n UTF-8 -T -t -d i -S .gif  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -q -g image -l /tmp -P v -Y 1 -F -e i -D 1 -t -p t -r dirname_%Y%m - -Q e  @@
+exiv2 -O 1 -k -g image -l /tmp -u -M "set Xmp.dc.title lang="en-US" In God We Trust" -f -T -p v -d x -r basename_%Y%m -S .gif -Q i -a 1:01  @@
+exiv2 -g image -l /tmp -v -Y 1 -u -n GBK -D 1 -f -T -p S -d i -r parentname_%Y%m - -S .tiff fc  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -k -g time -l /tmp -P t -Y 1 -e XX -M "set Xmp.dc.title lang="en-US" In God We Trust" -f -p h -Q w -a 1 ad  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -q -g webready -l /tmp -F -u -M "del Xmp.dc.title" -n GBK -D 1 -S .tiff -Q d -a -0:00:30  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -k -g time -l /tmp -v -Y 1 -e t -M "-Mset Exif.Photo.MaxApertureValue 557429/62500" -f -r basename_%Y%m - -S .tiff  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -k -g webready -l /tmp -v -F -M "set Exif.GPSInfo.GPSProcessingMethod HYBRID-FIX" -n UTF-8 -T -t -p c -d a -r basename_%Y%m -S .jpg -Q d -a -0:00:30 rm  @@
+exiv2 -k -g webready -l /tmp -P c -Y 1 -F -e C -M "set Xmp.dc.title lang=fr-FR Euros" -T -p h -d e -r basename_%Y%m -S .jpg -Q i -a 1 fi  @@
+exiv2 -k -g pattern -l /tmp -v -P I -F -e a -u -D 1 -T - -S .jpg -a 1:01 mo  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -q -k -g webready -l /tmp -v -P x -Y 1 -F -e XX -u -n GBK -T -t -r basename_%Y%m - -Q e ex  @@
+exiv2 -O 1 -g image -l /tmp -v -P I -Y 1 -f -T -t -p x -d x -r parentname_%Y%m -S .png ad  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -q -g webready -l /tmp -v -P k -u -D 1 -f -T -t -p x - -S .jpg -Q i -a 1:01  @@
+exiv2 -O 1 -g webready -l /tmp -v -P s -e a -u -f -r basename_%Y%m - -a 1:01  @@
+exiv2 -O 1 -k -g webready -l /tmp -v -Y 1 -e I -u -n GBK -f -d e -S .jpg -Q d -a -0:00:30  @@
+exiv2 -k -g pattern -l /tmp -P c -Y 1 -M "set Exif.Image.Artist Mr. Smith" -r dirname_%Y%m -Q e -a -0:00:30  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -q -g pattern -l /tmp -u -n UTF-8 -f -t -p s - -S .jpg -a 1:01 mo  @@
+exiv2 -O 1 -k -g image -l /tmp -v -e x -f -t -p x - -S .tiff -Q i  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -q -k -g webready -l /tmp -P y -Y 1 -M "reg myprefix http://ns.myprefix.me/" -n GBK -D 1 -f -t -p X -S .jpg -Q e in  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -g image -l /tmp -Y 1 -F -u -t -p X -d a - -S .tiff -Q w -a 1  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -k -g time -l /tmp -Y 1 -f -T -d I - -a 1:01  @@
+exiv2 -O 1 -k -g pattern -l /tmp -v -F -e C -u -d x -r basename_%Y%m - -Q d -a 1:01 fc  @@
+exiv2 -O 1 -k -g image -l /tmp -v -M "set Xmp.dc.title lang=fr-FR Euros" -f -t -d C -r parentname_%Y%m - -S .gif  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -q -g image -l /tmp -u -M "-Mset Exif.Photo.MaxApertureValue F5.6" -D 1 -f -t -p X -d c -S .png -Q e -a 1:01 ad  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -k -g image -l /tmp -P l -u -n UTF-8 -D 1 -f -T -t -r parentname_%Y%m - -Q i -a 1:01 fc  @@
+exiv2 -q -k -g image -Y 1 -F -u -M "set Exif.Image.Artist Mr. Smith" -D 1 -p i -d e -r parentname_%Y%m -S .png ad  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -g image -l /tmp -e C -u -f -t -p R -r basename_%Y%m - -S .bmp -Q e ex  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -k -g webready -l /tmp -P y -u -D 1 -f -T -t -d a -S .gif  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -g webready -l /tmp -P I -Y 1 -F -e x -u -M "set Exif.Photo.UserComment charset=Unicode Robin" -T -d x -S .png -a -0:00:30  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -g time -l /tmp -F -u -M "set Xmp.dc.title lang="en-US" In God We Trust" -D 1 -T -t -p t -r parentname_%Y%m - -a 1:01 in  @@
+exiv2 -O 1 -g time -l /tmp -P X -Y 1 -n UTF-8 -T -d t -r dirname_%Y%m - -Q i -a 1 fc  @@
+exiv2 -g webready -l /tmp -v -P x -Y 1 -n UTF-8 -f -p p -d C -S .jpg -Q d -a 1  @@
+exiv2 -q -k -g image -v -Y 1 -e c -M "set Xmp.dc.title lang=jp Yen" -n UTF-8 -D 1 -f -t -p h -d I -r dirname_%Y%m -S .jpg -a -0:00:30  @@
+exiv2 -g webready -l /tmp -v -P g -e x -u -M "set Xmp.dc.title lang="en-US" In God We Trust" -n GBK -D 1 -f -t -p i -d c - -Q i -a -0:00:30 ex  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -k -g time -l /tmp -v -P E -Y 1 -F -e c -M "del Xmp.dc.title" -n UTF-8 -T -d x - -S .gif  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -g webready -l /tmp -v -P n -Y 1 -u -n GBK -f -T -d t -r dirname_%Y%m - -a -0:00:30 pr  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -k -g image -l /tmp -v -P n -Y 1 -F -M "-Mset Exif.Photo.MaxApertureValue 557429/62500" -n UTF-8 -D 1 -T -d I -r dirname_%Y%m -Q i  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -g webready -l /tmp -e t -M "set Xmp.dc.title lang="en-US" In God We Trust" -n GBK -p s -d i -r parentname_%Y%m - -S .gif -a 1  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -q -g pattern -P y -Y 1 -e c -u -n GBK -f -p p -d a -r basename_%Y%m -Q e  @@
+exiv2 -q -k -g image -l /tmp -F -e C -u -n GBK -D 1 -T -t -p a -S .gif -Q e  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -q -k -g time -v -P X -F -e c -T -p e -Q w -a 1 mo  @@
+exiv2 -q -g time -v -P t -u -t -Q e  @@
+exiv2 -g webready -l /tmp -P E -Y 1 -F -u -M "set Xmp.dc.title lang=fr-FR Euros" -n GBK -D 1 -T -t -p c -d c -a 1:01  @@
+exiv2 -q -k -g time -v -P n -Y 1 -n GBK -D 1 -f -T -t - -S .bmp -Q i  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -q -k -g image -v -e a -u -n UTF-8 -f -T -t -d C -r basename_%Y%m - mo  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -q -g time -v -P V -Y 1 -F -M "reg myprefix http://ns.myprefix.me/" -n UTF-8 -r parentname_%Y%m - -S .gif -a -0:00:30 in  @@
+exiv2 -O 1 -q -g time -P X -F -u -M "set Xmp.dc.title lang=fr-FR Euros" -T -t -p h -r dirname_%Y%m - -S .jpg -Q d  @@
+exiv2 -O 1 -q -k -g time -v -P l -F -e c -M "set Xmp.dc.title All others pay cash" -n UTF-8 -T -d e  @@
+exiv2 -O 1 -q -g webready -v -Y 1 -e C -u -n GBK -f -T - -S .jpg -a 1:01 fc  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -q -k -g time -Y 1 -n UTF-8 -D 1 -T -d x -Q i  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -q -g time -v -Y 1 -F -u -M "-Mset Exif.Photo.MaxApertureValue F5.6" -n GBK -T -t -p X -S .gif ad  @@
+exiv2 -q -k -g image -P E -u -M "set Exif.Image.Artist Mr. Smith" -D 1 -f -p t -r dirname_%Y%m -Q i  @@
+exiv2 -q -g webready -v -P I -M "add Xmp.myprefix.Whom Mr. Smith" -D 1 -f -T -d t -r dirname_%Y%m -  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -q -g time -e c -u -M "add Xmp.myprefix.Whom Mr. Smith" -f -t -d t - -Q e -a 1:01  @@
+exiv2 -O 1 -q -k -g time -P x -M "set Exif.Image.Artist Mr. Smith" -n UTF-8 -p c - -S .tiff -Q e -a 1:01 mo  @@
+exiv2 -q -k -g time -P v -Y 1 -e x -u -M "set Xmp.dc.title lang=fr-FR Euros" -T - -S .jpg -a 1 fc  @@
+exiv2 -O 1 -q -g time -v -P y -Y 1 -u -M "set Exif.Image.Artist Mr. Smith" -n UTF-8 -f -t -p c - -Q w -a -0:00:30 in  @@
+exiv2 -O 1 -q -g webready -Y 1 -F -p v -d x -S .tiff -Q d -a 1:01  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -q -g time -Y 1 -F -u -T -p R -r basename_%Y%m - -Q w -a 1  @@
+exiv2 -q -k -g image -F -n UTF-8 -T -p S -d e - mv  @@
+exiv2 -k -g time -u -D 1 -t -r basename_%Y%m - -S .bmp -a 1  @@
+exiv2 -g image -l /tmp -P s -Y 1 -e C -D 1 -f -T -d e -S .bmp fc  @@
+exiv2 -q -k -g time -e XX -u -M "set Exif.Photo.UserComment charset=Ascii My photo" -f -t -d a -r parentname_%Y%m -Q i  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -q -k -g webready -P v -Y 1 -F -e C -M "-Mset Exif.Photo.MaxApertureValue 557429/62500" -T -t -p v -d a -r dirname_%Y%m - -S .tiff  @@
+exiv2 -q -k -g time -P g -Y 1 -u -M "set Xmp.dc.title All others pay cash" -n GBK -D 1 -T -p p -S .png mo  @@
+exiv2 -q -k -g pattern -v -e i -M "set Xmp.dc.title lang=jp Yen" -f -r parentname_%Y%m -Q d -a 1 in  @@
+exiv2 -O 1 -q -k -g webready -v -Y 1 -F -u -M "set Exif.Photo.UserComment charset=Ascii My photo" -n GBK -T -r parentname_%Y%m - -S .png -Q i  @@
+exiv2 -q -g pattern -v -P n -u -D 1 - -a -0:00:30 ex  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -q -g time -v -M "add Xmp.myprefix.Whom Mr. Smith" -n GBK -D 1 -t -p e -d C -r dirname_%Y%m - -S .tiff -Q w mv  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -i e -q -k -g image -P E -Y 1 -F -e XX -u -M "set Xmp.dc.title lang="de-DE" Euros" -D 1 -t - -S .tiff ad  @@
+exiv2 -i i -q -k -g pattern -l /tmp -v -Y 1 -e XX -M "reg myprefix http://ns.myprefix.me/" -n UTF-8 -f -d C - -Q i  @@
+exiv2 -i x -q -k -g time -l /tmp -P E -Y 1 -M "set Exif.Photo.UserComment charset=Unicode Robin" -n UTF-8 -f -T -t -p t -r parentname_%Y%m -S .jpg -a -0:00:30 fc  @@
+exiv2 -i c -q -k -g pattern -v -F -u -D 1 -T - fi  @@
+exiv2 -O 1 -k -g webready -Y 1 -F -e i -n GBK -p i -d i - -a 1:01 fc  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -i c -q -k -g time -l /tmp -v -P l -Y 1 -F -u -M "-Mset Exif.Photo.MaxApertureValue F5.6" -n GBK -D 1 -t -p i -d a - -Q w -a 1:01  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -g time -Y 1 -F -e C -u -M "set Xmp.dc.title lang="en-GB" Pounds" -n UTF-8 -D 1 -T -S .png -a 1:01 in  @@
+exiv2 -i c -q -g time -Y 1 -u -f -T -p v -d c - -S .tiff -Q i  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i i -q -g image -Y 1 -F -e - -n UTF-8 -t -r parentname_%Y%m - -S .bmp -Q e -a -0:00:30  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i X -q -k -g webready -l /tmp -v -P g -M "set Exif.GPSInfo.GPSProcessingMethod HYBRID-FIX" -D 1 -T -p e -r basename_%Y%m - -S .tiff mv  @@
+exiv2 -i - -q -g image -v -P v -Y 1 -F -e C -u -M "set Exif.Photo.UserComment charset=Unicode Robin" -D 1 -T -d x -r basename_%Y%m -S .jpg -Q w -a -0:00:30  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -i C -q -k -g pattern -P E -e x -u -n UTF-8 -D 1 -t -p a -d x -S .jpg -a 1:01  @@
+exiv2 -i X -q -g webready -l /tmp -Y 1 -F -e i -D 1 -T -t -p e - -S .bmp -a 1:01 mv  @@
+exiv2 -i e -q -k -g webready -v -e XX -u -n UTF-8 -D 1 -f -p i -r basename_%Y%m - -Q d -a 1  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -k -g pattern -v -P I -Y 1 -F -u -M "set Xmp.dc.title lang="en-GB" Pounds" -T -t -Q w -a 1:01  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i C -q -g time -e a -M "set Xmp.dc.title All others pay cash" -D 1 -f -T -p p -S .gif mv  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i XX -q -k -g time -l /tmp -v -P s -Y 1 -F -e a -n GBK -D 1 -d e -S .jpg -a 1 ex  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -i a -q -g webready -l /tmp -v -u -n UTF-8 -f -T -d e -r parentname_%Y%m -S .bmp -a 1:01  @@
+exiv2 -i i -q -g pattern -v -P g -F -e XX -u -M "set Exif.Image.Artist Mr. Smith" -n UTF-8 -D 1 -t -r parentname_%Y%m - ex  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i XX -q -k -g webready -l /tmp -v -P V -F -e a -u -M "set Xmp.dc.title All others pay cash" -D 1 -T -t -r parentname_%Y%m -S .png -Q e -a -0:00:30 fi  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i c -q -g pattern -l /tmp -v -P n -Y 1 -u -n UTF-8 -D 1 -p c - -Q i -a -0:00:30 rm  @@
+exiv2 -O 1 -k -g pattern -P h -e x -u -M "add Xmp.myprefix.Whom Mr. Smith" -n UTF-8 -f -T - -Q d ex  @@
+exiv2 -k -g image -P c -e X -D 1 -f -T -t -p h -d c - -a -0:00:30  @@
+exiv2 -O 1 -k -g webready -P v -Y 1 -e x -u -n GBK -T -t -d i -r basename_%Y%m -S .bmp -a 1:01 mv  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -i i -q -g image -v -P E -Y 1 -e a -u -n GBK -D 1 -f - -S .tiff -Q w  @@
+exiv2 -O 1 -k -g image -v -Y 1 -F -e - -M "reg myprefix http://ns.myprefix.me/" -n GBK -p c -r basename_%Y%m -S .bmp -Q d  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -k -g image -Y 1 -F -u -M "set Xmp.dc.title lang="de-DE" Euros" -n UTF-8 -t -d x - -S .jpg  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i a -q -k -g time -l /tmp -F -u -M "set Xmp.dc.title lang="en-US"" -D 1 -d I -r basename_%Y%m -a 1:01  @@
+exiv2 -i - -q -g image -l /tmp -Y 1 -e i -u -M "set Exif.Photo.UserComment charset=Ascii My photo" -D 1 -f -T -r dirname_%Y%m -a -0:00:30  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -k -g image -v -P x -Y 1 -u -M "-Mset Exif.Photo.MaxApertureValue F5.6" -t -p S -d e -r dirname_%Y%m - -Q e -a 1  @@
+exiv2 -i - -q -g image -P l -Y 1 -F -M "set Xmp.dc.title lang=fr-FR Euros" -n GBK -D 1 -T -t -d a -r parentname_%Y%m - rm  @@
+exiv2 -i C -q -g webready -l /tmp -v -P g -Y 1 -F -u -n UTF-8 -D 1 -r parentname_%Y%m -Q i  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -q -k -g time -v -P E -e x -u -M "reg myprefix http://ns.myprefix.me/" -f -p h -d t - -S .png -Q w ad  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -i c -q -g time -l /tmp -e t -n UTF-8 -D 1 -t - -S .png -Q d rm  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -g webready -v -Y 1 -F -e x -n GBK -D 1 -T -t -d t -r parentname_%Y%m -Q w  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -g image -v -Y 1 -e x -n UTF-8 -p h -S .tiff -Q e -a 1 fc  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -i X -q -k -g webready -v -Y 1 -e t -u -D 1 -T -t -p h -d c -r dirname_%Y%m -S .gif in  @@
+exiv2 -i a -q -k -g image -v -P c -F -M "-Mset Exif.Photo.MaxApertureValue 557429/62500" -n GBK -D 1 -T -p X -d I - -Q d -a 1 fc  @@
+exiv2 -i a -q -k -g pattern -l /tmp -v -P l -F -e x -n UTF-8 -t -p p - -S .gif  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -i i -q -k -g image -l /tmp -v -Y 1 -u -M "set Xmp.dc.title lang="de-DE" Euros" -D 1 -f -T -p h -d C - -Q e  @@
+exiv2 -i e -q -k -g image -P k -n UTF-8 -D 1 -f -t -p h - -Q e in  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -k -g time -v -Y 1 -u -M "set Xmp.dc.title lang="en-GB" Pounds" -n GBK -D 1 -f -t -r parentname_%Y%m - -S .gif ex  @@
+exiv2 -g webready -v -n GBK -D 1 -f -t -S .png -a 1:01 in  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -q -g image -e X -n GBK -D 1 -f -p X -d i -r basename_%Y%m - -S .png -Q d -a 1  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -q -g pattern -v -P g -F -e C -u -n UTF-8 -D 1 -T -d x  @@
+exiv2 -O 1 -k -g image -v -P l -F -u -n UTF-8 -t -d a - -S .jpg -Q w  @@
+exiv2 -k -g time -P c -Y 1 -F -e C -u -D 1 -d t -r basename_%Y%m -S .gif -Q d -a -0:00:30  @@
+exiv2 -g image -Y 1 -u -D 1 -f -T -t -p h -r dirname_%Y%m -Q w ex  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i i -q -k -g time -v -F -u -n UTF-8 -D 1 -T -p v -d t - -a 1 mv  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -i e -q -k -g image -l /tmp -v -P x -u -M "set Exif.Photo.UserComment charset=Unicode Robin" -D 1 -f -t  @@
+exiv2 -i i -q -k -g time -l /tmp -v -Y 1 -M "set Exif.Photo.UserComment charset=Unicode Robin" -n GBK -D 1 -d e -a 1  @@
+exiv2 -i C -q -g pattern -l /tmp -v -P x -e e -n GBK -f -t -p x -d C -r basename_%Y%m - -S .tiff in  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -i x -q -g pattern -P I -F -M "-Mset Exif.Photo.MaxApertureValue F5.6" -p R -d x -r dirname_%Y%m -a 1:01 ad  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -g pattern -v -P x -Y 1 -e t -u -M "set Xmp.dc.title lang=fr-FR Euros" -f -T -p C -r dirname_%Y%m -S .gif rm  @@
+exiv2 -k -g pattern -v -P t -Y 1 -F -e XX -M "-Mset Exif.Photo.MaxApertureValue 557429/62500" -D 1 -T -p v -r basename_%Y%m - -S .tiff -a 1  @@
+exiv2 -i e -q -k -g image -l /tmp -F -e e -u -D 1 -t -d e -r basename_%Y%m - -Q e -a -0:00:30 in  @@
+exiv2 -i XX -q -k -g image -l /tmp -v -P l -Y 1 -F -n UTF-8 -T -t -p h -d a -r parentname_%Y%m -S .gif -Q w fi  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i x -q -k -g pattern -l /tmp -v -e C -M "del Xmp.dc.title" -n GBK -t -S .bmp -Q e rm  @@
+exiv2 -i C -k -g pattern -l /tmp -P y -Y 1 -e X -u -f -T -a 1:01 mv  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i x -g webready -v -P x -M "reg myprefix http://ns.myprefix.me/" -n UTF-8 -D 1 -f -T -d a -S .jpg -Q d -a -0:00:30  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -k -g time -v -Y 1 -F -r dirname_%Y%m  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -k -g pattern -v -P s -e i -u -M "set Xmp.dc.title lang="en-US"" -n GBK -D 1 -f -p C - -S .jpg  @@
+exiv2 -i c -k -g webready -P I -F -e a -n UTF-8 -D 1 -r parentname_%Y%m -S .png -Q e pr  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i X -g webready -l /tmp -v -F -e a -D 1 -p e -d i  @@
+exiv2 -O 1 -g image -M "del Xmp.dc.title" -f -p t -r basename_%Y%m -  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i I -k -g pattern -e C -M "set Exif.Photo.UserComment charset=Unicode Robin" -D 1 -T -t -p a -r basename_%Y%m -Q d -a 1  @@
+exiv2 -i a -k -g time -l /tmp -v -Y 1 -e - -M "set Xmp.dc.title lang="en-US" In God We Trust" -D 1 -f -T -t -d t -r dirname_%Y%m - -Q w  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -i - -k -g time -v -P x -Y 1 -u -M "set Xmp.dc.title All others pay cash" -n UTF-8 -f -t -p c -d c -r parentname_%Y%m mo  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -g webready -v -P h -Y 1 -F -e X -u -D 1 -T -p S -d I - -Q d fi  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -g time -n GBK -f -T -t -p x -r basename_%Y%m -Q w pr  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i I -k -g webready -v -Y 1 -e i -u -M "set Xmp.dc.title All others pay cash" -n GBK -D 1 -T -d t -r dirname_%Y%m - -S .bmp -a 1:01 rm  @@
+exiv2 -i - -g image -v -F -M "set Xmp.dc.title lang="de-DE" Euros" -t -p v - -S .tiff -a 1:01  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -i X -k -g image -P k -F -u -D 1 -T -p p -d x -r dirname_%Y%m - -Q i -a -0:00:30  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -i e -g image -l /tmp -v -F -u -n UTF-8 -r dirname_%Y%m -S .tiff -Q w pr  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -g time -v -P s -Y 1 -e i -M "del Xmp.dc.title" -D 1 -f -t -d t -r basename_%Y%m - -S .gif -Q e -a 1:01 fi  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -k -g webready -v -e i -M "set Xmp.dc.title All others pay cash" -n UTF-8 -D 1 -f -t -Q e pr  @@
+exiv2 -g image -v -P k -e C -u -M "del Xmp.dc.title" -n GBK -T -t -p v -d a -r parentname_%Y%m - -a 1  @@
+exiv2 -i I -k -g image -v -P k -Y 1 -D 1 -f -p t -S .tiff -Q i -a 1 fi  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i I -g image -l /tmp -F -M "set Exif.GPSInfo.GPSProcessingMethod HYBRID-FIX" -p x -d c - -S .jpg ad  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -i i -g image -v -Y 1 -F -n GBK -D 1 -p x -d I -r basename_%Y%m -S .jpg  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -i c -k -g image -l /tmp -P s -Y 1 -F -M "set Xmp.dc.title lang="en-US"" -n GBK -D 1 -T -p C -r basename_%Y%m - -S .jpg  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i a -k -g time -P s -F -u -n UTF-8 -t - -S .jpg -Q w ad  @@
+exiv2 -i c -g time -v -e c -u -D 1 -T -p R -S .png -Q e  @@
+exiv2 -i X -g pattern -l /tmp -F -e - -u -n GBK -T -t -Q d -a -0:00:30  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i x -g webready -v -P I -Y 1 -e i -M "-Mset Exif.Photo.MaxApertureValue F5.6" -f -d x -S .jpg -Q d fi  @@
+exiv2 -i c -k -g webready -Y 1 -F -e C -u -M "set Xmp.dc.title lang="en-GB" Pounds" -n UTF-8 -D 1 -T -t -p R - -Q w fc  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -k -g image -P X -F -M "-Mset Exif.Photo.MaxApertureValue 557429/62500" -D 1 -t -d e -S .png -Q w -a -0:00:30 fi  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i e -k -g webready -l /tmp -P x -Y 1 -M "reg myprefix http://ns.myprefix.me/" -D 1 -f -T - -S .tiff -Q w -a 1 fc  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i i -k -g pattern -l /tmp -M "del Xmp.dc.title" -n UTF-8 -D 1 -f -p h -d C -r dirname_%Y%m -S .gif -Q w -a 1:01 in  @@
+exiv2 -i c -k -g pattern -v -P I -e C -u -D 1 -f -T -t -r basename_%Y%m - -S .jpg  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i t -k -g time -e C -u -n GBK -D 1 -f -T -t -d e -r basename_%Y%m -S .tiff -Q e  @@
+exiv2 -i c -k -g image -l /tmp -v -F -u -M "reg myprefix http://ns.myprefix.me/" -D 1 -t -p s -d x -S .png  @@
+exiv2 -i I -k -g webready -l /tmp -u -n UTF-8 -T -t -p x -d t -r parentname_%Y%m - -a -0:00:30 ex  @@
+exiv2 -i x -k -g image -v -P l -Y 1 -F -M "add Xmp.myprefix.Whom Mr. Smith" -n GBK -T -t -d c -r basename_%Y%m -S .tiff -Q e -a -0:00:30 fi  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -i a -g time -l /tmp -v -Y 1 -e i -f -T -t -r parentname_%Y%m - -S .jpg -Q w -a -0:00:30 fc  @@
+exiv2 -i - -g image -l /tmp -v -P V -F -M "set Xmp.dc.title lang="en-US" In God We Trust" -D 1 -t -r basename_%Y%m -S .tiff -a -0:00:30  @@
+exiv2 -i XX -g pattern -Y 1 -u -M "set Exif.GPSInfo.GPSProcessingMethod HYBRID-FIX" -D 1 -f -t -d e -Q w -a 1 rm  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i XX -g time -l /tmp -Y 1 -n GBK -D 1 -f -t -r basename_%Y%m - -a 1:01  @@
+exiv2 -i c -g image -l /tmp -P c -M "-Mset Exif.Photo.MaxApertureValue F5.6" -D 1 -f -t -p c -d x -  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -g pattern -P E -D 1 -T -r dirname_%Y%m mv  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i c -g time -P g -Y 1 -f -t -S .gif -a -0:00:30  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -g time -P k -Y 1 -F -e e -u -n UTF-8 -D 1 -t -p x -a -0:00:30 fc  @@
+exiv2 -i XX -g image -Y 1 -e C -M "set Xmp.dc.title lang="en-US"" -f -t - ex  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -i t -g webready -P t -e t -u -M "del Xmp.dc.title" -n UTF-8 -p R -  @@
+exiv2 -O 1 -q -k -l /tmp -v -u -M "set Exif.GPSInfo.GPSProcessingMethod HYBRID-FIX" -n GBK -f -T -p t -d C - -a 1:01  @@
+exiv2 -q -l /tmp -P V -F -e XX -M "set Exif.Photo.UserComment charset=Ascii My photo" -n GBK -t -d a - -S .gif ex  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -q -k -l /tmp -v -Y 1 -F -e i -u -D 1 -t - -a 1  @@
+exiv2 -O 1 -q -l /tmp -P y -Y 1 -u -M "set Xmp.dc.title lang=jp Yen" -f -T -t -r dirname_%Y%m - -Q i fi  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -q -k -l /tmp -v -P v -F -n UTF-8 -p C -d x -r basename_%Y%m - -Q e  @@
+exiv2 -O 1 -q -l /tmp -Y 1 -u -n GBK -p p -S .bmp -a 1:01  @@
+exiv2 -O 1 -q -k -l /tmp -P V -F -u -T -t -p R -a 1 ad  @@
+exiv2 -O 1 -q -l /tmp -v -F -e C -n GBK -Q d ex  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -q -l /tmp -Y 1 -e x -M "-Mset Exif.Photo.MaxApertureValue 557429/62500" -T -p c -d C -r dirname_%Y%m - -a -0:00:30 mo  @@
+exiv2 -O 1 -q -k -l /tmp -v -Y 1 -F -M "del Xmp.dc.title" -t -d C -r parentname_%Y%m -Q d -a 1:01  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -q -k -l /tmp -Y 1 -e X -t -d e -S .gif -Q i -a -0:00:30 mo  @@
+exiv2 -O 1 -q -k -l /tmp -Y 1 -e C -u -M "del Xmp.dc.title" -n UTF-8 -f -T -t -p p -S .jpg -Q d -a -0:00:30 pr  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -q -k -l /tmp -F -D 1 -t -d x -r dirname_%Y%m - -S .gif -Q e  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -q -k -l /tmp -v -Y 1 -u -f -t -p X -d i -r basename_%Y%m -Q w  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -q -k -l /tmp -Y 1 -e X -n UTF-8 -D 1 -f -t -d i -r dirname_%Y%m -Q d -a -0:00:30 fi  @@
+exiv2 -O 1 -q -k -l /tmp -v -P g -e X -u -M "set Exif.Photo.UserComment charset=Unicode Robin" -f -t - -S .bmp -a 1:01  @@
+exiv2 -O 1 -q -l /tmp -v -e c -n UTF-8 -T -t -d i -r parentname_%Y%m -Q e  @@
+exiv2 -q -l /tmp -P E -Y 1 -u -M "set Exif.Image.Artist Mr. Smith" -n GBK -D 1 -f - -S .png  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -q -k -l /tmp -v -Y 1 -e C -M "set Xmp.dc.title lang="en-US"" -n GBK -f -T -p v -r basename_%Y%m - -Q w -a -0:00:30  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -q -k -l /tmp -e x -u -M "add Xmp.myprefix.Whom Mr. Smith" -n GBK -f -r dirname_%Y%m - -S .jpg -a 1:01 in  @@
+exiv2 -q -l /tmp -v -u -M "set Xmp.dc.title lang=jp Yen" -n UTF-8 -f -T -p h -r parentname_%Y%m -Q w rm  @@
+exiv2 -O 1 -q -l /tmp -P V -Y 1 -F -u -n UTF-8 -T -p x -d C -r dirname_%Y%m  @@
+exiv2 -q -l /tmp -v -P k -F -e c -T -t -r parentname_%Y%m - -S .png -a 1:01 ex  @@
+exiv2 -q -l /tmp -M "set Exif.Photo.UserComment charset=Ascii My photo" -D 1 -f -p p -r basename_%Y%m -S .png -Q w -a 1:01  @@
+exiv2 -O 1 -q -k -l /tmp -P h -F -e I -u -n GBK -t -p x -r dirname_%Y%m - -Q d -a -0:00:30  @@
+exiv2 -O 1 -q -l /tmp -v -P n -F -e X -M "set Exif.GPSInfo.GPSProcessingMethod HYBRID-FIX" -T -t -p C - -S .gif mo  @@
+exiv2 -O 1 -q -k -l /tmp -v -P I -Y 1 -F -u -M "set Xmp.dc.title lang=fr-FR Euros" -t -d t -r basename_%Y%m - -S .png -Q e mv  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -q -k -l /tmp -v -P c -Y 1 -e - -u -M "set Exif.Image.Artist Mr. Smith" -D 1 -f -T -d e -r basename_%Y%m -S .bmp -Q w mv  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -l /tmp -v -Y 1 -F -e X -M "-Mset Exif.Photo.MaxApertureValue 557429/62500" -n GBK -D 1 -T -t -p R - -S .gif -Q w -a -0:00:30  @@
+exiv2 -k -l /tmp -v -P t -n GBK -f -T -S .tiff -Q e  @@
+exiv2 -O 1 -k -l /tmp -v -P s -u -t -d a - -S .gif fc  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -k -l /tmp -v -Y 1 -u -M "set Exif.GPSInfo.GPSProcessingMethod HYBRID-FIX" -n GBK -D 1 -p S -d C mo  @@
+exiv2 -k -l /tmp -P y -Y 1 -e t -u -M "set Xmp.dc.title lang="en-GB" Pounds" -n UTF-8 -D 1 -t -p p -r basename_%Y%m - -S .jpg -Q e  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -q -l /tmp -v -P k -e X -n UTF-8 -D 1 -f -T -t -p a -r parentname_%Y%m -S .gif -a -0:00:30 mo  @@
+exiv2 -O 1 -l /tmp -f -T -t -p e -d a -r dirname_%Y%m - -Q e -a 1:01  @@
+exiv2 -O 1 -l /tmp -v -F -e i -u -n GBK -T -p R -r parentname_%Y%m - -S .png  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -q -l /tmp -P I -Y 1 -M "set Exif.Photo.UserComment charset=Ascii My photo" -D 1 -T -t -S .gif -a 1  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -k -l /tmp -P h -f -d t -r parentname_%Y%m -S .png -Q i fc  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -k -l /tmp -v -F -u -n UTF-8 -T -r basename_%Y%m -a -0:00:30 fc  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -k -l /tmp -v -Y 1 -F -D 1 -p h -Q w rm  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -l /tmp -v -P k -F -e i -u -M "-Mset Exif.Photo.MaxApertureValue F5.6" -t -p h -r parentname_%Y%m -S .tiff  @@
+exiv2 -l /tmp -Y 1 -F -u -D 1 -T -t -d I -S .gif -Q e rm  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -q -k -l /tmp -v -P h -F -e C -u -M "-Mset Exif.Photo.MaxApertureValue 557429/62500" -n UTF-8 -D 1 -t -p c -d e -Q e -a 1 mo  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -k -l /tmp -P V -Y 1 -u -M "add Xmp.myprefix.Whom Mr. Smith" -n GBK -f -T -t -p h -r parentname_%Y%m -S .tiff  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -k -l /tmp -v -Y 1 -F -e x -t -p R -d t - -S .gif -a 1:01 pr  @@
+exiv2 -k -l /tmp -v -P v -Y 1 -F -e c -u -M "add Xmp.myprefix.Whom Mr. Smith" -n UTF-8 -S .bmp -Q w -a 1  @@
+exiv2 -k -l /tmp -v -P t -Y 1 -e i -n GBK -D 1 -T -t -r dirname_%Y%m -S .jpg -Q i fi  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -q -l /tmp -v -P n -u -n GBK -D 1 -t -p a -d t -r parentname_%Y%m - -Q w -a 1:01  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -l /tmp -Y 1 -M "-Mset Exif.Photo.MaxApertureValue 557429/62500" -n GBK -f -t -d c mv  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -k -l /tmp -P t -F -e a -u -M "set Exif.Image.Artist Mr. Smith" -n GBK -r parentname_%Y%m - -a 1:01 rm  @@
+exiv2 -q -v -Y 1 -D 1 -f -T -t -p s -d t -Q e -a -0:00:30  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -l /tmp -P s -F -e X -M "add Xmp.myprefix.Whom Mr. Smith" -n GBK -D 1 -d I -r dirname_%Y%m - -Q i  @@
+exiv2 -l /tmp -v -P k -F -M "del Xmp.dc.title" -n GBK -D 1 -p C -d I -S .jpg -Q i fi  @@
+exiv2 -q -Y 1 -e a -M "set Exif.Photo.UserComment charset=Unicode Robin" -n GBK -f -r parentname_%Y%m -S .jpg fi  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -l /tmp -v -P c -Y 1 -n GBK -T -p p - -Q d -a -0:00:30  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -k -l /tmp -v -u -M "set Exif.Photo.UserComment charset=Ascii My photo" -f -T -t -p R -r basename_%Y%m -  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -k -l /tmp -v -P g -M "set Exif.GPSInfo.GPSProcessingMethod HYBRID-FIX" -n UTF-8 -D 1 -f -T -d t -r parentname_%Y%m - -a -0:00:30  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -l /tmp -P X -F -u -M "-Mset Exif.Photo.MaxApertureValue 557429/62500" -D 1 -t -d i -r parentname_%Y%m - fi  @@
+exiv2 -q -k -v -Y 1 -e e -u -M "set Exif.Image.Artist Mr. Smith" -D 1 -f -T -p h -Q e fi  @@
+exiv2 -q -v -P k -Y 1 -F -e a -M "set Exif.Photo.UserComment charset=Ascii My photo" -n GBK -D 1 -T -p h -r dirname_%Y%m -a 1  @@
+exiv2 -O 1 -q -k -P h -Y 1 -e C -M "set Xmp.dc.title lang="de-DE" Euros" -t -p a - -Q e -a -0:00:30  @@
+exiv2 -q -e C -u -n GBK -D 1 -f -T -t -d C -r dirname_%Y%m - -S .gif -a 1  @@
+exiv2 -O 1 -q -k -v -Y 1 -F -n GBK -T -t -p v -r parentname_%Y%m - -S .jpg pr  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -q -k -e X -f -d e -S .gif -a 1:01  @@
+exiv2 -O 1 -q -k -v -P V -Y 1 -n GBK -f -d x -r dirname_%Y%m - mv  @@
+exiv2 -q -k -P V -F -D 1 - -Q e -a -0:00:30  @@
+exiv2 -l /tmp -P y -e t -u -f -p X -S .jpg mo  @@
+exiv2 -q -P v -Y 1 -F -u -M "reg myprefix http://ns.myprefix.me/" -T -d a -  @@
+exiv2 -q -P t -e XX -u -D 1 -f -t -p h -d c - -S .bmp -Q w pr  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -q -k -v -P y -Y 1 -F -e i -u -M "set Xmp.dc.title All others pay cash" -Q e in  @@
+exiv2 -q -k -e c -D 1 -f -T -r basename_%Y%m - -S .bmp -Q w  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -q -k -P v -F -e I -u -n UTF-8 -T -d x -r basename_%Y%m -S .png -Q i mo  @@
+exiv2 -l /tmp -P I -e - -M "set Xmp.dc.title lang=fr-FR Euros" -n UTF-8 -D 1 -T -S .gif -Q d -a 1:01 in  @@
+exiv2 -q -k -P y -Y 1 -F -u -M "reg myprefix http://ns.myprefix.me/" -n UTF-8 -D 1 -T -t -p e -d c -r parentname_%Y%m - -S .png -Q w -a 1:01 ad  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -l /tmp -P V -Y 1 -e I -n GBK -D 1 -f -T -p t -r dirname_%Y%m - -Q w  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -q -k -v -Y 1 -u -M "set Exif.Image.Artist Mr. Smith" -n UTF-8 -D 1 -f -T -t -a 1:01 pr  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -q -k -P l -u -M "set Xmp.dc.title lang="en-US" In God We Trust" -n GBK -T -t -d e - -S .bmp -Q w fi  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -q -e C -f -T -t -r parentname_%Y%m -a 1 pr  @@
+exiv2 -O 1 -q -F -e c -u -M "add Xmp.myprefix.Whom Mr. Smith" -n UTF-8 -r parentname_%Y%m - -S .jpg -Q w -a 1 rm  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -q -v -P X -Y 1 -F -M "set Xmp.dc.title lang=fr-FR Euros" -n GBK -T -t -p t -d I -  @@
+exiv2 -k -v -Y 1 -M "set Xmp.dc.title lang=fr-FR Euros" -n UTF-8 -D 1 -T -p c -d I - -S .bmp  @@
+exiv2 -k -v -Y 1 -M "set Exif.Photo.UserComment charset=Unicode Robin" -f -T -t -p X -d e - -Q i mv  @@
+exiv2 -O 1 -q -k -P v -Y 1 -F -e t -p v -r parentname_%Y%m - -a 1 ex  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -q -k -v -Y 1 -e - -u -M "set Xmp.dc.title lang="en-GB" Pounds" -r dirname_%Y%m -Q w mo  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -q -k -v -Y 1 -e C -u -D 1 -r dirname_%Y%m -S .bmp -Q i -a -0:00:30  @@
+exiv2 -O 1 -q -v -u -n GBK -f -p x -r basename_%Y%m -S .bmp ad  @@
+exiv2 -O 1 -q -k -P c -Y 1 -e a -u -M "set Xmp.dc.title lang="de-DE" Euros" -f -T -p h -d c -r parentname_%Y%m - -S .jpg -Q d -a 1:01 fi  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -i X -q -l /tmp -Y 1 -F -n GBK -T -t -p s -d c -Q d -a 1:01 fi  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i a -q -l /tmp -P g -u -n UTF-8 -D 1 -T -r dirname_%Y%m -  @@
+exiv2 -O 1 -v -Y 1 -e x -u -r dirname_%Y%m -S .gif -Q i -a 1 ex  @@
+exiv2 -O 1 -k -F -e XX -u -M "set Xmp.dc.title lang="en-GB" Pounds" -T -t -d c -r basename_%Y%m -Q d fc  @@
+exiv2 -i I -q -l /tmp -v -M "set Xmp.dc.title lang=fr-FR Euros" -D 1 -f -t -p C -r dirname_%Y%m -S .tiff  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -k -Y 1 -u -D 1 -f -T -p t -r basename_%Y%m - -S .gif -Q i -a -0:00:30 ex  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i XX -q -k -v -P k -F -e a -u -M "set Exif.Photo.UserComment charset=Ascii My photo" -T -p v -d t -r basename_%Y%m - -S .bmp -a 1:01  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -v -F -u -n UTF-8 -d C - -Q d -a 1  @@
+exiv2 -i X -q -k -l /tmp -F -e a -T -d I -r dirname_%Y%m -S .jpg  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -i x -q -k -P x -Y 1 -M "-Mset Exif.Photo.MaxApertureValue 557429/62500" -D 1 -f -p t -d e -r basename_%Y%m -a -0:00:30  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i XX -q -l /tmp -Y 1 -F -e C -u -M "set Exif.Photo.UserComment charset=Ascii My photo" -n UTF-8 -D 1 -p S -r parentname_%Y%m -S .tiff -Q i ad  @@
+exiv2 -k -v -F -e X -u -M "set Exif.GPSInfo.GPSProcessingMethod HYBRID-FIX" -D 1 -T -t -p c -d C -S .gif -a 1  @@
+exiv2 -i X -q -l /tmp -P g -Y 1 -e C -n GBK -D 1 -f -T -p R -d a -Q d -a 1:01 mv  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -q -v -P y -F -u -D 1 -t -p i -d a -r basename_%Y%m -S .gif fc  @@
+exiv2 -i i -q -e X -u -M "set Xmp.dc.title lang="en-US"" -n UTF-8 -D 1 -d t - -Q w -a 1:01 ad  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -k -P n -Y 1 -F -e a -u -M "set Exif.Photo.UserComment charset=Ascii My photo" -n GBK -T -t -d a -r basename_%Y%m - -S .bmp -Q w -a 1  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i i -q -l /tmp -v -e t -u -D 1 -f -T -t -Q d fi  @@
+exiv2 -v -e c -M "set Xmp.dc.title lang="de-DE" Euros" -D 1 -f - -a 1:01 pr  @@
+exiv2 -v -P v -F -u -n UTF-8 -D 1 -T -t -r dirname_%Y%m -Q e -a -0:00:30 mo  @@
+exiv2 -O 1 -Y 1 -F -e C -t -S .tiff -Q i  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -v -P I -e C -u -M "set Exif.GPSInfo.GPSProcessingMethod HYBRID-FIX" -f -T -t -p c -d c - -S .tiff -Q d -a 1 mv  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -v -Y 1 -M "add Xmp.myprefix.Whom Mr. Smith" -n UTF-8 -f -T -d I -r dirname_%Y%m -S .tiff -Q d  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -q -k -v -M "add Xmp.myprefix.Whom Mr. Smith" -n UTF-8 -t -r parentname_%Y%m -S .gif -a 1:01  @@
+exiv2 -i I -q -k -l /tmp -u -M "set Exif.GPSInfo.GPSProcessingMethod HYBRID-FIX" -D 1 -f -T -t -d t -r parentname_%Y%m - -S .gif -a 1:01 ex  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -q -v -F -M "set Exif.Photo.UserComment charset=Ascii My photo" -n GBK -D 1 -T -t -r dirname_%Y%m - -Q d  @@
+exiv2 -i c -q -k -l /tmp -v -F -e i -M "del Xmp.dc.title" -n GBK -D 1 -T -p a -d c -r dirname_%Y%m - pr  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -i - -q -k -P X -e a -M "add Xmp.myprefix.Whom Mr. Smith" -n UTF-8 -f -T -t -r parentname_%Y%m - -Q i -a -0:00:30  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -i XX -q -l /tmp -P X -Y 1 -F -e C -M "set Exif.Photo.UserComment charset=Ascii My photo" -T -t -p t -r parentname_%Y%m -S .tiff -Q i  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -q -P c -F -u -n GBK -p h -d t -a 1:01 mv  @@
+exiv2 -i e -q -k -v -P x -Y 1 -F -u -n GBK -D 1 -p h -d t - -S .jpg -Q w  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -k -v -P s -Y 1 -e c -u -n UTF-8 -f -t -p R -a 1:01  @@
+exiv2 -i x -q -k -v -M "set Xmp.dc.title lang="en-US"" -n UTF-8 -D 1 -f -T -S .png -a 1:01 rm  @@
+exiv2 -i i -q -k -l /tmp -v -Y 1 -f -T -p t -r parentname_%Y%m - -a 1 in  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -q -k -F -e - -t -p i -d C -r parentname_%Y%m - ad  @@
+exiv2 -i a -q -k -l /tmp -v -P n -M "set Xmp.dc.title lang="de-DE" Euros" -n GBK -D 1 -T -t -p h -d I -Q i  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i i -q -k -v -Y 1 -F -D 1 -T -t -p X -r dirname_%Y%m -Q e -a 1 rm  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -q -k -l /tmp -v -F -e C -D 1 -T -p C -d c - -S .png -a 1  @@
+exiv2 -i XX -q -k -l /tmp -P I -Y 1 -e c -u -D 1 -f -t -p v  @@
+exiv2 -k -P E -Y 1 -e - -u -M "add Xmp.myprefix.Whom Mr. Smith" -D 1 -f -d i -a 1:01 ad  @@
+exiv2 -k -v -F -e t -u -p S -d i -r parentname_%Y%m -Q d -a 1:01  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -i i -q -l /tmp -v -P y -F -e C -M "del Xmp.dc.title" -t -a -0:00:30 ex  @@
+exiv2 -k -u -f -t -d I -r parentname_%Y%m - -S .gif -a 1:01 mv  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -k -v -e XX -u -f -T -p R  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i x -q -k -l /tmp -v -P V -e C -M "set Xmp.dc.title lang=fr-FR Euros" -d a -r parentname_%Y%m -Q d -a -0:00:30 rm  @@
+exiv2 -v -P s -Y 1 -F -u -D 1 -r parentname_%Y%m -  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -i C -q -l /tmp -Y 1 -u -M "set Exif.Photo.UserComment charset=Unicode Robin" -t -p h -d i -r basename_%Y%m - -S .jpg -Q i  @@
+exiv2 -i XX -q -k -l /tmp -P t -F -e C -M "del Xmp.dc.title" -D 1 -T -p t -r basename_%Y%m -Q w  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -v -Y 1 -e e -u -n GBK -f -t -p c -d e - -Q i ad  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i i -q -v -Y 1 -F -e XX -M "set Exif.Photo.UserComment charset=Unicode Robin" -D 1 -r basename_%Y%m - -Q w -a 1:01 fi  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -v -Y 1 -e C -u -f -T -t -S .jpg -a 1  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -k -Y 1 -F -e - -M "set Exif.Photo.UserComment charset=Unicode Robin" -n GBK -T -p x - -S .jpg -Q e -a -0:00:30 mv  @@
+exiv2 -i t -q -l /tmp -v -F -u -D 1 -p c -S .jpg -a 1:01 fi  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -i e -q -P X -Y 1 -u -f -d t -Q d mo  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -k -v -P h -M "set Xmp.dc.title lang="en-US" In God We Trust" -f -p s - -S .jpg -Q i -a 1:01 rm  @@
+exiv2 -i i -q -k -l /tmp -P X -Y 1 -F -e c -M "set Xmp.dc.title lang="de-DE" Euros" -D 1 -T -t -d e - -S .jpg -a 1  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i C -q -F -e XX -u -M "set Xmp.dc.title lang="en-GB" Pounds" -T -p h - -Q d -a 1 mo  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -q -k -P s -Y 1 -F -D 1 -T -S .bmp  @@
+exiv2 -i I -q -v -Y 1 -F -e t -M "add Xmp.myprefix.Whom Mr. Smith" -n GBK -D 1 -t -p x -  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -i - -q -v -F -u -M "-Mset Exif.Photo.MaxApertureValue F5.6" -n UTF-8 -D 1 -p v -r parentname_%Y%m - -S .bmp -a 1:01  @@
+exiv2 -v -F -e x -u -M "del Xmp.dc.title" -n GBK -D 1 -T -d t - -S .jpg -Q w in  @@
+exiv2 -i X -q -k -u -n GBK -D 1 -f -d a -r basename_%Y%m -Q i ad  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -k -P E -e I -M "set Exif.Photo.UserComment charset=Ascii My photo" -f -T -p t -d a -a 1  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -i - -q -v -P t -Y 1 -u -M "set Exif.Photo.UserComment charset=Unicode Robin" -n UTF-8 -D 1 -f -p h -d I -r dirname_%Y%m - ex  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -q -P X -e i -n UTF-8 -f -p S -S .bmp -a 1:01  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -i I -q -l /tmp -P n -M "set Xmp.dc.title lang="de-DE" Euros" -D 1 -f -T -d c - -S .gif -Q i -a 1 mv  @@
+exiv2 -k -v -P V -Y 1 -e t -M "set Exif.GPSInfo.GPSProcessingMethod HYBRID-FIX" -D 1 -f -T -t -p t -d c -r dirname_%Y%m - -Q e -a 1  @@
+exiv2 -i i -q -k -v -P t -u -M "add Xmp.myprefix.Whom Mr. Smith" -n GBK -f -T -t -d i -S .tiff mo  @@
+exiv2 -O 1 -k -v -P I -e C -n GBK -p e - ad  @@
+exiv2 -v -F -e i -u -M "-Mset Exif.Photo.MaxApertureValue F5.6" -n UTF-8 -p h -d i -a -0:00:30  @@
+exiv2 -i I -q -k -Y 1 -e I -u -M "set Exif.GPSInfo.GPSProcessingMethod HYBRID-FIX" -D 1 -f -r dirname_%Y%m - -S .bmp mo  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i XX -q -k -v -e X -n GBK -D 1 -f -T -t -d x -r basename_%Y%m - -S .png rm  @@
+exiv2 -i i -q -k -l /tmp -Y 1 -e I -d I - -Q d  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i c -q -l /tmp -v -P x -Y 1 -D 1 -f -p s -d e -r parentname_%Y%m -S .png  @@
+exiv2 -O 1 -k -v -Y 1 -F -e C -u -t -r parentname_%Y%m - -S .tiff -Q d  @@
+exiv2  ad @@
+exiv2  mo @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -P n -F -M "add Xmp.myprefix.Whom Mr. Smith" -T -p X -S .jpg pr  @@
+exiv2 -O 1 -i a -q -k -v -P s -Y 1 -F -u -n UTF-8 -t -d I -r basename_%Y%m -S .tiff -Q w -a 1  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -i a -g time -l /tmp -v -F -e C -u -M "-Mset Exif.Photo.MaxApertureValue F5.6" -T -t -d c -r dirname_%Y%m -  @@
+exiv2 -i e -k -Y 1 -e X -n UTF-8 -D 1 -f -t -p X -d t - -S .gif  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -i c -k -l /tmp -v -P n -e e -M "set Xmp.dc.title lang="en-GB" Pounds" -n UTF-8 -f -t -r parentname_%Y%m - -S .tiff -Q d -a 1 pr  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -i x -v -P V -Y 1 -u -f -T -t -p C -r dirname_%Y%m - -a -0:00:30  @@
+exiv2 -O 1 -i e -q -g time -e e -M "set Xmp.dc.title lang="de-DE" Euros" -f -T -r dirname_%Y%m - -S .png -Q i pr  @@
+exiv2 -O 1 -i a -k -g time -P l -F -u -M "set Exif.Photo.UserComment charset=Unicode Robin" -n GBK -p e -d c -r parentname_%Y%m - -S .tiff -a 1  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -i XX -l /tmp -P V -F -e c -u -t -p h -d e -S .bmp -Q w -a 1  @@
+exiv2 -i t -k -l /tmp -F -M "set Exif.Photo.UserComment charset=Ascii My photo" -D 1 -p a - -Q w -a 1:01 ex  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -i i -q -v -Y 1 -F -M "del Xmp.dc.title" -T -d c - -S .jpg -a -0:00:30 in  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -i C -q -g webready -l /tmp -P t -F -M "set Xmp.dc.title All others pay cash" -d e -r dirname_%Y%m -Q e ex  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -i i -k -g time -l /tmp -v -Y 1 -F -e x -u -n GBK -T -p s -d i -r parentname_%Y%m -S .jpg -Q i pr  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i C -k -v -P X -Y 1 -F -e c -n UTF-8 -D 1 -T -t -d t mv  @@
+exiv2 -i e -v -P n -e i -f -T -p x -d c -r parentname_%Y%m - -Q i mv  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -i X -q -k -u -M "set Xmp.dc.title All others pay cash" -n UTF-8 -f -t -p S -Q w mo  @@
+exiv2 -O 1 -i c -q -g time -l /tmp -v -P n -F -e I -u -n UTF-8 -T -t -p p -r dirname_%Y%m - -Q d -a 1:01 fi  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -i e -q -g webready -l /tmp -v -P X -Y 1 -u -f -p C -S .tiff -a -0:00:30 in  @@
+exiv2 -O 1 -i e -Y 1 -F -u -n UTF-8 -T -  @@
+exiv2 -O 1 -i X -q -v -P l -Y 1 -F -e e -M "set Exif.Photo.UserComment charset=Ascii My photo" -t -p X -d i -S .gif -Q e pr  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -i XX -q -k -g image -l /tmp -Y 1 -e e -u -M "set Xmp.dc.title lang=fr-FR Euros" -n UTF-8 -T -r basename_%Y%m -a 1  @@
+exiv2 -O 1 -i e -g image -l /tmp -v -e C -u -M "-Mset Exif.Photo.MaxApertureValue 557429/62500" -n GBK -f -t -p S -d C -S .bmp -a 1 ex  @@
+exiv2 -i I -l /tmp -v -P g -Y 1 -D 1 -d I -r dirname_%Y%m - -S .gif -a -0:00:30 ad  @@
+exiv2 -O 1 -i - -q -g image -P V -F -n GBK -T -t -d I - -Q d -a -0:00:30  @@
+exiv2 -O 1 -P n -M "set Exif.GPSInfo.GPSProcessingMethod HYBRID-FIX" -n GBK -f -t -r basename_%Y%m -a -0:00:30  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -i C -k -g time -v -n GBK -T -t -p c - -S .jpg -a 1 rm  @@
+exiv2 -i X -k -l /tmp -v -Y 1 -u -M "set Xmp.dc.title lang=fr-FR Euros" -f -t - -S .jpg -Q e -a -0:00:30  @@
+exiv2 -O 1 -i e -g time -l /tmp -P I -e i -u -M "set Xmp.dc.title lang="de-DE" Euros" - -S .jpg -Q e  @@
+exiv2 -l /tmp -F -e i -M "-Mset Exif.Photo.MaxApertureValue F5.6" -D 1 -T -t -r basename_%Y%m rm  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -i - -v -Y 1 -e X -n UTF-8 -f -p t -r parentname_%Y%m -Q d -a -0:00:30  @@
+exiv2 -O 1 -i t -q -k -P X -u -T -p v -r basename_%Y%m -S .png -Q d  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -i a -k -F -M "set Xmp.dc.title lang=jp Yen" -n GBK -T -t -p R -d x -r dirname_%Y%m  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -i x -q -v -P k -Y 1 -e x -f -t -d I -r parentname_%Y%m - -S .bmp  @@
+exiv2 -O 1 -i C -q -k -v -Y 1 -F -e - -u -M "set Xmp.dc.title lang="en-US" In God We Trust" -t -p v -r parentname_%Y%m - -a 1 fc  @@
+exiv2 -O 1 -i x -l /tmp -v -P g -F -u -M "set Exif.Photo.UserComment charset=Ascii My photo" -T -d i -a -0:00:30  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -i i -g image -P X -F -e e -T -t -d c -r parentname_%Y%m - -S .bmp -a 1:01 mv  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -i x -k -l /tmp -P I -Y 1 -F -n GBK -T - -S .bmp -Q i fc  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -i - -k -l /tmp -e i -u -M "-Mset Exif.Photo.MaxApertureValue F5.6" -n GBK -f -T -p h -d e - -Q e  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i XX -k -l /tmp -v -P t -e C -u -D 1 -f -r basename_%Y%m -Q e -a -0:00:30  @@
+exiv2 -O 1 -i i -k -g webready -v -f -t -d i -Q i mo  @@
+exiv2 -O 1 -i e -k -P x -Y 1 -e x -M "-Mset Exif.Photo.MaxApertureValue 557429/62500" -f -T -t -S .gif ex  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -i c -q -k -g webready -l /tmp -P I -e C -n GBK -f -T -p i -d C - -S .bmp ex  @@
+exiv2 -O 1 -i x -k -g image -l /tmp -Y 1 -M "set Exif.Photo.UserComment charset=Ascii My photo" -n GBK -t -d t -S .gif -Q e ad  @@
+exiv2 -O 1 -i C -g image -l /tmp -v -P X -Y 1 -F -e a -T -p x -r dirname_%Y%m -S .png -a 1  @@
+exiv2 -i - -k -l /tmp -v -P g -Y 1 -F -t -p s -d C -r dirname_%Y%m - -Q e mo  @@
+exiv2 -O 1 -i X -g pattern -Y 1 -F -e X -u -t -p v -d a -r dirname_%Y%m mv  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -i - -q -k -g webready -Y 1 -u -f -t -d c -r basename_%Y%m - -S .jpg -Q w -a 1:01 in  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -i t -q -F -e c -u -M "add Xmp.myprefix.Whom Mr. Smith" -n UTF-8 -p R - -S .jpg  @@
+exiv2 -O 1 -i t -q -g image -F -u -M "set Xmp.dc.title All others pay cash" -n UTF-8 -T -p C -d C -r dirname_%Y%m -Q e -a 1 ex  @@
+exiv2 -i C -k -l /tmp -v -Y 1 -F -u -M "set Exif.Photo.UserComment charset=Unicode Robin" -n GBK -D 1 -T -t -r parentname_%Y%m -S .gif  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -i X -k -l /tmp -Y 1 -F -u -p h -r basename_%Y%m -  @@
+exiv2 -O 1 -i x -g image -v -P y -Y 1 -e e -u -n UTF-8 -f -t -r parentname_%Y%m  @@
+exiv2 -O 1 -i X -l /tmp -v -P t -Y 1 -e I -u -n GBK -f -T -d e - -Q w -a 1:01  @@
+exiv2 -O 1 -i i -q -k -g time -l /tmp -v -P y -F -e a -u -t -p p -d i - -Q w  @@
+exiv2 -O 1 -i XX -k -g pattern -v -P g -Y 1 -e X -M "add Xmp.myprefix.Whom Mr. Smith" -n GBK -T -p i - -Q d  @@
+exiv2 -O 1 -i i -q -k -g image -l /tmp -P E -u -n UTF-8 -f -t -d e -r basename_%Y%m  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -i e -P h -Y 1 -F -M "set Exif.Photo.UserComment charset=Unicode Robin" -t - -Q w -a -0:00:30 mo  @@
+exiv2 -O 1 -i C -q -k -l /tmp -Y 1 -F -e X -u -d t - -S .tiff -Q i mo  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i e -l /tmp -v -P X -Y 1 -M "set Exif.Photo.UserComment charset=Unicode Robin" -D 1 -f -T -t -p C - ex  @@
+exiv2 -O 1 -i I -q -v -F -e - -n GBK -T -t -d t -S .png -Q i -a -0:00:30  @@
+exiv2 -O 1 -i C -k -v -P V -u -M "set Xmp.dc.title lang=jp Yen" -f -p c -d I -r basename_%Y%m -S .gif pr  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -i I -q -l /tmp -P h -Y 1 -F -u -n UTF-8 -t -p e -r basename_%Y%m - -S .tiff -a -0:00:30 fc  @@
+exiv2 -i a -k -P l -Y 1 -e X -u -n UTF-8 -D 1 -f -T -p X -r parentname_%Y%m fi  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -i e -q -k -g pattern -l /tmp -Y 1 -F -e XX -M "set Xmp.dc.title All others pay cash" -n GBK -T - -Q d -a 1  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -k -P g -F -n GBK -D 1 -t -p i - -S .tiff -a -0:00:30 mo  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -i X -q -P s -u -M "set Xmp.dc.title lang=fr-FR Euros" -n GBK -f -T -d i - -a 1 fc  @@
+exiv2 -O 1 -i e -l /tmp -P l -Y 1 -e X -M "set Xmp.dc.title lang=fr-FR Euros" -n GBK -f -p R -d i -r parentname_%Y%m - -S .png -Q e -a 1  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -i C -F -u -D 1 -t - -S .jpg -Q d  @@
+exiv2 -i XX -F -n GBK -D 1 -T -t -p i -d i -r parentname_%Y%m -S .tiff -Q w -a 1:01 ad  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i e -k -Y 1 -F -e e -M "set Xmp.dc.title All others pay cash" -D 1 -T -d c - -Q i  @@
+exiv2 -i - -v -Y 1 -F -e C -u -M "set Exif.Image.Artist Mr. Smith" -n GBK -t -d i -a 1  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -i c -Y 1 -u -T -t -p C -d t fi  @@
+exiv2 -O 1 -i a -q -k -g time -F -e a -M "set Xmp.dc.title lang="de-DE" Euros" -t -a -0:00:30  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -i c -q -k -g pattern -P h -Y 1 -F -n UTF-8 -T -t -r basename_%Y%m pr  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -i c -k -Y 1 -F -u -M "-Mset Exif.Photo.MaxApertureValue F5.6" -T -p s -S .jpg -Q e -a 1  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -i - -g time -v -P s -u -M "set Xmp.dc.title lang="en-US"" -f -r dirname_%Y%m -Q e -a -0:00:30 mv  @@
+exiv2 -O 1 -i C -q -k -l /tmp -v -e i -T -S .bmp  @@
+exiv2 -O 1 -i a -g pattern -l /tmp -v -Y 1 -M "add Xmp.myprefix.Whom Mr. Smith" -n GBK -f -T -t - -Q w -a 1:01 in  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -e - -u -M "set Xmp.dc.title lang=fr-FR Euros" -D 1 -p x -d i -r basename_%Y%m -a 1:01  @@
+exiv2 -O 1 -i - -v -P k -e e -M "set Xmp.dc.title lang=fr-FR Euros" -n UTF-8 -t -p R -r parentname_%Y%m mv  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -i I -q -k -g pattern -l /tmp -v -Y 1 -f -T -Q e ex  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -i I -q -g pattern -P t -Y 1 -e X -p i -d a -r dirname_%Y%m - -S .jpg -Q e  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -i c -q -k -g webready -l /tmp -v -P n -e XX -f -T -t -p S -r basename_%Y%m -S .jpg -Q w -a -0:00:30  @@
+exiv2 -i X -v -P n -Y 1 -F -e a -u -M "set Xmp.dc.title lang=fr-FR Euros" -D 1 -t -p h -r parentname_%Y%m - -S .tiff -Q i -a 1:01 rm  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -k -P k -Y 1 -F -e I -T -t -d c -r parentname_%Y%m - -S .png  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i a -k -l /tmp -v -u -n GBK -D 1 -f -t -p h -d C -r basename_%Y%m - -S .jpg -Q i ad  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i i -v -P E -F -n GBK -D 1 -t -d t -a 1:01  @@
+exiv2 -O 1 -i a -k -Y 1 -M "set Xmp.dc.title lang="en-US" In God We Trust" -T -t -d a -r parentname_%Y%m - -a 1:01  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -i C -q -k -l /tmp -P c -F -M "set Xmp.dc.title lang=fr-FR Euros" -n UTF-8 -t -p X -d x  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -i - -q -g webready -v -F -e e -n GBK -t -p p -d c - pr  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -i X -l /tmp -v -u -M "reg myprefix http://ns.myprefix.me/" -p v - -Q e -a 1:01  @@
+exiv2 -O 1 -i C -q -g webready -l /tmp -e C -u -n UTF-8 -f -t -p t -  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -i XX -q -v -Y 1 -u -M "set Exif.Image.Artist Mr. Smith" -n GBK -f -p i -d e -S .png -a 1:01  @@
+exiv2 -O 1 -i t -g webready -l /tmp -v -M "set Exif.Photo.UserComment charset=Ascii My photo" -n UTF-8 -f -T - -S .bmp mv  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -i C -k -g pattern -e a -f -d a -r dirname_%Y%m -S .jpg -a -0:00:30 pr  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i I -k -v -Y 1 -e i -u -D 1 -f -T -t -p v -d I -S .bmp -a 1:01  @@
+exiv2 -i a -l /tmp -v -P X -e c -u -D 1 -T -t -d C - -Q d -a -0:00:30 fi  @@
+exiv2 -O 1 -i e -q -g pattern -v -Y 1 -t -p x  @@
+exiv2 -O 1 -i - -q -k -l /tmp -P V -Y 1 -e X -n UTF-8 -t -r basename_%Y%m - pr  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -i a -q -l /tmp -v -Y 1 -e t -M "set Xmp.dc.title All others pay cash" -f -T -p R -d C -r dirname_%Y%m - -S .gif -Q w in  @@
+exiv2 -O 1 -i - -k -P k -f -T -p C - -S .bmp -a 1  @@
+exiv2 -O 1 -i c -q -Y 1 -F -u -T -t -d C -r dirname_%Y%m -S .tiff fi  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -i - -q -n GBK -f -t -p c - -S .gif -Q i  @@
+exiv2 -O 1 -i X -g webready -P v -F -e X -M "set Xmp.dc.title lang=fr-FR Euros" -n GBK -T -t -p v -S .png -Q w -a -0:00:30  @@
+exiv2 -i XX -k -l /tmp -v -Y 1 -F -e - -n GBK -D 1 -r dirname_%Y%m - -S .gif -a 1:01  @@
+exiv2 -O 1 -i X -q -g time -v -P V -M "-Mset Exif.Photo.MaxApertureValue F5.6" -f -T -t -p v -d C - -a 1 ex  @@
+exiv2 -O 1 -i a -q -k -g image -v -P V -e - -u -M "set Exif.Image.Artist Mr. Smith" -f -T -t -S .jpg -Q d  @@
+exiv2 -O 1 -i x -k -l /tmp -v -Y 1 -e c -u -M "set Xmp.dc.title lang="en-US"" -f -p p -d t -r parentname_%Y%m - -a 1 ex  @@
+exiv2 -O 1 -i I -q -l /tmp -v -P v -Y 1 -F -e XX -u -T -t -d C -r parentname_%Y%m -Q i -a -0:00:30 mv  @@
+exiv2 -O 1 -i x -k -g image -l /tmp -v -P E -Y 1 -F -e I -M "set Exif.Photo.UserComment charset=Ascii My photo" -n GBK -T -t -r parentname_%Y%m ad  @@
+exiv2 -i i -k -n UTF-8 -T -d e -r dirname_%Y%m  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -i c -q -k -g time -l /tmp -v -P n -Y 1 -e c -u -M "set Exif.Photo.UserComment charset=Unicode Robin" -T -t -p c  @@
+exiv2 -O 1 -i a -q -g webready -P y -Y 1 -M "set Xmp.dc.title lang=fr-FR Euros" -n GBK -f -T -p e -d C -r basename_%Y%m - -S .tiff -a 1:01  @@
+exiv2 -O 1 -i I -q -l /tmp -Y 1 -f -T -d x -S .gif  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -i X -q -k -g pattern -l /tmp -P s -Y 1 -e I -u -n UTF-8 -f -T -t -d i -Q w -a 1:01  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -i i -q -v -P I -F -M "set Exif.Photo.UserComment charset=Ascii My photo" -T -r dirname_%Y%m - -S .bmp -Q e  @@
+exiv2 -O 1 -i I -g webready -l /tmp -e - -u -M "set Xmp.dc.title lang="en-US" In God We Trust" -n GBK -T -p i -d i -S .jpg in  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -i X -q -P g -u -n GBK -f -T -p S -Q i -a 1:01  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i c -v -P v -Y 1 -M "del Xmp.dc.title" -n GBK -D 1 -t -r dirname_%Y%m - -S .bmp -Q w  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -i x -k -l /tmp -F -e a -u -n UTF-8 -t -S .tiff -a 1:01 fc  @@
+exiv2 -O 1 -i i -q -k -g webready -v -e X -M "set Xmp.dc.title lang="en-US" In God We Trust" -t -d c - -S .png  @@
+exiv2 -i C -k -l /tmp -v -P h -D 1 -f -T -t -d x -r basename_%Y%m -Q e -a -0:00:30  @@
+exiv2 -O 1 -i XX -g image -l /tmp -Y 1 -F -e - -M "del Xmp.dc.title" -n UTF-8 -p X -d a -r dirname_%Y%m - -Q w  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -i c -q -k -l /tmp -P h -e X -u -n UTF-8 -p c -d I -r basename_%Y%m -a -0:00:30  @@
+exiv2 -O 1 -i - -g image -v -Y 1 -F -p c -d c -r basename_%Y%m - -Q w -a 1:01 fc  @@
+exiv2 -O 1 -i t -l /tmp -v -Y 1 -F -u -M "set Exif.Image.Artist Mr. Smith" -n GBK -T -t -d i - -S .jpg -a 1 ex  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -i i -l /tmp -P x -e a -u -n UTF-8 -f -d i -  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -i i -g image -v -Y 1 -e XX -M "set Xmp.dc.title lang="en-US" In God We Trust" -n UTF-8 -f -T -t -p i -d i -r dirname_%Y%m -Q i -a 1 mo  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -i X -q -l /tmp -v -P h -F -u -n UTF-8 -T -t -p i -d x - -S .gif -Q d fc  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -i - -q -u -M "set Exif.Image.Artist Mr. Smith" -n UTF-8 -f -T -r dirname_%Y%m -Q w  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -i I -q -g webready -l /tmp -v -Y 1 -u -M "add Xmp.myprefix.Whom Mr. Smith" -n GBK -f -t -r dirname_%Y%m -S .bmp -Q d -a 1  @@
+exiv2 -O 1 -i a -v -P l -F -M "reg myprefix http://ns.myprefix.me/" -d x -Q e  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -i I -k -l /tmp -Y 1 -e a -T -d i -S .tiff -Q d -a 1  @@
+exiv2 -O 1 -i I -q -k -l /tmp -P n -Y 1 -u -n UTF-8 -t -p C -Q e -a 1:01 mo  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i I -k -P V -F -e e -n GBK -D 1 -T -t -p i -S .gif -Q w  @@
+exiv2 -O 1 -i C -k -P y -Y 1 -e I -M "set Xmp.dc.title lang="de-DE" Euros" -n UTF-8 -f -T -t -p e -r parentname_%Y%m -Q d mv  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -i c -q -P l -Y 1 -u -n GBK -f -T -t -p C -d i -r dirname_%Y%m -S .png -Q e -a 1 ex  @@
+exiv2 -O 1 -i a -q -k -g webready -l /tmp -v -F -T -t -p i - -S .bmp -Q w  @@
+exiv2 -i XX -k -l /tmp -v -P g -n GBK -D 1 - -a -0:00:30  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -i e -k -Y 1 -u -f -T -d x -r dirname_%Y%m - -a 1:01  @@
+exiv2 -O 1 -i i -q -g pattern -e I -T -t -d t - -a 1:01  @@
+exiv2 -i i -k -l /tmp -v -P h -Y 1 -F -u -n UTF-8 -T -t -p x - -S .jpg in  @@
+exiv2 -O 1 -i i -P t -M "del Xmp.dc.title" -t -p e -d C -r dirname_%Y%m - -S .gif -a 1:01 pr  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -i x -k -g time -Y 1 -F -u -t -Q e  @@
+exiv2 -i X -k -P v -Y 1 -e a -u -D 1 -p c -d i - in  @@
+exiv2 -O 1 -i X -k -v -P n -F -e XX -n GBK -T -d i -r basename_%Y%m -a 1  @@
+exiv2 -i x -k -v -F -M "del Xmp.dc.title" -n GBK -t -r parentname_%Y%m - -Q i -a 1:01  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeDigitized -i I -k -g pattern -Y 1 -e a -u -f -T -t -p s - -S .png in  @@
+exiv2 -O 1 -i - -Y 1 -F -e C -n GBK -T -r parentname_%Y%m - -S .png -Q d -a -0:00:30 mv  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i a -k -l /tmp -v -e X -u -n UTF-8 -D 1 -f -t -d x - -Q e mo  @@
+exiv2 -O 1 -i C -q -g webready -l /tmp -v -P X -u -M "set Xmp.dc.title lang=fr-FR Euros" -n UTF-8 -d i -S .gif -Q d -a 1:01 ad  @@
+exiv2 -O 1 -i a -k -g webready -l /tmp -Y 1 -F -n UTF-8 -T -t -p a -r parentname_%Y%m -S .png -Q e -a 1:01 in  @@
+exiv2 -O 1 -K Exif.Photo.DateTimeOriginal -i C -v -P l -u -M "set Xmp.dc.title lang="en-GB" Pounds" -n GBK -f -T -t -r parentname_%Y%m - -Q w  @@
+exiv2 -O 1 -i i -q -k -l /tmp -v -P c -n GBK -f -t -r dirname_%Y%m -Q w  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -i x -k -P c -Y 1 -F -u -M "set Xmp.dc.title All others pay cash" -n GBK -D 1 -T -t -p t -d t - -S .bmp -Q e -a 1  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -i X -v -P s -u -M "set Xmp.dc.title lang=fr-FR Euros" -n UTF-8 -D 1 -f -T -p C - -Q i -a 1:01 fc  @@
+exiv2 -O 1 -i x -v -Y 1 -e C -M "set Xmp.dc.title All others pay cash" -f -p h -d i -r parentname_%Y%m -S .tiff -Q w -a 1:01 ad  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i c -P g -Y 1 -u -M "add Xmp.myprefix.Whom Mr. Smith" -n UTF-8 -D 1 -f -T -t -S .tiff -Q w  @@
+exiv2 -i c -l /tmp -P t -e XX -u -M "del Xmp.dc.title" -n UTF-8 -D 1 -f -t -d c -r basename_%Y%m -S .gif -Q e  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -i C -l /tmp -P c -F -e c -u -n GBK -D 1 -T -p s -d x -r dirname_%Y%m - -a 1:01 ex  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -P k -Y 1 -F -e - -u -n GBK -p X -r parentname_%Y%m -Q e -a -0:00:30  @@
+exiv2 -K Exif.Photo.DateTimeOriginal -i - -Y 1 -e t -u -n GBK -D 1 -T -t -  @@
+exiv2 -i c -l /tmp -P k -Y 1 -F -u -M "set Xmp.dc.title lang="de-DE" Euros" -n GBK -D 1 -p h -d e - -S .tiff -a 1 pr  @@
+exiv2 -K Exif.Photo.DateTimeDigitized -P k -D 1 -f -t -p i -d i  @@

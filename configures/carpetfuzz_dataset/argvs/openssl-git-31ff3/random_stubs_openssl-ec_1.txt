@@ -1,0 +1,386 @@
+385
+openssl ec -des3 -text -noout -pubout -conv_form uncompressed -param_enc named_curve -no_public  -in @@ -out /tmp/foo
+openssl ec -inform DER -passin pass:123456 -passout pass:123456 -des -text -noout -param_out -pubout  -in @@ -out /tmp/foo
+openssl ec -inform PEM -outform PEM -passin pass:123456 -idea -no_public -check  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -passout pass:123456 -des3 -text -noout -pubin -pubout -no_public  -in @@ -out /tmp/foo
+openssl ec -outform PEM -des3 -noout -pubin -pubout -conv_form hybrid -param_enc explicit  -in @@ -out /tmp/foo
+openssl ec -inform DER -outform PEM -passin pass:123456 -des3 -pubin -conv_form hybrid -param_enc explicit -no_public  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -outform DER -des  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -passout pass:123456 -des -pubout -param_enc explicit -no_public  -in @@ -out /tmp/foo
+openssl ec -outform PEM -passin pass:123456 -passout pass:123456 -des3 -noout -pubout -no_public  -in @@ -out /tmp/foo
+openssl ec -inform PEM -outform DER -des -text -pubin -pubout -conv_form uncompressed -param_enc named_curve -no_public -check  -in @@ -out /tmp/foo
+openssl ec -passout pass:123456 -idea -param_out -conv_form compressed  -in @@ -out /tmp/foo
+openssl ec -outform DER -des3 -text -noout -pubout -no_public -check  -in @@ -out /tmp/foo
+openssl ec -outform PEM -passout pass:123456 -des -text -param_out -pubin -param_enc explicit -check  -in @@ -out /tmp/foo
+openssl ec -outform DER -des -text -noout -param_out -pubin -pubout  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -passin pass:123456 -des -text -pubin -pubout -conv_form uncompressed -param_enc named_curve -no_public  -in @@ -out /tmp/foo
+openssl ec -inform P12 -outform PEM -text -conv_form uncompressed -no_public  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -des -noout -pubout -conv_form compressed  -in @@ -out /tmp/foo
+openssl ec -des -text -param_out -pubout -conv_form compressed -no_public  -in @@ -out /tmp/foo
+openssl ec -outform DER -passout pass:123456 -idea -text -param_out -pubout -conv_form hybrid -param_enc explicit -no_public  -in @@ -out /tmp/foo
+openssl ec -inform PEM -passin pass:123456 -passout pass:123456 -des -param_out -pubout -conv_form compressed -param_enc explicit -check  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -passout pass:123456 -des -text -param_out -pubin  -in @@ -out /tmp/foo
+openssl ec -inform PEM -outform PEM -passin pass:123456 -des3 -text -noout -pubout -conv_form uncompressed -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform P12 -passin pass:123456 -des3 -text -noout -param_out -pubout -param_enc named_curve  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -des3 -text -noout -param_out -pubin -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform DER -outform PEM -passin pass:123456 -passout pass:123456 -des3 -param_out -pubout -no_public  -in @@ -out /tmp/foo
+openssl ec -inform P12 -outform DER -passin pass:123456 -idea -text -noout -conv_form hybrid -no_public  -in @@ -out /tmp/foo
+openssl ec -des3 -text -noout -pubin -no_public -check  -in @@ -out /tmp/foo
+openssl ec -des3 -text -pubin -conv_form hybrid -param_enc named_curve -check  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -outform DER -passout pass:123456 -idea -param_out -pubin -conv_form hybrid -param_enc explicit -check  -in @@ -out /tmp/foo
+openssl ec -passout pass:123456 -des3 -text -no_public  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -passin pass:123456 -idea -noout -pubin -conv_form hybrid -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform PEM -outform DER -text -noout -conv_form uncompressed -param_enc named_curve -check  -in @@ -out /tmp/foo
+openssl ec -des3 -noout -param_out -param_enc explicit -check  -in @@ -out /tmp/foo
+openssl ec -inform DER -passin pass:123456 -idea -conv_form compressed -no_public -check  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -passout pass:123456 -des3 -noout -conv_form uncompressed  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -passout pass:123456 -des -noout -param_out -conv_form compressed  -in @@ -out /tmp/foo
+openssl ec -outform DER -passin pass:123456 -passout pass:123456 -idea -text -pubout -param_enc named_curve -no_public  -in @@ -out /tmp/foo
+openssl ec -inform P12 -outform PEM -passin pass:123456 -passout pass:123456 -des -text -noout -pubin -pubout -check  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -passout pass:123456 -param_out -conv_form compressed -param_enc named_curve -no_public  -in @@ -out /tmp/foo
+openssl ec -inform P12 -passin pass:123456 -passout pass:123456 -des3 -noout -param_out -pubin -no_public  -in @@ -out /tmp/foo
+openssl ec -inform P12 -outform DER -passin pass:123456 -passout pass:123456 -idea -text -param_out -pubin -pubout -param_enc explicit -no_public  -in @@ -out /tmp/foo
+openssl ec -passout pass:123456 -des3 -noout -pubin -conv_form uncompressed -param_enc explicit -no_public  -in @@ -out /tmp/foo
+openssl ec -inform PEM -idea -text -pubin -param_enc explicit -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -des -text -param_out -pubout -check  -in @@ -out /tmp/foo
+openssl ec -inform DER -outform PEM -passin pass:123456 -des3 -text -noout -pubin -param_enc explicit  -in @@ -out /tmp/foo
+openssl ec -inform PEM -outform DER -passout pass:123456 -idea -text -pubin -conv_form hybrid -param_enc explicit -no_public  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -passout pass:123456 -des3 -text -param_out -pubin -pubout -conv_form compressed  -in @@ -out /tmp/foo
+openssl ec -outform PEM -passin pass:123456 -idea -text -noout -pubout -conv_form hybrid -param_enc explicit  -in @@ -out /tmp/foo
+openssl ec -outform PEM -passin pass:123456 -des3 -param_out -pubin -pubout -conv_form compressed -param_enc named_curve -no_public  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -outform DER -passin pass:123456 -des -text -noout  -in @@ -out /tmp/foo
+openssl ec -des -noout -param_out -param_enc named_curve  -in @@ -out /tmp/foo
+openssl ec -inform DER -outform DER -passin pass:123456 -passout pass:123456 -des3 -pubin -pubout -conv_form compressed -param_enc explicit -check  -in @@ -out /tmp/foo
+openssl ec -inform PEM -idea -text -noout -param_out -check  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -outform PEM -passin pass:123456 -passout pass:123456 -des -text -param_out -conv_form hybrid -param_enc named_curve -check  -in @@ -out /tmp/foo
+openssl ec -outform PEM -des3 -pubin -pubout -conv_form hybrid -param_enc named_curve -no_public -check  -in @@ -out /tmp/foo
+openssl ec -outform DER -passin pass:123456 -des -noout -param_out -conv_form uncompressed -no_public -check  -in @@ -out /tmp/foo
+openssl ec -outform DER -passin pass:123456 -passout pass:123456 -des3 -text -param_out -pubin -param_enc named_curve -check  -in @@ -out /tmp/foo
+openssl ec -inform P12 -outform DER -passin pass:123456 -des3 -text -param_out -conv_form compressed -param_enc explicit  -in @@ -out /tmp/foo
+openssl ec -inform DER -des -text -noout -pubin -pubout -no_public -check  -in @@ -out /tmp/foo
+openssl ec -outform DER -idea -text -noout -param_out -pubin -conv_form compressed  -in @@ -out /tmp/foo
+openssl ec -inform P12 -des3 -text -pubin -pubout -conv_form hybrid  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -passin pass:123456 -idea -text -param_out -pubout -conv_form hybrid  -in @@ -out /tmp/foo
+openssl ec -outform PEM -passout pass:123456 -idea -text -noout -param_out -param_enc explicit  -in @@ -out /tmp/foo
+openssl ec -passout pass:123456 -idea -text -noout -pubin -pubout -conv_form compressed -no_public  -in @@ -out /tmp/foo
+openssl ec -outform DER -passin pass:123456 -des -text -param_out -no_public  -in @@ -out /tmp/foo
+openssl ec -inform DER -passin pass:123456 -idea -noout -param_out -pubout -conv_form uncompressed -param_enc explicit -no_public  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -passin pass:123456 -passout pass:123456 -des3 -param_out -pubin -pubout -conv_form compressed -check  -in @@ -out /tmp/foo
+openssl ec -inform DER -outform PEM -passout pass:123456 -des -text -param_out -pubout -conv_form hybrid -param_enc explicit  -in @@ -out /tmp/foo
+openssl ec -inform PEM -passin pass:123456 -des -text -param_out -conv_form uncompressed -check  -in @@ -out /tmp/foo
+openssl ec -inform DER -passout pass:123456 -des3 -noout -param_out -conv_form hybrid -check  -in @@ -out /tmp/foo
+openssl ec -inform PEM -outform DER -idea -pubin -conv_form uncompressed  -in @@ -out /tmp/foo
+openssl ec -outform DER -passin pass:123456 -passout pass:123456 -des -noout -param_out -pubin -pubout -param_enc explicit  -in @@ -out /tmp/foo
+openssl ec -inform PEM -outform DER -passin pass:123456 -des -text -noout -param_out -pubin -pubout -conv_form compressed -no_public  -in @@ -out /tmp/foo
+openssl ec -inform PEM -passout pass:123456 -des3 -pubin -pubout -no_public -check  -in @@ -out /tmp/foo
+openssl ec -outform PEM -des3 -text -noout -param_out -pubin -conv_form uncompressed -param_enc explicit -no_public -check  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -passout pass:123456 -idea -noout -param_out -conv_form compressed -param_enc explicit -no_public  -in @@ -out /tmp/foo
+openssl ec -des -text -noout -pubin -conv_form hybrid -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform DER -outform DER -passout pass:123456 -des -noout -pubout -conv_form compressed -check  -in @@ -out /tmp/foo
+openssl ec -inform P12 -passout pass:123456 -des -pubin -pubout -conv_form uncompressed -param_enc named_curve -no_public  -in @@ -out /tmp/foo
+openssl ec -passout pass:123456 -des -text -noout -no_public  -in @@ -out /tmp/foo
+openssl ec -inform P12 -passin pass:123456 -des3 -text -param_out -pubout -param_enc explicit -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform DER -passin pass:123456 -idea -noout -pubin  -in @@ -out /tmp/foo
+openssl ec -inform PEM -passin pass:123456 -des -param_out -no_public  -in @@ -out /tmp/foo
+openssl ec -outform PEM -des -text -pubout -param_enc explicit -no_public  -in @@ -out /tmp/foo
+openssl ec -passout pass:123456 -des3 -param_out -pubout -check  -in @@ -out /tmp/foo
+openssl ec -inform PEM -passin pass:123456 -des3 -param_out -pubin -param_enc named_curve -check  -in @@ -out /tmp/foo
+openssl ec -outform PEM -passout pass:123456 -des3 -noout -param_out -pubin -param_enc explicit -no_public  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -passout pass:123456 -des -text -param_out -pubin -pubout -param_enc explicit -no_public  -in @@ -out /tmp/foo
+openssl ec -inform DER -passin pass:123456 -passout pass:123456 -idea -param_out -pubin -pubout -param_enc explicit -no_public  -in @@ -out /tmp/foo
+openssl ec -outform DER -passin pass:123456 -passout pass:123456 -des3 -text -noout -param_out -conv_form compressed -param_enc named_curve  -in @@ -out /tmp/foo
+openssl ec -inform PEM -outform PEM -passin pass:123456 -passout pass:123456 -text -noout -pubout -check  -in @@ -out /tmp/foo
+openssl ec -outform DER -passout pass:123456 -noout -pubout -param_enc explicit  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -des -pubout -conv_form uncompressed -no_public  -in @@ -out /tmp/foo
+openssl ec -outform DER -des3 -conv_form compressed  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -passout pass:123456 -des3 -pubin -conv_form uncompressed -param_enc explicit  -in @@ -out /tmp/foo
+openssl ec -inform DER -outform PEM -des -pubin -pubout -param_enc named_curve  -in @@ -out /tmp/foo
+openssl ec -inform PEM -outform DER -passin pass:123456 -passout pass:123456 -des -text -noout -pubin -conv_form uncompressed  -in @@ -out /tmp/foo
+openssl ec -outform DER -passin pass:123456 -passout pass:123456 -idea -param_out -conv_form hybrid -check  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -passout pass:123456 -idea -pubout -conv_form uncompressed -param_enc named_curve -check  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -passout pass:123456 -des -param_out -pubout -conv_form compressed -no_public  -in @@ -out /tmp/foo
+openssl ec -passout pass:123456 -des3 -noout -param_out -pubin -conv_form hybrid  -in @@ -out /tmp/foo
+openssl ec -inform PEM -outform PEM -des -noout -param_out -conv_form uncompressed -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -passin pass:123456 -passout pass:123456 -idea -text -noout -conv_form uncompressed -check  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -passout pass:123456 -des3 -text -noout -pubout -param_enc explicit -check  -in @@ -out /tmp/foo
+openssl ec -inform DER -outform DER -passin pass:123456 -des -noout -conv_form hybrid -param_enc named_curve  -in @@ -out /tmp/foo
+openssl ec -inform P12 -passin pass:123456 -des -noout -pubin -conv_form compressed -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform P12 -idea -text -param_out -pubin -param_enc named_curve  -in @@ -out /tmp/foo
+openssl ec -inform PEM -passin pass:123456 -passout pass:123456 -des -noout -param_out -pubin -param_enc named_curve -no_public  -in @@ -out /tmp/foo
+openssl ec -inform DER -outform DER -passout pass:123456 -idea -text -param_out -pubout -check  -in @@ -out /tmp/foo
+openssl ec -inform DER -passout pass:123456 -idea -text -pubin -conv_form hybrid -check  -in @@ -out /tmp/foo
+openssl ec -outform DER -passin pass:123456 -des -pubin -param_enc named_curve -check  -in @@ -out /tmp/foo
+openssl ec -passout pass:123456 -des -text -pubin -pubout -conv_form uncompressed -param_enc explicit -check  -in @@ -out /tmp/foo
+openssl ec -inform P12 -outform DER -passout pass:123456 -des -text -pubin -pubout -conv_form compressed  -in @@ -out /tmp/foo
+openssl ec -outform PEM -des -pubout -conv_form hybrid -param_enc explicit -no_public  -in @@ -out /tmp/foo
+openssl ec -des -noout -param_out -pubin -param_enc named_curve -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform P12 -outform DER -passin pass:123456 -text -param_out -pubin -pubout -param_enc named_curve -no_public  -in @@ -out /tmp/foo
+openssl ec -outform PEM -passout pass:123456 -des -text -param_out -pubin -no_public  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -outform DER -des3 -text -param_out -check  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -des -text -param_out -conv_form hybrid -param_enc explicit -no_public  -in @@ -out /tmp/foo
+openssl ec -inform DER -des -text -noout -param_out -pubin -conv_form compressed -param_enc named_curve -check  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -text -param_enc named_curve  -in @@ -out /tmp/foo
+openssl ec -idea -noout -pubout -param_enc named_curve  -in @@ -out /tmp/foo
+openssl ec -outform DER -passin pass:123456 -des3 -pubout -param_enc named_curve -check  -in @@ -out /tmp/foo
+openssl ec -inform PEM -idea -noout -pubout -conv_form compressed -check  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -passin pass:123456 -passout pass:123456 -des3 -text -pubin -pubout -param_enc explicit -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform P12 -passin pass:123456 -passout pass:123456 -des3 -param_out -pubin -pubout -param_enc named_curve  -in @@ -out /tmp/foo
+openssl ec -outform PEM -passout pass:123456 -des -pubin -conv_form hybrid -param_enc explicit -no_public -check  -in @@ -out /tmp/foo
+openssl ec -outform DER -passin pass:123456 -des -text -pubin -param_enc explicit -no_public  -in @@ -out /tmp/foo
+openssl ec -inform DER -passin pass:123456 -passout pass:123456 -des -text -noout -param_out -pubout -conv_form uncompressed -no_public -check  -in @@ -out /tmp/foo
+openssl ec -passout pass:123456 -idea -text -param_out -pubout -no_public -check  -in @@ -out /tmp/foo
+openssl ec -outform PEM -passin pass:123456 -passout pass:123456 -idea -text -noout -param_out -pubout -conv_form uncompressed -no_public -check  -in @@ -out /tmp/foo
+openssl ec -des -param_out -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform P12 -outform PEM -idea -text -noout -param_out -pubout -conv_form uncompressed  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -passin pass:123456 -des3 -text -noout -pubin -pubout -conv_form uncompressed -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -outform DER -passout pass:123456 -des -text -noout -pubin -conv_form uncompressed  -in @@ -out /tmp/foo
+openssl ec -inform PEM -des -text -noout -param_out -pubout -param_enc explicit -no_public  -in @@ -out /tmp/foo
+openssl ec -inform DER -outform PEM -passin pass:123456 -idea -text -param_out -conv_form hybrid -param_enc named_curve -no_public -check  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -des3 -param_out -pubin -pubout -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform P12 -outform PEM -passin pass:123456 -passout pass:123456 -idea -pubin -pubout -conv_form hybrid  -in @@ -out /tmp/foo
+openssl ec -outform PEM -passin pass:123456 -passout pass:123456 -des -pubin -pubout -conv_form compressed -param_enc named_curve  -in @@ -out /tmp/foo
+openssl ec -inform DER -outform PEM -passout pass:123456 -des3 -param_out -conv_form hybrid -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -des3 -param_out -pubout -conv_form hybrid -param_enc explicit  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -passin pass:123456 -des3 -param_out -conv_form hybrid  -in @@ -out /tmp/foo
+openssl ec -inform P12 -passout pass:123456 -des3 -noout -param_out -param_enc explicit -no_public  -in @@ -out /tmp/foo
+openssl ec -inform P12 -outform DER -passin pass:123456 -passout pass:123456 -param_out -pubin -conv_form uncompressed -no_public -check  -in @@ -out /tmp/foo
+openssl ec -outform PEM -idea -param_out -pubout -conv_form compressed -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -passin pass:123456 -passout pass:123456 -idea -pubout -param_enc named_curve  -in @@ -out /tmp/foo
+openssl ec -inform DER -outform DER -idea -text -pubin -pubout -conv_form compressed -check  -in @@ -out /tmp/foo
+openssl ec -passout pass:123456 -des -noout -param_out -conv_form uncompressed -no_public  -in @@ -out /tmp/foo
+openssl ec -inform DER -outform PEM -passin pass:123456 -des3 -text -noout -param_out -pubout -param_enc named_curve  -in @@ -out /tmp/foo
+openssl ec -outform DER -passout pass:123456 -des3 -text -param_enc named_curve  -in @@ -out /tmp/foo
+openssl ec -outform DER -passin pass:123456 -idea -param_out -pubin -pubout -conv_form compressed -param_enc explicit -check  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -passout pass:123456 -des -noout -pubin -pubout -conv_form hybrid -check  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -noout -param_out -pubin -pubout -conv_form hybrid  -in @@ -out /tmp/foo
+openssl ec -outform PEM -passout pass:123456 -idea -noout -pubin -conv_form uncompressed -no_public -check  -in @@ -out /tmp/foo
+openssl ec -outform PEM -passin pass:123456 -des -noout -param_out -pubin -pubout -no_public  -in @@ -out /tmp/foo
+openssl ec -inform P12 -des3 -text -noout -param_out -pubin -pubout -conv_form uncompressed -param_enc named_curve -no_public -check  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -passout pass:123456 -des -param_out -pubin -conv_form uncompressed -param_enc explicit -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform P12 -idea -param_out -pubout -conv_form hybrid -param_enc named_curve -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -passout pass:123456 -des3 -pubout -conv_form hybrid -param_enc named_curve -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform DER -outform PEM -passin pass:123456 -des3 -text -conv_form hybrid -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform PEM -passout pass:123456 -pubin -check  -in @@ -out /tmp/foo
+openssl ec -outform PEM -passin pass:123456 -des3 -text -pubin -pubout  -in @@ -out /tmp/foo
+openssl ec -inform P12 -outform PEM -passin pass:123456 -idea -pubin -pubout -conv_form compressed -no_public -check  -in @@ -out /tmp/foo
+openssl ec -outform DER -passin pass:123456 -passout pass:123456 -des -noout -pubin -param_enc explicit  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -passout pass:123456 -idea -param_out -pubin  -in @@ -out /tmp/foo
+openssl ec -outform DER -des3 -text -param_out -pubout -param_enc explicit  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -outform DER -passout pass:123456 -des3 -text -pubout -check  -in @@ -out /tmp/foo
+openssl ec -idea -noout -param_out -pubout -param_enc named_curve -no_public  -in @@ -out /tmp/foo
+openssl ec -outform PEM -des3 -text -noout -param_out -pubin -pubout -check  -in @@ -out /tmp/foo
+openssl ec -inform P12 -outform DER -passout pass:123456 -idea -noout -no_public  -in @@ -out /tmp/foo
+openssl ec -inform PEM -passin pass:123456 -des -noout -param_out -pubin -pubout -conv_form compressed -param_enc named_curve -no_public  -in @@ -out /tmp/foo
+openssl ec -outform DER -des3 -noout -conv_form hybrid -no_public -check  -in @@ -out /tmp/foo
+openssl ec -outform DER -passout pass:123456 -des -check  -in @@ -out /tmp/foo
+openssl ec -inform DER -outform DER -passin pass:123456 -des -text -param_out -pubin -pubout -param_enc explicit -check  -in @@ -out /tmp/foo
+openssl ec -inform DER -des3 -pubin  -in @@ -out /tmp/foo
+openssl ec -passout pass:123456 -des3 -text -param_out -pubin -pubout -param_enc named_curve  -in @@ -out /tmp/foo
+openssl ec -passout pass:123456 -text -pubin -pubout -conv_form hybrid -check  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -passin pass:123456 -passout pass:123456 -des3 -text -noout -param_out -pubin -conv_form hybrid -param_enc named_curve -check  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -idea -noout -pubin -pubout -conv_form compressed -param_enc explicit -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform PEM -idea -text -noout -pubin -conv_form uncompressed -no_public -check  -in @@ -out /tmp/foo
+openssl ec -outform PEM -passout pass:123456 -des3 -param_out -conv_form uncompressed -param_enc explicit  -in @@ -out /tmp/foo
+openssl ec -inform DER -idea -noout -param_out -pubin -param_enc explicit -check  -in @@ -out /tmp/foo
+openssl ec -outform PEM -passin pass:123456 -des -text -pubout -conv_form compressed -check  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -idea -text -param_out -pubout -param_enc explicit -no_public -check  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -des -noout -param_out -pubout -conv_form uncompressed -param_enc named_curve  -in @@ -out /tmp/foo
+openssl ec -outform DER -des -param_out -pubin -pubout -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform DER -outform PEM -des3 -text -noout -param_out -pubin -pubout -conv_form compressed -no_public  -in @@ -out /tmp/foo
+openssl ec -outform PEM -idea -text -conv_form hybrid -no_public  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -passin pass:123456 -passout pass:123456 -des3 -noout -param_out -pubin -pubout -conv_form compressed -no_public -check  -in @@ -out /tmp/foo
+openssl ec -passout pass:123456 -idea -conv_form compressed -no_public -check  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -des -text -pubin -conv_form compressed  -in @@ -out /tmp/foo
+openssl ec -inform P12 -passout pass:123456 -des3 -text -check  -in @@ -out /tmp/foo
+openssl ec -inform P12 -outform PEM -passout pass:123456 -des3 -text -param_out -pubout -conv_form hybrid -no_public  -in @@ -out /tmp/foo
+openssl ec -inform DER -outform PEM -noout -param_out -pubout -param_enc explicit  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -des3 -text -noout -param_out -pubin -pubout -conv_form hybrid  -in @@ -out /tmp/foo
+openssl ec -idea -text -param_out -pubin -pubout -conv_form compressed -no_public -check  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -des3 -text -param_out -pubin -param_enc explicit -no_public  -in @@ -out /tmp/foo
+openssl ec -inform DER -passin pass:123456 -des3 -noout -param_enc named_curve -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform P12 -passin pass:123456 -passout pass:123456 -des3 -text -noout -param_out -pubin -pubout -check  -in @@ -out /tmp/foo
+openssl ec -outform PEM -passin pass:123456 -des -text -param_out -pubout -conv_form uncompressed -param_enc explicit -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -outform DER -passin pass:123456 -passout pass:123456 -idea -noout -param_out -pubout -conv_form uncompressed -param_enc explicit -no_public  -in @@ -out /tmp/foo
+openssl ec -inform PEM -passout pass:123456 -des -text -conv_form hybrid -param_enc named_curve -no_public -check  -in @@ -out /tmp/foo
+openssl ec -outform PEM -passout pass:123456 -text -noout -param_out -pubin -no_public  -in @@ -out /tmp/foo
+openssl ec -inform P12 -passout pass:123456 -des -param_out -pubin -check  -in @@ -out /tmp/foo
+openssl ec -outform DER -passout pass:123456 -idea -text -pubout -conv_form compressed -param_enc named_curve -check  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -passout pass:123456 -des -noout -check  -in @@ -out /tmp/foo
+openssl ec -inform DER -outform DER -passin pass:123456 -des -noout -param_out -pubin  -in @@ -out /tmp/foo
+openssl ec -outform DER -passin pass:123456 -passout pass:123456 -des3 -text -noout -param_out -pubout -conv_form hybrid -param_enc explicit -no_public -check  -in @@ -out /tmp/foo
+openssl ec -outform PEM -passin pass:123456 -passout pass:123456 -text -pubin -pubout -conv_form hybrid -no_public -check  -in @@ -out /tmp/foo
+openssl ec -outform DER -des3 -param_out -pubin -no_public  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -passout pass:123456 -noout -pubin -conv_form compressed -param_enc explicit -no_public  -in @@ -out /tmp/foo
+openssl ec -passout pass:123456 -idea -text -noout -param_out -conv_form compressed -no_public -check  -in @@ -out /tmp/foo
+openssl ec -idea -noout -param_out -no_public  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -outform DER -passin pass:123456 -passout pass:123456 -idea -noout -pubin -param_enc explicit -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -des3 -text -param_out -pubin -conv_form hybrid -param_enc explicit -no_public  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -passin pass:123456 -passout pass:123456 -idea -text -noout -pubin -pubout -no_public  -in @@ -out /tmp/foo
+openssl ec -outform PEM -passin pass:123456 -passout pass:123456 -des -text -noout -param_out -param_enc explicit -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform P12 -outform DER -passin pass:123456 -passout pass:123456 -idea -text -noout -param_out -pubin  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -outform PEM -des -noout -pubin -pubout -conv_form uncompressed -param_enc explicit -check  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -passout pass:123456 -des -pubin -no_public  -in @@ -out /tmp/foo
+openssl ec -outform PEM -param_out -conv_form compressed -check  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -passout pass:123456 -des -noout -conv_form uncompressed -param_enc named_curve -no_public -check  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -passout pass:123456 -idea -noout -param_out -pubout -no_public -check  -in @@ -out /tmp/foo
+openssl ec -outform DER -passin pass:123456 -passout pass:123456 -idea -text -pubin -check  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -idea -text -pubin -pubout -conv_form compressed -param_enc explicit -no_public  -in @@ -out /tmp/foo
+openssl ec -outform DER -des -noout -pubin -conv_form uncompressed -no_public  -in @@ -out /tmp/foo
+openssl ec -outform DER -passout pass:123456 -des -text -param_out -conv_form hybrid  -in @@ -out /tmp/foo
+openssl ec -inform DER -idea -text -conv_form hybrid -param_enc explicit  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -passout pass:123456 -des3 -text -pubout -conv_form uncompressed -no_public  -in @@ -out /tmp/foo
+openssl ec -outform PEM -passout pass:123456 -des3 -noout -pubin -param_enc explicit -check  -in @@ -out /tmp/foo
+openssl ec -outform DER -passin pass:123456 -des3 -noout -param_out -pubout  -in @@ -out /tmp/foo
+openssl ec -inform P12 -outform PEM -passin pass:123456 -passout pass:123456 -des -pubout -conv_form compressed -no_public  -in @@ -out /tmp/foo
+openssl ec -inform PEM -passin pass:123456 -passout pass:123456 -des -text -noout -param_out -pubin -check  -in @@ -out /tmp/foo
+openssl ec -passout pass:123456 -des3 -text -param_out -param_enc explicit -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform DER -passin pass:123456 -passout pass:123456 -idea -noout -param_out -pubin -pubout -param_enc named_curve -check  -in @@ -out /tmp/foo
+openssl ec -des -param_out -pubout -conv_form hybrid -param_enc explicit -check  -in @@ -out /tmp/foo
+openssl ec -inform P12 -text -noout -param_out -param_enc explicit -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform P12 -passin pass:123456 -idea -param_out -pubout -no_public  -in @@ -out /tmp/foo
+openssl ec -outform PEM -idea -pubin -pubout -param_enc named_curve -no_public  -in @@ -out /tmp/foo
+openssl ec -inform DER -passin pass:123456 -passout pass:123456 -des -text -pubout -no_public  -in @@ -out /tmp/foo
+openssl ec -inform PEM -outform DER -passout pass:123456 -des3 -pubin -pubout -param_enc named_curve -no_public  -in @@ -out /tmp/foo
+openssl ec -outform DER -noout -param_out -pubin -conv_form compressed -param_enc explicit -check  -in @@ -out /tmp/foo
+openssl ec -inform P12 -outform PEM -passin pass:123456 -passout pass:123456 -des -noout -pubin -pubout -conv_form compressed -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform DER -des3 -noout -param_out -pubin -conv_form compressed -no_public  -in @@ -out /tmp/foo
+openssl ec -des -pubin -pubout -param_enc named_curve -no_public -check  -in @@ -out /tmp/foo
+openssl ec -outform PEM -idea -text -noout -param_enc explicit -no_public -check  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -des3 -noout -param_out -conv_form compressed -param_enc explicit -no_public -check  -in @@ -out /tmp/foo
+openssl ec -passout pass:123456 -des -text -noout -param_out -pubin -pubout -param_enc explicit -no_public  -in @@ -out /tmp/foo
+openssl ec -des -pubin -pubout  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -outform PEM -passin pass:123456 -des -noout -pubout -param_enc explicit -no_public -check  -in @@ -out /tmp/foo
+openssl ec -outform DER -passout pass:123456 -idea -text -noout -pubout -conv_form compressed  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -des -text -noout -pubin -pubout -conv_form hybrid -param_enc explicit -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -outform PEM -passin pass:123456 -passout pass:123456 -des -noout -param_out -pubin -conv_form hybrid -check  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -passout pass:123456 -des3 -noout -param_out -pubin -pubout -conv_form compressed -param_enc named_curve -check  -in @@ -out /tmp/foo
+openssl ec -outform DER -passin pass:123456 -passout pass:123456 -idea -noout -param_out -pubin -pubout -param_enc named_curve -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform P12 -outform PEM -text -noout -pubin -pubout -conv_form uncompressed -param_enc explicit -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -outform DER -idea -text -noout -param_out -pubin -pubout -no_public  -in @@ -out /tmp/foo
+openssl ec -inform P12 -outform DER -idea -noout -pubin -pubout -param_enc explicit  -in @@ -out /tmp/foo
+openssl ec -inform DER -passin pass:123456 -passout pass:123456 -idea -pubout -conv_form hybrid -param_enc named_curve -no_public -check  -in @@ -out /tmp/foo
+openssl ec -outform DER -passin pass:123456 -idea -noout -param_out -pubout  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -outform PEM -idea -noout -param_out -pubin -check  -in @@ -out /tmp/foo
+openssl ec -inform DER -passin pass:123456 -des3 -pubout -conv_form hybrid -no_public  -in @@ -out /tmp/foo
+openssl ec -outform DER -passout pass:123456 -des -noout -pubout -conv_form compressed -param_enc named_curve -no_public -check  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -idea -text -noout -pubin -param_enc named_curve -check  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -passout pass:123456 -idea -text -param_out -no_public  -in @@ -out /tmp/foo
+openssl ec -inform PEM -passout pass:123456 -idea -param_out -pubin -pubout -conv_form hybrid -no_public  -in @@ -out /tmp/foo
+openssl ec -inform PEM -outform PEM -passout pass:123456 -des3 -text -pubin -param_enc explicit -no_public  -in @@ -out /tmp/foo
+openssl ec -outform PEM -passin pass:123456 -des -text -noout -pubin -conv_form hybrid -param_enc named_curve -check  -in @@ -out /tmp/foo
+openssl ec -inform DER -des3 -noout -param_out -pubin -pubout -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform P12 -outform DER -des -text -noout -param_out -conv_form uncompressed -param_enc explicit -no_public  -in @@ -out /tmp/foo
+openssl ec -passout pass:123456 -des3 -noout -pubin -pubout -conv_form hybrid -check  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -passin pass:123456 -passout pass:123456 -idea -text -param_out -param_enc named_curve -check  -in @@ -out /tmp/foo
+openssl ec -inform P12 -passout pass:123456 -des -noout -pubin -conv_form compressed -param_enc explicit  -in @@ -out /tmp/foo
+openssl ec -outform PEM -passin pass:123456 -idea -param_enc explicit  -in @@ -out /tmp/foo
+openssl ec -outform PEM -passin pass:123456 -passout pass:123456 -idea -text -param_out -pubin -pubout -conv_form uncompressed -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform PEM -des3 -text -noout -pubin -pubout -param_enc explicit -no_public  -in @@ -out /tmp/foo
+openssl ec -outform DER -passout pass:123456 -idea -param_out -pubin -param_enc named_curve -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -outform PEM -passin pass:123456 -passout pass:123456 -des -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform P12 -passin pass:123456 -idea -pubin -pubout -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform PEM -passin pass:123456 -des -param_enc named_curve -check  -in @@ -out /tmp/foo
+openssl ec -inform PEM -passin pass:123456 -passout pass:123456 -idea -text -param_out -pubin -conv_form compressed -no_public -check  -in @@ -out /tmp/foo
+openssl ec -outform PEM -passin pass:123456 -idea -noout -pubout -conv_form uncompressed -no_public  -in @@ -out /tmp/foo
+openssl ec -inform DER -outform PEM -des -text -pubin -no_public -check  -in @@ -out /tmp/foo
+openssl ec -passout pass:123456 -des -noout -pubout -param_enc explicit -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform PEM -outform DER -passout pass:123456 -des -noout -param_out -pubin -pubout -conv_form uncompressed -param_enc explicit -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform DER -passout pass:123456 -idea -noout -param_out -pubout -param_enc named_curve -check  -in @@ -out /tmp/foo
+openssl ec -outform PEM -idea -noout -param_out -pubout -conv_form compressed -param_enc explicit -check  -in @@ -out /tmp/foo
+openssl ec -inform P12 -outform PEM -passin pass:123456 -des3 -text -param_out -pubin -pubout -no_public -check  -in @@ -out /tmp/foo
+openssl ec -outform DER -passin pass:123456 -passout pass:123456 -des3 -text -noout -pubin -pubout -conv_form compressed -check  -in @@ -out /tmp/foo
+openssl ec -inform PEM -outform PEM -des -param_out -pubin -conv_form hybrid -param_enc named_curve  -in @@ -out /tmp/foo
+openssl ec -idea -text -pubout  -in @@ -out /tmp/foo
+openssl ec -inform PEM -des3 -no_public  -in @@ -out /tmp/foo
+openssl ec -idea -pubin -check  -in @@ -out /tmp/foo
+openssl ec -inform P12 -outform DER -passin pass:123456 -des3 -noout -param_out -pubin -pubout -conv_form uncompressed -check  -in @@ -out /tmp/foo
+openssl ec -passout pass:123456 -idea -noout -pubin -pubout -check  -in @@ -out /tmp/foo
+openssl ec -outform DER -passin pass:123456 -passout pass:123456 -des -pubout -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform PEM -outform PEM -des3 -text -param_out -pubin -pubout -param_enc explicit -check  -in @@ -out /tmp/foo
+openssl ec -outform DER -passin pass:123456 -passout pass:123456 -des3 -conv_form hybrid -param_enc explicit -no_public  -in @@ -out /tmp/foo
+openssl ec -inform P12 -outform DER -passin pass:123456 -passout pass:123456 -des -param_out -pubin -conv_form hybrid  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -des -param_out -pubin -pubout -check  -in @@ -out /tmp/foo
+openssl ec -inform PEM -outform PEM -passout pass:123456 -des3 -noout -pubin -conv_form hybrid -check  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -outform PEM -des -param_out -pubout -param_enc explicit -no_public  -in @@ -out /tmp/foo
+openssl ec -inform PEM -idea -noout -param_out -pubout -param_enc explicit  -in @@ -out /tmp/foo
+openssl ec -inform P12 -passin pass:123456 -des3 -noout -pubout -check  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -des3 -noout -pubin -param_enc explicit -no_public  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -passout pass:123456 -des3 -pubout -param_enc explicit -no_public -check  -in @@ -out /tmp/foo
+openssl ec -outform DER -passin pass:123456 -passout pass:123456 -idea -text -noout -pubin -pubout -param_enc named_curve -check  -in @@ -out /tmp/foo
+openssl ec -outform PEM -passin pass:123456 -passout pass:123456 -des -text -noout -pubin -pubout -conv_form hybrid -no_public  -in @@ -out /tmp/foo
+openssl ec -idea -noout -param_out -pubin -conv_form hybrid -param_enc named_curve -no_public  -in @@ -out /tmp/foo
+openssl ec -inform P12 -passin pass:123456 -passout pass:123456 -text -param_out -pubout -conv_form hybrid -param_enc named_curve -check  -in @@ -out /tmp/foo
+openssl ec -outform PEM -passin pass:123456 -des -text -param_out -pubin -conv_form uncompressed -check  -in @@ -out /tmp/foo
+openssl ec -inform P12 -outform DER -passout pass:123456 -des3 -text -noout -param_out -pubin -conv_form hybrid -param_enc named_curve -no_public -check  -in @@ -out /tmp/foo
+openssl ec -outform PEM -des -text -noout -param_out -pubout -check  -in @@ -out /tmp/foo
+openssl ec -inform DER -passin pass:123456 -passout pass:123456 -des -text -noout -pubin -pubout -param_enc named_curve -check  -in @@ -out /tmp/foo
+openssl ec -inform DER -outform DER -passin pass:123456 -idea -noout -conv_form uncompressed -param_enc named_curve -check  -in @@ -out /tmp/foo
+openssl ec -outform PEM -passin pass:123456 -des3 -text -noout -pubin -pubout -conv_form hybrid -param_enc named_curve -no_public -check  -in @@ -out /tmp/foo
+openssl ec -passout pass:123456 -des3 -noout -param_out -pubout -conv_form uncompressed -no_public  -in @@ -out /tmp/foo
+openssl ec -inform PEM -passin pass:123456 -passout pass:123456 -idea -param_out -pubin -pubout -conv_form hybrid -check  -in @@ -out /tmp/foo
+openssl ec -passout pass:123456 -idea -noout -param_out -pubin -conv_form hybrid -param_enc explicit -check  -in @@ -out /tmp/foo
+openssl ec -inform PEM -passout pass:123456 -des3 -text -noout -conv_form uncompressed -param_enc explicit  -in @@ -out /tmp/foo
+openssl ec -outform PEM -passout pass:123456 -des3 -text -param_out -pubin -conv_form compressed -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform DER -passout pass:123456 -des -noout -pubin -pubout  -in @@ -out /tmp/foo
+openssl ec -inform PEM -passin pass:123456 -idea -text -noout -param_out -pubin  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -outform PEM -passin pass:123456 -idea -text -pubin -pubout -param_enc named_curve -check  -in @@ -out /tmp/foo
+openssl ec -outform PEM -passin pass:123456 -idea -text -noout -param_out -pubin -conv_form hybrid -param_enc named_curve -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform DER -outform PEM -passout pass:123456 -idea -noout -pubin -pubout -conv_form uncompressed -param_enc named_curve  -in @@ -out /tmp/foo
+openssl ec -outform PEM -passout pass:123456 -des -param_out -pubout -param_enc named_curve  -in @@ -out /tmp/foo
+openssl ec -passout pass:123456 -idea -text -noout -pubin -pubout -param_enc explicit  -in @@ -out /tmp/foo
+openssl ec -inform P12 -outform PEM -passin pass:123456 -passout pass:123456 -des3 -noout -pubout -conv_form uncompressed -param_enc explicit  -in @@ -out /tmp/foo
+openssl ec -inform DER -passin pass:123456 -des -text -noout -no_public  -in @@ -out /tmp/foo
+openssl ec -outform PEM -passin pass:123456 -des3 -text -noout -pubin -conv_form uncompressed  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -outform DER -passout pass:123456 -des3 -noout -param_out -pubin -pubout  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -pubout -no_public -check  -in @@ -out /tmp/foo
+openssl ec -outform PEM -passin pass:123456 -des3 -noout -param_out -check  -in @@ -out /tmp/foo
+openssl ec -outform DER -passout pass:123456 -idea -text -noout -pubin -pubout -no_public -check  -in @@ -out /tmp/foo
+openssl ec -outform PEM -des3 -text -noout -param_out -param_enc named_curve -no_public  -in @@ -out /tmp/foo
+openssl ec -inform PEM -outform DER -passin pass:123456 -passout pass:123456 -des3 -text -noout -param_out -no_public -check  -in @@ -out /tmp/foo
+openssl ec -outform DER -passin pass:123456 -idea -noout -param_out -pubin -pubout -check  -in @@ -out /tmp/foo
+openssl ec -outform DER -passout pass:123456 -idea -text -conv_form uncompressed -param_enc named_curve -check  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -passout pass:123456 -des3 -text -noout -param_out -pubout -conv_form compressed  -in @@ -out /tmp/foo
+openssl ec -inform DER -outform DER -passin pass:123456 -passout pass:123456 -des3 -text -noout -pubin -conv_form uncompressed -no_public  -in @@ -out /tmp/foo
+openssl ec -des -noout -param_enc named_curve  -in @@ -out /tmp/foo
+openssl ec -outform PEM -passout pass:123456 -idea -param_out -pubin -pubout -param_enc explicit  -in @@ -out /tmp/foo
+openssl ec -inform DER -passout pass:123456 -des -text -param_enc explicit  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -passin pass:123456 -des -conv_form uncompressed -no_public -check  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -passout pass:123456 -idea -text -noout -param_out -pubin -conv_form uncompressed -param_enc explicit  -in @@ -out /tmp/foo
+openssl ec -inform P12 -passin pass:123456 -idea -text -noout -param_out -pubin -pubout -conv_form compressed -param_enc explicit -check  -in @@ -out /tmp/foo
+openssl ec -idea -text -param_out -pubout -param_enc explicit -check  -in @@ -out /tmp/foo
+openssl ec -inform DER -passin pass:123456 -passout pass:123456 -des3 -text -param_out  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -outform DER -passout pass:123456 -idea -text -noout -param_out -pubin -param_enc named_curve -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform PEM -outform PEM -des3 -pubout -param_enc named_curve -no_public -check  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -idea -noout -pubin -no_public  -in @@ -out /tmp/foo
+openssl ec -outform PEM -passin pass:123456 -idea -text -param_out -pubin -conv_form hybrid -no_public  -in @@ -out /tmp/foo
+openssl ec -outform PEM -passout pass:123456 -des3 -text -noout -pubin -pubout -conv_form compressed -param_enc named_curve -check  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -outform PEM -passout pass:123456 -idea -text -noout -pubout -conv_form uncompressed -param_enc named_curve -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform PEM -outform DER -passout pass:123456 -des -noout -param_out -param_enc named_curve -check  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -passout pass:123456 -idea -pubin -conv_form hybrid -param_enc explicit -no_public  -in @@ -out /tmp/foo
+openssl ec -outform PEM -passin pass:123456 -passout pass:123456 -des3 -pubin -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -outform DER -passin pass:123456 -idea -param_out -param_enc explicit -no_public  -in @@ -out /tmp/foo
+openssl ec -inform DER -passin pass:123456 -des -text -noout -param_out -pubout -conv_form hybrid  -in @@ -out /tmp/foo
+openssl ec -outform PEM -passin pass:123456 -passout pass:123456 -des -text -noout -pubout -conv_form uncompressed -param_enc named_curve  -in @@ -out /tmp/foo
+openssl ec -inform PEM -outform DER -passout pass:123456 -des3 -text -noout -param_enc named_curve -check  -in @@ -out /tmp/foo
+openssl ec -idea -pubin -pubout -conv_form hybrid -param_enc explicit -check  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -passout pass:123456 -idea -text -noout -pubout -param_enc named_curve -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -passin pass:123456 -passout pass:123456 -des -text -noout -param_out -pubin -pubout -conv_form hybrid -param_enc named_curve  -in @@ -out /tmp/foo
+openssl ec -outform DER -passin pass:123456 -des -text -param_enc named_curve  -in @@ -out /tmp/foo
+openssl ec -inform DER -des3 -text -noout -pubout -conv_form compressed  -in @@ -out /tmp/foo
+openssl ec -outform DER -passout pass:123456 -des -text -noout -param_out -pubin -pubout -conv_form hybrid -check  -in @@ -out /tmp/foo
+openssl ec -inform DER -passin pass:123456 -passout pass:123456 -des -text -param_out -pubin -pubout -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform DER -passin pass:123456 -passout pass:123456 -idea -text -noout -param_enc explicit -no_public  -in @@ -out /tmp/foo
+openssl ec -outform DER -passin pass:123456 -passout pass:123456 -des3 -text -param_out -pubout -conv_form hybrid -param_enc named_curve -check  -in @@ -out /tmp/foo
+openssl ec -passout pass:123456 -idea -text -noout  -in @@ -out /tmp/foo
+openssl ec -des -param_out -pubin -pubout -conv_form hybrid  -in @@ -out /tmp/foo
+openssl ec -inform PEM -outform DER -passout pass:123456 -des3 -noout -param_out -pubout -param_enc explicit -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -outform DER -passout pass:123456 -des -text -noout -pubin -pubout -param_enc explicit -no_public  -in @@ -out /tmp/foo
+openssl ec -des -text -noout -pubout -check  -in @@ -out /tmp/foo
+openssl ec -des3 -text -param_out -conv_form compressed -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform PEM -outform PEM -passin pass:123456 -passout pass:123456 -des3 -noout -pubin -param_enc explicit -no_public -check  -in @@ -out /tmp/foo
+openssl ec -inform PEM -outform PEM -passin pass:123456 -passout pass:123456 -idea -noout -param_out -pubin -conv_form uncompressed -no_public  -in @@ -out /tmp/foo
+openssl ec -outform DER -passout pass:123456 -idea -text -param_out -pubin  -in @@ -out /tmp/foo
+openssl ec -inform ENGINE -passout pass:123456 -idea -param_enc explicit -check  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -des3 -text -noout -conv_form hybrid -check  -in @@ -out /tmp/foo
+openssl ec -passout pass:123456 -des -text -param_out -pubin -conv_form hybrid -no_public -check  -in @@ -out /tmp/foo
+openssl ec -passin pass:123456 -idea -text -pubout -conv_form hybrid -no_public -check  -in @@ -out /tmp/foo

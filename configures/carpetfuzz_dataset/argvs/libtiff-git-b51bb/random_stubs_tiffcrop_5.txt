@@ -1,0 +1,680 @@
+678
+tiffcrop -E top -e divided -X 1 -Z 1:4,3:3 -F horiz -I white -V 300 -O landscape -P 300.0x300.0 -S 2:2 -B -i -k 512 -s  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -e image -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -H 300 -K 0.25 -O portrait -P 300.0x300.0 -B -l 100 -M -t  @@ /tmp/foo
+tiffcrop -N odd -E top -U cm -Y 2 -I white -H 300 -K 0.25 -C -c g3 -f lsb2msb -i -k 512 -l 100 -L -p contig -r 4 -t  @@ /tmp/foo
+tiffcrop -N odd -E left -e combined -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -I white -K 0.25 -P 300.0x300.0 -C -k 512 -L -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -e combined -U cm -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -P 300.0x300.0 -S 2:2 -B -C -c g4 -i -M -p separate -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -E top -m 0.5,0.25,0.75,0.25 -X 1 -F vert -I white -V 300 -O landscape -P 300.0x300.0 -k 512 -M -r 4 -s  @@ /tmp/foo
+tiffcrop -N odd -E left -e divided -U cm -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 270 -K 0.25 -S 2:2 -B -C -f msb2lsb -i -k 512 -s  @@ /tmp/foo
+tiffcrop -U cm -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 90 -I black -K 0.25 -P 300.0x300.0 -S 2:2 -C -i -l 100 -L -s  @@ /tmp/foo
+tiffcrop -E right -U cm -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -F vert -R 90 -H 300 -O landscape -P 300.0x300.0 -C -c none -i -k 512 -l 100 -L -M -s -w 100  @@ /tmp/foo
+tiffcrop -E bottom -e combined -Y 2 -F horiz -R 180 -H 300 -V 300 -O portrait -P 300.0x300.0 -S 2:2 -i -L -t  @@ /tmp/foo
+tiffcrop -R 270 -I white -V 300 -O auto -P 300.0x300.0 -S 2:2 -B -C -l 100 -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -U cm -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -V 300 -J 0.25 -B -f msb2lsb -i -k 512 -M -p contig -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -U in -m 0.5,0.25,0.75,0.25 -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -R 270 -I black -V 300 -K 0.25 -B -C -i -k 512 -l 100 -M -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -E left -e image -U in -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 270 -I white -S 2:2 -C -c g4 -f lsb2msb -k 512 -L -M -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -E left -e image -U in -X 1 -I white -H 300 -P 300.0x300.0 -B -C -c zip -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -I black -H 300 -J 0.25 -K 0.25 -O portrait -P 300.0x300.0 -B -C -l 100 -p contig -t  @@ /tmp/foo
+tiffcrop -m 0.5,0.25,0.75,0.25 -Y 2 -R 90 -J 0.25 -K 0.25 -O portrait -P 300.0x300.0 -S 2:2 -B -C -k 512 -r 4 -s  @@ /tmp/foo
+tiffcrop -N even -E top -e image -U cm -m 0.5,0.25,0.75,0.25 -Y 2 -F horiz -R 270 -H 300 -O portrait -P 300.0x300.0 -c g3 -f lsb2msb -i -l 100 -L -M -p separate -t -w 100  @@ /tmp/foo
+tiffcrop -U px -Y 2 -F horiz -R 90 -H 300 -V 300 -K 0.25 -f msb2lsb -L -M -t  @@ /tmp/foo
+tiffcrop -N even -E right -e divided -U px -m 0.5,0.25,0.75,0.25 -Y 2 -I data -K 0.25 -O portrait -P 300.0x300.0 -S 2:2 -c none -f lsb2msb -i -k 512 -l 100 -L -r 4 -w 100  @@ /tmp/foo
+tiffcrop -E top -e combined -U in -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -H 300 -V 300 -K 0.25 -O portrait -P 300.0x300.0 -S 2:2 -B -f msb2lsb -i -k 512 -M -p separate -r 4 -s  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E right -e separate -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -V 300 -P 300.0x300.0 -S 2:2 -c lzw -i -L -M -r 4 -t  @@ /tmp/foo
+tiffcrop -e separate -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -H 300 -V 300 -O auto -P 300.0x300.0 -S 2:2 -B -C -c zip -f lsb2msb -M -r 4 -t  @@ /tmp/foo
+tiffcrop -N even -E top -e divided -U in -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -R 270 -H 300 -K 0.25 -P 300.0x300.0 -S 2:2 -f lsb2msb -i -L -M -p separate -s  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E top -e multiple -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -O portrait -P 300.0x300.0 -B -f msb2lsb -l 100 -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E bottom -Z 1:4,3:3 -R 270 -J 0.25 -P 300.0x300.0 -f msb2lsb -i -l 100 -L -p contig  @@ /tmp/foo
+tiffcrop -E right -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -I data -V 300 -J 0.25 -K 0.25 -O landscape -P 300.0x300.0 -S 2:2 -c lzw -f msb2lsb -i -L -p contig -s  @@ /tmp/foo
+tiffcrop -N odd -E top -m 0.5,0.25,0.75,0.25 -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -R 90 -I both -H 300 -K 0.25 -S 2:2 -C -c packbits -f msb2lsb -i -k 512 -L -s  @@ /tmp/foo
+tiffcrop -E right -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 270 -H 300 -K 0.25 -f lsb2msb -i -k 512 -l 100 -L -r 4 -t  @@ /tmp/foo
+tiffcrop -N even -E left -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 180 -H 300 -V 300 -O auto -P 300.0x300.0 -S 2:2 -B -C -f lsb2msb -i -l 100 -M -p separate -t -w 100  @@ /tmp/foo
+tiffcrop -E right -U cm -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -I black -H 300 -J 0.25 -K 0.25 -B -c none -f msb2lsb -l 100 -p contig -t -w 100  @@ /tmp/foo
+tiffcrop -N even -z 1,1,2048,2048:1,2049,2048,4097 -R 90 -H 300 -K 0.25 -O portrait -P 300.0x300.0 -B -c none -f msb2lsb -i -k 512 -l 100 -M -p contig -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 90 -I both -J 0.25 -S 2:2 -B -c none -f lsb2msb -k 512 -p contig -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E left -e image -Y 2 -Z 1:4,3:3 -R 270 -V 300 -O auto -P 300.0x300.0 -B -i -k 512 -l 100 -M -p contig -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -N even -E top -U in -Y 2 -R 180 -I both -H 300 -V 300 -K 0.25 -P 300.0x300.0 -C -c jpeg -f lsb2msb -L -M -p contig -t  @@ /tmp/foo
+tiffcrop -U px -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -I white -H 300 -J 0.25 -C -f lsb2msb -L -M -p separate -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E left -U px -Y 2 -I data -H 300 -V 300 -K 0.25 -P 300.0x300.0 -S 2:2 -B -i -k 512 -M -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -E top -m 0.5,0.25,0.75,0.25 -Y 2 -R 270 -V 300 -J 0.25 -i -l 100 -L -M -s  @@ /tmp/foo
+tiffcrop -e combined -F vert -H 300 -V 300 -S 2:2 -C -f msb2lsb -i -p separate -r 4  @@ /tmp/foo
+tiffcrop -U cm -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -R 270 -K 0.25 -P 300.0x300.0 -c g3 -l 100 -L -t  @@ /tmp/foo
+tiffcrop -E right -e separate -U in -m 0.5,0.25,0.75,0.25 -Y 2 -F horiz -R 180 -H 300 -V 300 -J 0.25 -K 0.25 -S 2:2 -B -C -c none -f msb2lsb -k 512 -M -p contig -s  @@ /tmp/foo
+tiffcrop -e separate -X 1 -H 300 -V 300 -K 0.25 -S 2:2 -C -i -k 512 -s  @@ /tmp/foo
+tiffcrop -N odd -E left -e divided -U px -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -H 300 -V 300 -J 0.25 -K 0.25 -B -C -c g3 -f msb2lsb -i -k 512 -r 4  @@ /tmp/foo
+tiffcrop -U in -m 0.5,0.25,0.75,0.25 -F vert -R 270 -H 300 -J 0.25 -K 0.25 -O landscape -P 300.0x300.0 -S 2:2 -C -M -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -U in -m 0.5,0.25,0.75,0.25 -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 90 -H 300 -V 300 -O auto -P 300.0x300.0 -B -f msb2lsb -k 512 -M -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -U px -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -F vert -R 90 -V 300 -P 300.0x300.0 -C -c jpeg -f msb2lsb -i -l 100 -r 4 -w 100  @@ /tmp/foo
+tiffcrop -E left -m 0.5,0.25,0.75,0.25 -z 1,1,2048,2048:1,2049,2048,4097 -R 90 -H 300 -V 300 -J 0.25 -B -C -c lzw -p contig -t -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E bottom -U px -m 0.5,0.25,0.75,0.25 -F vert -V 300 -J 0.25 -S 2:2 -c g4 -f lsb2msb -k 512 -L -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E right -e divided -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -R 90 -I black -H 300 -J 0.25 -O auto -P 300.0x300.0 -B -c g3 -f lsb2msb -i -M -s  @@ /tmp/foo
+tiffcrop -E top -U in -m 0.5,0.25,0.75,0.25 -X 1 -F vert -H 300 -V 300 -J 0.25 -O landscape -P 300.0x300.0 -B -C -c lzw -f msb2lsb -k 512 -l 100 -t  @@ /tmp/foo
+tiffcrop -e divided -U in -Y 2 -Z 1:4,3:3 -F horiz -R 90 -I white -H 300 -J 0.25 -S 2:2 -B -C -f msb2lsb -i -l 100 -p contig -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E top -U cm -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -R 90 -I black -H 300 -J 0.25 -K 0.25 -O auto -P 300.0x300.0 -i -l 100 -L -p contig -t -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -U in -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -H 300 -V 300 -J 0.25 -f msb2lsb -i -L -t -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E right -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -R 180 -V 300 -S 2:2 -c g3 -k 512 -r 4 -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E right -U px -Y 2 -F vert -I both -O landscape -P 300.0x300.0 -f lsb2msb -i -l 100 -L -s  @@ /tmp/foo
+tiffcrop -e combined -z 1,1,2048,2048:1,2049,2048,4097 -R 180 -I data -V 300 -S 2:2 -C -c g4 -k 512 -l 100 -L -p contig -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -e multiple -m 0.5,0.25,0.75,0.25 -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -I black -H 300 -V 300 -C -c g3 -f msb2lsb -i -k 512 -l 100 -L -M -p separate -w 100  @@ /tmp/foo
+tiffcrop -N even -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -R 180 -V 300 -K 0.25 -O auto -P 300.0x300.0 -B -M -s -w 100  @@ /tmp/foo
+tiffcrop -E bottom -X 1 -I data -H 300 -V 300 -J 0.25 -P 300.0x300.0 -S 2:2 -k 512 -L -p contig -r 4  @@ /tmp/foo
+tiffcrop -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -I data -H 300 -P 300.0x300.0 -S 2:2 -B -C -c zip -k 512 -l 100 -M -p contig -r 4 -t  @@ /tmp/foo
+tiffcrop -N odd -m 0.5,0.25,0.75,0.25 -Y 2 -F horiz -I black -K 0.25 -S 2:2 -C -c g4 -f msb2lsb -L -t  @@ /tmp/foo
+tiffcrop -e separate -Y 2 -Z 1:4,3:3 -F horiz -J 0.25 -O portrait -P 300.0x300.0 -S 2:2 -f msb2lsb -i -k 512 -l 100 -M -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -N even -E bottom -e image -m 0.5,0.25,0.75,0.25 -X 1 -R 180 -H 300 -V 300 -J 0.25 -O portrait -P 300.0x300.0 -c none -i -l 100 -M -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -U px -Y 2 -F vert -R 270 -H 300 -V 300 -J 0.25 -P 300.0x300.0 -S 2:2 -B -C -f msb2lsb -i -M -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E right -U in -m 0.5,0.25,0.75,0.25 -Z 1:4,3:3 -I white -V 300 -K 0.25 -O landscape -P 300.0x300.0 -C -i -k 512 -L -M -p separate -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -m 0.5,0.25,0.75,0.25 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -V 300 -K 0.25 -P 300.0x300.0 -c g4 -f msb2lsb -k 512 -L -r 4 -t  @@ /tmp/foo
+tiffcrop -N even -U cm -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -F horiz -I data -O landscape -P 300.0x300.0 -B -f lsb2msb -l 100 -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -N odd -E right -U px -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -R 180 -I data -H 300 -V 300 -J 0.25 -P 300.0x300.0 -S 2:2 -C -c zip -f msb2lsb -L -M -r 4 -s  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E bottom -e separate -m 0.5,0.25,0.75,0.25 -Y 2 -R 90 -I data -H 300 -V 300 -J 0.25 -K 0.25 -O auto -P 300.0x300.0 -C -c g3 -f lsb2msb -k 512 -s -w 100  @@ /tmp/foo
+tiffcrop -m 0.5,0.25,0.75,0.25 -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -I black -K 0.25 -O portrait -P 300.0x300.0 -S 2:2 -B -c jpeg -f lsb2msb -k 512 -l 100 -p separate -t  @@ /tmp/foo
+tiffcrop -e divided -U in -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 180 -H 300 -O landscape -P 300.0x300.0 -S 2:2 -B -C -i -k 512 -l 100 -r 4 -w 100  @@ /tmp/foo
+tiffcrop -N even -E bottom -m 0.5,0.25,0.75,0.25 -Y 2 -F horiz -I data -H 300 -O landscape -P 300.0x300.0 -f msb2lsb -i -l 100 -p separate -r 4 -t  @@ /tmp/foo
+tiffcrop -N even -m 0.5,0.25,0.75,0.25 -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -R 180 -I black -K 0.25 -O portrait -P 300.0x300.0 -S 2:2 -C -f msb2lsb -k 512 -l 100 -L -M -p contig -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -I data -H 300 -V 300 -O portrait -P 300.0x300.0 -S 2:2 -B -c g3 -i -k 512 -t -w 100  @@ /tmp/foo
+tiffcrop -E bottom -e image -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 180 -V 300 -J 0.25 -K 0.25 -B -C -c g4 -f msb2lsb -i -l 100 -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E bottom -e multiple -U in -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -R 180 -I black -H 300 -V 300 -J 0.25 -K 0.25 -O portrait -P 300.0x300.0 -f lsb2msb -i -k 512 -l 100 -L -p contig -s -w 100  @@ /tmp/foo
+tiffcrop -E bottom -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -H 300 -V 300 -K 0.25 -O landscape -P 300.0x300.0 -S 2:2 -C -l 100 -L -p contig -r 4 -t  @@ /tmp/foo
+tiffcrop -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -I data -V 300 -J 0.25 -S 2:2 -B -f lsb2msb -k 512 -l 100 -p contig -r 4 -s  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E bottom -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -R 90 -H 300 -J 0.25 -K 0.25 -C -f msb2lsb -L -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -m 0.5,0.25,0.75,0.25 -Y 2 -R 90 -I data -J 0.25 -S 2:2 -k 512 -p contig -r 4 -s  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -Y 2 -Z 1:4,3:3 -R 180 -I data -H 300 -V 300 -O landscape -P 300.0x300.0 -S 2:2 -C -f lsb2msb -k 512 -r 4 -s  @@ /tmp/foo
+tiffcrop -U px -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -I both -V 300 -K 0.25 -O portrait -P 300.0x300.0 -f lsb2msb -k 512 -l 100 -L -M -s  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -U px -Y 2 -Z 1:4,3:3 -F vert -R 180 -I black -V 300 -J 0.25 -K 0.25 -O auto -P 300.0x300.0 -S 2:2 -i -L -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -N odd -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -R 180 -I black -H 300 -V 300 -J 0.25 -B -c lzw -f lsb2msb -k 512 -M -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E left -e divided -Y 2 -Z 1:4,3:3 -R 270 -H 300 -J 0.25 -K 0.25 -O landscape -P 300.0x300.0 -S 2:2 -l 100 -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -e combined -U px -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -I both -H 300 -V 300 -O auto -P 300.0x300.0 -B -C -f msb2lsb -i -M -r 4 -s  @@ /tmp/foo
+tiffcrop -e combined -U px -m 0.5,0.25,0.75,0.25 -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 180 -V 300 -J 0.25 -K 0.25 -C -c jpeg -l 100 -p contig -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E bottom -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -R 90 -I data -J 0.25 -S 2:2 -c g3 -f msb2lsb -i -l 100 -L -M -p separate -r 4 -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E left -m 0.5,0.25,0.75,0.25 -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -V 300 -K 0.25 -O auto -P 300.0x300.0 -S 2:2 -C -c zip -i -l 100 -L -M -p contig -t  @@ /tmp/foo
+tiffcrop -N even -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -I data -H 300 -V 300 -J 0.25 -L -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -E top -U px -m 0.5,0.25,0.75,0.25 -F horiz -I white -H 300 -K 0.25 -S 2:2 -B -C -f msb2lsb -i -k 512 -p contig -t  @@ /tmp/foo
+tiffcrop -e image -U px -Y 2 -R 270 -I data -V 300 -c g3 -L -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -e divided -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -R 270 -I both -K 0.25 -C -f msb2lsb -l 100 -L -w 100  @@ /tmp/foo
+tiffcrop -N odd -E top -e separate -m 0.5,0.25,0.75,0.25 -Z 1:4,3:3 -F vert -R 90 -I data -H 300 -V 300 -K 0.25 -P 300.0x300.0 -S 2:2 -L -p separate -r 4 -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -e separate -U in -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -R 90 -H 300 -K 0.25 -S 2:2 -B -c packbits -f lsb2msb -i -l 100 -M -t -w 100  @@ /tmp/foo
+tiffcrop -N even -E top -e multiple -U px -m 0.5,0.25,0.75,0.25 -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -R 180 -I both -H 300 -V 300 -K 0.25 -O portrait -P 300.0x300.0 -S 2:2 -c jpeg -f lsb2msb -k 512 -L -M -p separate -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -E bottom -U cm -m 0.5,0.25,0.75,0.25 -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -R 270 -H 300 -J 0.25 -K 0.25 -O auto -P 300.0x300.0 -f msb2lsb -M -r 4 -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -U in -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 180 -I both -K 0.25 -O portrait -P 300.0x300.0 -S 2:2 -B -C -i -k 512 -M -p contig -t  @@ /tmp/foo
+tiffcrop -E right -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 90 -I white -H 300 -K 0.25 -O portrait -P 300.0x300.0 -C -f msb2lsb -k 512 -l 100 -L -t -w 100  @@ /tmp/foo
+tiffcrop -N even -U cm -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -R 180 -H 300 -V 300 -J 0.25 -B -C -c packbits -i -k 512 -r 4 -s  @@ /tmp/foo
+tiffcrop -E bottom -U px -Z 1:4,3:3 -R 180 -H 300 -V 300 -J 0.25 -K 0.25 -C -c g3 -f lsb2msb -l 100 -L -M -p contig -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -E right -e combined -Y 2 -Z 1:4,3:3 -F horiz -R 90 -I black -H 300 -K 0.25 -c jpeg -f lsb2msb -l 100 -L -p contig -s  @@ /tmp/foo
+tiffcrop -E right -e separate -U px -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 90 -O auto -P 300.0x300.0 -B -c zip -k 512 -l 100 -r 4 -s  @@ /tmp/foo
+tiffcrop -E top -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -R 90 -V 300 -J 0.25 -O landscape -P 300.0x300.0 -B -c jpeg -f lsb2msb -k 512 -l 100 -p contig -s  @@ /tmp/foo
+tiffcrop -E top -e divided -U cm -Z 1:4,3:3 -I black -J 0.25 -K 0.25 -S 2:2 -c packbits -l 100 -L -M -p separate -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E right -U px -X 1 -F horiz -R 180 -I both -C -f lsb2msb -i -k 512 -l 100 -s -w 100  @@ /tmp/foo
+tiffcrop -e divided -U in -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 90 -V 300 -K 0.25 -C -i -l 100 -L -M -p contig -t  @@ /tmp/foo
+tiffcrop -N odd -U in -m 0.5,0.25,0.75,0.25 -Z 1:4,3:3 -F vert -I black -V 300 -S 2:2 -c none -f msb2lsb -i -k 512 -l 100 -M -p separate -t  @@ /tmp/foo
+tiffcrop -N odd -E right -m 0.5,0.25,0.75,0.25 -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -H 300 -J 0.25 -O auto -P 300.0x300.0 -C -i -k 512 -L -s  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -m 0.5,0.25,0.75,0.25 -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -R 180 -H 300 -J 0.25 -c g4 -f lsb2msb -l 100 -L -M -p separate -r 4 -w 100  @@ /tmp/foo
+tiffcrop -e image -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -R 270 -H 300 -J 0.25 -S 2:2 -C -f msb2lsb -L -M -p contig -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -E bottom -X 1 -R 270 -I white -V 300 -i -L -t -w 100  @@ /tmp/foo
+tiffcrop -N odd -e separate -m 0.5,0.25,0.75,0.25 -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -R 270 -I black -J 0.25 -B -i -s -w 100  @@ /tmp/foo
+tiffcrop -N even -e image -U px -X 1 -Z 1:4,3:3 -I black -J 0.25 -K 0.25 -P 300.0x300.0 -f msb2lsb -k 512 -L -M -r 4 -s  @@ /tmp/foo
+tiffcrop -E bottom -e combined -U cm -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -F horiz -I white -V 300 -J 0.25 -P 300.0x300.0 -C -i -L -M -p separate -s -w 100  @@ /tmp/foo
+tiffcrop -E bottom -e combined -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 270 -I white -H 300 -V 300 -P 300.0x300.0 -B -C -c none -i -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -e image -X 1 -Z 1:4,3:3 -F horiz -R 180 -H 300 -J 0.25 -S 2:2 -k 512 -l 100 -L -p separate -s -w 100  @@ /tmp/foo
+tiffcrop -e separate -m 0.5,0.25,0.75,0.25 -H 300 -J 0.25 -O auto -P 300.0x300.0 -c g4 -f msb2lsb -L -M -p separate -r 4 -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -e image -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -I data -V 300 -J 0.25 -S 2:2 -c packbits -f msb2lsb -i -k 512 -M -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -E bottom -U px -Y 2 -F horiz -I white -V 300 -K 0.25 -O auto -P 300.0x300.0 -S 2:2 -c jpeg -k 512 -l 100 -M -p contig -t -w 100  @@ /tmp/foo
+tiffcrop -N odd -E right -e divided -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -H 300 -J 0.25 -K 0.25 -S 2:2 -B -i -p contig -s -w 100  @@ /tmp/foo
+tiffcrop -E top -e multiple -U in -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -H 300 -J 0.25 -K 0.25 -O landscape -P 300.0x300.0 -B -c zip -M -p separate -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -N odd -e divided -U in -X 1 -Z 1:4,3:3 -R 180 -O portrait -P 300.0x300.0 -B -C -c lzw -i -l 100 -w 100  @@ /tmp/foo
+tiffcrop -N even -E top -e image -m 0.5,0.25,0.75,0.25 -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -R 270 -I both -V 300 -P 300.0x300.0 -S 2:2 -l 100 -L -M -p separate -r 4 -t  @@ /tmp/foo
+tiffcrop -E left -e divided -Z 1:4,3:3 -I black -H 300 -V 300 -J 0.25 -K 0.25 -O auto -P 300.0x300.0 -S 2:2 -C -c packbits -k 512 -L -p separate -t -w 100  @@ /tmp/foo
+tiffcrop -N odd -e divided -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -F horiz -R 180 -I black -V 300 -J 0.25 -K 0.25 -S 2:2 -f lsb2msb -l 100 -L -M -s -w 100  @@ /tmp/foo
+tiffcrop -N even -m 0.5,0.25,0.75,0.25 -X 1 -R 90 -V 300 -J 0.25 -K 0.25 -O auto -P 300.0x300.0 -f msb2lsb -i -l 100 -L -M -p separate -r 4 -s  @@ /tmp/foo
+tiffcrop -N odd -e divided -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -H 300 -J 0.25 -K 0.25 -P 300.0x300.0 -S 2:2 -C -f lsb2msb -i -k 512 -l 100 -L -M -s  @@ /tmp/foo
+tiffcrop -N odd -E bottom -e multiple -U px -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -I data -J 0.25 -S 2:2 -B -C -c g3 -i -l 100 -p contig -s -w 100  @@ /tmp/foo
+tiffcrop -U in -Z 1:4,3:3 -F vert -V 300 -J 0.25 -O portrait -P 300.0x300.0 -B -C -f msb2lsb -M -r 4 -s  @@ /tmp/foo
+tiffcrop -N even -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 270 -J 0.25 -B -C -c jpeg -l 100 -M -p contig -t  @@ /tmp/foo
+tiffcrop -N odd -e combined -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -I white -H 300 -J 0.25 -K 0.25 -B -C -c zip -i -k 512 -l 100 -r 4 -t  @@ /tmp/foo
+tiffcrop -e multiple -U in -Z 1:4,3:3 -F horiz -V 300 -B -s  @@ /tmp/foo
+tiffcrop -N odd -E left -e separate -U cm -X 1 -F horiz -H 300 -O portrait -P 300.0x300.0 -C -c g3 -f msb2lsb -i -l 100 -L -p separate -t  @@ /tmp/foo
+tiffcrop -U cm -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -F horiz -H 300 -V 300 -J 0.25 -O portrait -P 300.0x300.0 -C -c packbits -f msb2lsb -i -l 100 -L -p separate -s  @@ /tmp/foo
+tiffcrop -e divided -Y 2 -R 270 -I white -V 300 -P 300.0x300.0 -S 2:2 -B -C -c zip -i -l 100 -M -p separate -r 4 -t  @@ /tmp/foo
+tiffcrop -E top -m 0.5,0.25,0.75,0.25 -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -J 0.25 -K 0.25 -O auto -P 300.0x300.0 -C -c packbits -f lsb2msb -i -k 512 -l 100 -p separate -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -N even -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -I data -H 300 -J 0.25 -K 0.25 -P 300.0x300.0 -c zip -f msb2lsb -i -k 512 -L -p separate -t -w 100  @@ /tmp/foo
+tiffcrop -N odd -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -R 180 -H 300 -J 0.25 -C -f lsb2msb -i -l 100 -r 4 -t  @@ /tmp/foo
+tiffcrop -N odd -e separate -U cm -m 0.5,0.25,0.75,0.25 -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -I black -H 300 -V 300 -J 0.25 -O auto -P 300.0x300.0 -S 2:2 -B -C -c zip -k 512 -M -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E right -e separate -U in -F vert -R 180 -I black -V 300 -J 0.25 -K 0.25 -f lsb2msb -l 100 -p separate -r 4  @@ /tmp/foo
+tiffcrop -N odd -e separate -U cm -Z 1:4,3:3 -I data -V 300 -J 0.25 -K 0.25 -O portrait -P 300.0x300.0 -S 2:2 -L -M -p contig -s  @@ /tmp/foo
+tiffcrop -N even -E bottom -e multiple -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -O landscape -P 300.0x300.0 -S 2:2 -C -c packbits -l 100 -L -M -p separate  @@ /tmp/foo
+tiffcrop -N even -U cm -m 0.5,0.25,0.75,0.25 -R 270 -V 300 -J 0.25 -K 0.25 -B -c zip -f lsb2msb -i -M -r 4 -t  @@ /tmp/foo
+tiffcrop -E right -U in -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -F vert -J 0.25 -O auto -P 300.0x300.0 -B -c jpeg -f lsb2msb -i -l 100 -p contig -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -e multiple -U cm -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -F vert -I black -J 0.25 -i -k 512 -L -M -p contig -t  @@ /tmp/foo
+tiffcrop -E top -e multiple -U cm -Y 2 -Z 1:4,3:3 -F vert -R 90 -I black -H 300 -J 0.25 -K 0.25 -B -C -c g3 -t  @@ /tmp/foo
+tiffcrop -N even -E left -e image -Z 1:4,3:3 -K 0.25 -C -l 100 -M -p contig -r 4 -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E bottom -Y 2 -Z 1:4,3:3 -R 90 -H 300 -J 0.25 -P 300.0x300.0 -S 2:2 -C -i -k 512 -l 100 -p separate -r 4 -s  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E bottom -U cm -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -H 300 -V 300 -K 0.25 -O portrait -P 300.0x300.0 -S 2:2 -C -f msb2lsb -k 512 -l 100 -M -p contig -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -E bottom -e multiple -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -I both -S 2:2 -C -f lsb2msb -i -k 512 -L -M -p contig -r 4 -s  @@ /tmp/foo
+tiffcrop -E right -e separate -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -H 300 -J 0.25 -S 2:2 -B -C -c g3 -i -s  @@ /tmp/foo
+tiffcrop -E bottom -U cm -m 0.5,0.25,0.75,0.25 -X 1 -R 90 -I black -V 300 -J 0.25 -K 0.25 -S 2:2 -B -C -i -k 512 -l 100 -p separate -w 100  @@ /tmp/foo
+tiffcrop -E bottom -U cm -m 0.5,0.25,0.75,0.25 -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -H 300 -V 300 -c zip -i -k 512 -l 100 -L -M  @@ /tmp/foo
+tiffcrop -N odd -m 0.5,0.25,0.75,0.25 -Y 2 -F vert -I both -H 300 -V 300 -J 0.25 -K 0.25 -B -C -f lsb2msb -M -p contig -t -w 100  @@ /tmp/foo
+tiffcrop -N odd -E top -e image -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -I black -V 300 -J 0.25 -S 2:2 -C -c lzw -f lsb2msb -i -l 100 -L -M -t -w 100  @@ /tmp/foo
+tiffcrop -N even -e separate -m 0.5,0.25,0.75,0.25 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 90 -I black -H 300 -V 300 -S 2:2 -B -C -c g4 -k 512 -l 100 -M -s -w 100  @@ /tmp/foo
+tiffcrop -E top -e divided -U px -z 1,1,2048,2048:1,2049,2048,4097 -F vert -R 180 -H 300 -V 300 -J 0.25 -K 0.25 -P 300.0x300.0 -S 2:2 -B -C -c lzw -k 512 -l 100 -p contig -r 4 -s  @@ /tmp/foo
+tiffcrop -e combined -U in -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -I black -K 0.25 -O auto -P 300.0x300.0 -S 2:2 -C -f lsb2msb -i -L -t  @@ /tmp/foo
+tiffcrop -N even -m 0.5,0.25,0.75,0.25 -Y 2 -F vert -R 90 -I data -H 300 -V 300 -O portrait -P 300.0x300.0 -S 2:2 -C -c jpeg -k 512 -l 100 -L -r 4 -s  @@ /tmp/foo
+tiffcrop -E right -U in -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -R 90 -I data -H 300 -V 300 -O landscape -P 300.0x300.0 -S 2:2 -c none -i -k 512 -l 100 -L -M -s -w 100  @@ /tmp/foo
+tiffcrop -e separate -m 0.5,0.25,0.75,0.25 -Z 1:4,3:3 -F horiz -I white -V 300 -J 0.25 -C -c jpeg -i -k 512 -l 100 -L -M -r 4 -s  @@ /tmp/foo
+tiffcrop -N even -E right -m 0.5,0.25,0.75,0.25 -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -K 0.25 -B -i -k 512 -l 100 -M -p separate -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -e divided -X 1 -H 300 -P 300.0x300.0 -S 2:2 -c jpeg -f msb2lsb -i -k 512 -l 100 -L -s -w 100  @@ /tmp/foo
+tiffcrop -N even -E top -e combined -U px -Z 1:4,3:3 -F vert -V 300 -K 0.25 -O auto -P 300.0x300.0 -c none -l 100 -L -s -w 100  @@ /tmp/foo
+tiffcrop -E top -X 1 -Z 1:4,3:3 -F horiz -R 90 -I data -V 300 -C -i -k 512 -l 100 -L -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E top -m 0.5,0.25,0.75,0.25 -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -R 90 -I black -J 0.25 -P 300.0x300.0 -c lzw -i -L -M -p separate -w 100  @@ /tmp/foo
+tiffcrop -e multiple -z 1,1,2048,2048:1,2049,2048,4097 -I white -J 0.25 -O auto -P 300.0x300.0 -S 2:2 -c g3 -f msb2lsb -k 512 -l 100 -L -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -I data -H 300 -V 300 -K 0.25 -P 300.0x300.0 -S 2:2 -B -C -c g3 -f msb2lsb -i -k 512 -w 100  @@ /tmp/foo
+tiffcrop -N odd -E right -e image -U in -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -H 300 -P 300.0x300.0 -C -c none -k 512 -L -p contig -s  @@ /tmp/foo
+tiffcrop -e combined -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -I both -K 0.25 -B -c lzw -i -M -s  @@ /tmp/foo
+tiffcrop -E top -e divided -U px -m 0.5,0.25,0.75,0.25 -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -I both -H 300 -K 0.25 -O landscape -P 300.0x300.0 -B -C -c none -i -k 512 -l 100 -M -t  @@ /tmp/foo
+tiffcrop -N odd -E bottom -e image -U px -F horiz -I white -H 300 -V 300 -S 2:2 -B -c lzw -i -k 512 -l 100 -M -p contig -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -N odd -e separate -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -F horiz -I black -V 300 -K 0.25 -S 2:2 -C -f msb2lsb -k 512 -L -M -p contig -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -E top -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -F horiz -R 270 -P 300.0x300.0 -C -c none -k 512 -L -M -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E right -m 0.5,0.25,0.75,0.25 -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -R 270 -J 0.25 -S 2:2 -C -i -k 512 -L -t -w 100  @@ /tmp/foo
+tiffcrop -e combined -U cm -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -H 300 -J 0.25 -B -f msb2lsb -i -l 100 -M -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -Y 2 -Z 1:4,3:3 -F vert -H 300 -P 300.0x300.0 -S 2:2 -C -c lzw -f msb2lsb -k 512 -M -p separate  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -e divided -U cm -I data -H 300 -V 300 -J 0.25 -K 0.25 -O landscape -P 300.0x300.0 -B -c g4 -f msb2lsb -i -k 512 -p contig -r 4 -s  @@ /tmp/foo
+tiffcrop -E bottom -U cm -m 0.5,0.25,0.75,0.25 -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -I both -V 300 -J 0.25 -K 0.25 -O auto -P 300.0x300.0 -B -i -p contig -r 4 -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E right -e multiple -U cm -X 1 -R 90 -K 0.25 -O landscape -P 300.0x300.0 -S 2:2 -c jpeg -f msb2lsb -p contig -t -w 100  @@ /tmp/foo
+tiffcrop -E top -e image -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -I black -H 300 -J 0.25 -K 0.25 -P 300.0x300.0 -B -c g4 -M -p separate -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -U px -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -R 90 -H 300 -K 0.25 -O auto -P 300.0x300.0 -B -c g4 -i -M -r 4 -s  @@ /tmp/foo
+tiffcrop -E left -U cm -m 0.5,0.25,0.75,0.25 -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -R 180 -V 300 -O portrait -P 300.0x300.0 -B -C -i -k 512 -l 100 -M -w 100  @@ /tmp/foo
+tiffcrop -U cm -Y 2 -Z 1:4,3:3 -F horiz -R 270 -V 300 -J 0.25 -K 0.25 -O auto -P 300.0x300.0 -C -f msb2lsb -M -r 4 -s  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -m 0.5,0.25,0.75,0.25 -Y 2 -H 300 -i -k 512 -p contig -t -w 100  @@ /tmp/foo
+tiffcrop -N odd -E bottom -U in -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -H 300 -J 0.25 -O auto -P 300.0x300.0 -S 2:2 -B -c zip -k 512 -l 100 -M -r 4 -t  @@ /tmp/foo
+tiffcrop -N odd -e combined -U px -m 0.5,0.25,0.75,0.25 -Z 1:4,3:3 -F vert -R 180 -H 300 -J 0.25 -K 0.25 -f lsb2msb -i -k 512 -L -p separate -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E bottom -U px -m 0.5,0.25,0.75,0.25 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 90 -H 300 -O landscape -P 300.0x300.0 -S 2:2 -C -f lsb2msb -i -L -p contig -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -E right -U cm -Y 2 -Z 1:4,3:3 -F vert -V 300 -J 0.25 -K 0.25 -O landscape -P 300.0x300.0 -S 2:2 -f msb2lsb -i -k 512 -p separate -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -U cm -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -S 2:2 -B -C -c lzw -f lsb2msb -M -t  @@ /tmp/foo
+tiffcrop -E left -U px -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 180 -I both -V 300 -J 0.25 -K 0.25 -O landscape -P 300.0x300.0 -S 2:2 -B -C -c zip -i -l 100 -M -r 4 -s  @@ /tmp/foo
+tiffcrop -N odd -e image -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -I data -H 300 -V 300 -J 0.25 -O auto -P 300.0x300.0 -f lsb2msb -i -l 100 -L -p separate -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -e combined -U px -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -H 300 -V 300 -K 0.25 -C -c g4 -f lsb2msb -i -L -M -p contig -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E left -e combined -U px -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -I both -J 0.25 -K 0.25 -O landscape -P 300.0x300.0 -C -c none -k 512 -L -r 4 -t  @@ /tmp/foo
+tiffcrop -N even -U cm -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -I black -H 300 -V 300 -J 0.25 -P 300.0x300.0 -c lzw -i -k 512 -l 100 -L -p contig -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -E left -U px -m 0.5,0.25,0.75,0.25 -Y 2 -I both -V 300 -K 0.25 -B -C -c lzw -f msb2lsb -k 512 -l 100 -p contig -s  @@ /tmp/foo
+tiffcrop -N odd -E left -e divided -U in -Y 2 -F horiz -R 90 -V 300 -O landscape -P 300.0x300.0 -S 2:2 -C -k 512 -s -w 100  @@ /tmp/foo
+tiffcrop -N odd -E top -U px -m 0.5,0.25,0.75,0.25 -X 1 -I black -J 0.25 -S 2:2 -C -k 512 -l 100 -M -p contig -s  @@ /tmp/foo
+tiffcrop -E bottom -e separate -U px -m 0.5,0.25,0.75,0.25 -X 1 -I data -H 300 -V 300 -J 0.25 -B -c zip -f msb2lsb -i -s -w 100  @@ /tmp/foo
+tiffcrop -e image -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 90 -H 300 -V 300 -c packbits -k 512 -l 100 -L -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E top -e multiple -X 1 -F horiz -R 180 -I black -V 300 -J 0.25 -K 0.25 -P 300.0x300.0 -C -c none -f lsb2msb -i -k 512 -p contig -r 4 -s  @@ /tmp/foo
+tiffcrop -E top -e divided -U cm -X 1 -Z 1:4,3:3 -R 180 -I both -H 300 -J 0.25 -O landscape -P 300.0x300.0 -B -C -f msb2lsb -i -l 100 -M -p separate -r 4 -t  @@ /tmp/foo
+tiffcrop -e image -U cm -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 180 -I data -J 0.25 -i -k 512 -L -M -p contig -w 100  @@ /tmp/foo
+tiffcrop -E bottom -e image -U in -m 0.5,0.25,0.75,0.25 -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -R 180 -J 0.25 -K 0.25 -O auto -P 300.0x300.0 -C -k 512 -L -p separate -r 4 -t  @@ /tmp/foo
+tiffcrop -N even -e divided -U in -m 0.5,0.25,0.75,0.25 -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -R 180 -I data -H 300 -K 0.25 -O auto -P 300.0x300.0 -S 2:2 -B -f msb2lsb -i -k 512 -M -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E top -X 1 -Z 1:4,3:3 -F vert -I data -O landscape -P 300.0x300.0 -C -c g4 -i -p contig -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -E bottom -e combined -U px -m 0.5,0.25,0.75,0.25 -Y 2 -R 180 -I both -V 300 -K 0.25 -S 2:2 -B -C -i -M -p contig -s -w 100  @@ /tmp/foo
+tiffcrop -e multiple -Y 2 -V 300 -O auto -P 300.0x300.0 -B -C -c g3 -f lsb2msb -k 512 -t -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E left -e multiple -z 1,1,2048,2048:1,2049,2048,4097 -F vert -R 180 -H 300 -V 300 -J 0.25 -S 2:2 -B -i -l 100 -M -r 4 -t  @@ /tmp/foo
+tiffcrop -e combined -m 0.5,0.25,0.75,0.25 -F vert -R 180 -I both -V 300 -K 0.25 -B -C -l 100 -M -r 4 -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E top -U px -m 0.5,0.25,0.75,0.25 -X 1 -R 180 -H 300 -V 300 -K 0.25 -O auto -P 300.0x300.0 -B -c g4 -i -k 512 -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -E left -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 90 -H 300 -V 300 -J 0.25 -K 0.25 -O auto -P 300.0x300.0 -S 2:2 -B -i -k 512 -M -t  @@ /tmp/foo
+tiffcrop -e divided -X 1 -R 270 -H 300 -S 2:2 -f msb2lsb -i -k 512 -M -p contig -r 4 -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -e divided -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 180 -V 300 -J 0.25 -P 300.0x300.0 -B -c g4 -i -p contig -t -w 100  @@ /tmp/foo
+tiffcrop -E right -e divided -m 0.5,0.25,0.75,0.25 -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -R 90 -V 300 -J 0.25 -O auto -P 300.0x300.0 -S 2:2 -c g3 -f lsb2msb -l 100 -L  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E bottom -m 0.5,0.25,0.75,0.25 -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -I both -V 300 -P 300.0x300.0 -B -C -f lsb2msb -i -k 512 -l 100 -M -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E bottom -U cm -m 0.5,0.25,0.75,0.25 -Y 2 -F horiz -I both -H 300 -K 0.25 -O landscape -P 300.0x300.0 -S 2:2 -B -c packbits -f lsb2msb -k 512 -l 100 -s  @@ /tmp/foo
+tiffcrop -E bottom -e combined -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 90 -H 300 -J 0.25 -K 0.25 -B -c zip -f msb2lsb -i -k 512 -l 100 -M -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 270 -I both -H 300 -V 300 -J 0.25 -K 0.25 -O portrait -P 300.0x300.0 -S 2:2 -c packbits -f lsb2msb -i -k 512 -l 100 -M  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E right -U px -m 0.5,0.25,0.75,0.25 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 90 -V 300 -K 0.25 -O landscape -P 300.0x300.0 -S 2:2 -B -C -c lzw -i -k 512 -s -w 100  @@ /tmp/foo
+tiffcrop -N odd -E top -U cm -m 0.5,0.25,0.75,0.25 -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -R 90 -I data -J 0.25 -K 0.25 -B -c zip -k 512 -l 100 -M -p contig -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -N even -X 1 -Z 1:4,3:3 -F vert -H 300 -V 300 -J 0.25 -O auto -P 300.0x300.0 -c g3 -l 100 -L -p separate -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -E left -e combined -Y 2 -Z 1:4,3:3 -I data -H 300 -V 300 -P 300.0x300.0 -f msb2lsb -i -l 100 -L -M -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -R 90 -V 300 -K 0.25 -P 300.0x300.0 -B -C -k 512 -l 100 -M -r 4 -s  @@ /tmp/foo
+tiffcrop -U cm -Y 2 -Z 1:4,3:3 -F horiz -K 0.25 -B -C -f lsb2msb -k 512 -l 100 -p separate -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E right -m 0.5,0.25,0.75,0.25 -X 1 -R 270 -P 300.0x300.0 -S 2:2 -C -c lzw -i -k 512 -l 100 -L -M -p contig -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -N even -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -I both -J 0.25 -K 0.25 -O auto -P 300.0x300.0 -S 2:2 -B -f lsb2msb -i -l 100 -M -p separate -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E left -e multiple -U in -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -I both -K 0.25 -B -C -c none -f lsb2msb -l 100 -M -p contig -s  @@ /tmp/foo
+tiffcrop -E right -U in -X 1 -V 300 -J 0.25 -P 300.0x300.0 -S 2:2 -i -l 100 -L -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -E bottom -Y 2 -H 300 -V 300 -O landscape -P 300.0x300.0 -S 2:2 -B -c zip -f msb2lsb -k 512 -p contig -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -N odd -U px -X 1 -H 300 -V 300 -K 0.25 -B -C -c lzw -f lsb2msb -k 512 -l 100 -M -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -E left -m 0.5,0.25,0.75,0.25 -X 1 -R 180 -V 300 -J 0.25 -O auto -P 300.0x300.0 -B -c jpeg -f msb2lsb -l 100 -M -r 4  @@ /tmp/foo
+tiffcrop -E bottom -e separate -U in -m 0.5,0.25,0.75,0.25 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -I black -H 300 -S 2:2 -B -k 512 -l 100 -M -r 4 -w 100  @@ /tmp/foo
+tiffcrop -m 0.5,0.25,0.75,0.25 -Y 2 -F vert -R 180 -I black -H 300 -S 2:2 -C -f msb2lsb -L -s -w 100  @@ /tmp/foo
+tiffcrop -E top -e combined -U px -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -F vert -H 300 -V 300 -O auto -P 300.0x300.0 -S 2:2 -c zip -p separate -r 4 -t  @@ /tmp/foo
+tiffcrop -E left -e image -U cm -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -J 0.25 -S 2:2 -C -c g4 -f msb2lsb -i -p contig -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E bottom -e separate -U px -X 1 -Z 1:4,3:3 -F vert -R 270 -H 300 -C -c zip -f lsb2msb -L -t  @@ /tmp/foo
+tiffcrop -e image -U cm -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -R 90 -H 300 -J 0.25 -C -c g4 -f msb2lsb -i -k 512 -L -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -U in -z 1,1,2048,2048:1,2049,2048,4097 -I data -H 300 -K 0.25 -O auto -P 300.0x300.0 -C -f msb2lsb -L -M -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -e image -X 1 -Z 1:4,3:3 -F horiz -V 300 -J 0.25 -C -c zip -f lsb2msb -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -N odd -Y 2 -F horiz -R 90 -I black -H 300 -V 300 -J 0.25 -S 2:2 -B -c lzw -l 100 -p contig -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -N odd -e combined -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 90 -I both -H 300 -O auto -P 300.0x300.0 -S 2:2 -c g4 -M -p contig -t -w 100  @@ /tmp/foo
+tiffcrop -E top -Y 2 -F vert -R 180 -I data -H 300 -J 0.25 -O portrait -P 300.0x300.0 -c none -l 100 -t  @@ /tmp/foo
+tiffcrop -m 0.5,0.25,0.75,0.25 -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -R 90 -H 300 -J 0.25 -K 0.25 -P 300.0x300.0 -B -k 512 -l 100 -M -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -H 300 -V 300 -J 0.25 -K 0.25 -S 2:2 -C -c zip -k 512 -l 100 -L -M -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -N odd -e separate -U cm -X 1 -Z 1:4,3:3 -R 270 -V 300 -S 2:2 -C -f msb2lsb -i -L -M  @@ /tmp/foo
+tiffcrop -E bottom -e combined -m 0.5,0.25,0.75,0.25 -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -V 300 -J 0.25 -K 0.25 -O auto -P 300.0x300.0 -B -C -c g4 -f lsb2msb -k 512 -t -w 100  @@ /tmp/foo
+tiffcrop -E top -U cm -m 0.5,0.25,0.75,0.25 -X 1 -O landscape -P 300.0x300.0 -C -f msb2lsb -k 512 -l 100 -L -p separate -w 100  @@ /tmp/foo
+tiffcrop -E top -U in -Y 2 -Z 1:4,3:3 -F horiz -R 180 -H 300 -J 0.25 -O portrait -P 300.0x300.0 -B -C -i -M -t -w 100  @@ /tmp/foo
+tiffcrop -U in -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -I both -H 300 -V 300 -J 0.25 -K 0.25 -O landscape -P 300.0x300.0 -L -M -p separate -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -E top -U px -X 1 -Z 1:4,3:3 -R 90 -H 300 -V 300 -J 0.25 -c lzw -i -k 512 -l 100 -M -p separate -r 4 -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -Z 1:4,3:3 -F horiz -I white -J 0.25 -O portrait -P 300.0x300.0 -S 2:2 -B -C -c g3 -p contig -r 4 -t  @@ /tmp/foo
+tiffcrop -E left -e separate -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -V 300 -K 0.25 -C -i -k 512 -M  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E left -e image -X 1 -I white -J 0.25 -K 0.25 -O portrait -P 300.0x300.0 -C -c jpeg -k 512 -l 100 -L -M -p separate -s -w 100  @@ /tmp/foo
+tiffcrop -U in -m 0.5,0.25,0.75,0.25 -Z 1:4,3:3 -F vert -R 270 -I both -H 300 -V 300 -J 0.25 -S 2:2 -C -f msb2lsb -k 512 -L -M  @@ /tmp/foo
+tiffcrop -N even -e divided -U in -m 0.5,0.25,0.75,0.25 -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -R 180 -I both -S 2:2 -f msb2lsb -k 512 -l 100 -L -p separate -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -N odd -e combined -X 1 -F horiz -I black -O auto -P 300.0x300.0 -S 2:2 -f lsb2msb -i -k 512 -L -M -p separate -r 4  @@ /tmp/foo
+tiffcrop -N odd -E right -e separate -m 0.5,0.25,0.75,0.25 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 180 -V 300 -S 2:2 -B -C -c lzw -f msb2lsb -k 512 -M -p separate -r 4 -w 100  @@ /tmp/foo
+tiffcrop -e multiple -U cm -X 1 -Z 1:4,3:3 -F vert -R 180 -I black -H 300 -V 300 -K 0.25 -S 2:2 -B -c lzw -k 512 -M -p separate -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E left -U in -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -V 300 -J 0.25 -K 0.25 -O portrait -P 300.0x300.0 -S 2:2 -B -M -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -E bottom -e image -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 270 -I white -V 300 -K 0.25 -O portrait -P 300.0x300.0 -S 2:2 -f msb2lsb -i -L -p separate -s  @@ /tmp/foo
+tiffcrop -e combined -m 0.5,0.25,0.75,0.25 -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -I both -V 300 -J 0.25 -K 0.25 -P 300.0x300.0 -S 2:2 -C -c packbits -l 100 -L -p contig -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -E bottom -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -F vert -H 300 -J 0.25 -K 0.25 -S 2:2 -B -C -f msb2lsb -p separate -r 4 -s  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E bottom -e image -U in -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -R 180 -S 2:2 -C -l 100 -L -M -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -E left -e image -m 0.5,0.25,0.75,0.25 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -I black -H 300 -V 300 -J 0.25 -P 300.0x300.0 -c lzw -f lsb2msb -i -s  @@ /tmp/foo
+tiffcrop -E left -e combined -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -I both -H 300 -V 300 -J 0.25 -O landscape -P 300.0x300.0 -B -C -f msb2lsb -k 512 -p separate  @@ /tmp/foo
+tiffcrop -e multiple -U cm -m 0.5,0.25,0.75,0.25 -X 1 -F horiz -V 300 -J 0.25 -S 2:2 -B -C -M -p separate -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E right -Y 2 -Z 1:4,3:3 -R 270 -V 300 -O landscape -P 300.0x300.0 -S 2:2 -c g3 -f lsb2msb -L -M -p contig -r 4 -s  @@ /tmp/foo
+tiffcrop -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -R 90 -I black -J 0.25 -P 300.0x300.0 -S 2:2 -c zip -f msb2lsb -i -k 512 -r 4 -w 100  @@ /tmp/foo
+tiffcrop -E top -U px -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -R 270 -H 300 -V 300 -K 0.25 -O auto -P 300.0x300.0 -C -i -k 512 -l 100 -M -r 4 -t  @@ /tmp/foo
+tiffcrop -N even -U cm -z 1,1,2048,2048:1,2049,2048,4097 -J 0.25 -S 2:2 -l 100 -L -t -w 100  @@ /tmp/foo
+tiffcrop -U cm -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 180 -H 300 -J 0.25 -K 0.25 -C -i -l 100 -L -p contig -t  @@ /tmp/foo
+tiffcrop -N even -U cm -m 0.5,0.25,0.75,0.25 -Y 2 -F vert -J 0.25 -O landscape -P 300.0x300.0 -C -c g3 -l 100 -L -M -t -w 100  @@ /tmp/foo
+tiffcrop -N odd -E bottom -X 1 -Z 1:4,3:3 -F horiz -R 180 -H 300 -J 0.25 -K 0.25 -P 300.0x300.0 -c lzw -f lsb2msb -i -k 512 -l 100 -L -M -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -e separate -U cm -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -V 300 -O auto -P 300.0x300.0 -c packbits -f msb2lsb -k 512 -l 100 -M -t -w 100  @@ /tmp/foo
+tiffcrop -E right -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 180 -J 0.25 -K 0.25 -P 300.0x300.0 -S 2:2 -B -c packbits -f lsb2msb -i -M -r 4 -s  @@ /tmp/foo
+tiffcrop -e divided -m 0.5,0.25,0.75,0.25 -X 1 -V 300 -J 0.25 -P 300.0x300.0 -S 2:2 -f msb2lsb -i -k 512 -l 100 -L -p contig -r 4 -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -U px -Y 2 -Z 1:4,3:3 -K 0.25 -S 2:2 -C -i -k 512 -l 100 -L -M -s  @@ /tmp/foo
+tiffcrop -N odd -E bottom -e divided -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -H 300 -V 300 -B -c lzw -f msb2lsb -k 512 -p contig -r 4 -w 100  @@ /tmp/foo
+tiffcrop -X 1 -Z 1:4,3:3 -R 270 -I white -H 300 -J 0.25 -K 0.25 -O portrait -P 300.0x300.0 -S 2:2 -B -c g4 -k 512 -l 100 -p separate -t  @@ /tmp/foo
+tiffcrop -e separate -U cm -I data -V 300 -J 0.25 -P 300.0x300.0 -S 2:2 -B -C -f msb2lsb -i -l 100 -M -s -w 100  @@ /tmp/foo
+tiffcrop -e combined -U px -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -F horiz -R 180 -I data -J 0.25 -K 0.25 -O auto -P 300.0x300.0 -S 2:2 -C -i -k 512 -l 100 -L -M -s  @@ /tmp/foo
+tiffcrop -N odd -E bottom -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 90 -H 300 -V 300 -K 0.25 -C -c lzw -i -l 100 -M -p separate -s -w 100  @@ /tmp/foo
+tiffcrop -N even -E right -I data -H 300 -c none -l 100 -L -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -e divided -U cm -X 1 -Z 1:4,3:3 -R 90 -I both -H 300 -J 0.25 -C -k 512 -l 100 -t -w 100  @@ /tmp/foo
+tiffcrop -e image -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -O landscape -P 300.0x300.0 -C -c g4 -f lsb2msb -i -k 512 -L -M -s -w 100  @@ /tmp/foo
+tiffcrop -E left -U px -m 0.5,0.25,0.75,0.25 -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -I black -J 0.25 -S 2:2 -B -i -M -r 4 -t  @@ /tmp/foo
+tiffcrop -z 1,1,2048,2048:1,2049,2048,4097 -F vert -R 90 -H 300 -K 0.25 -c none -l 100 -L -w 100  @@ /tmp/foo
+tiffcrop -E left -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -I white -K 0.25 -S 2:2 -f lsb2msb -l 100 -L -r 4  @@ /tmp/foo
+tiffcrop -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 90 -H 300 -J 0.25 -K 0.25 -S 2:2 -C -c lzw -k 512 -L -s -w 100  @@ /tmp/foo
+tiffcrop -e divided -U cm -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -V 300 -B -f msb2lsb -i -k 512 -p separate -w 100  @@ /tmp/foo
+tiffcrop -E top -e divided -X 1 -Z 1:4,3:3 -F horiz -I white -H 300 -V 300 -J 0.25 -K 0.25 -O landscape -P 300.0x300.0 -C -c g3 -f lsb2msb -k 512 -l 100 -L -M -t  @@ /tmp/foo
+tiffcrop -e separate -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 90 -I black -V 300 -J 0.25 -S 2:2 -c lzw -f lsb2msb -k 512 -l 100 -L -M -p contig -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -U px -X 1 -R 90 -I data -J 0.25 -O portrait -P 300.0x300.0 -S 2:2 -B -C -c zip -M -s -w 100  @@ /tmp/foo
+tiffcrop -N odd -E bottom -m 0.5,0.25,0.75,0.25 -X 1 -H 300 -J 0.25 -P 300.0x300.0 -S 2:2 -B -c g3 -f lsb2msb -l 100 -r 4 -s  @@ /tmp/foo
+tiffcrop -U px -m 0.5,0.25,0.75,0.25 -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -R 180 -I white -H 300 -V 300 -J 0.25 -K 0.25 -O landscape -P 300.0x300.0 -l 100 -L -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E right -U in -m 0.5,0.25,0.75,0.25 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -V 300 -J 0.25 -K 0.25 -P 300.0x300.0 -B -C -c lzw -i -k 512 -l 100 -r 4 -t  @@ /tmp/foo
+tiffcrop -U px -m 0.5,0.25,0.75,0.25 -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 90 -I white -H 300 -J 0.25 -K 0.25 -c packbits -f msb2lsb -k 512 -l 100 -L -M -p separate -r 4 -s  @@ /tmp/foo
+tiffcrop -U cm -m 0.5,0.25,0.75,0.25 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 270 -I both -H 300 -J 0.25 -K 0.25 -O landscape -P 300.0x300.0 -S 2:2 -B -C -c g4 -f msb2lsb -l 100 -t -w 100  @@ /tmp/foo
+tiffcrop -U cm -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -F vert -V 300 -K 0.25 -O landscape -P 300.0x300.0 -B -i -M -r 4 -t  @@ /tmp/foo
+tiffcrop -N even -e image -U in -Y 2 -Z 1:4,3:3 -F vert -V 300 -J 0.25 -K 0.25 -S 2:2 -B -C -c jpeg -k 512 -l 100 -M -r 4 -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E bottom -e combined -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -H 300 -P 300.0x300.0 -C -i -l 100 -L -M -p separate -r 4 -t  @@ /tmp/foo
+tiffcrop -U px -F horiz -R 180 -H 300 -O portrait -P 300.0x300.0 -S 2:2 -l 100 -L -M -p contig -t -w 100  @@ /tmp/foo
+tiffcrop -e multiple -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -R 270 -H 300 -V 300 -J 0.25 -K 0.25 -S 2:2 -B -C -f lsb2msb -i -k 512 -l 100 -p separate -t -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E right -U cm -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -J 0.25 -K 0.25 -P 300.0x300.0 -B -C -f msb2lsb -i -p separate -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -E top -U px -F vert -R 90 -K 0.25 -O auto -P 300.0x300.0 -S 2:2 -B -f msb2lsb -k 512 -l 100 -M -r 4 -t  @@ /tmp/foo
+tiffcrop -N even -E right -U in -Y 2 -Z 1:4,3:3 -F vert -R 270 -V 300 -J 0.25 -B -f lsb2msb -i -k 512 -t  @@ /tmp/foo
+tiffcrop -e image -U in -m 0.5,0.25,0.75,0.25 -z 1,1,2048,2048:1,2049,2048,4097 -I white -H 300 -J 0.25 -K 0.25 -S 2:2 -C -c lzw -i -l 100 -L -p separate -r 4 -s  @@ /tmp/foo
+tiffcrop -U in -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -R 270 -J 0.25 -K 0.25 -S 2:2 -f lsb2msb -k 512 -l 100 -M -p contig -r 4 -t  @@ /tmp/foo
+tiffcrop -e divided -U in -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -I data -H 300 -K 0.25 -C -L -M -p separate -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -E bottom -e divided -U in -X 1 -H 300 -V 300 -J 0.25 -S 2:2 -c none -f lsb2msb -l 100 -L -M -p separate -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -m 0.5,0.25,0.75,0.25 -z 1,1,2048,2048:1,2049,2048,4097 -R 270 -I white -V 300 -O landscape -P 300.0x300.0 -B -c zip -i -k 512  @@ /tmp/foo
+tiffcrop -E right -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 90 -H 300 -J 0.25 -P 300.0x300.0 -B -i -l 100 -M -p contig -s -w 100  @@ /tmp/foo
+tiffcrop -E left -m 0.5,0.25,0.75,0.25 -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -R 90 -I black -H 300 -V 300 -S 2:2 -C -c jpeg -l 100 -r 4 -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E left -m 0.5,0.25,0.75,0.25 -Z 1:4,3:3 -I both -H 300 -V 300 -J 0.25 -K 0.25 -S 2:2 -C -f lsb2msb -i -p separate -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -E right -X 1 -I white -H 300 -J 0.25 -K 0.25 -B -C -k 512 -l 100 -r 4 -s  @@ /tmp/foo
+tiffcrop -E bottom -e separate -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -H 300 -J 0.25 -S 2:2 -k 512 -l 100 -L -p separate -t -w 100  @@ /tmp/foo
+tiffcrop -e multiple -z 1,1,2048,2048:1,2049,2048,4097 -F vert -H 300 -O landscape -P 300.0x300.0 -i -L -r 4 -s  @@ /tmp/foo
+tiffcrop -N odd -E right -U cm -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -I white -H 300 -V 300 -O auto -P 300.0x300.0 -c g4 -f msb2lsb -L -s -w 100  @@ /tmp/foo
+tiffcrop -E top -m 0.5,0.25,0.75,0.25 -X 1 -F horiz -R 180 -I black -H 300 -O portrait -P 300.0x300.0 -S 2:2 -c jpeg -f msb2lsb -i -L -M -p separate -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -e image -U px -m 0.5,0.25,0.75,0.25 -Y 2 -F horiz -H 300 -V 300 -J 0.25 -K 0.25 -S 2:2 -l 100 -L -M -r 4 -t  @@ /tmp/foo
+tiffcrop -Y 2 -R 90 -V 300 -J 0.25 -K 0.25 -S 2:2 -C -c jpeg -i -L -M -p separate -t -w 100  @@ /tmp/foo
+tiffcrop -E top -U px -m 0.5,0.25,0.75,0.25 -Y 2 -I both -H 300 -J 0.25 -K 0.25 -P 300.0x300.0 -C -c g3 -f msb2lsb -k 512 -M -p contig -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -X 1 -R 270 -I black -V 300 -c packbits -f lsb2msb -k 512 -l 100 -L -p contig -t -w 100  @@ /tmp/foo
+tiffcrop -N odd -e divided -U cm -m 0.5,0.25,0.75,0.25 -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 270 -I data -O portrait -P 300.0x300.0 -B -k 512 -p separate -r 4 -s  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -U in -m 0.5,0.25,0.75,0.25 -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -I black -V 300 -J 0.25 -K 0.25 -S 2:2 -B -c lzw -f lsb2msb -i -k 512 -p contig -r 4 -t  @@ /tmp/foo
+tiffcrop -E right -X 1 -V 300 -K 0.25 -O landscape -P 300.0x300.0 -S 2:2 -B -C -c jpeg -f lsb2msb -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -N odd -e multiple -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -J 0.25 -K 0.25 -O landscape -P 300.0x300.0 -S 2:2 -C -k 512 -l 100 -L -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -e multiple -X 1 -R 180 -I data -H 300 -V 300 -J 0.25 -K 0.25 -S 2:2 -C -c zip -f msb2lsb -i -k 512 -l 100 -L -p separate -t  @@ /tmp/foo
+tiffcrop -E left -e multiple -m 0.5,0.25,0.75,0.25 -Z 1:4,3:3 -R 180 -I white -O auto -P 300.0x300.0 -S 2:2 -C -f msb2lsb -i -k 512 -L -r 4 -s  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E top -e multiple -X 1 -Z 1:4,3:3 -V 300 -J 0.25 -B -c zip -k 512 -l 100 -M -s  @@ /tmp/foo
+tiffcrop -N even -U in -m 0.5,0.25,0.75,0.25 -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -R 180 -H 300 -K 0.25 -P 300.0x300.0 -S 2:2 -B -C -c packbits -f lsb2msb -i -k 512 -p separate -r 4 -s  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E bottom -e divided -U cm -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 90 -I both -H 300 -V 300 -O portrait -P 300.0x300.0 -B -C -c none -k 512 -l 100 -p separate -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -N even -e divided -U cm -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -H 300 -V 300 -J 0.25 -K 0.25 -P 300.0x300.0 -S 2:2 -C -f msb2lsb -L -M -p separate -t -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -e divided -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -R 270 -I white -V 300 -K 0.25 -O auto -P 300.0x300.0 -B -C -f lsb2msb -k 512 -M -t -w 100  @@ /tmp/foo
+tiffcrop -E left -U in -Y 2 -Z 1:4,3:3 -F horiz -H 300 -V 300 -J 0.25 -S 2:2 -B -C -c zip -i -l 100 -M -r 4 -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E left -e combined -U in -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -R 270 -J 0.25 -O auto -P 300.0x300.0 -S 2:2 -B -C -f msb2lsb -k 512 -l 100 -M -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -e combined -U in -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 90 -J 0.25 -K 0.25 -S 2:2 -B -f msb2lsb -p separate -s -w 100  @@ /tmp/foo
+tiffcrop -N even -E left -X 1 -F horiz -R 180 -I black -J 0.25 -K 0.25 -B -C -c jpeg -M -p contig -r 4 -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -U in -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 90 -I white -H 300 -J 0.25 -C -i -k 512 -M -p contig -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -e combined -U cm -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -F vert -R 270 -I black -H 300 -V 300 -J 0.25 -K 0.25 -O landscape -P 300.0x300.0 -c jpeg -f msb2lsb -i -k 512 -l 100 -L -t  @@ /tmp/foo
+tiffcrop -e separate -U px -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -I white -J 0.25 -K 0.25 -O landscape -P 300.0x300.0 -S 2:2 -c zip -f lsb2msb -i -L -s  @@ /tmp/foo
+tiffcrop -X 1 -Z 1:4,3:3 -F horiz -I data -V 300 -K 0.25 -O auto -P 300.0x300.0 -B -C -c g4 -f msb2lsb -i -l 100 -M -p contig -w 100  @@ /tmp/foo
+tiffcrop -N even -U px -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -I black -J 0.25 -O landscape -P 300.0x300.0 -B -C -c jpeg -f msb2lsb -p separate -t  @@ /tmp/foo
+tiffcrop -E left -e divided -m 0.5,0.25,0.75,0.25 -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -R 90 -I both -H 300 -K 0.25 -S 2:2 -c jpeg -l 100 -L -M -t  @@ /tmp/foo
+tiffcrop -e separate -m 0.5,0.25,0.75,0.25 -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -I white -J 0.25 -K 0.25 -c none -f lsb2msb -L -M -t  @@ /tmp/foo
+tiffcrop -e separate -Y 2 -F horiz -R 270 -S 2:2 -c g3 -f lsb2msb -i -k 512 -M -p contig -r 4 -s  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -U cm -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -V 300 -J 0.25 -K 0.25 -O landscape -P 300.0x300.0 -S 2:2 -B -i -l 100 -p separate -s  @@ /tmp/foo
+tiffcrop -N even -m 0.5,0.25,0.75,0.25 -Y 2 -F horiz -I black -V 300 -K 0.25 -O landscape -P 300.0x300.0 -S 2:2 -B -f lsb2msb -k 512 -M -p contig -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -m 0.5,0.25,0.75,0.25 -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -H 300 -V 300 -C -l 100 -L -M -p separate -r 4 -s  @@ /tmp/foo
+tiffcrop -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -I white -V 300 -O landscape -P 300.0x300.0 -S 2:2 -C -i -k 512 -L -M -t  @@ /tmp/foo
+tiffcrop -E bottom -U cm -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -H 300 -J 0.25 -O portrait -P 300.0x300.0 -S 2:2 -c g3 -i -k 512 -l 100 -L -M -p separate -s  @@ /tmp/foo
+tiffcrop -N odd -U in -Y 2 -R 270 -H 300 -B -f msb2lsb -k 512 -M -p contig -r 4  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -m 0.5,0.25,0.75,0.25 -z 1,1,2048,2048:1,2049,2048,4097 -I both -K 0.25 -O portrait -P 300.0x300.0 -c g4 -f lsb2msb -l 100 -L -M -p contig -r 4 -t  @@ /tmp/foo
+tiffcrop -N even -E bottom -e divided -U cm -Y 2 -R 270 -I white -V 300 -J 0.25 -O landscape -P 300.0x300.0 -S 2:2 -C -f msb2lsb -k 512 -l 100 -L -M -t  @@ /tmp/foo
+tiffcrop -U px -Y 2 -Z 1:4,3:3 -R 270 -J 0.25 -K 0.25 -O portrait -P 300.0x300.0 -S 2:2 -B -c g4 -l 100 -M -w 100  @@ /tmp/foo
+tiffcrop -e divided -U in -m 0.5,0.25,0.75,0.25 -X 1 -I white -V 300 -J 0.25 -K 0.25 -O auto -P 300.0x300.0 -S 2:2 -B -k 512 -p contig -r 4  @@ /tmp/foo
+tiffcrop -E left -e image -m 0.5,0.25,0.75,0.25 -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -R 180 -K 0.25 -S 2:2 -C -f msb2lsb -k 512 -L -p contig -r 4  @@ /tmp/foo
+tiffcrop -N odd -E right -e separate -m 0.5,0.25,0.75,0.25 -X 1 -F vert -I both -H 300 -S 2:2 -B -C -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -N even -e divided -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -F horiz -J 0.25 -O portrait -P 300.0x300.0 -S 2:2 -c lzw -f msb2lsb -k 512 -L -M -p separate -s  @@ /tmp/foo
+tiffcrop -E right -e separate -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -J 0.25 -K 0.25 -O landscape -P 300.0x300.0 -B -C -i -k 512 -l 100 -M -r 4  @@ /tmp/foo
+tiffcrop -e separate -m 0.5,0.25,0.75,0.25 -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -I black -H 300 -O portrait -P 300.0x300.0 -k 512 -l 100 -p separate -s -w 100  @@ /tmp/foo
+tiffcrop -e divided -m 0.5,0.25,0.75,0.25 -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 180 -V 300 -O portrait -P 300.0x300.0 -f lsb2msb -L -p separate -t  @@ /tmp/foo
+tiffcrop -U px -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 180 -V 300 -J 0.25 -K 0.25 -S 2:2 -B -k 512 -p contig -r 4 -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -U cm -m 0.5,0.25,0.75,0.25 -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -K 0.25 -S 2:2 -B -C -c none -i -l 100 -p separate -r 4  @@ /tmp/foo
+tiffcrop -E left -e separate -U in -m 0.5,0.25,0.75,0.25 -Y 2 -I data -K 0.25 -S 2:2 -B -f msb2lsb -M -r 4 -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E left -U px -m 0.5,0.25,0.75,0.25 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -H 300 -J 0.25 -K 0.25 -S 2:2 -C -c none -i -k 512 -l 100 -M -t -w 100  @@ /tmp/foo
+tiffcrop -N odd -E left -U in -Y 2 -Z 1:4,3:3 -F horiz -I data -H 300 -V 300 -J 0.25 -O portrait -P 300.0x300.0 -i -k 512 -l 100 -L -M -r 4  @@ /tmp/foo
+tiffcrop -E left -e combined -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 90 -H 300 -V 300 -J 0.25 -P 300.0x300.0 -S 2:2 -C -c g4 -l 100 -L -M -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -U px -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 90 -K 0.25 -c g3 -f lsb2msb -i -k 512 -M  @@ /tmp/foo
+tiffcrop -N odd -E bottom -U cm -m 0.5,0.25,0.75,0.25 -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -H 300 -V 300 -J 0.25 -K 0.25 -P 300.0x300.0 -c zip -k 512 -l 100 -L -M -t  @@ /tmp/foo
+tiffcrop -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -H 300 -J 0.25 -K 0.25 -B -C -c none -i -M -p separate -r 4 -w 100  @@ /tmp/foo
+tiffcrop -E right -e combined -U cm -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -I black -P 300.0x300.0 -c zip -f msb2lsb -l 100 -L -M -p separate -r 4  @@ /tmp/foo
+tiffcrop -N odd -e image -U in -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 180 -I data -H 300 -J 0.25 -K 0.25 -S 2:2 -i -k 512 -L -M -p contig -r 4 -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -e image -U px -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 270 -H 300 -V 300 -K 0.25 -O landscape -P 300.0x300.0 -C -c lzw -f msb2lsb -k 512 -L -M -p separate -r 4 -t  @@ /tmp/foo
+tiffcrop -N even -E right -F horiz -H 300 -V 300 -O portrait -P 300.0x300.0 -C -f msb2lsb -i -k 512 -l 100 -L -M -s  @@ /tmp/foo
+tiffcrop -N odd -U cm -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -H 300 -V 300 -J 0.25 -K 0.25 -O landscape -P 300.0x300.0 -c g4 -f lsb2msb -l 100 -p contig -r 4 -w 100  @@ /tmp/foo
+tiffcrop -E left -e combined -U cm -X 1 -F horiz -H 300 -V 300 -J 0.25 -O landscape -P 300.0x300.0 -S 2:2 -C -c zip -i -L -M -w 100  @@ /tmp/foo
+tiffcrop -N odd -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -I white -H 300 -V 300 -J 0.25 -O landscape -P 300.0x300.0 -B -C -f lsb2msb -k 512 -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -e combined -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -I data -H 300 -V 300 -K 0.25 -B -f lsb2msb -k 512 -l 100 -t  @@ /tmp/foo
+tiffcrop -N odd -e combined -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -I white -H 300 -V 300 -J 0.25 -K 0.25 -O portrait -P 300.0x300.0 -C -i -M -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -e combined -U px -Y 2 -H 300 -V 300 -J 0.25 -K 0.25 -O portrait -P 300.0x300.0 -B -C -i -k 512 -l 100 -M -p contig -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E left -e combined -m 0.5,0.25,0.75,0.25 -z 1,1,2048,2048:1,2049,2048,4097 -V 300 -J 0.25 -K 0.25 -O auto -P 300.0x300.0 -S 2:2 -B -c jpeg -l 100 -M -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -E bottom -U cm -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -S 2:2 -B -C -i -s  @@ /tmp/foo
+tiffcrop -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -V 300 -J 0.25 -O auto -P 300.0x300.0 -C -c lzw -f msb2lsb -M -p separate -s  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E bottom -e combined -U cm -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -I black -H 300 -J 0.25 -O auto -P 300.0x300.0 -S 2:2 -C -f msb2lsb -l 100 -L -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -e combined -U px -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -I white -K 0.25 -c packbits -M -s -w 100  @@ /tmp/foo
+tiffcrop -E bottom -m 0.5,0.25,0.75,0.25 -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -R 180 -I white -H 300 -V 300 -K 0.25 -B -C -c jpeg -f lsb2msb -i -M -p contig -r 4  @@ /tmp/foo
+tiffcrop -e separate -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -R 270 -I data -V 300 -S 2:2 -l 100 -L -M -p contig -s  @@ /tmp/foo
+tiffcrop -N even -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -R 270 -H 300 -K 0.25 -P 300.0x300.0 -c zip -f lsb2msb -k 512 -L -M -p contig -r 4 -t  @@ /tmp/foo
+tiffcrop -m 0.5,0.25,0.75,0.25 -F horiz -I white -H 300 -V 300 -J 0.25 -K 0.25 -P 300.0x300.0 -S 2:2 -c packbits -i -L -M -p contig -t -w 100  @@ /tmp/foo
+tiffcrop -E top -U in -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -R 270 -V 300 -J 0.25 -O auto -P 300.0x300.0 -f msb2lsb -l 100 -L -p separate -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -e image -m 0.5,0.25,0.75,0.25 -X 1 -F horiz -V 300 -J 0.25 -K 0.25 -O landscape -P 300.0x300.0 -C -i -L -M -p contig -r 4 -w 100  @@ /tmp/foo
+tiffcrop -U px -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -H 300 -V 300 -O auto -P 300.0x300.0 -B -c g4 -f lsb2msb -M -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E left -e divided -U in -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 180 -I white -H 300 -K 0.25 -L -M -t -w 100  @@ /tmp/foo
+tiffcrop -N even -Y 2 -F vert -V 300 -J 0.25 -K 0.25 -S 2:2 -B -f lsb2msb -k 512 -l 100 -w 100  @@ /tmp/foo
+tiffcrop -E right -e combined -U in -m 0.5,0.25,0.75,0.25 -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -I both -V 300 -K 0.25 -S 2:2 -C -f msb2lsb -L -p contig -s -w 100  @@ /tmp/foo
+tiffcrop -N odd -E top -e divided -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -H 300 -V 300 -C -c lzw -f msb2lsb -i -l 100 -L -M -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -e image -U cm -X 1 -Z 1:4,3:3 -F horiz -V 300 -O portrait -P 300.0x300.0 -S 2:2 -C -c lzw -f msb2lsb -i -k 512 -l 100 -L -r 4 -s  @@ /tmp/foo
+tiffcrop -N odd -E bottom -U cm -m 0.5,0.25,0.75,0.25 -X 1 -F horiz -R 270 -H 300 -V 300 -K 0.25 -O landscape -P 300.0x300.0 -B -C -i -k 512 -p contig -s -w 100  @@ /tmp/foo
+tiffcrop -e multiple -Y 2 -Z 1:4,3:3 -I data -H 300 -K 0.25 -O auto -P 300.0x300.0 -S 2:2 -C -c lzw -i -l 100 -L -p separate -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -U in -Y 2 -F vert -R 180 -I white -H 300 -V 300 -S 2:2 -C -i -k 512 -l 100 -L -M -p contig -r 4 -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E bottom -X 1 -F horiz -R 90 -V 300 -J 0.25 -P 300.0x300.0 -B -C -M -s -w 100  @@ /tmp/foo
+tiffcrop -N odd -E bottom -e image -X 1 -F vert -R 90 -I black -H 300 -J 0.25 -S 2:2 -B -C -i -l 100 -M -r 4 -s  @@ /tmp/foo
+tiffcrop -N even -E left -e combined -U cm -F horiz -I both -H 300 -V 300 -P 300.0x300.0 -S 2:2 -B -C -i -k 512 -l 100 -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E top -e divided -U px -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -I black -H 300 -J 0.25 -K 0.25 -O auto -P 300.0x300.0 -B -f lsb2msb -i -k 512 -l 100 -M -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -N even -e separate -m 0.5,0.25,0.75,0.25 -Z 1:4,3:3 -H 300 -V 300 -K 0.25 -O auto -P 300.0x300.0 -S 2:2 -B -k 512 -l 100 -p contig -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -N even -e combined -U in -m 0.5,0.25,0.75,0.25 -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -P 300.0x300.0 -c lzw -i -l 100 -M -r 4 -s  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E right -e divided -m 0.5,0.25,0.75,0.25 -Y 2 -R 180 -K 0.25 -O portrait -P 300.0x300.0 -B -C -p separate -s  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -e separate -U cm -m 0.5,0.25,0.75,0.25 -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -R 180 -I data -H 300 -V 300 -J 0.25 -f msb2lsb -i -l 100 -M -r 4 -s  @@ /tmp/foo
+tiffcrop -N even -E top -e image -U px -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -F horiz -J 0.25 -K 0.25 -P 300.0x300.0 -B -f lsb2msb -i -l 100  @@ /tmp/foo
+tiffcrop -N even -E bottom -e image -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -V 300 -K 0.25 -P 300.0x300.0 -k 512 -l 100 -L -M -p contig -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -U in -m 0.5,0.25,0.75,0.25 -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -H 300 -J 0.25 -K 0.25 -M -r 4 -t  @@ /tmp/foo
+tiffcrop -E left -e multiple -U cm -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -V 300 -J 0.25 -K 0.25 -O portrait -P 300.0x300.0 -S 2:2 -B -C -c g3 -f lsb2msb -i -M -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -m 0.5,0.25,0.75,0.25 -Y 2 -R 270 -I black -H 300 -J 0.25 -K 0.25 -S 2:2 -B -C -f msb2lsb -i -k 512 -l 100 -M -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -E right -U px -m 0.5,0.25,0.75,0.25 -Y 2 -F vert -I data -H 300 -V 300 -K 0.25 -i -l 100 -p separate -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E top -e image -I both -H 300 -J 0.25 -C -f msb2lsb -i -k 512 -L -M -t -w 100  @@ /tmp/foo
+tiffcrop -E top -e divided -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -R 180 -J 0.25 -O auto -P 300.0x300.0 -S 2:2 -f lsb2msb -i -l 100 -L -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E bottom -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 270 -I data -H 300 -C -f msb2lsb -i -l 100 -L -M -p separate -s -w 100  @@ /tmp/foo
+tiffcrop -e image -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 90 -J 0.25 -K 0.25 -S 2:2 -B -c g4 -f msb2lsb -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -N even -e image -U cm -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -I black -H 300 -V 300 -K 0.25 -O portrait -P 300.0x300.0 -S 2:2 -B -c packbits -p separate -t  @@ /tmp/foo
+tiffcrop -E bottom -e image -U cm -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -I black -J 0.25 -K 0.25 -S 2:2 -c g4 -f msb2lsb -i -k 512 -M -r 4 -s  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -e separate -X 1 -Z 1:4,3:3 -H 300 -O auto -P 300.0x300.0 -S 2:2 -B -f msb2lsb -i -k 512 -p separate -r 4 -t  @@ /tmp/foo
+tiffcrop -N even -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 270 -I black -H 300 -V 300 -J 0.25 -K 0.25 -B -C -f lsb2msb -l 100 -p separate -r 4 -s  @@ /tmp/foo
+tiffcrop -E bottom -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -F vert -I data -H 300 -V 300 -K 0.25 -B -c jpeg -i -M -p contig -r 4 -t  @@ /tmp/foo
+tiffcrop -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -F vert -R 90 -V 300 -S 2:2 -B -c g3 -f lsb2msb -i -M -p separate -s -w 100  @@ /tmp/foo
+tiffcrop -e image -m 0.5,0.25,0.75,0.25 -Z 1:4,3:3 -R 180 -I both -H 300 -V 300 -K 0.25 -O portrait -P 300.0x300.0 -C -c g4 -l 100 -L -M -p separate -t -w 100  @@ /tmp/foo
+tiffcrop -e multiple -m 0.5,0.25,0.75,0.25 -X 1 -F vert -R 90 -J 0.25 -K 0.25 -S 2:2 -B -c zip -i -k 512 -M -t -w 100  @@ /tmp/foo
+tiffcrop -N odd -E right -e divided -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 270 -I black -K 0.25 -S 2:2 -B -i -k 512 -l 100 -s  @@ /tmp/foo
+tiffcrop -E left -U in -X 1 -Z 1:4,3:3 -F horiz -R 270 -J 0.25 -K 0.25 -S 2:2 -C -c jpeg -i -L -M -s  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E bottom -e multiple -m 0.5,0.25,0.75,0.25 -X 1 -R 90 -V 300 -J 0.25 -K 0.25 -c g3 -i -k 512 -L -M -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -e combined -U px -m 0.5,0.25,0.75,0.25 -X 1 -R 90 -I black -P 300.0x300.0 -C -i -L -M -r 4 -t  @@ /tmp/foo
+tiffcrop -E top -U in -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -J 0.25 -O portrait -P 300.0x300.0 -S 2:2 -C -f lsb2msb -i -k 512 -p contig -s  @@ /tmp/foo
+tiffcrop -E left -e image -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -V 300 -K 0.25 -S 2:2 -B -c packbits -f msb2lsb -i -k 512 -l 100 -p separate -t -w 100  @@ /tmp/foo
+tiffcrop -m 0.5,0.25,0.75,0.25 -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -I white -H 300 -V 300 -K 0.25 -O landscape -P 300.0x300.0 -C -c lzw -i -L -M -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -N odd -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 270 -O auto -P 300.0x300.0 -B -C -c lzw -f msb2lsb -i -k 512 -l 100 -M -r 4 -t  @@ /tmp/foo
+tiffcrop -N odd -E top -e combined -U in -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -I black -H 300 -V 300 -C -f msb2lsb -i -k 512 -l 100 -L -M -p separate -r 4 -s  @@ /tmp/foo
+tiffcrop -N odd -E right -e multiple -Y 2 -F vert -R 90 -I both -O landscape -P 300.0x300.0 -B -c none -M -w 100  @@ /tmp/foo
+tiffcrop -E right -e divided -U px -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 90 -I both -H 300 -O auto -P 300.0x300.0 -B -f lsb2msb -l 100 -p contig -s -w 100  @@ /tmp/foo
+tiffcrop -Y 2 -R 90 -I data -H 300 -J 0.25 -O portrait -P 300.0x300.0 -C -f lsb2msb -i -L -p separate -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E right -e multiple -m 0.5,0.25,0.75,0.25 -R 270 -H 300 -K 0.25 -P 300.0x300.0 -B -i -M  @@ /tmp/foo
+tiffcrop -N odd -e multiple -U px -R 180 -I both -H 300 -J 0.25 -K 0.25 -O portrait -P 300.0x300.0 -S 2:2 -C -i -l 100 -M -p contig  @@ /tmp/foo
+tiffcrop -E left -m 0.5,0.25,0.75,0.25 -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -I black -H 300 -V 300 -J 0.25 -S 2:2 -f lsb2msb -i -l 100 -t -w 100  @@ /tmp/foo
+tiffcrop -E top -e image -X 1 -F vert -R 90 -V 300 -J 0.25 -O landscape -P 300.0x300.0 -C -f msb2lsb -i -k 512 -L -M -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -N even -e separate -Y 2 -F vert -V 300 -K 0.25 -S 2:2 -f msb2lsb -i -L -p contig -r 4 -s  @@ /tmp/foo
+tiffcrop -U cm -F horiz -R 180 -I both -H 300 -J 0.25 -P 300.0x300.0 -B -i -k 512 -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -N even -E right -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -J 0.25 -K 0.25 -O auto -P 300.0x300.0 -c packbits -f lsb2msb -i -l 100 -L -M -s -w 100  @@ /tmp/foo
+tiffcrop -e multiple -U px -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -R 270 -J 0.25 -K 0.25 -P 300.0x300.0 -S 2:2 -C -c jpeg -i -k 512 -l 100 -L -M -p contig  @@ /tmp/foo
+tiffcrop -e multiple -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 90 -I white -H 300 -P 300.0x300.0 -S 2:2 -B -C -f lsb2msb -i -k 512 -s -w 100  @@ /tmp/foo
+tiffcrop -E right -e image -m 0.5,0.25,0.75,0.25 -X 1 -F vert -K 0.25 -C -f msb2lsb -i -l 100 -L -M -p separate -t -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -U cm -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -V 300 -K 0.25 -c zip -L -p contig -r 4 -s  @@ /tmp/foo
+tiffcrop -E left -e multiple -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -F vert -I white -J 0.25 -K 0.25 -O landscape -P 300.0x300.0 -S 2:2 -c jpeg -k 512 -L -p contig -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E bottom -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -F horiz -R 90 -I both -K 0.25 -B -c packbits -f lsb2msb -l 100 -r 4 -s  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -U cm -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -F vert -R 90 -H 300 -V 300 -J 0.25 -K 0.25 -O portrait -P 300.0x300.0 -S 2:2 -C -L -M -r 4  @@ /tmp/foo
+tiffcrop -U px -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 270 -I black -H 300 -V 300 -S 2:2 -B -f msb2lsb -i -l 100 -p separate -r 4 -s  @@ /tmp/foo
+tiffcrop -N odd -E top -e multiple -U in -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 270 -I white -J 0.25 -S 2:2 -C -k 512 -M -p separate -t -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -e combined -U cm -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -H 300 -V 300 -J 0.25 -K 0.25 -O landscape -P 300.0x300.0 -S 2:2 -C -f lsb2msb -i -k 512 -l 100 -L -p contig -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -U px -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -J 0.25 -O auto -P 300.0x300.0 -B -C -c g3 -i -k 512 -M -p contig -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -E left -U in -X 1 -F vert -R 90 -I both -H 300 -V 300 -J 0.25 -O portrait -P 300.0x300.0 -S 2:2 -C -f lsb2msb -k 512 -l 100 -L -p separate -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E right -U cm -Y 2 -I white -H 300 -V 300 -K 0.25 -O portrait -P 300.0x300.0 -B -C -c jpeg -l 100 -p separate -r 4  @@ /tmp/foo
+tiffcrop -N even -U cm -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 180 -I data -H 300 -J 0.25 -P 300.0x300.0 -C -L  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E left -U cm -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -I white -V 300 -J 0.25 -B -C -c none -f msb2lsb -i -k 512 -l 100 -M -p contig -r 4 -s  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -e divided -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -I black -V 300 -B -C -f lsb2msb -i -p separate -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -E bottom -e divided -X 1 -Z 1:4,3:3 -H 300 -V 300 -K 0.25 -P 300.0x300.0 -C -k 512 -L -t -w 100  @@ /tmp/foo
+tiffcrop -E top -e image -Z 1:4,3:3 -R 90 -H 300 -J 0.25 -K 0.25 -C -k 512 -L -M -p separate -s -w 100  @@ /tmp/foo
+tiffcrop -E bottom -e separate -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -R 180 -I both -H 300 -K 0.25 -O portrait -P 300.0x300.0 -S 2:2 -B -i -l 100 -p separate -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -U cm -m 0.5,0.25,0.75,0.25 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 270 -H 300 -V 300 -K 0.25 -S 2:2 -C -c zip -p separate -r 4 -t  @@ /tmp/foo
+tiffcrop -N even -e separate -Y 2 -F vert -I both -V 300 -J 0.25 -C -L -M -p separate -s -w 100  @@ /tmp/foo
+tiffcrop -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -H 300 -V 300 -P 300.0x300.0 -B -c g3 -f msb2lsb -i -k 512 -l 100 -p contig -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E left -X 1 -Z 1:4,3:3 -R 180 -H 300 -J 0.25 -K 0.25 -O portrait -P 300.0x300.0 -S 2:2 -B -C -c none -f msb2lsb -k 512 -M -p contig -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -e multiple -U in -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -V 300 -K 0.25 -C -c zip -k 512 -L -p separate -r 4 -t  @@ /tmp/foo
+tiffcrop -N odd -E left -e multiple -m 0.5,0.25,0.75,0.25 -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -V 300 -J 0.25 -O landscape -P 300.0x300.0 -i -k 512 -l 100 -L -M -p contig -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -N odd -U in -X 1 -Z 1:4,3:3 -F vert -H 300 -K 0.25 -O landscape -P 300.0x300.0 -S 2:2 -f lsb2msb -k 512 -L -t -w 100  @@ /tmp/foo
+tiffcrop -E right -e multiple -Y 2 -F vert -J 0.25 -B -c packbits -k 512 -l 100 -r 4  @@ /tmp/foo
+tiffcrop -E left -U px -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 180 -H 300 -J 0.25 -K 0.25 -B -C -c g4 -k 512 -r 4 -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E left -e separate -U in -m 0.5,0.25,0.75,0.25 -Y 2 -V 300 -J 0.25 -K 0.25 -O portrait -P 300.0x300.0 -B -f msb2lsb -l 100 -M -p contig -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -e combined -m 0.5,0.25,0.75,0.25 -X 1 -R 90 -H 300 -B -c zip -i -l 100 -p contig -r 4 -t  @@ /tmp/foo
+tiffcrop -e image -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -I black -J 0.25 -O portrait -P 300.0x300.0 -f msb2lsb -l 100 -p contig -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -E top -Y 2 -Z 1:4,3:3 -H 300 -B -C -l 100 -M -s -w 100  @@ /tmp/foo
+tiffcrop -U px -m 0.5,0.25,0.75,0.25 -X 1 -I data -H 300 -V 300 -K 0.25 -O portrait -P 300.0x300.0 -C -c zip -k 512 -L -p separate -t -w 100  @@ /tmp/foo
+tiffcrop -E bottom -e divided -U cm -m 0.5,0.25,0.75,0.25 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 180 -I data -J 0.25 -O portrait -P 300.0x300.0 -S 2:2 -c g4 -L -t  @@ /tmp/foo
+tiffcrop -N even -E right -e separate -U px -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -J 0.25 -P 300.0x300.0 -S 2:2 -B -f msb2lsb -i -k 512 -l 100 -s -w 100  @@ /tmp/foo
+tiffcrop -U px -m 0.5,0.25,0.75,0.25 -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 180 -H 300 -O landscape -P 300.0x300.0 -S 2:2 -B -C -c g3 -l 100 -p separate -t -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -e divided -U in -X 1 -R 180 -H 300 -K 0.25 -O landscape -P 300.0x300.0 -S 2:2 -C -c g3 -L -p separate -r 4  @@ /tmp/foo
+tiffcrop -e combined -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 270 -I black -V 300 -J 0.25 -B -l 100 -M -t  @@ /tmp/foo
+tiffcrop -Z 1:4,3:3 -R 270 -I data -K 0.25 -O auto -P 300.0x300.0 -C -c g3 -i -k 512 -l 100 -p separate -s  @@ /tmp/foo
+tiffcrop -E bottom -U px -Y 2 -F vert -R 180 -H 300 -K 0.25 -O portrait -P 300.0x300.0 -S 2:2 -c jpeg -f msb2lsb -i -l 100 -L -s -w 100  @@ /tmp/foo
+tiffcrop -e combined -Y 2 -Z 1:4,3:3 -F vert -R 90 -I data -J 0.25 -K 0.25 -P 300.0x300.0 -S 2:2 -B -C -M -p contig -r 4  @@ /tmp/foo
+tiffcrop -e separate -m 0.5,0.25,0.75,0.25 -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -H 300 -V 300 -K 0.25 -O portrait -P 300.0x300.0 -B -f lsb2msb -k 512 -l 100 -p contig -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E top -e multiple -m 0.5,0.25,0.75,0.25 -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 90 -I both -H 300 -V 300 -J 0.25 -K 0.25 -C -c none -i -k 512 -L -p separate -t  @@ /tmp/foo
+tiffcrop -E bottom -e divided -m 0.5,0.25,0.75,0.25 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -I white -V 300 -K 0.25 -O portrait -P 300.0x300.0 -S 2:2 -B -C -c jpeg -f lsb2msb -l 100 -M -s  @@ /tmp/foo
+tiffcrop -U cm -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -R 90 -J 0.25 -P 300.0x300.0 -f lsb2msb -L -M -p separate -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E bottom -e combined -U cm -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -I white -K 0.25 -O auto -P 300.0x300.0 -i -k 512 -w 100  @@ /tmp/foo
+tiffcrop -N odd -E left -e combined -U cm -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -F vert -I both -V 300 -J 0.25 -O portrait -P 300.0x300.0 -B -C -c g3 -f msb2lsb -i -l 100 -w 100  @@ /tmp/foo
+tiffcrop -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -J 0.25 -K 0.25 -O portrait -P 300.0x300.0 -S 2:2 -l 100 -s  @@ /tmp/foo
+tiffcrop -e divided -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -K 0.25 -P 300.0x300.0 -B -C -c jpeg -i -k 512 -p contig  @@ /tmp/foo
+tiffcrop -N even -E bottom -e image -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -R 180 -V 300 -J 0.25 -K 0.25 -O portrait -P 300.0x300.0 -c jpeg -f msb2lsb -i -l 100 -L -M -r 4 -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -e multiple -U cm -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -F vert -R 270 -J 0.25 -K 0.25 -C -c lzw -k 512 -l 100 -L -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -E left -e multiple -U px -m 0.5,0.25,0.75,0.25 -Y 2 -F horiz -R 90 -I black -V 300 -O landscape -P 300.0x300.0 -S 2:2 -C -c zip -f lsb2msb -i -M -p separate -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -E top -e divided -Y 2 -Z 1:4,3:3 -R 180 -I both -K 0.25 -i -L -p contig -r 4 -s  @@ /tmp/foo
+tiffcrop -U in -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 270 -I both -H 300 -P 300.0x300.0 -S 2:2 -c none -f msb2lsb -i -k 512 -l 100 -L -M -t -w 100  @@ /tmp/foo
+tiffcrop -e image -U cm -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -I both -V 300 -J 0.25 -O portrait -P 300.0x300.0 -S 2:2 -B -C -c g3 -f lsb2msb -i -k 512 -l 100 -M -p separate -s  @@ /tmp/foo
+tiffcrop -N even -e divided -m 0.5,0.25,0.75,0.25 -X 1 -F vert -R 270 -H 300 -V 300 -J 0.25 -K 0.25 -O landscape -P 300.0x300.0 -C -c packbits -p contig  @@ /tmp/foo
+tiffcrop -e multiple -U px -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 270 -H 300 -V 300 -S 2:2 -C -c zip -i -l 100 -M -r 4 -t  @@ /tmp/foo
+tiffcrop -e multiple -z 1,1,2048,2048:1,2049,2048,4097 -F vert -R 90 -I both -V 300 -K 0.25 -O portrait -P 300.0x300.0 -C -c lzw -f msb2lsb -i -L -M -r 4 -t  @@ /tmp/foo
+tiffcrop -E left -U px -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -I black -V 300 -J 0.25 -C -f lsb2msb -k 512 -l 100 -L -r 4 -t  @@ /tmp/foo
+tiffcrop -N odd -E left -e image -U cm -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 180 -H 300 -V 300 -S 2:2 -C -l 100 -L -p separate -t -w 100  @@ /tmp/foo
+tiffcrop -Y 2 -F vert -R 90 -I black -V 300 -P 300.0x300.0 -S 2:2 -C -f lsb2msb -i -l 100 -L -M -p contig -r 4 -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E right -e image -Y 2 -I both -V 300 -O landscape -P 300.0x300.0 -S 2:2 -B -c g3 -i -k 512 -l 100 -p separate -s -w 100  @@ /tmp/foo
+tiffcrop -N even -e combined -U px -Z 1:4,3:3 -I black -H 300 -V 300 -J 0.25 -O portrait -P 300.0x300.0 -S 2:2 -c lzw -f lsb2msb -L -M -r 4 -w 100  @@ /tmp/foo
+tiffcrop -m 0.5,0.25,0.75,0.25 -X 1 -F vert -H 300 -V 300 -J 0.25 -K 0.25 -O auto -P 300.0x300.0 -S 2:2 -B -C -c packbits -i -k 512 -M -p contig -s  @@ /tmp/foo
+tiffcrop -E bottom -e separate -U in -m 0.5,0.25,0.75,0.25 -X 1 -R 270 -V 300 -O portrait -P 300.0x300.0 -S 2:2 -B -l 100 -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E top -e combined -U px -X 1 -Z 1:4,3:3 -F horiz -I both -H 300 -V 300 -K 0.25 -C -k 512 -l 100 -L -M -r 4 -w 100  @@ /tmp/foo
+tiffcrop -X 1 -R 180 -H 300 -V 300 -J 0.25 -O landscape -P 300.0x300.0 -f lsb2msb -L -M -r 4 -t  @@ /tmp/foo
+tiffcrop -e divided -U px -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 270 -I white -J 0.25 -P 300.0x300.0 -S 2:2 -C -c g3 -k 512 -t  @@ /tmp/foo
+tiffcrop -m 0.5,0.25,0.75,0.25 -Z 1:4,3:3 -F vert -R 90 -H 300 -J 0.25 -O portrait -P 300.0x300.0 -C -c zip -f msb2lsb -l 100 -L -r 4  @@ /tmp/foo
+tiffcrop -U px -X 1 -I data -O portrait -P 300.0x300.0 -S 2:2 -f msb2lsb -L -s -w 100  @@ /tmp/foo
+tiffcrop -e multiple -X 1 -F horiz -K 0.25 -P 300.0x300.0 -S 2:2 -C -c none -f lsb2msb -L -p separate -t  @@ /tmp/foo
+tiffcrop -N odd -U px -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -F vert -R 270 -J 0.25 -K 0.25 -S 2:2 -c g3 -f lsb2msb -i -M -r 4 -s  @@ /tmp/foo
+tiffcrop -X 1 -F vert -V 300 -C -c g3 -f msb2lsb -L -M -r 4 -s  @@ /tmp/foo
+tiffcrop -N even -Z 1:4,3:3 -R 180 -I black -K 0.25 -B -C -c g4 -i -t -w 100  @@ /tmp/foo
+tiffcrop -E right -e divided -m 0.5,0.25,0.75,0.25 -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -R 180 -H 300 -K 0.25 -O landscape -P 300.0x300.0 -C -c lzw -f msb2lsb -k 512 -l 100 -M -p separate -r 4 -s  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E bottom -e multiple -U px -m 0.5,0.25,0.75,0.25 -X 1 -F horiz -R 270 -I white -H 300 -V 300 -J 0.25 -K 0.25 -O auto -P 300.0x300.0 -S 2:2 -B -c g3 -f lsb2msb -i -l 100 -r 4  @@ /tmp/foo
+tiffcrop -E right -e image -U cm -m 0.5,0.25,0.75,0.25 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 180 -H 300 -K 0.25 -S 2:2 -f msb2lsb -l 100 -M -t -w 100  @@ /tmp/foo
+tiffcrop -N even -U px -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -I black -H 300 -S 2:2 -C -c g3 -f lsb2msb -M -s  @@ /tmp/foo
+tiffcrop -U in -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 270 -I black -H 300 -V 300 -K 0.25 -O landscape -P 300.0x300.0 -S 2:2 -C -c none -f lsb2msb -i -k 512 -L -p contig  @@ /tmp/foo
+tiffcrop -e combined -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -R 90 -H 300 -V 300 -O portrait -P 300.0x300.0 -S 2:2 -C -c none -i -l 100 -M -p contig -s -w 100  @@ /tmp/foo
+tiffcrop -N even -e image -Y 2 -F horiz -R 180 -I black -H 300 -V 300 -J 0.25 -P 300.0x300.0 -B -l 100 -p separate -s  @@ /tmp/foo
+tiffcrop -N odd -U px -m 0.5,0.25,0.75,0.25 -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 90 -V 300 -K 0.25 -B -C -c zip -l 100 -p separate -t -w 100  @@ /tmp/foo
+tiffcrop -E top -e multiple -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -I black -H 300 -V 300 -O auto -P 300.0x300.0 -f lsb2msb -k 512 -M -p separate -t -w 100  @@ /tmp/foo
+tiffcrop -E bottom -z 1,1,2048,2048:1,2049,2048,4097 -V 300 -S 2:2 -B -C -c none -f msb2lsb -i -k 512 -l 100 -M -t  @@ /tmp/foo
+tiffcrop -m 0.5,0.25,0.75,0.25 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -S 2:2 -i -L -M -r 4 -w 100  @@ /tmp/foo
+tiffcrop -E right -e divided -U cm -Y 2 -I white -H 300 -J 0.25 -O portrait -P 300.0x300.0 -S 2:2 -C -c g3 -k 512 -L -r 4 -s  @@ /tmp/foo
+tiffcrop -N even -E bottom -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 180 -I data -V 300 -J 0.25 -K 0.25 -P 300.0x300.0 -S 2:2 -C -c none -f lsb2msb -k 512 -l 100 -t -w 100  @@ /tmp/foo
+tiffcrop -E top -U cm -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -R 180 -J 0.25 -O portrait -P 300.0x300.0 -i -L -M -r 4 -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -e divided -U px -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -I black -V 300 -J 0.25 -K 0.25 -O auto -P 300.0x300.0 -S 2:2 -C -i -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E top -U cm -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -R 180 -I black -O auto -P 300.0x300.0 -C -f lsb2msb -i -k 512 -l 100 -L -p contig -t -w 100  @@ /tmp/foo
+tiffcrop -E left -U px -X 1 -Z 1:4,3:3 -F horiz -R 270 -H 300 -K 0.25 -O auto -P 300.0x300.0 -B -C -c lzw -l 100 -M -p contig -s  @@ /tmp/foo
+tiffcrop -N odd -E bottom -e divided -m 0.5,0.25,0.75,0.25 -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -H 300 -O auto -P 300.0x300.0 -S 2:2 -B -C -c lzw -f msb2lsb -k 512 -l 100 -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -m 0.5,0.25,0.75,0.25 -R 180 -I black -H 300 -K 0.25 -O landscape -P 300.0x300.0 -B -C -f msb2lsb -i -k 512 -l 100 -p separate -s  @@ /tmp/foo
+tiffcrop -Y 2 -F horiz -R 90 -J 0.25 -O landscape -P 300.0x300.0 -S 2:2 -B -C -c none -i -k 512 -p separate -r 4 -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E top -e image -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -I both -H 300 -V 300 -P 300.0x300.0 -S 2:2 -f lsb2msb -l 100 -M -p separate -t  @@ /tmp/foo
+tiffcrop -N odd -E left -U cm -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -H 300 -J 0.25 -S 2:2 -f msb2lsb -k 512 -L -p contig -r 4 -t  @@ /tmp/foo
+tiffcrop -E bottom -e divided -U px -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -R 180 -H 300 -V 300 -c none -i -k 512 -L -M -p separate -t  @@ /tmp/foo
+tiffcrop -e divided -m 0.5,0.25,0.75,0.25 -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -R 90 -I white -H 300 -V 300 -S 2:2 -C -l 100 -L -M  @@ /tmp/foo
+tiffcrop -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 270 -I white -H 300 -V 300 -J 0.25 -K 0.25 -O landscape -P 300.0x300.0 -c g4 -i -k 512 -L -r 4 -s  @@ /tmp/foo
+tiffcrop -N odd -m 0.5,0.25,0.75,0.25 -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -H 300 -K 0.25 -c g3 -f lsb2msb -k 512 -s  @@ /tmp/foo
+tiffcrop -N even -E bottom -U in -X 1 -Z 1:4,3:3 -I both -H 300 -V 300 -J 0.25 -K 0.25 -O landscape -P 300.0x300.0 -B -C -l 100 -s  @@ /tmp/foo
+tiffcrop -e multiple -U in -m 0.5,0.25,0.75,0.25 -X 1 -F horiz -H 300 -P 300.0x300.0 -l 100 -L -r 4 -s  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -Y 2 -Z 1:4,3:3 -I data -V 300 -O portrait -P 300.0x300.0 -S 2:2 -f lsb2msb -l 100 -L -p separate -t  @@ /tmp/foo
+tiffcrop -E bottom -U in -z 1,1,2048,2048:1,2049,2048,4097 -H 300 -P 300.0x300.0 -S 2:2 -C -f lsb2msb -i -k 512 -p separate -t  @@ /tmp/foo
+tiffcrop -E right -U px -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -H 300 -J 0.25 -K 0.25 -O portrait -P 300.0x300.0 -S 2:2 -C -f lsb2msb -i -l 100 -L -M -p separate  @@ /tmp/foo
+tiffcrop -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -R 180 -H 300 -V 300 -J 0.25 -K 0.25 -O auto -P 300.0x300.0 -C -f lsb2msb -l 100 -L -M  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E left -U cm -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -H 300 -K 0.25 -S 2:2 -c g4 -f msb2lsb -k 512 -L -p separate -w 100  @@ /tmp/foo
+tiffcrop -N odd -E right -m 0.5,0.25,0.75,0.25 -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -V 300 -K 0.25 -O auto -P 300.0x300.0 -B -C -f lsb2msb -i -r 4 -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E top -U in -X 1 -Z 1:4,3:3 -F horiz -R 90 -V 300 -J 0.25 -K 0.25 -P 300.0x300.0 -S 2:2 -C -l 100 -M -p separate -s -w 100  @@ /tmp/foo
+tiffcrop -e image -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 90 -I white -V 300 -J 0.25 -O auto -P 300.0x300.0 -S 2:2 -i -k 512 -L -M -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E left -Y 2 -Z 1:4,3:3 -F vert -R 270 -H 300 -V 300 -K 0.25 -S 2:2 -C -c packbits -i -k 512 -l 100 -L -p contig -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E top -e multiple -U in -Y 2 -R 270 -I data -H 300 -J 0.25 -O auto -P 300.0x300.0 -S 2:2 -B -c zip -f lsb2msb -i -p separate -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -N odd -e multiple -U in -m 0.5,0.25,0.75,0.25 -X 1 -F vert -R 180 -I data -H 300 -V 300 -J 0.25 -O landscape -P 300.0x300.0 -S 2:2 -c g3 -f msb2lsb -i -k 512 -l 100 -M -p separate -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -E top -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -I black -H 300 -V 300 -J 0.25 -O portrait -P 300.0x300.0 -S 2:2 -B -C -l 100 -p contig -s -w 100  @@ /tmp/foo
+tiffcrop -N odd -E right -e combined -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -V 300 -J 0.25 -O landscape -P 300.0x300.0 -S 2:2 -c zip -i -k 512 -l 100 -L -p separate -r 4 -s  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E left -U px -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 270 -I black -O landscape -P 300.0x300.0 -S 2:2 -i -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -N odd -e multiple -F horiz -R 270 -V 300 -J 0.25 -K 0.25 -O auto -P 300.0x300.0 -S 2:2 -B -C -f lsb2msb -i -l 100 -p separate -t -w 100  @@ /tmp/foo
+tiffcrop -N odd -U cm -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -I data -V 300 -K 0.25 -O portrait -P 300.0x300.0 -C -i -l 100 -M -p separate -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E top -m 0.5,0.25,0.75,0.25 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -H 300 -f msb2lsb -L -M -p separate -r 4 -s  @@ /tmp/foo
+tiffcrop -N odd -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 270 -I black -H 300 -V 300 -K 0.25 -S 2:2 -B -c jpeg -f msb2lsb -i -M -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -U in -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 180 -H 300 -V 300 -O portrait -P 300.0x300.0 -S 2:2 -C -i -L -r 4 -t  @@ /tmp/foo
+tiffcrop -E bottom -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 180 -I both -V 300 -B -f msb2lsb -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -E bottom -e combined -U px -m 0.5,0.25,0.75,0.25 -Z 1:4,3:3 -F vert -R 90 -V 300 -S 2:2 -c packbits -f lsb2msb -i -l 100 -L -r 4 -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E right -U px -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 180 -I data -J 0.25 -O landscape -P 300.0x300.0 -c jpeg -i -k 512 -l 100 -M -p separate -s  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E top -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -H 300 -K 0.25 -O portrait -P 300.0x300.0 -B -C -c jpeg -k 512 -M -t -w 100  @@ /tmp/foo
+tiffcrop -E top -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 180 -H 300 -V 300 -J 0.25 -O portrait -P 300.0x300.0 -S 2:2 -B -C -c jpeg -f msb2lsb -k 512 -M -p contig -r 4 -t  @@ /tmp/foo
+tiffcrop -E left -e multiple -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 270 -I data -H 300 -V 300 -J 0.25 -K 0.25 -O portrait -P 300.0x300.0 -C -l 100 -L -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -e image -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -R 270 -H 300 -V 300 -J 0.25 -O landscape -P 300.0x300.0 -S 2:2 -c g3 -i -k 512 -L -t  @@ /tmp/foo
+tiffcrop -N odd -E right -e multiple -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -I both -H 300 -V 300 -J 0.25 -K 0.25 -O auto -P 300.0x300.0 -S 2:2 -c packbits -f msb2lsb -k 512 -l 100 -L -M -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -E right -U px -m 0.5,0.25,0.75,0.25 -X 1 -R 270 -H 300 -K 0.25 -k 512 -l 100 -L -r 4  @@ /tmp/foo
+tiffcrop -N even -U cm -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 180 -H 300 -V 300 -K 0.25 -O landscape -P 300.0x300.0 -S 2:2 -C -c packbits -M -t -w 100  @@ /tmp/foo
+tiffcrop -E left -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -F horiz -R 180 -I both -O auto -P 300.0x300.0 -B -c packbits -f msb2lsb -i -k 512 -r 4 -w 100  @@ /tmp/foo
+tiffcrop -N odd -E left -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -R 90 -I data -H 300 -V 300 -J 0.25 -O landscape -P 300.0x300.0 -S 2:2 -B -C -i -k 512 -M -r 4 -t  @@ /tmp/foo
+tiffcrop -E bottom -U in -X 1 -I white -O landscape -P 300.0x300.0 -S 2:2 -B -c packbits -f msb2lsb -i -k 512 -M -p separate -t  @@ /tmp/foo
+tiffcrop -N odd -E left -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -I data -H 300 -V 300 -J 0.25 -K 0.25 -S 2:2 -B -k 512 -M -p separate -s  @@ /tmp/foo
+tiffcrop -U px -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -I both -H 300 -O portrait -P 300.0x300.0 -S 2:2 -l 100 -L -M -p contig -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -N even -e separate -Y 2 -Z 1:4,3:3 -F horiz -I both -O landscape -P 300.0x300.0 -B -c none -i -l 100 -M -r 4 -t  @@ /tmp/foo
+tiffcrop -N even -E left -e combined -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -R 180 -I white -H 300 -J 0.25 -K 0.25 -S 2:2 -f msb2lsb -i -l 100 -L -r 4  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E bottom -e multiple -U cm -m 0.5,0.25,0.75,0.25 -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -H 300 -V 300 -J 0.25 -S 2:2 -C -c lzw -i -L -r 4 -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E bottom -e image -Y 2 -Z 1:4,3:3 -F horiz -R 180 -I black -J 0.25 -K 0.25 -O portrait -P 300.0x300.0 -S 2:2 -B -C -f msb2lsb -i -k 512 -M -p contig -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E bottom -m 0.5,0.25,0.75,0.25 -Y 2 -F horiz -R 270 -I white -V 300 -J 0.25 -C -c g3 -f msb2lsb -k 512 -M -t -w 100  @@ /tmp/foo
+tiffcrop -N even -e multiple -m 0.5,0.25,0.75,0.25 -Y 2 -I white -H 300 -P 300.0x300.0 -S 2:2 -C -c none -l 100 -L -M -p contig -t  @@ /tmp/foo
+tiffcrop -U in -Y 2 -R 180 -O landscape -P 300.0x300.0 -c jpeg -f lsb2msb -i -k 512 -l 100 -L -M -p contig -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -e combined -U px -X 1 -F horiz -I black -H 300 -K 0.25 -B -f msb2lsb -i -M -p contig -t  @@ /tmp/foo
+tiffcrop -E bottom -e separate -m 0.5,0.25,0.75,0.25 -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -R 90 -H 300 -V 300 -K 0.25 -P 300.0x300.0 -S 2:2 -c none -f lsb2msb -L -s -w 100  @@ /tmp/foo
+tiffcrop -E bottom -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 180 -V 300 -J 0.25 -K 0.25 -O auto -P 300.0x300.0 -S 2:2 -f lsb2msb -i -k 512 -L -M -p contig -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -E bottom -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 90 -H 300 -K 0.25 -C -f msb2lsb -i -L -r 4 -t  @@ /tmp/foo
+tiffcrop -e combined -U in -Y 2 -R 270 -I data -V 300 -K 0.25 -P 300.0x300.0 -B -c g4 -f lsb2msb -k 512 -l 100 -M -p contig -s -w 100  @@ /tmp/foo
+tiffcrop -N even -E right -U cm -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -F vert -R 270 -I both -H 300 -K 0.25 -P 300.0x300.0 -S 2:2 -B -C -f lsb2msb -l 100 -p contig -r 4 -w 100  @@ /tmp/foo
+tiffcrop -N odd -E right -U px -X 1 -F vert -R 270 -I data -V 300 -J 0.25 -K 0.25 -O portrait -P 300.0x300.0 -S 2:2 -C -c packbits -f lsb2msb -L -p contig -t -w 100  @@ /tmp/foo
+tiffcrop -N odd -e divided -U cm -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -F vert -K 0.25 -P 300.0x300.0 -S 2:2 -B -C -c lzw -i -k 512 -l 100 -t  @@ /tmp/foo
+tiffcrop -N even -E top -m 0.5,0.25,0.75,0.25 -I white -H 300 -K 0.25 -S 2:2 -C -c zip -L -M -t  @@ /tmp/foo
+tiffcrop -E bottom -Y 2 -F horiz -R 180 -I white -K 0.25 -O portrait -P 300.0x300.0 -S 2:2 -k 512 -L -M  @@ /tmp/foo
+tiffcrop -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -J 0.25 -K 0.25 -O portrait -P 300.0x300.0 -S 2:2 -C -f msb2lsb -i -M -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E top -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -I black -V 300 -J 0.25 -K 0.25 -B -c g3 -k 512 -p contig -w 100  @@ /tmp/foo
+tiffcrop -E bottom -U cm -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 270 -J 0.25 -O auto -P 300.0x300.0 -S 2:2 -f lsb2msb -k 512 -p separate -s -w 100  @@ /tmp/foo
+tiffcrop -e image -m 0.5,0.25,0.75,0.25 -Y 2 -I black -H 300 -V 300 -K 0.25 -P 300.0x300.0 -i -k 512 -l 100 -t -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E bottom -e multiple -X 1 -F vert -R 90 -I white -V 300 -J 0.25 -O auto -P 300.0x300.0 -B -c g3 -k 512 -l 100 -p contig -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -N even -e combined -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -R 270 -I data -V 300 -J 0.25 -K 0.25 -O landscape -P 300.0x300.0 -S 2:2 -B -C -f lsb2msb -l 100 -r 4  @@ /tmp/foo
+tiffcrop -X 1 -Z 1:4,3:3 -I black -H 300 -J 0.25 -c none -i -L  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E top -U cm -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -R 90 -I data -V 300 -J 0.25 -C -c lzw -f lsb2msb -l 100 -L -p contig -s  @@ /tmp/foo
+tiffcrop -e multiple -m 0.5,0.25,0.75,0.25 -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 90 -I black -J 0.25 -O landscape -P 300.0x300.0 -C -c g4 -f lsb2msb -i -L -p separate -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E right -e multiple -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -I black -H 300 -V 300 -S 2:2 -C -c jpeg -k 512 -L -r 4 -s  @@ /tmp/foo
+tiffcrop -X 1 -Z 1:4,3:3 -I white -H 300 -J 0.25 -S 2:2 -B -C -i -k 512 -l 100 -M -p contig -t -w 100  @@ /tmp/foo
+tiffcrop -N odd -E right -e separate -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -R 270 -K 0.25 -O portrait -P 300.0x300.0 -C -f lsb2msb -i -L -M -r 4 -w 100  @@ /tmp/foo
+tiffcrop -N even -E bottom -e divided -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -R 90 -H 300 -B -f lsb2msb -k 512 -M -p contig -t  @@ /tmp/foo
+tiffcrop -m 0.5,0.25,0.75,0.25 -F horiz -I white -J 0.25 -K 0.25 -O portrait -P 300.0x300.0 -B -i -k 512 -l 100 -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E left -U px -Y 2 -F horiz -H 300 -O portrait -P 300.0x300.0 -c g4 -f msb2lsb -i -k 512 -L -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -U in -m 0.5,0.25,0.75,0.25 -Z 1:4,3:3 -F horiz -R 90 -H 300 -V 300 -O portrait -P 300.0x300.0 -C -c jpeg -f lsb2msb -L -p contig -s -w 100  @@ /tmp/foo
+tiffcrop -N even -E left -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 270 -J 0.25 -O auto -P 300.0x300.0 -S 2:2 -C -i -L -p separate -r 4 -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -U in -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -V 300 -S 2:2 -B -k 512 -l 100 -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -N odd -U cm -X 1 -F horiz -I data -H 300 -K 0.25 -S 2:2 -c g4 -i -l 100 -L -M -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -U in -m 0.5,0.25,0.75,0.25 -X 1 -R 270 -I data -V 300 -J 0.25 -K 0.25 -O auto -P 300.0x300.0 -S 2:2 -c g3 -f lsb2msb -l 100 -L -s  @@ /tmp/foo
+tiffcrop -E top -R 270 -I white -V 300 -J 0.25 -K 0.25 -S 2:2 -c jpeg -f msb2lsb -k 512 -L -M -w 100  @@ /tmp/foo
+tiffcrop -E right -e image -U px -X 1 -F horiz -R 270 -I black -H 300 -V 300 -K 0.25 -S 2:2 -B -C -f msb2lsb -k 512 -l 100 -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -e multiple -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 180 -H 300 -V 300 -J 0.25 -B -C -i -l 100 -p contig -r 4 -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -e image -U cm -m 0.5,0.25,0.75,0.25 -R 90 -B -C -c lzw -f msb2lsb -k 512 -l 100 -p contig -s  @@ /tmp/foo
+tiffcrop -e combined -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 180 -V 300 -J 0.25 -O auto -P 300.0x300.0 -C -k 512 -l 100 -L -M -p contig -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -N odd -e combined -U cm -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -R 180 -I data -V 300 -K 0.25 -c lzw -i -l 100 -L -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -U cm -Y 2 -Z 1:4,3:3 -F horiz -I white -V 300 -J 0.25 -O portrait -P 300.0x300.0 -B -c g4 -f msb2lsb -l 100 -M -p contig -t -w 100  @@ /tmp/foo
+tiffcrop -N even -E top -e multiple -U cm -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -F horiz -R 90 -I black -V 300 -P 300.0x300.0 -B -c lzw -f lsb2msb -i -p separate -r 4 -t  @@ /tmp/foo
+tiffcrop -E bottom -U px -X 1 -Z 1:4,3:3 -R 90 -V 300 -K 0.25 -P 300.0x300.0 -S 2:2 -B -f lsb2msb -i -l 100 -M -p separate -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -e divided -Y 2 -F horiz -R 180 -H 300 -V 300 -K 0.25 -O portrait -P 300.0x300.0 -B -C -c jpeg -f msb2lsb -i -l 100 -M -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -m 0.5,0.25,0.75,0.25 -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -H 300 -J 0.25 -O auto -P 300.0x300.0 -S 2:2 -B -f lsb2msb -i -l 100 -p contig -s  @@ /tmp/foo
+tiffcrop -N odd -m 0.5,0.25,0.75,0.25 -Y 2 -F horiz -R 90 -I both -K 0.25 -P 300.0x300.0 -C -f lsb2msb -i -k 512 -l 100 -L -p separate -s  @@ /tmp/foo
+tiffcrop -E top -e image -m 0.5,0.25,0.75,0.25 -Y 2 -F horiz -I both -H 300 -S 2:2 -B -c lzw -i -k 512 -l 100 -M -p separate -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E left -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 270 -I black -H 300 -S 2:2 -B -C -p contig  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -e combined -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -O auto -P 300.0x300.0 -C -c g4 -i -k 512 -L -p separate -t -w 100  @@ /tmp/foo
+tiffcrop -E top -U px -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -H 300 -J 0.25 -K 0.25 -f msb2lsb -k 512 -L -r 4 -s  @@ /tmp/foo
+tiffcrop -N even -U in -m 0.5,0.25,0.75,0.25 -Y 2 -I both -H 300 -V 300 -S 2:2 -B -C -c g4 -i -l 100 -t  @@ /tmp/foo
+tiffcrop -e separate -U in -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 90 -V 300 -K 0.25 -S 2:2 -c g4 -i -l 100 -p contig -r 4 -s  @@ /tmp/foo
+tiffcrop -E left -e image -U px -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -V 300 -O auto -P 300.0x300.0 -c g3 -i -k 512 -l 100 -L -M -p contig -r 4  @@ /tmp/foo
+tiffcrop -E bottom -U in -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 270 -I black -H 300 -V 300 -J 0.25 -K 0.25 -P 300.0x300.0 -S 2:2 -B -f lsb2msb -i -p contig -t  @@ /tmp/foo
+tiffcrop -N odd -E bottom -e multiple -Y 2 -F horiz -I white -J 0.25 -P 300.0x300.0 -S 2:2 -B -f lsb2msb -k 512 -M -p separate -t -w 100  @@ /tmp/foo
+tiffcrop -E bottom -U in -z 1,1,2048,2048:1,2049,2048,4097 -I black -K 0.25 -c packbits -i -k 512 -L -M -p contig -s -w 100  @@ /tmp/foo
+tiffcrop -m 0.5,0.25,0.75,0.25 -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -I both -S 2:2 -C -c packbits -k 512 -l 100 -M -r 4 -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E top -U in -z 1,1,2048,2048:1,2049,2048,4097 -H 300 -V 300 -O landscape -P 300.0x300.0 -S 2:2 -B -C -k 512 -M -p separate -w 100  @@ /tmp/foo
+tiffcrop -e divided -U px -X 1 -F horiz -R 180 -H 300 -J 0.25 -K 0.25 -O auto -P 300.0x300.0 -B -f msb2lsb -k 512 -M -s  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -e multiple -U in -m 0.5,0.25,0.75,0.25 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 180 -H 300 -V 300 -J 0.25 -K 0.25 -O auto -P 300.0x300.0 -C -L -s  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -e separate -U in -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -F horiz -R 270 -V 300 -J 0.25 -S 2:2 -c g3 -i -L -p separate -s  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -e separate -m 0.5,0.25,0.75,0.25 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -I white -H 300 -J 0.25 -K 0.25 -P 300.0x300.0 -B -C -f msb2lsb -M -r 4  @@ /tmp/foo
+tiffcrop -e image -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -V 300 -K 0.25 -O landscape -P 300.0x300.0 -S 2:2 -c g4 -k 512 -l 100 -L -M -p separate -r 4 -w 100  @@ /tmp/foo
+tiffcrop -m 0.5,0.25,0.75,0.25 -R 270 -V 300 -J 0.25 -P 300.0x300.0 -C -k 512 -L -M -p separate -s  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E bottom -U px -Y 2 -H 300 -V 300 -J 0.25 -K 0.25 -O landscape -P 300.0x300.0 -S 2:2 -c g3 -f msb2lsb -i -k 512 -M -s -w 100  @@ /tmp/foo
+tiffcrop -e combined -U in -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 90 -I data -H 300 -J 0.25 -P 300.0x300.0 -C -c jpeg -f lsb2msb -k 512 -l 100 -L -p contig -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -E bottom -U cm -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 90 -V 300 -J 0.25 -K 0.25 -P 300.0x300.0 -S 2:2 -k 512 -M -p contig -t  @@ /tmp/foo
+tiffcrop -U px -m 0.5,0.25,0.75,0.25 -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -V 300 -P 300.0x300.0 -S 2:2 -B -f lsb2msb -k 512 -l 100 -M -r 4 -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -E left -e image -m 0.5,0.25,0.75,0.25 -X 1 -z 1,1,2048,2048:1,2049,2048,4097 -R 90 -I data -H 300 -V 300 -J 0.25 -O portrait -P 300.0x300.0 -S 2:2 -c none -L -M -p separate -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -F vert -H 300 -V 300 -J 0.25 -S 2:2 -B -c none -i -l 100 -M -p contig  @@ /tmp/foo
+tiffcrop -e divided -U cm -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -I black -V 300 -J 0.25 -K 0.25 -B -C -i -k 512 -M -p separate -t -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -U px -X 1 -Z 1:4,3:3 -I data -V 300 -J 0.25 -K 0.25 -P 300.0x300.0 -S 2:2 -C -f lsb2msb -i -l 100 -L -p contig -r 4 -t  @@ /tmp/foo
+tiffcrop -e combined -U in -m 0.5,0.25,0.75,0.25 -X 1 -R 90 -I data -V 300 -J 0.25 -S 2:2 -c zip -f lsb2msb -l 100 -L -p contig -r 4 -w 100  @@ /tmp/foo
+tiffcrop -e divided -U cm -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -R 90 -J 0.25 -P 300.0x300.0 -S 2:2 -B -c none -k 512 -p separate -t -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -U in -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -V 300 -K 0.25 -k 512 -l 100 -L -M -p contig -t  @@ /tmp/foo
+tiffcrop -E top -U px -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -R 90 -H 300 -S 2:2 -c jpeg -i -k 512 -L -p contig -r 4 -s -w 100  @@ /tmp/foo
+tiffcrop -e separate -U cm -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -F horiz -R 90 -I white -H 300 -J 0.25 -K 0.25 -O portrait -P 300.0x300.0 -i -k 512 -l 100 -M -p contig  @@ /tmp/foo
+tiffcrop -N even -e combined -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -R 90 -H 300 -K 0.25 -O landscape -P 300.0x300.0 -S 2:2 -f msb2lsb -i -l 100 -L -p separate -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 180 -J 0.25 -K 0.25 -S 2:2 -C -c jpeg -f msb2lsb -i -k 512 -l 100 -L -M -r 4 -s  @@ /tmp/foo
+tiffcrop -N odd -E top -e separate -U px -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -H 300 -V 300 -S 2:2 -f msb2lsb -k 512 -L -M -s -w 100  @@ /tmp/foo
+tiffcrop -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -F vert -R 270 -I data -K 0.25 -f msb2lsb -i -M -p contig -t  @@ /tmp/foo
+tiffcrop -e combined -U px -m 0.5,0.25,0.75,0.25 -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -H 300 -K 0.25 -O landscape -P 300.0x300.0 -k 512 -L -p contig -t -w 100  @@ /tmp/foo
+tiffcrop -e separate -m 0.5,0.25,0.75,0.25 -z 1,1,2048,2048:1,2049,2048,4097 -F vert -R 180 -I black -H 300 -K 0.25 -S 2:2 -c g3 -k 512 -l 100 -r 4 -t  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -E top -U cm -m 0.5,0.25,0.75,0.25 -F horiz -R 180 -I data -V 300 -O auto -P 300.0x300.0 -B -l 100 -M -p contig -s  @@ /tmp/foo
+tiffcrop -E top -e multiple -U in -m 0.5,0.25,0.75,0.25 -Z 1:4,3:3 -H 300 -J 0.25 -K 0.25 -O landscape -P 300.0x300.0 -B -c g4 -f lsb2msb -i -k 512 -t -w 100  @@ /tmp/foo
+tiffcrop -U px -m 0.5,0.25,0.75,0.25 -Y 2 -z 1,1,2048,2048:1,2049,2048,4097 -F horiz -R 90 -V 300 -J 0.25 -K 0.25 -C -f lsb2msb -i -k 512 -L -s -w 100  @@ /tmp/foo
+tiffcrop -Y 2 -Z 1:4,3:3 -I both -V 300 -J 0.25 -K 0.25 -S 2:2 -C -c g3 -k 512 -L -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,last -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -F horiz -I white -H 300 -V 300 -O auto -P 300.0x300.0 -f msb2lsb -i -k 512 -L -p separate -s  @@ /tmp/foo
+tiffcrop -e combined -U cm -m 0.5,0.25,0.75,0.25 -X 1 -F horiz -J 0.25 -K 0.25 -O landscape -P 300.0x300.0 -S 2:2 -c g3 -f msb2lsb -i -l 100 -M -r 4 -t  @@ /tmp/foo
+tiffcrop -N odd -e multiple -m 0.5,0.25,0.75,0.25 -z 1,1,2048,2048:1,2049,2048,4097 -I data -H 300 -J 0.25 -K 0.25 -O auto -P 300.0x300.0 -k 512 -l 100 -L -M -p contig -r 4 -t -w 100  @@ /tmp/foo
+tiffcrop -N even -e multiple -m 0.5,0.25,0.75,0.25 -X 1 -Z 1:4,3:3 -z 1,1,2048,2048:1,2049,2048,4097 -R 180 -J 0.25 -O landscape -P 300.0x300.0 -S 2:2 -C -c lzw -f lsb2msb -k 512 -l 100 -p contig -r 4  @@ /tmp/foo
+tiffcrop -N %d,%d-%d,%d -m 0.5,0.25,0.75,0.25 -Y 2 -Z 1:4,3:3 -H 300 -V 300 -K 0.25 -P 300.0x300.0 -S 2:2 -B -c none -s  @@ /tmp/foo

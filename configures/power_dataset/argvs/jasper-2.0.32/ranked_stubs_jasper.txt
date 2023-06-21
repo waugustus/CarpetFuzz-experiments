@@ -1,0 +1,83 @@
+82
+jasper --input-option nomct --output-option nomct --input-format debug --debug-level info --verbose --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --input-option nomct --output-format jpg --output-option cblkheight=32 --debug-level def --verbose --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --output-option cblkwidtth=64 --input-format warning --debug-level info --verbose --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --output-format ras --output-option numrlvls=4 --debug-level info --verbose --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --input-option nomct --output-format bmp --output-option nomct --verbose --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --input-option cblkwidtth=64 --output-option cblkwidtth=64 --input-format panic --debug-level def --verbose  --input @@ --output /tmp/foo.jpg
+jasper --input-option cblkwidtth=64 --output-format bmp --output-option cblkwidtth=64 --debug-level def --verbose  --input @@ --output /tmp/foo.jpg
+jasper --input-option numrlvls=4 --input-format panic --debug-level def --verbose --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --input-option cblkheight=32 --output-option nomct --input-format warning --verbose --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --output-format bmp --output-option cblkwidtth=64 --verbose --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --input-option nomct --output-option numrlvls=4 --debug-level def --verbose  --input @@ --output /tmp/foo.jpg
+jasper --input-option numrlvls=4 --output-option nomct --verbose --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --input-option cblkwidtth=64 --input-format quiet --verbose --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --output-option numrlvls=4 --input-format verbose --verbose --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --input-option cblkwidtth=64 --input-format debug --debug-level def --verbose  --input @@ --output /tmp/foo.jpg
+jasper --input-option rate=0.015625 --output-format jpg --verbose --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --input-option cblkheight=32 --output-format ras --output-option rate=0.015625 --verbose  --input @@ --output /tmp/foo.jpg
+jasper --input-option cblkheight=32 --output-format jp2 --debug-level def --verbose  --input @@ --output /tmp/foo.jpg
+jasper --input-option rate=0.015625 --debug-level info --verbose --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --input-option nomct --output-format bmp --output-option cblkwidtth=64 --debug-level def --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --output-format jp2 --output-option nomct --debug-level info --verbose  --input @@ --output /tmp/foo.jpg
+jasper --input-option cblkheight=32 --output-option nomct --input-format fatal --debug-level info --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --output-option cblkwidtth=64 --input-format verbose --debug-level def --verbose  --input @@ --output /tmp/foo.jpg
+jasper --input-option numrlvls=4 --output-option nomct --input-format fatal --verbose  --input @@ --output /tmp/foo.jpg
+jasper --output-option cblkwidtth=64 --debug-level def --verbose --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --output-format jpg --debug-level def --verbose --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --input-option nomct --output-option nomct --input-format verbose --debug-level info  --input @@ --output /tmp/foo.jpg
+jasper --input-option numrlvls=4 --output-option cblkheight=32 --input-format fatal --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --input-format debug --debug-level def --verbose --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --input-option cblkwidtth=64 --input-format debug --verbose  --input @@ --output /tmp/foo.jpg
+jasper --input-option cblkwidtth=64 --output-option cblkwidtth=64 --debug-level info --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --input-option nomct --output-format jp2 --verbose  --input @@ --output /tmp/foo.jpg
+jasper --output-option numrlvls=4 --input-format warning --verbose  --input @@ --output /tmp/foo.jpg
+jasper --output-format jpg --output-option rate=0.015625 --debug-level info --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --input-option cblkheight=32 --output-format pnm --output-option cblkheight=32 --debug-level info  --input @@ --output /tmp/foo.jpg
+jasper --input-option nomct --output-format jp2 --output-option nomct --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --output-option cblkwidtth=64 --input-format debug --debug-level def --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --input-option rate=0.015625 --output-format pgx --debug-level info --verbose --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --input-option rate=0.015625 --input-format verbose --debug-level info --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --output-format bmp --output-option cblkwidtth=64 --verbose  --input @@ --output /tmp/foo.jpg
+jasper --input-option cblkheight=32 --output-format jp2 --debug-level info --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --output-option nomct --debug-level def --verbose  --input @@ --output /tmp/foo.jpg
+jasper --input-format fatal --verbose --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --input-option rate=0.015625 --debug-level info --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --output-format jp2 --output-option cblkwidtth=64 --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --input-option nomct --output-option cblkwidtth=64 --input-format fatal  --input @@ --output /tmp/foo.jpg
+jasper --input-option rate=0.015625 --input-format quiet --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --output-option rate=0.015625 --input-format error --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --input-option numrlvls=4 --output-format pnm --output-option nomct  --input @@ --output /tmp/foo.jpg
+jasper --output-format bmp --verbose --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --input-option nomct --input-format info --debug-level def  --input @@ --output /tmp/foo.jpg
+jasper --output-option cblkheight=32 --input-format quiet --debug-level info  --input @@ --output /tmp/foo.jpg
+jasper --input-option rate=0.015625 --output-format jp2 --debug-level info  --input @@ --output /tmp/foo.jpg
+jasper --output-format bmp --output-option nomct --debug-level def  --input @@ --output /tmp/foo.jpg
+jasper --output-option cblkwidtth=64 --verbose  --input @@ --output /tmp/foo.jpg
+jasper --input-format error --debug-level def --verbose  --input @@ --output /tmp/foo.jpg
+jasper --input-option cblkheight=32 --verbose  --input @@ --output /tmp/foo.jpg
+jasper --output-option cblkheight=32 --input-format debug  --input @@ --output /tmp/foo.jpg
+jasper --output-option nomct --debug-level info  --input @@ --output /tmp/foo.jpg
+jasper --input-format debug --verbose  --input @@ --output /tmp/foo.jpg
+jasper --verbose --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --output-option nomct --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --input-option cblkheight=32 --output-option cblkwidtth=64  --input @@ --output /tmp/foo.jpg
+jasper --input-option rate=0.015625 --output-format ras  --input @@ --output /tmp/foo.jpg
+jasper --input-option numrlvls=4 --input-format quiet  --input @@ --output /tmp/foo.jpg
+jasper --input-option rate=0.015625 --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --debug-level def --verbose  --input @@ --output /tmp/foo.jpg
+jasper --input-option cblkheight=32 --debug-level def  --input @@ --output /tmp/foo.jpg
+jasper --output-format pnm --debug-level info --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --input-format fatal --debug-level info --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --input-format debug --debug-level info  --input @@ --output /tmp/foo.jpg
+jasper --output-format jpg --debug-level def  --input @@ --output /tmp/foo.jpg
+jasper --input-format panic --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --debug-level def --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --output-format pgx --debug-level def --verbose  --input @@ --output /tmp/foo.jpg
+jasper --input-option cblkwidtth=64 --output-format pgx --force-srgb  --input @@ --output /tmp/foo.jpg
+jasper --output-format pgx --output-option cblkwidtth=64  --input @@ --output /tmp/foo.jpg
+jasper --output-format jpg  --input @@ --output /tmp/foo.jpg
+jasper --output-format pgx --verbose  --input @@ --output /tmp/foo.jpg
+jasper --input-format info  --input @@ --output /tmp/foo.jpg
+jasper  --input @@ --output /tmp/foo.jpg
+jasper --output-format pgx --force-srgb  --input @@ --output /tmp/foo.jpg

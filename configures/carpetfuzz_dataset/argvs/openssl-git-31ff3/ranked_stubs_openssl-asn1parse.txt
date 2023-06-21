@@ -1,0 +1,250 @@
+249
+openssl asn1parse -strictpem -dlimit 16  -in @@ -out /tmp/foo
+openssl asn1parse -dlimit 16 -i  -in @@ -out /tmp/foo
+openssl asn1parse -inform PEM -dump -i  -in @@ -out /tmp/foo
+openssl asn1parse  -in @@ -out /tmp/foo
+openssl asn1parse -strparse 16 -strictpem  -in @@ -out /tmp/foo
+openssl asn1parse -strparse 16  -in @@ -out /tmp/foo
+openssl asn1parse -dump -strparse 16 -strictpem -offset 16  -in @@ -out /tmp/foo
+openssl asn1parse -dump -strparse 16 -length 128 -offset 16 -i  -in @@ -out /tmp/foo
+openssl asn1parse -strparse 16 -dlimit 16 -offset 16  -in @@ -out /tmp/foo
+openssl asn1parse -strictpem -dlimit 16 -offset 16 -i  -in @@ -out /tmp/foo
+openssl asn1parse -dump -length 128 -offset 16  -in @@ -out /tmp/foo
+openssl asn1parse -inform DER -dump -strparse 16 -length 128 -offset 16 -i  -in @@ -out /tmp/foo
+openssl asn1parse -inform DER -strparse 16 -length 128 -dlimit 16 -offset 16 -i  -in @@ -out /tmp/foo
+openssl asn1parse -inform DER -strparse 16 -length 128 -offset 16  -in @@ -out /tmp/foo
+openssl asn1parse -inform DER -strparse 16 -length 128 -i  -in @@ -out /tmp/foo
+openssl asn1parse -dump -strictpem -length 128 -i  -in @@ -out /tmp/foo
+openssl asn1parse -inform DER -length 128 -dlimit 16  -in @@ -out /tmp/foo
+openssl asn1parse -inform DER -dlimit 16 -offset 16  -in @@ -out /tmp/foo
+openssl asn1parse -inform PEM -length 128 -dlimit 16 -i  -in @@ -out /tmp/foo
+openssl asn1parse -strparse 16 -noout -strictpem -length 128 -offset 16 -i  -in @@ -out /tmp/foo
+openssl asn1parse -dump -strparse 16 -noout -strictpem -length 128 -i  -in @@ -out /tmp/foo
+openssl asn1parse -strparse 16 -noout -strictpem -dlimit 16 -i  -in @@ -out /tmp/foo
+openssl asn1parse -dump -strparse 16 -noout -strictpem -offset 16  -in @@ -out /tmp/foo
+openssl asn1parse -inform PEM -strparse 16 -noout -length 128 -dlimit 16  -in @@ -out /tmp/foo
+openssl asn1parse -inform PEM -dump -strparse 16 -noout  -in @@ -out /tmp/foo
+openssl asn1parse -strparse 16 -noout -dlimit 16 -offset 16 -i  -in @@ -out /tmp/foo
+openssl asn1parse -inform PEM -strparse 16 -noout -dlimit 16 -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -inform PEM -dump -strparse 16 -offset 16 -item  -in @@ -out /tmp/foo
+openssl asn1parse -inform PEM -noout -length 128 -dlimit 16 -offset 16 -item  -in @@ -out /tmp/foo
+openssl asn1parse -inform DER -strparse 16 -noout -offset 16 -item  -in @@ -out /tmp/foo
+openssl asn1parse -inform DER -dump -noout -length 128 -offset 16 -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -inform DER -noout -length 128 -dlimit 16 -item  -in @@ -out /tmp/foo
+openssl asn1parse -inform DER -strparse 16 -length 128 -dlimit 16 -offset 16 -item  -in @@ -out /tmp/foo
+openssl asn1parse -inform PEM -strparse 16 -offset 16 -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -inform DER -dump -length 128 -item  -in @@ -out /tmp/foo
+openssl asn1parse -inform PEM -length 128 -dlimit 16 -offset 16 -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -dump -strparse 16 -noout -strictpem -offset 16 -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -dump -strparse 16 -strictpem -length 128 -offset 16 -item  -in @@ -out /tmp/foo
+openssl asn1parse -strparse 16 -noout -length 128 -dlimit 16 -offset 16 -item  -in @@ -out /tmp/foo
+openssl asn1parse -oid -noout -strictpem -length 128 -dlimit 16 -offset 16 -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -strparse 16 -strictpem -length 128 -dlimit 16 -offset 16 -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -dump -strparse 16 -noout -strictpem -length 128 -item  -in @@ -out /tmp/foo
+openssl asn1parse -oid -dump -noout -strictpem -length 128 -offset 16 -item  -in @@ -out /tmp/foo
+openssl asn1parse -oid -dump -strparse 16 -noout -offset 16 -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -dump -strparse 16 -noout -length 128 -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -dump -noout -strictpem -length 128 -offset 16 -item  -in @@ -out /tmp/foo
+openssl asn1parse -oid -noout -strictpem -length 128 -dlimit 16 -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -strparse 16 -strictpem -length 128 -dlimit 16 -item  -in @@ -out /tmp/foo
+openssl asn1parse -strparse 16 -strictpem -dlimit 16 -offset 16 -item  -in @@ -out /tmp/foo
+openssl asn1parse -oid -dump -strictpem -length 128 -item  -in @@ -out /tmp/foo
+openssl asn1parse -noout -strictpem -dlimit 16 -offset 16 -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -dump -strictpem -offset 16 -item  -in @@ -out /tmp/foo
+openssl asn1parse -oid -dump -strparse 16 -length 128 -offset 16 -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -dump -noout -strictpem -length 128 -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -dump -strparse 16 -strictpem -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -dump -length 128 -offset 16 -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -inform PEM -dump -noout -item  -in @@ -out /tmp/foo
+openssl asn1parse -dump -strictpem -offset 16 -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -noout -length 128 -dlimit 16 -offset 16 -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -noout -strictpem -length 128 -item  -in @@ -out /tmp/foo
+openssl asn1parse -noout -dlimit 16 -item  -in @@ -out /tmp/foo
+openssl asn1parse -strictpem -offset 16 -item  -in @@ -out /tmp/foo
+openssl asn1parse -strparse 16 -length 128 -dlimit 16 -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -strparse 16 -dlimit 16 -offset 16 -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -dump -strparse 16 -item  -in @@ -out /tmp/foo
+openssl asn1parse -strictpem -length 128 -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -strictpem -dlimit 16 -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -noout -length 128 -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -strictpem -dlimit 16 -item  -in @@ -out /tmp/foo
+openssl asn1parse -oid -dump -strparse 16 -noout -strictpem -length 128 -offset 16 -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -dump -strparse 16 -strictpem -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -dump -noout -strictpem -length 128 -offset 16  -in @@ -out /tmp/foo
+openssl asn1parse -oid -strictpem -length 128 -dlimit 16 -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -noout -strictpem -dlimit 16 -offset 16  -in @@ -out /tmp/foo
+openssl asn1parse -oid -strictpem -length 128 -offset 16 -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -noout -offset 16 -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -dump -offset 16 -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -dump -strparse 16 -length 128  -in @@ -out /tmp/foo
+openssl asn1parse -oid -noout -length 128 -dlimit 16 -offset 16  -in @@ -out /tmp/foo
+openssl asn1parse -oid -strictpem -length 128  -in @@ -out /tmp/foo
+openssl asn1parse -oid -dump -noout -strictpem -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -dump -noout -strictpem  -in @@ -out /tmp/foo
+openssl asn1parse -noout -strictpem -length 128 -dlimit 16 -offset 16 -i  -in @@ -out /tmp/foo
+openssl asn1parse -noout -strictpem -length 128 -dlimit 16 -offset 16  -in @@ -out /tmp/foo
+openssl asn1parse -dump -noout -strictpem -offset 16 -i  -in @@ -out /tmp/foo
+openssl asn1parse -noout -strictpem -i  -in @@ -out /tmp/foo
+openssl asn1parse -inform PEM -noout -offset 16 -i  -in @@ -out /tmp/foo
+openssl asn1parse -dump -noout  -in @@ -out /tmp/foo
+openssl asn1parse -inform DER -noout -dlimit 16  -in @@ -out /tmp/foo
+openssl asn1parse -inform PEM -strparse 16 -noout -length 128 -dlimit 16 -offset 16 -genstr UTF8:Hello World -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -inform PEM -dump -strparse 16 -noout -length 128 -offset 16 -genstr UTF8:Hello World -item  -in @@ -out /tmp/foo
+openssl asn1parse -inform DER -dump -strparse 16 -noout -length 128 -offset 16 -genstr UTF8:Hello World -i  -in @@ -out /tmp/foo
+openssl asn1parse -inform PEM -dump -strparse 16 -noout -length 128 -genstr UTF8:Hello World  -in @@ -out /tmp/foo
+openssl asn1parse -inform PEM -dump -strparse 16 -length 128 -offset 16 -genstr UTF8:Hello World -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -inform PEM -dump -strparse 16 -noout -length 128 -genstr UTF8:Hello World -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -inform PEM -dump -strparse 16 -noout -offset 16 -genstr UTF8:Hello World -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -inform DER -strparse 16 -noout -dlimit 16 -offset 16 -genstr UTF8:Hello World  -in @@ -out /tmp/foo
+openssl asn1parse -inform PEM -noout -length 128 -dlimit 16 -offset 16 -genstr UTF8:Hello World  -in @@ -out /tmp/foo
+openssl asn1parse -inform DER -strparse 16 -noout -length 128 -dlimit 16 -genstr UTF8:Hello World -i  -in @@ -out /tmp/foo
+openssl asn1parse -inform PEM -noout -length 128 -genstr UTF8:Hello World  -in @@ -out /tmp/foo
+openssl asn1parse -inform PEM -noout -dlimit 16 -genstr UTF8:Hello World -i  -in @@ -out /tmp/foo
+openssl asn1parse -inform PEM -strparse 16 -length 128 -dlimit 16 -genstr UTF8:Hello World -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -inform DER -dump -strparse 16 -genstr UTF8:Hello World -i  -in @@ -out /tmp/foo
+openssl asn1parse -inform DER -dump -noout -length 128 -genstr UTF8:Hello World  -in @@ -out /tmp/foo
+openssl asn1parse -inform DER -dump -offset 16 -genstr UTF8:Hello World  -in @@ -out /tmp/foo
+openssl asn1parse -inform DER -strparse 16 -dlimit 16 -offset 16 -genstr UTF8:Hello World -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -inform PEM -strparse 16 -genstr UTF8:Hello World -item  -in @@ -out /tmp/foo
+openssl asn1parse -inform DER -length 128 -dlimit 16 -offset 16 -genstr UTF8:Hello World -i  -in @@ -out /tmp/foo
+openssl asn1parse -inform PEM -dlimit 16 -offset 16 -genstr UTF8:Hello World -item  -in @@ -out /tmp/foo
+openssl asn1parse -inform PEM -length 128 -dlimit 16 -genstr UTF8:Hello World -item  -in @@ -out /tmp/foo
+openssl asn1parse -inform PEM -length 128 -offset 16 -genstr UTF8:Hello World -item  -in @@ -out /tmp/foo
+openssl asn1parse -inform PEM -offset 16 -genstr UTF8:Hello World -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -inform PEM -dlimit 16 -genstr UTF8:Hello World -item  -in @@ -out /tmp/foo
+openssl asn1parse -oid -dump -strparse 16 -noout -strictpem -length 128 -genstr UTF8:Hello World -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -dump -strparse 16 -noout -strictpem -offset 16 -genstr UTF8:Hello World  -in @@ -out /tmp/foo
+openssl asn1parse -oid -dump -strparse 16 -noout -length 128 -offset 16 -genstr UTF8:Hello World  -in @@ -out /tmp/foo
+openssl asn1parse -strparse 16 -noout -strictpem -length 128 -dlimit 16 -offset 16 -genstr UTF8:Hello World -item  -in @@ -out /tmp/foo
+openssl asn1parse -oid -dump -strparse 16 -noout -strictpem -offset 16 -genstr UTF8:Hello World -item  -in @@ -out /tmp/foo
+openssl asn1parse -dump -strparse 16 -strictpem -length 128 -offset 16 -genstr UTF8:Hello World -item  -in @@ -out /tmp/foo
+openssl asn1parse -oid -dump -noout -strictpem -length 128 -offset 16 -genstr UTF8:Hello World -i  -in @@ -out /tmp/foo
+openssl asn1parse -strparse 16 -noout -strictpem -length 128 -offset 16 -genstr UTF8:Hello World -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -strparse 16 -noout -strictpem -length 128 -dlimit 16 -genstr UTF8:Hello World -i  -in @@ -out /tmp/foo
+openssl asn1parse -strparse 16 -noout -length 128 -dlimit 16 -offset 16 -genstr UTF8:Hello World  -in @@ -out /tmp/foo
+openssl asn1parse -oid -dump -strparse 16 -strictpem -offset 16 -genstr UTF8:Hello World -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -dump -strparse 16 -strictpem -length 128 -genstr UTF8:Hello World  -in @@ -out /tmp/foo
+openssl asn1parse -dump -strparse 16 -strictpem -length 128 -offset 16 -genstr UTF8:Hello World -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -dump -strparse 16 -noout -genstr UTF8:Hello World -i  -in @@ -out /tmp/foo
+openssl asn1parse -dump -strparse 16 -noout -strictpem -genstr UTF8:Hello World -item  -in @@ -out /tmp/foo
+openssl asn1parse -strparse 16 -strictpem -dlimit 16 -offset 16 -genstr UTF8:Hello World -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -dump -strictpem -length 128 -offset 16 -genstr UTF8:Hello World -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -dump -strparse 16 -strictpem -length 128 -genstr UTF8:Hello World  -in @@ -out /tmp/foo
+openssl asn1parse -dump -strparse 16 -noout -offset 16 -genstr UTF8:Hello World -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -strparse 16 -noout -strictpem -offset 16 -genstr UTF8:Hello World  -in @@ -out /tmp/foo
+openssl asn1parse -strparse 16 -noout -length 128 -dlimit 16 -genstr UTF8:Hello World -item  -in @@ -out /tmp/foo
+openssl asn1parse -oid -noout -strictpem -length 128 -dlimit 16 -genstr UTF8:Hello World  -in @@ -out /tmp/foo
+openssl asn1parse -oid -noout -strictpem -length 128 -dlimit 16 -genstr UTF8:Hello World -i  -in @@ -out /tmp/foo
+openssl asn1parse -strparse 16 -strictpem -dlimit 16 -genstr UTF8:Hello World  -in @@ -out /tmp/foo
+openssl asn1parse -oid -dump -noout -offset 16 -genstr UTF8:Hello World -item  -in @@ -out /tmp/foo
+openssl asn1parse -dump -strparse 16 -offset 16 -genstr UTF8:Hello World  -in @@ -out /tmp/foo
+openssl asn1parse -dump -noout -strictpem -offset 16 -genstr UTF8:Hello World -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -dump -strparse 16 -strictpem -genstr UTF8:Hello World -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -dump -strictpem -offset 16 -genstr UTF8:Hello World  -in @@ -out /tmp/foo
+openssl asn1parse -dump -noout -strictpem -length 128 -genstr UTF8:Hello World  -in @@ -out /tmp/foo
+openssl asn1parse -noout -strictpem -length 128 -dlimit 16 -genstr UTF8:Hello World -item  -in @@ -out /tmp/foo
+openssl asn1parse -noout -strictpem -dlimit 16 -offset 16 -genstr UTF8:Hello World -item  -in @@ -out /tmp/foo
+openssl asn1parse -strictpem -length 128 -dlimit 16 -offset 16 -genstr UTF8:Hello World -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -noout -strictpem -dlimit 16 -genstr UTF8:Hello World -item  -in @@ -out /tmp/foo
+openssl asn1parse -oid -dump -noout -length 128 -genstr UTF8:Hello World -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -strictpem -length 128 -dlimit 16 -genstr UTF8:Hello World -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -noout -dlimit 16 -offset 16 -genstr UTF8:Hello World -i  -in @@ -out /tmp/foo
+openssl asn1parse -strparse 16 -strictpem -genstr UTF8:Hello World -i  -in @@ -out /tmp/foo
+openssl asn1parse -dump -noout -length 128 -genstr UTF8:Hello World -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -strictpem -length 128 -offset 16 -genstr UTF8:Hello World  -in @@ -out /tmp/foo
+openssl asn1parse -strparse 16 -noout -genstr UTF8:Hello World -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -strictpem -length 128 -dlimit 16 -offset 16 -genstr UTF8:Hello World -item  -in @@ -out /tmp/foo
+openssl asn1parse -dump -length 128 -offset 16 -genstr UTF8:Hello World -item  -in @@ -out /tmp/foo
+openssl asn1parse -noout -strictpem -offset 16 -genstr UTF8:Hello World -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -noout -length 128 -offset 16 -genstr UTF8:Hello World  -in @@ -out /tmp/foo
+openssl asn1parse -inform DER -dump -noout -genstr UTF8:Hello World -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -dump -length 128 -genstr UTF8:Hello World -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -noout -length 128 -dlimit 16 -genstr UTF8:Hello World -i  -in @@ -out /tmp/foo
+openssl asn1parse -strictpem -dlimit 16 -genstr UTF8:Hello World -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -strictpem -offset 16 -genstr UTF8:Hello World -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -strictpem -dlimit 16 -genstr UTF8:Hello World  -in @@ -out /tmp/foo
+openssl asn1parse -length 128 -dlimit 16 -genstr UTF8:Hello World -item  -in @@ -out /tmp/foo
+openssl asn1parse -length 128 -offset 16 -genstr UTF8:Hello World -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -length 128 -genstr UTF8:Hello World  -in @@ -out /tmp/foo
+openssl asn1parse -oid -dump -noout -strictpem -genstr UTF8:Hello World  -in @@ -out /tmp/foo
+openssl asn1parse -oid -noout -strictpem -genstr UTF8:Hello World -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -dump -noout -strictpem -genstr UTF8:Hello World -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -dump -strictpem -genstr UTF8:Hello World -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -dump -strictpem -genstr UTF8:Hello World -item  -in @@ -out /tmp/foo
+openssl asn1parse -oid -dump -genstr UTF8:Hello World  -in @@ -out /tmp/foo
+openssl asn1parse -oid -strparse 16 -noout -strictpem -dlimit 16 -offset 16 -genstr UTF8:Hello World -item  -in @@ -out /tmp/foo
+openssl asn1parse -oid -strparse 16 -length 128 -dlimit 16 -offset 16 -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform PEM -noout -length 128 -dlimit 16 -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform DER -dump -length 128 -genstr UTF8:Hello World -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform DER -dump -strparse 16 -noout -offset 16  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform DER -length 128 -dlimit 16 -offset 16 -item  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform PEM -dlimit 16 -genstr UTF8:Hello World  -in @@ -out /tmp/foo
+openssl asn1parse -oid -strparse 16 -strictpem -length 128 -dlimit 16 -offset 16 -genstr UTF8:Hello World  -in @@ -out /tmp/foo
+openssl asn1parse -oid -dlimit 16 -offset 16 -genstr UTF8:Hello World -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -strparse 16 -noout -strictpem -length 128 -dlimit 16  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform PEM -dump -noout -offset 16 -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform DER -strparse 16 -noout -length 128 -genstr UTF8:Hello World -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform PEM -strparse 16 -dlimit 16 -item  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform PEM -dump -strparse 16 -length 128 -offset 16 -genstr UTF8:Hello World  -in @@ -out /tmp/foo
+openssl asn1parse -oid -strparse 16 -noout -strictpem -length 128 -offset 16  -in @@ -out /tmp/foo
+openssl asn1parse -oid -strparse 16 -strictpem -length 128 -dlimit 16 -offset 16 -genstr UTF8:Hello World -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform PEM -dump -length 128 -offset 16 -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -strparse 16 -noout -strictpem -item  -in @@ -out /tmp/foo
+openssl asn1parse -oid -strparse 16 -strictpem -length 128 -genstr UTF8:Hello World -item  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform PEM -strparse 16 -dlimit 16 -genstr UTF8:Hello World -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform DER -dump -noout  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform PEM -dump -noout -length 128 -offset 16 -genstr UTF8:Hello World -item  -in @@ -out /tmp/foo
+openssl asn1parse -oid -strparse 16 -strictpem -dlimit 16 -offset 16 -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform PEM -dump -strparse 16 -offset 16 -genstr UTF8:Hello World -item  -in @@ -out /tmp/foo
+openssl asn1parse -oid -strparse 16 -noout -strictpem -dlimit 16 -genstr UTF8:Hello World -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform DER -strparse 16 -length 128 -dlimit 16 -offset 16 -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform DER -strparse 16 -noout -dlimit 16 -offset 16 -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform PEM -offset 16  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform PEM -strparse 16 -noout -length 128 -dlimit 16 -genstr UTF8:Hello World -item  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform PEM -noout -genstr UTF8:Hello World -item  -in @@ -out /tmp/foo
+openssl asn1parse -oid -strparse 16 -noout -strictpem -dlimit 16 -offset 16 -genstr UTF8:Hello World -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform DER -dump -strparse 16 -noout -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform DER -dump -noout -offset 16 -genstr UTF8:Hello World -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform PEM -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -strparse 16 -strictpem -length 128 -dlimit 16 -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform PEM -strparse 16 -length 128 -offset 16 -genstr UTF8:Hello World -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -strparse 16 -noout -dlimit 16  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform PEM -dump -strparse 16 -noout -length 128  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform DER -noout -dlimit 16 -offset 16 -genstr UTF8:Hello World -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -strparse 16 -noout -strictpem -length 128 -dlimit 16 -offset 16 -genstr UTF8:Hello World  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform DER -dlimit 16 -offset 16 -genstr UTF8:Hello World -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform DER -strparse 16 -noout -length 128 -dlimit 16 -offset 16  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform PEM -noout -dlimit 16 -offset 16 -item  -in @@ -out /tmp/foo
+openssl asn1parse -oid -length 128 -dlimit 16 -offset 16 -genstr UTF8:Hello World -item  -in @@ -out /tmp/foo
+openssl asn1parse -oid -strparse 16 -strictpem -offset 16 -genstr UTF8:Hello World -item  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform DER -strparse 16 -length 128 -dlimit 16 -genstr UTF8:Hello World -item  -in @@ -out /tmp/foo
+openssl asn1parse -oid -strparse 16 -noout -strictpem -length 128 -dlimit 16 -offset 16 -item  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform DER -dump -noout -length 128 -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform PEM -strparse 16 -noout -length 128 -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -strparse 16 -dlimit 16 -genstr UTF8:Hello World -item  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform PEM -dump -strparse 16 -noout -length 128 -genstr UTF8:Hello World -item  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform PEM -noout -dlimit 16 -genstr UTF8:Hello World -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform DER -dump -strparse 16 -length 128 -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -strparse 16 -noout -strictpem -genstr UTF8:Hello World -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -strparse 16 -length 128 -offset 16 -item  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform PEM -dump -strparse 16  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform PEM -noout -length 128 -offset 16 -genstr UTF8:Hello World -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform DER -dump -offset 16 -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform PEM -dump -length 128 -genstr UTF8:Hello World  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform PEM -strparse 16 -length 128 -dlimit 16 -offset 16  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform PEM -noout -length 128 -offset 16 -item  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform PEM -dump -strparse 16 -noout -genstr UTF8:Hello World -item  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform DER -strparse 16  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform DER -dlimit 16 -offset 16 -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform PEM -noout -length 128 -dlimit 16 -offset 16 -genstr UTF8:Hello World -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -strparse 16 -length 128 -dlimit 16 -offset 16 -genstr UTF8:Hello World -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform DER -strparse 16 -offset 16 -genstr UTF8:Hello World  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform PEM -strparse 16 -noout -offset 16 -genstr UTF8:Hello World -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform PEM -dump -strparse 16 -length 128 -item -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform PEM -dump -noout -length 128 -offset 16 -item  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform DER -strparse 16 -noout -length 128 -dlimit 16 -offset 16 -genstr UTF8:Hello World  -in @@ -out /tmp/foo
+openssl asn1parse -oid -strparse 16 -dlimit 16 -offset 16  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform PEM -dump -strparse 16 -offset 16 -genstr UTF8:Hello World -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -length 128 -dlimit 16 -genstr UTF8:Hello World -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -strparse 16 -noout -strictpem -length 128 -dlimit 16 -offset 16 -i  -in @@ -out /tmp/foo
+openssl asn1parse -oid -inform PEM -dump -strparse 16 -item  -in @@ -out /tmp/foo

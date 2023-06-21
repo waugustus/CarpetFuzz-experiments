@@ -1,0 +1,559 @@
+558
+jq -L /tmp -e --monochrome-output --slurp --indent --sort-keys --ascii-output --argjson foo 123 --raw-output  . @@
+jq --compact-output -L /tmp --arg foo bar -e --join-output --argjson foo 123  . @@
+jq --compact-output --unbuffered --monochrome-output --slurp --tab --indent --join-output  . @@
+jq  . @@
+jq --compact-output --seq --slurp --tab --indent --args --join-output --ascii-output --stream  . @@
+jq --compact-output -L /tmp --seq --slurp --tab --indent --color-output --join-output --ascii-output --argjson foo 123 --raw-input  . @@
+jq --null-input --compact-output -L /tmp --arg foo bar -e --monochrome-output --jsonargs --slurp --tab --ascii-output --stream --argjson foo 123 --raw-input  . @@
+jq --null-input --compact-output --unbuffered -L /tmp -e --monochrome-output --jsonargs --slurp --tab --indent --sort-keys --join-output  . @@
+jq --null-input --unbuffered --arg foo bar --jsonargs --tab --indent --color-output --join-output --stream --argjson foo 123  . @@
+jq --null-input --compact-output -L /tmp --jsonargs --indent --color-output --sort-keys --ascii-output --argjson foo 123 --raw-output  . @@
+jq --unbuffered -L /tmp --seq --arg foo bar -e --monochrome-output --raw-input --raw-output  . @@
+jq --null-input --compact-output --seq --arg foo bar -e --slurp --tab --color-output --sort-keys --args --ascii-output --argjson foo 123 --raw-output  . @@
+jq --null-input --compact-output -L /tmp --seq --arg foo bar --jsonargs --tab --indent --color-output --ascii-output --stream --raw-input --raw-output  . @@
+jq --null-input -L /tmp --arg foo bar --jsonargs --color-output --sort-keys --stream --raw-output  . @@
+jq --null-input --compact-output --seq --arg foo bar --jsonargs --slurp --indent --color-output --sort-keys --join-output --stream --raw-input  . @@
+jq --null-input --unbuffered --seq -e --slurp --indent --color-output --join-output --ascii-output --argjson foo 123  . @@
+jq --null-input --compact-output --unbuffered -L /tmp -e --slurp --indent --color-output --ascii-output --stream --raw-output  . @@
+jq --null-input --unbuffered --seq --arg foo bar -e --tab --sort-keys --args --join-output --ascii-output --stream --argjson foo 123 --raw-input  . @@
+jq --null-input --seq -e --slurp --tab --color-output --sort-keys --args --join-output --ascii-output --stream --argjson foo 123 --raw-input  . @@
+jq --null-input --compact-output --unbuffered -L /tmp -e --slurp --tab --indent --color-output --sort-keys --args --join-output --stream --raw-input  . @@
+jq --null-input --unbuffered -e --monochrome-output --tab --indent --args --raw-output  . @@
+jq --null-input --compact-output --unbuffered -L /tmp --monochrome-output --jsonargs --tab --sort-keys --raw-input --raw-output  . @@
+jq --null-input --arg foo bar -e --slurp --indent --color-output --args --raw-input --raw-output  . @@
+jq --null-input --compact-output --unbuffered -L /tmp --seq --monochrome-output --jsonargs --slurp --ascii-output --raw-input  . @@
+jq --null-input -L /tmp --monochrome-output --indent --args --ascii-output --stream --argjson foo 123  . @@
+jq --null-input --compact-output --unbuffered --arg foo bar --monochrome-output --slurp --args --join-output --ascii-output --stream  . @@
+jq --null-input -L /tmp --seq --tab --indent --sort-keys --args --argjson foo 123  . @@
+jq --null-input -L /tmp --seq --monochrome-output --slurp --args --stream --raw-output  . @@
+jq --null-input --compact-output --slurp --indent --args --ascii-output --stream --raw-input --raw-output  . @@
+jq --compact-output --unbuffered -L /tmp --seq --arg foo bar -e --jsonargs --slurp --tab --indent --color-output --stream --argjson foo 123 --raw-output  . @@
+jq --null-input -L /tmp --arg foo bar -e --jsonargs --tab --indent --argjson foo 123 --raw-output  . @@
+jq -L /tmp --seq -e --monochrome-output --jsonargs --tab --sort-keys --join-output  . @@
+jq --compact-output -e --jsonargs --color-output --join-output --stream --argjson foo 123 --raw-input  . @@
+jq --seq --arg foo bar --monochrome-output --jsonargs --indent --sort-keys --join-output --ascii-output  . @@
+jq --unbuffered --arg foo bar --monochrome-output --jsonargs --slurp --tab --sort-keys --join-output --ascii-output --argjson foo 123 --raw-input  . @@
+jq --compact-output --arg foo bar --monochrome-output --jsonargs --indent --stream --argjson foo 123 --raw-input --raw-output  . @@
+jq --compact-output --unbuffered -L /tmp --seq -e --monochrome-output --tab --args --join-output --stream --argjson foo 123 --raw-input  . @@
+jq -L /tmp --seq --arg foo bar -e --monochrome-output --tab --args --join-output --ascii-output --stream --raw-input  . @@
+jq --compact-output --unbuffered --jsonargs --indent --color-output --sort-keys --ascii-output --stream --raw-input --raw-output  . @@
+jq --seq --arg foo bar --slurp --tab --indent --color-output --sort-keys --args --stream  . @@
+jq --compact-output --unbuffered -L /tmp --color-output --args --join-output --ascii-output --argjson foo 123  . @@
+jq --unbuffered --seq --arg foo bar --indent --color-output --sort-keys --args --ascii-output --stream --argjson foo 123 --raw-input --raw-output  . @@
+jq --compact-output --unbuffered --monochrome-output --slurp --tab --indent --sort-keys --args --ascii-output --stream --argjson foo 123 --raw-input  . @@
+jq -L /tmp --arg foo bar --monochrome-output --slurp --tab --sort-keys --args --join-output --argjson foo 123 --raw-input  . @@
+jq --unbuffered --arg foo bar --slurp --args --ascii-output --stream --argjson foo 123 --raw-input --raw-output  . @@
+jq --compact-output --unbuffered --slurp --tab --color-output --sort-keys --args --ascii-output --raw-input --raw-output  . @@
+jq -f --compact-output -L /tmp --seq -e --jsonargs --slurp --indent --color-output --sort-keys --ascii-output --argjson foo 123 --raw-input --raw-output  . @@
+jq -f --null-input --unbuffered -L /tmp --seq --monochrome-output --jsonargs --slurp --indent --join-output --argjson foo 123 --raw-input  . @@
+jq -f --null-input --seq -e --monochrome-output --jsonargs --slurp --tab --indent --ascii-output --stream --argjson foo 123 --raw-output  . @@
+jq -f -L /tmp --jsonargs --slurp --tab --color-output --ascii-output --stream --argjson foo 123 --raw-output  . @@
+jq -f --null-input --unbuffered --monochrome-output --jsonargs --tab --indent --sort-keys --ascii-output --argjson foo 123 --raw-input  . @@
+jq -f --compact-output -e --monochrome-output --jsonargs --tab --sort-keys --stream --argjson foo 123 --raw-output  . @@
+jq -f --null-input --compact-output --unbuffered -L /tmp --seq --arg foo bar -e --monochrome-output --jsonargs --tab --indent --sort-keys --join-output --ascii-output --raw-input  . @@
+jq -f --unbuffered -L /tmp --seq --slurp --indent --color-output --sort-keys --args --join-output --stream --argjson foo 123  . @@
+jq -f --unbuffered -L /tmp --arg foo bar -e --jsonargs --tab --color-output --sort-keys --join-output --ascii-output --stream --argjson foo 123 --raw-input  . @@
+jq -f --unbuffered -L /tmp --slurp --tab --indent --color-output --sort-keys --args --argjson foo 123 --raw-output  . @@
+jq -f --seq -e --monochrome-output --slurp --tab --sort-keys --args --stream --argjson foo 123 --raw-input --raw-output  . @@
+jq -f --compact-output -L /tmp --seq --arg foo bar --monochrome-output --jsonargs --slurp --tab --sort-keys --argjson foo 123 --raw-input --raw-output  . @@
+jq -f --unbuffered -L /tmp --seq --arg foo bar -e --jsonargs --slurp --indent --ascii-output --stream --raw-output  . @@
+jq -f --null-input --compact-output --seq -e --color-output --sort-keys --args --stream --argjson foo 123 --raw-output  . @@
+jq -f --null-input --unbuffered -L /tmp --tab --args --argjson foo 123 --raw-input --raw-output  . @@
+jq -f --slurp --color-output --sort-keys --ascii-output --stream --argjson foo 123  . @@
+jq -f --null-input --compact-output --unbuffered -L /tmp --arg foo bar --jsonargs --tab --color-output --join-output --raw-input  . @@
+jq -f --null-input --unbuffered --arg foo bar -e --monochrome-output --jsonargs --slurp --sort-keys --join-output --stream --raw-input  . @@
+jq -f --compact-output --unbuffered --seq --arg foo bar -e --monochrome-output --jsonargs --slurp --ascii-output --raw-output  . @@
+jq -f --unbuffered -L /tmp -e --jsonargs --slurp --color-output --sort-keys --ascii-output --stream --raw-input --raw-output  . @@
+jq -f --null-input -L /tmp --seq -e --jsonargs --tab --color-output --join-output --ascii-output --stream --raw-input  . @@
+jq -f --null-input --compact-output --unbuffered --seq --arg foo bar --jsonargs --color-output --join-output --argjson foo 123  . @@
+jq -f --arg foo bar -e --jsonargs --slurp --tab --indent --color-output --sort-keys  . @@
+jq -f --unbuffered -L /tmp --jsonargs --slurp --sort-keys --join-output --raw-input  . @@
+jq -f --compact-output --seq --jsonargs --slurp --tab --sort-keys --raw-output  . @@
+jq -f --compact-output -L /tmp --arg foo bar --indent --color-output --sort-keys --stream --argjson foo 123 --raw-input --raw-output  . @@
+jq -f --null-input --compact-output --unbuffered --seq --arg foo bar --monochrome-output --slurp --tab --indent --sort-keys --stream --raw-input --raw-output  . @@
+jq -f --null-input --compact-output -L /tmp --seq --arg foo bar --monochrome-output --slurp --indent --sort-keys --args --join-output --ascii-output --argjson foo 123 --raw-input  . @@
+jq -f --compact-output --unbuffered -L /tmp --seq --arg foo bar -e --monochrome-output --indent --sort-keys --args --stream --argjson foo 123  . @@
+jq -f --null-input --unbuffered -L /tmp --arg foo bar -e --tab --join-output --ascii-output  . @@
+jq -f --null-input --arg foo bar --monochrome-output --tab --indent --sort-keys --join-output --ascii-output --stream --argjson foo 123  . @@
+jq -f --null-input --compact-output --unbuffered -L /tmp --arg foo bar -e --monochrome-output --sort-keys --args --ascii-output --argjson foo 123 --raw-output  . @@
+jq -f --unbuffered --arg foo bar -e --monochrome-output --slurp --tab --indent --sort-keys --args --ascii-output --argjson foo 123 --raw-input --raw-output  . @@
+jq -f --null-input --compact-output -L /tmp --arg foo bar --tab --indent --color-output --args --ascii-output --argjson foo 123  . @@
+jq -f --null-input --compact-output --seq --arg foo bar --indent --args --stream --raw-output  . @@
+jq -f --null-input --compact-output --unbuffered -L /tmp --seq -e --tab --indent --color-output --sort-keys --args --ascii-output --raw-output  . @@
+jq -f --compact-output -e --monochrome-output --indent --args --join-output --ascii-output --raw-input  . @@
+jq -f -L /tmp --arg foo bar --color-output --args --ascii-output --stream --raw-input  . @@
+jq -f --unbuffered --arg foo bar -e --tab --color-output --args --join-output --argjson foo 123  . @@
+jq -f --compact-output -L /tmp -e --slurp --tab --color-output --sort-keys --args --join-output --ascii-output --stream  . @@
+jq -f --compact-output --unbuffered -e --tab --indent --args --raw-input  . @@
+jq -f --null-input --compact-output --seq --monochrome-output --sort-keys --ascii-output --stream --raw-input  . @@
+jq -f --compact-output -L /tmp --seq --tab --color-output --sort-keys --args --join-output --raw-input  . @@
+jq -f --null-input --compact-output --unbuffered --seq --monochrome-output --sort-keys --args --ascii-output --stream --raw-output  . @@
+jq -f --null-input --unbuffered --seq --slurp --color-output --args --raw-input  . @@
+jq -f --null-input --compact-output --slurpfile foo tests/modules/data.json -L /tmp --seq --color-output --args --ascii-output --stream  . @@
+jq -f --null-input --compact-output --slurpfile foo tests/modules/data.json --unbuffered --seq -e --slurp --indent --color-output --sort-keys --args --stream --argjson foo 123  . @@
+jq -f --null-input --compact-output --slurpfile foo tests/modules/data.json -L /tmp -e --slurp --color-output --sort-keys --args --ascii-output --raw-input --raw-output  . @@
+jq -f --null-input --compact-output --slurpfile foo tests/modules/data.json --arg foo bar --jsonargs --tab --indent --color-output --sort-keys --ascii-output --stream --argjson foo 123 --raw-output  . @@
+jq -f --null-input --compact-output --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --seq -e --monochrome-output --jsonargs --tab --indent --ascii-output --stream --raw-input --raw-output  . @@
+jq -f --null-input --compact-output --slurpfile foo tests/modules/data.json -L /tmp --seq --arg foo bar -e --slurp --tab --indent --color-output --sort-keys --join-output --ascii-output --stream --argjson foo 123  . @@
+jq -f --null-input --compact-output --slurpfile foo tests/modules/data.json -L /tmp --arg foo bar --slurp --indent --color-output --argjson foo 123 --raw-input  . @@
+jq -f --null-input --compact-output --slurpfile foo tests/modules/data.json -e --jsonargs --slurp --stream --argjson foo 123  . @@
+jq -f --null-input --compact-output --slurpfile foo tests/modules/data.json --unbuffered -e --jsonargs --slurp --tab --indent --color-output --sort-keys --join-output --ascii-output  . @@
+jq -f --null-input --compact-output --slurpfile foo tests/modules/data.json --unbuffered --seq -e --monochrome-output --slurp --argjson foo 123 --raw-output  . @@
+jq -f --null-input --compact-output --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --seq --arg foo bar -e --monochrome-output --tab --sort-keys --args  . @@
+jq -f --null-input --compact-output --slurpfile foo tests/modules/data.json -e --monochrome-output --slurp --tab --indent --args --stream --raw-input  . @@
+jq -f --null-input --compact-output --slurpfile foo tests/modules/data.json -L /tmp --seq --indent --color-output --sort-keys --args --ascii-output --stream --argjson foo 123 --raw-output  . @@
+jq -f --null-input --compact-output --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --seq --arg foo bar --monochrome-output --slurp --tab --indent --args --join-output  . @@
+jq -f --null-input --compact-output --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --seq --jsonargs --slurp --tab --indent --color-output --stream --argjson foo 123 --raw-input --raw-output  . @@
+jq -f --null-input --compact-output --slurpfile foo tests/modules/data.json -L /tmp -e --monochrome-output --jsonargs --slurp --join-output --ascii-output --stream --argjson foo 123  . @@
+jq -f --null-input --compact-output --slurpfile foo tests/modules/data.json --arg foo bar -e --monochrome-output --slurp --sort-keys --args --join-output --argjson foo 123  . @@
+jq -f --null-input --compact-output --slurpfile foo tests/modules/data.json --seq --arg foo bar -e --jsonargs --slurp --tab --sort-keys --stream --raw-input --raw-output  . @@
+jq -f --null-input --compact-output --slurpfile foo tests/modules/data.json -L /tmp --seq --arg foo bar --monochrome-output --args --join-output --argjson foo 123 --raw-input  . @@
+jq -f --null-input --compact-output --slurpfile foo tests/modules/data.json -L /tmp --seq --arg foo bar --jsonargs --slurp --tab --color-output --ascii-output  . @@
+jq -f --null-input --compact-output --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --seq --slurp --tab --indent --sort-keys --ascii-output --argjson foo 123 --raw-output  . @@
+jq -f --null-input --compact-output --slurpfile foo tests/modules/data.json --unbuffered --seq --slurp --tab --color-output --sort-keys --join-output --ascii-output --stream --raw-input  . @@
+jq -f --null-input --compact-output --slurpfile foo tests/modules/data.json -L /tmp --arg foo bar --monochrome-output --slurp --tab --args --ascii-output --argjson foo 123 --raw-output  . @@
+jq -f --null-input --compact-output --slurpfile foo tests/modules/data.json -L /tmp --seq --monochrome-output --slurp --tab --indent --sort-keys --args --argjson foo 123 --raw-input  . @@
+jq -f --null-input --compact-output --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --monochrome-output --tab --indent --sort-keys --join-output --ascii-output --stream  . @@
+jq -f --null-input --compact-output --slurpfile foo tests/modules/data.json --unbuffered --arg foo bar -e --monochrome-output --slurp --tab --indent --args --argjson foo 123 --raw-output  . @@
+jq -f --null-input --compact-output --slurpfile foo tests/modules/data.json --unbuffered --seq -e --monochrome-output --jsonargs --slurp --tab --argjson foo 123 --raw-input --raw-output  . @@
+jq -f --null-input --compact-output --slurpfile foo tests/modules/data.json --unbuffered --arg foo bar --monochrome-output --slurp --indent --args --ascii-output --stream --raw-output  . @@
+jq -f --null-input --compact-output --slurpfile foo tests/modules/data.json --arg foo bar --jsonargs --color-output --join-output --ascii-output --raw-input  . @@
+jq -f --null-input --compact-output --slurpfile foo tests/modules/data.json --seq --arg foo bar -e --tab --args --join-output --ascii-output --stream  . @@
+jq -f --null-input --compact-output --slurpfile foo tests/modules/data.json --unbuffered --arg foo bar -e --monochrome-output --tab --indent --args --join-output --ascii-output  . @@
+jq -f --null-input --compact-output --slurpfile foo tests/modules/data.json -L /tmp -e --indent --color-output --join-output --ascii-output --argjson foo 123 --raw-input  . @@
+jq -f --compact-output --slurpfile foo tests/modules/data.json --seq --arg foo bar -e --monochrome-output --slurp --tab --indent --args --stream --argjson foo 123 --raw-input --raw-output  . @@
+jq -f --null-input --argfile foo bar -e --indent --color-output --args --ascii-output --argjson foo 123  . @@
+jq -f --null-input --argfile foo bar --compact-output --arg foo bar --monochrome-output --jsonargs --sort-keys --stream --raw-input  . @@
+jq -f --compact-output --slurpfile foo tests/modules/data.json --unbuffered --arg foo bar --slurp --indent --color-output --args --join-output  . @@
+jq -f --null-input --argfile foo bar --compact-output --unbuffered -L /tmp --arg foo bar -e --slurp --tab --color-output --sort-keys --stream --argjson foo 123 --raw-output  . @@
+jq -f --null-input --slurpfile foo tests/modules/data.json --unbuffered --seq --jsonargs --slurp --indent --join-output --ascii-output --stream --argjson foo 123 --raw-input  . @@
+jq -f --null-input --argfile foo bar -L /tmp --seq --arg foo bar -e --jsonargs --slurp --tab --color-output --join-output --argjson foo 123 --raw-input  . @@
+jq -f --compact-output --slurpfile foo tests/modules/data.json --seq --arg foo bar -e --monochrome-output --slurp --join-output --ascii-output --stream  . @@
+jq -f --compact-output --slurpfile foo tests/modules/data.json -L /tmp --arg foo bar -e --monochrome-output --jsonargs --tab --indent --join-output --raw-input  . @@
+jq -f --null-input --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --seq --arg foo bar -e --monochrome-output --jsonargs --slurp --sort-keys --ascii-output  . @@
+jq -f --compact-output --slurpfile foo tests/modules/data.json --unbuffered --monochrome-output --tab --sort-keys --args --stream --raw-output  . @@
+jq -f --null-input --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --seq --arg foo bar --monochrome-output --slurp --tab --sort-keys --args --ascii-output --stream --argjson foo 123 --raw-input --raw-output  . @@
+jq -f --compact-output --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --seq --arg foo bar --jsonargs --tab --indent --sort-keys --join-output --stream  . @@
+jq -f --null-input --argfile foo bar --unbuffered --seq --monochrome-output --slurp --args --ascii-output --stream --raw-input --raw-output  . @@
+jq -f --null-input --argfile foo bar -e --jsonargs --indent --sort-keys --join-output --ascii-output --stream  . @@
+jq -f --null-input --argfile foo bar -L /tmp --arg foo bar --monochrome-output --slurp --tab --indent --ascii-output --raw-input --raw-output  . @@
+jq -f --null-input --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --arg foo bar --jsonargs --color-output --stream --raw-output  . @@
+jq -f --null-input --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --arg foo bar -e --indent --color-output --args --join-output --stream --raw-input  . @@
+jq -f --null-input --slurpfile foo tests/modules/data.json --unbuffered -L /tmp -e --slurp --tab --color-output --args --join-output --ascii-output --stream --argjson foo 123  . @@
+jq -f --compact-output --slurpfile foo tests/modules/data.json --arg foo bar -e --tab --color-output --args --ascii-output --stream --raw-input --raw-output  . @@
+jq -f --compact-output --slurpfile foo tests/modules/data.json --unbuffered --seq -e --jsonargs --tab --color-output --ascii-output --argjson foo 123  . @@
+jq -f --null-input --slurpfile foo tests/modules/data.json --unbuffered --seq --arg foo bar -e --monochrome-output --args --join-output --stream --argjson foo 123 --raw-input  . @@
+jq -f --null-input --argfile foo bar --unbuffered --seq -e --monochrome-output --jsonargs --tab --indent --sort-keys --join-output --argjson foo 123  . @@
+jq -f --null-input --argfile foo bar --unbuffered --arg foo bar -e --jsonargs --slurp --indent --color-output --stream --argjson foo 123 --raw-input --raw-output  . @@
+jq -f --null-input --argfile foo bar -L /tmp --slurp --tab --indent --color-output --sort-keys --args --stream --raw-input --raw-output  . @@
+jq -f --null-input --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --monochrome-output --indent --sort-keys --join-output --raw-input  . @@
+jq -f --compact-output --slurpfile foo tests/modules/data.json --unbuffered --monochrome-output --jsonargs --slurp --tab --join-output --ascii-output --stream --raw-input  . @@
+jq -f --null-input --argfile foo bar -L /tmp --arg foo bar --color-output --sort-keys --args --ascii-output --argjson foo 123 --raw-input --raw-output  . @@
+jq -f --compact-output --slurpfile foo tests/modules/data.json --seq -e --indent --color-output --sort-keys --args --raw-input --raw-output  . @@
+jq -f --null-input --slurpfile foo tests/modules/data.json --seq --arg foo bar --slurp --tab --color-output --args --join-output --stream --raw-input  . @@
+jq -f --null-input --argfile foo bar --compact-output -L /tmp -e --jsonargs --slurp --sort-keys --ascii-output --argjson foo 123 --raw-input --raw-output  . @@
+jq -f --null-input --argfile foo bar --compact-output --jsonargs --tab --indent --color-output --join-output --ascii-output --stream --argjson foo 123 --raw-input  . @@
+jq -f --compact-output --slurpfile foo tests/modules/data.json --unbuffered --monochrome-output --ascii-output --argjson foo 123 --raw-input --raw-output  . @@
+jq -f --null-input --slurpfile foo tests/modules/data.json --unbuffered --seq --arg foo bar -e --slurp --tab --color-output --sort-keys --args --ascii-output --stream --raw-output  . @@
+jq -f --null-input --argfile foo bar --compact-output --unbuffered -L /tmp --seq --arg foo bar -e --slurp --tab --indent --color-output --args --ascii-output --argjson foo 123 --raw-input --raw-output  . @@
+jq -f --null-input --argfile foo bar --unbuffered --arg foo bar --tab --indent --color-output --sort-keys --args --raw-output  . @@
+jq -f --null-input --argfile foo bar --unbuffered --seq --arg foo bar --jsonargs --tab --color-output --ascii-output --stream --argjson foo 123 --raw-input --raw-output  . @@
+jq -f --null-input --argfile foo bar --unbuffered --slurp --indent --color-output --args --join-output --ascii-output --stream  . @@
+jq -f --compact-output --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --seq --slurp --color-output --args --argjson foo 123 --raw-output  . @@
+jq -f --null-input --argfile foo bar -L /tmp --seq --arg foo bar --slurp --args --join-output --ascii-output --raw-input  . @@
+jq -f --null-input --argfile foo bar --compact-output --unbuffered -L /tmp --seq --jsonargs --color-output --join-output --ascii-output --stream  . @@
+jq -f --compact-output --slurpfile foo tests/modules/data.json --arg foo bar --monochrome-output --slurp --sort-keys --args --ascii-output --stream --raw-input --raw-output  . @@
+jq -f --null-input --argfile foo bar --compact-output --seq -e --monochrome-output --tab --sort-keys --args --join-output --stream --argjson foo 123 --raw-input  . @@
+jq -f --null-input --argfile foo bar --compact-output --seq --arg foo bar --indent --color-output --sort-keys --args --join-output --ascii-output --argjson foo 123  . @@
+jq -f --null-input --slurpfile foo tests/modules/data.json --jsonargs --slurp --indent --color-output --sort-keys --raw-output  . @@
+jq -f --null-input --argfile foo bar --compact-output --seq --arg foo bar --monochrome-output --tab --args --stream --argjson foo 123 --raw-output  . @@
+jq -f --null-input --slurpfile foo tests/modules/data.json --unbuffered --monochrome-output --slurp --indent --sort-keys --args --stream --argjson foo 123 --raw-input --raw-output  . @@
+jq -f --null-input --slurpfile foo tests/modules/data.json --unbuffered --arg foo bar -e --monochrome-output --jsonargs --indent --ascii-output --argjson foo 123 --raw-input --raw-output  . @@
+jq -f --null-input --slurpfile foo tests/modules/data.json -L /tmp --seq -e --monochrome-output --sort-keys --stream --raw-output  . @@
+jq -f --null-input --slurpfile foo tests/modules/data.json -L /tmp --arg foo bar --monochrome-output --jsonargs --tab --sort-keys --join-output --ascii-output --stream  . @@
+jq -f --compact-output --slurpfile foo tests/modules/data.json -L /tmp --seq -e --jsonargs --color-output --ascii-output --raw-output  . @@
+jq -f --null-input --argfile foo bar --compact-output --seq --monochrome-output --jsonargs --slurp --tab --sort-keys --join-output --ascii-output --raw-input  . @@
+jq -f --null-input --argfile foo bar --compact-output --unbuffered -L /tmp --arg foo bar --jsonargs --slurp --indent --color-output --sort-keys --ascii-output --stream --raw-input --raw-output  . @@
+jq -f --null-input --argfile foo bar --compact-output --unbuffered -L /tmp --arg foo bar -e --monochrome-output --jsonargs --sort-keys --argjson foo 123 --raw-output  . @@
+jq -f --null-input --slurpfile foo tests/modules/data.json --unbuffered -e --tab --indent --color-output --ascii-output --raw-output  . @@
+jq -f --null-input --argfile foo bar --compact-output --unbuffered --arg foo bar --monochrome-output --indent --args --join-output --stream --argjson foo 123  . @@
+jq -f --null-input --argfile foo bar -L /tmp -e --color-output --ascii-output --stream --argjson foo 123 --raw-input --raw-output  . @@
+jq -f --null-input --argfile foo bar --seq --arg foo bar -e --jsonargs --tab --indent --color-output --ascii-output --stream  . @@
+jq -f --null-input --slurpfile foo tests/modules/data.json --seq --arg foo bar -e --monochrome-output --slurp --indent --sort-keys --args --raw-input --raw-output  . @@
+jq -f --null-input --slurpfile foo tests/modules/data.json --unbuffered --tab --sort-keys --args --join-output --ascii-output  . @@
+jq -f --compact-output --slurpfile foo tests/modules/data.json --unbuffered --indent --args --ascii-output --stream --raw-input  . @@
+jq -f --null-input --argfile foo bar --compact-output -L /tmp -e --slurp --color-output --sort-keys --raw-output  . @@
+jq -f --compact-output --slurpfile foo tests/modules/data.json -L /tmp -e --color-output --args --join-output --ascii-output --raw-input  . @@
+jq -f --compact-output --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --arg foo bar -e --slurp --tab --args --join-output --ascii-output --argjson foo 123 --raw-input  . @@
+jq -f --compact-output --slurpfile foo tests/modules/data.json -L /tmp --arg foo bar --jsonargs --slurp --indent --color-output --sort-keys --join-output --ascii-output --stream  . @@
+jq -f --compact-output --slurpfile foo tests/modules/data.json -L /tmp -e --tab --indent --args --raw-output  . @@
+jq -f --null-input --argfile foo bar -L /tmp --seq -e --slurp --tab --indent --color-output --sort-keys --args --raw-input  . @@
+jq -f --null-input --argfile foo bar -L /tmp --monochrome-output --indent --args --ascii-output --raw-input --raw-output  . @@
+jq -f --null-input --slurpfile foo tests/modules/data.json -L /tmp --monochrome-output --jsonargs --indent --join-output --ascii-output --argjson foo 123 --raw-input  . @@
+jq -f --null-input --slurpfile foo tests/modules/data.json --seq -e --monochrome-output --slurp --tab --indent --sort-keys --args --ascii-output --argjson foo 123 --raw-output  . @@
+jq -f --compact-output --slurpfile foo tests/modules/data.json -L /tmp --seq --monochrome-output --jsonargs --sort-keys --stream  . @@
+jq -f --compact-output --slurpfile foo tests/modules/data.json -L /tmp --seq -e --tab --indent --stream --raw-input --raw-output  . @@
+jq -f --null-input --argfile foo bar -L /tmp --arg foo bar -e --monochrome-output --sort-keys --args --join-output --stream --raw-input  . @@
+jq -f --null-input --argfile foo bar --compact-output --seq --arg foo bar -e --jsonargs --color-output --sort-keys --stream --argjson foo 123 --raw-input --raw-output  . @@
+jq -f --null-input --argfile foo bar --compact-output --unbuffered --slurp --tab --sort-keys --args --argjson foo 123 --raw-output  . @@
+jq -f --null-input --argfile foo bar --unbuffered --seq -e --monochrome-output --jsonargs --indent --sort-keys --ascii-output --stream --raw-input  . @@
+jq -f --null-input --argfile foo bar --compact-output -e --slurp --tab --color-output --args --join-output  . @@
+jq -f --null-input --slurpfile foo tests/modules/data.json --seq --jsonargs --color-output --ascii-output --argjson foo 123 --raw-output  . @@
+jq -f --compact-output --slurpfile foo tests/modules/data.json -L /tmp --seq --indent --color-output --join-output  . @@
+jq -f --null-input --argfile foo bar --compact-output --unbuffered -L /tmp --monochrome-output --jsonargs --slurp --tab --stream --raw-input --raw-output  . @@
+jq -f --null-input --slurpfile foo tests/modules/data.json -L /tmp -e --slurp --indent --sort-keys --join-output --stream  . @@
+jq -f --null-input --argfile foo bar --compact-output --unbuffered -e --slurp --tab --color-output --args --ascii-output --argjson foo 123 --raw-input --raw-output  . @@
+jq -f --null-input --argfile foo bar --seq --arg foo bar -e --indent --color-output --sort-keys --join-output --ascii-output --stream --argjson foo 123 --raw-input  . @@
+jq -f --compact-output --slurpfile foo tests/modules/data.json --seq --arg foo bar -e --jsonargs --slurp --tab --color-output --sort-keys --raw-output  . @@
+jq -f --null-input --argfile foo bar --unbuffered --seq -e --indent --args --stream --argjson foo 123 --raw-output  . @@
+jq -f --null-input --argfile foo bar --compact-output --unbuffered -L /tmp --arg foo bar -e --jsonargs --tab --indent --sort-keys --join-output --ascii-output --stream --raw-input  . @@
+jq -f --compact-output --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --seq -e --slurp --args --join-output --stream --argjson foo 123  . @@
+jq -f --compact-output --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --arg foo bar --slurp --tab --color-output --args --stream --argjson foo 123 --raw-input  . @@
+jq -f --compact-output --slurpfile foo tests/modules/data.json --unbuffered --seq --arg foo bar -e --jsonargs --slurp --tab --indent --color-output --join-output  . @@
+jq -f --null-input --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --seq --jsonargs --indent --color-output --sort-keys --join-output --stream --argjson foo 123 --raw-input  . @@
+jq -f --null-input --argfile foo bar -L /tmp --seq --arg foo bar -e --jsonargs --slurp --tab --color-output --sort-keys --argjson foo 123 --raw-output  . @@
+jq -f --compact-output --slurpfile foo tests/modules/data.json -L /tmp --arg foo bar --jsonargs --slurp --tab --sort-keys --stream --argjson foo 123 --raw-output  . @@
+jq -f --null-input --argfile foo bar --unbuffered --arg foo bar -e --slurp --color-output --ascii-output --stream --raw-input  . @@
+jq -f --null-input --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --arg foo bar -e --jsonargs --slurp --color-output --sort-keys --join-output --argjson foo 123 --raw-input  . @@
+jq -f --null-input --slurpfile foo tests/modules/data.json -L /tmp --seq --arg foo bar -e --tab --color-output --args --ascii-output --argjson foo 123 --raw-output  . @@
+jq -f --null-input --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --seq --arg foo bar --jsonargs --slurp --tab --argjson foo 123 --raw-output  . @@
+jq -f --compact-output --slurpfile foo tests/modules/data.json --unbuffered --seq --arg foo bar -e --jsonargs --slurp --indent --color-output --sort-keys --argjson foo 123 --raw-input  . @@
+jq -f --null-input --argfile foo bar --unbuffered -L /tmp --seq --arg foo bar -e --slurp --color-output --args --join-output --ascii-output --argjson foo 123  . @@
+jq -f --null-input --slurpfile foo tests/modules/data.json --seq --arg foo bar -e --monochrome-output --jsonargs --ascii-output --argjson foo 123 --raw-output  . @@
+jq -f --compact-output --slurpfile foo tests/modules/data.json -L /tmp --seq --arg foo bar -e --tab --indent --color-output --sort-keys --args --join-output --stream --argjson foo 123 --raw-input  . @@
+jq -f --null-input --argfile foo bar --compact-output --arg foo bar --monochrome-output --jsonargs --slurp --indent --sort-keys --join-output --ascii-output --argjson foo 123  . @@
+jq -f --null-input --argfile foo bar --unbuffered -L /tmp -e --slurp --color-output --args --ascii-output --stream --argjson foo 123 --raw-output  . @@
+jq -f --null-input --argfile foo bar --compact-output --unbuffered -L /tmp --tab --indent --color-output --args --stream  . @@
+jq -f --null-input --argfile foo bar --compact-output --unbuffered -L /tmp --seq --arg foo bar --monochrome-output --slurp --tab --indent --sort-keys --args --join-output --argjson foo 123 --raw-input  . @@
+jq -f --null-input --argfile foo bar --unbuffered --seq -e --monochrome-output --jsonargs --slurp --indent --ascii-output --stream --argjson foo 123 --raw-output  . @@
+jq -f --compact-output --slurpfile foo tests/modules/data.json --arg foo bar -e --slurp --tab --indent --sort-keys --args --join-output --ascii-output --raw-input  . @@
+jq -f --compact-output --slurpfile foo tests/modules/data.json --unbuffered --seq -e --tab --color-output --args --join-output --stream --argjson foo 123  . @@
+jq -f --null-input --argfile foo bar --compact-output --unbuffered -L /tmp --seq --arg foo bar --jsonargs --slurp --tab --indent --sort-keys --argjson foo 123 --raw-output  . @@
+jq -f --compact-output --slurpfile foo tests/modules/data.json -L /tmp --seq --arg foo bar -e --monochrome-output --jsonargs --slurp --tab --sort-keys --join-output --ascii-output --stream --argjson foo 123 --raw-input  . @@
+jq -f --compact-output --slurpfile foo tests/modules/data.json -L /tmp --seq -e --jsonargs --tab --color-output --sort-keys --stream --raw-output  . @@
+jq -f --null-input --argfile foo bar --compact-output -L /tmp --seq --monochrome-output --slurp --tab --indent --sort-keys --stream --raw-output  . @@
+jq -f --null-input --argfile foo bar --unbuffered -L /tmp --arg foo bar --jsonargs --slurp --sort-keys --join-output --stream  . @@
+jq -f --compact-output --slurpfile foo tests/modules/data.json -L /tmp --arg foo bar -e --jsonargs --slurp --join-output --ascii-output --stream --argjson foo 123 --raw-input  . @@
+jq -f --null-input --argfile foo bar --seq --arg foo bar --slurp --tab --color-output --sort-keys --join-output --argjson foo 123  . @@
+jq -f --compact-output --slurpfile foo tests/modules/data.json --arg foo bar -e --monochrome-output --slurp --indent --sort-keys --args --ascii-output --stream --raw-output  . @@
+jq -f --null-input --argfile foo bar --unbuffered -L /tmp --arg foo bar -e --monochrome-output --jsonargs --sort-keys --argjson foo 123 --raw-input  . @@
+jq -f --argfile foo bar --compact-output --unbuffered --seq --arg foo bar --tab --color-output --sort-keys --args --join-output --ascii-output --stream --raw-input  . @@
+jq -f --slurpfile foo tests/modules/data.json -L /tmp --arg foo bar -e --jsonargs --indent --color-output --sort-keys --argjson foo 123 --raw-output  . @@
+jq -f --argfile foo bar -L /tmp -e --monochrome-output --slurp --tab --indent --args --join-output --stream  . @@
+jq -f --argfile foo bar --compact-output --unbuffered -L /tmp --monochrome-output --jsonargs --slurp --indent --argjson foo 123  . @@
+jq -f --argfile foo bar --unbuffered --seq --jsonargs --indent --color-output --raw-input --raw-output  . @@
+jq -f --argfile foo bar --compact-output -L /tmp --seq --monochrome-output --tab --join-output --ascii-output --argjson foo 123  . @@
+jq -f --argfile foo bar --compact-output --unbuffered --seq --arg foo bar -e --slurp --indent --color-output --ascii-output --raw-output  . @@
+jq -f --argfile foo bar -L /tmp --seq --jsonargs --tab --indent --color-output --sort-keys --stream --argjson foo 123 --raw-input  . @@
+jq -f --argfile foo bar --compact-output -L /tmp --arg foo bar --slurp --color-output --sort-keys --args --join-output --stream --argjson foo 123  . @@
+jq -f --slurpfile foo tests/modules/data.json -e --slurp --tab --indent --color-output --sort-keys --args --join-output --ascii-output --argjson foo 123  . @@
+jq -f --argfile foo bar --unbuffered --seq --arg foo bar --slurp --tab --sort-keys --args --ascii-output --argjson foo 123  . @@
+jq -f --slurpfile foo tests/modules/data.json --seq --slurp --indent --color-output --sort-keys --ascii-output --stream --argjson foo 123 --raw-input --raw-output  . @@
+jq -f --slurpfile foo tests/modules/data.json --seq --arg foo bar -e --sort-keys --ascii-output --stream --argjson foo 123 --raw-input  . @@
+jq -f --slurpfile foo tests/modules/data.json --seq --arg foo bar --monochrome-output --jsonargs --slurp --tab --indent --sort-keys --argjson foo 123 --raw-input --raw-output  . @@
+jq -f --slurpfile foo tests/modules/data.json -L /tmp --arg foo bar --monochrome-output --tab --indent --sort-keys --args --argjson foo 123 --raw-output  . @@
+jq -f --argfile foo bar --unbuffered -L /tmp --arg foo bar --slurp --indent --args --ascii-output --argjson foo 123 --raw-output  . @@
+jq -f --argfile foo bar --arg foo bar --monochrome-output --args --raw-output  . @@
+jq -f --argfile foo bar --compact-output --unbuffered --arg foo bar -e --monochrome-output --slurp --tab --sort-keys --join-output --stream --argjson foo 123 --raw-input  . @@
+jq -f --slurpfile foo tests/modules/data.json --unbuffered -e --jsonargs --slurp --color-output --sort-keys --argjson foo 123 --raw-output  . @@
+jq -f --argfile foo bar --compact-output --unbuffered -L /tmp -e --monochrome-output --sort-keys --args --join-output --ascii-output  . @@
+jq -f --argfile foo bar --unbuffered --seq --arg foo bar -e --jsonargs --color-output --sort-keys --join-output  . @@
+jq -f --slurpfile foo tests/modules/data.json -L /tmp --seq --jsonargs --indent --ascii-output --argjson foo 123 --raw-input --raw-output  . @@
+jq -f --argfile foo bar --compact-output --unbuffered --seq -e --slurp --indent --color-output --sort-keys --args --join-output --argjson foo 123 --raw-input  . @@
+jq -f --argfile foo bar -L /tmp --seq --arg foo bar --monochrome-output --jsonargs --slurp --tab --sort-keys --ascii-output --stream --raw-output  . @@
+jq -f --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --seq --arg foo bar -e --tab --color-output --sort-keys --argjson foo 123 --raw-input --raw-output  . @@
+jq -f --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --seq -e --slurp --tab --indent --args --ascii-output --raw-input  . @@
+jq -f --argfile foo bar --unbuffered -L /tmp --seq --arg foo bar -e --monochrome-output --slurp --indent --sort-keys --join-output --stream  . @@
+jq -f --argfile foo bar -L /tmp --arg foo bar -e --monochrome-output --tab --sort-keys --args --ascii-output --argjson foo 123 --raw-input  . @@
+jq -f --argfile foo bar --compact-output -L /tmp --seq -e --monochrome-output --jsonargs --indent --join-output --stream --raw-input  . @@
+jq -f --argfile foo bar --compact-output --seq --arg foo bar -e --monochrome-output --jsonargs --slurp --tab --indent --ascii-output --stream --argjson foo 123  . @@
+jq -f --argfile foo bar --unbuffered -L /tmp -e --monochrome-output --tab --indent --args --ascii-output --stream --argjson foo 123 --raw-output  . @@
+jq -f --slurpfile foo tests/modules/data.json --unbuffered --arg foo bar --slurp --tab --indent --sort-keys --args --join-output --argjson foo 123 --raw-input  . @@
+jq -f --argfile foo bar --compact-output --unbuffered --arg foo bar -e --jsonargs --raw-input --raw-output  . @@
+jq -f --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --seq --arg foo bar --indent --color-output --sort-keys --ascii-output --raw-input  . @@
+jq -f --argfile foo bar --unbuffered --seq --arg foo bar --monochrome-output --tab --indent --args --join-output --ascii-output --raw-input  . @@
+jq -f --slurpfile foo tests/modules/data.json -L /tmp --slurp --tab --indent --color-output --join-output --stream --argjson foo 123  . @@
+jq -f --slurpfile foo tests/modules/data.json --unbuffered -L /tmp -e --monochrome-output --jsonargs --slurp --tab --indent --sort-keys --stream --argjson foo 123 --raw-input --raw-output  . @@
+jq -f --argfile foo bar -e --args --join-output --argjson foo 123 --raw-input  . @@
+jq -f --argfile foo bar --compact-output --unbuffered -L /tmp --seq --slurp --tab --indent --color-output --sort-keys --args --ascii-output --stream --raw-output  . @@
+jq -f --slurpfile foo tests/modules/data.json --seq -e --tab --indent --color-output --sort-keys --args --join-output --stream  . @@
+jq -f --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --seq -e --monochrome-output --slurp --args --join-output --ascii-output --argjson foo 123  . @@
+jq -f --slurpfile foo tests/modules/data.json --arg foo bar --jsonargs --indent --color-output --join-output --ascii-output --stream --argjson foo 123  . @@
+jq -f --argfile foo bar --compact-output --arg foo bar --jsonargs --slurp --tab --indent --color-output --argjson foo 123 --raw-input --raw-output  . @@
+jq -f --slurpfile foo tests/modules/data.json --monochrome-output --jsonargs --sort-keys --argjson foo 123 --raw-input --raw-output  . @@
+jq -f --argfile foo bar --arg foo bar -e --slurp --tab --args --ascii-output --stream --argjson foo 123 --raw-output  . @@
+jq -f --argfile foo bar --compact-output --unbuffered -L /tmp --jsonargs --tab --color-output --sort-keys --join-output --stream  . @@
+jq -f --argfile foo bar --compact-output -L /tmp --seq --indent --sort-keys --args --stream --argjson foo 123 --raw-input --raw-output  . @@
+jq -f --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --seq --monochrome-output --jsonargs --slurp --tab --indent --raw-output  . @@
+jq -f --argfile foo bar --seq -e --slurp --indent --color-output --sort-keys --argjson foo 123 --raw-input --raw-output  . @@
+jq -f --argfile foo bar --compact-output --unbuffered --arg foo bar --jsonargs --color-output --ascii-output --stream --argjson foo 123 --raw-input  . @@
+jq -f --argfile foo bar --monochrome-output --jsonargs --slurp --tab --indent --sort-keys --join-output --stream --argjson foo 123  . @@
+jq -f --argfile foo bar --compact-output --unbuffered -L /tmp --seq --arg foo bar --monochrome-output --jsonargs --tab --indent --sort-keys --ascii-output --raw-input --raw-output  . @@
+jq -f --argfile foo bar --compact-output -L /tmp --seq --arg foo bar -e --jsonargs --indent --join-output --ascii-output --argjson foo 123  . @@
+jq -f --argfile foo bar --compact-output -L /tmp --seq -e --slurp --tab --color-output --sort-keys --args --join-output --ascii-output --stream --argjson foo 123 --raw-input  . @@
+jq -f --argfile foo bar --compact-output --unbuffered -L /tmp --seq --tab --ascii-output --stream --raw-input --raw-output  . @@
+jq -f --argfile foo bar --unbuffered -L /tmp --seq --arg foo bar -e --monochrome-output --slurp --tab --indent --sort-keys --args --raw-input --raw-output  . @@
+jq -f --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --slurp --indent --color-output --join-output --argjson foo 123 --raw-input  . @@
+jq -f --slurpfile foo tests/modules/data.json --seq --arg foo bar -e --jsonargs --tab --sort-keys --join-output --stream --argjson foo 123 --raw-input  . @@
+jq -f --argfile foo bar --unbuffered --arg foo bar --monochrome-output --indent --sort-keys --ascii-output --stream --argjson foo 123 --raw-output  . @@
+jq -f --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --seq --arg foo bar -e --monochrome-output --jsonargs --slurp --indent --join-output --ascii-output --stream  . @@
+jq -f --slurpfile foo tests/modules/data.json --seq --monochrome-output --indent --sort-keys --args --stream --argjson foo 123 --raw-input  . @@
+jq -f --argfile foo bar --compact-output -L /tmp -e --monochrome-output --jsonargs --tab --ascii-output --raw-output  . @@
+jq -f --argfile foo bar --unbuffered -L /tmp --arg foo bar --slurp --color-output --args --join-output --ascii-output --raw-input  . @@
+jq -f --argfile foo bar --compact-output --unbuffered --monochrome-output --sort-keys --args --join-output --ascii-output --stream --argjson foo 123 --raw-input  . @@
+jq -f --slurpfile foo tests/modules/data.json --seq --arg foo bar --monochrome-output --tab --sort-keys --join-output --stream  . @@
+jq -f --argfile foo bar -L /tmp --seq --arg foo bar --jsonargs --slurp --indent --color-output --sort-keys --raw-input  . @@
+jq -f --slurpfile foo tests/modules/data.json --jsonargs --slurp --tab --color-output --sort-keys --ascii-output --raw-input  . @@
+jq -f --argfile foo bar -L /tmp --seq -e --jsonargs --slurp --tab --indent --ascii-output --stream --raw-output  . @@
+jq -f --slurpfile foo tests/modules/data.json -L /tmp --seq --arg foo bar --monochrome-output --slurp --argjson foo 123 --raw-output  . @@
+jq -f --argfile foo bar --seq -e --jsonargs --slurp --tab --color-output --ascii-output --argjson foo 123 --raw-input --raw-output  . @@
+jq -f --slurpfile foo tests/modules/data.json -L /tmp --seq --arg foo bar --monochrome-output --indent --args --join-output --ascii-output --argjson foo 123  . @@
+jq -f --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --arg foo bar --jsonargs --tab --color-output --sort-keys --join-output --stream --raw-input  . @@
+jq -f --argfile foo bar -L /tmp --arg foo bar -e --tab --indent --color-output --join-output --stream --argjson foo 123 --raw-input  . @@
+jq -f --argfile foo bar --unbuffered --seq --slurp --tab --indent --color-output --join-output --argjson foo 123 --raw-input  . @@
+jq -f --slurpfile foo tests/modules/data.json -L /tmp -e --tab --color-output --sort-keys --join-output --ascii-output  . @@
+jq -f --slurpfile foo tests/modules/data.json --seq -e --monochrome-output --slurp --tab --sort-keys --args --join-output --ascii-output --argjson foo 123 --raw-input  . @@
+jq -f --slurpfile foo tests/modules/data.json -L /tmp --arg foo bar --monochrome-output --jsonargs --tab --indent --ascii-output --raw-input --raw-output  . @@
+jq -f --slurpfile foo tests/modules/data.json --seq --tab --color-output --args --join-output --raw-input  . @@
+jq -f --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --arg foo bar -e --monochrome-output --tab --args --ascii-output --raw-input  . @@
+jq -f --argfile foo bar -L /tmp --jsonargs --tab --color-output --argjson foo 123 --raw-input  . @@
+jq -f --argfile foo bar -L /tmp --seq --jsonargs --slurp --color-output --sort-keys --join-output --ascii-output --stream --argjson foo 123 --raw-input  . @@
+jq -f --argfile foo bar --compact-output --seq -e --jsonargs --color-output --sort-keys --ascii-output --stream --argjson foo 123 --raw-output  . @@
+jq -f --argfile foo bar --unbuffered -L /tmp --seq -e --monochrome-output --jsonargs --slurp --argjson foo 123 --raw-input --raw-output  . @@
+jq -f --argfile foo bar --arg foo bar --monochrome-output --slurp --tab --sort-keys --stream  . @@
+jq -f --argfile foo bar --compact-output --arg foo bar -e --slurp --color-output --args --ascii-output --stream --raw-output  . @@
+jq -f --slurpfile foo tests/modules/data.json --arg foo bar --jsonargs --slurp --tab --sort-keys --ascii-output --stream --argjson foo 123 --raw-input --raw-output  . @@
+jq --null-input --compact-output --slurpfile foo tests/modules/data.json --unbuffered --seq --arg foo bar --monochrome-output --tab --indent --argjson foo 123  . @@
+jq --null-input --compact-output --slurpfile foo tests/modules/data.json --monochrome-output --jsonargs --indent --ascii-output --raw-output  . @@
+jq --null-input --compact-output --slurpfile foo tests/modules/data.json -L /tmp --seq --arg foo bar -e --jsonargs --color-output --sort-keys --join-output --ascii-output --raw-input  . @@
+jq --null-input --compact-output --slurpfile foo tests/modules/data.json --unbuffered -L /tmp -e --slurp --tab --indent --sort-keys --args --join-output --stream --argjson foo 123 --raw-input  . @@
+jq --null-input --compact-output --slurpfile foo tests/modules/data.json -L /tmp -e --tab --color-output --sort-keys --args --argjson foo 123 --raw-output  . @@
+jq --null-input --compact-output --slurpfile foo tests/modules/data.json --unbuffered --arg foo bar --jsonargs --slurp --tab --color-output --sort-keys --raw-input --raw-output  . @@
+jq --null-input --compact-output --slurpfile foo tests/modules/data.json --unbuffered --seq --arg foo bar -e --monochrome-output --indent --sort-keys --args --ascii-output --stream --raw-input --raw-output  . @@
+jq --null-input --compact-output --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --arg foo bar -e --monochrome-output --jsonargs --indent --sort-keys --join-output --ascii-output --stream --argjson foo 123  . @@
+jq --null-input --compact-output --slurpfile foo tests/modules/data.json --unbuffered -L /tmp -e --jsonargs --color-output --raw-input  . @@
+jq --null-input --compact-output --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --arg foo bar -e --slurp --color-output --args --join-output --ascii-output --argjson foo 123 --raw-input  . @@
+jq --null-input --compact-output --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --seq --tab --indent --color-output --args --join-output --argjson foo 123  . @@
+jq --null-input --compact-output --slurpfile foo tests/modules/data.json -L /tmp -e --monochrome-output --args --stream --raw-input --raw-output  . @@
+jq --null-input --compact-output --slurpfile foo tests/modules/data.json --indent --sort-keys --args --join-output --ascii-output --argjson foo 123  . @@
+jq --null-input --compact-output --slurpfile foo tests/modules/data.json --seq --arg foo bar -e --monochrome-output --tab --indent --sort-keys --join-output --ascii-output --argjson foo 123 --raw-input  . @@
+jq --null-input --compact-output --slurpfile foo tests/modules/data.json --arg foo bar --tab --color-output --sort-keys --args --stream --raw-input  . @@
+jq --null-input --compact-output --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --seq --arg foo bar -e --args --ascii-output --raw-output  . @@
+jq --null-input --compact-output --slurpfile foo tests/modules/data.json -L /tmp --monochrome-output --slurp --tab --indent --sort-keys --ascii-output --stream --argjson foo 123 --raw-output  . @@
+jq --null-input --compact-output --slurpfile foo tests/modules/data.json --seq --jsonargs --tab --indent --ascii-output --argjson foo 123 --raw-input --raw-output  . @@
+jq --null-input --compact-output --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --seq --arg foo bar --monochrome-output --jsonargs --tab --indent --sort-keys --join-output --argjson foo 123  . @@
+jq --null-input --compact-output --slurpfile foo tests/modules/data.json --seq --indent --color-output --args --join-output --stream --raw-input  . @@
+jq --null-input --compact-output --slurpfile foo tests/modules/data.json --unbuffered --seq --arg foo bar -e --jsonargs --slurp --color-output --join-output --ascii-output --stream --argjson foo 123 --raw-input  . @@
+jq --null-input --compact-output --slurpfile foo tests/modules/data.json --seq --arg foo bar --tab --color-output --sort-keys --ascii-output --raw-output  . @@
+jq --null-input --compact-output --slurpfile foo tests/modules/data.json --jsonargs --slurp --color-output --sort-keys --join-output --ascii-output --argjson foo 123  . @@
+jq --null-input --compact-output --slurpfile foo tests/modules/data.json --seq --arg foo bar -e --monochrome-output --jsonargs --slurp --tab --indent --join-output --ascii-output --argjson foo 123  . @@
+jq --null-input --compact-output --slurpfile foo tests/modules/data.json --unbuffered -e --monochrome-output --jsonargs --slurp --join-output --ascii-output --raw-input  . @@
+jq --null-input --compact-output --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --jsonargs --sort-keys --join-output --stream --argjson foo 123  . @@
+jq --null-input --compact-output --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --arg foo bar --slurp --tab --indent --sort-keys --args --join-output --ascii-output --stream --raw-input  . @@
+jq --null-input --compact-output --slurpfile foo tests/modules/data.json -L /tmp --arg foo bar -e --slurp --color-output --sort-keys --ascii-output --stream --argjson foo 123 --raw-output  . @@
+jq --null-input --compact-output --slurpfile foo tests/modules/data.json --arg foo bar --tab --color-output --args --ascii-output --argjson foo 123 --raw-input --raw-output  . @@
+jq --null-input --compact-output --slurpfile foo tests/modules/data.json -L /tmp -e --monochrome-output --jsonargs --slurp --indent --sort-keys --raw-input  . @@
+jq --null-input --slurpfile foo tests/modules/data.json -L /tmp --seq --monochrome-output --jsonargs --slurp --tab --sort-keys --join-output --stream --argjson foo 123  . @@
+jq --compact-output --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --seq --arg foo bar --jsonargs --slurp --color-output --ascii-output --argjson foo 123 --raw-input --raw-output  . @@
+jq --null-input --argfile foo bar --compact-output --unbuffered -L /tmp --jsonargs --slurp --tab --indent --color-output --sort-keys --ascii-output  . @@
+jq --null-input --slurpfile foo tests/modules/data.json --seq -e --tab --indent --color-output --sort-keys --stream --raw-input --raw-output  . @@
+jq --null-input --argfile foo bar --seq -e --monochrome-output --jsonargs --tab --sort-keys --ascii-output --argjson foo 123 --raw-input --raw-output  . @@
+jq --null-input --argfile foo bar --compact-output --unbuffered --seq -e --tab --args --join-output --raw-input  . @@
+jq --null-input --argfile foo bar --compact-output --slurp --tab --indent --color-output --args --ascii-output --stream --argjson foo 123 --raw-input --raw-output  . @@
+jq --null-input --argfile foo bar -L /tmp --seq --arg foo bar -e --indent --sort-keys --args --join-output  . @@
+jq --null-input --slurpfile foo tests/modules/data.json --arg foo bar --slurp --stream --argjson foo 123 --raw-input --raw-output  . @@
+jq --null-input --argfile foo bar --arg foo bar --slurp --tab --color-output --sort-keys --join-output  . @@
+jq --null-input --argfile foo bar --compact-output --unbuffered -L /tmp --seq --slurp --color-output --join-output --stream --raw-input  . @@
+jq --compact-output --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --arg foo bar --indent --color-output --sort-keys --args --stream --argjson foo 123 --raw-input --raw-output  . @@
+jq --compact-output --slurpfile foo tests/modules/data.json --unbuffered --seq --monochrome-output --sort-keys --args --join-output --argjson foo 123  . @@
+jq --null-input --slurpfile foo tests/modules/data.json --unbuffered --arg foo bar --tab --color-output --args --ascii-output --argjson foo 123 --raw-input  . @@
+jq --null-input --argfile foo bar --arg foo bar -e --monochrome-output --slurp --indent --sort-keys --args --stream --argjson foo 123 --raw-output  . @@
+jq --compact-output --slurpfile foo tests/modules/data.json -L /tmp --seq --slurp --indent --args --stream --raw-input --raw-output  . @@
+jq --compact-output --slurpfile foo tests/modules/data.json --unbuffered -L /tmp -e --jsonargs --indent --sort-keys --ascii-output --stream --argjson foo 123 --raw-input --raw-output  . @@
+jq --null-input --argfile foo bar --unbuffered -L /tmp --seq --arg foo bar -e --tab --sort-keys --args --stream --raw-input --raw-output  . @@
+jq --compact-output --slurpfile foo tests/modules/data.json -L /tmp -e --monochrome-output --tab --sort-keys --ascii-output  . @@
+jq --null-input --argfile foo bar --compact-output -L /tmp --seq --monochrome-output --slurp --sort-keys --args --raw-output  . @@
+jq --null-input --slurpfile foo tests/modules/data.json --arg foo bar -e --monochrome-output --tab --args --join-output --ascii-output --argjson foo 123  . @@
+jq --null-input --argfile foo bar --compact-output -L /tmp --seq --arg foo bar -e --jsonargs --tab --indent --argjson foo 123 --raw-output  . @@
+jq --null-input --argfile foo bar --compact-output --seq --arg foo bar --jsonargs --slurp --color-output --sort-keys --ascii-output --argjson foo 123  . @@
+jq --null-input --slurpfile foo tests/modules/data.json --seq --monochrome-output --slurp --tab --indent --args --join-output --argjson foo 123 --raw-input  . @@
+jq --null-input --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --seq --jsonargs --slurp --tab --indent --color-output --sort-keys --ascii-output --argjson foo 123 --raw-output  . @@
+jq --null-input --slurpfile foo tests/modules/data.json --unbuffered --seq --arg foo bar --slurp --indent --color-output --sort-keys --args --join-output --ascii-output --raw-input  . @@
+jq --compact-output --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --seq -e --jsonargs --slurp --tab --sort-keys --join-output --ascii-output --argjson foo 123 --raw-input  . @@
+jq --null-input --argfile foo bar --compact-output -L /tmp --seq -e --monochrome-output --slurp --indent --args --join-output --ascii-output --stream --argjson foo 123 --raw-input  . @@
+jq --null-input --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --seq -e --jsonargs --color-output --sort-keys --stream --argjson foo 123 --raw-input --raw-output  . @@
+jq --null-input --argfile foo bar --unbuffered -L /tmp --seq -e --slurp --tab --args --ascii-output --raw-output  . @@
+jq --compact-output --slurpfile foo tests/modules/data.json -L /tmp -e --monochrome-output --slurp --tab --args --argjson foo 123 --raw-input --raw-output  . @@
+jq --null-input --argfile foo bar -L /tmp --seq --arg foo bar --monochrome-output --jsonargs --indent --stream --raw-output  . @@
+jq --null-input --argfile foo bar --unbuffered -L /tmp --monochrome-output --args --join-output --stream --argjson foo 123 --raw-input  . @@
+jq --null-input --argfile foo bar --compact-output --unbuffered --arg foo bar --monochrome-output --jsonargs --slurp --tab --ascii-output --argjson foo 123 --raw-output  . @@
+jq --null-input --argfile foo bar --compact-output --unbuffered --seq --arg foo bar -e --monochrome-output --jsonargs --slurp --tab --join-output --stream  . @@
+jq --null-input --argfile foo bar --compact-output --unbuffered --slurp --color-output --sort-keys --args --ascii-output --stream --argjson foo 123  . @@
+jq --compact-output --slurpfile foo tests/modules/data.json -L /tmp --arg foo bar -e --monochrome-output --jsonargs --slurp --indent --sort-keys --stream --raw-output  . @@
+jq --null-input --slurpfile foo tests/modules/data.json -L /tmp --jsonargs --tab --sort-keys --ascii-output --stream --raw-output  . @@
+jq --null-input --argfile foo bar --unbuffered -L /tmp --seq --jsonargs --slurp --tab --indent --color-output --sort-keys --join-output --ascii-output --stream --raw-input  . @@
+jq --compact-output --slurpfile foo tests/modules/data.json --unbuffered --arg foo bar --slurp --tab --indent --ascii-output --stream --argjson foo 123 --raw-output  . @@
+jq --compact-output --slurpfile foo tests/modules/data.json --jsonargs --tab --color-output --sort-keys --join-output --argjson foo 123 --raw-input  . @@
+jq --compact-output --slurpfile foo tests/modules/data.json --seq --arg foo bar -e --indent --color-output --args --ascii-output --argjson foo 123 --raw-output  . @@
+jq --null-input --slurpfile foo tests/modules/data.json -L /tmp --seq -e --monochrome-output --jsonargs --indent --argjson foo 123 --raw-input --raw-output  . @@
+jq --null-input --slurpfile foo tests/modules/data.json --seq -e --monochrome-output --slurp --tab --join-output --ascii-output --raw-input  . @@
+jq --null-input --argfile foo bar --unbuffered -L /tmp --seq --color-output --argjson foo 123  . @@
+jq --null-input --argfile foo bar --compact-output -e --tab --indent --color-output --sort-keys --join-output --stream --argjson foo 123  . @@
+jq --compact-output --slurpfile foo tests/modules/data.json --seq --arg foo bar -e --slurp --tab --color-output --args --join-output --argjson foo 123  . @@
+jq --null-input --argfile foo bar --compact-output -L /tmp --arg foo bar --tab --indent --sort-keys --args --join-output --ascii-output --stream --argjson foo 123 --raw-input  . @@
+jq --null-input --argfile foo bar --seq --jsonargs --slurp --color-output --sort-keys --stream --argjson foo 123 --raw-output  . @@
+jq --compact-output --slurpfile foo tests/modules/data.json --unbuffered --seq --arg foo bar --monochrome-output --jsonargs --slurp --indent --join-output --stream --argjson foo 123 --raw-input  . @@
+jq --null-input --argfile foo bar --arg foo bar --jsonargs --slurp --tab --indent --join-output --raw-input  . @@
+jq --compact-output --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --seq --arg foo bar -e --monochrome-output --slurp --tab --sort-keys --args --join-output  . @@
+jq --null-input --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --arg foo bar --jsonargs --slurp --indent --sort-keys --stream --argjson foo 123 --raw-input  . @@
+jq --compact-output --slurpfile foo tests/modules/data.json --unbuffered --seq -e --monochrome-output --jsonargs --slurp --tab --sort-keys --ascii-output --stream --argjson foo 123  . @@
+jq --null-input --argfile foo bar --compact-output --unbuffered --seq --arg foo bar --indent --sort-keys --join-output --raw-input  . @@
+jq --null-input --argfile foo bar --compact-output --unbuffered -L /tmp -e --monochrome-output --indent --sort-keys --ascii-output --raw-input  . @@
+jq --null-input --argfile foo bar --compact-output --unbuffered --seq -e --monochrome-output --slurp --indent --args --argjson foo 123 --raw-input --raw-output  . @@
+jq --compact-output --slurpfile foo tests/modules/data.json --seq --monochrome-output --tab --indent --args --ascii-output --argjson foo 123 --raw-input --raw-output  . @@
+jq --null-input --slurpfile foo tests/modules/data.json -L /tmp -e --jsonargs --tab --color-output --join-output  . @@
+jq --null-input --argfile foo bar --compact-output --arg foo bar -e --monochrome-output --slurp --tab --indent --sort-keys --args --join-output --ascii-output  . @@
+jq --null-input --slurpfile foo tests/modules/data.json --unbuffered --seq --monochrome-output --jsonargs --sort-keys --join-output  . @@
+jq --null-input --argfile foo bar --unbuffered -L /tmp --seq --monochrome-output --slurp --tab --sort-keys --args --join-output --ascii-output --stream  . @@
+jq --compact-output --slurpfile foo tests/modules/data.json -L /tmp --arg foo bar --slurp --tab --color-output --sort-keys --ascii-output --stream --argjson foo 123  . @@
+jq --compact-output --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --monochrome-output --slurp --indent --sort-keys --args --ascii-output --raw-output  . @@
+jq --null-input --slurpfile foo tests/modules/data.json --unbuffered -e --sort-keys --args --ascii-output --stream --raw-output  . @@
+jq --null-input --slurpfile foo tests/modules/data.json -L /tmp --arg foo bar -e --jsonargs --tab --indent --color-output --sort-keys --argjson foo 123 --raw-input --raw-output  . @@
+jq --null-input --argfile foo bar --unbuffered -L /tmp --arg foo bar --monochrome-output --jsonargs --tab --join-output --ascii-output --stream --argjson foo 123 --raw-input  . @@
+jq --null-input --argfile foo bar --unbuffered --seq --arg foo bar --indent --color-output --sort-keys --args --ascii-output --raw-output  . @@
+jq --compact-output --slurpfile foo tests/modules/data.json --unbuffered --arg foo bar -e --tab --indent --color-output --join-output --stream --raw-input  . @@
+jq --null-input --slurpfile foo tests/modules/data.json --unbuffered --monochrome-output --jsonargs --slurp --indent --sort-keys --ascii-output --stream --raw-input --raw-output  . @@
+jq --null-input --argfile foo bar -L /tmp --arg foo bar -e --monochrome-output --tab --indent --stream --argjson foo 123  . @@
+jq --null-input --argfile foo bar --compact-output -L /tmp --seq -e --slurp --tab --color-output --sort-keys --ascii-output --stream --argjson foo 123 --raw-input  . @@
+jq --null-input --slurpfile foo tests/modules/data.json -L /tmp --arg foo bar -e --jsonargs --slurp --indent --color-output --ascii-output --raw-input --raw-output  . @@
+jq --compact-output --slurpfile foo tests/modules/data.json --unbuffered --seq --arg foo bar -e --monochrome-output --jsonargs --sort-keys --ascii-output --raw-input --raw-output  . @@
+jq --null-input --argfile foo bar --compact-output -L /tmp --seq -e --jsonargs --indent --color-output --ascii-output --raw-output  . @@
+jq --compact-output --slurpfile foo tests/modules/data.json --unbuffered -e --jsonargs --slurp --tab --indent --color-output --stream --raw-output  . @@
+jq --null-input --argfile foo bar --unbuffered -L /tmp -e --jsonargs --indent --color-output --join-output  . @@
+jq --null-input --argfile foo bar --arg foo bar --monochrome-output --join-output --ascii-output --stream  . @@
+jq --null-input --argfile foo bar --unbuffered -L /tmp --arg foo bar -e --monochrome-output --slurp --ascii-output --argjson foo 123 --raw-output  . @@
+jq --null-input --argfile foo bar --compact-output --seq --arg foo bar -e --monochrome-output --slurp --tab --indent --args --ascii-output --stream --raw-input --raw-output  . @@
+jq --null-input --slurpfile foo tests/modules/data.json --seq --arg foo bar -e --monochrome-output --slurp --args --stream --argjson foo 123  . @@
+jq --null-input --argfile foo bar --unbuffered -L /tmp -e --tab --color-output --sort-keys --args --join-output --ascii-output --argjson foo 123 --raw-input  . @@
+jq --null-input --argfile foo bar --compact-output -L /tmp --seq --arg foo bar -e --slurp --sort-keys --args --stream  . @@
+jq --null-input --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --seq --arg foo bar --slurp --indent --color-output --args --ascii-output --argjson foo 123  . @@
+jq --compact-output --slurpfile foo tests/modules/data.json -L /tmp --jsonargs --slurp --tab --color-output --ascii-output --stream --raw-output  . @@
+jq --null-input --slurpfile foo tests/modules/data.json --monochrome-output --jsonargs --tab --indent --join-output --stream --raw-input  . @@
+jq --null-input --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --arg foo bar --tab --color-output --sort-keys --args --ascii-output --stream  . @@
+jq --null-input --argfile foo bar --compact-output -L /tmp --seq --arg foo bar --color-output --args --ascii-output --stream --raw-output  . @@
+jq --compact-output --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --seq --arg foo bar --monochrome-output --indent --join-output --ascii-output --argjson foo 123 --raw-input  . @@
+jq --null-input --argfile foo bar --compact-output --unbuffered --jsonargs --color-output --argjson foo 123 --raw-input --raw-output  . @@
+jq --compact-output --slurpfile foo tests/modules/data.json --unbuffered --seq --arg foo bar -e --monochrome-output --tab --sort-keys --args --stream --argjson foo 123 --raw-output  . @@
+jq --null-input --slurpfile foo tests/modules/data.json --unbuffered -e --tab --indent --color-output --args --join-output --stream --raw-input  . @@
+jq --null-input --argfile foo bar -L /tmp --seq --arg foo bar --slurp --tab --indent --color-output --sort-keys --args --join-output --ascii-output --stream --argjson foo 123  . @@
+jq --null-input --slurpfile foo tests/modules/data.json --unbuffered --arg foo bar -e --slurp --indent --color-output --args --join-output --stream --argjson foo 123  . @@
+jq --null-input --argfile foo bar --compact-output --seq --arg foo bar -e --monochrome-output --tab --sort-keys --raw-input --raw-output  . @@
+jq --null-input --argfile foo bar --unbuffered --seq --arg foo bar -e --jsonargs --slurp --tab --sort-keys --ascii-output --stream --raw-input --raw-output  . @@
+jq --compact-output --slurpfile foo tests/modules/data.json -L /tmp --seq --monochrome-output --slurp --tab --sort-keys --args --join-output --ascii-output --stream --argjson foo 123 --raw-input  . @@
+jq --compact-output --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --arg foo bar -e --monochrome-output --jsonargs --tab --indent --stream  . @@
+jq --compact-output --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --arg foo bar -e --monochrome-output --slurp --tab --indent --args --ascii-output --raw-output  . @@
+jq --null-input --argfile foo bar --unbuffered -L /tmp --seq --arg foo bar --monochrome-output --slurp --sort-keys --ascii-output --stream --argjson foo 123 --raw-input  . @@
+jq --null-input --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --color-output --args --argjson foo 123 --raw-input --raw-output  . @@
+jq --null-input --argfile foo bar --compact-output --unbuffered --seq --arg foo bar -e --tab --color-output --args --stream  . @@
+jq --null-input --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --monochrome-output --jsonargs --slurp --sort-keys --ascii-output --raw-output  . @@
+jq --null-input --slurpfile foo tests/modules/data.json -L /tmp --arg foo bar -e --indent --args --ascii-output --stream --raw-input --raw-output  . @@
+jq --compact-output --slurpfile foo tests/modules/data.json -L /tmp --arg foo bar --monochrome-output --slurp --sort-keys --stream --raw-input --raw-output  . @@
+jq --null-input --argfile foo bar --indent --color-output --sort-keys --args --stream --argjson foo 123 --raw-input  . @@
+jq --null-input --argfile foo bar --compact-output --unbuffered --seq --arg foo bar -e --monochrome-output --indent --sort-keys --args --argjson foo 123  . @@
+jq --null-input --argfile foo bar --arg foo bar -e --monochrome-output --jsonargs --tab --indent --sort-keys --stream --raw-input --raw-output  . @@
+jq --null-input --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --seq -e --jsonargs --tab --color-output --sort-keys --stream --argjson foo 123 --raw-input  . @@
+jq --null-input --argfile foo bar --compact-output --unbuffered --arg foo bar -e --jsonargs --indent --color-output --join-output --argjson foo 123 --raw-input  . @@
+jq --null-input --argfile foo bar --arg foo bar -e --color-output --sort-keys --args --join-output --ascii-output --raw-input  . @@
+jq --null-input --slurpfile foo tests/modules/data.json --unbuffered --seq --arg foo bar --monochrome-output --jsonargs --slurp --tab --sort-keys --ascii-output --stream --raw-output  . @@
+jq --null-input --argfile foo bar --compact-output --unbuffered -L /tmp --seq -e --tab --color-output --sort-keys --args --raw-output  . @@
+jq --null-input --argfile foo bar --compact-output --unbuffered --seq -e --jsonargs --slurp --tab --color-output --sort-keys --ascii-output --raw-output  . @@
+jq --null-input --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --seq --arg foo bar --monochrome-output --slurp --tab --indent --sort-keys --args --ascii-output --stream --raw-output  . @@
+jq --null-input --argfile foo bar --compact-output -L /tmp --slurp --indent --args --ascii-output --stream --argjson foo 123 --raw-input  . @@
+jq --compact-output --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --seq --arg foo bar --tab --indent --color-output --args --join-output --ascii-output --stream  . @@
+jq --null-input --argfile foo bar --compact-output --unbuffered -e --monochrome-output --args --join-output  . @@
+jq --null-input --argfile foo bar --compact-output --unbuffered -e --indent --color-output --args --join-output --ascii-output  . @@
+jq --null-input --argfile foo bar --arg foo bar -e --jsonargs --color-output --stream  . @@
+jq --argfile foo bar --unbuffered --arg foo bar -e --monochrome-output --jsonargs --tab --ascii-output --stream --raw-output  . @@
+jq --slurpfile foo tests/modules/data.json --unbuffered -e --monochrome-output --slurp --sort-keys --args --raw-input  . @@
+jq --argfile foo bar --unbuffered -L /tmp --seq --monochrome-output --indent --sort-keys --args --ascii-output --stream --argjson foo 123 --raw-output  . @@
+jq --argfile foo bar --compact-output --arg foo bar -e --slurp --tab --indent --sort-keys --args --ascii-output --raw-input --raw-output  . @@
+jq --argfile foo bar --unbuffered -L /tmp --seq --arg foo bar -e --tab --indent --color-output --args --join-output --ascii-output --stream --argjson foo 123  . @@
+jq --slurpfile foo tests/modules/data.json --unbuffered --color-output --sort-keys --join-output --ascii-output --stream --argjson foo 123  . @@
+jq --slurpfile foo tests/modules/data.json -L /tmp --seq --arg foo bar --slurp --tab --color-output --args --ascii-output --raw-output  . @@
+jq --slurpfile foo tests/modules/data.json -L /tmp --monochrome-output --tab --indent --sort-keys --args --join-output --ascii-output --stream --raw-input  . @@
+jq --argfile foo bar -L /tmp --seq -e --slurp --color-output --args --stream --argjson foo 123 --raw-output  . @@
+jq --argfile foo bar --unbuffered --arg foo bar -e --monochrome-output --jsonargs --slurp --indent --sort-keys --join-output --ascii-output --argjson foo 123 --raw-input  . @@
+jq --slurpfile foo tests/modules/data.json --seq --arg foo bar -e --jsonargs --slurp --tab --indent --color-output --ascii-output --stream --raw-input  . @@
+jq --slurpfile foo tests/modules/data.json -L /tmp --seq -e --jsonargs --slurp --indent --color-output --join-output  . @@
+jq --argfile foo bar --compact-output --unbuffered --monochrome-output --tab --indent --sort-keys --argjson foo 123 --raw-input --raw-output  . @@
+jq --argfile foo bar --compact-output -L /tmp --seq --arg foo bar --monochrome-output --jsonargs --sort-keys --ascii-output --stream --argjson foo 123 --raw-input --raw-output  . @@
+jq --argfile foo bar --seq -e --color-output --sort-keys --args --ascii-output --raw-input --raw-output  . @@
+jq --argfile foo bar --compact-output --unbuffered --seq -e --monochrome-output --jsonargs --slurp --indent --sort-keys --stream --raw-output  . @@
+jq --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --arg foo bar --monochrome-output --slurp --tab --indent --args --stream --raw-input --raw-output  . @@
+jq --argfile foo bar --compact-output --unbuffered -L /tmp --arg foo bar --jsonargs --tab --indent --color-output --join-output --ascii-output --raw-input  . @@
+jq --argfile foo bar --compact-output --unbuffered -L /tmp --arg foo bar -e --slurp --color-output --args --stream --raw-input  . @@
+jq --slurpfile foo tests/modules/data.json --unbuffered --seq --tab --color-output --args --stream --argjson foo 123 --raw-output  . @@
+jq --slurpfile foo tests/modules/data.json -L /tmp --arg foo bar --monochrome-output --jsonargs --slurp --join-output --argjson foo 123  . @@
+jq --argfile foo bar --compact-output -L /tmp --seq --arg foo bar --monochrome-output --tab --indent --args --raw-input  . @@
+jq --slurpfile foo tests/modules/data.json --arg foo bar -e --slurp --color-output --sort-keys --args --join-output --ascii-output --stream --argjson foo 123 --raw-input  . @@
+jq --argfile foo bar --compact-output --tab --color-output --stream --raw-output  . @@
+jq --argfile foo bar -e --jsonargs --slurp --color-output --join-output --ascii-output --stream --raw-input  . @@
+jq --argfile foo bar --compact-output --unbuffered --seq -e --tab --indent --color-output --args --ascii-output --stream --argjson foo 123 --raw-input --raw-output  . @@
+jq --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --seq -e --color-output --sort-keys --args --join-output --ascii-output --stream  . @@
+jq --argfile foo bar --compact-output -L /tmp --arg foo bar -e --indent --color-output --sort-keys --args --ascii-output --stream  . @@
+jq --slurpfile foo tests/modules/data.json -L /tmp --seq --arg foo bar --color-output --join-output --ascii-output --stream --argjson foo 123 --raw-input  . @@
+jq --argfile foo bar -L /tmp --tab --indent --color-output --sort-keys --args --join-output --argjson foo 123 --raw-input  . @@
+jq --argfile foo bar --compact-output --arg foo bar --args --join-output --stream  . @@
+jq --slurpfile foo tests/modules/data.json --unbuffered --seq -e --monochrome-output --jsonargs --tab --indent --join-output --ascii-output --stream --argjson foo 123  . @@
+jq --argfile foo bar --compact-output --arg foo bar -e --jsonargs --tab --indent --color-output --sort-keys --ascii-output --raw-input --raw-output  . @@
+jq --argfile foo bar --compact-output -L /tmp --arg foo bar -e --jsonargs --slurp --indent --color-output --sort-keys --join-output --stream --argjson foo 123  . @@
+jq --argfile foo bar --seq -e --monochrome-output --jsonargs --slurp --ascii-output --raw-input  . @@
+jq --argfile foo bar -L /tmp -e --monochrome-output --jsonargs --slurp --tab --stream --raw-input --raw-output  . @@
+jq --argfile foo bar --compact-output --unbuffered -L /tmp --seq --arg foo bar --slurp --color-output --sort-keys --args --raw-input --raw-output  . @@
+jq --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --seq --monochrome-output --tab --ascii-output --stream --raw-input  . @@
+jq --slurpfile foo tests/modules/data.json --seq --arg foo bar -e --jsonargs --color-output --stream --argjson foo 123 --raw-output  . @@
+jq --argfile foo bar --unbuffered -L /tmp -e --jsonargs --tab --color-output --sort-keys --ascii-output --argjson foo 123 --raw-output  . @@
+jq --slurpfile foo tests/modules/data.json --unbuffered --monochrome-output --jsonargs --tab --stream --argjson foo 123  . @@
+jq --argfile foo bar --unbuffered -e --slurp --tab --color-output --sort-keys --args --argjson foo 123  . @@
+jq --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --arg foo bar -e --slurp --tab --indent --color-output --sort-keys --join-output --ascii-output  . @@
+jq --argfile foo bar --compact-output --seq --slurp --sort-keys --join-output --stream --argjson foo 123 --raw-input  . @@
+jq --slurpfile foo tests/modules/data.json --unbuffered -e --slurp --indent  . @@
+jq --argfile foo bar --compact-output --unbuffered -L /tmp --seq --arg foo bar --jsonargs --slurp --sort-keys --join-output --ascii-output --stream --argjson foo 123  . @@
+jq --argfile foo bar --seq --monochrome-output --slurp --tab --indent --ascii-output --stream --raw-output  . @@
+jq --argfile foo bar --unbuffered --seq -e --jsonargs --tab --indent --stream --argjson foo 123 --raw-input  . @@
+jq --argfile foo bar --unbuffered --seq --jsonargs --slurp --tab --color-output --join-output --ascii-output --argjson foo 123  . @@
+jq --argfile foo bar --unbuffered -L /tmp --seq --arg foo bar --monochrome-output --slurp --tab --args --argjson foo 123 --raw-input --raw-output  . @@
+jq --argfile foo bar --unbuffered -L /tmp --arg foo bar -e --monochrome-output --slurp --sort-keys --args --ascii-output --stream --raw-input --raw-output  . @@
+jq --slurpfile foo tests/modules/data.json --arg foo bar --monochrome-output --slurp --indent --args --ascii-output --stream --argjson foo 123 --raw-output  . @@
+jq --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --seq -e --monochrome-output --slurp --indent --sort-keys --args --join-output --raw-input  . @@
+jq --slurpfile foo tests/modules/data.json --unbuffered --arg foo bar --jsonargs --sort-keys --raw-output  . @@
+jq --argfile foo bar --compact-output --monochrome-output --slurp --tab --args --ascii-output  . @@
+jq --slurpfile foo tests/modules/data.json --unbuffered --seq --arg foo bar --jsonargs --tab --indent --color-output --ascii-output --raw-output  . @@
+jq --argfile foo bar --compact-output --arg foo bar --monochrome-output --slurp --args --join-output --argjson foo 123 --raw-input  . @@
+jq --argfile foo bar -L /tmp --seq --monochrome-output --jsonargs --sort-keys --join-output --raw-input  . @@
+jq --slurpfile foo tests/modules/data.json -L /tmp --arg foo bar --slurp --tab --indent --args --join-output --ascii-output --argjson foo 123  . @@
+jq --argfile foo bar --unbuffered -L /tmp --seq --arg foo bar -e --jsonargs --slurp --tab --indent --color-output --sort-keys --stream --argjson foo 123 --raw-input --raw-output  . @@
+jq --slurpfile foo tests/modules/data.json -L /tmp --seq -e --tab --sort-keys --args --ascii-output --argjson foo 123 --raw-output  . @@
+jq --argfile foo bar --compact-output --unbuffered --seq --arg foo bar -e --tab --indent --color-output --args --argjson foo 123 --raw-output  . @@
+jq --slurpfile foo tests/modules/data.json -L /tmp --seq --arg foo bar --jsonargs --ascii-output --raw-input  . @@
+jq --argfile foo bar --unbuffered --jsonargs --indent --sort-keys --ascii-output --argjson foo 123 --raw-output  . @@
+jq --argfile foo bar --compact-output --unbuffered --arg foo bar --slurp --indent --color-output --args --ascii-output --stream --argjson foo 123 --raw-output  . @@
+jq --slurpfile foo tests/modules/data.json --unbuffered --monochrome-output --slurp --indent --sort-keys --args --join-output --stream  . @@
+jq --argfile foo bar --compact-output --seq --arg foo bar --jsonargs --join-output --stream  . @@
+jq --argfile foo bar --compact-output -L /tmp --seq --arg foo bar --monochrome-output --indent --sort-keys --args --join-output  . @@
+jq --slurpfile foo tests/modules/data.json -L /tmp --slurp --tab --color-output --sort-keys --ascii-output --raw-input --raw-output  . @@
+jq --slurpfile foo tests/modules/data.json --unbuffered -L /tmp --seq -e --slurp --tab --indent --color-output --args --stream --raw-input --raw-output  . @@
+jq --slurpfile foo tests/modules/data.json -L /tmp --seq -e --monochrome-output --slurp --indent --args --ascii-output --stream --argjson foo 123  . @@
+jq --argfile foo bar --compact-output --unbuffered -L /tmp --arg foo bar --monochrome-output --indent --sort-keys --args --stream --argjson foo 123 --raw-input --raw-output  . @@
+jq --argfile foo bar --unbuffered -L /tmp -e --slurp --tab --sort-keys --join-output --ascii-output --argjson foo 123  . @@
+jq --argfile foo bar --compact-output -L /tmp --seq -e --slurp --tab --indent --color-output --sort-keys --args --join-output --ascii-output --stream --raw-input  . @@
+jq --argfile foo bar --unbuffered --seq -e --tab --indent --color-output --sort-keys --args --stream --raw-input  . @@
+jq --argfile foo bar --unbuffered --seq -e --monochrome-output --tab --args --stream --argjson foo 123 --raw-input  . @@
+jq --argfile foo bar --unbuffered --seq --arg foo bar --slurp --indent --color-output --sort-keys --ascii-output --stream --argjson foo 123 --raw-output  . @@
+jq --argfile foo bar --compact-output --unbuffered -L /tmp --arg foo bar -e --monochrome-output --jsonargs --slurp --tab --join-output --argjson foo 123  . @@
+jq --argfile foo bar --compact-output --unbuffered -L /tmp -e --indent --color-output --sort-keys --args --join-output --ascii-output --stream --argjson foo 123  . @@
+jq --argfile foo bar --compact-output -L /tmp --seq --arg foo bar -e --tab --color-output --sort-keys --args --join-output --ascii-output  . @@
+jq --argfile foo bar --compact-output --unbuffered --arg foo bar --monochrome-output --jsonargs --tab --join-output --stream  . @@
+jq --argfile foo bar -L /tmp --seq --arg foo bar --monochrome-output --slurp --indent --sort-keys --args --ascii-output --raw-output  . @@
+jq --argfile foo bar --compact-output --unbuffered --seq --monochrome-output --jsonargs --slurp --indent --sort-keys --join-output --raw-input  . @@

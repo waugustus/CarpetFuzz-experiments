@@ -1,0 +1,151 @@
+150
+cmark --to commonmark --width 128 --sourcepos --validate-utf8 --smart --unsafe  @@
+cmark --to commonmark --width 128 --nobreaks --sourcepos --validate-utf8 --smart --safe  @@
+cmark --to commonmark --width 128 --nobreaks --sourcepos --validate-utf8 --unsafe  @@
+cmark --to commonmark --hardbreaks --sourcepos --validate-utf8 --smart --safe  @@
+cmark --to commonmark --sourcepos --validate-utf8 --smart --unsafe  @@
+cmark --to commonmark --nobreaks --sourcepos --validate-utf8 --smart  @@
+cmark --to commonmark --width 128 --hardbreaks --validate-utf8 --safe  @@
+cmark --to commonmark --nobreaks --validate-utf8 --smart --safe  @@
+cmark --to commonmark --width 128 --hardbreaks --validate-utf8 --smart  @@
+cmark --to commonmark --width 128 --nobreaks --validate-utf8 --safe  @@
+cmark --to commonmark --hardbreaks --validate-utf8 --safe  @@
+cmark --to commonmark --width 128 --hardbreaks --sourcepos --smart --safe  @@
+cmark --to commonmark --width 128 --hardbreaks --sourcepos --smart  @@
+cmark --to commonmark --nobreaks --sourcepos --smart --safe  @@
+cmark --to commonmark --nobreaks --sourcepos --smart  @@
+cmark --to commonmark --hardbreaks --sourcepos  @@
+cmark --to commonmark --width 128 --unsafe  @@
+cmark --to commonmark --width 128 --hardbreaks --unsafe  @@
+cmark --to commonmark --width 128 --hardbreaks --safe  @@
+cmark --to commonmark --hardbreaks --unsafe  @@
+cmark --to latex --width 128 --hardbreaks --sourcepos --validate-utf8 --smart --unsafe  @@
+cmark --to latex --width 128 --sourcepos --validate-utf8 --safe  @@
+cmark --to latex --width 128 --nobreaks --sourcepos --validate-utf8 --safe  @@
+cmark --to latex --hardbreaks --sourcepos --validate-utf8 --smart  @@
+cmark --to latex --sourcepos --validate-utf8 --safe  @@
+cmark --to latex --sourcepos --validate-utf8  @@
+cmark --to latex --width 128 --nobreaks --validate-utf8 --smart --unsafe  @@
+cmark --to latex --hardbreaks --validate-utf8 --smart --unsafe  @@
+cmark --to latex --validate-utf8 --unsafe  @@
+cmark --to latex --width 128 --nobreaks --sourcepos --smart  @@
+cmark --to latex --width 128 --nobreaks --sourcepos --unsafe  @@
+cmark --to latex --hardbreaks --sourcepos --safe  @@
+cmark --to latex --width 128 --nobreaks --safe  @@
+cmark --to latex --hardbreaks --smart  @@
+cmark --to latex --smart --unsafe  @@
+cmark --to latex --smart --safe  @@
+cmark --width 128 --nobreaks --sourcepos --validate-utf8 --smart --safe  @@
+cmark --width 128 --hardbreaks --sourcepos --validate-utf8 --smart --safe  @@
+cmark --nobreaks --sourcepos --validate-utf8 --smart --safe  @@
+cmark --width 128 --nobreaks --sourcepos --validate-utf8 --safe  @@
+cmark --width 128 --nobreaks --sourcepos --validate-utf8 --smart  @@
+cmark --width 128 --hardbreaks --sourcepos --validate-utf8 --smart  @@
+cmark --width 128 --sourcepos --validate-utf8 --smart  @@
+cmark --nobreaks --sourcepos --validate-utf8 --safe  @@
+cmark --width 128 --nobreaks --sourcepos --validate-utf8  @@
+cmark --sourcepos --validate-utf8 --safe  @@
+cmark --hardbreaks --sourcepos --validate-utf8 --safe  @@
+cmark --hardbreaks --sourcepos --validate-utf8  @@
+cmark --to html --nobreaks --sourcepos --validate-utf8 --smart --unsafe  @@
+cmark --width 128 --nobreaks --sourcepos --validate-utf8 --smart --unsafe  @@
+cmark --to man --sourcepos --validate-utf8 --smart --safe  @@
+cmark --nobreaks --sourcepos --validate-utf8 --smart --unsafe  @@
+cmark --to man --width 128 --hardbreaks --validate-utf8 --smart --safe  @@
+cmark --to man --nobreaks --sourcepos --validate-utf8  @@
+cmark --to html --hardbreaks --sourcepos --validate-utf8 --unsafe  @@
+cmark --to html --width 128 --nobreaks --sourcepos --safe  @@
+cmark --to html --sourcepos --validate-utf8 --unsafe  @@
+cmark --width 128 --hardbreaks --sourcepos --validate-utf8 --unsafe  @@
+cmark --nobreaks --sourcepos --validate-utf8 --unsafe  @@
+cmark --hardbreaks --sourcepos --validate-utf8 --smart --unsafe  @@
+cmark --to man --width 128 --validate-utf8 --smart --safe  @@
+cmark --width 128 --sourcepos --validate-utf8 --unsafe  @@
+cmark --width 128 --nobreaks --sourcepos --smart --safe  @@
+cmark --width 128 --nobreaks --sourcepos --safe  @@
+cmark --nobreaks --sourcepos --smart --safe  @@
+cmark --width 128 --sourcepos --smart --safe  @@
+cmark --to man --nobreaks --validate-utf8 --smart --unsafe  @@
+cmark --hardbreaks --sourcepos --smart --safe  @@
+cmark --width 128 --hardbreaks --sourcepos --safe  @@
+cmark --sourcepos --smart  @@
+cmark --nobreaks --sourcepos  @@
+cmark --width 128 --hardbreaks --sourcepos  @@
+cmark --sourcepos --safe  @@
+cmark --to man --width 128 --nobreaks --sourcepos --smart --unsafe  @@
+cmark --to man --width 128 --sourcepos --safe  @@
+cmark --to man --width 128 --sourcepos  @@
+cmark --to html --sourcepos --smart --unsafe  @@
+cmark --width 128 --nobreaks --sourcepos --smart --unsafe  @@
+cmark --to man --hardbreaks --sourcepos --smart --unsafe  @@
+cmark --to html --width 128 --hardbreaks --sourcepos --unsafe  @@
+cmark --width 128 --nobreaks --sourcepos --unsafe  @@
+cmark --to html --width 128 --validate-utf8 --smart  @@
+cmark --to html --width 128 --nobreaks --validate-utf8  @@
+cmark --to man --nobreaks --sourcepos --unsafe  @@
+cmark --width 128 --hardbreaks --sourcepos --smart --unsafe  @@
+cmark --to html --nobreaks --validate-utf8 --safe  @@
+cmark --width 128 --nobreaks --validate-utf8 --smart --safe  @@
+cmark --width 128 --sourcepos --smart --unsafe  @@
+cmark --nobreaks --sourcepos --smart --unsafe  @@
+cmark --width 128 --nobreaks --validate-utf8 --safe  @@
+cmark --hardbreaks --validate-utf8 --smart --safe  @@
+cmark --width 128 --nobreaks --validate-utf8 --smart  @@
+cmark --hardbreaks --sourcepos --smart --unsafe  @@
+cmark --width 128 --hardbreaks --validate-utf8 --safe  @@
+cmark --nobreaks --sourcepos --unsafe  @@
+cmark --validate-utf8 --smart --safe  @@
+cmark --width 128 --validate-utf8 --safe  @@
+cmark --sourcepos --unsafe  @@
+cmark --nobreaks --validate-utf8 --safe  @@
+cmark --hardbreaks --validate-utf8 --smart  @@
+cmark --hardbreaks --sourcepos --unsafe  @@
+cmark --to man --width 128 --smart --safe  @@
+cmark --to man --width 128 --nobreaks --smart --unsafe  @@
+cmark --nobreaks --validate-utf8  @@
+cmark --to man --hardbreaks --smart --safe  @@
+cmark --to man --width 128 --nobreaks --unsafe  @@
+cmark --to html --nobreaks --validate-utf8 --unsafe  @@
+cmark --to html --width 128 --nobreaks --smart --safe  @@
+cmark --width 128 --hardbreaks --validate-utf8 --smart --unsafe  @@
+cmark --width 128 --nobreaks --validate-utf8 --smart --unsafe  @@
+cmark --width 128 --nobreaks --validate-utf8 --unsafe  @@
+cmark --nobreaks --validate-utf8 --smart --unsafe  @@
+cmark --validate-utf8 --smart --unsafe  @@
+cmark --width 128 --validate-utf8 --unsafe  @@
+cmark --width 128 --hardbreaks --smart --safe  @@
+cmark --nobreaks --validate-utf8 --unsafe  @@
+cmark --hardbreaks --validate-utf8 --unsafe  @@
+cmark --to html --nobreaks  @@
+cmark --to html --safe  @@
+cmark --width 128 --nobreaks --safe  @@
+cmark --nobreaks --smart --safe  @@
+cmark --width 128 --nobreaks --smart  @@
+cmark --hardbreaks --safe  @@
+cmark --nobreaks --safe  @@
+cmark --nobreaks --smart  @@
+cmark --width 128 --hardbreaks  @@
+cmark --hardbreaks --smart  @@
+cmark --width 128 --safe  @@
+cmark --width 128  @@
+cmark --width 128 --hardbreaks --smart --unsafe  @@
+cmark --to html --nobreaks --unsafe  @@
+cmark  @@
+cmark --nobreaks --smart --unsafe  @@
+cmark --width 128 --smart --unsafe  @@
+cmark --width 128 --nobreaks --unsafe  @@
+cmark --hardbreaks --smart --unsafe  @@
+cmark --width 128 --hardbreaks --unsafe  @@
+cmark --hardbreaks --unsafe  @@
+cmark --to xml --nobreaks --sourcepos --validate-utf8 --smart --safe  @@
+cmark --to xml --width 128 --hardbreaks --sourcepos --validate-utf8 --safe  @@
+cmark --to xml --width 128 --hardbreaks --sourcepos --validate-utf8  @@
+cmark --to xml --width 128 --hardbreaks --validate-utf8 --unsafe  @@
+cmark --to xml --width 128 --nobreaks --validate-utf8 --smart  @@
+cmark --to xml --hardbreaks --validate-utf8  @@
+cmark --to xml --hardbreaks --sourcepos --unsafe  @@
+cmark --to xml --nobreaks --sourcepos --safe  @@
+cmark --to xml --width 128 --hardbreaks --smart --unsafe  @@
+cmark --to xml --nobreaks --smart --unsafe  @@
+cmark --to xml --nobreaks --smart --safe  @@
+cmark --to xml --width 128 --nobreaks  @@

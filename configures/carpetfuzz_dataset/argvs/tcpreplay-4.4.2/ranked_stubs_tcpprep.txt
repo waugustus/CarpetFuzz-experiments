@@ -1,0 +1,711 @@
+710
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 --reverse -a client -N -v -d 1 -m 24 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 --reverse -a client -N -v -M 16  -i @@ -o /tmp/foo
+tcpprep -X E:10.0.0.0/8,192.168.0.0/16 --reverse -a bridge -A "-aAeNqRStuvxX" -v -d 1 -m 24 --no-arg-comment -M 16  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 --reverse -a bridge -N -A "-aAeNqRStuvxX" -v -m 24 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X D:10.0.0.0/8,192.168.0.0/16 -a server -A "-aAeNqRStuvxX" -v -m 24 --no-arg-comment -R 3.0  -i @@ -o /tmp/foo
+tcpprep -X E:10.0.0.0/8,192.168.0.0/16 --reverse -a first -N -A "-aAeNqRStuvxX" -v -m 24 --no-arg-comment -M 16  -i @@ -o /tmp/foo
+tcpprep -X E:10.0.0.0/8,192.168.0.0/16 --reverse -a router -N -v --no-arg-comment -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 --reverse -a router -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment -R 3.0  -i @@ -o /tmp/foo
+tcpprep -a server -N -A "-aAeNqRStuvxX" -v -d 1 -m 24 --no-arg-comment -M 16  -i @@ -o /tmp/foo
+tcpprep -X E:10.0.0.0/8,192.168.0.0/16 -a router -N -A "-aAeNqRStuvxX" -v -d 1 -m 24 -M 16  -i @@ -o /tmp/foo
+tcpprep -a server -v -m 24 --no-arg-comment -M 16  -i @@ -o /tmp/foo
+tcpprep -X E:10.0.0.0/8,192.168.0.0/16 -a client -N -d 1 --no-arg-comment -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -X S:10.0.0.0/8,192.168.0.0/16 --reverse -N -p -s /etc/services -v  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 --reverse -p -s /etc/services -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -a bridge -v -m 24 --no-arg-comment -R 3.0  -i @@ -o /tmp/foo
+tcpprep --reverse -a bridge -N -A "-aAeNqRStuvxX" -v --no-arg-comment -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -X E:10.0.0.0/8,192.168.0.0/16 --reverse -a client -N -m 24 --no-arg-comment -M 16  -i @@ -o /tmp/foo
+tcpprep -X S:10.0.0.0/8,192.168.0.0/16 --reverse -p -s /etc/services -v --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X D:10.0.0.0/8,192.168.0.0/16 -a bridge -N -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X E:10.0.0.0/8,192.168.0.0/16 -a bridge -m 24 --no-arg-comment -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -X S:10.0.0.0/8,192.168.0.0/16 -N -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -X E:10.0.0.0/8,192.168.0.0/16 --reverse -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -X E:10.0.0.0/8,192.168.0.0/16 --reverse -a first -d 1 -m 24 --no-arg-comment -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -a first -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep --reverse -a router -N -v -d 1 -M 16  -i @@ -o /tmp/foo
+tcpprep --reverse -a router -x E:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment -M 16  -i @@ -o /tmp/foo
+tcpprep -X S:10.0.0.0/8,192.168.0.0/16 -a first -d 1 -m 24 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X E:10.0.0.0/8,192.168.0.0/16 -N -v -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X S:10.0.0.0/8,192.168.0.0/16 --reverse -N -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X S:10.0.0.0/8,192.168.0.0/16 --reverse -A "-aAeNqRStuvxX" -v -d 1  -i @@ -o /tmp/foo
+tcpprep --reverse -a router -A "-aAeNqRStuvxX" -v -m 24 -R 3.0  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 -a bridge -N -m 24  -i @@ -o /tmp/foo
+tcpprep --reverse -N -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep --reverse -A "-aAeNqRStuvxX" -v -d 1 -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -N -v -d 1 --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -X E:10.0.0.0/8,192.168.0.0/16 -p -s /etc/services -A "-aAeNqRStuvxX" -v -d 1  -i @@ -o /tmp/foo
+tcpprep --reverse -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X D:10.0.0.0/8,192.168.0.0/16 --reverse -N -A "-aAeNqRStuvxX" -v  -i @@ -o /tmp/foo
+tcpprep -a server -N -x E:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -d 1 -m 24 --no-arg-comment -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -X E:10.0.0.0/8,192.168.0.0/16 --reverse -A "-aAeNqRStuvxX" -v -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep --reverse -a bridge -N -x E:10.0.0.0/8,192.168.0.0/16 -v -m 24 -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -a server -N -x B:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -m 24 --no-arg-comment -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -N -p -s /etc/services -x D:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -a client -x S:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -d 1 -m 24 --no-arg-comment -R 3.0  -i @@ -o /tmp/foo
+tcpprep -a server -x D:10.0.0.0/8,192.168.0.0/16 -v -d 1 -m 24 --no-arg-comment -R 3.0  -i @@ -o /tmp/foo
+tcpprep --reverse -a client -N -x B:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -m 24  -i @@ -o /tmp/foo
+tcpprep --reverse -a first -N -x B:10.0.0.0/8,192.168.0.0/16 -v -d 1 --no-arg-comment -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -p -s /etc/services -x D:10.0.0.0/8,192.168.0.0/16 -v -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X S:10.0.0.0/8,192.168.0.0/16 -N -p -s /etc/services -A "-aAeNqRStuvxX" -v  -i @@ -o /tmp/foo
+tcpprep -a client -N -A "-aAeNqRStuvxX" -v -R 3.0  -i @@ -o /tmp/foo
+tcpprep -a first -N -x B:10.0.0.0/8,192.168.0.0/16 -v --no-arg-comment -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -N -x S:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -X D:10.0.0.0/8,192.168.0.0/16 --reverse -N -p -s /etc/services -d 1  -i @@ -o /tmp/foo
+tcpprep -X S:10.0.0.0/8,192.168.0.0/16 -v -d 1 -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep --reverse -p -s /etc/services -x D:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -v --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep --reverse -x E:10.0.0.0/8,192.168.0.0/16 -v -d 1 -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -a server -x B:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v --no-arg-comment -R 3.0  -i @@ -o /tmp/foo
+tcpprep --reverse -N -x B:10.0.0.0/8,192.168.0.0/16 -v -d 1 --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -A "-aAeNqRStuvxX" -v --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* --reverse -N -x S:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -a bridge -N -d 1 -m 24 --no-arg-comment -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 -N -p -A "-aAeNqRStuvxX" -v  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -x B:10.0.0.0/8,192.168.0.0/16 -v -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X E:10.0.0.0/8,192.168.0.0/16 -p -s /etc/services -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -N -x S:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep --reverse -a router -N -x E:10.0.0.0/8,192.168.0.0/16 -d 1 -m 24 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -N -x E:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -d 1 -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -N -x B:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X D:10.0.0.0/8,192.168.0.0/16 --reverse -v -d 1 -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -N -x D:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -X E:10.0.0.0/8,192.168.0.0/16 --reverse -N -A "-aAeNqRStuvxX" -v -d 1 -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 -N -A "-aAeNqRStuvxX" -v -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -a client -x S:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -m 24 -M 16  -i @@ -o /tmp/foo
+tcpprep -x D:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -d 1 -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X E:10.0.0.0/8,192.168.0.0/16 -a router -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep --reverse -N -x E:10.0.0.0/8,192.168.0.0/16 -v -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -N -p -s /etc/services -v --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -N -p -s /etc/services -A "-aAeNqRStuvxX" -v --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -x D:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep --reverse -N -x D:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -x D:10.0.0.0/8,192.168.0.0/16 -v -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X E:10.0.0.0/8,192.168.0.0/16 -N -v -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X S:10.0.0.0/8,192.168.0.0/16 --reverse -A "-aAeNqRStuvxX" -v -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -a client -N -x D:10.0.0.0/8,192.168.0.0/16 -d 1 -m 24 --no-arg-comment -M 16  -i @@ -o /tmp/foo
+tcpprep -X E:10.0.0.0/8,192.168.0.0/16 -N -A "-aAeNqRStuvxX" -v -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -N -p -s /etc/services -x E:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v  -i @@ -o /tmp/foo
+tcpprep -X S:10.0.0.0/8,192.168.0.0/16 -v -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X D:10.0.0.0/8,192.168.0.0/16 --reverse -N -d 1 --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -X E:10.0.0.0/8,192.168.0.0/16 -N -p -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -a client -N -d 1 -m 24  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* --reverse -N -A "-aAeNqRStuvxX" -v -d 1  -i @@ -o /tmp/foo
+tcpprep --reverse -N -p -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* --reverse -N -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* --reverse -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X E:10.0.0.0/8,192.168.0.0/16 -d 1 --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep --reverse -a first -N -x B:10.0.0.0/8,192.168.0.0/16 -m 24 --no-arg-comment -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep --reverse -a router -m 24 -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X E:10.0.0.0/8,192.168.0.0/16 --reverse -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -N -p -x E:10.0.0.0/8,192.168.0.0/16 -d 1  -i @@ -o /tmp/foo
+tcpprep -X D:10.0.0.0/8,192.168.0.0/16 --reverse -N -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* --reverse -N -v --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -a client -x D:10.0.0.0/8,192.168.0.0/16 --no-arg-comment -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -x B:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v  -i @@ -o /tmp/foo
+tcpprep -x B:10.0.0.0/8,192.168.0.0/16 -v -d 1 -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* --reverse -x S:10.0.0.0/8,192.168.0.0/16 -d 1  -i @@ -o /tmp/foo
+tcpprep --reverse -d 1 --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 -p -s /etc/services  -i @@ -o /tmp/foo
+tcpprep --reverse -a first -x E:10.0.0.0/8,192.168.0.0/16 -m 24 --no-arg-comment -R 3.0  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 -N -A "-aAeNqRStuvxX" -v -d 1 -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -N -x B:10.0.0.0/8,192.168.0.0/16 -v  -i @@ -o /tmp/foo
+tcpprep --reverse -N -v -d 1 -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep --reverse -x D:10.0.0.0/8,192.168.0.0/16 -d 1 --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -d 1 -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep --reverse -N -A "-aAeNqRStuvxX" -v -d 1 -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 -N -d 1 -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep --reverse -a router --no-arg-comment -M 16  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* --reverse -N -x D:10.0.0.0/8,192.168.0.0/16 -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X S:10.0.0.0/8,192.168.0.0/16 --reverse -N --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -p -s /etc/services -v  -i @@ -o /tmp/foo
+tcpprep --reverse -A "-aAeNqRStuvxX" -v -d 1 -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -N -A "-aAeNqRStuvxX" -v -d 1 -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -a first -m 24 --no-arg-comment -R 3.0  -i @@ -o /tmp/foo
+tcpprep -a bridge -N -x B:10.0.0.0/8,192.168.0.0/16 -m 24 -M 16  -i @@ -o /tmp/foo
+tcpprep -X D:10.0.0.0/8,192.168.0.0/16 --reverse --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -x S:10.0.0.0/8,192.168.0.0/16 -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -a client -x E:10.0.0.0/8,192.168.0.0/16 -d 1 -M 16  -i @@ -o /tmp/foo
+tcpprep -N -v -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -a router --no-arg-comment -R 3.0  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -N -A "-aAeNqRStuvxX" -v -d 1  -i @@ -o /tmp/foo
+tcpprep --reverse -x D:10.0.0.0/8,192.168.0.0/16 -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* --reverse -x S:10.0.0.0/8,192.168.0.0/16 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -p -v  -i @@ -o /tmp/foo
+tcpprep -p -x B:10.0.0.0/8,192.168.0.0/16 -d 1  -i @@ -o /tmp/foo
+tcpprep --reverse -p -s /etc/services -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X D:10.0.0.0/8,192.168.0.0/16 -N -d 1 -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -x E:10.0.0.0/8,192.168.0.0/16 -d 1 -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -N -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -X E:10.0.0.0/8,192.168.0.0/16 -d 1 -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -N -p -d 1  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 --reverse -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -v -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -N -x B:10.0.0.0/8,192.168.0.0/16 -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 --reverse -N -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -x F:"tcp port 22" -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -p -s /etc/services -d 1  -i @@ -o /tmp/foo
+tcpprep --reverse -N -p  -i @@ -o /tmp/foo
+tcpprep --reverse -p -s /etc/services -x F:"tcp port 22" -A "-aAeNqRStuvxX" -v -d 1  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -N --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -a bridge -N -x F:"tcp port 22" -A "-aAeNqRStuvxX" -v -d 1 -m 24 -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -N -p --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -N -d 1 -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -d 1 -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -x F:"tcp port 22" -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -x F:"tcp port 22" -A "-aAeNqRStuvxX" -v -d 1 -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -N  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* --reverse -N -x F:"tcp port 22" -A "-aAeNqRStuvxX" -v  -i @@ -o /tmp/foo
+tcpprep --reverse -a client -N -x F:"tcp port 22" -v  -i @@ -o /tmp/foo
+tcpprep --reverse -N -p -x F:"tcp port 22" -A "-aAeNqRStuvxX" -v --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -p -x F:"tcp port 22" -A "-aAeNqRStuvxX" -v --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* --reverse -x F:"tcp port 22" -v --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X B:10.0.0.0/8,192.168.0.0/16 --reverse -C hello world -V -N -A "-aAeNqRStuvxX" -v -d 1  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X D:10.0.0.0/8,192.168.0.0/16 --reverse -C hello world  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X S:10.0.0.0/8,192.168.0.0/16 --reverse -C hello world -A "-aAeNqRStuvxX" -v -d 1  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X E:10.0.0.0/8,192.168.0.0/16 --reverse -C hello world -N -A "-aAeNqRStuvxX" -v  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X S:10.0.0.0/8,192.168.0.0/16 --reverse -C hello world -N -d 1  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 --reverse -C hello world -a bridge -V -N -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -X S:10.0.0.0/8,192.168.0.0/16 --reverse -C hello world -V -p -s /etc/services -A "-aAeNqRStuvxX" -v  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 --reverse -C hello world -V -N -v -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 --reverse -C hello world -a bridge -d 1 -M 16  -i @@ -o /tmp/foo
+tcpprep -X S:10.0.0.0/8,192.168.0.0/16 --reverse -C hello world -N -p -A "-aAeNqRStuvxX" -v  -i @@ -o /tmp/foo
+tcpprep -X S:10.0.0.0/8,192.168.0.0/16 --reverse -C hello world -V -A "-aAeNqRStuvxX" -v -d 1 -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 --reverse -C hello world -p -s /etc/services -v -d 1  -i @@ -o /tmp/foo
+tcpprep -X E:10.0.0.0/8,192.168.0.0/16 --reverse -C hello world -N -d 1 -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -X D:10.0.0.0/8,192.168.0.0/16 --reverse -C hello world -V -N -p -s /etc/services -A "-aAeNqRStuvxX" -v -d 1  -i @@ -o /tmp/foo
+tcpprep -X S:10.0.0.0/8,192.168.0.0/16 --reverse -C hello world -a router -V -A "-aAeNqRStuvxX" -v -M 16  -i @@ -o /tmp/foo
+tcpprep -X D:10.0.0.0/8,192.168.0.0/16 --reverse -C hello world -V -A "-aAeNqRStuvxX" -v -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -X S:10.0.0.0/8,192.168.0.0/16 --reverse -C hello world -V -N -p -d 1  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 --reverse -C hello world -a router -V -N -A "-aAeNqRStuvxX" -v -m 24 -R 3.0  -i @@ -o /tmp/foo
+tcpprep -X D:10.0.0.0/8,192.168.0.0/16 --reverse -C hello world -a first -V -N -A "-aAeNqRStuvxX" -v -d 1 -R 3.0  -i @@ -o /tmp/foo
+tcpprep -X E:10.0.0.0/8,192.168.0.0/16 --reverse -C hello world -p -d 1  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 --reverse -C hello world -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -X S:10.0.0.0/8,192.168.0.0/16 --reverse -C hello world -a server -d 1 -m 24 -R 3.0  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 --reverse -C hello world -V -N -d 1 -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -X S:10.0.0.0/8,192.168.0.0/16 --reverse -C hello world -a client -V -N  -i @@ -o /tmp/foo
+tcpprep -X E:10.0.0.0/8,192.168.0.0/16 --reverse -C hello world -p -s /etc/services  -i @@ -o /tmp/foo
+tcpprep -X D:10.0.0.0/8,192.168.0.0/16 --reverse -C hello world -N -A "-aAeNqRStuvxX" -v -d 1 -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -X D:10.0.0.0/8,192.168.0.0/16 --reverse -C hello world -a client -N -A "-aAeNqRStuvxX" -v -d 1 -m 24 -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -X E:10.0.0.0/8,192.168.0.0/16 --reverse -C hello world -a server -N -m 24  -i @@ -o /tmp/foo
+tcpprep -X S:10.0.0.0/8,192.168.0.0/16 --reverse -C hello world -N -A "-aAeNqRStuvxX" -v -d 1 -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -X E:10.0.0.0/8,192.168.0.0/16 --reverse -C hello world -a client -V -A "-aAeNqRStuvxX" -v -m 24 -R 3.0  -i @@ -o /tmp/foo
+tcpprep -X D:10.0.0.0/8,192.168.0.0/16 --reverse -C hello world -p  -i @@ -o /tmp/foo
+tcpprep -X D:10.0.0.0/8,192.168.0.0/16 --reverse -C hello world -a bridge -V -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -X D:10.0.0.0/8,192.168.0.0/16 --reverse -C hello world -V -N -p -s /etc/services  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 --reverse -C hello world -V -A "-aAeNqRStuvxX" -v -d 1 -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -X D:10.0.0.0/8,192.168.0.0/16 --reverse -C hello world -N -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -X D:10.0.0.0/8,192.168.0.0/16 --reverse -C hello world -N -p -s /etc/services -v  -i @@ -o /tmp/foo
+tcpprep -d 1 -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -N -x F:"tcp port 22" -d 1 --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -N -x F:"tcp port 22" -A "-aAeNqRStuvxX" -v -d 1  -i @@ -o /tmp/foo
+tcpprep --reverse -N -p -s /etc/services -x F:"tcp port 22" -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -N -x F:"tcp port 22" -d 1 -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -a server -x F:"tcp port 22" -d 1 -m 24 --no-arg-comment -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -N -p -s /etc/services -x F:"tcp port 22" --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -a client -N -x F:"tcp port 22" -d 1 --no-arg-comment -R 3.0  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X B:10.0.0.0/8,192.168.0.0/16 -C hello world -V -N -v  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X S:10.0.0.0/8,192.168.0.0/16 -C hello world -N -d 1  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X B:10.0.0.0/8,192.168.0.0/16 -C hello world  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X D:10.0.0.0/8,192.168.0.0/16 -C hello world -V -N -A "-aAeNqRStuvxX" -v  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 -C hello world -A "-aAeNqRStuvxX" -v -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -X D:10.0.0.0/8,192.168.0.0/16 -C hello world -N -p -s /etc/services -d 1  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 -C hello world -a router -v -d 1 -m 24 -M 16  -i @@ -o /tmp/foo
+tcpprep -X D:10.0.0.0/8,192.168.0.0/16 -C hello world -a first -V -N -A "-aAeNqRStuvxX" -v -R 3.0  -i @@ -o /tmp/foo
+tcpprep -X E:10.0.0.0/8,192.168.0.0/16 -C hello world -a router -A "-aAeNqRStuvxX" -v -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -X D:10.0.0.0/8,192.168.0.0/16 -C hello world -a router -V -N -d 1 -m 24 -M 16  -i @@ -o /tmp/foo
+tcpprep -X E:10.0.0.0/8,192.168.0.0/16 -C hello world -V -N -d 1 -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -X S:10.0.0.0/8,192.168.0.0/16 -C hello world -V -N -p -s /etc/services -v  -i @@ -o /tmp/foo
+tcpprep -X S:10.0.0.0/8,192.168.0.0/16 -C hello world -V -p  -i @@ -o /tmp/foo
+tcpprep -X S:10.0.0.0/8,192.168.0.0/16 -C hello world -V -p -s /etc/services -A "-aAeNqRStuvxX" -v -d 1  -i @@ -o /tmp/foo
+tcpprep -X D:10.0.0.0/8,192.168.0.0/16 -C hello world -a bridge -V -N -v -m 24 -M 16  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 -C hello world -p -s /etc/services  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 -C hello world -a first -d 1 -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -X E:10.0.0.0/8,192.168.0.0/16 -C hello world -V -N -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -X D:10.0.0.0/8,192.168.0.0/16 -C hello world -N -p -s /etc/services -A "-aAeNqRStuvxX" -v  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 -C hello world -V -p -A "-aAeNqRStuvxX" -v  -i @@ -o /tmp/foo
+tcpprep -x F:"tcp port 22" -d 1 -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 -C hello world -a client -V -d 1 -m 24 -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -X E:10.0.0.0/8,192.168.0.0/16 -C hello world -N -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 -C hello world -a router -V -A "-aAeNqRStuvxX" -v -d 1 -m 24 -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -X D:10.0.0.0/8,192.168.0.0/16 -C hello world -V -v -d 1 -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -X D:10.0.0.0/8,192.168.0.0/16 -C hello world -p -A "-aAeNqRStuvxX" -v -d 1  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 -C hello world -V -N -A "-aAeNqRStuvxX" -v -d 1 -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -X S:10.0.0.0/8,192.168.0.0/16 -C hello world -a server -m 24 -M 16  -i @@ -o /tmp/foo
+tcpprep -X S:10.0.0.0/8,192.168.0.0/16 -C hello world -V -d 1 -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 -C hello world -N -p -v -d 1  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 -C hello world -a bridge -N -A "-aAeNqRStuvxX" -v -d 1 -m 24 -M 16  -i @@ -o /tmp/foo
+tcpprep -X S:10.0.0.0/8,192.168.0.0/16 -C hello world -a client -A "-aAeNqRStuvxX" -v -d 1 -m 24  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 -C hello world -a first -v -d 1 -m 24 -R 3.0  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* --reverse -C hello world -V -A "-aAeNqRStuvxX" -v -d 1  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* --reverse -C hello world -x B:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -d 1  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* --reverse -C hello world -N  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* --reverse -C hello world -V -x B:10.0.0.0/8,192.168.0.0/16 -d 1  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* --reverse -C hello world -V -x E:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* --reverse -C hello world -N -d 1  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* --reverse -C hello world  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* --reverse -C hello world -N -x S:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* --reverse -C hello world -V -N -x D:10.0.0.0/8,192.168.0.0/16 -v  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* --reverse -C hello world -x B:10.0.0.0/8,192.168.0.0/16  -i @@ -o /tmp/foo
+tcpprep --reverse -p -x F:"tcp port 22" -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* --reverse -C hello world -N -x S:10.0.0.0/8,192.168.0.0/16 -d 1  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* --reverse -C hello world -V -N -x D:10.0.0.0/8,192.168.0.0/16  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -a server -V -x E:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -m 24 -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -V -N -x F:"tcp port 22" -A "-aAeNqRStuvxX" -v -d 1 -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -N -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -a router -N -x B:10.0.0.0/8,192.168.0.0/16 -d 1 -m 24 -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -a router -N -x D:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -R 3.0  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -a first -x D:10.0.0.0/8,192.168.0.0/16 -v -d 1 -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -a bridge -V -d 1 -m 24 -M 16  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -N -p -s /etc/services -x S:10.0.0.0/8,192.168.0.0/16 -v  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -V -v -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -a bridge -x S:10.0.0.0/8,192.168.0.0/16 -M 16  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -p -s /etc/services  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -V -N -p -s /etc/services  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -a first -V -N -x S:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -d 1 -m 24 -M 16  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -x P:1-5,9,15,72- -v -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -x E:10.0.0.0/8,192.168.0.0/16 -v -d 1 -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -N -p -s /etc/services -x D:10.0.0.0/8,192.168.0.0/16  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -A "-aAeNqRStuvxX" -v -d 1 -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -a first -N -A "-aAeNqRStuvxX" -v -m 24 -M 16  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -V -x D:10.0.0.0/8,192.168.0.0/16 -d 1 -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -V -N -p -x D:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -d 1  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -V -p -s /etc/services -x P:1-5,9,15,72- -v -d 1  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -N -x F:"tcp port 22" -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -V -x E:10.0.0.0/8,192.168.0.0/16 -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -a bridge -V -A "-aAeNqRStuvxX" -v -d 1 -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -A "-aAeNqRStuvxX" -v -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -d 1 -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -V -N -x E:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -a bridge -V -N -m 24 -R 3.0  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -x F:"tcp port 22" -A "-aAeNqRStuvxX" -v -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -a router -x B:10.0.0.0/8,192.168.0.0/16 -d 1 -m 24  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -a bridge -v -d 1 -R 3.0  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -a first -V -x E:10.0.0.0/8,192.168.0.0/16 -v -d 1 -m 24 -M 16  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -N -p -s /etc/services -x F:"tcp port 22" -A "-aAeNqRStuvxX" -v -d 1  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -p -v -d 1  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -a server -V -N -x F:"tcp port 22" -m 24 -M 16  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -V -N -p -s /etc/services -x D:10.0.0.0/8,192.168.0.0/16  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -N -x P:1-5,9,15,72- -A "-aAeNqRStuvxX" -v -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -a client -V -N -x D:10.0.0.0/8,192.168.0.0/16 -d 1 -m 24 -R 3.0  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -x F:"tcp port 22" -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -p -x S:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -d 1  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -a first -x F:"tcp port 22" -A "-aAeNqRStuvxX" -v -d 1 -m 24 -M 16  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -a server -V -x S:10.0.0.0/8,192.168.0.0/16 -v -R 3.0  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -p -s /etc/services -A "-aAeNqRStuvxX" -v  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -V -p -x B:10.0.0.0/8,192.168.0.0/16  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -V -x E:10.0.0.0/8,192.168.0.0/16 -d 1 -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -N -p -s /etc/services -d 1  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -V -N -x B:10.0.0.0/8,192.168.0.0/16 -v -d 1 -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -a bridge -x P:1-5,9,15,72- -A "-aAeNqRStuvxX" -v -d 1 -m 24 -R 3.0  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -V -N -p -s /etc/services -x F:"tcp port 22" -A "-aAeNqRStuvxX" -v  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -a client -N -x S:10.0.0.0/8,192.168.0.0/16 -v -m 24 -R 3.0  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -a server -V -N -x B:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -d 1 -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -V -p -s /etc/services -x F:"tcp port 22" -A "-aAeNqRStuvxX" -v  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -a client -x E:10.0.0.0/8,192.168.0.0/16 -d 1 -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -N -x D:10.0.0.0/8,192.168.0.0/16 -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -a bridge -x F:"tcp port 22" -R 3.0  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -V -N -A "-aAeNqRStuvxX" -v -d 1 -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -V -p -s /etc/services -A "-aAeNqRStuvxX" -v -d 1  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -x F:"tcp port 22" -A "-aAeNqRStuvxX" -v -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -N -x B:10.0.0.0/8,192.168.0.0/16 -d 1 -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -a bridge -V -N -v -d 1 -m 24 -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -V -p -s /etc/services -v  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -V -x E:10.0.0.0/8,192.168.0.0/16  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -a client -V -x D:10.0.0.0/8,192.168.0.0/16 -d 1 -m 24  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -N -x P:1-5,9,15,72- -A "-aAeNqRStuvxX" -v  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -N -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -a router -x F:"tcp port 22" -m 24 -M 16  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -V -x P:1-5,9,15,72- -A "-aAeNqRStuvxX" -v -d 1 -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -N -p -x B:10.0.0.0/8,192.168.0.0/16 -d 1  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -p -A "-aAeNqRStuvxX" -v  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -a first -x S:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -V -p -s /etc/services -x B:10.0.0.0/8,192.168.0.0/16  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -p -s /etc/services -x E:10.0.0.0/8,192.168.0.0/16 -d 1  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -a first -V -N -x E:10.0.0.0/8,192.168.0.0/16 -M 16  -i @@ -o /tmp/foo
+tcpprep --reverse -C hello world -p -x D:10.0.0.0/8,192.168.0.0/16 -v  -i @@ -o /tmp/foo
+tcpprep -a first -N -x F:"tcp port 22" -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -C hello world -N -x P:1-5,9,15,72-  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -C hello world -V -N -x D:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -d 1  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -C hello world -V -N -x E:10.0.0.0/8,192.168.0.0/16 -v -d 1  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -C hello world -x P:1-5,9,15,72- -d 1  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -C hello world -V -N -A "-aAeNqRStuvxX" -v  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -C hello world -A "-aAeNqRStuvxX" -v  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -C hello world -V -N  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -C hello world -V -x S:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -C hello world -N -x S:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -d 1  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -C hello world -x D:10.0.0.0/8,192.168.0.0/16 -v -d 1  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -C hello world -V -N -x F:"tcp port 22" -d 1  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -C hello world -V -x E:10.0.0.0/8,192.168.0.0/16 -v -d 1  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -C hello world -V -v -d 1  -i @@ -o /tmp/foo
+tcpprep -C hello world -a client -x E:10.0.0.0/8,192.168.0.0/16 -m 24  -i @@ -o /tmp/foo
+tcpprep -C hello world -x P:1-5,9,15,72- -A "-aAeNqRStuvxX" -v -d 1 -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -C hello world -V -p -s /etc/services -x F:"tcp port 22" -d 1  -i @@ -o /tmp/foo
+tcpprep -C hello world -a bridge -V -d 1 -R 3.0  -i @@ -o /tmp/foo
+tcpprep -C hello world -a router -N -x F:"tcp port 22" -A "-aAeNqRStuvxX" -v -d 1 -m 24 -R 3.0  -i @@ -o /tmp/foo
+tcpprep -C hello world -a bridge -V -N -x B:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -M 16  -i @@ -o /tmp/foo
+tcpprep -C hello world -V -N -x E:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -d 1 -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -C hello world -a first -V -N -v -m 24 -R 3.0  -i @@ -o /tmp/foo
+tcpprep -C hello world -V -x D:10.0.0.0/8,192.168.0.0/16 -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -C hello world -V -A "-aAeNqRStuvxX" -v -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -C hello world -a first -V -N -x F:"tcp port 22" -R 3.0  -i @@ -o /tmp/foo
+tcpprep -C hello world -N -p -s /etc/services -A "-aAeNqRStuvxX" -v -d 1  -i @@ -o /tmp/foo
+tcpprep -C hello world -d 1 -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -C hello world -N -x B:10.0.0.0/8,192.168.0.0/16 -d 1 -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -C hello world -V -N -p  -i @@ -o /tmp/foo
+tcpprep -C hello world -p -s /etc/services -x E:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v  -i @@ -o /tmp/foo
+tcpprep -C hello world -x P:1-5,9,15,72- -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -C hello world -a first -N -v -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -C hello world -a client -V -x S:10.0.0.0/8,192.168.0.0/16 -m 24 -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -C hello world -N -p -x S:10.0.0.0/8,192.168.0.0/16 -v -d 1  -i @@ -o /tmp/foo
+tcpprep -C hello world -a first -N -d 1 -m 24 -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -C hello world -V -N -p -s /etc/services -x S:10.0.0.0/8,192.168.0.0/16 -d 1  -i @@ -o /tmp/foo
+tcpprep -C hello world -a router -V -x B:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -d 1 -m 24 -R 3.0  -i @@ -o /tmp/foo
+tcpprep -C hello world -a router -N -x F:"tcp port 22" -A "-aAeNqRStuvxX" -v -d 1 -M 16  -i @@ -o /tmp/foo
+tcpprep -C hello world -a router -V -N -x E:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -m 24  -i @@ -o /tmp/foo
+tcpprep -C hello world -V -N -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -C hello world -p -s /etc/services -x B:10.0.0.0/8,192.168.0.0/16 -d 1  -i @@ -o /tmp/foo
+tcpprep -C hello world -N -x B:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -C hello world -x P:1-5,9,15,72- -A "-aAeNqRStuvxX" -v -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -C hello world -V -x B:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -d 1 -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -C hello world -V -p -s /etc/services -x F:"tcp port 22" -A "-aAeNqRStuvxX" -v -d 1  -i @@ -o /tmp/foo
+tcpprep -C hello world -V -N -v -d 1 -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -C hello world -a server -V -N -x S:10.0.0.0/8,192.168.0.0/16 -v -d 1 -m 24 -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -C hello world -V -N -x E:10.0.0.0/8,192.168.0.0/16 -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -C hello world -V -N -d 1 -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -C hello world -N -x P:1-5,9,15,72- -v -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -C hello world -N -x B:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -d 1 -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -C hello world -a first -x B:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -m 24 -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -C hello world -a client -N -x F:"tcp port 22" -v -M 16  -i @@ -o /tmp/foo
+tcpprep -C hello world -N -x S:10.0.0.0/8,192.168.0.0/16 -v -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -C hello world -V -p -s /etc/services  -i @@ -o /tmp/foo
+tcpprep -C hello world -a server -V -N -A "-aAeNqRStuvxX" -v -m 24 -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -C hello world -a client -d 1 -m 24  -i @@ -o /tmp/foo
+tcpprep -C hello world -V -N -x B:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -C hello world -a first -V -x B:10.0.0.0/8,192.168.0.0/16 -d 1 -M 16  -i @@ -o /tmp/foo
+tcpprep -C hello world -N -x B:10.0.0.0/8,192.168.0.0/16 -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -C hello world -V -N -p -s /etc/services -x D:10.0.0.0/8,192.168.0.0/16  -i @@ -o /tmp/foo
+tcpprep -C hello world -N -p -x B:10.0.0.0/8,192.168.0.0/16  -i @@ -o /tmp/foo
+tcpprep -C hello world -V -p -x E:10.0.0.0/8,192.168.0.0/16 -v  -i @@ -o /tmp/foo
+tcpprep -C hello world -a bridge -x F:"tcp port 22" -v -d 1  -i @@ -o /tmp/foo
+tcpprep -C hello world -a router -x D:10.0.0.0/8,192.168.0.0/16 -d 1 -R 3.0  -i @@ -o /tmp/foo
+tcpprep -C hello world -V -N -A "-aAeNqRStuvxX" -v -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -C hello world -a first -N -x S:10.0.0.0/8,192.168.0.0/16 -d 1 -m 24 -M 16  -i @@ -o /tmp/foo
+tcpprep -C hello world -N -p -s /etc/services -x S:10.0.0.0/8,192.168.0.0/16 -v -d 1  -i @@ -o /tmp/foo
+tcpprep -C hello world -x B:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -d 1 -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -C hello world -a server -A "-aAeNqRStuvxX" -v -d 1 -m 24 -M 16  -i @@ -o /tmp/foo
+tcpprep -C hello world -V -N -x S:10.0.0.0/8,192.168.0.0/16 -d 1 -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -C hello world -V -N -p -x F:"tcp port 22" -A "-aAeNqRStuvxX" -v  -i @@ -o /tmp/foo
+tcpprep -C hello world -a client -V -m 24 -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -C hello world -a bridge -N -A "-aAeNqRStuvxX" -v  -i @@ -o /tmp/foo
+tcpprep -C hello world -a first -x B:10.0.0.0/8,192.168.0.0/16 -v -d 1 -m 24  -i @@ -o /tmp/foo
+tcpprep -C hello world -V -x D:10.0.0.0/8,192.168.0.0/16 -v -d 1 -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -C hello world -a router -V -N -d 1 -M 16  -i @@ -o /tmp/foo
+tcpprep -C hello world -V -N -p -s /etc/services -x D:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v  -i @@ -o /tmp/foo
+tcpprep -C hello world -a first -N -x D:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -d 1 -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -C hello world -V -p -d 1  -i @@ -o /tmp/foo
+tcpprep -C hello world -a bridge -N -A "-aAeNqRStuvxX" -v -d 1 -m 24 -R 3.0  -i @@ -o /tmp/foo
+tcpprep -C hello world -V -A "-aAeNqRStuvxX" -v -d 1 -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -C hello world -a server -V -m 24  -i @@ -o /tmp/foo
+tcpprep -C hello world -v -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -C hello world -a client -V -N -x B:10.0.0.0/8,192.168.0.0/16 -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -C hello world -a server -V -A "-aAeNqRStuvxX" -v -R 3.0  -i @@ -o /tmp/foo
+tcpprep -C hello world -V -p -s /etc/services -x S:10.0.0.0/8,192.168.0.0/16 -v  -i @@ -o /tmp/foo
+tcpprep -C hello world -x P:1-5,9,15,72- -v -d 1 -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -X S:10.0.0.0/8,192.168.0.0/16 --reverse -a server -V -N -v -d 1 -m 24 -R 3.0  -i @@ -o /tmp/foo
+tcpprep -X E:10.0.0.0/8,192.168.0.0/16 -a router -V -A "-aAeNqRStuvxX" -v -d 1 -m 24 --no-arg-comment -M 16  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 --reverse -a bridge -V -A "-aAeNqRStuvxX" -v -d 1 -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 --reverse -a client -V -N -A "-aAeNqRStuvxX" -v -d 1 -m 24 --no-arg-comment -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 --reverse -a router -V -N -A "-aAeNqRStuvxX" -v -d 1 -M 16  -i @@ -o /tmp/foo
+tcpprep -X E:10.0.0.0/8,192.168.0.0/16 -a client -V -A "-aAeNqRStuvxX" -v -d 1 -m 24 --no-arg-comment -R 3.0  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 --reverse -a router -V -A "-aAeNqRStuvxX" -v -d 1 -m 24  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X B:10.0.0.0/8,192.168.0.0/16 --reverse -V -N -d 1  -i @@ -o /tmp/foo
+tcpprep -X S:10.0.0.0/8,192.168.0.0/16 --reverse -a first -V -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X E:10.0.0.0/8,192.168.0.0/16 -a server -V -N -d 1 -m 24 --no-arg-comment -R 3.0  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X D:10.0.0.0/8,192.168.0.0/16 -V -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X E:10.0.0.0/8,192.168.0.0/16 -V -v -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 -V -N -p -s /etc/services -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X E:10.0.0.0/8,192.168.0.0/16 --reverse -V -p -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X D:10.0.0.0/8,192.168.0.0/16 --reverse -V -v -d 1 --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -X S:10.0.0.0/8,192.168.0.0/16 --reverse -V -N -p -s /etc/services -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 -V -A "-aAeNqRStuvxX" -v -d 1 -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 --reverse -V -d 1 --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -X S:10.0.0.0/8,192.168.0.0/16 --reverse -V -p -s /etc/services -v -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X D:10.0.0.0/8,192.168.0.0/16 --reverse -V -N -A "-aAeNqRStuvxX" -v -d 1 -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X E:10.0.0.0/8,192.168.0.0/16 --reverse -V -v -d 1 -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X E:10.0.0.0/8,192.168.0.0/16 --reverse -V -d 1 -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X E:10.0.0.0/8,192.168.0.0/16 -V -v -d 1 -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X D:10.0.0.0/8,192.168.0.0/16 -V -N -d 1 --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -X D:10.0.0.0/8,192.168.0.0/16 -V -N -p -s /etc/services -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X E:10.0.0.0/8,192.168.0.0/16 -a client -V -v --no-arg-comment -R 3.0  -i @@ -o /tmp/foo
+tcpprep -X S:10.0.0.0/8,192.168.0.0/16 -a client -V -N -A "-aAeNqRStuvxX" -v --no-arg-comment -M 16  -i @@ -o /tmp/foo
+tcpprep -X D:10.0.0.0/8,192.168.0.0/16 -a router -V -N -A "-aAeNqRStuvxX" -v --no-arg-comment -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -X S:10.0.0.0/8,192.168.0.0/16 --reverse -a client -V -A "-aAeNqRStuvxX" -v -R 3.0  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 -a bridge -V -v -m 24 --no-arg-comment -M 16  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X D:10.0.0.0/8,192.168.0.0/16 --reverse -V -N -A "-aAeNqRStuvxX" -v --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X E:10.0.0.0/8,192.168.0.0/16 --reverse -V -A "-aAeNqRStuvxX" -v --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -p -s /etc/services -x P:1-5,9,15,72- --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X B:10.0.0.0/8,192.168.0.0/16 -V -A "-aAeNqRStuvxX" -v --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X S:10.0.0.0/8,192.168.0.0/16 --reverse -a first -V -N -A "-aAeNqRStuvxX" -v -m 24 -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X S:10.0.0.0/8,192.168.0.0/16 -V -N -v --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 -a first -V -N -A "-aAeNqRStuvxX" -v -m 24 --no-arg-comment -M 16  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 --reverse -V -N -A "-aAeNqRStuvxX" -v --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -a router -x P:1-5,9,15,72- -A "-aAeNqRStuvxX" -v -d 1 -m 24 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 --reverse -V -p -s /etc/services -A "-aAeNqRStuvxX" -v  -i @@ -o /tmp/foo
+tcpprep -X S:10.0.0.0/8,192.168.0.0/16 --reverse -V -A "-aAeNqRStuvxX" -v -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X D:10.0.0.0/8,192.168.0.0/16 --reverse -V -N -A "-aAeNqRStuvxX" -v -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -a bridge -N -x P:1-5,9,15,72- -d 1 -m 24 --no-arg-comment -R 3.0  -i @@ -o /tmp/foo
+tcpprep --reverse -N -x P:1-5,9,15,72- -d 1 -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -N -x P:1-5,9,15,72- -v -d 1 --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -N -x P:1-5,9,15,72- -v -d 1 -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 --reverse -a client -V -N -m 24 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X P:1-5,9,15,72- --reverse -V -v -d 1  -i @@ -o /tmp/foo
+tcpprep -X S:10.0.0.0/8,192.168.0.0/16 --reverse -a router -V -m 24 --no-arg-comment -R 3.0  -i @@ -o /tmp/foo
+tcpprep --reverse -a server -x P:1-5,9,15,72- -d 1 -R 3.0  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X B:10.0.0.0/8,192.168.0.0/16 --reverse -V  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X S:10.0.0.0/8,192.168.0.0/16 --reverse -V --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X S:10.0.0.0/8,192.168.0.0/16 --reverse -V -p -s /etc/services --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X P:1-5,9,15,72- -a first -N -v -d 1 -m 24 --no-arg-comment -R 3.0  -i @@ -o /tmp/foo
+tcpprep -X P:1-5,9,15,72- -p -s /etc/services -v -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X P:1-5,9,15,72- --reverse -a bridge -V -v -d 1 --no-arg-comment -M 16  -i @@ -o /tmp/foo
+tcpprep -X P:1-5,9,15,72- --reverse -a router -A "-aAeNqRStuvxX" -v -d 1 -m 24 -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -X P:1-5,9,15,72- -a router -V -v -d 1 -m 24 --no-arg-comment -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -X P:1-5,9,15,72- -N -v -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X P:1-5,9,15,72- --reverse -a first -N -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment -M 16  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 -V -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -a client -N -x P:1-5,9,15,72- -A "-aAeNqRStuvxX" -v -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -X P:1-5,9,15,72- -a first -V -d 1 --no-arg-comment -M 16  -i @@ -o /tmp/foo
+tcpprep -X P:1-5,9,15,72- --reverse -V -p -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -a bridge -x P:1-5,9,15,72- -A "-aAeNqRStuvxX" -v -m 24 --no-arg-comment -M 16  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X P:1-5,9,15,72- -N -A "-aAeNqRStuvxX" -v --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X P:1-5,9,15,72- --reverse -A "-aAeNqRStuvxX" -v --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -x P:1-5,9,15,72- -A "-aAeNqRStuvxX" -v --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -a first -x P:1-5,9,15,72- -A "-aAeNqRStuvxX" -v -m 24 --no-arg-comment -R 3.0  -i @@ -o /tmp/foo
+tcpprep -X P:1-5,9,15,72- --reverse -a first -N -A "-aAeNqRStuvxX" -v --no-arg-comment -R 3.0  -i @@ -o /tmp/foo
+tcpprep -X P:1-5,9,15,72- -p -s /etc/services -A "-aAeNqRStuvxX" -v --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X P:1-5,9,15,72- -V -N -p -A "-aAeNqRStuvxX" -v --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X P:1-5,9,15,72- --reverse -N -p -s /etc/services -A "-aAeNqRStuvxX" -v --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -p -s /etc/services -x P:1-5,9,15,72- -d 1  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X F:"tcp port 22" --reverse -v -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X P:1-5,9,15,72- -a first -V -N -m 24 --no-arg-comment -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -X P:1-5,9,15,72- --reverse -a router -V -m 24 -M 16  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X P:1-5,9,15,72- --reverse -C hello world -v  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X F:"tcp port 22" -V -N -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X E:10.0.0.0/8,192.168.0.0/16 -V -A "-aAeNqRStuvxX" -v -d 1  -i @@ -o /tmp/foo
+tcpprep -X P:1-5,9,15,72- --reverse -a first -V --no-arg-comment -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -X D:10.0.0.0/8,192.168.0.0/16 -a bridge -V -N -d 1 -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -X P:1-5,9,15,72- -N -p -s /etc/services --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X D:10.0.0.0/8,192.168.0.0/16 -V -N -A "-aAeNqRStuvxX" -v -d 1  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X F:"tcp port 22" --reverse -V -N -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X P:1-5,9,15,72- --reverse -C hello world -V  -i @@ -o /tmp/foo
+tcpprep --reverse -x P:1-5,9,15,72- -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" -V -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" --reverse -V -N -A "-aAeNqRStuvxX" -v -d 1 -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" --reverse -V -N -v -d 1 -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" --reverse -N -p -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" --reverse -N -p -s /etc/services -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" --reverse -N -p -s /etc/services -v -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" -V -N -v -d 1 --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" --reverse -a bridge -V -v -d 1 --no-arg-comment -R 3.0  -i @@ -o /tmp/foo
+tcpprep -X S:10.0.0.0/8,192.168.0.0/16 -V -d 1 -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -X P:1-5,9,15,72- --reverse -C hello world -V -p -s /etc/services -d 1  -i @@ -o /tmp/foo
+tcpprep -X P:1-5,9,15,72- --reverse -C hello world -a bridge -V -d 1 -m 24 -R 3.0  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" -a router -N -d 1 --no-arg-comment -M 16  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" --reverse -a bridge -N -d 1 --no-arg-comment -R 3.0  -i @@ -o /tmp/foo
+tcpprep -X P:1-5,9,15,72- --reverse -C hello world -d 1 -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -x P:1-5,9,15,72- --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" --reverse -a first -N -d 1 -m 24 -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" -V -N -d 1 -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X B:10.0.0.0/8,192.168.0.0/16 -V -p -d 1  -i @@ -o /tmp/foo
+tcpprep -X S:10.0.0.0/8,192.168.0.0/16 -V -p -s /etc/services -d 1  -i @@ -o /tmp/foo
+tcpprep -X P:1-5,9,15,72- --reverse -C hello world -V -A "-aAeNqRStuvxX" -v -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -X P:1-5,9,15,72- --reverse -C hello world -a first -V -N -m 24 -M 16  -i @@ -o /tmp/foo
+tcpprep -a router -V -x S:10.0.0.0/8,192.168.0.0/16 -v -d 1 --no-arg-comment -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep --reverse -a router -V -N -d 1 -m 24 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -a client -V -N -x P:1-5,9,15,72- -d 1 --no-arg-comment -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep --reverse -a client -V -N -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep --reverse -a router -V -N -x B:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -d 1 -m 24 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -a router -V -N -x E:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment -R 3.0  -i @@ -o /tmp/foo
+tcpprep --reverse -a bridge -V -x S:10.0.0.0/8,192.168.0.0/16 -d 1 -m 24  -i @@ -o /tmp/foo
+tcpprep --reverse -a server -V -A "-aAeNqRStuvxX" -v -d 1 -m 24 --no-arg-comment -R 3.0  -i @@ -o /tmp/foo
+tcpprep -X D:10.0.0.0/8,192.168.0.0/16 -a bridge -V -N -A "-aAeNqRStuvxX" -v -m 24 -R 3.0  -i @@ -o /tmp/foo
+tcpprep --reverse -a client -V -N -x S:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment -M 16  -i @@ -o /tmp/foo
+tcpprep -a router -V -N -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment -M 16  -i @@ -o /tmp/foo
+tcpprep -a router -V -x B:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -a bridge -V -x P:1-5,9,15,72- -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -a router -V -x P:1-5,9,15,72- -A "-aAeNqRStuvxX" -v -d 1 -R 3.0  -i @@ -o /tmp/foo
+tcpprep -a router -V -N -x P:1-5,9,15,72- -d 1 -m 24 --no-arg-comment -M 16  -i @@ -o /tmp/foo
+tcpprep -a client -V -x B:10.0.0.0/8,192.168.0.0/16 -d 1 -m 24 --no-arg-comment -R 3.0  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* --reverse -V -x E:10.0.0.0/8,192.168.0.0/16 -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* --reverse -V -N -x E:10.0.0.0/8,192.168.0.0/16 -d 1  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -V -N -x S:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* --reverse -V -N -v -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* --reverse -V -x D:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -a router -V -d 1 --no-arg-comment -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* --reverse -V -N -x S:10.0.0.0/8,192.168.0.0/16 -v -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -a first -V -d 1 --no-arg-comment -R 3.0  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* --reverse -V -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -V -N -p -s /etc/services -x S:10.0.0.0/8,192.168.0.0/16 -v -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X E:10.0.0.0/8,192.168.0.0/16 -V -N -A "-aAeNqRStuvxX" -v -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" --reverse -a server -V -v -m 24 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -V -x B:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -d 1 -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep --reverse -V -A "-aAeNqRStuvxX" -v -d 1 -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -V -x E:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -d 1 -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -V -N -p -s /etc/services -x F:"tcp port 22" -d 1  -i @@ -o /tmp/foo
+tcpprep --reverse -V -p -s /etc/services -x B:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -V -N -v -d 1 --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" --reverse -p -v --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" --reverse -V -N -p -s /etc/services -A "-aAeNqRStuvxX" -v --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -V -p -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" -N -v --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep --reverse -V -N -x E:10.0.0.0/8,192.168.0.0/16 -d 1 --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" -V -v --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep --reverse -V -N -x S:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -V -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" -a bridge -A "-aAeNqRStuvxX" -v --no-arg-comment -M 16  -i @@ -o /tmp/foo
+tcpprep --reverse -V -N -p -s /etc/services -x E:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -d 1  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" --reverse -V -N -p -v  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" -V -p -s /etc/services -A "-aAeNqRStuvxX" -v --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" --reverse -a router -A "-aAeNqRStuvxX" -v -m 24 --no-arg-comment -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" -A "-aAeNqRStuvxX" -v --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep --reverse -V -N -d 1 -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep --reverse -V -x B:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -d 1 -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep --reverse -V -N -p -s /etc/services -A "-aAeNqRStuvxX" -v -d 1  -i @@ -o /tmp/foo
+tcpprep --reverse -V -p -s /etc/services -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" -V -N -v -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -V -N -x P:1-5,9,15,72- -v -d 1 -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -V -x B:10.0.0.0/8,192.168.0.0/16 -v -d 1 --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -V -N -p -s /etc/services -v -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -V -N -x E:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -d 1 -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -V -N -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -V -N -p -x D:10.0.0.0/8,192.168.0.0/16 -v -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -V -N -p -x P:1-5,9,15,72- -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -V -p -s /etc/services -x D:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -V -d 1 -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -V -p -x F:"tcp port 22" -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -V -N -x S:10.0.0.0/8,192.168.0.0/16 -d 1 -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -V -N -p -s /etc/services -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -V -d 1 --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -V -x P:1-5,9,15,72- -d 1 -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -V -p -s /etc/services -x F:"tcp port 22" -d 1 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -a server -V -N -x S:10.0.0.0/8,192.168.0.0/16 -v --no-arg-comment -R 3.0  -i @@ -o /tmp/foo
+tcpprep -a server -V -N -A "-aAeNqRStuvxX" -v -m 24 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X P:1-5,9,15,72- -a bridge -v -d 1 -m 24 -R 3.0  -i @@ -o /tmp/foo
+tcpprep -X E:10.0.0.0/8,192.168.0.0/16 -a first -V -m 24 -R 3.0  -i @@ -o /tmp/foo
+tcpprep --reverse -a server -V -N -x D:10.0.0.0/8,192.168.0.0/16 -v -m 24 --no-arg-comment -M 16  -i @@ -o /tmp/foo
+tcpprep -a router -V -N -x B:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -m 24 --no-arg-comment -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X F:"tcp port 22" --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -V -x S:10.0.0.0/8,192.168.0.0/16 -v --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X F:"tcp port 22" --reverse -C hello world -V -N  -i @@ -o /tmp/foo
+tcpprep --reverse -a first -V -x S:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v --no-arg-comment -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X F:"tcp port 22" --reverse -C hello world -N -v -d 1  -i @@ -o /tmp/foo
+tcpprep --reverse -a first -V -N -x E:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -m 24 --no-arg-comment -R 3.0  -i @@ -o /tmp/foo
+tcpprep -X D:10.0.0.0/8,192.168.0.0/16 -V -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* --reverse -V -N -x D:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" --reverse -V -N -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" --reverse -N -p -s /etc/services --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" --reverse -V -N --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep --reverse -a first -V -A "-aAeNqRStuvxX" -v -m 24 --no-arg-comment -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep --reverse -a first -V -x P:1-5,9,15,72- -A "-aAeNqRStuvxX" -v -m 24 --no-arg-comment -M 16  -i @@ -o /tmp/foo
+tcpprep -X D:10.0.0.0/8,192.168.0.0/16 -V -N -p -s /etc/services  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* --reverse -V -A "-aAeNqRStuvxX" -v --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* --reverse -V -N -x S:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" -V -p --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" -N --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep --reverse -a first -V -N -x S:10.0.0.0/8,192.168.0.0/16 -v -m 24 -M 16  -i @@ -o /tmp/foo
+tcpprep --reverse -V -N -p -s /etc/services -x D:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -V -N -x B:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -V -x B:10.0.0.0/8,192.168.0.0/16 -v -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep --reverse -V -x E:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep --reverse -V -p -x P:1-5,9,15,72- -A "-aAeNqRStuvxX" -v  -i @@ -o /tmp/foo
+tcpprep --reverse -V -A "-aAeNqRStuvxX" -v -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" --reverse -C hello world -a router -N -A "-aAeNqRStuvxX" -v -d 1 -m 24  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" --reverse -C hello world -N -d 1 -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" --reverse -C hello world -V -N -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" --reverse -C hello world -a client -v -m 24 -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -V -N -p -s /etc/services -x F:"tcp port 22" -v --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" --reverse -C hello world -N -v -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -V -p -s /etc/services -A "-aAeNqRStuvxX" -v --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -a client -V -N -M 16  -i @@ -o /tmp/foo
+tcpprep -V -x D:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -V -x D:10.0.0.0/8,192.168.0.0/16 -v -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -N -x P:1-5,9,15,72- -A "-aAeNqRStuvxX" -v -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep --reverse -a client -V -x S:10.0.0.0/8,192.168.0.0/16 -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" --reverse -C hello world -a server -N -A "-aAeNqRStuvxX" -v -m 24 -R 3.0  -i @@ -o /tmp/foo
+tcpprep -V -N -p -s /etc/services -x P:1-5,9,15,72- -A "-aAeNqRStuvxX" -v --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -V -N -x E:10.0.0.0/8,192.168.0.0/16 -v --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -V -x E:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" --reverse -C hello world -a client -N -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -V -N -A "-aAeNqRStuvxX" -v -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" --reverse -C hello world -a router -V -d 1 -m 24  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" --reverse -C hello world -p -s /etc/services -A "-aAeNqRStuvxX" -v -d 1  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" --reverse -C hello world -a client -V -d 1 -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* --reverse -V -x B:10.0.0.0/8,192.168.0.0/16  -i @@ -o /tmp/foo
+tcpprep --reverse -a first -V -x E:10.0.0.0/8,192.168.0.0/16 -m 24 --no-arg-comment -M 16  -i @@ -o /tmp/foo
+tcpprep -a router -V -N -x B:10.0.0.0/8,192.168.0.0/16 --no-arg-comment -M 16  -i @@ -o /tmp/foo
+tcpprep --reverse -a first -V -x P:1-5,9,15,72- -m 24 --no-arg-comment -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -a server -V -N -x F:"tcp port 22" -m 24 --no-arg-comment -R 3.0  -i @@ -o /tmp/foo
+tcpprep --reverse -V -N -x B:10.0.0.0/8,192.168.0.0/16 -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -V -N -p -x B:10.0.0.0/8,192.168.0.0/16 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -V -N -x P:1-5,9,15,72- --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -V -N -x B:10.0.0.0/8,192.168.0.0/16 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -V -e 52:54:00:12:35:02 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -V -p -x P:1-5,9,15,72- --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -a first -V -x F:"tcp port 22" -m 24 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -a first -V -N --no-arg-comment -R 3.0  -i @@ -o /tmp/foo
+tcpprep --reverse -V -p -s /etc/services --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -V -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep --reverse -V -p -s /etc/services -x S:10.0.0.0/8,192.168.0.0/16  -i @@ -o /tmp/foo
+tcpprep -a first -V -x D:10.0.0.0/8,192.168.0.0/16 --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep --reverse -V -N -p -s /etc/services -x P:1-5,9,15,72- --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -V -p -s /etc/services -x P:1-5,9,15,72- --no-arg-comment  -i @@ -o /tmp/foo
+tcpprep -V -x B:10.0.0.0/8,192.168.0.0/16 --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X P:1-5,9,15,72- -N  -i @@ -o /tmp/foo
+tcpprep -V -N --no-arg-comment -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X P:1-5,9,15,72- -C hello world -V -d 1  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X P:1-5,9,15,72- -C hello world -V -A "-aAeNqRStuvxX" -v  -i @@ -o /tmp/foo
+tcpprep -X P:1-5,9,15,72- -C hello world -a bridge -V -A "-aAeNqRStuvxX" -v -m 24  -i @@ -o /tmp/foo
+tcpprep -X P:1-5,9,15,72- -C hello world -a bridge -N -m 24 -R 3.0  -i @@ -o /tmp/foo
+tcpprep -X P:1-5,9,15,72- -C hello world -N -A "-aAeNqRStuvxX" -v -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -X P:1-5,9,15,72- -C hello world -V -N -A "-aAeNqRStuvxX" -v -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -X P:1-5,9,15,72- -C hello world -a bridge -N -M 16  -i @@ -o /tmp/foo
+tcpprep -X P:1-5,9,15,72- -C hello world -N -A "-aAeNqRStuvxX" -v -d 1 -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -X P:1-5,9,15,72- -C hello world -a server -V -N -v -d 1 -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -X P:1-5,9,15,72- -C hello world -a first -V -N -d 1 -R 3.0  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X F:"tcp port 22" -d 1  -i @@ -o /tmp/foo
+tcpprep -a first -V -N -A "-aAeNqRStuvxX" -v -d 1 -m 24 -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -V -v -d 1  -i @@ -o /tmp/foo
+tcpprep -a first -V -x D:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -d 1 -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -a first -V -N -x D:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -d 1 -m 24  -i @@ -o /tmp/foo
+tcpprep -a bridge -V -N -x S:10.0.0.0/8,192.168.0.0/16 -d 1 -m 24 -R 3.0  -i @@ -o /tmp/foo
+tcpprep -V -p -A "-aAeNqRStuvxX" -v -d 1  -i @@ -o /tmp/foo
+tcpprep -V -N -p -s /etc/services -v -d 1  -i @@ -o /tmp/foo
+tcpprep -V -N -x E:10.0.0.0/8,192.168.0.0/16 -d 1 -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -V -N -x D:10.0.0.0/8,192.168.0.0/16 -d 1 -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -a bridge -V -x E:10.0.0.0/8,192.168.0.0/16 -v -m 24 -R 3.0  -i @@ -o /tmp/foo
+tcpprep -a server -V -A "-aAeNqRStuvxX" -v -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -a bridge -V -x F:"tcp port 22" -v -m 24 -M 16  -i @@ -o /tmp/foo
+tcpprep -a server -V -x S:10.0.0.0/8,192.168.0.0/16 -v -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" -V -N -p  -i @@ -o /tmp/foo
+tcpprep -V -N -p -s /etc/services -x F:"tcp port 22" -A "-aAeNqRStuvxX" -v  -i @@ -o /tmp/foo
+tcpprep -V -x E:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -V -x S:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -V -N -x E:10.0.0.0/8,192.168.0.0/16 -v -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X F:"tcp port 22" -C hello world -A "-aAeNqRStuvxX" -v -d 1  -i @@ -o /tmp/foo
+tcpprep -V -N -x B:10.0.0.0/8,192.168.0.0/16 -A "-aAeNqRStuvxX" -v -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -V -p -s /etc/services -x F:"tcp port 22" -v  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -X F:"tcp port 22" -C hello world -V -N  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" -C hello world -a router -N -A "-aAeNqRStuvxX" -v -d 1 -R 3.0 -M 16  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" -C hello world -a router -R 3.0  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" -C hello world -v -d 1 -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" -C hello world -A "-aAeNqRStuvxX" -v -e 52:54:00:12:35:02  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" -C hello world -V -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -r 192.168.*.* -V -x E:10.0.0.0/8,192.168.0.0/16  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" -C hello world -V -N -A "-aAeNqRStuvxX" -v -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" -C hello world -N -d 1 -c 192.168.0.0/16,172.16.0.0/12,10.0.0.0/8  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" -C hello world -a first -V -N -A "-aAeNqRStuvxX" -v -m 24 -M 16  -i @@ -o /tmp/foo
+tcpprep -X F:"tcp port 22" -C hello world -V -N -p -s /etc/services  -i @@ -o /tmp/foo
+tcpprep -V -x S:10.0.0.0/8,192.168.0.0/16 -e 52:54:00:12:35:02  -i @@ -o /tmp/foo

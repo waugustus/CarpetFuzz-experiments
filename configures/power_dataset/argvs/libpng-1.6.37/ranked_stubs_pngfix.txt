@@ -1,0 +1,117 @@
+116
+pngfix --strip=color --errors --optimize --suffix=suf  @@ --out=/tmp/foo
+pngfix --max --errors --optimize --warnings --suffix=suf  @@ --out=/tmp/foo
+pngfix --strip=all --max --errors --optimize --suffix=suf  @@ --out=/tmp/foo
+pngfix --strip=all --max --optimize --warnings --suffix=suf  @@ --out=/tmp/foo
+pngfix --optimize --warnings --suffix=suf  @@ --out=/tmp/foo
+pngfix --strip=transform --max --errors --optimize --warnings  @@ --out=/tmp/foo
+pngfix --optimize --suffix=suf  @@ --out=/tmp/foo
+pngfix --errors --optimize --warnings  @@ --out=/tmp/foo
+pngfix --strip=none --optimize --warnings  @@ --out=/tmp/foo
+pngfix --errors --optimize  @@ --out=/tmp/foo
+pngfix --quiet --errors --optimize --warnings --suffix=suf  @@ --out=/tmp/foo
+pngfix --max --errors --optimize  @@ --out=/tmp/foo
+pngfix --strip=all --optimize  @@ --out=/tmp/foo
+pngfix --strip=none --max --quiet --errors --optimize --warnings --suffix=suf  @@ --out=/tmp/foo
+pngfix --strip=unsafe --max --optimize  @@ --out=/tmp/foo
+pngfix --quiet --errors --optimize --suffix=suf  @@ --out=/tmp/foo
+pngfix --strip=unused --quiet --optimize --warnings --suffix=suf  @@ --out=/tmp/foo
+pngfix --max --optimize --warnings  @@ --out=/tmp/foo
+pngfix --strip=unused --quiet --errors --optimize --warnings  @@ --out=/tmp/foo
+pngfix --strip=color --quiet --errors --optimize  @@ --out=/tmp/foo
+pngfix --strip=none --max --quiet --optimize --suffix=suf  @@ --out=/tmp/foo
+pngfix --max --quiet --optimize --warnings --suffix=suf  @@ --out=/tmp/foo
+pngfix --max --quiet --optimize --suffix=suf  @@ --out=/tmp/foo
+pngfix --max --quiet --errors --optimize --warnings  @@ --out=/tmp/foo
+pngfix --strip=unsafe --max --quiet --errors --optimize  @@ --out=/tmp/foo
+pngfix --strip=crc --max --quiet --optimize --warnings  @@ --out=/tmp/foo
+pngfix --strip=transform --quiet --optimize  @@ --out=/tmp/foo
+pngfix --quiet --optimize  @@ --out=/tmp/foo
+pngfix --strip=color --max --errors --warnings --suffix=suf  @@ --out=/tmp/foo
+pngfix --errors --warnings --suffix=suf  @@ --out=/tmp/foo
+pngfix --strip=unused --warnings --suffix=suf  @@ --out=/tmp/foo
+pngfix --errors --suffix=suf  @@ --out=/tmp/foo
+pngfix --max --errors --warnings --suffix=suf  @@ --out=/tmp/foo
+pngfix --strip=transform --errors --warnings  @@ --out=/tmp/foo
+pngfix --errors --warnings  @@ --out=/tmp/foo
+pngfix --strip=transform --max --suffix=suf  @@ --out=/tmp/foo
+pngfix --strip=crc --max --errors  @@ --out=/tmp/foo
+pngfix --max --suffix=suf  @@ --out=/tmp/foo
+pngfix --strip=crc --quiet --errors --warnings --suffix=suf  @@ --out=/tmp/foo
+pngfix --strip=none  @@ --out=/tmp/foo
+pngfix  @@ --out=/tmp/foo
+pngfix --max --warnings  @@ --out=/tmp/foo
+pngfix --strip=unsafe --max --quiet --errors --suffix=suf  @@ --out=/tmp/foo
+pngfix --strip=color --max --quiet --warnings --suffix=suf  @@ --out=/tmp/foo
+pngfix --quiet --warnings --suffix=suf  @@ --out=/tmp/foo
+pngfix --strip=crc --quiet --suffix=suf  @@ --out=/tmp/foo
+pngfix --max --quiet --errors --suffix=suf  @@ --out=/tmp/foo
+pngfix --quiet --errors --warnings  @@ --out=/tmp/foo
+pngfix --strip=all --max --quiet --errors --warnings  @@ --out=/tmp/foo
+pngfix --strip=transform --quiet --errors  @@ --out=/tmp/foo
+pngfix --strip=unused --quiet --warnings  @@ --out=/tmp/foo
+pngfix --max --quiet --errors --warnings  @@ --out=/tmp/foo
+pngfix --max --quiet --errors  @@ --out=/tmp/foo
+pngfix --quiet --warnings  @@ --out=/tmp/foo
+pngfix --quiet  @@ --out=/tmp/foo
+pngfix --strip=color --max --quiet  @@ --out=/tmp/foo
+pngfix --max --quiet  @@ --out=/tmp/foo
+pngfix --strip=all --max --quiet --errors --optimize --warnings --suffix=suf --prefix=pre  @@ --out=/tmp/foo
+pngfix --strip=transform --max --quiet --optimize --warnings --suffix=suf --prefix=pre  @@ --out=/tmp/foo
+pngfix --max --quiet --errors --warnings --suffix=suf --prefix=pre  @@ --out=/tmp/foo
+pngfix --strip=color --quiet --errors --warnings --suffix=suf --prefix=pre  @@ --out=/tmp/foo
+pngfix --strip=color --quiet --errors --optimize --suffix=suf --prefix=pre  @@ --out=/tmp/foo
+pngfix --strip=color --quiet --optimize --warnings --suffix=suf --prefix=pre  @@ --out=/tmp/foo
+pngfix --max --quiet --errors --optimize --suffix=suf --prefix=pre  @@ --out=/tmp/foo
+pngfix --quiet --optimize --warnings --suffix=suf --prefix=pre  @@ --out=/tmp/foo
+pngfix --strip=all --max --errors --warnings --suffix=suf --prefix=pre  @@ --out=/tmp/foo
+pngfix --strip=none --errors --optimize --warnings --suffix=suf --prefix=pre  @@ --out=/tmp/foo
+pngfix --strip=all --max --quiet --suffix=suf --prefix=pre  @@ --out=/tmp/foo
+pngfix --strip=all --max --optimize --warnings --suffix=suf --prefix=pre  @@ --out=/tmp/foo
+pngfix --strip=crc --max --errors --optimize --suffix=suf --prefix=pre  @@ --out=/tmp/foo
+pngfix --max --errors --optimize --warnings --suffix=suf --prefix=pre  @@ --out=/tmp/foo
+pngfix --strip=unsafe --quiet --warnings --suffix=suf --prefix=pre  @@ --out=/tmp/foo
+pngfix --errors --optimize --warnings --suffix=suf --prefix=pre  @@ --out=/tmp/foo
+pngfix --max --quiet --suffix=suf --prefix=pre  @@ --out=/tmp/foo
+pngfix --max --errors --optimize --suffix=suf --prefix=pre  @@ --out=/tmp/foo
+pngfix --strip=unsafe --max --quiet --errors --warnings --prefix=pre  @@ --out=/tmp/foo
+pngfix --quiet --errors --suffix=suf --prefix=pre  @@ --out=/tmp/foo
+pngfix --quiet --optimize --suffix=suf --prefix=pre  @@ --out=/tmp/foo
+pngfix --strip=all --quiet --errors --optimize --warnings --prefix=pre  @@ --out=/tmp/foo
+pngfix --max --warnings --suffix=suf --prefix=pre  @@ --out=/tmp/foo
+pngfix --max --quiet --errors --optimize --prefix=pre  @@ --out=/tmp/foo
+pngfix --strip=none --errors --suffix=suf --prefix=pre  @@ --out=/tmp/foo
+pngfix --max --optimize --suffix=suf --prefix=pre  @@ --out=/tmp/foo
+pngfix --strip=unused --optimize --suffix=suf --prefix=pre  @@ --out=/tmp/foo
+pngfix --quiet --errors --optimize --warnings --prefix=pre  @@ --out=/tmp/foo
+pngfix --strip=none --max --quiet --optimize --prefix=pre  @@ --out=/tmp/foo
+pngfix --strip=unsafe --max --quiet --errors --prefix=pre  @@ --out=/tmp/foo
+pngfix --max --quiet --optimize --warnings --prefix=pre  @@ --out=/tmp/foo
+pngfix --max --errors --suffix=suf --prefix=pre  @@ --out=/tmp/foo
+pngfix --strip=all --max --errors --optimize --warnings --prefix=pre  @@ --out=/tmp/foo
+pngfix --strip=none --quiet --optimize --warnings --prefix=pre  @@ --out=/tmp/foo
+pngfix --quiet --optimize --warnings --prefix=pre  @@ --out=/tmp/foo
+pngfix --warnings --suffix=suf --prefix=pre  @@ --out=/tmp/foo
+pngfix --strip=unused --suffix=suf --prefix=pre  @@ --out=/tmp/foo
+pngfix --max --quiet --warnings --prefix=pre  @@ --out=/tmp/foo
+pngfix --strip=none --max --errors --optimize --prefix=pre  @@ --out=/tmp/foo
+pngfix --strip=transform --quiet --warnings --prefix=pre  @@ --out=/tmp/foo
+pngfix --quiet --errors --warnings --prefix=pre  @@ --out=/tmp/foo
+pngfix --strip=crc --quiet --prefix=pre  @@ --out=/tmp/foo
+pngfix --strip=unsafe --optimize --warnings --prefix=pre  @@ --out=/tmp/foo
+pngfix --max --errors --warnings --prefix=pre  @@ --out=/tmp/foo
+pngfix --strip=unused --errors --warnings --prefix=pre  @@ --out=/tmp/foo
+pngfix --quiet --errors --prefix=pre  @@ --out=/tmp/foo
+pngfix --max --optimize --warnings --prefix=pre  @@ --out=/tmp/foo
+pngfix --quiet --warnings --prefix=pre  @@ --out=/tmp/foo
+pngfix --strip=all --errors --optimize --prefix=pre  @@ --out=/tmp/foo
+pngfix --suffix=suf --prefix=pre  @@ --out=/tmp/foo
+pngfix --strip=all --max --warnings --prefix=pre  @@ --out=/tmp/foo
+pngfix --quiet --optimize --prefix=pre  @@ --out=/tmp/foo
+pngfix --errors --optimize --prefix=pre  @@ --out=/tmp/foo
+pngfix --strip=all --max --prefix=pre  @@ --out=/tmp/foo
+pngfix --max --optimize --prefix=pre  @@ --out=/tmp/foo
+pngfix --optimize --prefix=pre  @@ --out=/tmp/foo
+pngfix --max --prefix=pre  @@ --out=/tmp/foo
+pngfix --errors --prefix=pre  @@ --out=/tmp/foo
+pngfix --warnings --prefix=pre  @@ --out=/tmp/foo

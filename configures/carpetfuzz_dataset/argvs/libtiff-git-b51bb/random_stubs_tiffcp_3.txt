@@ -1,0 +1,385 @@
+383
+tiffcp -f lsb2msb -L -M -r 4 -t -w 100 -x -8 -m 512  @@ /tmp/foo
+tiffcp -a -C -i -L -M -o 16 -r 4 -t -x -m 512  @@ /tmp/foo
+tiffcp -a -B -c lzma -f lsb2msb -M -o 16 -8 -m 512  @@ /tmp/foo
+tiffcp -a -C -c zip -l 100 -o 16 -r 4 -s -w 100 -m 512  @@ /tmp/foo
+tiffcp -a -C -c g3 -L -o 16 -p contig -s -w 100 -8  @@ /tmp/foo
+tiffcp -C -c zip -f msb2lsb -i -L -o 16 -p separate -t -x -8 -m 512  @@ /tmp/foo
+tiffcp -c sgilog -f msb2lsb -L -o 16 -t  @@ /tmp/foo
+tiffcp -C -i -l 100 -L -t  @@ /tmp/foo
+tiffcp -C -c none -f lsb2msb -i -M -p contig -r 4 -8 -m 512  @@ /tmp/foo
+tiffcp -a -c lzma -M -o 16 -r 4 -t -x -8  @@ /tmp/foo
+tiffcp -C -f lsb2msb -i -l 100 -M -p contig -s -8  @@ /tmp/foo
+tiffcp -B -C -c zip -l 100 -o 16 -r 4 -t -w 100  @@ /tmp/foo
+tiffcp -a -C -c none -i -l 100 -M -p contig -w 100 -x  @@ /tmp/foo
+tiffcp -a -L -o 16 -r 4 -t -x -8 -m 512  @@ /tmp/foo
+tiffcp -a -B -o 16 -r 4 -w 100 -x -m 512  @@ /tmp/foo
+tiffcp -C -c g4 -p contig -r 4 -s -w 100 -x -8 -m 512  @@ /tmp/foo
+tiffcp -a -B -c lzma -i -l 100 -M -o 16 -p separate -r 4 -m 512  @@ /tmp/foo
+tiffcp -B -C -c none -M -s -w 100 -x  @@ /tmp/foo
+tiffcp -B -l 100 -r 4 -s -x -8  @@ /tmp/foo
+tiffcp -a -C -c zip -L -M -o 16 -r 4 -s -x -8 -m 512  @@ /tmp/foo
+tiffcp -a -B -C -f msb2lsb -i -l 100 -M -o 16 -r 4 -t -w 100 -x -m 512  @@ /tmp/foo
+tiffcp -a -i -L -r 4 -s -w 100 -8 -m 512  @@ /tmp/foo
+tiffcp -f lsb2msb -l 100 -o 16 -p contig -s -8  @@ /tmp/foo
+tiffcp -C -c lzma -l 100 -L -p separate -r 4 -t -w 100 -8 -m 512  @@ /tmp/foo
+tiffcp -B -C -M -o 16 -s -x -8  @@ /tmp/foo
+tiffcp -f msb2lsb -r 4 -t -w 100 -x -8  @@ /tmp/foo
+tiffcp -B -c lzma -f lsb2msb -i -l 100 -o 16 -s -w 100 -x -m 512  @@ /tmp/foo
+tiffcp -B -o 16 -s -w 100 -x -m 512  @@ /tmp/foo
+tiffcp -a -C -f msb2lsb -i -l 100 -M -o 16 -p contig -r 4 -s -w 100 -x -8  @@ /tmp/foo
+tiffcp -C -f msb2lsb -i -l 100 -L -M -o 16 -p contig -s -x -m 512  @@ /tmp/foo
+tiffcp -c lzma -i -l 100 -L -o 16 -p contig -s -w 100 -8 -m 512  @@ /tmp/foo
+tiffcp -c jpeg -i -M -o 16 -p separate -r 4 -w 100 -m 512  @@ /tmp/foo
+tiffcp -a -B -C -f lsb2msb -i -l 100 -o 16 -p contig -t -m 512  @@ /tmp/foo
+tiffcp -f lsb2msb -i -L -o 16 -p contig -r 4 -t -w 100 -m 512  @@ /tmp/foo
+tiffcp -a -c sgilog -f msb2lsb -i -o 16 -p contig -s -w 100 -8 -m 512  @@ /tmp/foo
+tiffcp -a -B -c sgilog -f msb2lsb -i -l 100 -p separate -r 4 -t -w 100 -x -8 -m 512  @@ /tmp/foo
+tiffcp -a -B -C -f lsb2msb -o 16 -t -8 -m 512  @@ /tmp/foo
+tiffcp -C -c g4 -f lsb2msb -l 100 -L -o 16 -p separate -r 4 -m 512  @@ /tmp/foo
+tiffcp -C -c lzw -f msb2lsb -i -l 100 -L -M -s  @@ /tmp/foo
+tiffcp -B -C -c g3 -i -o 16 -t -8  @@ /tmp/foo
+tiffcp -a -C -i -l 100 -L -M -p separate -t -w 100 -x -8  @@ /tmp/foo
+tiffcp -a -B -C -i -l 100 -M -p separate -r 4 -s -w 100 -8  @@ /tmp/foo
+tiffcp -a -C -c jpeg -L -M -p separate -r 4 -t  @@ /tmp/foo
+tiffcp -C -c lzma -f lsb2msb -M -p separate -t -w 100 -x -8  @@ /tmp/foo
+tiffcp -i -l 100 -L -M -p contig -t -w 100 -x -8 -m 512  @@ /tmp/foo
+tiffcp -a -B -t -8  @@ /tmp/foo
+tiffcp -B -i -M -o 16 -r 4 -s -m 512  @@ /tmp/foo
+tiffcp -C -c sgilog -l 100 -M -o 16 -p contig -t -x -8 -m 512  @@ /tmp/foo
+tiffcp -i -l 100 -L -M -r 4 -s -x  @@ /tmp/foo
+tiffcp -C -f msb2lsb -i -L -M -r 4 -x -8  @@ /tmp/foo
+tiffcp -B -c jpeg -i -l 100 -r 4 -t -w 100 -x -m 512  @@ /tmp/foo
+tiffcp -a -c sgilog -f msb2lsb -i -l 100 -L -o 16 -p contig -t -w 100 -x -m 512  @@ /tmp/foo
+tiffcp -l 100 -L -M -r 4 -s -w 100 -x -m 512  @@ /tmp/foo
+tiffcp -a -B -f lsb2msb -o 16 -r 4 -t -w 100  @@ /tmp/foo
+tiffcp -B -C -f lsb2msb -l 100 -M -o 16 -p contig -r 4 -s -w 100  @@ /tmp/foo
+tiffcp -B -c lzw -M -t -w 100 -x -8 -m 512  @@ /tmp/foo
+tiffcp -a -B -C -c lzw -f msb2lsb -l 100 -p separate -w 100 -m 512  @@ /tmp/foo
+tiffcp -c g3 -l 100 -r 4 -s  @@ /tmp/foo
+tiffcp -B -c sgilog -l 100 -o 16 -p separate -s -w 100 -x  @@ /tmp/foo
+tiffcp -a -i -L -o 16 -p separate -r 4 -s -x -8  @@ /tmp/foo
+tiffcp -f lsb2msb -s -w 100 -m 512  @@ /tmp/foo
+tiffcp -a -c jpeg -i -l 100 -M -o 16 -r 4 -t -w 100 -x  @@ /tmp/foo
+tiffcp -a -C -l 100 -L -M -o 16 -t -w 100 -m 512  @@ /tmp/foo
+tiffcp -a -C -c jpeg -f lsb2msb -r 4 -x -8 -m 512  @@ /tmp/foo
+tiffcp -a -C -c g4 -i -L -o 16 -p separate -x  @@ /tmp/foo
+tiffcp -B -C -c lzw -i -l 100 -s -x -m 512  @@ /tmp/foo
+tiffcp -a -B -l 100 -p contig -w 100 -x -8  @@ /tmp/foo
+tiffcp -a -C -c zip -i -L -r 4 -s -8 -m 512  @@ /tmp/foo
+tiffcp -i -L -M -o 16 -p contig -r 4 -w 100 -x  @@ /tmp/foo
+tiffcp -i -L -M -o 16 -p separate -r 4 -8 -m 512  @@ /tmp/foo
+tiffcp -a -C -c lzw -f lsb2msb -l 100 -o 16 -p separate -r 4 -t -w 100 -m 512  @@ /tmp/foo
+tiffcp -B -C -c g3 -i -o 16 -p separate -r 4 -s -m 512  @@ /tmp/foo
+tiffcp -a -f msb2lsb -i -L -M -o 16 -r 4 -t -w 100 -8  @@ /tmp/foo
+tiffcp -a -B -i -p separate -s -x -8  @@ /tmp/foo
+tiffcp -c lzw -l 100 -M -p contig -s -w 100 -8 -m 512  @@ /tmp/foo
+tiffcp -a -B -C -c g4 -i -l 100 -M -t -w 100 -m 512  @@ /tmp/foo
+tiffcp -a -B -C -c zip -l 100 -o 16 -p separate -r 4 -s -w 100 -x -8  @@ /tmp/foo
+tiffcp -c lzma -f msb2lsb -i -l 100 -M -o 16 -p contig -t -w 100 -m 512  @@ /tmp/foo
+tiffcp -B -f lsb2msb -i -M -o 16 -p separate -r 4 -t -x -8  @@ /tmp/foo
+tiffcp -a -c g4 -L -o 16 -p contig -t -x -8  @@ /tmp/foo
+tiffcp -B -f lsb2msb -i -l 100 -M -p contig -r 4 -t -w 100 -x -8  @@ /tmp/foo
+tiffcp -B -C -f lsb2msb -l 100 -M -o 16 -t -w 100 -8 -m 512  @@ /tmp/foo
+tiffcp -a -l 100 -M -p contig -r 4 -s -x -m 512  @@ /tmp/foo
+tiffcp -L -o 16 -r 4 -s  @@ /tmp/foo
+tiffcp -a -B -c g4 -f lsb2msb -i -l 100 -M -p contig -r 4 -s -x  @@ /tmp/foo
+tiffcp -C -c packbits -f msb2lsb -i -l 100 -L -M -o 16 -p separate -t -8 -m 512  @@ /tmp/foo
+tiffcp -B -C -c zip -f lsb2msb -M -o 16 -p contig -r 4 -w 100 -x -8 -m 512  @@ /tmp/foo
+tiffcp -a -B -C -c sgilog -x -m 512  @@ /tmp/foo
+tiffcp -a -B -C -c g4 -M -o 16 -r 4 -s -w 100 -m 512  @@ /tmp/foo
+tiffcp -B -C -i -o 16 -p separate -s -w 100 -x -m 512  @@ /tmp/foo
+tiffcp -f lsb2msb -i -L -p separate -w 100 -x -8  @@ /tmp/foo
+tiffcp -B -c lzma -f lsb2msb -l 100 -o 16 -t -m 512  @@ /tmp/foo
+tiffcp -C -i -o 16 -p separate -r 4 -t -w 100 -x -8 -m 512  @@ /tmp/foo
+tiffcp -a -B -C -f lsb2msb -M -p contig -s -x -8 -m 512  @@ /tmp/foo
+tiffcp -c lzma -f msb2lsb -L -M -p contig -t -w 100 -m 512  @@ /tmp/foo
+tiffcp -a -B -C -c zip -M -o 16 -p separate -r 4 -t -x -8  @@ /tmp/foo
+tiffcp -a -f lsb2msb -i -l 100 -L -o 16 -r 4 -w 100 -x -8  @@ /tmp/foo
+tiffcp -a -B -C -f msb2lsb -l 100 -s -w 100 -x  @@ /tmp/foo
+tiffcp -C -i -l 100 -L -M -o 16 -r 4 -s -w 100 -m 512  @@ /tmp/foo
+tiffcp -a -C -i -L -M -o 16 -p contig -s -8 -m 512  @@ /tmp/foo
+tiffcp -a -C -f msb2lsb -i -L -t -x  @@ /tmp/foo
+tiffcp -B -C -M -r 4 -s -8 -m 512  @@ /tmp/foo
+tiffcp -B -C -c none -i -M -p contig -t -w 100 -x -m 512  @@ /tmp/foo
+tiffcp -a -B -l 100 -p contig -r 4 -s -w 100 -x  @@ /tmp/foo
+tiffcp -a -C -c packbits -f lsb2msb -i -L -p separate -r 4 -w 100 -x  @@ /tmp/foo
+tiffcp -a -c packbits -i -l 100 -L -o 16 -p separate -r 4 -8  @@ /tmp/foo
+tiffcp -c packbits -o 16 -p contig -x -m 512  @@ /tmp/foo
+tiffcp -C -i -l 100 -M -r 4 -t  @@ /tmp/foo
+tiffcp -B -f msb2lsb -i -M -o 16 -t -x -m 512  @@ /tmp/foo
+tiffcp -B -c jpeg -f msb2lsb -l 100 -p contig -s -8  @@ /tmp/foo
+tiffcp -B -l 100 -o 16 -p contig -r 4 -t -x -8 -m 512  @@ /tmp/foo
+tiffcp -a -B -C -c none -f lsb2msb -l 100 -o 16 -p contig -r 4 -w 100 -x  @@ /tmp/foo
+tiffcp -a -B -C -c lzma -i -r 4 -s -w 100  @@ /tmp/foo
+tiffcp -a -C -c none -f msb2lsb -L -p separate -r 4 -s -x  @@ /tmp/foo
+tiffcp -B -C -f msb2lsb -o 16 -p separate -s -m 512  @@ /tmp/foo
+tiffcp -a -B -C -l 100 -M -o 16 -s  @@ /tmp/foo
+tiffcp -a -B -C -c packbits -i -M -p contig -r 4 -s -x -m 512  @@ /tmp/foo
+tiffcp -C -c g4 -f lsb2msb -l 100 -L -p separate -s -w 100 -m 512  @@ /tmp/foo
+tiffcp -a -B -f lsb2msb -i -p separate -8  @@ /tmp/foo
+tiffcp -a -c zip -i -l 100 -r 4 -s -w 100 -x -8  @@ /tmp/foo
+tiffcp -B -f msb2lsb -p separate -s -w 100 -x -8 -m 512  @@ /tmp/foo
+tiffcp -B -f lsb2msb -i -M -o 16 -p contig -t  @@ /tmp/foo
+tiffcp -B -C -r 4 -t -x -8 -m 512  @@ /tmp/foo
+tiffcp -c lzw -f msb2lsb -i -l 100 -L -M -o 16 -x -8 -m 512  @@ /tmp/foo
+tiffcp -B -f lsb2msb -l 100 -M -o 16 -p contig -s -x -8 -m 512  @@ /tmp/foo
+tiffcp -a -C -M -r 4 -s -8  @@ /tmp/foo
+tiffcp -c packbits -f msb2lsb -i -l 100 -M -s -w 100 -x  @@ /tmp/foo
+tiffcp -l 100 -L -M -o 16 -s -w 100 -8  @@ /tmp/foo
+tiffcp -C -c none -f lsb2msb -L -M -o 16 -p contig -s -x -8  @@ /tmp/foo
+tiffcp -a -c g3 -i -l 100 -L -M -x -m 512  @@ /tmp/foo
+tiffcp -a -B -c jpeg -i -o 16 -p contig -t  @@ /tmp/foo
+tiffcp -a -B -C -c g3 -i -M -o 16 -p contig -w 100 -8 -m 512  @@ /tmp/foo
+tiffcp -a -B -c jpeg -f lsb2msb -i -M -r 4 -t -w 100 -m 512  @@ /tmp/foo
+tiffcp -a -f msb2lsb -M -o 16 -r 4 -t -8 -m 512  @@ /tmp/foo
+tiffcp -a -i -l 100 -L -p contig -r 4 -t -w 100 -m 512  @@ /tmp/foo
+tiffcp -l 100 -t  @@ /tmp/foo
+tiffcp -a -C -i -l 100 -L -o 16 -s -x -8 -m 512  @@ /tmp/foo
+tiffcp -l 100 -L -o 16 -p separate -r 4 -s -w 100 -8 -m 512  @@ /tmp/foo
+tiffcp -a -L -p separate -r 4 -t -x  @@ /tmp/foo
+tiffcp -a -C -c packbits -f msb2lsb -i -L -M -o 16 -s -w 100 -x -m 512  @@ /tmp/foo
+tiffcp -B -C -c sgilog -f lsb2msb -i -M -o 16 -r 4  @@ /tmp/foo
+tiffcp -a -C -c lzw -i -l 100 -L -r 4 -t -8  @@ /tmp/foo
+tiffcp -C -i -L -M -o 16 -p contig -t -w 100 -x  @@ /tmp/foo
+tiffcp -a -B -f msb2lsb -i -l 100 -p separate -s -m 512  @@ /tmp/foo
+tiffcp -a -f lsb2msb -l 100 -L -M -o 16 -s -x  @@ /tmp/foo
+tiffcp -M -o 16 -p contig -r 4 -t -w 100  @@ /tmp/foo
+tiffcp -a -c sgilog -L -s -w 100 -x  @@ /tmp/foo
+tiffcp -a -C -l 100 -o 16 -r 4 -s -8 -m 512  @@ /tmp/foo
+tiffcp -a -B -M -p separate -w 100  @@ /tmp/foo
+tiffcp -a -C -c g4 -f msb2lsb -l 100 -o 16 -t -w 100 -8  @@ /tmp/foo
+tiffcp -a -C -f lsb2msb -i -l 100 -o 16 -w 100 -x -8 -m 512  @@ /tmp/foo
+tiffcp -a -B -C -c packbits -f lsb2msb -i -o 16 -s -8  @@ /tmp/foo
+tiffcp -a -c lzma -i -L -M -o 16 -p separate -r 4 -s  @@ /tmp/foo
+tiffcp -C -i -l 100 -L -p contig -r 4 -s -w 100 -x -8  @@ /tmp/foo
+tiffcp -B -C -c g4 -i -l 100 -M -p contig -s -x -8 -m 512  @@ /tmp/foo
+tiffcp -c none -i -p separate -t -x -8  @@ /tmp/foo
+tiffcp -a -C -L -o 16 -p contig -t -w 100  @@ /tmp/foo
+tiffcp -a -c g4 -M -p contig -s -x -8 -m 512  @@ /tmp/foo
+tiffcp -a -B -c sgilog -f msb2lsb -M -o 16 -p contig -r 4 -s -8 -m 512  @@ /tmp/foo
+tiffcp -a -B -c jpeg -f msb2lsb -M -r 4 -t -x -m 512  @@ /tmp/foo
+tiffcp -B -f lsb2msb -i -l 100 -M -o 16 -r 4 -s -w 100 -x -m 512  @@ /tmp/foo
+tiffcp -c none -f msb2lsb -L -p contig -r 4 -t -8  @@ /tmp/foo
+tiffcp -a -B -c none -f msb2lsb -i -o 16 -p separate -t -w 100 -x -8  @@ /tmp/foo
+tiffcp -C -c g3 -l 100 -L -M -o 16 -p contig -w 100  @@ /tmp/foo
+tiffcp -a -B -f msb2lsb -i -l 100 -M -r 4 -s  @@ /tmp/foo
+tiffcp -a -B -C -i -l 100 -p separate -r 4 -s -x -8 -m 512  @@ /tmp/foo
+tiffcp -B -c lzma -i -M -p separate -r 4 -t -8  @@ /tmp/foo
+tiffcp -B -c g3 -f lsb2msb -i -r 4 -w 100  @@ /tmp/foo
+tiffcp -B -c jpeg -f msb2lsb -i -l 100 -M -p contig -w 100 -x -8 -m 512  @@ /tmp/foo
+tiffcp -B -C -f lsb2msb -i -l 100 -o 16 -t -x -8 -m 512  @@ /tmp/foo
+tiffcp -a -c zip -f lsb2msb -i -l 100 -L -M -o 16 -r 4 -t -8 -m 512  @@ /tmp/foo
+tiffcp -a -C -L -M -o 16 -p contig -r 4 -s -w 100 -m 512  @@ /tmp/foo
+tiffcp -c g3 -f lsb2msb -l 100 -L -o 16 -p separate -s -w 100 -x -8  @@ /tmp/foo
+tiffcp -a -B -C -f lsb2msb -i -M -s -w 100 -m 512  @@ /tmp/foo
+tiffcp -c lzw -l 100 -L -t -w 100 -x -8  @@ /tmp/foo
+tiffcp -C -l 100 -L -M -s -x -8  @@ /tmp/foo
+tiffcp -B -C -i -o 16 -s -w 100 -x -8  @@ /tmp/foo
+tiffcp -B -c g4 -i -l 100 -M -o 16 -s -8  @@ /tmp/foo
+tiffcp -a -B -c packbits -i -l 100 -M -r 4 -s -w 100 -8  @@ /tmp/foo
+tiffcp -C -f lsb2msb -i -M -w 100 -m 512  @@ /tmp/foo
+tiffcp -c none -f msb2lsb -L -o 16 -p separate -r 4 -s -w 100 -x -m 512  @@ /tmp/foo
+tiffcp -C -f lsb2msb -L -r 4 -s -w 100  @@ /tmp/foo
+tiffcp -B -c lzma -f lsb2msb -o 16 -r 4 -s -x  @@ /tmp/foo
+tiffcp -c packbits -f lsb2msb -l 100 -M -o 16 -p separate -r 4 -t -x  @@ /tmp/foo
+tiffcp -a -C -c lzw -L -M -p contig -t -x -m 512  @@ /tmp/foo
+tiffcp -a -C -c jpeg -f lsb2msb -i -L -t -w 100 -8 -m 512  @@ /tmp/foo
+tiffcp -a -f msb2lsb -L -p contig -x -8 -m 512  @@ /tmp/foo
+tiffcp -a -i -L -M -s  @@ /tmp/foo
+tiffcp -B -c lzw -l 100 -o 16 -p separate -t -w 100 -8  @@ /tmp/foo
+tiffcp -B -C -i -M -p separate -s -w 100 -x  @@ /tmp/foo
+tiffcp -B -C -c packbits -f msb2lsb -l 100 -p contig -s -w 100 -8 -m 512  @@ /tmp/foo
+tiffcp -f lsb2msb -i -L -o 16 -r 4 -s -8 -m 512  @@ /tmp/foo
+tiffcp -a -C -c g3 -L -M -p separate -r 4 -w 100 -x -8  @@ /tmp/foo
+tiffcp -a -C -L -M -s -w 100 -8  @@ /tmp/foo
+tiffcp -a -C -l 100 -M -r 4 -t -w 100  @@ /tmp/foo
+tiffcp -C -f lsb2msb -i -L -s -x -8 -m 512  @@ /tmp/foo
+tiffcp -a -f lsb2msb -l 100 -L -M -o 16 -p contig -t -m 512  @@ /tmp/foo
+tiffcp -a -c g3 -i -L -r 4 -s -x -m 512  @@ /tmp/foo
+tiffcp -B -i -l 100 -M -p contig -t -x -m 512  @@ /tmp/foo
+tiffcp -a -C -c sgilog -M -o 16 -t -w 100 -8  @@ /tmp/foo
+tiffcp -c packbits -i -L -M -o 16 -t -w 100 -m 512  @@ /tmp/foo
+tiffcp -a -B -C -i -M -o 16 -p contig -r 4 -t -m 512  @@ /tmp/foo
+tiffcp -B -c packbits -M -p separate -s  @@ /tmp/foo
+tiffcp -a -C -f msb2lsb -l 100 -L -s -w 100 -x  @@ /tmp/foo
+tiffcp -c sgilog -i -L -M -r 4 -t -w 100 -x -8  @@ /tmp/foo
+tiffcp -l 100 -L -M -p contig -8  @@ /tmp/foo
+tiffcp -B -C -c lzw -f msb2lsb -l 100 -o 16 -p contig -r 4 -s -w 100 -x -m 512  @@ /tmp/foo
+tiffcp -B -C -i -M -o 16 -r 4 -s -x -m 512  @@ /tmp/foo
+tiffcp -B -i -l 100 -w 100 -8 -m 512  @@ /tmp/foo
+tiffcp -C -f msb2lsb -i -L -M -p contig -w 100  @@ /tmp/foo
+tiffcp -B -c packbits -f lsb2msb -i -M -o 16 -p separate -s -w 100  @@ /tmp/foo
+tiffcp -a -B -C -f lsb2msb -M -p separate -r 4 -t  @@ /tmp/foo
+tiffcp -C -c sgilog -f lsb2msb -i -L -M -p contig -r 4 -s -w 100 -x -m 512  @@ /tmp/foo
+tiffcp -a -B -C -c sgilog -f msb2lsb -i -M -s -w 100 -x -8 -m 512  @@ /tmp/foo
+tiffcp -a -C -l 100 -L -o 16 -p contig -w 100 -x -m 512  @@ /tmp/foo
+tiffcp -a -B -C -f msb2lsb -o 16 -p contig -t -w 100 -x -m 512  @@ /tmp/foo
+tiffcp -a -B -c zip -f lsb2msb -p contig -r 4 -s -w 100 -x -8  @@ /tmp/foo
+tiffcp -f lsb2msb -i -l 100 -L -o 16 -t -w 100  @@ /tmp/foo
+tiffcp -B -C -f msb2lsb -i -l 100 -o 16 -r 4 -w 100 -8  @@ /tmp/foo
+tiffcp -a -f msb2lsb -l 100 -L -M -p contig -t -w 100 -8  @@ /tmp/foo
+tiffcp -a -C -c g4 -f lsb2msb -l 100 -L -M -r 4 -8  @@ /tmp/foo
+tiffcp -C -c g4 -f lsb2msb -L -M -r 4 -t -8 -m 512  @@ /tmp/foo
+tiffcp -a -C -c zip -f lsb2msb -i -l 100 -L -p contig -s -x -8  @@ /tmp/foo
+tiffcp -C -L -o 16 -p contig -r 4 -t -w 100 -8  @@ /tmp/foo
+tiffcp -B -C -c lzma -f msb2lsb -p separate -t -x -8 -m 512  @@ /tmp/foo
+tiffcp -B -C -f msb2lsb -i -l 100 -o 16 -p separate -r 4 -s -x -8  @@ /tmp/foo
+tiffcp -B -C -f lsb2msb -l 100 -t -w 100 -8  @@ /tmp/foo
+tiffcp -a -B -i -l 100 -o 16 -r 4 -t -x  @@ /tmp/foo
+tiffcp -B -C -c lzw -l 100 -8  @@ /tmp/foo
+tiffcp -B -C -c none -f lsb2msb -i -M -o 16 -r 4 -t -w 100 -x  @@ /tmp/foo
+tiffcp -a -c zip -i -l 100 -L -w 100 -m 512  @@ /tmp/foo
+tiffcp -a -B -f lsb2msb -i -o 16 -s -w 100 -x  @@ /tmp/foo
+tiffcp -a -B -C -i -M -r 4 -x -8 -m 512  @@ /tmp/foo
+tiffcp -a -B -C -c zip -f msb2lsb -i -o 16 -r 4 -t -x -8 -m 512  @@ /tmp/foo
+tiffcp -a -B -c g3 -f lsb2msb -i -M -p separate -t -x -8  @@ /tmp/foo
+tiffcp -a -B -c g3 -l 100 -M -o 16 -t -x  @@ /tmp/foo
+tiffcp -a -C -c g4 -l 100 -L -p separate -r 4 -t -x -8 -m 512  @@ /tmp/foo
+tiffcp -B -i -l 100 -p separate -r 4 -s -8  @@ /tmp/foo
+tiffcp -a -B -C -c sgilog -p separate -t -m 512  @@ /tmp/foo
+tiffcp -a -B -C -f msb2lsb -l 100 -p contig -r 4 -w 100 -8 -m 512  @@ /tmp/foo
+tiffcp -i -L -M -s -w 100 -x -8 -m 512  @@ /tmp/foo
+tiffcp -B -c sgilog -i -o 16 -r 4 -s -w 100 -8 -m 512  @@ /tmp/foo
+tiffcp -B -f lsb2msb -M -o 16 -r 4 -s -w 100 -8  @@ /tmp/foo
+tiffcp -a -C -c g4 -f lsb2msb -i -l 100 -L -o 16 -p contig -s -w 100 -x  @@ /tmp/foo
+tiffcp -C -c sgilog -f lsb2msb -l 100 -L -M -r 4 -t -w 100 -x  @@ /tmp/foo
+tiffcp -a -c lzw -i -M -o 16 -r 4 -s -w 100 -x  @@ /tmp/foo
+tiffcp -a -C -f msb2lsb -i -l 100 -L -M -r 4 -m 512  @@ /tmp/foo
+tiffcp -a -B -C -c g4 -i -l 100 -M -r 4 -s -x  @@ /tmp/foo
+tiffcp -a -B -c zip -o 16 -p separate -r 4 -t -w 100 -m 512  @@ /tmp/foo
+tiffcp -C -f msb2lsb -L -M -p separate -r 4 -t -x -8 -m 512  @@ /tmp/foo
+tiffcp -c none -f lsb2msb -i -l 100 -M -r 4 -s -x -m 512  @@ /tmp/foo
+tiffcp -a -f msb2lsb -L -M -p separate -r 4 -s -x  @@ /tmp/foo
+tiffcp -a -c lzma -i -L -M -o 16 -t -x -8  @@ /tmp/foo
+tiffcp -C -c zip -f lsb2msb -l 100 -L -o 16 -p separate -t -w 100  @@ /tmp/foo
+tiffcp -i -l 100 -L -M -o 16 -p separate -s -w 100 -x -m 512  @@ /tmp/foo
+tiffcp -a -B -c lzma -f msb2lsb -i -l 100 -o 16 -p contig -r 4 -s -w 100 -m 512  @@ /tmp/foo
+tiffcp -a -B -C -i -M -r 4 -t -w 100 -8  @@ /tmp/foo
+tiffcp -B -c sgilog -i -l 100 -o 16 -r 4 -t -8 -m 512  @@ /tmp/foo
+tiffcp -a -C -i -M -o 16 -t -8  @@ /tmp/foo
+tiffcp -C -L -M -r 4 -w 100 -m 512  @@ /tmp/foo
+tiffcp -f msb2lsb -l 100 -L -o 16 -p contig -r 4 -t -x  @@ /tmp/foo
+tiffcp -C -c g4 -l 100 -L -o 16 -t -w 100 -x -8 -m 512  @@ /tmp/foo
+tiffcp -a -B -c jpeg -f lsb2msb -l 100 -M -o 16 -p separate -s -w 100  @@ /tmp/foo
+tiffcp -B -C -c g4 -f msb2lsb -p contig -t -w 100 -8  @@ /tmp/foo
+tiffcp -a -c lzma -f msb2lsb -l 100 -L -s -8 -m 512  @@ /tmp/foo
+tiffcp -a -B -f lsb2msb -M -p separate -t -w 100 -x -m 512  @@ /tmp/foo
+tiffcp -a -B -C -f msb2lsb -i -o 16 -p contig -r 4 -s -8 -m 512  @@ /tmp/foo
+tiffcp -B -c g3 -l 100 -M -o 16 -p separate -r 4 -t -8 -m 512  @@ /tmp/foo
+tiffcp -a -C -c jpeg -f lsb2msb -L -o 16 -r 4 -t -w 100 -x -m 512  @@ /tmp/foo
+tiffcp -a -C -c none -i -M -s -m 512  @@ /tmp/foo
+tiffcp -B -C -c none -f lsb2msb -l 100 -M -r 4 -s -w 100 -x -m 512  @@ /tmp/foo
+tiffcp -B -c lzw -f msb2lsb -i -t -w 100 -x -8 -m 512  @@ /tmp/foo
+tiffcp -B -M -t -w 100 -x  @@ /tmp/foo
+tiffcp -a -C -f msb2lsb -L -M -o 16 -p contig -r 4 -t -w 100 -x -8 -m 512  @@ /tmp/foo
+tiffcp -B -C -f msb2lsb -i -l 100 -p separate -x  @@ /tmp/foo
+tiffcp -a -B -C -c jpeg -i -l 100 -r 4 -x -8 -m 512  @@ /tmp/foo
+tiffcp -a -c jpeg -f msb2lsb -i -L -M -p contig -s -8 -m 512  @@ /tmp/foo
+tiffcp -a -C -f msb2lsb -o 16 -p contig -r 4 -s -x  @@ /tmp/foo
+tiffcp -C -f lsb2msb -i -l 100 -p contig -r 4 -t -w 100 -x -m 512  @@ /tmp/foo
+tiffcp -B -C -M -p contig -r 4 -x  @@ /tmp/foo
+tiffcp -a -B -C -f lsb2msb -i -l 100 -o 16 -s -w 100 -8 -m 512  @@ /tmp/foo
+tiffcp -a -c lzma -f lsb2msb -l 100 -M -p contig -r 4 -s -w 100 -x -8 -m 512  @@ /tmp/foo
+tiffcp -C -c lzw -i -L -p contig -r 4 -w 100 -8 -m 512  @@ /tmp/foo
+tiffcp -C -f lsb2msb -i -l 100 -L -o 16 -s -w 100 -m 512  @@ /tmp/foo
+tiffcp -C -c g4 -l 100 -L -M -o 16 -p separate -r 4 -s -8 -m 512  @@ /tmp/foo
+tiffcp -c g3 -f msb2lsb -i -l 100 -o 16 -t  @@ /tmp/foo
+tiffcp -c none -f lsb2msb -L -M -s -x -8  @@ /tmp/foo
+tiffcp -B -f lsb2msb -i -l 100 -p separate -r 4 -x  @@ /tmp/foo
+tiffcp -B -C -c sgilog -l 100 -M -p separate -s -w 100 -m 512  @@ /tmp/foo
+tiffcp -a -f lsb2msb -i -o 16 -r 4 -s -w 100 -m 512  @@ /tmp/foo
+tiffcp -a -L -M -o 16 -w 100 -8  @@ /tmp/foo
+tiffcp -a -C -f lsb2msb -L -o 16 -s -8 -m 512  @@ /tmp/foo
+tiffcp -C -c zip -i -l 100 -L -o 16 -r 4 -t -x  @@ /tmp/foo
+tiffcp -a -C -c g3 -f msb2lsb -i -o 16 -p contig -s -w 100 -x -m 512  @@ /tmp/foo
+tiffcp -a -i -M -o 16 -p contig -r 4 -s -w 100 -8  @@ /tmp/foo
+tiffcp -c jpeg -f lsb2msb -i -l 100 -L -r 4 -s -w 100 -8 -m 512  @@ /tmp/foo
+tiffcp -B -f msb2lsb -o 16 -p separate -w 100  @@ /tmp/foo
+tiffcp -a -C -c sgilog -f msb2lsb -l 100 -L -M -r 4 -s -m 512  @@ /tmp/foo
+tiffcp -c g3 -f msb2lsb -i -l 100 -L -M -o 16 -p separate -r 4 -s -w 100 -x -8  @@ /tmp/foo
+tiffcp -C -L -o 16 -8 -m 512  @@ /tmp/foo
+tiffcp -C -c lzw -f msb2lsb -i -l 100 -o 16 -r 4 -s -x -8  @@ /tmp/foo
+tiffcp -a -C -c none -f msb2lsb -i -l 100 -M -o 16 -p separate -r 4 -t -w 100 -8  @@ /tmp/foo
+tiffcp -a -B -C -c jpeg -f msb2lsb -l 100 -M -t -x -8  @@ /tmp/foo
+tiffcp -B -C -c g3 -f msb2lsb -l 100 -p contig -r 4 -t -x  @@ /tmp/foo
+tiffcp -a -i -l 100 -o 16 -p separate -t -8 -m 512  @@ /tmp/foo
+tiffcp -B -C -i -l 100 -o 16 -p separate -t -w 100  @@ /tmp/foo
+tiffcp -l 100 -L -M -o 16 -p contig -r 4 -t -8  @@ /tmp/foo
+tiffcp -c g4 -M -r 4 -t -8 -m 512  @@ /tmp/foo
+tiffcp -a -B -c sgilog -i -l 100 -s -w 100 -8  @@ /tmp/foo
+tiffcp -c lzw -f msb2lsb -l 100 -L -M -r 4 -w 100 -x -8 -m 512  @@ /tmp/foo
+tiffcp -a -B -C -f msb2lsb -i -M -o 16 -p contig -x  @@ /tmp/foo
+tiffcp -a -C -l 100 -L -r 4 -t -w 100 -x -8 -m 512  @@ /tmp/foo
+tiffcp -a -c none -f msb2lsb -i -l 100 -M -o 16 -p contig -r 4 -s -m 512  @@ /tmp/foo
+tiffcp -a -c jpeg -i -L -M -t -m 512  @@ /tmp/foo
+tiffcp -a -B -f lsb2msb -l 100 -M -w 100 -x  @@ /tmp/foo
+tiffcp -a -B -c packbits -l 100 -r 4 -s -w 100 -8 -m 512  @@ /tmp/foo
+tiffcp -C -i -L -M -p separate -s -w 100 -8 -m 512  @@ /tmp/foo
+tiffcp -c g4 -i -l 100 -L -p separate -s  @@ /tmp/foo
+tiffcp -C -o 16 -p contig -r 4 -s  @@ /tmp/foo
+tiffcp -C -c lzma -L -o 16 -s -x -m 512  @@ /tmp/foo
+tiffcp -f msb2lsb -l 100 -L -r 4 -t -x -m 512  @@ /tmp/foo
+tiffcp -a -C -c jpeg -f lsb2msb -i -L -M -o 16 -r 4 -s -w 100  @@ /tmp/foo
+tiffcp -a -f lsb2msb -l 100 -M -p contig -r 4 -8  @@ /tmp/foo
+tiffcp -a -c packbits -f lsb2msb -L -o 16  @@ /tmp/foo
+tiffcp -a -B -C -l 100 -p contig -r 4 -t -w 100 -x -8  @@ /tmp/foo
+tiffcp -a -B -C -c packbits -f msb2lsb -r 4 -s -8  @@ /tmp/foo
+tiffcp -a -B -c lzma -l 100 -t -x -8 -m 512  @@ /tmp/foo
+tiffcp -a -B -i -M -o 16 -p separate -r 4 -s -w 100 -x -m 512  @@ /tmp/foo
+tiffcp -a -C -l 100 -L -p separate -r 4 -s -m 512  @@ /tmp/foo
+tiffcp -a -c packbits -l 100 -L -M -o 16 -r 4 -s -8  @@ /tmp/foo
+tiffcp -f msb2lsb -i -L -o 16 -s -8  @@ /tmp/foo
+tiffcp -a -B -i -l 100 -M -o 16 -t -w 100 -x -8 -m 512  @@ /tmp/foo
+tiffcp -f msb2lsb -i -M -o 16 -s -x -8 -m 512  @@ /tmp/foo
+tiffcp -a -B -f lsb2msb -l 100 -o 16 -r 4 -t -8  @@ /tmp/foo
+tiffcp -B -l 100 -M -t -m 512  @@ /tmp/foo
+tiffcp -a -f lsb2msb -i -p contig -r 4 -t  @@ /tmp/foo
+tiffcp -B -C -c jpeg -f msb2lsb -i -l 100 -M -o 16 -w 100 -8  @@ /tmp/foo
+tiffcp -a -C -c lzw -i -l 100 -L -M -o 16 -r 4 -s -w 100 -x -8 -m 512  @@ /tmp/foo
+tiffcp -c lzw -l 100 -L -M -o 16 -p separate -r 4 -t -w 100 -x -m 512  @@ /tmp/foo
+tiffcp -a -c sgilog -f msb2lsb -l 100 -L -M -r 4 -t -w 100  @@ /tmp/foo
+tiffcp -a -c jpeg -f msb2lsb -i -l 100 -L -p separate -r 4 -t -w 100 -x  @@ /tmp/foo
+tiffcp -a -B -C -c packbits -i -M -o 16 -r 4 -s -x -8  @@ /tmp/foo
+tiffcp -a -C -t -w 100 -x -m 512  @@ /tmp/foo
+tiffcp -a -l 100 -o 16 -p contig -s -w 100  @@ /tmp/foo
+tiffcp -a -B -c packbits -l 100 -s -x -8 -m 512  @@ /tmp/foo
+tiffcp -c g4 -i -L -p separate -r 4 -s -w 100  @@ /tmp/foo
+tiffcp -B -C -f lsb2msb -i -M -p contig -r 4 -t -w 100 -8 -m 512  @@ /tmp/foo
+tiffcp -a -B -l 100 -M -p contig -r 4 -t -w 100 -8 -m 512  @@ /tmp/foo
+tiffcp -B -f lsb2msb -i -r 4 -s -x -m 512  @@ /tmp/foo
+tiffcp -a -f lsb2msb -i -l 100 -M -t -x -8 -m 512  @@ /tmp/foo
+tiffcp -c sgilog -f msb2lsb -i -L -M -p separate -r 4 -t -x -m 512  @@ /tmp/foo
+tiffcp -B -c lzw -i -l 100 -M -o 16 -p contig -r 4 -w 100 -x -8  @@ /tmp/foo
+tiffcp -a -C -f msb2lsb -i -L -p contig -s -w 100  @@ /tmp/foo
+tiffcp -B -C -o 16 -r 4 -t -w 100 -8 -m 512  @@ /tmp/foo
+tiffcp -a -i -L -p separate -t -8 -m 512  @@ /tmp/foo
+tiffcp -a -C -c jpeg -i -l 100 -L -M -p separate -r 4 -t -w 100 -x -m 512  @@ /tmp/foo
+tiffcp -B -f lsb2msb -l 100 -o 16 -r 4 -x -m 512  @@ /tmp/foo
+tiffcp -B -M -o 16 -p separate -t -w 100 -x -8  @@ /tmp/foo
+tiffcp -C -f msb2lsb -l 100 -L -M -p separate -r 4 -s -w 100 -8 -m 512  @@ /tmp/foo
+tiffcp -a -B -C -c jpeg -i -o 16 -r 4 -w 100 -x -8  @@ /tmp/foo
+tiffcp -a -B -c lzma -f msb2lsb -i -l 100 -M -p contig -s -w 100 -8 -m 512  @@ /tmp/foo
+tiffcp -a -C -c lzw -f msb2lsb -l 100 -p separate -t -x  @@ /tmp/foo
+tiffcp -C -c lzw -i -l 100 -p contig -s -8  @@ /tmp/foo
+tiffcp -a -c none -f msb2lsb -i -l 100 -L -M -o 16 -p contig -s -w 100 -m 512  @@ /tmp/foo
+tiffcp -f msb2lsb -l 100 -L -p contig -s -8  @@ /tmp/foo
+tiffcp -C -c g4 -f msb2lsb -M -o 16 -t -m 512  @@ /tmp/foo
+tiffcp -C -f msb2lsb -M -o 16 -p separate -s -w 100 -x  @@ /tmp/foo
+tiffcp -a -C -f lsb2msb -i -l 100 -L -o 16 -p contig -r 4 -t -8  @@ /tmp/foo
+tiffcp -C -l 100 -M -o 16 -r 4 -w 100 -x -8  @@ /tmp/foo
+tiffcp -a -C -i -l 100 -L -o 16 -p separate -r 4 -s -x  @@ /tmp/foo
+tiffcp -a -B -C -c jpeg -l 100 -M -o 16 -p separate -s -x -m 512  @@ /tmp/foo
+tiffcp -B -C -c jpeg -f msb2lsb -i -l 100 -M -p contig -r 4 -t  @@ /tmp/foo
+tiffcp -B -C -f lsb2msb -i -p separate -t -x -8  @@ /tmp/foo
+tiffcp -a -c lzma -L -M -p contig -s -w 100 -x -8 -m 512  @@ /tmp/foo
+tiffcp -a -c g4 -i -r 4 -w 100  @@ /tmp/foo
+tiffcp -L -p contig -t -x -m 512  @@ /tmp/foo
+tiffcp -C -f msb2lsb -l 100 -L -M -t -m 512  @@ /tmp/foo
+tiffcp -a -c packbits -f msb2lsb -l 100 -M -o 16 -s -w 100 -x -8 -m 512  @@ /tmp/foo
+tiffcp -a -C -c zip -f msb2lsb -L -M -p contig -s -w 100 -8  @@ /tmp/foo
+tiffcp -C -f lsb2msb -l 100 -L -M -o 16 -t -x -8  @@ /tmp/foo
+tiffcp -B -f lsb2msb -i -l 100 -M -r 4 -t -x -8 -m 512  @@ /tmp/foo
+tiffcp -B -C -f msb2lsb -i -r 4 -t -m 512  @@ /tmp/foo
+tiffcp -a -B -C -c lzw -i -l 100 -M -p separate -t -8  @@ /tmp/foo
+tiffcp -a -f msb2lsb -l 100 -L -r 4 -s -w 100 -x -8 -m 512  @@ /tmp/foo

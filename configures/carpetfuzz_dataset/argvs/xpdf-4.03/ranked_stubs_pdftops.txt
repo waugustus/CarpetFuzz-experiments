@@ -1,0 +1,1496 @@
+1495
+pdftops -l 5 -level1sep -eps -noembt1 -noembtt -noembcidps -noembcidtt -preload -paperw 400 -paperh 500 -nocrop -noshrink -pagecrop -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3sep -eps -noembt1 -noembtt -noembcidps -noembcidtt -preload -paper legal -paperh 500 -nocrop -expand -nocenter -pagecrop -userunit -duplex  @@ /tmp/foo
+pdftops -l 5 -level3sep -noembt1 -noembtt -noembcidps -noembcidtt -preload -paper letter -nocrop -expand -noshrink -nocenter -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level1 -noembcidps -noembcidtt -preload -paperw 400 -paperh 500 -nocrop -expand -noshrink -nocenter -pagecrop -duplex -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level2gray -form -noembt1 -noembtt -noembcidtt -preload -paperw 400 -nocrop -expand -noshrink -nocenter -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level3gray -form -noembtt -noembcidps -noembcidtt -preload -paper A4 -paperw 400 -paperh 500 -nocrop -expand -noshrink -pagecrop -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -level1 -eps -noembt1 -noembtt -noembcidps -noembcidtt -preload -paperw 400 -paperh 500 -nocrop -expand -noshrink -userunit -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2sep -noembtt -noembcidps -noembcidtt -preload -paper legal -paperh 500 -nocrop -expand -noshrink -nocenter -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3sep -eps -noembcidps -noembcidtt -preload -paper letter -paperw 400 -paperh 500 -nocrop -expand -noshrink -nocenter -pagecrop -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -level2 -form -noembt1 -noembcidps -noembcidtt -preload -paper legal -paperh 500 -nocrop -expand -nocenter -pagecrop -duplex -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level1sep -eps -noembt1 -noembtt -noembcidps -noembcidtt -paperw 400 -paperh 500 -nocrop -expand -noshrink -pagecrop -duplex  @@ /tmp/foo
+pdftops -l 5 -level3sep -form -noembt1 -noembtt -noembcidps -noembcidtt -preload -paper A3 -paperw 400 -paperh 500 -nocrop -expand -noshrink -duplex -opw 123456  @@ /tmp/foo
+pdftops -level3gray -eps -noembt1 -noembtt -noembcidps -noembcidtt -paperw 400 -paperh 500 -nocrop -noshrink -pagecrop -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level3 -eps -noembt1 -noembtt -noembcidps -preload -paperw 400 -paperh 500 -expand -noshrink -nocenter -pagecrop -userunit -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level2gray -eps -noembt1 -noembtt -noembcidps -noembcidtt -paper letter -nocrop -expand -noshrink -nocenter -pagecrop -userunit -opw 123456  @@ /tmp/foo
+pdftops -level3gray -form -noembt1 -noembtt -preload -paperw 400 -paperh 500 -nocrop -expand -noshrink -nocenter -pagecrop -userunit -opw 123456  @@ /tmp/foo
+pdftops -level3gray -eps -noembtt -noembcidps -noembcidtt -preload -paper A3 -paperh 500 -expand -noshrink -nocenter -pagecrop -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2gray -eps -noembt1 -noembtt -noembcidps -noembcidtt -paperw 400 -paperh 500 -nocrop -noshrink -nocenter -pagecrop -userunit -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2sep -eps -noembt1 -noembtt -noembcidps -noembcidtt -preload -paperw 400 -paperh 500 -nocrop -pagecrop -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2sep -form -noembt1 -noembtt -noembcidtt -preload -paperh 500 -nocrop -expand -nocenter -pagecrop -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -noembt1 -noembtt -noembcidtt -preload -paper A3 -paperw 400 -nocrop -expand -noshrink -pagecrop -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -level2 -noembt1 -noembtt -noembcidtt -preload -paper legal -paperw 400 -paperh 500 -expand -noshrink -pagecrop -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -level1 -noembtt -noembcidps -noembcidtt -preload -paper match -paperw 400 -nocrop -noshrink -nocenter -pagecrop -userunit -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level3gray -form -noembt1 -noembtt -noembcidtt -paperw 400 -paperh 500 -expand -noshrink -nocenter -pagecrop -upw 123456  @@ /tmp/foo
+pdftops -level3 -form -noembtt -noembcidps -preload -paperw 400 -paperh 500 -nocrop -expand -noshrink -pagecrop -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3sep -noembt1 -noembtt -noembcidtt -preload -paperw 400 -expand -noshrink -nocenter -pagecrop -userunit -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level1 -eps -noembt1 -noembtt -preload -paper match -nocrop -expand -nocenter -pagecrop -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3gray -form -noembt1 -noembtt -noembcidps -paper legal -paperw 400 -nocrop -noshrink -nocenter -pagecrop -duplex -opw 123456  @@ /tmp/foo
+pdftops -level1sep -eps -noembt1 -noembcidtt -paperw 400 -nocrop -expand -noshrink -nocenter -pagecrop -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2sep -eps -noembt1 -noembcidtt -preload -paperh 500 -nocrop -expand -noshrink -nocenter -pagecrop -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level2sep -form -noembt1 -noembtt -noembcidps -noembcidtt -preload -paper letter -paperh 500 -expand -nocenter -pagecrop -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3gray -eps -noembtt -noembcidps -noembcidtt -preload -paper legal -expand -noshrink -nocenter -pagecrop -userunit -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2gray -eps -noembt1 -noembtt -noembcidps -noembcidtt -paperh 500 -expand -noshrink -nocenter -pagecrop -userunit -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level2 -eps -noembt1 -noembtt -noembcidps -preload -paperw 400 -paperh 500 -nocrop -pagecrop -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level1sep -noembtt -noembcidps -noembcidtt -preload -paper A3 -paperh 500 -nocrop -expand -noshrink -nocenter -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2 -eps -noembt1 -noembtt -noembcidtt -preload -paper A3 -nocrop -expand -nocenter -userunit -duplex  @@ /tmp/foo
+pdftops -l 5 -level2 -noembt1 -noembtt -noembcidps -noembcidtt -paperw 400 -paperh 500 -nocrop -noshrink -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3 -eps -noembtt -noembcidps -preload -paper A4 -paperw 400 -nocrop -expand -nocenter -pagecrop -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2sep -form -noembt1 -noembtt -noembcidps -preload -paper letter -paperw 400 -noshrink -nocenter -pagecrop -userunit -duplex  @@ /tmp/foo
+pdftops -l 5 -level1 -noembt1 -noembcidps -noembcidtt -preload -paper A3 -paperw 400 -nocrop -expand -pagecrop -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -level2gray -form -noembt1 -noembtt -noembcidps -paper A4 -paperw 400 -nocrop -expand -noshrink -pagecrop -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3sep -form -noembt1 -noembtt -noembcidps -noembcidtt -preload -paperw 400 -expand -nocenter -pagecrop -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3sep -form -noembtt -noembcidps -noembcidtt -preload -paperh 500 -expand -nocenter -pagecrop -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -noembt1 -noembtt -noembcidps -noembcidtt -preload -paper letter -paperh 500 -expand -nocenter -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3 -form -noembt1 -noembcidtt -preload -paperw 400 -paperh 500 -nocrop -expand -noshrink -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level1 -noembcidps -noembcidtt -paperw 400 -paperh 500 -nocrop -expand -noshrink -nocenter -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level3gray -eps -noembtt -preload -paperw 400 -nocrop -expand -noshrink -nocenter -pagecrop -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level2 -form -noembt1 -noembcidtt -preload -paperw 400 -nocrop -expand -noshrink -nocenter -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -level2gray -noembt1 -noembcidps -preload -paper legal -paperw 400 -paperh 500 -nocrop -expand -nocenter -pagecrop -userunit -duplex  @@ /tmp/foo
+pdftops -f 2 -level2sep -eps -noembt1 -noembtt -noembcidps -noembcidtt -paperh 500 -nocrop -expand -noshrink -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3 -form -noembtt -noembcidtt -preload -paperw 400 -nocrop -noshrink -nocenter -pagecrop -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2 -form -noembcidps -noembcidtt -preload -paperw 400 -paperh 500 -nocrop -noshrink -nocenter -pagecrop -userunit -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -noembt1 -noembtt -noembcidps -preload -paper legal -paperh 500 -noshrink -nocenter -pagecrop -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level2gray -form -noembcidps -noembcidtt -paper match -paperw 400 -nocrop -expand -noshrink -nocenter -pagecrop -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -level3 -eps -noembt1 -noembtt -noembcidps -noembcidtt -paper A3 -paperw 400 -paperh 500 -nocrop -expand -noshrink -nocenter -userunit -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -noembtt -noembcidps -noembcidtt -preload -paper A3 -paperh 500 -nocrop -noshrink -nocenter -pagecrop -userunit  @@ /tmp/foo
+pdftops -f 2 -level1 -noembt1 -noembcidps -noembcidtt -preload -paper A4 -paperh 500 -nocrop -noshrink -pagecrop -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3 -form -noembt1 -noembtt -preload -paperw 400 -paperh 500 -nocrop -expand -pagecrop -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2sep -form -noembt1 -noembcidps -noembcidtt -paperw 400 -paperh 500 -nocrop -expand -noshrink -pagecrop -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level2sep -form -noembt1 -noembtt -paper match -paperw 400 -nocrop -expand -noshrink -nocenter -pagecrop -duplex -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3 -eps -noembt1 -noembcidtt -preload -paperw 400 -nocrop -expand -noshrink -nocenter -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -level2gray -noembt1 -noembtt -noembcidtt -paper legal -paperw 400 -expand -noshrink -nocenter -pagecrop -duplex -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level2 -form -noembt1 -noembtt -noembcidps -noembcidtt -preload -paperh 500 -noshrink -pagecrop -duplex -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3gray -noembt1 -noembtt -noembcidps -noembcidtt -nocrop -expand -noshrink -nocenter -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level1 -noembtt -noembcidtt -preload -paper letter -paperw 400 -nocrop -expand -noshrink -nocenter -pagecrop -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3 -noembt1 -noembtt -noembcidps -noembcidtt -paper match -paperw 400 -nocrop -expand -pagecrop -duplex -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level2 -form -noembt1 -noembtt -noembcidps -noembcidtt -preload -paper match -paperw 400 -paperh 500 -nocrop -expand -noshrink -userunit -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level2 -eps -noembcidps -noembcidtt -preload -paper letter -paperh 500 -nocrop -noshrink -nocenter -pagecrop -userunit -duplex  @@ /tmp/foo
+pdftops -l 5 -level2gray -form -noembtt -noembcidps -noembcidtt -preload -paper match -expand -noshrink -nocenter -pagecrop -userunit  @@ /tmp/foo
+pdftops -f 2 -level1 -eps -noembtt -noembcidps -noembcidtt -preload -paperh 500 -nocrop -pagecrop -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level2 -eps -noembt1 -noembtt -noembcidtt -preload -paperh 500 -nocrop -noshrink -nocenter -userunit -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level2gray -form -noembcidps -preload -paper A3 -paperw 400 -paperh 500 -expand -noshrink -nocenter -pagecrop -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3gray -eps -noembt1 -noembcidps -paper legal -nocrop -expand -noshrink -nocenter -pagecrop -userunit -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level2sep -eps -noembt1 -noembtt -paper letter -nocrop -expand -nocenter -pagecrop -duplex  @@ /tmp/foo
+pdftops -l 5 -level2gray -form -noembtt -noembcidtt -preload -paper legal -nocrop -nocenter -pagecrop -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2sep -form -noembt1 -noembtt -noembcidps -noembcidtt -preload -paperw 400 -nocrop -expand -duplex  @@ /tmp/foo
+pdftops -f 2 -level3sep -eps -noembt1 -noembtt -noembcidps -paper match -paperh 500 -noshrink -nocenter -pagecrop -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level3 -noembt1 -noembcidps -noembcidtt -paperw 400 -nocrop -expand -nocenter -pagecrop -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3 -eps -noembt1 -noembtt -noembcidps -noembcidtt -paperh 500 -nocenter -pagecrop -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -level2sep -noembt1 -noembtt -noembcidps -noembcidtt -paperw 400 -noshrink -nocenter -pagecrop -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3sep -form -noembt1 -noembtt -noembcidtt -paperh 500 -nocrop -nocenter -pagecrop -duplex -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level2gray -eps -noembtt -paper legal -paperw 400 -paperh 500 -nocrop -expand -noshrink -nocenter -pagecrop -duplex  @@ /tmp/foo
+pdftops -l 5 -level2gray -noembt1 -noembtt -noembcidps -preload -paper match -paperw 400 -expand -noshrink -duplex -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level1sep -noembt1 -noembcidps -noembcidtt -preload -paper A3 -paperw 400 -nocrop -pagecrop -duplex  @@ /tmp/foo
+pdftops -l 5 -level3gray -eps -noembt1 -noembtt -noembcidtt -preload -paper match -paperw 400 -paperh 500 -noshrink -pagecrop -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level2sep -eps -noembcidps -noembcidtt -preload -paper letter -paperw 400 -paperh 500 -expand -nocenter -pagecrop -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2gray -eps -noembtt -noembcidtt -paper letter -paperh 500 -nocrop -expand -noshrink -nocenter -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -level3 -eps -noembt1 -noembcidtt -paper letter -paperw 400 -nocrop -expand -noshrink -pagecrop -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -level3sep -eps -noembt1 -noembtt -preload -paperh 500 -nocrop -expand -nocenter -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2gray -eps -noembt1 -noembcidtt -preload -nocrop -expand -noshrink -pagecrop -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3 -form -noembt1 -noembtt -noembcidps -preload -paper legal -paperw 400 -noshrink -pagecrop -duplex  @@ /tmp/foo
+pdftops -level3gray -form -noembt1 -noembcidps -preload -paper legal -paperh 500 -nocrop -noshrink -pagecrop -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level1 -noembt1 -noembtt -preload -paperw 400 -paperh 500 -nocenter -pagecrop -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2sep -form -noembcidtt -preload -paperw 400 -paperh 500 -nocrop -nocenter -pagecrop -duplex -upw 123456  @@ /tmp/foo
+pdftops -level1sep -noembt1 -noembtt -preload -paper match -paperw 400 -expand -noshrink -nocenter -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level3 -eps -noembt1 -noembcidps -preload -paper legal -paperh 500 -nocrop -expand -noshrink -nocenter -userunit -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level1 -eps -noembcidps -preload -paper letter -paperw 400 -paperh 500 -nocrop -expand -noshrink -nocenter -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level1 -noembt1 -noembtt -noembcidps -noembcidtt -preload -nocrop -expand -noshrink -nocenter -userunit  @@ /tmp/foo
+pdftops -l 5 -level3 -eps -noembt1 -noembtt -noembcidps -noembcidtt -preload -expand -noshrink -nocenter -pagecrop  @@ /tmp/foo
+pdftops -f 2 -level3gray -eps -noembt1 -noembtt -noembcidps -noembcidtt -preload -paper legal -nocenter -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -level2 -eps -noembtt -noembcidps -preload -paper match -paperw 400 -nocrop -expand -noshrink -pagecrop -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level1sep -noembt1 -noembtt -noembcidtt -preload -paper letter -paperw 400 -paperh 500 -nocenter -pagecrop -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2 -form -noembt1 -noembtt -noembcidtt -paper legal -paperw 400 -paperh 500 -nocrop -noshrink -nocenter -pagecrop  @@ /tmp/foo
+pdftops -l 5 -level2gray -eps -noembcidps -noembcidtt -paperw 400 -expand -noshrink -nocenter -pagecrop -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2sep -noembt1 -noembcidps -preload -paperw 400 -paperh 500 -nocrop -noshrink -pagecrop -userunit -duplex  @@ /tmp/foo
+pdftops -level1 -eps -noembt1 -noembtt -noembcidtt -paper match -paperw 400 -expand -noshrink -pagecrop -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2sep -eps -noembt1 -noembtt -noembcidtt -preload -paper legal -paperw 400 -nocrop -noshrink -nocenter -opw 123456  @@ /tmp/foo
+pdftops -level3sep -form -noembtt -noembcidps -preload -paper A3 -paperw 400 -nocrop -noshrink -nocenter -pagecrop -userunit -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level2 -eps -noembt1 -noembcidps -noembcidtt -paper letter -paperw 400 -paperh 500 -nocrop -expand -noshrink -nocenter -userunit  @@ /tmp/foo
+pdftops -f 2 -level2gray -form -noembt1 -noembcidps -noembcidtt -preload -paperw 400 -paperh 500 -pagecrop -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2 -form -noembt1 -noembtt -preload -paper match -expand -noshrink -pagecrop -duplex -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level1sep -noembt1 -noembtt -paper letter -nocrop -expand -noshrink -nocenter -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3 -form -noembt1 -noembtt -noembcidtt -paper match -nocrop -expand -nocenter -duplex -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level1 -noembt1 -noembtt -noembcidps -paper A3 -paperw 400 -paperh 500 -nocrop -expand -noshrink -pagecrop -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level1 -noembt1 -noembcidps -noembcidtt -preload -nocrop -nocenter -pagecrop -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level1sep -eps -noembt1 -noembcidps -noembcidtt -preload -paper match -expand -pagecrop -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2sep -eps -noembt1 -noembcidps -noembcidtt -preload -nocrop -expand -nocenter -pagecrop -userunit -duplex  @@ /tmp/foo
+pdftops -l 5 -level3gray -eps -noembt1 -noembtt -preload -paperh 500 -nocrop -noshrink -nocenter -pagecrop -userunit -duplex  @@ /tmp/foo
+pdftops -f 2 -level2sep -form -noembt1 -noembtt -noembcidps -preload -noshrink -nocenter -pagecrop -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -level2sep -form -noembtt -noembcidps -noembcidtt -paper A3 -paperw 400 -expand -noshrink -pagecrop -duplex -opw 123456  @@ /tmp/foo
+pdftops -level2gray -form -noembcidtt -preload -paperw 400 -paperh 500 -nocrop -expand -nocenter -pagecrop -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2gray -noembcidps -noembcidtt -preload -paperh 500 -nocrop -noshrink -nocenter -pagecrop -userunit -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level3sep -noembtt -noembcidtt -paper match -paperw 400 -nocrop -expand -noshrink -nocenter -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level3sep -form -noembt1 -noembtt -noembcidps -paper letter -paperw 400 -expand -noshrink -pagecrop -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2 -eps -noembtt -noembcidps -noembcidtt -preload -paper A3 -nocrop -nocenter -pagecrop -userunit  @@ /tmp/foo
+pdftops -l 5 -level1sep -eps -noembtt -noembcidtt -preload -paperw 400 -nocrop -noshrink -nocenter -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -level2sep -eps -noembt1 -noembcidtt -preload -paper letter -paperh 500 -noshrink -nocenter -pagecrop -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -level3sep -eps -noembt1 -noembtt -noembcidtt -preload -paperw 400 -nocrop -expand -noshrink -nocenter  @@ /tmp/foo
+pdftops -f 2 -level3 -noembtt -noembcidtt -preload -paper letter -paperh 500 -noshrink -nocenter -pagecrop -duplex -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level3gray -form -noembt1 -noembcidtt -preload -paper A3 -paperw 400 -paperh 500 -expand -nocenter -pagecrop -userunit -duplex  @@ /tmp/foo
+pdftops -l 5 -level2 -form -noembt1 -noembtt -preload -paperw 400 -paperh 500 -nocrop -expand -pagecrop -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level3gray -eps -noembt1 -noembtt -noembcidps -noembcidtt -paper A3 -paperh 500 -nocrop -expand -duplex  @@ /tmp/foo
+pdftops -f 2 -level2 -eps -noembt1 -noembtt -noembcidps -noembcidtt -preload -paper A3 -paperw 400 -nocenter -duplex -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level2 -form -noembt1 -noembtt -paperw 400 -paperh 500 -noshrink -nocenter -pagecrop -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level2 -noembtt -noembcidps -noembcidtt -paperw 400 -paperh 500 -nocrop -expand -nocenter -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level3sep -eps -noembt1 -noembcidps -preload -paperw 400 -nocrop -noshrink -nocenter -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -level2 -eps -noembt1 -noembcidps -preload -paper A4 -paperw 400 -paperh 500 -nocrop -noshrink -nocenter -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -level3 -form -noembtt -noembcidps -noembcidtt -paperw 400 -nocrop -expand -noshrink -nocenter -duplex  @@ /tmp/foo
+pdftops -l 5 -level2sep -eps -noembt1 -noembcidps -noembcidtt -paper A4 -paperh 500 -nocrop -expand -pagecrop -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2sep -eps -preload -paper match -nocrop -expand -noshrink -nocenter -pagecrop -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -level1sep -eps -noembtt -noembcidps -noembcidtt -paperw 400 -paperh 500 -nocrop -expand -pagecrop -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2gray -noembtt -noembcidps -paper legal -paperw 400 -paperh 500 -nocrop -expand -noshrink -nocenter -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -noembt1 -noembtt -noembcidps -noembcidtt -paperh 500 -noshrink -pagecrop -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3gray -eps -noembt1 -noembcidps -noembcidtt -preload -paperw 400 -nocrop -expand -noshrink -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -level2gray -eps -noembtt -noembcidtt -preload -paper letter -paperh 500 -expand -noshrink -pagecrop -duplex  @@ /tmp/foo
+pdftops -f 2 -level1 -noembt1 -noembtt -preload -paperh 500 -nocrop -expand -nocenter -duplex -opw 123456  @@ /tmp/foo
+pdftops -level3 -form -noembt1 -noembtt -paper legal -paperw 400 -nocrop -noshrink -nocenter -pagecrop -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3gray -eps -noembcidps -noembcidtt -preload -paperw 400 -paperh 500 -noshrink -nocenter -pagecrop -userunit -duplex  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -noembt1 -noembtt -noembcidps -preload -paperw 400 -nocrop -expand -duplex -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level2sep -eps -noembtt -noembcidps -noembcidtt -preload -paper A3 -expand -noshrink -pagecrop -userunit -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level1 -eps -noembt1 -noembtt -noembcidps -preload -paper legal -paperw 400 -paperh 500 -expand -noshrink -pagecrop -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3gray -form -noembt1 -noembcidps -noembcidtt -preload -paper match -paperh 500 -noshrink -nocenter -pagecrop -userunit -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2gray -eps -noembt1 -noembtt -noembcidps -noembcidtt -paper legal -paperw 400 -paperh 500 -nocrop -noshrink -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2sep -form -noembtt -preload -paper A3 -nocrop -expand -noshrink -nocenter -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2gray -form -noembt1 -paper match -paperh 500 -nocrop -expand -noshrink -nocenter -pagecrop -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3 -form -noembt1 -noembcidps -preload -paper letter -paperw 400 -nocrop -expand -nocenter -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3sep -eps -noembt1 -noembtt -noembcidps -noembcidtt -preload -paper A4 -paperw 400 -paperh 500 -noshrink -nocenter -userunit  @@ /tmp/foo
+pdftops -l 5 -level3gray -form -noembt1 -noembtt -noembcidps -preload -paper A4 -paperw 400 -paperh 500 -expand -pagecrop -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -level2gray -noembt1 -noembcidps -noembcidtt -preload -paper A4 -paperh 500 -expand -noshrink -nocenter -userunit -upw 123456  @@ /tmp/foo
+pdftops -level2sep -eps -noembtt -noembcidps -preload -paper A3 -paperw 400 -paperh 500 -expand -nocenter -pagecrop -duplex -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3gray -eps -noembt1 -noembtt -noembcidps -preload -paperh 500 -nocrop -nocenter -pagecrop -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3gray -form -noembt1 -noembcidtt -preload -paperw 400 -paperh 500 -nocrop -noshrink -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2 -noembtt -noembcidtt -paper A3 -nocrop -expand -noshrink -nocenter -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level2gray -form -noembt1 -noembtt -noembcidtt -paperh 500 -expand -noshrink -pagecrop -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level2 -noembt1 -noembcidps -paper A4 -paperh 500 -nocrop -expand -nocenter -pagecrop -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3gray -form -noembt1 -noembcidps -paperw 400 -paperh 500 -nocrop -expand -noshrink -duplex -opw 123456  @@ /tmp/foo
+pdftops -level1 -noembcidps -noembcidtt -paperh 500 -nocrop -expand -noshrink -pagecrop -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3sep -form -noembt1 -noembtt -noembcidtt -paperh 500 -nocrop -expand -noshrink -nocenter -userunit -duplex  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -noembtt -noembcidps -noembcidtt -preload -paperw 400 -paperh 500 -noshrink -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -level2 -noembt1 -noembtt -noembcidtt -paper A4 -paperw 400 -paperh 500 -nocrop -noshrink -nocenter -duplex  @@ /tmp/foo
+pdftops -l 5 -level2 -eps -noembtt -noembcidps -noembcidtt -preload -paperw 400 -paperh 500 -expand -nocenter -duplex  @@ /tmp/foo
+pdftops -l 5 -level3sep -eps -noembt1 -noembtt -noembcidps -preload -paper legal -paperw 400 -nocrop -pagecrop -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level1 -noembt1 -noembtt -noembcidps -paperw 400 -noshrink -nocenter -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level1sep -eps -noembt1 -noembcidtt -paper A3 -paperw 400 -expand -nocenter -pagecrop -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -level1 -noembt1 -preload -paper letter -paperh 500 -nocrop -expand -nocenter -pagecrop -userunit -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3sep -form -noembcidps -preload -paper A3 -nocrop -expand -nocenter -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level3 -form -noembt1 -noembcidtt -preload -paper A3 -paperw 400 -noshrink -nocenter -pagecrop -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level1 -eps -noembt1 -noembtt -noembcidps -paperw 400 -nocrop -expand -noshrink -duplex  @@ /tmp/foo
+pdftops -f 2 -level3gray -noembt1 -noembtt -noembcidps -preload -paperh 500 -noshrink -nocenter -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level2 -eps -noembcidps -noembcidtt -paperw 400 -paperh 500 -expand -nocenter -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3gray -noembt1 -preload -paperw 400 -nocrop -expand -pagecrop -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level3sep -form -noembcidps -preload -paperw 400 -paperh 500 -noshrink -pagecrop -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3 -eps -noembcidtt -preload -paperw 400 -paperh 500 -nocrop -expand -nocenter -userunit -duplex  @@ /tmp/foo
+pdftops -level2gray -eps -noembcidps -noembcidtt -preload -paper A4 -paperw 400 -paperh 500 -nocrop -noshrink -pagecrop -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -noembt1 -noembtt -noembcidtt -preload -paper A4 -expand -pagecrop -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2gray -eps -noembt1 -noembcidps -paperw 400 -paperh 500 -expand -pagecrop -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level3gray -form -noembt1 -noembtt -noembcidtt -preload -paperh 500 -expand -nocenter -userunit -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3sep -form -noembtt -noembcidps -noembcidtt -paper letter -paperw 400 -paperh 500 -nocrop -expand -pagecrop  @@ /tmp/foo
+pdftops -l 5 -level2 -form -noembt1 -noembtt -preload -paper match -paperh 500 -expand -nocenter -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3gray -eps -noembt1 -noembcidtt -paper match -paperw 400 -expand -noshrink -nocenter -duplex  @@ /tmp/foo
+pdftops -f 2 -level1 -eps -noembt1 -noembcidtt -paperw 400 -paperh 500 -expand -noshrink -nocenter -pagecrop  @@ /tmp/foo
+pdftops -l 5 -level2sep -form -noembtt -noembcidps -paperh 500 -nocrop -noshrink -pagecrop -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2 -noembtt -noembcidps -paper match -paperw 400 -nocrop -expand -nocenter -pagecrop -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2sep -eps -noembtt -noembcidtt -paperw 400 -paperh 500 -expand -noshrink -pagecrop -userunit -duplex  @@ /tmp/foo
+pdftops -f 2 -level2 -eps -noembt1 -noembcidps -preload -paper match -noshrink -pagecrop -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level1 -noembtt -noembcidtt -paper match -nocrop -expand -noshrink -duplex  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -preload -paper A4 -paperw 400 -paperh 500 -expand -noshrink -nocenter -pagecrop -userunit -duplex  @@ /tmp/foo
+pdftops -f 2 -level2 -eps -noembtt -noembcidps -noembcidtt -preload -nocrop -expand -noshrink -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level1 -noembt1 -noembcidps -noembcidtt -paper legal -paperw 400 -paperh 500 -nocrop -pagecrop -duplex -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3gray -eps -noembcidps -noembcidtt -preload -paperw 400 -nocrop -expand -pagecrop -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2gray -eps -noembt1 -noembtt -noembcidtt -paperw 400 -paperh 500 -nocrop -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3 -eps -noembt1 -noembtt -paperh 500 -nocrop -noshrink -nocenter -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level1sep -eps -noembtt -noembcidtt -paper A4 -paperh 500 -noshrink -nocenter -pagecrop -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2gray -noembtt -noembcidps -noembcidtt -paper match -paperh 500 -nocenter -pagecrop -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2 -eps -noembt1 -noembcidtt -paperw 400 -nocrop -nocenter -pagecrop -duplex -opw 123456  @@ /tmp/foo
+pdftops -level3gray -eps -noembt1 -noembcidps -preload -paper match -paperw 400 -paperh 500 -nocrop -expand -nocenter -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3sep -form -noembt1 -noembcidps -paperw 400 -paperh 500 -nocrop -noshrink -nocenter -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3 -eps -noembtt -noembcidps -noembcidtt -paperw 400 -expand -noshrink -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3gray -noembcidtt -paper A3 -paperh 500 -nocrop -expand -nocenter -pagecrop -duplex  @@ /tmp/foo
+pdftops -l 5 -level3 -noembt1 -preload -paper match -nocrop -nocenter -pagecrop -duplex  @@ /tmp/foo
+pdftops -l 5 -level3sep -eps -noembtt -noembcidps -preload -paper A4 -paperw 400 -expand -noshrink -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level3 -form -noembt1 -noembtt -noembcidtt -paper A3 -paperh 500 -noshrink -pagecrop -duplex  @@ /tmp/foo
+pdftops -l 5 -level1sep -noembtt -noembcidps -noembcidtt -preload -paperw 400 -expand -noshrink -pagecrop -userunit  @@ /tmp/foo
+pdftops -l 5 -level3sep -eps -noembt1 -preload -paperh 500 -nocrop -noshrink -nocenter -pagecrop -userunit -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level2gray -form -noembt1 -noembtt -preload -paper A3 -paperh 500 -nocrop -noshrink -pagecrop -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2sep -eps -noembtt -noembcidps -paper letter -paperw 400 -paperh 500 -nocrop -nocenter -pagecrop -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level3sep -noembt1 -noembcidps -paperw 400 -paperh 500 -expand -pagecrop -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3 -form -noembt1 -noembtt -noembcidps -noembcidtt -preload -nocrop -expand -userunit -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level3sep -form -noembt1 -noembcidps -noembcidtt -paper letter -paperw 400 -nocrop -pagecrop -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level3 -eps -noembt1 -noembtt -noembcidtt -preload -paper letter -paperw 400 -nocenter -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -level3 -form -noembcidtt -preload -paper legal -paperh 500 -expand -noshrink -nocenter -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3 -noembcidps -noembcidtt -preload -paper A4 -paperh 500 -nocrop -pagecrop -userunit -duplex  @@ /tmp/foo
+pdftops -l 5 -level3 -noembt1 -noembtt -noembcidps -preload -paper letter -paperw 400 -paperh 500 -expand -pagecrop -userunit -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level2 -form -noembt1 -noembcidps -paperw 400 -paperh 500 -nocrop -nocenter -pagecrop -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level1 -noembcidps -paper legal -expand -noshrink -nocenter -pagecrop -duplex  @@ /tmp/foo
+pdftops -l 5 -level2gray -form -noembt1 -preload -paperw 400 -nocrop -expand -nocenter -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3 -form -noembt1 -noembcidtt -preload -paperw 400 -paperh 500 -nocrop -expand -nocenter  @@ /tmp/foo
+pdftops -f 2 -level1sep -eps -noembt1 -noembtt -noembcidps -preload -nocrop -expand -nocenter -opw 123456  @@ /tmp/foo
+pdftops -level2 -eps -noembt1 -noembtt -paperw 400 -paperh 500 -nocrop -expand -noshrink -nocenter  @@ /tmp/foo
+pdftops -f 2 -level3sep -form -noembt1 -noembtt -preload -paper letter -paperw 400 -nocrop -noshrink -duplex -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2gray -form -noembt1 -noembcidtt -paper legal -paperh 500 -nocrop -expand -pagecrop -duplex -opw 123456  @@ /tmp/foo
+pdftops -level2sep -form -noembt1 -noembcidps -preload -paperh 500 -nocrop -expand -nocenter -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level2 -noembt1 -noembcidps -noembcidtt -preload -paperh 500 -expand -noshrink -nocenter -userunit  @@ /tmp/foo
+pdftops -f 2 -level1 -eps -noembcidps -noembcidtt -preload -paper letter -paperw 400 -paperh 500 -nocenter -pagecrop -userunit -duplex  @@ /tmp/foo
+pdftops -l 5 -level3 -eps -noembt1 -noembtt -noembcidps -paperw 400 -paperh 500 -nocrop -pagecrop -duplex  @@ /tmp/foo
+pdftops -l 5 -level3sep -eps -noembtt -noembcidps -noembcidtt -paperw 400 -nocrop -nocenter -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level1sep -eps -noembcidps -preload -paper letter -paperh 500 -expand -noshrink -nocenter -pagecrop -userunit -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2gray -form -noembtt -noembcidps -noembcidtt -paper match -paperw 400 -nocrop -nocenter -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3gray -form -noembcidtt -preload -nocrop -noshrink -nocenter -pagecrop -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -noembt1 -noembcidps -preload -paper legal -noshrink -nocenter -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3 -form -noembt1 -noembtt -noembcidps -paper letter -paperh 500 -nocrop -expand -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3gray -form -noembtt -noembcidps -preload -paper A4 -expand -noshrink -userunit -duplex  @@ /tmp/foo
+pdftops -l 5 -level3sep -form -noembtt -preload -nocrop -expand -noshrink -pagecrop -duplex -upw 123456  @@ /tmp/foo
+pdftops -level2 -eps -noembtt -noembcidtt -preload -paperw 400 -nocrop -pagecrop -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -level2gray -form -noembt1 -noembcidtt -paper A4 -paperw 400 -paperh 500 -nocrop -expand -noshrink -nocenter -userunit -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level2sep -form -noembtt -noembcidps -preload -paper letter -nocrop -expand -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2gray -noembt1 -noembtt -noembcidps -paperh 500 -nocrop -pagecrop -duplex -opw 123456  @@ /tmp/foo
+pdftops -level2sep -eps -noembtt -noembcidps -noembcidtt -preload -paperw 400 -expand -noshrink -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level3 -form -noembtt -preload -paperh 500 -expand -nocenter -pagecrop -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3sep -eps -noembtt -paper letter -nocrop -expand -noshrink -nocenter -pagecrop  @@ /tmp/foo
+pdftops -f 2 -level1sep -eps -noembtt -preload -paperh 500 -nocrop -noshrink -pagecrop -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level3gray -form -noembtt -noembcidps -noembcidtt -paperw 400 -paperh 500 -expand -pagecrop -userunit -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level1sep -eps -noembt1 -noembtt -noembcidps -preload -paperh 500 -expand -noshrink -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3gray -form -noembt1 -noembtt -preload -paperh 500 -nocrop -expand -pagecrop -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3 -form -noembt1 -paperh 500 -expand -noshrink -nocenter -pagecrop -duplex -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level3 -form -noembcidps -preload -paper A4 -nocrop -expand -noshrink -nocenter -userunit  @@ /tmp/foo
+pdftops -l 5 -level1 -noembt1 -noembtt -noembcidps -preload -paperh 500 -expand -pagecrop -userunit -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level2 -form -noembcidtt -paperw 400 -paperh 500 -nocrop -expand -pagecrop -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3sep -form -noembt1 -noembcidps -preload -paper A3 -paperh 500 -expand -noshrink -nocenter -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3 -eps -noembt1 -noembcidps -noembcidtt -preload -paperh 500 -nocrop -pagecrop -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2sep -eps -noembt1 -noembcidps -noembcidtt -preload -paper match -paperw 400 -noshrink -pagecrop  @@ /tmp/foo
+pdftops -level2sep -form -noembt1 -noembtt -noembcidps -noembcidtt -preload -paperw 400 -paperh 500 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2sep -form -noembt1 -noembcidps -noembcidtt -paper letter -nocrop -noshrink -nocenter -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2gray -eps -noembcidps -paper match -expand -noshrink -nocenter -pagecrop -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2 -form -noembt1 -noembtt -noembcidps -noembcidtt -preload -paper match -paperw 400 -paperh 500 -expand -userunit -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level1 -noembt1 -noembtt -noembcidtt -preload -paper legal -paperw 400 -paperh 500 -nocrop -nocenter  @@ /tmp/foo
+pdftops -f 2 -level3 -form -noembtt -noembcidps -noembcidtt -preload -paperw 400 -paperh 500 -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2sep -eps -noembtt -preload -paperw 400 -paperh 500 -nocrop -nocenter -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level2 -eps -noembcidps -preload -paper A3 -paperw 400 -paperh 500 -expand -noshrink -pagecrop -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level1 -noembtt -noembcidps -noembcidtt -paper A3 -paperw 400 -paperh 500 -expand -nocenter -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2gray -noembt1 -noembcidtt -preload -paperw 400 -expand -noshrink -nocenter -pagecrop  @@ /tmp/foo
+pdftops -f 2 -level3gray -form -noembtt -noembcidtt -preload -paperh 500 -nocrop -expand -noshrink -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3 -form -noembcidps -preload -paperh 500 -nocrop -noshrink -pagecrop -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2sep -eps -noembcidps -paper match -paperw 400 -nocrop -noshrink -nocenter -pagecrop -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -level3 -form -noembcidps -noembcidtt -paperh 500 -expand -nocenter -pagecrop -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level2sep -form -preload -paper A4 -paperh 500 -expand -noshrink -nocenter -pagecrop -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3gray -eps -noembtt -noembcidtt -paperw 400 -paperh 500 -nocrop -nocenter -pagecrop -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2gray -eps -noembt1 -noembtt -noembcidtt -preload -paperw 400 -nocrop -pagecrop -userunit -upw 123456  @@ /tmp/foo
+pdftops -level3sep -form -noembt1 -noembtt -noembcidtt -paper match -paperh 500 -noshrink -nocenter -pagecrop -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3 -form -noembtt -noembcidps -noembcidtt -preload -paperw 400 -paperh 500 -noshrink -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level3 -noembt1 -noembtt -noembcidps -noembcidtt -paperh 500 -nocrop -expand -userunit -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level2 -form -noembt1 -noembtt -noembcidtt -nocrop -expand -nocenter -pagecrop -userunit -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -noembcidps -noembcidtt -preload -paper letter -paperw 400 -paperh 500 -nocrop -expand -noshrink -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3 -form -noembcidps -noembcidtt -preload -expand -nocenter -pagecrop -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2gray -eps -noembt1 -noembtt -noembcidps -paper letter -nocrop -noshrink -nocenter -userunit -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level3sep -form -noembcidtt -preload -paperh 500 -nocrop -noshrink -nocenter -pagecrop -userunit -duplex  @@ /tmp/foo
+pdftops -l 5 -level2 -form -noembcidtt -paper A4 -paperw 400 -nocrop -noshrink -nocenter -pagecrop -userunit -duplex  @@ /tmp/foo
+pdftops -l 5 -level2gray -eps -noembcidps -preload -paper legal -paperh 500 -expand -nocenter -pagecrop -duplex  @@ /tmp/foo
+pdftops -f 2 -level3 -eps -noembt1 -preload -paper match -paperw 400 -paperh 500 -expand -noshrink -pagecrop -duplex -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level3sep -eps -noembt1 -noembcidps -preload -paper match -paperw 400 -paperh 500 -expand -nocenter -pagecrop -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level2gray -eps -noembt1 -noembcidps -preload -noshrink -nocenter -pagecrop -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3 -noembt1 -noembtt -noembcidps -expand -noshrink -nocenter -pagecrop -userunit -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3gray -eps -noembt1 -noembtt -preload -paper match -paperh 500 -nocrop -expand -pagecrop -userunit -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level3sep -eps -noembt1 -noembtt -noembcidps -paperw 400 -paperh 500 -noshrink -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3sep -form -noembtt -noembcidps -preload -paperw 400 -nocenter -pagecrop -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2 -eps -noembt1 -noembtt -noembcidtt -preload -paper A3 -noshrink -pagecrop -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2sep -noembt1 -noembcidps -noembcidtt -preload -paperw 400 -expand -pagecrop -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level1sep -eps -noembtt -noembcidps -noembcidtt -preload -paperh 500 -noshrink -nocenter -pagecrop  @@ /tmp/foo
+pdftops -level2sep -eps -noembt1 -noembtt -noembcidtt -paper legal -paperw 400 -paperh 500 -expand -nocenter -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3 -eps -noembt1 -noembcidps -nocrop -expand -nocenter -pagecrop -duplex -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3gray -noembcidps -noembcidtt -preload -expand -noshrink -nocenter -pagecrop -userunit -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3gray -form -noembtt -noembcidps -paper match -nocrop -noshrink -pagecrop -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -level2gray -form -noembt1 -noembtt -noembcidps -noembcidtt -paperh 500 -nocrop -pagecrop -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3 -form -noembtt -noembcidtt -paper A4 -paperw 400 -paperh 500 -nocrop -expand -nocenter -pagecrop -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level1sep -eps -noembt1 -noembtt -noembcidps -paper A4 -paperh 500 -expand -noshrink -nocenter -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -level3sep -form -noembcidps -noembcidtt -paperw 400 -paperh 500 -nocrop -expand -noshrink -nocenter  @@ /tmp/foo
+pdftops -f 2 -level1sep -noembcidtt -preload -paper A4 -paperw 400 -paperh 500 -nocrop -nocenter -pagecrop -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -level1 -noembt1 -noembtt -noembcidps -preload -paper A4 -paperw 400 -paperh 500 -noshrink -nocenter -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level1sep -eps -noembt1 -noembtt -noembcidtt -preload -paperh 500 -expand -noshrink -nocenter  @@ /tmp/foo
+pdftops -l 5 -level2 -form -noembt1 -noembcidtt -paperw 400 -paperh 500 -expand -nocenter -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2sep -eps -noembcidps -noembcidtt -paper match -paperh 500 -nocrop -nocenter -pagecrop -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2sep -eps -noembt1 -noembtt -noembcidps -preload -paper letter -paperh 500 -noshrink -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -noembt1 -noembcidps -noembcidtt -paperh 500 -nocrop -nocenter -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2gray -eps -noembcidtt -preload -paperw 400 -paperh 500 -nocrop -nocenter -pagecrop -userunit -opw 123456  @@ /tmp/foo
+pdftops -level1sep -noembcidtt -paperw 400 -paperh 500 -expand -noshrink -pagecrop -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3sep -eps -noembcidps -noembcidtt -nocrop -noshrink -nocenter -pagecrop -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2gray -eps -noembt1 -noembtt -noembcidtt -preload -paperw 400 -paperh 500 -expand -nocenter  @@ /tmp/foo
+pdftops -l 5 -level3sep -noembt1 -noembcidps -noembcidtt -paperw 400 -paperh 500 -pagecrop -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level1 -noembcidps -noembcidtt -preload -paper legal -nocrop -noshrink -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3sep -noembtt -noembcidtt -preload -paperw 400 -paperh 500 -nocrop -nocenter -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -level3 -form -noembtt -noembcidps -noembcidtt -preload -paper A3 -paperw 400 -expand -pagecrop -userunit  @@ /tmp/foo
+pdftops -f 2 -level3gray -eps -noembtt -noembcidps -noembcidtt -preload -paper legal -paperw 400 -paperh 500 -nocenter -duplex  @@ /tmp/foo
+pdftops -l 5 -level3 -eps -noembcidps -noembcidtt -preload -paper A4 -paperw 400 -paperh 500 -nocenter -pagecrop -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3sep -preload -paper match -paperw 400 -paperh 500 -nocrop -noshrink -nocenter -pagecrop -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2gray -form -noembt1 -noembtt -noembcidps -paper A3 -paperh 500 -noshrink -pagecrop -userunit -duplex  @@ /tmp/foo
+pdftops -f 2 -level3sep -noembt1 -noembcidtt -paperh 500 -expand -noshrink -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3 -form -noembtt -noembcidps -paper letter -paperw 400 -paperh 500 -expand -nocenter -duplex -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level2sep -eps -noembt1 -noembcidps -preload -paper A4 -paperw 400 -paperh 500 -nocrop -expand  @@ /tmp/foo
+pdftops -level3sep -form -noembtt -noembcidtt -paperw 400 -noshrink -pagecrop -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3 -eps -noembtt -noembcidtt -preload -paper A3 -paperw 400 -paperh 500 -nocrop -noshrink -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2sep -form -noembcidtt -paper A4 -paperw 400 -paperh 500 -nocrop -expand -noshrink -nocenter -userunit  @@ /tmp/foo
+pdftops -l 5 -level2 -form -noembcidps -paperw 400 -expand -noshrink -nocenter -pagecrop -duplex  @@ /tmp/foo
+pdftops -l 5 -level3gray -eps -noembcidtt -paperh 500 -nocrop -expand -noshrink -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3 -form -noembtt -nocrop -expand -noshrink -pagecrop -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level2sep -form -noembt1 -preload -paper letter -paperw 400 -paperh 500 -expand -noshrink -pagecrop -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3sep -eps -noembtt -noembcidtt -preload -paperw 400 -paperh 500 -pagecrop -userunit -duplex  @@ /tmp/foo
+pdftops -l 5 -level3gray -eps -noembtt -preload -paper match -nocrop -pagecrop -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3gray -form -noembcidps -noembcidtt -preload -paper match -paperw 400 -nocenter -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level1sep -eps -noembtt -noembcidtt -preload -paper letter -noshrink -pagecrop -userunit -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level3sep -eps -noembtt -noembcidps -expand -noshrink -nocenter -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2gray -eps -noembtt -noembcidps -preload -paper letter -paperh 500 -nocrop -pagecrop -userunit  @@ /tmp/foo
+pdftops -l 5 -level3sep -eps -noembt1 -noembtt -noembcidtt -paper legal -paperw 400 -paperh 500 -nocrop -noshrink -userunit -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2 -noembtt -noembcidps -preload -nocrop -noshrink -nocenter -userunit -duplex  @@ /tmp/foo
+pdftops -f 2 -level2gray -noembt1 -noembcidtt -paperh 500 -noshrink -nocenter -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2gray -form -noembt1 -noembtt -preload -paper legal -paperh 500 -expand -nocenter -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level2gray -eps -noembt1 -noembcidps -noembcidtt -paper A3 -noshrink -nocenter  @@ /tmp/foo
+pdftops -l 5 -level2sep -eps -noembt1 -noembtt -noembcidps -preload -paper match -paperw 400 -paperh 500 -noshrink -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level1sep -eps -noembcidtt -paperh 500 -nocrop -expand -nocenter -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level2 -eps -noembcidps -noembcidtt -paper A3 -nocrop -expand -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3 -noembcidps -noembcidtt -paper A3 -paperh 500 -nocrop -noshrink -nocenter -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -noembt1 -noembtt -paperw 400 -nocrop -nocenter -pagecrop -userunit -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level3sep -eps -noembcidps -noembcidtt -preload -paper match -paperh 500 -nocenter -pagecrop  @@ /tmp/foo
+pdftops -level3gray -eps -preload -paperw 400 -paperh 500 -noshrink -nocenter -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level1 -noembt1 -noembcidps -paperw 400 -paperh 500 -nocrop -nocenter -userunit -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2 -eps -noembtt -noembcidps -noembcidtt -paperh 500 -nocenter -pagecrop -userunit -upw 123456  @@ /tmp/foo
+pdftops -level2gray -eps -noembt1 -noembtt -noembcidps -preload -paper legal -paperw 400 -nocenter -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3sep -eps -noembt1 -noembtt -noembcidtt -preload -paper A4 -expand -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2 -noembtt -noembcidps -noembcidtt -paper letter -paperh 500 -noshrink -pagecrop -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level3gray -eps -noembt1 -noembcidps -paper match -paperw 400 -expand -noshrink -pagecrop -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2gray -eps -noembcidps -noembcidtt -preload -paper legal -paperw 400 -paperh 500 -nocrop -expand  @@ /tmp/foo
+pdftops -l 5 -level2sep -eps -noembt1 -noembcidps -paper legal -expand -noshrink -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level2 -eps -noembt1 -noembcidps -preload -paperw 400 -expand -noshrink -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2gray -eps -noembtt -noembcidps -noembcidtt -preload -paperw 400 -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level3sep -noembtt -noembcidtt -paper A4 -paperh 500 -noshrink -nocenter -userunit -duplex  @@ /tmp/foo
+pdftops -l 5 -level2sep -form -noembcidps -paperw 400 -expand -noshrink -nocenter -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2gray -form -noembtt -noembcidps -preload -paperw 400 -nocrop -expand -pagecrop -userunit  @@ /tmp/foo
+pdftops -level1 -eps -noembcidps -paperh 500 -nocrop -expand -nocenter -pagecrop -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3sep -form -noembt1 -noembcidtt -paper A3 -paperh 500 -expand -nocenter -pagecrop -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -level2sep -eps -noembtt -preload -paper legal -paperw 400 -paperh 500 -nocrop -expand -noshrink -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2sep -noembt1 -noembtt -noembcidtt -paper A3 -paperw 400 -paperh 500 -nocrop -pagecrop -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2gray -noembt1 -noembtt -preload -paper A3 -expand -userunit -duplex  @@ /tmp/foo
+pdftops -level1 -eps -noembtt -noembcidtt -preload -paperw 400 -nocenter -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3sep -noembt1 -noembtt -noembcidps -nocrop -noshrink -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level1sep -eps -noembt1 -noembcidtt -paper A3 -paperw 400 -paperh 500 -nocrop -expand -noshrink -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level3 -eps -noembt1 -noembtt -noembcidps -noembcidtt -paper A3 -paperw 400 -nocrop -userunit -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3gray -form -noembt1 -noembcidtt -paper letter -paperw 400 -paperh 500 -nocrop -expand -pagecrop -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3gray -eps -noembt1 -noembcidps -preload -paperw 400 -nocenter -pagecrop -duplex  @@ /tmp/foo
+pdftops -l 5 -level2sep -noembt1 -noembtt -preload -paperh 500 -expand -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level1 -noembt1 -noembtt -preload -paperh 500 -noshrink -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level2gray -form -noembcidps -noembcidtt -preload -paperh 500 -noshrink -nocenter -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3gray -eps -noembcidps -paper letter -paperh 500 -nocrop -noshrink -nocenter -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2 -noembt1 -noembcidtt -preload -noshrink -nocenter -pagecrop -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2 -eps -noembcidtt -paperh 500 -expand -noshrink -pagecrop -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2 -form -noembtt -preload -paper letter -paperh 500 -nocrop -noshrink -duplex  @@ /tmp/foo
+pdftops -l 5 -level2 -form -noembt1 -noembtt -noembcidps -paper match -nocenter -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level1sep -eps -noembtt -noembcidtt -preload -paper A4 -paperh 500 -nocrop -nocenter -userunit -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level3sep -eps -noembtt -noembcidtt -paperw 400 -nocrop -expand -pagecrop -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level2gray -eps -noembt1 -noembcidtt -paper match -paperh 500 -nocrop -nocenter -userunit -duplex  @@ /tmp/foo
+pdftops -l 5 -level3gray -form -noembtt -noembcidtt -paper letter -paperw 400 -expand -noshrink -nocenter -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2 -eps -noembtt -noembcidps -paperw 400 -noshrink -nocenter -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level1sep -eps -noembt1 -noembcidps -paper legal -paperw 400 -noshrink -nocenter -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2gray -form -noembtt -paperw 400 -paperh 500 -nocrop -noshrink -nocenter -duplex  @@ /tmp/foo
+pdftops -l 5 -level1sep -eps -noembtt -paperh 500 -nocrop -expand -pagecrop -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3 -eps -noembcidps -noembcidtt -paper match -paperh 500 -expand -noshrink -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3gray -form -noembcidps -paperh 500 -expand -noshrink -pagecrop -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -noembtt -noembcidtt -paperh 500 -expand -noshrink -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -level3sep -form -noembt1 -noembcidtt -preload -paper letter -paperh 500 -nocrop -userunit -duplex  @@ /tmp/foo
+pdftops -f 2 -level2gray -eps -noembtt -noembcidtt -preload -paper A3 -noshrink -pagecrop -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2 -eps -noembt1 -noembcidtt -preload -paper match -paperw 400 -paperh 500 -nocenter -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level1sep -eps -noembcidps -preload -paperw 400 -expand -noshrink -nocenter -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level3gray -form -noembt1 -noembcidtt -preload -paperw 400 -noshrink -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2gray -form -noembt1 -noembtt -noembcidps -paper letter -nocrop -expand -userunit -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2sep -form -noembtt -noembcidtt -paper legal -expand -nocenter -pagecrop -userunit  @@ /tmp/foo
+pdftops -f 2 -level3 -form -noembtt -noembcidps -paperh 500 -nocrop -nocenter -pagecrop -userunit -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level2 -eps -noembt1 -noembcidps -preload -expand -nocenter -pagecrop -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level1 -noembcidtt -preload -paperw 400 -noshrink -nocenter -pagecrop -userunit -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3 -eps -noembt1 -noembcidps -preload -paper legal -paperw 400 -expand -noshrink  @@ /tmp/foo
+pdftops -l 5 -level2sep -eps -noembtt -noembcidps -paper legal -paperh 500 -nocrop -expand -noshrink -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3gray -eps -noembt1 -noembtt -noembcidps -preload -paperw 400 -expand -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level1 -noembtt -noembcidps -paper A3 -nocrop -nocenter -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level1 -eps -noembtt -noembcidtt -paper legal -paperw 400 -noshrink -pagecrop -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3gray -form -noembtt -preload -paper A3 -noshrink -nocenter -pagecrop -userunit -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level3gray -form -noembt1 -noembcidps -paperh 500 -nocrop -expand -nocenter -userunit -duplex  @@ /tmp/foo
+pdftops -level2 -form -noembtt -noembcidps -noembcidtt -paper letter -paperh 500 -expand -userunit -duplex  @@ /tmp/foo
+pdftops -f 2 -level2gray -noembt1 -noembtt -noembcidtt -paperw 400 -nocrop -noshrink -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -noembt1 -noembcidtt -paper A4 -paperh 500 -nocrop -expand -userunit -duplex  @@ /tmp/foo
+pdftops -level3sep -eps -noembcidtt -paperw 400 -nocrop -expand -nocenter -pagecrop -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level3gray -eps -noembtt -preload -paper letter -expand -noshrink -nocenter -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2gray -form -noembt1 -noembcidtt -preload -paper legal -paperw 400 -nocrop -nocenter -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3 -form -noembt1 -paper letter -paperw 400 -paperh 500 -nocrop -expand -noshrink -pagecrop -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level3 -eps -noembt1 -noembtt -noembcidps -paper legal -paperh 500 -nocenter -pagecrop  @@ /tmp/foo
+pdftops -l 5 -level1sep -eps -noembt1 -noembcidps -noembcidtt -paper letter -expand -duplex  @@ /tmp/foo
+pdftops -f 2 -level1 -eps -preload -nocrop -expand -noshrink -nocenter -pagecrop -userunit -duplex  @@ /tmp/foo
+pdftops -l 5 -level2 -form -noembt1 -noembcidps -noembcidtt -paper legal -paperw 400 -pagecrop -duplex  @@ /tmp/foo
+pdftops -l 5 -level3 -eps -noembtt -noembcidtt -preload -paper match -paperw 400 -expand -pagecrop -userunit -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level2sep -form -noembtt -noembcidps -noembcidtt -preload -paper A4 -paperh 500 -nocrop -userunit -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3sep -form -noembcidtt -preload -paper match -paperh 500 -expand -noshrink -pagecrop -userunit  @@ /tmp/foo
+pdftops -f 2 -level2sep -noembt1 -preload -paper A3 -paperh 500 -nocrop -pagecrop -duplex  @@ /tmp/foo
+pdftops -f 2 -level2 -eps -noembcidtt -preload -paper match -paperw 400 -nocrop -noshrink -nocenter -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -level3sep -eps -noembcidps -noembcidtt -preload -paperw 400 -nocenter -pagecrop -userunit -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2gray -form -noembtt -noembcidps -noembcidtt -preload -paper letter -paperh 500 -expand -userunit -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2gray -form -noembt1 -noembtt -nocrop -expand -noshrink -nocenter -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2gray -form -noembtt -noembcidps -preload -paperh 500 -pagecrop -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3sep -preload -paper A4 -paperh 500 -nocrop -noshrink -pagecrop -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level1sep -noembcidps -preload -paper letter -nocrop -expand -pagecrop -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2 -eps -noembcidps -noembcidtt -paper match -expand -noshrink -pagecrop -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level2sep -noembcidps -preload -paperw 400 -nocrop -noshrink -nocenter -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level3sep -eps -noembtt -noembcidps -paperh 500 -nocrop -expand -nocenter -userunit -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level2 -noembt1 -noembtt -paper A3 -nocenter -pagecrop -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3gray -noembcidps -paperw 400 -paperh 500 -nocrop -noshrink -nocenter -userunit -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level1 -eps -noembtt -noembcidps -paperw 400 -noshrink -nocenter -pagecrop -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level2sep -form -noembtt -noembcidtt -preload -paper legal -paperw 400 -paperh 500 -noshrink -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3 -eps -noembcidtt -paperw 400 -paperh 500 -noshrink -nocenter -pagecrop -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2 -form -preload -paper A3 -paperw 400 -nocrop -expand -pagecrop -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3sep -eps -noembt1 -noembtt -preload -paper A3 -paperh 500 -nocenter -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level3gray -form -noembt1 -paper A4 -paperh 500 -noshrink -nocenter -pagecrop -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level2gray -noembt1 -preload -paperh 500 -expand -noshrink -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3sep -form -noembtt -noembcidps -preload -expand -noshrink -nocenter -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level1sep -noembtt -noembcidps -paperw 400 -paperh 500 -nocrop -nocenter -pagecrop  @@ /tmp/foo
+pdftops -l 5 -level3 -eps -noembt1 -noembcidps -paperw 400 -noshrink -nocenter -duplex -opw 123456  @@ /tmp/foo
+pdftops -level3 -eps -noembt1 -noembtt -noembcidtt -preload -paper legal -paperw 400 -paperh 500 -pagecrop  @@ /tmp/foo
+pdftops -level2gray -eps -noembtt -noembcidps -paperh 500 -expand -noshrink -pagecrop -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level1sep -noembt1 -preload -paperw 400 -paperh 500 -expand -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level2sep -noembtt -noembcidps -noembcidtt -preload -nocenter -pagecrop -userunit -duplex  @@ /tmp/foo
+pdftops -l 5 -level2sep -form -noembt1 -noembcidtt -preload -paper legal -paperh 500 -nocrop -nocenter -userunit -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2 -eps -noembt1 -noembtt -noembcidtt -paper legal -paperw 400 -paperh 500 -nocrop -pagecrop -userunit -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level3 -form -noembtt -noembcidps -noembcidtt -paper A3 -noshrink -nocenter -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3gray -form -noembcidps -noembcidtt -paperh 500 -nocrop -nocenter -pagecrop -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level3gray -form -noembtt -noembcidtt -paper A4 -paperw 400 -nocrop -pagecrop -duplex -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level1 -noembcidps -preload -paperw 400 -expand -noshrink -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3 -form -noembt1 -noembcidtt -preload -paper A3 -nocrop -noshrink -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level3sep -eps -noembt1 -noembtt -noembcidtt -expand -pagecrop -duplex -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level1sep -eps -noembtt -noembcidps -paperw 400 -noshrink -pagecrop -duplex -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2sep -eps -noembt1 -noembtt -noembcidps -noembcidtt -expand -nocenter -userunit -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level1 -noembtt -paper A4 -paperh 500 -nocrop -nocenter -pagecrop -userunit -duplex  @@ /tmp/foo
+pdftops -f 2 -level1 -noembt1 -noembcidps -noembcidtt -preload -paperh 500 -noshrink -nocenter  @@ /tmp/foo
+pdftops -l 5 -level2 -form -noembt1 -nocrop -expand -noshrink -pagecrop -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3sep -eps -noembt1 -paper match -paperh 500 -nocrop -expand -noshrink -userunit -duplex  @@ /tmp/foo
+pdftops -f 2 -level2sep -noembt1 -noembcidps -noembcidtt -paperw 400 -noshrink -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3gray -eps -noembcidps -noembcidtt -paperh 500 -expand -noshrink -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level3 -eps -noembt1 -noembcidtt -nocrop -nocenter -pagecrop -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level1sep -eps -noembcidps -noembcidtt -paper match -nocrop -pagecrop -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -level2gray -eps -noembt1 -noembcidtt -paperw 400 -paperh 500 -nocrop -noshrink -userunit -duplex  @@ /tmp/foo
+pdftops -f 2 -level2gray -form -noembt1 -preload -paper match -paperh 500 -nocrop -expand -noshrink -userunit  @@ /tmp/foo
+pdftops -l 5 -level2sep -eps -noembcidps -preload -paperw 400 -nocrop -expand -pagecrop -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level1sep -eps -noembtt -preload -paper A3 -paperh 500 -nocrop -nocenter -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2gray -form -noembt1 -noembtt -noembcidps -paperh 500 -noshrink -nocenter -opw 123456  @@ /tmp/foo
+pdftops -level1 -noembt1 -noembtt -paperw 400 -nocrop -pagecrop -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -level2 -form -noembtt -noembcidps -preload -paper A4 -paperw 400 -paperh 500 -expand -nocenter -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level1 -eps -noembt1 -noembcidps -paper match -noshrink -nocenter -duplex -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level3sep -form -noembtt -noembcidps -noembcidtt -paperw 400 -nocenter -duplex -upw 123456  @@ /tmp/foo
+pdftops -level2 -eps -noembt1 -noembcidps -noembcidtt -paper letter -paperh 500 -noshrink -pagecrop -userunit  @@ /tmp/foo
+pdftops -l 5 -level2gray -eps -noembt1 -paperw 400 -paperh 500 -noshrink -pagecrop -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level2gray -eps -noembcidps -noembcidtt -paperh 500 -nocrop -expand -nocenter -opw 123456  @@ /tmp/foo
+pdftops -level2sep -eps -noembcidps -paperh 500 -expand -noshrink -nocenter -pagecrop -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2gray -form -noembcidtt -preload -nocrop -expand -nocenter -pagecrop -userunit -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3 -noembtt -noembcidps -preload -nocrop -nocenter -userunit -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level1 -noembt1 -noembcidps -paper legal -paperh 500 -nocrop -noshrink -userunit -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level2gray -eps -preload -paperw 400 -paperh 500 -nocenter -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -noembtt -preload -expand -noshrink -nocenter -opw 123456  @@ /tmp/foo
+pdftops -level1sep -noembcidps -preload -paper A3 -paperh 500 -expand -userunit -duplex  @@ /tmp/foo
+pdftops -level2gray -form -noembtt -noembcidps -noembcidtt -paperh 500 -nocrop -noshrink  @@ /tmp/foo
+pdftops -f 2 -level2sep -form -noembt1 -noembtt -noembcidtt -paper legal -paperh 500 -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level2 -paper A3 -paperh 500 -nocrop -noshrink -pagecrop -userunit -duplex  @@ /tmp/foo
+pdftops -f 2 -level2 -form -noembt1 -noembcidps -preload -paper A3 -paperw 400 -nocrop -userunit  @@ /tmp/foo
+pdftops -f 2 -level3 -form -noembcidtt -paper match -expand -nocenter -pagecrop -userunit  @@ /tmp/foo
+pdftops -l 5 -level2sep -form -noembcidps -noembcidtt -preload -expand -pagecrop -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level1sep -eps -noembtt -noembcidps -paper A4 -paperw 400 -nocrop -nocenter -upw 123456  @@ /tmp/foo
+pdftops -level3 -form -noembt1 -preload -paper match -paperw 400 -paperh 500 -nocrop -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level3sep -form -noembt1 -paper letter -paperw 400 -expand -nocenter -duplex  @@ /tmp/foo
+pdftops -l 5 -level2 -eps -preload -paper match -paperw 400 -paperh 500 -nocrop -nocenter -pagecrop -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3gray -form -noembcidps -nocrop -expand -noshrink -nocenter -pagecrop  @@ /tmp/foo
+pdftops -level3gray -noembtt -noembcidps -noembcidtt -paper A3 -paperw 400 -nocrop -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level1sep -eps -noembt1 -preload -paper letter -paperh 500 -nocrop -pagecrop -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level1sep -eps -noembcidps -paper A3 -paperw 400 -paperh 500 -expand -nocenter -pagecrop -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level2 -eps -noembt1 -noembtt -paper legal -paperh 500 -nocrop -expand -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -level3 -eps -noembcidtt -preload -paperw 400 -noshrink -nocenter -duplex  @@ /tmp/foo
+pdftops -l 5 -level3gray -noembt1 -noembcidps -noembcidtt -noshrink -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -level2 -form -noembtt -noembcidps -paperh 500 -nocrop -nocenter -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2 -form -noembtt -noembcidtt -paper match -expand -noshrink -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2sep -eps -noembtt -paperh 500 -nocrop -noshrink -nocenter -userunit -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3gray -form -noembtt -paperw 400 -nocrop -expand -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level1sep -noembt1 -noembcidps -noembcidtt -noshrink -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level2sep -eps -noembt1 -noembcidps -noembcidtt -paperw 400 -nocrop -userunit -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3sep -noembcidps -paper legal -paperw 400 -expand -noshrink -pagecrop -userunit -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3sep -eps -noembcidps -noembcidtt -paperw 400 -paperh 500 -noshrink -userunit -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level2sep -form -noembtt -noembcidtt -preload -nocrop -noshrink -pagecrop  @@ /tmp/foo
+pdftops -level3gray -form -noembt1 -noembtt -noembcidtt -preload -paper A3 -nocrop -expand -userunit -duplex  @@ /tmp/foo
+pdftops -l 5 -level3gray -preload -paper A4 -paperw 400 -paperh 500 -nocrop -noshrink -nocenter -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3sep -eps -noembtt -noembcidtt -preload -paperh 500 -expand -nocenter  @@ /tmp/foo
+pdftops -l 5 -level2 -form -noembcidtt -preload -paperw 400 -expand -pagecrop -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3gray -form -noembtt -noembcidps -paperw 400 -nocenter -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3 -paper match -paperw 400 -nocrop -noshrink -nocenter -pagecrop -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2sep -eps -noembt1 -noembtt -noshrink -nocenter -pagecrop -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3gray -eps -noembt1 -noembcidtt -preload -paperw 400 -paperh 500 -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level1 -eps -noembt1 -noembtt -noembcidps -noembcidtt -paper match -paperh 500 -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3sep -form -noembcidtt -nocrop -noshrink -nocenter -pagecrop -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2 -eps -noembt1 -noembtt -preload -paper A4 -paperh 500 -pagecrop  @@ /tmp/foo
+pdftops -l 5 -level2gray -eps -noembt1 -preload -paperw 400 -paperh 500 -noshrink -pagecrop  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -noembcidtt -preload -paperw 400 -paperh 500 -expand -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2sep -eps -noembt1 -preload -expand -noshrink -pagecrop -userunit -duplex  @@ /tmp/foo
+pdftops -f 2 -level1 -noembcidtt -preload -paperh 500 -expand -pagecrop -userunit -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3gray -eps -noembtt -noembcidps -paper match -paperw 400 -paperh 500 -nocenter -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -noembcidps -paper letter -paperw 400 -expand -pagecrop -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level3gray -noembt1 -noembtt -preload -paper letter -paperw 400 -paperh 500 -pagecrop -userunit -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2sep -eps -noembcidps -noembcidtt -paper A3 -paperw 400 -nocenter -duplex -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level1 -eps -noembt1 -noembcidtt -preload -paperw 400 -nocrop -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3 -eps -noembcidps -preload -paperh 500 -noshrink -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3sep -form -noembt1 -noembcidps -noembcidtt -preload -paperw 400 -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level3gray -eps -noembt1 -noembtt -noembcidtt -nocenter -pagecrop -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level1sep -eps -noembtt -noembcidps -paperw 400 -expand -nocenter -userunit -duplex  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -noembt1 -preload -paper letter -nocrop -pagecrop  @@ /tmp/foo
+pdftops -f 2 -level3 -eps -noembt1 -noembtt -paperw 400 -paperh 500 -expand -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3sep -preload -paper match -paperw 400 -paperh 500 -nocrop -expand -nocenter -userunit -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3gray -eps -noembcidps -noembcidtt -preload -paper letter -paperw 400 -paperh 500 -nocrop -userunit  @@ /tmp/foo
+pdftops -f 2 -level1 -noembtt -noembcidps -noembcidtt -nocrop -noshrink -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2gray -eps -noembt1 -noembtt -preload -paper A3 -paperw 400 -paperh 500 -nocenter -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3sep -eps -noembtt -preload -paper letter -paperw 400 -paperh 500 -noshrink -pagecrop -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2gray -form -noembcidps -noembcidtt -paperw 400 -paperh 500 -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level1sep -eps -noembt1 -noembcidps -noembcidtt -paperh 500 -nocenter -pagecrop -userunit  @@ /tmp/foo
+pdftops -f 2 -level2 -eps -noembt1 -noembcidtt -preload -paperh 500 -nocrop -duplex  @@ /tmp/foo
+pdftops -f 2 -level3sep -form -paperw 400 -paperh 500 -nocrop -expand -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -level3 -eps -noembcidps -preload -paper legal -paperw 400 -noshrink -pagecrop -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -level3gray -noembt1 -noembtt -noembcidtt -paper A3 -nocrop -noshrink -nocenter -pagecrop  @@ /tmp/foo
+pdftops -level3sep -eps -noembt1 -noembcidps -noembcidtt -paper A3 -expand -noshrink -pagecrop -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2 -form -preload -paperh 500 -nocrop -expand -nocenter -pagecrop -userunit  @@ /tmp/foo
+pdftops -l 5 -level3 -eps -noembtt -noembcidtt -nocrop -noshrink -pagecrop -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3gray -eps -noembcidps -noembcidtt -preload -expand -pagecrop -userunit -duplex  @@ /tmp/foo
+pdftops -l 5 -level2 -form -noembcidps -noembcidtt -preload -expand -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level1sep -eps -noembt1 -paperw 400 -paperh 500 -nocrop -nocenter -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2gray -form -noembcidps -preload -paper match -paperw 400 -nocrop -expand -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level1 -noembt1 -paper A3 -paperw 400 -paperh 500 -noshrink -nocenter -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level2 -eps -noembtt -preload -expand -noshrink -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level3gray -eps -noembtt -noembcidtt -preload -nocrop -noshrink -nocenter  @@ /tmp/foo
+pdftops -l 5 -level1 -noembtt -noembcidps -nocrop -expand -pagecrop -userunit -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2 -form -noembcidps -preload -paper A4 -paperh 500 -noshrink -nocenter -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level3gray -eps -noembcidps -preload -paper letter -paperw 400 -paperh 500 -nocrop -expand -userunit  @@ /tmp/foo
+pdftops -f 2 -level2 -form -noembcidps -paper match -paperh 500 -expand -pagecrop -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2sep -form -noembt1 -noembtt -paperh 500 -expand -pagecrop -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2sep -form -noembcidps -paper match -paperh 500 -nocrop -pagecrop -duplex  @@ /tmp/foo
+pdftops -level3gray -form -noembtt -noembcidps -preload -paperw 400 -paperh 500 -pagecrop  @@ /tmp/foo
+pdftops -level1 -eps -noembt1 -noembtt -paper A3 -paperw 400 -paperh 500 -nocrop -noshrink  @@ /tmp/foo
+pdftops -f 2 -level3sep -noembt1 -preload -paper letter -pagecrop -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3sep -eps -noembtt -noembcidtt -preload -paperh 500 -nocrop -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -level3sep -form -paper match -paperw 400 -paperh 500 -noshrink -nocenter -pagecrop -duplex  @@ /tmp/foo
+pdftops -l 5 -level1sep -eps -noembtt -noembcidtt -preload -paper A4 -expand -userunit -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3gray -eps -noembt1 -nocrop -expand -pagecrop -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level2gray -eps -noembtt -preload -paperw 400 -nocrop -noshrink -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level1sep -eps -noembcidps -paper A4 -nocrop -expand -pagecrop -userunit -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3gray -eps -noembcidps -paper match -expand -nocenter -duplex  @@ /tmp/foo
+pdftops -level3gray -noembcidps -noembcidtt -paper letter -paperw 400 -paperh 500 -expand -nocenter -userunit -upw 123456  @@ /tmp/foo
+pdftops -level2sep -form -noembt1 -noembtt -noembcidtt -paperw 400 -nocrop -userunit -duplex  @@ /tmp/foo
+pdftops -f 2 -level2sep -eps -noembcidtt -preload -paper match -paperh 500 -noshrink -pagecrop  @@ /tmp/foo
+pdftops -l 5 -level3gray -noembt1 -noembtt -noembcidps -expand -nocenter -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level3sep -form -noembtt -noembcidtt -paper letter -paperw 400 -noshrink -pagecrop -userunit -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level3sep -eps -noembcidps -noembcidtt -preload -paper match -paperw 400 -pagecrop  @@ /tmp/foo
+pdftops -f 2 -level3sep -form -preload -paper legal -nocrop -expand -noshrink -userunit -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level2 -form -noembtt -paper letter -paperh 500 -expand -nocenter -pagecrop -opw 123456  @@ /tmp/foo
+pdftops -level2 -eps -noembt1 -noembtt -noembcidps -noembcidtt -paper match -nocenter -duplex  @@ /tmp/foo
+pdftops -f 2 -level1 -paperw 400 -nocrop -pagecrop -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3 -eps -paper legal -paperh 500 -expand -noshrink -pagecrop -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2 -form -noembtt -paper match -paperw 400 -noshrink -nocenter -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2 -eps -noembt1 -noembtt -paperw 400 -expand -pagecrop -userunit  @@ /tmp/foo
+pdftops -f 2 -level1 -eps -noembtt -paper match -paperh 500 -noshrink -nocenter -userunit -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2gray -eps -noembcidps -preload -expand -nocenter -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3gray -form -noembt1 -paper legal -nocrop -nocenter -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3gray -form -noembtt -noembcidps -noembcidtt -paper letter -paperh 500  @@ /tmp/foo
+pdftops -level1sep -eps -preload -paperw 400 -paperh 500 -nocrop -noshrink -userunit  @@ /tmp/foo
+pdftops -f 2 -level3 -eps -noembt1 -noembcidtt -preload -paperh 500 -noshrink -userunit  @@ /tmp/foo
+pdftops -level2sep -preload -paper A3 -paperw 400 -nocrop -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2sep -eps -noembt1 -noembcidps -preload -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level2sep -eps -noembcidtt -paperw 400 -nocrop -pagecrop -userunit -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level3sep -form -noembcidps -noembcidtt -paper letter -paperh 500 -nocrop -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level1 -noembcidps -noembcidtt -paper legal -expand -userunit -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level2sep -noembcidtt -paper A4 -expand -nocenter -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level3gray -eps -noembtt -noshrink -pagecrop -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3sep -eps -noembt1 -noembcidps -nocrop -pagecrop -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2gray -form -noembtt -noembcidtt -paperw 400 -expand -pagecrop -userunit  @@ /tmp/foo
+pdftops -l 5 -level2gray -eps -paper match -paperw 400 -nocrop -noshrink -duplex  @@ /tmp/foo
+pdftops -level2sep -form -paper match -paperh 500 -noshrink -nocenter -duplex -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level3 -form -noembt1 -noembcidps -pagecrop -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -level1 -noembt1 -noembcidps -preload -paperw 400 -noshrink  @@ /tmp/foo
+pdftops -l 5 -level1 -noembtt -preload -paperh 500 -nocrop -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2gray -eps -noembtt -paper match -paperh 500 -expand -nocenter -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2sep -noembtt -paper A3 -paperw 400 -expand -pagecrop -userunit  @@ /tmp/foo
+pdftops -l 5 -level3sep -eps -noembt1 -paperw 400 -noshrink -nocenter -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level1sep -noembcidtt -paper legal -paperh 500 -expand -noshrink  @@ /tmp/foo
+pdftops -l 5 -level2 -paper letter -paperw 400 -paperh 500 -nocrop -expand -duplex  @@ /tmp/foo
+pdftops -l 5 -level2sep -eps -noembt1 -paperw 400 -paperh 500 -nocenter -duplex  @@ /tmp/foo
+pdftops -level3sep -form -preload -paperw 400 -paperh 500 -expand -userunit -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level1 -noembt1 -paper match -paperw 400 -expand -nocenter  @@ /tmp/foo
+pdftops -f 2 -level3sep -eps -noembt1 -paperw 400 -expand -noshrink -pagecrop -userunit  @@ /tmp/foo
+pdftops -level2gray -eps -noembtt -noembcidps -preload -nocrop -expand -noshrink -nocenter -userunit -duplex  @@ /tmp/foo
+pdftops -level2sep -form -paperh 500 -nocrop -expand -pagecrop -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2sep -form -noembcidps -paperw 400 -nocenter -pagecrop -userunit -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level2gray -eps -preload -paper A4 -paperw 400 -expand -pagecrop -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2 -form -preload -paperw 400 -expand -noshrink -userunit -duplex  @@ /tmp/foo
+pdftops -l 5 -level3gray -form -noembt1 -noembtt -noembcidps -paperw 400 -noshrink -userunit  @@ /tmp/foo
+pdftops -level2gray -eps -paperw 400 -nocrop -nocenter -pagecrop -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -level3gray -noembt1 -noembcidps -paper match -paperh 500 -noshrink -userunit -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level3 -form -noembt1 -paper letter -noshrink -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2sep -form -noembtt -preload -paper letter -paperw 400 -paperh 500 -nocenter -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level2sep -form -noembtt -paperw 400 -nocrop -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level1 -noembt1 -preload -paper A4 -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3 -form -noembtt -noembcidtt -paper letter -paperh 500 -nocenter -userunit  @@ /tmp/foo
+pdftops -l 5 -level2gray -form -noembcidps -paperw 400 -nocenter -pagecrop -duplex  @@ /tmp/foo
+pdftops -f 2 -level2sep -form -noembt1 -noembcidtt -preload -noshrink -userunit -duplex  @@ /tmp/foo
+pdftops -l 5 -level3 -form -preload -paperw 400 -expand -duplex -upw 123456  @@ /tmp/foo
+pdftops -level1sep -eps -noembt1 -noembtt -noembcidtt -paper A3 -nocrop -nocenter -duplex  @@ /tmp/foo
+pdftops -level3 -noembtt -preload -nocrop -expand -noshrink -pagecrop -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2 -eps -noembcidps -paperw 400 -paperh 500 -noshrink -pagecrop  @@ /tmp/foo
+pdftops -l 5 -level2gray -noembcidps -noembcidtt -noshrink -pagecrop -userunit -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2gray -form -noembt1 -noembcidps -noembcidtt -paper letter -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level3sep -eps -preload -paperw 400 -pagecrop -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2sep -noembcidtt -paperh 500 -noshrink -nocenter -userunit -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2 -noembcidtt -preload -expand -pagecrop -duplex  @@ /tmp/foo
+pdftops -l 5 -level2 -eps -noembt1 -noembcidps -noembcidtt -nocrop -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level1 -noembt1 -expand -nocenter -pagecrop -userunit -duplex  @@ /tmp/foo
+pdftops -f 2 -level2 -form -noembt1 -noembcidps -paperw 400 -paperh 500 -expand  @@ /tmp/foo
+pdftops -l 5 -level2sep -form -noembtt -noembcidtt -paper match -paperh 500 -noshrink -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level1sep -noembt1 -noembtt -paper match -noshrink  @@ /tmp/foo
+pdftops -level2sep -eps -noembcidtt -nocrop -expand -noshrink -pagecrop -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3gray -eps -noembcidtt -paper A3 -paperw 400 -paperh 500 -pagecrop -userunit  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -noembcidps -noembcidtt -nocenter -pagecrop  @@ /tmp/foo
+pdftops -l 5 -level1 -paper match -paperw 400 -expand -noshrink -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2gray -form -noembt1 -noshrink -pagecrop -userunit -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level2 -form -noembcidtt -preload -paperh 500 -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level3 -eps -noembcidps -paperw 400 -expand -opw 123456  @@ /tmp/foo
+pdftops -level3sep -noembtt -noembcidtt -paper letter -nocrop -expand -pagecrop -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level1sep -eps -noembt1 -preload -duplex -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3sep -noembcidps -preload -paperh 500 -duplex  @@ /tmp/foo
+pdftops -f 2 -level3gray -noembcidtt -expand -nocenter -userunit -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level3 -form -noembtt -noembcidps -pagecrop -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3 -eps -preload -nocrop -nocenter -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3 -noembt1 -noembcidtt -paperw 400 -userunit -duplex  @@ /tmp/foo
+pdftops -l 5 -level3sep -eps -noembtt -noembcidps -nocrop -expand -userunit  @@ /tmp/foo
+pdftops -f 2 -level3 -eps -paper legal -nocrop -duplex  @@ /tmp/foo
+pdftops -level2gray -form -noembt1 -noembcidps -preload -paper letter -noshrink -pagecrop  @@ /tmp/foo
+pdftops -level3 -noembt1 -paper A4 -paperh 500 -nocenter -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -level1sep -eps -noembtt -noembcidps -preload -paper letter -nocrop -noshrink -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2sep -form -noembt1 -noshrink -nocenter -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -level1 -noembcidtt -paper A4 -nocrop -noshrink -nocenter -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -level3gray -eps -paperh 500 -expand -noshrink -pagecrop  @@ /tmp/foo
+pdftops -f 2 -level2gray -eps -noembt1 -preload -nocrop -userunit -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level1sep -eps -noembcidtt -preload -paper letter -paperw 400 -paperh 500 -userunit  @@ /tmp/foo
+pdftops -level3gray -eps -paperw 400 -expand -noshrink -userunit -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level3gray -form -noembcidps -preload -expand -userunit -opw 123456  @@ /tmp/foo
+pdftops -level2sep -eps -noembt1 -noembtt -noembcidps -nocrop -expand -nocenter -userunit -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level1 -eps -noembcidps -noembcidtt -pagecrop -duplex  @@ /tmp/foo
+pdftops -l 5 -level3sep -form -noembt1 -nocrop -noshrink -pagecrop -userunit  @@ /tmp/foo
+pdftops -level1sep -eps -noembt1 -noembtt -noembcidps -expand -pagecrop -userunit -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level3sep -form -noembtt -paperh 500 -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -level1 -eps -paperw 400 -paperh 500 -userunit -duplex  @@ /tmp/foo
+pdftops -f 2 -level2sep -noembtt -paper A3 -userunit -upw 123456  @@ /tmp/foo
+pdftops -level2 -eps -paperh 500 -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -level3sep -eps -paper match -paperw 400 -expand -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level2 -eps -noembt1 -paper letter -paperw 400  @@ /tmp/foo
+pdftops -f 2 -level2sep -eps -noembcidtt -paperw 400 -upw 123456  @@ /tmp/foo
+pdftops -level2 -preload -paper letter -paperw 400 -paperh 500 -pagecrop  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -noembcidps -paper letter -paperw 400 -paperh 500 -userunit -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level3 -form -noembt1 -noembtt -noembcidps -noembcidtt -preload -paper letter -paperh 500 -nocrop -expand -noshrink -nocenter -pagecrop -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2 -form -noembt1 -noembtt -noembcidps -noembcidtt -preload -paper legal -paperw 400 -nocrop -expand -noshrink -nocenter -pagecrop -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -level2 -form -nocrop -noshrink -nocenter -pagecrop -userunit -opw 123456  @@ /tmp/foo
+pdftops -level1 -eps -noembt1 -noembtt -preload -expand -pagecrop -userunit  @@ /tmp/foo
+pdftops -level3 -eps -noembt1 -expand -noshrink -pagecrop -userunit -duplex  @@ /tmp/foo
+pdftops -level2gray -form -paper letter -expand -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level2gray -noembtt -expand  @@ /tmp/foo
+pdftops -l 5 -level2sep -eps -noembt1 -noembtt -noembcidps -noembcidtt -paperw 400 -paperh 500 -nocrop -expand -noshrink -nocenter -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -eps -noembt1 -noembcidps -noembcidtt -preload -paperw 400 -paperh 500 -nocrop -expand -noshrink -nocenter -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1sep -eps -noembt1 -noembtt -noembcidps -preload -paperw 400 -paperh 500 -nocrop -expand -noshrink -nocenter -pagecrop -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -form -noembtt -noembcidps -noembcidtt -preload -paperw 400 -paperh 500 -nocrop -expand -noshrink -nocenter -pagecrop -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -noembt1 -noembtt -noembcidps -noembcidtt -preload -paper letter -paperh 500 -nocrop -noshrink -nocenter -pagecrop -duplex -q  @@ /tmp/foo
+pdftops -level3gray -form -noembtt -paper match -pagecrop -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level3gray -noembt1 -noembtt -preload -paper match -paperw 400 -nocrop -expand -noshrink -nocenter -pagecrop -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2 -eps -noembt1 -noembcidps -noembcidtt -preload -paper A3 -paperw 400 -nocrop -expand -noshrink -nocenter -pagecrop -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3 -eps -noembt1 -noembtt -preload -paper match -paperw 400 -paperh 500 -nocrop -expand -noshrink -nocenter -pagecrop -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level3sep -eps -noembt1 -noembcidps -noembcidtt -preload -paperw 400 -expand -noshrink -nocenter -pagecrop -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -form -noembt1 -noembtt -noembcidps -noembcidtt -paperw 400 -nocrop -noshrink -nocenter -pagecrop -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2gray -form -noembt1 -noembtt -noembcidps -noembcidtt -preload -paper A4 -nocrop -expand -noshrink -nocenter -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -noembt1 -noembtt -noembcidps -preload -paperw 400 -paperh 500 -expand -noshrink -nocenter -pagecrop -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -eps -noembtt -noembcidps -noembcidtt -preload -paper A3 -expand -noshrink -nocenter -pagecrop -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -form -noembt1 -noembtt -noembcidps -preload -paperw 400 -paperh 500 -expand -noshrink -nocenter -pagecrop -userunit -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level3gray -form -noembt1 -noembtt -noembcidps -noembcidtt -preload -paperw 400 -paperh 500 -nocrop -nocenter -pagecrop -duplex -q  @@ /tmp/foo
+pdftops -level3 -eps -noembt1 -noembtt -noembcidps -preload -paperw 400 -nocrop -expand -nocenter -pagecrop -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -noembt1 -noembcidps -noembcidtt -paperw 400 -paperh 500 -expand -noshrink -nocenter -pagecrop -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1sep -eps -noembt1 -noembtt -noembcidtt -preload -paperw 400 -paperh 500 -expand -nocenter -pagecrop -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3 -noembt1 -noembtt -noembcidps -noembcidtt -preload -paper legal -paperw 400 -paperh 500 -nocrop -expand -nocenter -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2 -eps -noembtt -noembcidps -noembcidtt -paper letter -paperw 400 -paperh 500 -nocrop -expand -noshrink -nocenter -pagecrop -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3sep -form -noembt1 -noembtt -noembcidtt -paperw 400 -paperh 500 -nocrop -expand -noshrink -pagecrop -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2 -eps -noembt1 -noembtt -noembcidps -noembcidtt -preload -paperw 400 -paperh 500 -nocrop -expand -pagecrop -opw 123456 -q  @@ /tmp/foo
+pdftops -level1 -noembt1 -noembtt -noembcidps -noembcidtt -paper letter -paperh 500 -nocrop -expand -noshrink -pagecrop -userunit -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level3 -form -noembt1 -noembtt -noembcidps -preload -paperw 400 -paperh 500 -nocrop -expand -nocenter -pagecrop -userunit -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level1sep -eps -noembt1 -noembtt -noembcidtt -preload -paper legal -paperh 500 -nocrop -expand -nocenter -pagecrop -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1 -noembt1 -noembtt -noembcidps -noembcidtt -preload -paper letter -paperw 400 -paperh 500 -expand -nocenter -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3gray -form -noembt1 -noembcidps -noembcidtt -paper A3 -paperw 400 -paperh 500 -nocrop -expand -noshrink -nocenter -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -eps -noembt1 -noembtt -noembcidps -preload -paperh 500 -nocrop -expand -nocenter -pagecrop -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2 -eps -noembt1 -noembtt -noembcidps -preload -paperw 400 -paperh 500 -noshrink -nocenter -pagecrop -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level1 -noembt1 -noembtt -noembcidps -paperh 500 -nocrop -expand -noshrink -nocenter -pagecrop -upw 123456 -q  @@ /tmp/foo
+pdftops -level3sep -eps -preload -paper A4 -noshrink  @@ /tmp/foo
+pdftops -l 5 -level3sep -form -noembt1 -noembcidtt -preload -paper match -paperw 400 -nocrop -noshrink -nocenter -pagecrop -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2gray -eps -noembt1 -noembcidps -preload -paper legal -paperw 400 -nocrop -noshrink -nocenter -pagecrop -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -level3sep -form -noembt1 -noembtt -noembcidps -noembcidtt -preload -paperh 500 -noshrink -nocenter -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -eps -noembtt -noembcidps -noembcidtt -preload -paper A4 -paperh 500 -nocrop -noshrink -pagecrop -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -level3 -noembt1 -noembtt -noembcidps -noembcidtt -preload -paperw 400 -paperh 500 -noshrink -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -level3sep -form -noembt1 -noembcidps -noembcidtt -paperh 500 -nocrop -expand -nocenter -pagecrop -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2 -form -noembtt -preload -paperw 400 -paperh 500 -nocrop -expand -noshrink -nocenter -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -noembtt -noembcidps -noembcidtt -paperw 400 -nocrop -expand -nocenter -pagecrop -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1 -noembtt -noembcidtt -paperw 400 -paperh 500 -expand -noshrink -nocenter -pagecrop -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2gray -eps -noembtt -noembcidps -preload -paperw 400 -nocrop -expand -nocenter -pagecrop -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1 -noembt1 -noembtt -noembcidtt -preload -paper A3 -paperw 400 -expand -noshrink -nocenter -userunit -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -eps -noembt1 -noembcidps -noembcidtt -preload -paper match -paperh 500 -nocrop -expand -nocenter -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -eps -noembtt -noembcidps -preload -paperh 500 -nocrop -expand -nocenter -pagecrop -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2 -eps -noembt1 -noembtt -noembcidps -noembcidtt -nocrop -expand -noshrink -pagecrop -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -level3gray -form -noembcidps -noembcidtt -paperw 400 -paperh 500 -nocrop -expand -noshrink -nocenter -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1 -eps -noembt1 -noembtt -noembcidps -preload -paperw 400 -paperh 500 -expand -nocenter -pagecrop -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -level2 -form -noembtt -noembcidtt -preload -paperw 400 -paperh 500 -noshrink -nocenter -pagecrop -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3sep -eps -noembtt -noembcidps -noembcidtt -preload -paper letter -paperh 500 -nocrop -expand -noshrink -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3sep -eps -noembt1 -noembtt -noembcidtt -paperw 400 -paperh 500 -nocrop -nocenter -pagecrop -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2gray -eps -noembt1 -noembtt -noembcidps -noembcidtt -preload -paperh 500 -nocrop -expand -noshrink -duplex -q  @@ /tmp/foo
+pdftops -level3 -eps -noembtt -noembcidps -noembcidtt -preload -paper legal -paperh 500 -nocrop -expand -nocenter -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1sep -eps -noembt1 -noembtt -noembcidps -preload -paper A4 -paperw 400 -nocrop -noshrink -nocenter -pagecrop -userunit -q  @@ /tmp/foo
+pdftops -l 5 -level1sep -noembt1 -noembcidps -preload -paperw 400 -paperh 500 -nocrop -noshrink -nocenter -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -noembtt -noembcidtt -paperw 400 -paperh 500 -nocrop -expand -nocenter -pagecrop -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -level1sep -eps -noembtt -noembcidps -noembcidtt -preload -paper letter -paperw 400 -nocrop -expand -nocenter -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -form -noembt1 -noembtt -noembcidps -noembcidtt -paper A3 -paperw 400 -paperh 500 -expand -noshrink -nocenter -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -level3sep -eps -noembtt -noembcidps -noembcidtt -preload -paper A3 -paperw 400 -nocrop -expand -noshrink -pagecrop -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3 -eps -noembt1 -noembcidps -noembcidtt -paperw 400 -paperh 500 -nocrop -expand -noshrink -pagecrop -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -eps -noembt1 -noembtt -noembcidps -preload -paperw 400 -paperh 500 -nocrop -expand -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -form -noembt1 -noembtt -noembcidps -noembcidtt -paper match -paperh 500 -expand -nocenter -pagecrop -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -noembtt -noembcidps -noembcidtt -paperw 400 -paperh 500 -nocrop -expand -nocenter -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -eps -noembtt -noembcidps -noembcidtt -preload -paperh 500 -nocrop -noshrink -nocenter -pagecrop -duplex -q  @@ /tmp/foo
+pdftops -level1 -eps -noembt1 -noembtt -noembcidps -noembcidtt -paper match -paperw 400 -nocrop -expand -nocenter -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -form -noembtt -noembcidps -noembcidtt -preload -paper legal -paperw 400 -nocrop -expand -noshrink -pagecrop -userunit -q  @@ /tmp/foo
+pdftops -f 2 -level3 -eps -noembt1 -noembtt -noembcidtt -preload -paper legal -nocrop -expand -noshrink -userunit -duplex -q  @@ /tmp/foo
+pdftops -level2 -eps -noembt1 -noembtt -noembcidtt -preload -paper match -paperh 500 -expand -noshrink -nocenter -pagecrop -userunit -q  @@ /tmp/foo
+pdftops -f 2 -level2 -eps -noembcidps -preload -paper legal -paperh 500 -nocrop -expand -noshrink -nocenter -pagecrop -userunit -duplex -q  @@ /tmp/foo
+pdftops -level1 -eps -noembt1 -noembcidps -preload -paperw 400 -paperh 500 -expand -noshrink -nocenter -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1sep -eps -noembt1 -noembcidps -noembcidtt -preload -paper A3 -paperw 400 -nocrop -expand -noshrink -pagecrop -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2gray -form -noembt1 -noembtt -noembcidtt -preload -paper A3 -paperw 400 -paperh 500 -expand -noshrink -pagecrop -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level3gray -eps -noembtt -noembcidtt -preload -paperw 400 -paperh 500 -expand -noshrink -pagecrop -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2 -form -noembtt -paperw 400 -paperh 500 -nocrop -expand -noshrink -nocenter -pagecrop -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2 -form -noembt1 -noembtt -noembcidtt -paperh 500 -expand -noshrink -nocenter -pagecrop -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2gray -eps -noembt1 -noembcidtt -preload -paperw 400 -paperh 500 -nocrop -expand -nocenter -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -form -noembt1 -noembtt -noembcidtt -preload -paperw 400 -expand -noshrink -nocenter -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -eps -noembt1 -noembtt -noembcidps -noembcidtt -preload -paper letter -paperh 500 -expand -noshrink -pagecrop -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1 -noembt1 -noembtt -preload -paperw 400 -paperh 500 -nocrop -noshrink -pagecrop -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -form -noembcidps -noembcidtt -preload -paperw 400 -paperh 500 -nocrop -expand -nocenter -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -eps -noembt1 -noembtt -noembcidps -paper legal -paperh 500 -nocrop -expand -noshrink -pagecrop -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3 -form -noembtt -noembcidtt -preload -paperw 400 -paperh 500 -nocrop -noshrink -pagecrop -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2gray -noembt1 -noembtt -noembcidps -preload -paper A4 -paperw 400 -paperh 500 -expand -nocenter -pagecrop -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level3 -eps -noembt1 -noembcidps -paperw 400 -paperh 500 -nocrop -noshrink -nocenter -pagecrop -userunit -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -eps -noembcidps -noembcidtt -paperw 400 -paperh 500 -nocrop -expand -noshrink -nocenter -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1 -eps -noembt1 -noembcidps -noembcidtt -preload -expand -noshrink -nocenter -pagecrop -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2 -eps -noembcidps -preload -paperh 500 -nocrop -expand -noshrink -pagecrop -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -noembt1 -noembtt -noembcidtt -paper letter -paperw 400 -paperh 500 -nocrop -noshrink -nocenter -pagecrop -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3 -noembtt -noembcidtt -paperw 400 -paperh 500 -expand -nocenter -pagecrop -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3sep -form -noembt1 -noembtt -noembcidps -noembcidtt -preload -paperw 400 -nocrop -expand -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1 -noembcidtt -preload -paperw 400 -paperh 500 -nocrop -noshrink -nocenter -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3gray -eps -noembt1 -noembcidtt -preload -paperh 500 -nocrop -noshrink -nocenter -pagecrop -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1sep -eps -noembt1 -noembtt -noembcidps -noembcidtt -paper A4 -paperw 400 -paperh 500 -nocrop -noshrink -nocenter -userunit -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -form -noembtt -noembcidps -preload -paper A3 -paperw 400 -paperh 500 -nocrop -expand -pagecrop -userunit -duplex -q  @@ /tmp/foo
+pdftops -level1 -noembtt -preload -paperw 400 -nocrop -expand -noshrink -pagecrop -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3 -eps -noembcidps -noembcidtt -preload -paper A4 -paperw 400 -nocrop -expand -nocenter -pagecrop -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2gray -noembtt -noembcidtt -preload -paperw 400 -paperh 500 -nocrop -expand -pagecrop -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -noembcidps -noembcidtt -paper A4 -nocrop -expand -noshrink -nocenter -pagecrop -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3 -eps -noembcidtt -preload -paperh 500 -nocrop -expand -noshrink -nocenter -pagecrop -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -eps -noembtt -noembcidps -preload -paperh 500 -nocrop -expand -noshrink -pagecrop -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3gray -eps -noembt1 -noembtt -noembcidps -noembcidtt -paperh 500 -nocrop -expand -noshrink -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -eps -noembt1 -noembtt -paperw 400 -paperh 500 -expand -noshrink -nocenter -pagecrop -upw 123456 -q  @@ /tmp/foo
+pdftops -level2gray -noembtt -noembcidps -paperw 400 -paperh 500 -expand -noshrink -nocenter -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3sep -eps -noembt1 -noembtt -noembcidps -paper legal -paperw 400 -nocrop -expand -noshrink -nocenter -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2 -form -noembcidps -noembcidtt -paper A4 -nocrop -expand -noshrink -nocenter -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2gray -form -noembt1 -noembcidps -paperw 400 -paperh 500 -nocrop -noshrink -nocenter -pagecrop -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3 -noembcidtt -preload -paperw 400 -paperh 500 -expand -noshrink -pagecrop -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -noembt1 -noembcidps -preload -paperh 500 -nocrop -expand -noshrink -pagecrop -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level3gray -noembtt -noembcidps -noembcidtt -paper A3 -paperw 400 -expand -nocenter -pagecrop -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level1sep -eps -noembt1 -noembtt -noembcidps -preload -paper legal -paperh 500 -nocrop -noshrink -userunit -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level3 -form -noembcidps -noembcidtt -preload -paper letter -paperw 400 -nocrop -nocenter -pagecrop -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -noembt1 -noembcidps -noembcidtt -preload -paper letter -nocrop -expand -noshrink -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -eps -noembtt -preload -paperw 400 -nocrop -expand -noshrink -pagecrop -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1sep -eps -noembcidps -noembcidtt -paperw 400 -paperh 500 -nocrop -expand -nocenter -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3gray -eps -noembt1 -noembtt -noembcidtt -paper match -paperw 400 -nocrop -noshrink -nocenter -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -eps -noembcidps -paper A4 -nocrop -expand -noshrink -nocenter -pagecrop -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -form -noembt1 -noembcidtt -preload -paper A3 -paperw 400 -nocrop -expand -pagecrop -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -form -noembtt -noembcidps -paperw 400 -paperh 500 -nocrop -noshrink -nocenter -pagecrop -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3 -form -noembt1 -noembtt -noembcidps -noembcidtt -paperw 400 -paperh 500 -nocrop -noshrink -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -form -noembt1 -noembtt -noembcidps -noembcidtt -preload -paper match -nocrop -nocenter -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2 -eps -noembt1 -noembtt -preload -paper A4 -nocrop -expand -noshrink -nocenter -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3sep -noembt1 -noembtt -noembcidps -noembcidtt -preload -paper letter -paperh 500 -nocrop -noshrink -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3gray -eps -noembt1 -noembcidps -noembcidtt -paperw 400 -paperh 500 -expand -nocenter -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -noembtt -preload -paper A3 -paperw 400 -paperh 500 -nocrop -expand -noshrink -pagecrop -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2 -form -noembt1 -noembtt -noembcidps -noembcidtt -preload -paperw 400 -expand -nocenter -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2gray -form -noembt1 -noembcidtt -preload -paper A4 -noshrink -nocenter -pagecrop -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1 -noembt1 -noembcidps -noembcidtt -paper letter -paperh 500 -nocrop -expand -nocenter -pagecrop -q  @@ /tmp/foo
+pdftops -f 2 -level3sep -noembt1 -preload -paper match -paperh 500 -nocrop -expand -nocenter -pagecrop -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3 -form -noembt1 -noembtt -noembcidtt -expand -noshrink -nocenter -pagecrop -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2 -form -noembtt -noembcidtt -paper match -paperh 500 -nocrop -expand -nocenter -pagecrop -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3gray -noembtt -noembcidps -noembcidtt -preload -paper letter -paperh 500 -nocrop -pagecrop -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1 -noembtt -noembcidps -paperw 400 -paperh 500 -nocrop -noshrink -pagecrop -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3gray -form -noembt1 -noembtt -noembcidps -preload -expand -noshrink -nocenter -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -eps -noembtt -noembcidps -noembcidtt -preload -paperw 400 -nocrop -noshrink -nocenter -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3 -eps -noembt1 -noembtt -preload -paper legal -paperw 400 -paperh 500 -nocrop -noshrink -nocenter -pagecrop -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -form -noembt1 -noembcidps -noembcidtt -preload -paperh 500 -noshrink -nocenter -pagecrop -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -noembcidps -noembcidtt -preload -paperw 400 -paperh 500 -nocrop -nocenter -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1 -eps -noembt1 -noembtt -noembcidps -noembcidtt -paper A3 -expand -nocenter -pagecrop -opw 123456 -q  @@ /tmp/foo
+pdftops -level2 -noembt1 -noembtt -noembcidps -noembcidtt -preload -paper letter -paperh 500 -nocrop -nocenter -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -eps -noembt1 -noembcidps -preload -paper legal -paperw 400 -paperh 500 -expand -noshrink -nocenter -pagecrop -q  @@ /tmp/foo
+pdftops -level1 -noembtt -noembcidps -preload -paper A3 -paperh 500 -expand -nocenter -pagecrop -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -form -noembt1 -noembcidps -noembcidtt -paperw 400 -expand -noshrink -nocenter -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -eps -noembt1 -noembcidtt -preload -paper A3 -paperw 400 -expand -noshrink -nocenter -pagecrop -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3 -form -noembt1 -noembcidps -preload -paper legal -paperw 400 -paperh 500 -nocrop -noshrink -pagecrop -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1 -noembtt -noembcidps -preload -paperw 400 -nocrop -expand -noshrink -nocenter -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3sep -noembt1 -noembtt -noembcidps -noembcidtt -paper letter -paperw 400 -nocenter -pagecrop -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level3 -form -noembt1 -noembtt -noembcidps -noembcidtt -preload -paper match -paperw 400 -paperh 500 -expand -pagecrop -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3gray -noembt1 -noembtt -noembcidtt -preload -paperw 400 -nocrop -pagecrop -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -eps -noembt1 -paperw 400 -paperh 500 -nocrop -expand -noshrink -nocenter -pagecrop -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2 -form -noembt1 -noembtt -noembcidps -noembcidtt -preload -paper A4 -nocrop -nocenter -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1 -noembt1 -noembtt -noembcidtt -paperw 400 -nocrop -expand -noshrink -pagecrop -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3gray -eps -noembt1 -noembtt -paper legal -paperh 500 -expand -noshrink -nocenter -pagecrop -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2 -noembt1 -noembtt -noembcidps -preload -paper legal -paperw 400 -paperh 500 -nocrop -expand -pagecrop -q  @@ /tmp/foo
+pdftops -f 2 -level3sep -form -noembt1 -noembtt -noembcidps -noembcidtt -paper match -nocrop -nocenter -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1 -noembcidps -noembcidtt -preload -paperw 400 -paperh 500 -expand -noshrink -nocenter -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3sep -noembcidps -noembcidtt -preload -paper legal -nocrop -expand -nocenter -pagecrop -userunit -q  @@ /tmp/foo
+pdftops -f 2 -level3gray -eps -noembt1 -noembtt -noembcidps -preload -paper letter -paperw 400 -paperh 500 -nocrop -noshrink -nocenter -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3 -form -noembt1 -noembtt -preload -paper legal -paperh 500 -nocrop -expand -noshrink -pagecrop -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1sep -noembt1 -noembtt -noembcidtt -preload -paperh 500 -expand -nocenter -pagecrop -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level1sep -noembcidps -noembcidtt -preload -paper legal -paperw 400 -paperh 500 -nocrop -expand -noshrink -nocenter -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -eps -noembtt -noembcidps -noembcidtt -paperh 500 -nocrop -nocenter -pagecrop -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -noembtt -noembcidps -noembcidtt -preload -paperh 500 -nocenter -pagecrop -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3 -form -noembcidps -noembcidtt -preload -paperw 400 -paperh 500 -nocrop -expand -noshrink -pagecrop -userunit -q  @@ /tmp/foo
+pdftops -f 2 -level2 -eps -noembtt -noembcidps -preload -paper match -paperw 400 -nocrop -noshrink -nocenter -userunit -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level2gray -eps -noembtt -noembcidps -noembcidtt -preload -paperw 400 -paperh 500 -noshrink -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -eps -noembcidps -noembcidtt -preload -paperw 400 -paperh 500 -nocrop -expand -pagecrop -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -level1sep -eps -noembt1 -preload -paper match -paperw 400 -nocrop -expand -nocenter -pagecrop -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2 -form -noembt1 -noembcidps -paper letter -paperw 400 -nocrop -expand -noshrink -nocenter -pagecrop -q  @@ /tmp/foo
+pdftops -f 2 -level3sep -form -noembt1 -noembcidtt -preload -paper letter -paperh 500 -nocrop -expand -nocenter -pagecrop -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -level2sep -form -noembt1 -noembtt -noembcidtt -preload -paper A3 -paperw 400 -expand -noshrink -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -noembt1 -noembtt -noembcidps -paper letter -paperw 400 -paperh 500 -nocrop -expand -nocenter -pagecrop -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1 -noembtt -noembcidps -noembcidtt -preload -paperw 400 -paperh 500 -expand -pagecrop -userunit -q  @@ /tmp/foo
+pdftops -l 5 -level2 -form -noembtt -noembcidps -noembcidtt -preload -paper legal -paperw 400 -paperh 500 -nocrop -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1sep -eps -noembtt -noembcidps -noembcidtt -paper match -paperw 400 -expand -noshrink -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2 -form -noembt1 -noembtt -noembcidps -paperh 500 -expand -noshrink -pagecrop -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -form -noembt1 -noembtt -noembcidps -noembcidtt -paper legal -expand -noshrink -userunit -q  @@ /tmp/foo
+pdftops -f 2 -level2 -noembtt -noembcidtt -preload -nocrop -expand -nocenter -pagecrop -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1 -noembcidps -noembcidtt -preload -expand -noshrink -pagecrop -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -eps -noembtt -noembcidps -noembcidtt -paper legal -expand -pagecrop -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3sep -form -noembt1 -preload -paperh 500 -nocrop -expand -noshrink -pagecrop -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -noembt1 -noembcidtt -preload -paper letter -noshrink -nocenter -userunit -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level2gray -form -noembt1 -noembtt -noembcidps -noembcidtt -paper A4 -paperw 400 -paperh 500 -nocenter -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -form -noembtt -preload -paper legal -paperh 500 -nocrop -expand -noshrink -nocenter -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -level2sep -eps -preload -paperw 400 -nocrop -noshrink -nocenter -pagecrop -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -level3gray -eps -noembtt -noembcidps -noembcidtt -paperw 400 -noshrink -nocenter -pagecrop -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1sep -eps -noembcidps -preload -nocrop -expand -noshrink -nocenter -pagecrop -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level2 -noembt1 -noembtt -preload -paperw 400 -nocrop -noshrink -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -form -noembt1 -noembtt -noembcidtt -expand -noshrink -pagecrop -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -form -noembt1 -noembcidps -preload -paper match -paperw 400 -paperh 500 -nocrop -noshrink -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2 -eps -noembtt -noembcidtt -preload -paper letter -paperw 400 -paperh 500 -expand -pagecrop -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -eps -noembt1 -noembtt -noembcidps -paper match -paperw 400 -paperh 500 -expand -pagecrop -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -level2sep -eps -noembt1 -noembcidps -noembcidtt -paper A4 -paperw 400 -paperh 500 -nocrop -noshrink -nocenter -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3 -noembcidps -preload -paper legal -paperw 400 -nocrop -expand -noshrink -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -level1sep -eps -noembtt -noembcidps -noembcidtt -preload -paperh 500 -nocenter -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -form -noembtt -noembcidps -noembcidtt -preload -paperw 400 -noshrink -pagecrop -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -form -noembcidtt -paperh 500 -nocrop -expand -noshrink -nocenter -pagecrop -userunit -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level3 -eps -noembtt -noembcidps -paper legal -paperh 500 -nocrop -expand -pagecrop -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -noembtt -noembcidps -preload -paper A3 -paperw 400 -expand -nocenter -pagecrop -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -preload -paper letter -nocrop -expand -noshrink -nocenter -pagecrop -q  @@ /tmp/foo
+pdftops -f 2 -level3gray -eps -noembtt -noembcidtt -preload -paper letter -paperh 500 -nocrop -expand -nocenter -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1sep -eps -noembcidps -preload -paperw 400 -paperh 500 -expand -pagecrop -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -eps -noembtt -noembcidtt -preload -paper letter -paperh 500 -noshrink -pagecrop -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -eps -noembt1 -noembtt -noembcidtt -preload -paper A4 -paperw 400 -paperh 500 -pagecrop -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -noembt1 -noembcidps -noembcidtt -paperw 400 -paperh 500 -expand -nocenter -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -level1 -eps -noembt1 -noembcidps -noembcidtt -paper match -paperh 500 -noshrink -pagecrop -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3gray -form -noembt1 -noembtt -noembcidtt -paper match -nocrop -noshrink -pagecrop -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1sep -noembtt -paperw 400 -nocrop -expand -noshrink -pagecrop -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -level2sep -form -noembt1 -noembcidtt -paperw 400 -paperh 500 -expand -nocenter -pagecrop -userunit -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -noembt1 -noembtt -noembcidps -noembcidtt -preload -paperw 400 -noshrink -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2 -eps -noembt1 -noembcidps -nocrop -noshrink -nocenter -pagecrop -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -form -noembtt -noembcidtt -preload -paper A4 -paperw 400 -paperh 500 -expand -noshrink -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2 -form -noembtt -noembcidps -preload -paper legal -paperh 500 -expand -nocenter -pagecrop -q  @@ /tmp/foo
+pdftops -f 2 -level3 -eps -noembt1 -noembtt -paper letter -expand -noshrink -nocenter -pagecrop -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3 -eps -noembtt -noembcidtt -paperw 400 -nocrop -nocenter -pagecrop -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -level3sep -eps -noembt1 -preload -paper A4 -paperw 400 -paperh 500 -expand -noshrink -pagecrop -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1 -noembt1 -noembcidtt -paperw 400 -nocrop -noshrink -nocenter -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -level1sep -noembt1 -noembcidps -paper legal -paperh 500 -nocrop -expand -pagecrop -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -form -noembt1 -noembcidps -preload -paperw 400 -expand -nocenter -pagecrop -userunit -duplex -q  @@ /tmp/foo
+pdftops -level2gray -noembcidtt -preload -paperw 400 -nocrop -noshrink -pagecrop -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2 -form -noembt1 -noembcidps -noembcidtt -paper letter -paperh 500 -expand -noshrink -pagecrop -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3sep -form -noembt1 -noembcidps -preload -paper match -noshrink -nocenter -pagecrop -q  @@ /tmp/foo
+pdftops -f 2 -level1 -eps -noembt1 -noembcidps -paper A3 -paperw 400 -nocrop -noshrink -nocenter -pagecrop -userunit -q  @@ /tmp/foo
+pdftops -level2sep -form -noembt1 -noembtt -noembcidps -paper A4 -paperw 400 -paperh 500 -nocrop -nocenter -pagecrop -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -eps -noembtt -noembcidtt -preload -paper legal -paperw 400 -nocrop -expand -nocenter -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -eps -noembcidtt -preload -paperh 500 -expand -noshrink -nocenter -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1sep -eps -noembt1 -noembtt -noembcidps -noembcidtt -expand -noshrink -pagecrop -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -eps -noembcidtt -preload -paper A4 -paperw 400 -nocrop -expand -noshrink -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -form -noembt1 -noembtt -noembcidtt -paper legal -paperh 500 -nocrop -noshrink -nocenter -q  @@ /tmp/foo
+pdftops -l 5 -level1 -noembt1 -preload -nocrop -expand -noshrink -nocenter -pagecrop -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2 -eps -noembt1 -preload -paperw 400 -paperh 500 -expand -noshrink -pagecrop -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -eps -noembt1 -noembtt -noembcidps -noembcidtt -preload -pagecrop -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -eps -noembt1 -noembtt -paperw 400 -expand -nocenter -pagecrop -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3 -eps -noembtt -noembcidps -noembcidtt -paper A3 -paperw 400 -expand -noshrink -pagecrop -userunit -q  @@ /tmp/foo
+pdftops -l 5 -level2 -eps -noembtt -noembcidps -noembcidtt -preload -paper A3 -paperh 500 -expand -nocenter -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -level2gray -form -noembtt -noembcidtt -preload -paper legal -paperh 500 -nocenter -pagecrop -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3 -noembt1 -noembcidps -noembcidtt -preload -expand -noshrink -pagecrop -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3gray -eps -preload -paper letter -nocrop -expand -nocenter -pagecrop -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3sep -eps -noembt1 -noembcidps -noembcidtt -paper letter -paperh 500 -nocrop -expand -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -form -noembt1 -noembcidps -noembcidtt -preload -nocrop -pagecrop -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -eps -noembtt -noembcidps -noembcidtt -preload -paper match -paperw 400 -expand -nocenter -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2gray -eps -preload -paperh 500 -nocrop -expand -noshrink -pagecrop -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3 -eps -noembtt -noembcidtt -paper A4 -expand -noshrink -pagecrop -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3gray -eps -noembt1 -noembtt -noembcidps -preload -paper A4 -nocrop -pagecrop -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -form -noembt1 -noembcidps -noembcidtt -paperw 400 -paperh 500 -nocrop -noshrink -pagecrop -userunit -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -eps -noembt1 -noembtt -noembcidps -noembcidtt -preload -paperw 400 -expand -noshrink -userunit -q  @@ /tmp/foo
+pdftops -f 2 -level1sep -noembt1 -noembtt -noembcidps -noembcidtt -paperw 400 -nocenter -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2gray -form -noembt1 -noembtt -noembcidps -paperw 400 -expand -nocenter -pagecrop -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2 -form -noembcidps -noembcidtt -preload -paper A3 -paperw 400 -paperh 500 -noshrink -nocenter -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -level2sep -form -noembcidps -noembcidtt -preload -paper A3 -paperh 500 -nocrop -noshrink -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -level2 -eps -noembt1 -paperw 400 -paperh 500 -nocrop -expand -pagecrop -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -noembt1 -noembtt -paper letter -paperh 500 -nocrop -expand -nocenter -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3sep -eps -noembt1 -noembtt -noembcidps -noembcidtt -paperh 500 -noshrink -pagecrop -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3sep -form -noembtt -noembcidps -preload -paperw 400 -nocrop -noshrink -nocenter -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level1 -eps -noembt1 -noembtt -noembcidtt -preload -paperw 400 -expand -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -noembtt -preload -paper A4 -paperw 400 -paperh 500 -noshrink -nocenter -pagecrop -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3gray -form -noembt1 -noembcidps -noembcidtt -preload -paper legal -paperw 400 -nocenter -pagecrop -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -form -noembtt -paper A4 -paperw 400 -paperh 500 -expand -noshrink -nocenter -pagecrop -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -form -noembt1 -noembtt -noembcidps -paper match -nocrop -nocenter -pagecrop -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2 -noembt1 -noembtt -noembcidps -paper letter -paperw 400 -expand -noshrink -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -eps -noembcidps -noembcidtt -paper match -paperw 400 -nocrop -expand -pagecrop -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2gray -form -noembtt -noembcidps -preload -paper match -paperw 400 -nocrop -noshrink -pagecrop -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1 -noembt1 -noembcidps -paper A4 -paperh 500 -expand -nocenter -pagecrop -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2 -eps -noembt1 -noembtt -noembcidtt -paper match -paperw 400 -expand -pagecrop -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3 -form -noembt1 -noembtt -noembcidtt -preload -paperh 500 -nocrop -noshrink -nocenter -q  @@ /tmp/foo
+pdftops -level2sep -form -noembt1 -noembtt -noembcidps -preload -paperh 500 -expand -noshrink -userunit -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -eps -noembt1 -paperw 400 -paperh 500 -nocrop -expand -noshrink -nocenter -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3gray -form -noembtt -preload -paper match -paperw 400 -nocrop -expand -nocenter -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -form -noembt1 -noembtt -noembcidtt -paperh 500 -nocrop -expand -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2 -form -noembt1 -noembcidps -noembcidtt -paperw 400 -expand -noshrink -nocenter -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -eps -noembcidps -noembcidtt -preload -paper legal -nocrop -noshrink -nocenter -userunit -q  @@ /tmp/foo
+pdftops -f 2 -level2 -eps -noembtt -noembcidps -noembcidtt -preload -paperh 500 -noshrink -nocenter -upw 123456 -q  @@ /tmp/foo
+pdftops -level3sep -form -noembtt -noembcidtt -paper match -paperh 500 -nocrop -expand -noshrink -pagecrop -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -form -noembtt -noembcidps -noembcidtt -preload -paper letter -paperw 400 -noshrink -nocenter -q  @@ /tmp/foo
+pdftops -f 2 -level2gray -eps -noembt1 -noembtt -noembcidps -noembcidtt -expand -nocenter -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3 -eps -noembcidps -noembcidtt -preload -paperw 400 -paperh 500 -expand -nocenter -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2gray -eps -noembt1 -noembtt -paper letter -paperh 500 -nocrop -expand -pagecrop -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3sep -noembt1 -paper legal -paperw 400 -nocrop -expand -noshrink -nocenter -pagecrop -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2gray -eps -noembcidtt -preload -paper letter -nocrop -expand -nocenter -pagecrop -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1 -noembt1 -noembcidps -noembcidtt -preload -paper legal -nocrop -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1 -noembtt -noembcidtt -paper A4 -paperh 500 -expand -nocenter -pagecrop -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -form -noembt1 -noembcidtt -preload -paperh 500 -nocrop -expand -pagecrop -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -eps -noembt1 -noembcidps -preload -paperh 500 -expand -nocenter -pagecrop -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1sep -eps -noembcidtt -paper match -paperw 400 -nocrop -noshrink -nocenter -pagecrop -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2gray -eps -noembtt -noembcidtt -nocrop -noshrink -nocenter -pagecrop -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1 -noembt1 -noembtt -noembcidtt -preload -paperh 500 -nocrop -nocenter -userunit -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level3sep -noembtt -preload -paperw 400 -paperh 500 -noshrink -pagecrop -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -eps -noembt1 -noembcidps -noembcidtt -paper A3 -paperw 400 -nocrop -pagecrop -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1sep -eps -noembt1 -noembcidtt -preload -paper A3 -paperw 400 -paperh 500 -noshrink -nocenter -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3 -eps -noembt1 -noembtt -noembcidps -preload -paperw 400 -nocrop -noshrink -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -eps -noembtt -noembcidps -preload -paper match -noshrink -nocenter -userunit -duplex -q  @@ /tmp/foo
+pdftops -level2sep -noembt1 -noembcidps -paper A4 -paperw 400 -nocrop -noshrink -pagecrop -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2 -form -noembcidtt -preload -paperw 400 -paperh 500 -nocenter -pagecrop -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -eps -noembtt -noembcidps -noembcidtt -preload -paper letter -paperw 400 -paperh 500 -expand -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -noembt1 -noembcidtt -paper letter -paperw 400 -expand -nocenter -pagecrop -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1 -eps -noembtt -noembcidps -preload -paper match -nocrop -nocenter -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1 -eps -noembt1 -noembcidps -paper A4 -paperh 500 -nocrop -noshrink -pagecrop -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -noembt1 -noembcidps -paper A3 -paperh 500 -nocrop -noshrink -nocenter -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -level3gray -form -noembt1 -noembtt -noembcidps -noembcidtt -paperw 400 -noshrink -nocenter -userunit -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -form -noembcidps -paper legal -paperh 500 -nocrop -expand -noshrink -nocenter -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1 -eps -noembt1 -noembtt -paperw 400 -expand -noshrink -nocenter -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -form -noembt1 -noembtt -paper legal -paperh 500 -expand -noshrink -nocenter -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1 -eps -noembtt -noembcidtt -preload -nocrop -expand -pagecrop -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -noembtt -noembcidps -noembcidtt -paper match -paperh 500 -nocrop -noshrink -nocenter -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2 -eps -noembtt -noembcidtt -preload -paper A4 -paperh 500 -nocrop -noshrink -userunit -duplex -q  @@ /tmp/foo
+pdftops -level3sep -eps -noembtt -noembcidtt -paper letter -paperw 400 -expand -nocenter -pagecrop -userunit -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level3 -eps -noembt1 -noembtt -paper A4 -paperh 500 -nocrop -noshrink -pagecrop -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2gray -eps -noembtt -preload -paperh 500 -noshrink -nocenter -pagecrop -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3gray -form -noembt1 -paperw 400 -nocrop -expand -noshrink -pagecrop -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -level2gray -eps -noembt1 -noembtt -noembcidtt -paperw 400 -expand -nocenter -pagecrop -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -level3gray -form -noembtt -noembcidtt -preload -paperh 500 -nocrop -nocenter -pagecrop -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3 -eps -noembt1 -noembcidps -paper A3 -paperw 400 -paperh 500 -nocrop -expand -nocenter -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -noembcidtt -preload -paperw 400 -paperh 500 -nocrop -nocenter -pagecrop -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1 -eps -noembt1 -preload -paper legal -paperw 400 -paperh 500 -noshrink -pagecrop -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -form -noembcidps -preload -paper letter -noshrink -nocenter -pagecrop -q  @@ /tmp/foo
+pdftops -f 2 -level2gray -noembt1 -noembcidps -noembcidtt -paper A3 -nocrop -pagecrop -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -form -noembt1 -noembcidps -paperh 500 -nocrop -nocenter -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -noembtt -noembcidtt -preload -paperw 400 -paperh 500 -noshrink -opw 123456 -q  @@ /tmp/foo
+pdftops -level2gray -eps -noembt1 -noembtt -preload -paper match -paperh 500 -expand -noshrink -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -eps -noembtt -noembcidps -preload -paper letter -paperw 400 -nocenter -pagecrop -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3 -form -noembt1 -noembcidps -noembcidtt -preload -paperh 500 -expand -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level3sep -form -noembt1 -noembtt -preload -paper A3 -paperw 400 -paperh 500 -nocenter -pagecrop -userunit -q  @@ /tmp/foo
+pdftops -f 2 -level3 -eps -noembt1 -noembtt -preload -paper A4 -expand -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2 -eps -noembt1 -noembcidtt -paper letter -paperw 400 -nocrop -noshrink -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3sep -eps -noembtt -noembcidtt -preload -nocrop -noshrink -pagecrop -userunit -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level3 -eps -noembtt -noembcidps -preload -nocrop -noshrink -pagecrop -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3gray -eps -noembcidps -noembcidtt -preload -paper match -noshrink -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -level3sep -noembt1 -paper match -paperw 400 -nocrop -noshrink -nocenter -userunit -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -eps -noembt1 -noembtt -paper letter -paperw 400 -expand -noshrink -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3 -form -noembt1 -noembtt -noembcidtt -preload -paperw 400 -pagecrop -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2 -noembt1 -noembcidps -noembcidtt -preload -expand -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -eps -noembcidps -noembcidtt -paper legal -paperh 500 -nocrop -noshrink -pagecrop -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -noembcidps -noembcidtt -paperw 400 -nocrop -expand -nocenter -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -eps -preload -paperw 400 -paperh 500 -expand -nocenter -pagecrop -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3gray -eps -noembt1 -noembtt -paperw 400 -paperh 500 -nocrop -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -eps -noembt1 -paper match -paperh 500 -expand -nocenter -pagecrop -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3 -eps -noembt1 -noembtt -noembcidps -noembcidtt -paper A4 -nocrop -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3 -eps -noembcidps -preload -paper A3 -nocenter -pagecrop -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -level2sep -eps -noembt1 -noembtt -noembcidtt -preload -paperh 500 -nocrop -pagecrop -userunit -q  @@ /tmp/foo
+pdftops -l 5 -level1sep -eps -noembt1 -noembcidtt -paperh 500 -noshrink -nocenter -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -eps -noembt1 -noembcidps -preload -nocrop -expand -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1sep -noembt1 -paperw 400 -paperh 500 -expand -noshrink -pagecrop -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2 -noembt1 -noembcidtt -paperh 500 -nocrop -expand -nocenter -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2 -eps -noembtt -noembcidtt -paper A4 -paperh 500 -noshrink -nocenter -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3 -eps -noembtt -noembcidps -noembcidtt -paper letter -paperw 400 -paperh 500 -noshrink -nocenter -userunit -q  @@ /tmp/foo
+pdftops -f 2 -level3gray -eps -noembt1 -noembcidps -paper match -paperh 500 -nocenter -pagecrop -userunit -duplex -q  @@ /tmp/foo
+pdftops -level3sep -noembcidps -noembcidtt -preload -paper match -paperw 400 -paperh 500 -expand -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2 -form -noembtt -noembcidtt -paperw 400 -paperh 500 -nocrop -expand -pagecrop -userunit -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -eps -noembt1 -noembtt -noembcidtt -paperw 400 -nocrop -nocenter -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1sep -eps -noembt1 -noembtt -preload -paperw 400 -nocrop -expand -userunit -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -eps -noembtt -paper A3 -paperw 400 -nocrop -expand -nocenter -pagecrop -userunit -q  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -noembtt -noembcidps -preload -paper letter -nocrop -noshrink -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -level3gray -form -noembtt -noembcidtt -preload -paper A3 -paperw 400 -paperh 500 -noshrink -nocenter -q  @@ /tmp/foo
+pdftops -l 5 -level2 -form -noembcidtt -preload -paper legal -nocrop -noshrink -pagecrop -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -eps -noembt1 -preload -paper legal -paperw 400 -nocrop -expand -nocenter -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2 -eps -noembt1 -noembcidtt -paper match -paperh 500 -expand -nocenter -pagecrop -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1sep -eps -noembt1 -paper letter -nocrop -noshrink -nocenter -pagecrop -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -form -noembtt -noembcidtt -preload -paper match -nocenter -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1 -noembtt -preload -paper match -expand -noshrink -pagecrop -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -form -noembcidps -noembcidtt -paper letter -noshrink -pagecrop -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -level2 -form -noembcidps -noembcidtt -paperw 400 -nocrop -expand -noshrink -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -eps -noembt1 -noembtt -noembcidtt -paper match -nocrop -userunit -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level1sep -eps -noembt1 -noembtt -noembcidps -noembcidtt -paper letter -paperw 400 -paperh 500 -pagecrop -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -noembtt -noembcidps -nocrop -expand -pagecrop -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1 -noembtt -noembcidtt -paper A3 -nocenter -pagecrop -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3gray -form -noembcidps -preload -paperw 400 -paperh 500 -noshrink -pagecrop -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -level3 -form -noembt1 -noembcidps -paper match -paperw 400 -paperh 500 -expand -nocenter -pagecrop -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3 -eps -noembtt -noembcidps -noembcidtt -preload -noshrink -nocenter -userunit -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -form -noembcidtt -preload -paper letter -expand -noshrink -pagecrop -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3 -noembt1 -paper letter -paperw 400 -paperh 500 -nocrop -expand -noshrink -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level3sep -eps -noembt1 -preload -paper legal -paperw 400 -paperh 500 -nocrop -expand -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -form -noembt1 -noembcidps -preload -paperh 500 -nocrop -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -eps -noembcidps -noembcidtt -preload -paperw 400 -paperh 500 -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1 -noembt1 -noembcidtt -paper letter -paperh 500 -nocrop -expand -noshrink -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2 -preload -paper match -paperw 400 -expand -nocenter -pagecrop -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -form -noembt1 -noembtt -noembcidtt -nocrop -expand -noshrink -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3 -form -noembtt -preload -nocrop -expand -noshrink -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -noembtt -noembcidtt -preload -paperh 500 -noshrink -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -level3 -eps -noembt1 -noembcidps -noembcidtt -paper letter -paperh 500 -noshrink -pagecrop -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3 -eps -noembt1 -noembcidtt -paper A4 -paperh 500 -expand -nocenter -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -eps -noembt1 -noembcidps -preload -nocrop -noshrink -pagecrop -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1sep -noembt1 -noembcidtt -preload -paperh 500 -nocrop -nocenter -pagecrop -userunit -q  @@ /tmp/foo
+pdftops -f 2 -level1sep -eps -noembt1 -preload -paper A3 -paperw 400 -expand -noshrink -nocenter -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2 -form -noembt1 -noembcidps -preload -paperh 500 -noshrink -nocenter -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -eps -noembt1 -noembcidps -paperw 400 -paperh 500 -nocrop -noshrink -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -form -noembcidtt -paperw 400 -paperh 500 -noshrink -pagecrop -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -level1sep -eps -noembtt -noembcidtt -paper legal -paperw 400 -paperh 500 -nocrop -pagecrop -userunit -duplex -q  @@ /tmp/foo
+pdftops -level2 -form -noembt1 -noembtt -paper match -paperw 400 -nocrop -noshrink -pagecrop -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2 -eps -noembtt -preload -paper letter -nocrop -pagecrop -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3gray -eps -noembtt -noembcidps -paperw 400 -paperh 500 -expand -noshrink -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1 -eps -noembtt -noembcidtt -nocrop -noshrink -nocenter -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3 -eps -noembt1 -noembcidtt -preload -paper A4 -paperw 400 -nocenter -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -eps -noembt1 -noembcidtt -paper A4 -nocrop -nocenter -pagecrop -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -form -noembt1 -noembtt -preload -paperw 400 -paperh 500 -expand -nocenter -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -form -noembt1 -noembtt -nocrop -expand -nocenter -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1 -eps -noembcidps -noembcidtt -paper A3 -paperh 500 -expand -noshrink -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -form -noembt1 -noembcidps -noembcidtt -paper A4 -paperw 400 -noshrink -pagecrop -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -form -preload -paper legal -paperw 400 -nocrop -expand -nocenter -userunit -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level3 -form -noembcidps -noembcidtt -paperw 400 -expand -noshrink -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1 -noembt1 -noembcidps -noembcidtt -paper letter -paperw 400 -noshrink -pagecrop -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1 -noembcidps -noembcidtt -paperw 400 -paperh 500 -nocrop -expand -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level3 -form -noembt1 -noembcidps -noembcidtt -paper A3 -nocrop -nocenter -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -eps -noembtt -noembcidps -paperw 400 -expand -noshrink -nocenter -pagecrop -q  @@ /tmp/foo
+pdftops -level2gray -eps -noembt1 -noembcidtt -preload -paperw 400 -expand -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1sep -eps -preload -paper A3 -paperw 400 -paperh 500 -expand -nocenter -pagecrop -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level1 -eps -noembt1 -noembtt -paperh 500 -nocrop -nocenter -pagecrop -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3 -form -noembcidps -paper letter -paperw 400 -expand -noshrink -nocenter -pagecrop -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -form -noembt1 -noembtt -noembcidtt -noshrink -nocenter -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -form -noembt1 -noembtt -noembcidtt -paper legal -paperw 400 -paperh 500 -nocrop -nocenter -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2 -eps -noembtt -paper A4 -paperw 400 -paperh 500 -nocrop -noshrink -nocenter -pagecrop -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -eps -noembt1 -noembcidps -paper A4 -paperh 500 -noshrink -pagecrop -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3gray -eps -noembcidtt -paper A3 -nocrop -expand -pagecrop -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -noembtt -preload -paper legal -paperw 400 -nocrop -expand -nocenter -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3 -form -noembt1 -noembtt -preload -paper letter -paperw 400 -expand -noshrink -userunit -q  @@ /tmp/foo
+pdftops -level1sep -eps -noembt1 -noembcidtt -preload -paper A3 -paperh 500 -noshrink -nocenter -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3 -eps -noembcidtt -paper legal -paperh 500 -nocrop -nocenter -pagecrop -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3 -noembtt -noembcidps -preload -paperw 400 -nocrop -noshrink -pagecrop -q  @@ /tmp/foo
+pdftops -f 2 -level2 -form -noembtt -noembcidps -paper letter -paperw 400 -nocrop -noshrink -pagecrop -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -form -noembt1 -noembtt -noembcidps -preload -paperh 500 -nocrop -nocenter -userunit -q  @@ /tmp/foo
+pdftops -l 5 -level3 -eps -noembt1 -noembtt -noembcidps -preload -paper match -paperw 400 -paperh 500 -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2 -form -noembt1 -noembcidtt -paper letter -paperw 400 -nocrop -expand -nocenter -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -form -noembcidps -noembcidtt -preload -nocrop -expand -noshrink -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2 -noembcidps -noembcidtt -paperw 400 -nocrop -noshrink -pagecrop -opw 123456 -q  @@ /tmp/foo
+pdftops -level3sep -form -noembt1 -noembcidtt -paperw 400 -nocrop -noshrink -pagecrop -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -form -noembtt -noembcidtt -preload -paper match -paperw 400 -expand -pagecrop -userunit -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -eps -noembt1 -noembtt -noembcidtt -paper A3 -paperh 500 -nocrop -expand -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3 -eps -noembcidps -noembcidtt -paperw 400 -paperh 500 -nocrop -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2gray -noembtt -noembcidps -preload -paper legal -paperw 400 -nocenter -pagecrop -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -level3gray -eps -noembt1 -noembtt -noembcidtt -preload -paper legal -paperw 400 -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2 -form -noembt1 -noembtt -noembcidps -nocrop -expand -noshrink -nocenter -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -eps -noembcidtt -preload -paper A3 -paperh 500 -noshrink -nocenter -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -form -noembcidps -noembcidtt -paper legal -expand -pagecrop -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -form -paperh 500 -nocrop -noshrink -nocenter -pagecrop -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2 -eps -noembtt -noembcidtt -preload -paperw 400 -noshrink -pagecrop -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -level2 -form -noembt1 -noembtt -preload -paperw 400 -expand -nocenter -userunit -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -form -noembcidps -preload -paper A4 -expand -nocenter -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2 -form -noembt1 -preload -paper legal -paperw 400 -paperh 500 -nocenter -pagecrop -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3gray -form -noembt1 -noembtt -preload -paper match -paperw 400 -paperh 500 -expand -noshrink -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1sep -noembt1 -noembtt -noembcidps -paper A4 -paperw 400 -nocrop -expand -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2gray -form -noembtt -preload -paper match -paperw 400 -paperh 500 -noshrink -nocenter -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2gray -eps -noembtt -noembcidps -noembcidtt -paperw 400 -nocrop -noshrink -pagecrop -q  @@ /tmp/foo
+pdftops -f 2 -level1 -eps -noembcidps -noembcidtt -paperw 400 -noshrink -nocenter -pagecrop -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -level2gray -form -noembtt -preload -paper letter -paperw 400 -nocrop -expand -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -level3gray -noembt1 -noembtt -noembcidps -paperw 400 -paperh 500 -expand -userunit -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level1 -noembt1 -noembtt -noembcidps -noembcidtt -paperw 400 -nocrop -noshrink -q  @@ /tmp/foo
+pdftops -l 5 -level3 -form -noembcidps -noembcidtt -paper match -paperw 400 -paperh 500 -nocrop -expand -nocenter -upw 123456 -q  @@ /tmp/foo
+pdftops -level1sep -eps -noembt1 -noembcidps -preload -paperw 400 -paperh 500 -pagecrop -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level3 -eps -noembtt -paperw 400 -paperh 500 -expand -noshrink -nocenter -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -noembt1 -noembtt -noembcidtt -preload -paperw 400 -nocrop -nocenter -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -form -noembcidtt -preload -paper A3 -paperw 400 -paperh 500 -nocrop -expand -pagecrop -q  @@ /tmp/foo
+pdftops -f 2 -level2gray -noembt1 -noembtt -paperw 400 -paperh 500 -expand -nocenter -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level3sep -form -noembcidps -noembcidtt -preload -paper A4 -paperw 400 -nocrop -noshrink -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -noembt1 -noembtt -preload -paper A4 -paperh 500 -expand -pagecrop -userunit -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -eps -noembt1 -noembtt -preload -paperh 500 -pagecrop -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -eps -noembt1 -noembtt -preload -paper A4 -paperw 400 -nocenter -userunit -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -eps -noembtt -noembcidps -paperw 400 -paperh 500 -nocrop -noshrink -userunit -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -form -noembtt -noembcidtt -paper legal -paperw 400 -paperh 500 -noshrink -nocenter -pagecrop -userunit -q  @@ /tmp/foo
+pdftops -level2sep -eps -noembcidps -noembcidtt -preload -paper letter -paperh 500 -nocrop -nocenter -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1sep -eps -noembcidps -noembcidtt -paperh 500 -nocrop -expand -noshrink -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1sep -noembt1 -noembcidtt -paperw 400 -nocrop -nocenter -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1sep -noembt1 -noembcidtt -preload -paper A4 -paperh 500 -noshrink -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -level2gray -form -noembt1 -noembcidps -noembcidtt -preload -paperw 400 -paperh 500 -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -level2 -noembt1 -paperw 400 -paperh 500 -expand -noshrink -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -noembtt -noembcidps -noembcidtt -paperw 400 -paperh 500 -nocenter -opw 123456 -q  @@ /tmp/foo
+pdftops -level3 -form -noembt1 -preload -paper A3 -paperw 400 -nocrop -nocenter -pagecrop -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2 -noembtt -preload -paper match -nocrop -expand -pagecrop -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -noembt1 -noembtt -noembcidps -preload -paperw 400 -pagecrop -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -preload -paperw 400 -paperh 500 -nocrop -expand -noshrink -pagecrop -q  @@ /tmp/foo
+pdftops -f 2 -level2 -eps -noembtt -paper match -nocrop -expand -pagecrop -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level1 -eps -noembcidtt -paper letter -paperw 400 -nocrop -expand -nocenter -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -noembt1 -noembcidtt -preload -nocrop -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -level2gray -eps -noembt1 -noembtt -paperw 400 -nocrop -nocenter -pagecrop -q  @@ /tmp/foo
+pdftops -level3gray -form -noembtt -paperh 500 -nocenter -pagecrop -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -form -noembt1 -noembcidtt -paper match -paperw 400 -paperh 500 -expand -pagecrop -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -preload -paper A4 -paperh 500 -nocrop -expand -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -form -noembtt -paperw 400 -nocrop -expand -nocenter -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -level1 -noembt1 -paperh 500 -expand -nocenter -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -noembt1 -noembcidps -noembcidtt -preload -nocenter -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2gray -eps -noembcidtt -preload -paper A3 -paperw 400 -noshrink -nocenter -userunit -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -noembtt -paper A4 -paperw 400 -paperh 500 -noshrink -nocenter -pagecrop -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -level2sep -form -noembt1 -noembtt -preload -paper match -nocrop -expand -noshrink -pagecrop -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3 -form -noembt1 -noembtt -paperw 400 -nocrop -nocenter -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2gray -eps -noembtt -noembcidps -nocrop -noshrink -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -level3sep -eps -noembt1 -noembtt -noembcidps -paperw 400 -paperh 500 -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3gray -eps -noembt1 -noembtt -preload -paperw 400 -expand -noshrink -userunit -q  @@ /tmp/foo
+pdftops -f 2 -level2 -form -noembtt -noembcidps -noembcidtt -paperw 400 -pagecrop -userunit -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level1 -noembcidps -preload -paper A4 -paperw 400 -nocrop -nocenter -q  @@ /tmp/foo
+pdftops -l 5 -level2 -form -noembt1 -paper match -paperw 400 -paperh 500 -expand -noshrink -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3 -eps -noembt1 -preload -paperw 400 -pagecrop -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2gray -eps -noembt1 -paper letter -paperw 400 -nocrop -expand -noshrink -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3 -noembtt -noembcidtt -preload -paper A3 -paperh 500 -pagecrop -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -eps -noembcidtt -paperh 500 -expand -noshrink -pagecrop -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2 -noembt1 -noembcidps -paper A3 -paperw 400 -paperh 500 -nocenter -pagecrop -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1sep -eps -noembtt -preload -paper match -paperh 500 -expand -noshrink -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1 -noembtt -noembcidps -preload -paper A4 -paperw 400 -pagecrop -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -noembcidps -noembcidtt -paperh 500 -nocrop -nocenter -pagecrop -userunit -q  @@ /tmp/foo
+pdftops -level2sep -noembt1 -paperh 500 -expand -noshrink -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1 -noembcidtt -preload -paper A4 -paperh 500 -noshrink -nocenter -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3 -form -noembcidps -preload -paperw 400 -paperh 500 -nocenter -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3 -form -noembtt -noembcidtt -paper letter -paperw 400 -nocrop -expand -q  @@ /tmp/foo
+pdftops -l 5 -level2 -form -noembtt -noembcidps -preload -pagecrop -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2 -eps -noembt1 -paperh 500 -expand -noshrink -nocenter -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level1sep -eps -noembcidtt -preload -paper match -paperw 400 -noshrink -duplex -q  @@ /tmp/foo
+pdftops -level2gray -eps -noembt1 -noembcidps -paper A3 -paperh 500 -nocenter -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -form -noembtt -noembcidtt -preload -paper legal -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1sep -noembcidps -preload -noshrink -nocenter -pagecrop -userunit -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level3sep -preload -paperw 400 -paperh 500 -nocrop -pagecrop -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -eps -noembcidps -preload -paper legal -paperh 500 -nocrop -nocenter -q  @@ /tmp/foo
+pdftops -level3gray -noembcidps -preload -paper A4 -nocrop -expand -noshrink -nocenter -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1sep -eps -noembtt -noembcidtt -paperw 400 -nocenter -pagecrop -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -form -noembcidps -paper A4 -nocrop -nocenter -pagecrop -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -eps -noembtt -paper legal -paperw 400 -paperh 500 -nocrop -noshrink -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -level2 -eps -noembcidps -noembcidtt -preload -paperw 400 -paperh 500 -noshrink -userunit -q  @@ /tmp/foo
+pdftops -f 2 -level3sep -form -noembcidtt -paper match -paperw 400 -paperh 500 -expand -noshrink -nocenter -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -eps -noembt1 -noembtt -noembcidtt -expand -pagecrop -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3 -form -noembt1 -noembcidps -preload -nocrop -noshrink -nocenter -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -form -noembt1 -noembcidps -paper legal -paperw 400 -nocrop -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3 -form -noembtt -paper letter -paperw 400 -paperh 500 -noshrink -nocenter -userunit -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level2 -eps -noembtt -noembcidps -noembcidtt -paper match -paperw 400 -nocenter -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -eps -noembt1 -noembcidps -preload -nocrop -pagecrop -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -noembt1 -noembcidps -noembcidtt -paper A4 -paperw 400 -paperh 500 -expand -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2gray -form -noembtt -paper legal -noshrink -pagecrop -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2 -eps -noembtt -noembcidps -paperw 400 -paperh 500 -nocrop -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3 -eps -paperw 400 -expand -noshrink -nocenter -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2 -noembt1 -preload -paperh 500 -nocrop -pagecrop -userunit -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level1 -noembcidps -paper A4 -paperh 500 -noshrink -nocenter -userunit -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -noembt1 -paperw 400 -paperh 500 -nocrop -nocenter -userunit -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level3sep -eps -noembt1 -noembcidtt -preload -nocrop -nocenter -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3sep -form -preload -paper letter -paperw 400 -expand -pagecrop -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2gray -eps -noembcidps -noembcidtt -paper A3 -paperw 400 -paperh 500 -expand -noshrink -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3gray -eps -noembtt -paper letter -paperw 400 -paperh 500 -expand -noshrink -nocenter -userunit -q  @@ /tmp/foo
+pdftops -f 2 -level2 -form -noembt1 -noembcidtt -paper match -paperh 500 -nocrop -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3gray -noembcidtt -paper A3 -paperw 400 -paperh 500 -nocrop -expand -noshrink -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -form -noembt1 -noembcidps -paper match -paperh 500 -pagecrop -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -noembt1 -noembcidtt -preload -paperh 500 -nocenter -upw 123456 -q  @@ /tmp/foo
+pdftops -level1 -noembt1 -noembtt -noembcidps -preload -paper legal -nocrop -expand -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -eps -noembt1 -noembcidtt -preload -paper A3 -paperw 400 -noshrink -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2 -form -noembt1 -noembcidps -preload -nocrop -nocenter -duplex -q  @@ /tmp/foo
+pdftops -level3gray -form -paper A3 -paperw 400 -nocrop -nocenter -pagecrop -userunit -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -form -noembcidps -preload -paperw 400 -nocrop -noshrink -upw 123456 -q  @@ /tmp/foo
+pdftops -level1 -noembt1 -noembtt -noembcidtt -paperh 500 -nocenter -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -form -noembcidps -paper legal -paperh 500 -nocrop -nocenter -pagecrop -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3sep -eps -noembcidps -paper match -paperw 400 -paperh 500 -nocenter -pagecrop -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -eps -noembt1 -noembtt -noembcidps -paperw 400 -paperh 500 -pagecrop -userunit -q  @@ /tmp/foo
+pdftops -f 2 -level1sep -noembcidtt -preload -paper A3 -paperw 400 -nocrop -nocenter -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2gray -noembt1 -noembcidps -paper legal -paperh 500 -noshrink -userunit -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -form -noembcidtt -preload -expand -nocenter -pagecrop -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3gray -eps -noembt1 -paperw 400 -noshrink -pagecrop -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -level3sep -form -noembt1 -noembtt -noembcidps -preload -paper A3 -nocrop -pagecrop -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -form -paper A3 -paperw 400 -paperh 500 -nocrop -expand -noshrink -pagecrop -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3gray -form -noembtt -noembcidps -noembcidtt -paper A4 -expand -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -form -preload -paper letter -paperw 400 -paperh 500 -expand -noshrink -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1sep -noembt1 -noembtt -paper A3 -noshrink -pagecrop -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -level3gray -eps -noembcidps -noembcidtt -preload -paperh 500 -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3 -noembtt -noembcidps -paper A3 -expand -userunit -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -form -noembtt -noembcidps -paper A3 -paperw 400 -paperh 500 -nocrop -expand -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -eps -noembcidps -paper match -paperw 400 -paperh 500 -expand -noshrink -pagecrop -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3sep -form -noembtt -noembcidps -preload -paper letter -paperh 500 -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3 -form -noembt1 -noembcidps -paperh 500 -expand -noshrink -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3 -noembtt -noembcidps -noembcidtt -paper legal -paperw 400 -nocenter -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2 -noembcidtt -paper match -paperw 400 -paperh 500 -expand -noshrink -nocenter -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1 -eps -noembcidps -preload -paper letter -paperh 500 -nocrop -pagecrop -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3 -form -paper A3 -nocrop -noshrink -pagecrop -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -eps -noembcidtt -preload -paper legal -paperw 400 -pagecrop -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2 -noembt1 -noembcidtt -paper A3 -paperh 500 -nocrop -noshrink -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3 -eps -preload -paper match -paperh 500 -nocrop -nocenter -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3sep -eps -noembtt -preload -paperw 400 -paperh 500 -nocenter -opw 123456 -q  @@ /tmp/foo
+pdftops -level3sep -eps -noembt1 -noembcidtt -paperh 500 -nocrop -noshrink -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -form -noembt1 -noembcidps -preload -paperw 400 -paperh 500 -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level2 -eps -noembt1 -noembtt -noembcidps -paperh 500 -expand -userunit -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level3 -form -paperw 400 -nocrop -expand -noshrink -nocenter -pagecrop -q  @@ /tmp/foo
+pdftops -l 5 -level1sep -eps -noembt1 -paper match -paperh 500 -nocrop -expand -nocenter -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -form -noembt1 -preload -nocrop -pagecrop -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3 -noembt1 -noembcidtt -paperw 400 -paperh 500 -nocenter -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -noembt1 -noembcidps -preload -paper A3 -paperw 400 -pagecrop -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -noembcidps -preload -nocrop -expand -noshrink -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3 -eps -noembcidtt -paper A4 -paperw 400 -paperh 500 -nocrop -noshrink -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -noembt1 -noembcidps -paperw 400 -expand -nocenter -userunit -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -paper legal -paperw 400 -paperh 500 -nocrop -noshrink -pagecrop -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -form -noembt1 -noembtt -noembcidtt -paper legal -paperw 400 -pagecrop -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3 -eps -noembt1 -preload -paper legal -paperh 500 -nocenter -pagecrop -userunit -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -eps -noembcidps -preload -paper match -paperh 500 -nocrop -expand -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3sep -form -noembcidps -noembcidtt -paper letter -noshrink -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3 -eps -noembt1 -noembcidtt -paper match -paperw 400 -pagecrop -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -level3 -noembtt -noembcidtt -preload -paperw 400 -nocrop -pagecrop -userunit -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -form -noembt1 -paper A4 -nocrop -expand -noshrink -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -form -noembcidtt -paperh 500 -expand -noshrink -nocenter -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1 -eps -noembcidps -noembcidtt -paper A4 -paperh 500 -expand -noshrink -userunit -q  @@ /tmp/foo
+pdftops -f 2 -level3sep -eps -noembcidps -expand -noshrink -nocenter -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2gray -form -noembt1 -noembcidps -paper A3 -paperw 400 -nocenter -duplex -q  @@ /tmp/foo
+pdftops -level1 -eps -preload -paperh 500 -expand -noshrink -pagecrop -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -eps -noembtt -noembcidtt -preload -paper A3 -paperw 400 -paperh 500 -noshrink -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -noembcidtt -paper legal -paperw 400 -paperh 500 -nocrop -pagecrop -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -eps -noembcidps -paper A4 -nocrop -expand -nocenter -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3 -form -noembt1 -noembtt -preload -paperw 400 -nocenter -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3 -form -noembtt -preload -paper legal -paperw 400 -nocenter -pagecrop -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -form -paper A4 -expand -noshrink -nocenter -pagecrop -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -form -noembt1 -noembtt -noembcidtt -preload -paperh 500 -pagecrop -q  @@ /tmp/foo
+pdftops -level3gray -form -noembt1 -noembcidps -paperw 400 -expand -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -noembtt -noembcidps -paper legal -paperw 400 -paperh 500 -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -level3gray -eps -noembtt -noembcidps -noembcidtt -preload -nocrop -expand -nocenter -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -eps -noembtt -noembcidps -paperh 500 -expand -nocenter -userunit -q  @@ /tmp/foo
+pdftops -f 2 -level2gray -form -preload -paperh 500 -nocrop -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -level1 -eps -noembt1 -noembtt -noembcidps -paper match -nocrop -nocenter -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1sep -noembtt -paperw 400 -paperh 500 -nocenter -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3sep -eps -noembcidtt -paper match -paperw 400 -nocenter -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1 -noembt1 -noembtt -noembcidtt -pagecrop -userunit -duplex -q  @@ /tmp/foo
+pdftops -level2gray -form -noembt1 -noembcidps -noembcidtt -preload -expand -nocenter -pagecrop -userunit -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level2 -eps -noembcidps -paper A3 -paperh 500 -nocrop -nocenter -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3sep -noembtt -noembcidps -nocenter -pagecrop -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3gray -form -preload -paper A3 -paperh 500 -expand -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -level3 -eps -noembtt -paperw 400 -paperh 500 -nocrop -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1sep -eps -noembt1 -noembcidps -preload -nocenter -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -form -noembcidps -noembcidtt -paperh 500 -expand -noshrink -userunit -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -eps -noembtt -preload -noshrink -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -level3sep -eps -noembcidps -paperh 500 -nocrop -nocenter -userunit -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -eps -paper A4 -paperw 400 -nocrop -noshrink -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level2gray -eps -noembcidtt -paperh 500 -nocenter -pagecrop -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1sep -eps -noembcidps -paper letter -paperw 400 -nocrop -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -form -noembt1 -paper letter -paperh 500 -noshrink -nocenter -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -form -preload -paperw 400 -paperh 500 -noshrink -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1 -eps -noembcidps -preload -nocrop -noshrink -userunit -duplex -q  @@ /tmp/foo
+pdftops -level1 -noembtt -noembcidps -paperh 500 -expand -noshrink -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3 -form -noembcidtt -paperw 400 -paperh 500 -nocrop -pagecrop -userunit -q  @@ /tmp/foo
+pdftops -level2gray -form -noembcidps -paper A3 -paperh 500 -nocrop -expand -userunit -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -form -noembtt -noembcidps -paperh 500 -noshrink -pagecrop -q  @@ /tmp/foo
+pdftops -f 2 -level2 -eps -noembt1 -noembtt -noembcidtt -noshrink -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2gray -form -noembcidps -noembcidtt -expand -noshrink -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level3 -form -preload -paper A3 -paperh 500 -expand -pagecrop -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1 -eps -noembtt -paper A3 -paperw 400 -paperh 500 -nocrop -expand -userunit -q  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -noembt1 -expand -noshrink -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2 -form -noembt1 -noembtt -noembcidtt -paperw 400 -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -level1 -eps -noembcidtt -preload -paper A4 -nocrop -noshrink -nocenter -pagecrop -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1 -noembt1 -noembtt -paper match -paperw 400 -paperh 500 -pagecrop -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -eps -preload -paperh 500 -expand -nocenter -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2gray -form -noembtt -paperh 500 -nocenter -pagecrop -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3gray -noembt1 -noembcidps -expand -pagecrop -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -eps -noembcidtt -nocrop -expand -noshrink -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level2 -eps -noembtt -expand -nocenter -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3 -form -noembcidps -noembcidtt -nocrop -expand -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1sep -eps -noembtt -noembcidps -paper match -paperw 400 -paperh 500 -nocrop -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3sep -eps -noembt1 -noembtt -noshrink -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3 -form -paper legal -paperw 400 -paperh 500 -nocrop -expand -pagecrop -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2 -eps -noembt1 -noembtt -noembcidps -noembcidtt -nocrop -q  @@ /tmp/foo
+pdftops -l 5 -level1 -noembt1 -preload -paper match -noshrink -userunit -q  @@ /tmp/foo
+pdftops -f 2 -level3gray -form -noembt1 -preload -paperw 400 -nocrop -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -eps -noembtt -noembcidps -paper A3 -expand -userunit -q  @@ /tmp/foo
+pdftops -level1sep -noembt1 -noembtt -paper A4 -paperh 500 -expand -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -form -noembt1 -noembtt -paperw 400 -noshrink -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2gray -form -paperw 400 -paperh 500 -nocrop -expand -nocenter -userunit -q  @@ /tmp/foo
+pdftops -f 2 -level1sep -eps -noembt1 -noembtt -noembcidtt -nocrop -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -eps -noembtt -paper A4 -paperw 400 -noshrink -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2 -form -noembtt -preload -paper legal -nocenter -userunit -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -paper A4 -paperw 400 -paperh 500 -nocrop -noshrink -pagecrop -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3 -form -noembcidps -paper match -paperw 400 -paperh 500 -pagecrop -userunit -duplex -q  @@ /tmp/foo
+pdftops -level3 -form -noembt1 -noembcidtt -preload -nocrop -expand -nocenter -pagecrop -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3 -preload -paperw 400 -paperh 500 -expand -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3 -eps -noembtt -preload -paperh 500 -nocrop -expand -q  @@ /tmp/foo
+pdftops -level3gray -eps -noembcidtt -paper A3 -paperw 400 -noshrink -pagecrop -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -noembtt -preload -paperh 500 -expand -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2 -form -noembcidtt -preload -paper A4 -paperw 400 -paperh 500 -pagecrop -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3 -form -noembt1 -noembtt -preload -paperw 400 -userunit -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level2sep -form -noembtt -noembcidps -expand -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3 -paper A3 -paperh 500 -nocrop -expand -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -form -preload -paperw 400 -nocrop -noshrink -userunit -q  @@ /tmp/foo
+pdftops -level3 -form -noembcidps -noembcidtt -paper legal -nocrop -noshrink -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -eps -paper A3 -paperh 500 -expand -pagecrop -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -form -noembt1 -paperw 400 -pagecrop -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1sep -eps -noembcidps -noembcidtt -nocrop -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -form -preload -paperw 400 -nocrop -nocenter -q  @@ /tmp/foo
+pdftops -f 2 -level3sep -form -noembtt -expand -noshrink -userunit -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level2 -eps -preload -paperw 400 -nocenter -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3 -form -paperh 500 -noshrink -nocenter -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -level1sep -noembtt -noembcidps -noembcidtt -nocrop -noshrink -pagecrop -upw 123456 -q  @@ /tmp/foo
+pdftops -level1 -noembcidtt -paper letter -paperw 400 -paperh 500 -nocrop -pagecrop -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level2gray -form -noembt1 -preload -paperw 400 -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -paperh 500 -nocrop -noshrink -pagecrop -userunit -q  @@ /tmp/foo
+pdftops -l 5 -level3sep -eps -noembt1 -noembcidtt -pagecrop -userunit -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level2 -eps -paperw 400 -nocrop -expand -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -level2 -form -noembt1 -noembcidps -preload -nocrop -expand -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -level2 -eps -paper letter -expand -noshrink -nocenter -pagecrop -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -level3gray -eps -noembt1 -noembcidtt -preload -paper A3 -expand -pagecrop -q  @@ /tmp/foo
+pdftops -f 2 -level1 -preload -paperw 400 -nocenter -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3gray -form -noembcidtt -paperh 500 -nocrop -userunit -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -eps -noembtt -noembcidps -paper letter -paperw 400 -paperh 500 -userunit -q  @@ /tmp/foo
+pdftops -l 5 -level1 -eps -paperw 400 -noshrink -pagecrop -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -level3 -form -noembt1 -noembcidtt -preload -nocrop -nocenter -pagecrop -userunit -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level3 -eps -noembtt -preload -pagecrop -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1sep -eps -expand -noshrink -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2 -eps -noembcidps -paper legal -paperh 500 -pagecrop -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -level2sep -eps -noembt1 -noembtt -noembcidps -nocenter -pagecrop -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -level3sep -noembt1 -noembtt -noembcidps -preload -expand -pagecrop -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -eps -noembtt -noembcidps -noshrink -nocenter -q  @@ /tmp/foo
+pdftops -level3gray -form -noembt1 -noembcidtt -nocrop -expand -nocenter -pagecrop -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3sep -eps -paper legal -nocrop -noshrink -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level3gray -noembcidps -preload -nocenter -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level3gray -eps -noembtt -preload -nocenter -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1sep -eps -paper legal -paperw 400 -noshrink -pagecrop -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2gray -form -noembcidtt -paperw 400 -nocrop -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2 -form -noembcidtt -preload -noshrink -userunit -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level2 -form -noembcidps -nocrop -pagecrop -duplex -q  @@ /tmp/foo
+pdftops -level2 -eps -noembcidps -noembcidtt -nocrop -expand -nocenter -pagecrop -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -level2gray -eps -noembtt -preload -paper A3 -nocrop -noshrink -nocenter -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -level2 -form -noembt1 -noembcidtt -nocenter -pagecrop -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -level3 -noembt1 -noembtt -expand -noshrink -nocenter -opw 123456 -q  @@ /tmp/foo
+pdftops -level2sep -eps -noembtt -noembcidtt -preload -expand -nocenter -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -level2sep -eps -noembtt -noembcidps -noembcidtt -paper A3 -duplex -q  @@ /tmp/foo
+pdftops -level3gray -eps -noembtt -paper legal -nocrop -expand -pagecrop -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level2sep -eps -paper A3 -paperh 500 -pagecrop -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -level3 -form -noembtt -noembcidps -preload -paper A3 -nocenter -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level3gray -eps -noembt1 -paper match -paperh 500 -upw 123456 -q  @@ /tmp/foo
+pdftops -level3sep -form -noembtt -noembcidps -paper letter -expand -nocenter -opw 123456 -q  @@ /tmp/foo
+pdftops -level1 -noembt1 -noembcidtt -preload -expand -pagecrop -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -level2sep -form -noembcidps -noembcidtt -paper legal -expand -nocenter -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1 -eps -paperh 500 -expand -opw 123456 -q  @@ /tmp/foo
+pdftops -level2 -eps -preload -paper match -expand -noshrink -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -level2gray -form -noembt1 -noembtt -noshrink -nocenter -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -level1sep -eps -noembcidtt -preload -expand -pagecrop -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -level3sep -eps -preload -noshrink -nocenter -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -level2 -noembtt -noembcidps -noshrink -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -level3 -eps -noembt1 -nocrop -expand -userunit -q  @@ /tmp/foo
+pdftops -level1 -noembtt -nocrop -nocenter -pagecrop -q  @@ /tmp/foo
+pdftops @@ /tmp/foo
+pdftops -l 5 -level1sep -form -noembtt -noembcidtt -paper letter -paperh 500 -nocrop -expand -noshrink -nocenter -pagecrop -userunit -duplex -q  @@ /tmp/foo
+pdftops -level1sep -form -noembt1 -noembcidps -noembcidtt -preload -paperw 400 -paperh 500 -nocenter -pagecrop -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level1sep -form -noembcidtt -nocrop -expand -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level1sep -form -noembt1 -noembtt -noembcidps -preload -paper A4 -nocrop -noshrink -nocenter -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level1sep -form -noembcidps -noembcidtt -preload -paper legal -paperw 400 -nocrop -nocenter -pagecrop -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1sep -form -noembt1 -noembtt -paperw 400 -paperh 500 -nocrop -noshrink -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1sep -form -noembtt -noembcidtt -preload -paperw 400 -expand -noshrink -nocenter -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level1sep -form -noembcidps -paperh 500 -nocrop -noshrink -nocenter -pagecrop -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level1sep -form -noembt1 -noembcidps -paper match -paperw 400 -paperh 500 -expand -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1sep -form -noembcidps -paper match -paperh 500 -noshrink -pagecrop -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1sep -form -preload -paper legal -paperw 400 -paperh 500 -noshrink -nocenter -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1sep -form -noembt1 -noembtt -noembcidps -noembcidtt -paper legal -expand -nocenter -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level1sep -form -noembtt -paper letter -paperw 400 -nocrop -pagecrop -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level1sep -form -noembt1 -noembtt -noembcidps -preload -paperw 400 -paperh 500 -nocrop -expand -noshrink -nocenter -pagecrop -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level1sep -form -noembt1 -noembcidtt -preload -paperh 500 -nocrop -expand -noshrink -userunit -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -level1sep -form -noembtt -noembcidps -paper letter -paperw 400 -paperh 500 -duplex  @@ /tmp/foo
+pdftops -f 2 -level1sep -form -noembt1 -noembcidtt -preload -paper match -nocrop -expand -pagecrop -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1sep -form -noembt1 -paper A4 -paperw 400 -paperh 500 -nocrop -expand -nocenter -pagecrop -upw 123456  @@ /tmp/foo
+pdftops -level1sep -form -noembt1 -noembcidps -noembcidtt -paper letter -paperw 400 -noshrink -pagecrop -userunit -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level1sep -form -noembt1 -noembtt -noembcidtt -paperh 500 -userunit -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level1sep -form -noembtt -noembcidps -noembcidtt -preload -paperw 400 -paperh 500 -nocrop -expand -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1sep -form -noembcidps -noembcidtt -preload -paperw 400 -nocrop -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level1sep -form -noembtt -noembcidps -noembcidtt -expand -noshrink -nocenter -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1sep -form -noembt1 -noembtt -noembcidps -paper match -nocrop -pagecrop -userunit  @@ /tmp/foo
+pdftops -l 5 -level1sep -form -noembcidtt -preload -paper letter -paperw 400 -paperh 500 -nocrop -expand -duplex -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level1sep -form -noembt1 -noembtt -noembcidps -noembcidtt -preload -paperw 400 -paperh 500 -nocrop -expand -noshrink -pagecrop -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -level1sep -form -noembcidps -noembcidtt -paperw 400 -paperh 500 -nocrop -expand -noshrink -nocenter -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1sep -form -noembcidps -paper match -paperw 400 -expand -noshrink -pagecrop -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1sep -form -noembt1 -noembcidps -preload -paper legal -paperh 500 -nocenter -q  @@ /tmp/foo
+pdftops -l 5 -level1sep -form -paper A4 -nocenter -pagecrop -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level1sep -form -noembt1 -noembtt -noembcidps -paperw 400 -expand -nocenter -pagecrop -duplex -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level1sep -form -noembtt -paperh 500 -expand -nocenter -pagecrop -duplex -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1sep -form -noembtt -noembcidps -preload -paper A4 -userunit -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1sep -form -noembt1 -noembcidps -nocrop -expand -noshrink -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1sep -form -noembt1 -noembtt -noembcidps -noembcidtt -preload -paper match -paperh 500 -noshrink -pagecrop -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level1sep -form -noembt1 -noembtt -noembcidtt -preload -paper A3 -paperw 400 -expand -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -level1sep -form -noembtt -paperh 500 -nocrop -noshrink -nocenter -userunit -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1sep -form -noembt1 -noembcidtt -paperw 400 -paperh 500 -nocrop -nocenter -userunit -duplex -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level1sep -form -noembcidps -noembcidtt -paper letter -paperh 500 -nocrop -noshrink -pagecrop -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1sep -form -preload -paper legal -paperw 400 -paperh 500 -noshrink -pagecrop -userunit  @@ /tmp/foo
+pdftops -f 2 -level1sep -form -noembcidtt -preload -nocrop -expand -noshrink -nocenter -pagecrop -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level1sep -form -noembt1 -noembtt -noembcidtt -paper legal -nocrop -expand -noshrink  @@ /tmp/foo
+pdftops -l 5 -level1sep -form -noembtt -preload -paperh 500 -noshrink -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level1sep -form -noembt1 -noembtt -noembcidps -preload -nocrop -nocenter -pagecrop -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1sep -form -noembt1 -preload -paper match -paperw 400 -nocrop -expand -noshrink -nocenter -pagecrop -userunit -duplex  @@ /tmp/foo
+pdftops -f 2 -level1sep -form -noembtt -noembcidps -preload -paper A3 -paperh 500 -expand -noshrink -userunit -duplex -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level1sep -form -noembt1 -noembtt -noembcidtt -preload -paper A3 -paperw 400 -nocrop -noshrink -nocenter -q  @@ /tmp/foo
+pdftops -f 2 -level1sep -form -noembtt -noembcidps -noembcidtt -preload -paper match -paperw 400 -paperh 500 -expand -noshrink -nocenter -pagecrop -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level1sep -form -noembcidtt -paperh 500 -nocenter -pagecrop -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1sep -form -noembtt -preload -paperw 400 -expand -noshrink -pagecrop -userunit -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -level1sep -form -noembt1 -noembtt -noembcidps -noembcidtt -paper A4 -paperh 500 -nocrop -expand -userunit -opw 123456  @@ /tmp/foo
+pdftops -level1sep -form -noembt1 -preload -paperw 400 -expand -nocenter -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1sep -form -noembtt -noembcidtt -preload -paper match -nocenter -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1sep -form -noembt1 -noembtt -noembcidtt -paper A3 -paperw 400 -paperh 500 -expand -noshrink -pagecrop -duplex -opw 123456  @@ /tmp/foo
+pdftops -level1sep -form -noembtt -noembcidps -paper legal -paperh 500 -expand -noshrink -nocenter -pagecrop -userunit -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level1sep -form -noembtt -noembcidps -noembcidtt -preload -paper A4 -paperh 500 -nocrop -expand -nocenter -userunit -duplex -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level1sep -form -noembcidps -noembcidtt -paperh 500 -pagecrop -userunit -opw 123456  @@ /tmp/foo
+pdftops -l 5 -level1sep -form -noembtt -paper match -paperw 400 -nocrop -expand -nocenter -pagecrop -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1sep -form -noembt1 -noembtt -noembcidps -noembcidtt -nocrop -expand -noshrink -pagecrop -userunit -duplex -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1sep -form -noembt1 -preload -paperw 400 -paperh 500 -nocrop -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -l 5 -level1sep -form -noembt1 -noembcidps -noembcidtt -preload -paper A4 -nocenter -userunit -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level1sep -form -noembtt -noembcidtt -preload -paperw 400 -noshrink -userunit -opw 123456 -q  @@ /tmp/foo
+pdftops -f 2 -level1sep -form -expand -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level1sep -form -noembt1 -noembtt -noembcidps -preload -paper A4 -paperw 400 -paperh 500 -nocrop -nocenter -opw 123456 -upw 123456  @@ /tmp/foo
+pdftops -f 2 -level1sep -form -noembtt -noembcidps -noembcidtt -paper legal -nocrop -noshrink -opw 123456  @@ /tmp/foo
+pdftops -f 2 -level1sep -form -noembtt -noembcidps -noembcidtt -paperw 400 -noshrink -pagecrop -userunit -upw 123456  @@ /tmp/foo
+pdftops -l 5 -level1sep -form -noembt1 -noembtt -preload -pagecrop -duplex -q  @@ /tmp/foo
+pdftops -l 5 -level1sep -form -noembt1 -paperw 400 -noshrink -nocenter -userunit  @@ /tmp/foo
+pdftops -l 5 -level1sep -form -noembcidtt -paperw 400 -nocrop -noshrink -pagecrop -duplex  @@ /tmp/foo
+pdftops -f 2 -level1sep -form -noembt1 -noembcidps -noembcidtt -paperw 400 -paperh 500 -nocenter -pagecrop -userunit -duplex  @@ /tmp/foo
+pdftops -f 2 -level1sep -form -noembt1 -noembcidps -noembcidtt -preload -paperw 400 -nocrop -expand -noshrink -nocenter -userunit  @@ /tmp/foo
+pdftops -level1sep -form -noembt1 -noembcidps -noembcidtt -paperw 400 -noshrink -duplex -q  @@ /tmp/foo
+pdftops -f 2 -level1sep -form -preload -paperw 400 -paperh 500 -nocrop -expand -duplex -q  @@ /tmp/foo
+pdftops -level1sep -form -noembtt -noembcidtt -preload -paperw 400 -nocrop -expand -pagecrop -userunit -duplex -q  @@ /tmp/foo
+pdftops -level1sep -form -noembt1 -noembcidtt -preload -paper A4 -expand -noshrink -nocenter -pagecrop -duplex -opw 123456 -upw 123456 -q  @@ /tmp/foo
+pdftops -level1sep -form -noembtt -preload -nocrop -expand -nocenter -pagecrop -userunit  @@ /tmp/foo

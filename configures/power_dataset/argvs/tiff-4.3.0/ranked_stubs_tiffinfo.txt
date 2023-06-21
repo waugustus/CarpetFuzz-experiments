@@ -1,0 +1,117 @@
+116
+tiffinfo -d -c -D -j -z -o 4 -s -0  @@
+tiffinfo -d -D -j -z -s -0  @@
+tiffinfo -d -c -j -z -0  @@
+tiffinfo -d -D -z -o 4 -0  @@
+tiffinfo -d -z -o 4 -0  @@
+tiffinfo -D -z -o 4 -0  @@
+tiffinfo -d -c -D -j -s  @@
+tiffinfo -d -c -D -z -s  @@
+tiffinfo -d -c -j -z -s  @@
+tiffinfo -d -j -z -s  @@
+tiffinfo -d -c -D -j -z  @@
+tiffinfo -d -D -j -z  @@
+tiffinfo -d -D -s  @@
+tiffinfo -d -c -s  @@
+tiffinfo -d -c -j  @@
+tiffinfo -d -c -z  @@
+tiffinfo -d -D -j  @@
+tiffinfo -d -c -D  @@
+tiffinfo -d -D -z  @@
+tiffinfo -d -z  @@
+tiffinfo -c -D -z -s  @@
+tiffinfo -D -j -z -s  @@
+tiffinfo -c -D -j -s  @@
+tiffinfo -d  @@
+tiffinfo -c -D -j  @@
+tiffinfo -D -z  @@
+tiffinfo -c -D  @@
+tiffinfo -D  @@
+tiffinfo -c -j -o 4 -0  @@
+tiffinfo -j -s  @@
+tiffinfo -z -s  @@
+tiffinfo -c -s  @@
+tiffinfo -c -j -z  @@
+tiffinfo -s -0  @@
+tiffinfo -c -0  @@
+tiffinfo -j -0  @@
+tiffinfo -j -z  @@
+tiffinfo  @@
+tiffinfo -d -c -D -j -z -o 4 -s  @@
+tiffinfo -d -c -D -z -o 4 -s -1  @@
+tiffinfo -d -c -j -z -o 4  @@
+tiffinfo -c -j -z -o 4 -s  @@
+tiffinfo -d -c -D -z -o 4  @@
+tiffinfo -d -c -j -o 4 -s -4  @@
+tiffinfo -d -c -z -o 4 -s  @@
+tiffinfo -d -c -D -o 4 -s  @@
+tiffinfo -d -D -j -z -o 4  @@
+tiffinfo -c -D -j -o 4 -s -5  @@
+tiffinfo -d -D -j -o 4 -s  @@
+tiffinfo -d -D -j -o 4 -s -2  @@
+tiffinfo -c -D -j -z -o 4  @@
+tiffinfo -D -j -z -o 4 -s  @@
+tiffinfo -d -j -z -o 4 -s -3  @@
+tiffinfo -d -c -j -o 4 -s  @@
+tiffinfo -d -c -D -j -o 4  @@
+tiffinfo -d -D -z -o 4 -s -4  @@
+tiffinfo -c -D -j -z -s -4  @@
+tiffinfo -d -c -D -j -o 4 -1  @@
+tiffinfo -d -D -z -o 4 -s  @@
+tiffinfo -d -c -z -o 4 -s -2  @@
+tiffinfo -c -D -z -o 4 -s  @@
+tiffinfo -d -c -j -z -s -2  @@
+tiffinfo -d -c -j -z -o 4 -2  @@
+tiffinfo -c -j -z -o 4 -s -2  @@
+tiffinfo -d -D -j -z -o 4 -4  @@
+tiffinfo -D -z -o 4 -s -5  @@
+tiffinfo -c -D -j -z -4  @@
+tiffinfo -j -z -o 4 -s -5  @@
+tiffinfo -D -j -z -o 4 -4  @@
+tiffinfo -d -c -D -z -1  @@
+tiffinfo -c -j -z -s -5  @@
+tiffinfo -d -c -D -j -5  @@
+tiffinfo -c -D -z -o 4 -2  @@
+tiffinfo -c -j -o 4 -s  @@
+tiffinfo -d -c -D -s -2  @@
+tiffinfo -c -D -j -o 4  @@
+tiffinfo -d -D -o 4 -s -3  @@
+tiffinfo -d -o 4 -s  @@
+tiffinfo -D -j -o 4  @@
+tiffinfo -c -o 4 -s -4  @@
+tiffinfo -d -j -s -1  @@
+tiffinfo -c -z -s -4  @@
+tiffinfo -d -z -s -3  @@
+tiffinfo -d -j -o 4 -3  @@
+tiffinfo -D -o 4 -s  @@
+tiffinfo -z -o 4 -s  @@
+tiffinfo -c -D -s -2  @@
+tiffinfo -c -z -o 4 -2  @@
+tiffinfo -d -z -o 4  @@
+tiffinfo -d -D -o 4  @@
+tiffinfo -c -j -s -5  @@
+tiffinfo -d -j -z -5  @@
+tiffinfo -D -j -s -4  @@
+tiffinfo -d -c -o 4 -2  @@
+tiffinfo -c -D -o 4 -4  @@
+tiffinfo -c -z -o 4  @@
+tiffinfo -d -D -o 4 -3  @@
+tiffinfo -j -z -o 4  @@
+tiffinfo -D -z -s -3  @@
+tiffinfo -d -j -o 4  @@
+tiffinfo -j -o 4 -s  @@
+tiffinfo -D -j -o 4 -2  @@
+tiffinfo -d -D -4  @@
+tiffinfo -j -z -3  @@
+tiffinfo -d -c -4  @@
+tiffinfo -c -o 4  @@
+tiffinfo -o 4 -s -1  @@
+tiffinfo -D -j -1  @@
+tiffinfo -j -o 4  @@
+tiffinfo -D -o 4 -1  @@
+tiffinfo -d -s -2  @@
+tiffinfo -D -z -1  @@
+tiffinfo -c -z -2  @@
+tiffinfo -D -o 4  @@
+tiffinfo -z -1  @@
+tiffinfo -o 4 -3  @@

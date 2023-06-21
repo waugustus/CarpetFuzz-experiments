@@ -1,0 +1,989 @@
+988
+jpegoptim --strip-jfxx -q --keep-exif -dtemp -T50% --strip-iptc -o -n --all-progressive --all-arith -v --strip-xmp  @@
+jpegoptim --strip-jfxx -q --keep-exif -P -T50% --strip-iptc -o --keep-icc -b --all-normal --all-huffman -f -s --keep-com --keep-xmp -m80  @@
+jpegoptim --strip-jfxx -dtemp --keep-Adobe --keep-iptc -t --all-progressive --all-arith -p --keep-icc -b -f -S50% --strip-com --keep-xmp --nofix  @@
+jpegoptim --keep-exif -dtemp -P -o --keep-iptc -n --all-arith -p -b --all-normal --keep-xmp --strip-Adobe --strip-icc --nofix  @@
+jpegoptim -q --keep-exif --keep-Adobe -T50% --strip-iptc -o -n --all-arith -p -f -s --keep-com --keep-xmp --strip-icc --nofix -m80  @@
+jpegoptim -q -dtemp -P --keep-Adobe -o -t -n --stdout -p -v --all-normal --all-huffman -S50% --strip-exif --strip-com --strip-icc --nofix -m80  @@
+jpegoptim -q --keep-Adobe --strip-iptc -t --stdout --all-arith -b -v --all-normal -f -S50% --strip-exif --strip-com -s --strip-xmp --nofix -m80  @@
+jpegoptim -q -dtemp -P --keep-Adobe -T50% -t -n --all-progressive --stdout --all-huffman -f -S50% --strip-exif --strip-com --keep-xmp -m80  @@
+jpegoptim -dtemp -P -T50% -o -t -n --all-arith -b -f -S50% --strip-none --nofix  @@
+jpegoptim -dtemp --stdout --all-arith -p --keep-icc --all-normal --strip-exif --strip-com --strip-xmp  @@
+jpegoptim -n --all-progressive --stdout -p -b --all-huffman --strip-none  @@
+jpegoptim --strip-jfxx -q -dtemp -T50% --keep-iptc -t -n --stdout --all-arith -b --all-normal -f -S50% --strip-exif --strip-com -s --strip-Adobe --strip-icc --strip-xmp  @@
+jpegoptim --keep-exif -dtemp -T50% --strip-iptc -n --stdout -b -v --all-normal --all-huffman -s --keep-com --keep-xmp -m80  @@
+jpegoptim -q -P -T50% --strip-iptc -o -t --all-progressive --stdout -b -v --all-huffman -f -S50% --strip-exif --strip-com --keep-xmp --strip-icc  @@
+jpegoptim -dtemp -P -T50% --strip-iptc --all-progressive --stdout --keep-icc -b --all-huffman -f --strip-exif -s --keep-xmp -m80  @@
+jpegoptim --strip-jfxx --keep-exif -o --keep-iptc -t -n --all-arith --keep-icc -v --all-normal -f --keep-com --keep-xmp --strip-Adobe --nofix -m80  @@
+jpegoptim --strip-jfxx -q -T50% -o --keep-iptc -t --all-progressive --stdout -v -S50% --strip-exif -s --keep-com --keep-xmp --strip-Adobe -m80  @@
+jpegoptim -q -dtemp -P --keep-Adobe -o --keep-iptc -t -n --all-progressive --all-arith -p --keep-icc -b -v -f --keep-com --keep-xmp -m80  @@
+jpegoptim -q -dtemp --keep-iptc --stdout -p --keep-icc --all-normal --all-huffman --strip-exif -s --keep-xmp --strip-Adobe --nofix -m80  @@
+jpegoptim -P --keep-Adobe -T50% -o --keep-iptc -n --stdout --all-arith --keep-icc -v --all-normal --strip-exif --keep-com --strip-xmp --nofix  @@
+jpegoptim -q -P -o -t --all-progressive --all-arith -f --strip-none  @@
+jpegoptim --strip-jfxx -T50% -o --keep-iptc -t --all-progressive --stdout --all-arith -p --keep-icc -b --strip-exif --strip-com --keep-xmp --nofix -m80  @@
+jpegoptim -q -P --keep-Adobe -T50% -o --keep-iptc -t --keep-icc -v -f -S50% -s --strip-xmp --nofix  @@
+jpegoptim -q -dtemp --all-arith -b --all-normal -f --strip-none -m80  @@
+jpegoptim -q -dtemp -P --keep-Adobe -T50% --strip-iptc -o -n --stdout -b --all-huffman -f --strip-exif --strip-com -s --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx -q -dtemp --keep-Adobe -T50% --strip-iptc -o -t -n --all-arith --keep-icc --all-normal -S50% --keep-xmp --nofix -m80  @@
+jpegoptim -T50% -t -n --stdout --all-arith -b --all-normal -f -S50% --strip-none -m80  @@
+jpegoptim -q --keep-exif -P -T50% -o --keep-iptc -n --all-progressive --stdout -p --keep-icc -f --keep-com --strip-Adobe --strip-xmp  @@
+jpegoptim -q -P --keep-Adobe -T50% -o --keep-iptc -t --all-progressive --all-arith -p --keep-icc -b -S50% --strip-exif -s --keep-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx -q -dtemp -P --keep-Adobe --strip-iptc -o -b --all-normal -f -S50% --strip-exif -s --keep-com --strip-icc --strip-xmp --nofix -m80  @@
+jpegoptim -q --keep-exif -dtemp -P --keep-Adobe --strip-iptc -t -n --all-progressive --stdout -p --all-huffman -f --strip-com -s -m80  @@
+jpegoptim -q -dtemp -P -o -t --stdout -p -v --all-normal --all-huffman -f --strip-none --nofix -m80  @@
+jpegoptim -P -n --all-progressive --all-huffman --strip-none -m80  @@
+jpegoptim -q -P -T50% -o --keep-iptc --all-progressive --all-huffman -S50% --strip-exif --strip-com --strip-Adobe --strip-icc --strip-xmp  @@
+jpegoptim --strip-jfxx -q -T50% --strip-iptc -t -n --all-progressive --stdout --all-arith --keep-icc -b -v --strip-exif --keep-com -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif -P -T50% -p --keep-icc -b --all-normal --all-huffman -S50% --strip-com --keep-xmp --strip-Adobe -m80  @@
+jpegoptim --strip-jfxx --strip-iptc -o -t -n --stdout -p --all-normal --all-huffman --strip-exif --strip-com -s --keep-xmp --strip-Adobe  @@
+jpegoptim --strip-jfxx --keep-exif -P --keep-Adobe -T50% --strip-iptc -t -n --all-progressive --all-arith --keep-icc -f --strip-com -s  @@
+jpegoptim --strip-jfxx -dtemp -P -T50% -t --all-progressive --stdout -p -s --strip-Adobe --strip-icc --strip-xmp -m80  @@
+jpegoptim --strip-jfxx -q --keep-Adobe -T50% -o -p --keep-icc --all-normal -f --strip-exif --strip-com -s --nofix  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp -P -t -n --all-progressive --stdout --keep-icc -b --all-huffman --keep-com --strip-Adobe --strip-xmp --nofix -m80  @@
+jpegoptim -q --keep-exif -P -T50% --strip-iptc -t --stdout --all-arith -p --keep-icc -b -v --all-normal --strip-com --strip-xmp --nofix  @@
+jpegoptim -q -P -T50% --keep-iptc --all-progressive --all-arith -p -b -f -S50% --strip-exif -s --strip-Adobe --strip-icc --strip-xmp -m80  @@
+jpegoptim -q -P -T50% -n --all-progressive --stdout -p -b -v --all-huffman --strip-none --nofix -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif --keep-Adobe -T50% --all-progressive --stdout -v --all-huffman -f -S50% --strip-com -s --strip-icc --strip-xmp -m80  @@
+jpegoptim --keep-exif -dtemp -P --keep-Adobe -T50% --strip-iptc -o -n --all-progressive --stdout --all-arith --keep-icc -S50% --strip-com --keep-xmp -m80  @@
+jpegoptim --strip-jfxx -q -P --keep-Adobe -T50% --keep-iptc --all-progressive --stdout --all-arith -p -b -S50% --strip-exif --keep-com --strip-icc --nofix  @@
+jpegoptim -q --keep-exif -dtemp --strip-iptc --keep-icc -v --all-normal -f --keep-com --strip-Adobe --strip-xmp -m80  @@
+jpegoptim -dtemp -T50% -n --all-arith -p --strip-none --nofix -m80  @@
+jpegoptim -dtemp -P -T50% -o -n --stdout --all-arith -p --all-normal -f --strip-none --nofix -m80  @@
+jpegoptim -q -P -o --keep-iptc --all-progressive --stdout --all-arith --keep-icc -b -v -f --strip-com -s --strip-Adobe --strip-xmp  @@
+jpegoptim -q --strip-iptc -o -n --stdout -v --all-normal --strip-exif --strip-Adobe --strip-icc --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx --keep-exif -P -T50% -o --keep-iptc -t -p -b -v --all-normal -s --keep-com --strip-Adobe --strip-icc --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp -P --keep-Adobe -T50% --strip-iptc -o --all-arith -b -S50% -s --keep-com --strip-xmp --nofix  @@
+jpegoptim -T50% -o --stdout -p -b -v -f -S50% --strip-none --nofix -m80  @@
+jpegoptim -q --keep-exif -P -T50% --strip-iptc -n --all-progressive --all-arith -p -b -v -f -s --keep-com --keep-xmp --strip-Adobe --strip-icc --nofix  @@
+jpegoptim --strip-jfxx --keep-exif -P -T50% --keep-iptc --all-progressive --all-arith --keep-icc -b -f --keep-com --strip-xmp -m80  @@
+jpegoptim -q --keep-exif -T50% -o --keep-iptc --stdout --keep-icc -b --all-normal --all-huffman -S50% --keep-com --strip-Adobe --strip-xmp -m80  @@
+jpegoptim --keep-exif -T50% --strip-iptc --keep-icc -b --all-normal -S50% -s --keep-com --strip-Adobe --strip-xmp  @@
+jpegoptim --strip-jfxx -q -P -T50% --strip-iptc -o -n --all-arith -p -v --all-normal -S50% --strip-exif --strip-com --keep-xmp --strip-Adobe --strip-icc --nofix  @@
+jpegoptim -q -dtemp --keep-Adobe --keep-iptc -n --all-progressive --stdout --all-arith -b -S50% --strip-exif --strip-com -s --keep-xmp --nofix  @@
+jpegoptim -q -P --keep-Adobe --strip-iptc --all-progressive --all-arith --keep-icc -f --strip-exif --strip-xmp --nofix  @@
+jpegoptim -q -dtemp --keep-Adobe -T50% --strip-iptc -o -t -b -v --all-normal --all-huffman -S50% --strip-exif -s --keep-com --keep-xmp --strip-icc --nofix  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp -P --keep-Adobe --strip-iptc -t -n -v --all-huffman -S50% --strip-com -s --keep-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx --keep-exif -dtemp -T50% --strip-iptc --all-progressive --all-arith -b --strip-com --strip-Adobe --strip-icc --strip-xmp  @@
+jpegoptim -q -P --strip-iptc --all-arith -p -v --all-normal -f -S50% --strip-exif --keep-com --strip-Adobe --strip-icc --strip-xmp -m80  @@
+jpegoptim --strip-jfxx -P -T50% --strip-iptc -t --stdout -p --keep-icc -v --all-normal --all-huffman -S50% --strip-exif --strip-com -s --keep-xmp --strip-Adobe -m80  @@
+jpegoptim --keep-exif -P -o --keep-iptc --stdout --all-arith -b --all-normal -S50% --strip-com -s --strip-Adobe --strip-xmp  @@
+jpegoptim --strip-jfxx --keep-exif -dtemp -P --keep-Adobe --strip-iptc -t -n --stdout -p -b --all-normal --all-huffman -S50% -s --keep-com --keep-xmp --strip-icc --nofix  @@
+jpegoptim --strip-jfxx -q -P -T50% --strip-iptc -t --all-progressive --stdout --all-arith --keep-icc -b -S50% --strip-exif --keep-com --strip-Adobe --strip-xmp  @@
+jpegoptim -q -dtemp -T50% --strip-iptc -o --stdout --all-normal --all-huffman --strip-exif -s --keep-com --keep-xmp --strip-Adobe --strip-icc --nofix -m80  @@
+jpegoptim --strip-jfxx -dtemp --strip-iptc -o --stdout --all-arith --keep-icc -b -v --all-normal -S50% --strip-exif --strip-com -s --strip-Adobe --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx -dtemp -P -T50% --strip-iptc -o -p --keep-icc -b -v --all-huffman -f -S50% --strip-com -s --strip-xmp --nofix -m80  @@
+jpegoptim -P --keep-Adobe --keep-iptc -t -n --all-progressive --stdout -p -b --all-huffman -f --strip-exif --strip-com --strip-icc -m80  @@
+jpegoptim --keep-exif -dtemp -T50% --keep-iptc -n --all-progressive --stdout -b -v --all-huffman -f --strip-com -s --keep-xmp --strip-icc -m80  @@
+jpegoptim --strip-jfxx --keep-exif -dtemp -P --keep-Adobe --keep-iptc -n -b -v --all-normal --all-huffman -s --keep-com --strip-icc --nofix -m80  @@
+jpegoptim --strip-jfxx -dtemp -o --all-arith -p -b -v -f --strip-exif -s --keep-com --strip-Adobe --strip-icc --strip-xmp --nofix -m80  @@
+jpegoptim -q -dtemp -P --keep-Adobe -T50% --keep-iptc --all-progressive --stdout --all-arith --keep-icc --strip-exif --keep-com --nofix  @@
+jpegoptim -q -dtemp -T50% -o --all-progressive -b -v -f --strip-none --nofix -m80  @@
+jpegoptim --strip-jfxx -q -dtemp -P --keep-Adobe -T50% --strip-iptc --all-progressive -p --all-huffman -f -S50% --strip-exif -s --keep-com --keep-xmp --strip-icc -m80  @@
+jpegoptim -dtemp -o --all-progressive --all-arith -p -f --strip-none -m80  @@
+jpegoptim -q -dtemp -P -T50% -t --all-progressive --stdout -v -f -S50% --strip-none --nofix -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif --keep-Adobe -T50% --strip-iptc -n --all-normal --all-huffman -S50% --strip-com -s --strip-icc --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx -dtemp --keep-iptc -t --all-progressive --all-arith -p -b -f --keep-com --keep-xmp --strip-icc --nofix  @@
+jpegoptim --keep-exif -P --keep-Adobe --strip-iptc -o --all-progressive -p --keep-icc -b -v --all-huffman --keep-com --keep-xmp  @@
+jpegoptim --strip-jfxx -q --keep-exif -P --keep-Adobe -o --keep-iptc --stdout --all-huffman -S50% --keep-com --keep-xmp --strip-icc  @@
+jpegoptim --strip-jfxx -q --keep-exif --strip-iptc -o -n --all-progressive -p --keep-icc -b --all-huffman -f --keep-xmp --strip-Adobe -m80  @@
+jpegoptim -q -P --keep-Adobe -T50% --keep-iptc -t -n --all-arith -p --keep-icc --all-normal --strip-com -s --strip-xmp  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp -P -T50% --strip-iptc -o -n -p --all-normal --all-huffman -f -S50% --keep-com --strip-Adobe --strip-icc -m80  @@
+jpegoptim --keep-exif -o -t --all-progressive --all-arith -f -s --keep-xmp  @@
+jpegoptim --strip-jfxx -dtemp -P -o --keep-iptc -t -n -b -v --all-normal --all-huffman --strip-exif -s --keep-com --strip-icc --strip-xmp  @@
+jpegoptim -dtemp -o -t --all-progressive --all-arith --strip-none -m80  @@
+jpegoptim -t -b -v --all-normal --all-huffman --strip-none -m80  @@
+jpegoptim --keep-exif -dtemp -P -o --keep-iptc -t --all-progressive --stdout -b --all-huffman -S50% -s --keep-xmp --strip-Adobe --strip-icc -m80  @@
+jpegoptim -q -P -T50% --all-progressive --all-arith --strip-none  @@
+jpegoptim -q --keep-exif --keep-Adobe --strip-iptc -o -t -n --all-progressive -v --all-huffman -f -S50% -s --strip-icc  @@
+jpegoptim --strip-iptc -o --all-progressive --stdout --all-arith -p --keep-icc -v -f -S50% --strip-Adobe --strip-xmp --nofix  @@
+jpegoptim -dtemp -T50% --stdout -b -v --all-normal -S50% --strip-none --nofix  @@
+jpegoptim -dtemp -T50% -o -t -n -p --all-normal --all-huffman --strip-none --nofix  @@
+jpegoptim -q -dtemp -P --keep-Adobe --keep-iptc -n --all-progressive --stdout --keep-icc -b -v --all-huffman -S50% --strip-exif --strip-com --keep-xmp -m80  @@
+jpegoptim --strip-jfxx --keep-exif -dtemp --keep-Adobe --strip-iptc -t -n -p --keep-icc -b -v --all-normal --all-huffman -s --keep-com  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp --strip-iptc -o -t --all-progressive --all-arith --keep-icc -b -v -f -S50% --strip-com --strip-Adobe --nofix  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp -T50% --keep-iptc --all-progressive --stdout -S50% --keep-com --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx -q -dtemp --strip-iptc -n --all-arith -p --keep-icc -b -f -S50% --strip-exif --strip-com --strip-Adobe --strip-xmp -m80  @@
+jpegoptim -q -T50% -o -t -n --all-arith -p -b -v --all-normal -S50% --strip-none  @@
+jpegoptim -T50% -n --all-progressive --all-arith -p -b -v -f --strip-none --nofix  @@
+jpegoptim -q -dtemp -P -T50% --strip-iptc -o --all-arith -p -b --all-normal --strip-com --keep-xmp --strip-Adobe --strip-icc -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp --keep-Adobe -o -n --all-progressive --all-arith -p --keep-icc -b -v -f --strip-com -s --keep-xmp --nofix  @@
+jpegoptim -P --all-progressive -b -v --all-huffman -S50% --strip-none --nofix  @@
+jpegoptim --strip-jfxx -dtemp -P --keep-Adobe --strip-iptc -o -n --stdout --all-arith -p -v --strip-exif --keep-com --keep-xmp --strip-icc  @@
+jpegoptim --strip-jfxx -q -dtemp -t -p -b --all-huffman -f -S50% --strip-exif --strip-com --strip-Adobe --strip-icc  @@
+jpegoptim -T50% -o -t -n --all-progressive --stdout -p -b -f -S50% --strip-none -m80  @@
+jpegoptim --keep-exif -dtemp -P -o --keep-iptc -t -n --all-progressive -p --keep-icc -b --all-huffman -f --strip-com -s --strip-Adobe --strip-xmp --nofix  @@
+jpegoptim -q --keep-exif --keep-Adobe -o --keep-iptc -n --all-progressive --all-arith --keep-icc -b --strip-xmp --nofix  @@
+jpegoptim -q --keep-Adobe --strip-iptc -t --stdout -p -v --all-huffman -S50% --strip-exif --strip-com -s --keep-xmp --strip-icc --nofix -m80  @@
+jpegoptim -q -dtemp -T50% -o --keep-iptc -n --all-arith -v --all-normal -S50% --strip-exif --strip-com -s --keep-xmp --strip-icc --nofix -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp -P -T50% --keep-iptc -n --stdout --all-arith -p -b -f -S50% --strip-com -s --keep-xmp --strip-Adobe --strip-icc --nofix -m80  @@
+jpegoptim -q -dtemp -T50% --keep-iptc -t -n -p --keep-icc --all-normal -f -S50% --strip-com -s --keep-xmp --nofix  @@
+jpegoptim --strip-jfxx --keep-exif --keep-Adobe -T50% --strip-iptc -o -t --keep-icc -b -v --all-normal --all-huffman --keep-xmp --nofix  @@
+jpegoptim --keep-exif -dtemp -P -T50% --strip-iptc -o --all-progressive -p -v -S50% --strip-Adobe --strip-icc -m80  @@
+jpegoptim --keep-exif -dtemp -P --keep-Adobe -o --all-progressive -p --all-huffman -s --keep-com --strip-icc --strip-xmp  @@
+jpegoptim -dtemp --strip-iptc -o --all-progressive --stdout --all-arith -p -S50% --strip-exif --keep-com --keep-xmp --strip-Adobe -m80  @@
+jpegoptim --strip-jfxx -q -T50% --keep-iptc -t -n --stdout --all-arith -b --all-normal -f --strip-exif --keep-com --keep-xmp -m80  @@
+jpegoptim --strip-jfxx -dtemp -P -T50% --strip-iptc -o --all-progressive --stdout -p --strip-exif --strip-com -s --keep-xmp --strip-Adobe --strip-icc -m80  @@
+jpegoptim --strip-jfxx -q -T50% --strip-iptc -n --all-progressive --stdout --all-arith -p -v -f -S50% --strip-exif --strip-com --strip-Adobe --strip-xmp  @@
+jpegoptim --keep-Adobe -T50% --strip-iptc --stdout --all-arith -p --all-normal --strip-exif --strip-com --strip-icc --strip-xmp  @@
+jpegoptim -q -P --keep-Adobe -T50% -o -n --stdout --all-arith -p -b --all-normal --strip-exif --strip-com -s --strip-xmp --nofix -m80  @@
+jpegoptim -q --keep-exif -T50% -o --keep-iptc -t -n --all-progressive --stdout -v -f -S50% --strip-com --strip-Adobe --strip-icc --strip-xmp -m80  @@
+jpegoptim --strip-jfxx -P -o -n --all-progressive -S50% --strip-exif -s --strip-Adobe --strip-xmp -m80  @@
+jpegoptim --strip-jfxx -q -dtemp -P --keep-Adobe -T50% -o --keep-iptc --stdout --all-arith --all-normal -f -S50% --strip-exif -s --keep-xmp --strip-icc  @@
+jpegoptim --strip-jfxx --keep-exif -P --keep-iptc -t --stdout --keep-icc -b -v --all-normal --strip-com --keep-xmp --strip-Adobe  @@
+jpegoptim --strip-jfxx --keep-exif -P --strip-iptc -n --all-progressive --stdout --keep-icc -v -f -S50% --keep-com --strip-Adobe --strip-xmp --nofix -m80  @@
+jpegoptim -q --keep-exif -dtemp -P -T50% --keep-iptc -n --all-progressive --stdout -p -b --all-huffman -S50% -s --keep-com --keep-xmp --strip-Adobe --strip-icc --nofix -m80  @@
+jpegoptim --keep-exif -P --keep-iptc -t -n --all-progressive --stdout --keep-icc -S50% --strip-com -s --strip-Adobe --nofix -m80  @@
+jpegoptim --strip-jfxx -q -dtemp -P -T50% --strip-iptc -o --all-progressive --all-arith -p --keep-icc -b -v -f --strip-exif --keep-com --strip-Adobe --strip-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx -q -dtemp --strip-iptc -o --stdout --all-normal --all-huffman --strip-exif --keep-com --keep-xmp --strip-Adobe --nofix  @@
+jpegoptim -P --keep-iptc --all-progressive --all-arith -p -v -f -S50% --strip-com -s --keep-xmp --strip-Adobe --nofix  @@
+jpegoptim --strip-jfxx -dtemp -P --keep-Adobe -T50% -o --keep-iptc -n --stdout -b -v --all-huffman -S50% --strip-exif --strip-com -s --keep-xmp -m80  @@
+jpegoptim -T50% --keep-iptc -t --all-arith --keep-icc --all-normal --strip-exif --keep-com --strip-Adobe --strip-xmp --nofix -m80  @@
+jpegoptim --keep-exif -T50% --strip-iptc -n --all-progressive --stdout -p --keep-icc -v --all-huffman -S50% --strip-com --strip-Adobe --strip-xmp -m80  @@
+jpegoptim -T50% --strip-iptc -o -t --stdout --all-arith -p --keep-icc -b -v -f --strip-exif --strip-com --strip-Adobe --strip-xmp  @@
+jpegoptim --strip-jfxx --keep-Adobe -T50% --strip-iptc -o --all-progressive --all-arith -p -b -v -f --strip-exif -s --keep-com --keep-xmp --strip-icc  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp -P --keep-iptc -n --stdout -b --all-normal --all-huffman -S50% --strip-com --strip-icc --strip-xmp -m80  @@
+jpegoptim --strip-jfxx --keep-exif --keep-Adobe -T50% -o --keep-iptc -t --all-progressive --stdout --keep-icc -b --all-huffman -S50% --strip-com -s --strip-xmp -m80  @@
+jpegoptim -q -dtemp -T50% -n --all-arith -v --all-normal --strip-none --nofix  @@
+jpegoptim -dtemp --strip-iptc -n --stdout -p --all-normal -S50% --strip-exif --strip-com --keep-xmp --strip-Adobe --strip-icc --nofix  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp -P --keep-Adobe -o --keep-iptc --stdout --all-arith -p -v --all-normal -f -S50% --keep-com --strip-icc --nofix  @@
+jpegoptim -dtemp -T50% --strip-iptc -t --stdout --all-arith -p -v --all-normal --strip-exif --keep-com --strip-Adobe --strip-icc --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx -q -P --keep-Adobe -T50% -o --keep-iptc --all-progressive --stdout -b -v --all-huffman --strip-exif --strip-com --strip-icc --nofix  @@
+jpegoptim --strip-jfxx -q --keep-exif -T50% --strip-iptc -o -n --all-progressive --stdout -b -v --all-huffman --keep-com --strip-Adobe --strip-icc --strip-xmp --nofix  @@
+jpegoptim -dtemp --strip-iptc -t --all-arith -p --keep-icc --all-normal --strip-com --strip-Adobe --strip-xmp --nofix -m80  @@
+jpegoptim --keep-exif -T50% -n --all-progressive --all-arith --keep-icc -v -f -S50% -s --keep-com --keep-xmp --strip-Adobe --nofix -m80  @@
+jpegoptim -dtemp -P --keep-Adobe -o --keep-iptc --all-progressive --keep-icc -b -v --all-huffman -f --strip-exif --strip-com --strip-xmp -m80  @@
+jpegoptim -dtemp -P -t -n --all-progressive --all-huffman -f --strip-none  @@
+jpegoptim -q -dtemp -T50% -t -n --stdout --all-arith -p -b -v --all-normal -f --strip-none --nofix -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif -t -p -b --all-normal --all-huffman -f --strip-com -s --strip-Adobe --strip-xmp  @@
+jpegoptim -q --keep-exif -dtemp -P -T50% --keep-iptc -t --all-progressive --all-arith -b -v -S50% --strip-com --strip-icc -m80  @@
+jpegoptim -dtemp -P -o -t -n -p -b -v --all-normal --all-huffman --strip-none --nofix -m80  @@
+jpegoptim --strip-jfxx -q -dtemp --keep-Adobe --strip-iptc -t -n --stdout --all-arith -v --all-normal -f -S50% --strip-exif --keep-com --strip-icc --strip-xmp --nofix -m80  @@
+jpegoptim -dtemp -P -o --keep-iptc -n --keep-icc --all-huffman -f --strip-exif -s --keep-com --keep-xmp --strip-Adobe --nofix -m80  @@
+jpegoptim -q --keep-exif -dtemp -T50% -o --keep-iptc -t -n --stdout -b --all-normal --all-huffman -f --keep-com --strip-Adobe --nofix -m80  @@
+jpegoptim -q -dtemp -t -n --all-arith -p --all-normal -f --strip-none --nofix -m80  @@
+jpegoptim -q -P -o --keep-iptc --stdout -b -v --all-normal --all-huffman -S50% --strip-exif -s --keep-com --keep-xmp --strip-Adobe --strip-icc --nofix  @@
+jpegoptim -dtemp -P -t -n --all-progressive --stdout -p -b --all-huffman -f -S50% --strip-none --nofix -m80  @@
+jpegoptim -dtemp -T50% -t --all-progressive --stdout -b --all-huffman -S50% --strip-none -m80  @@
+jpegoptim -q -dtemp -P -o -t --all-arith -b -v --all-normal -f -S50% --strip-none --nofix  @@
+jpegoptim -q --keep-exif --strip-iptc -t -n --stdout -p --keep-icc --all-huffman -s --keep-xmp --strip-Adobe --nofix  @@
+jpegoptim -q -dtemp -T50% -o --stdout -b -v --all-huffman -S50% --strip-none -m80  @@
+jpegoptim --strip-jfxx -q --strip-iptc -t -n --all-progressive --stdout --keep-icc --all-huffman -f -S50% --strip-exif --strip-com -s --strip-xmp  @@
+jpegoptim --strip-jfxx -P -o --keep-iptc -n --all-arith -p --keep-icc -v --all-normal --strip-exif --keep-com --strip-Adobe --nofix -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif -P --keep-iptc -t -n --all-progressive --all-arith -p --keep-com --strip-Adobe --strip-icc --strip-xmp -m80  @@
+jpegoptim -q --keep-exif -T50% --strip-iptc -o -n --stdout --all-arith --keep-icc --all-normal -f -S50% --strip-com -s --keep-xmp --strip-Adobe --nofix  @@
+jpegoptim -q -dtemp -o -t -v --all-huffman -S50% --strip-none --nofix -m80  @@
+jpegoptim -dtemp -P --keep-Adobe -T50% -o --keep-iptc -p --keep-icc --all-normal --all-huffman --strip-com --keep-xmp --nofix  @@
+jpegoptim --strip-jfxx --keep-exif -dtemp --keep-Adobe -T50% --strip-iptc -o -t -n --all-progressive --stdout -p -b --all-huffman -S50% --strip-com -s --strip-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx -q -dtemp -T50% -o --all-progressive -v --all-huffman -f -S50% --strip-exif --keep-com --strip-Adobe --strip-icc --nofix -m80  @@
+jpegoptim --strip-jfxx --keep-exif --strip-iptc -o -t -n -p -v --all-normal --strip-com -s --strip-xmp -m80  @@
+jpegoptim -dtemp -P -T50% --keep-iptc --stdout -p -v --all-normal --all-huffman --strip-exif --strip-com -s --keep-xmp --strip-Adobe --strip-icc  @@
+jpegoptim --strip-jfxx -P -T50% -o --keep-iptc -n --all-progressive -v --all-huffman --strip-com -s --strip-icc --strip-xmp  @@
+jpegoptim -dtemp -P -T50% -o --keep-iptc -t --stdout --all-arith -v --all-normal -S50% --strip-exif --strip-com -s --strip-Adobe --strip-icc -m80  @@
+jpegoptim --keep-exif -P --strip-iptc -o -n --stdout -b --all-normal --all-huffman -f --strip-com -s --strip-Adobe --strip-icc --strip-xmp -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp --keep-Adobe -T50% --keep-iptc -t --all-progressive --stdout --all-arith --keep-icc -b --keep-com --keep-xmp  @@
+jpegoptim -o -t -n --stdout --all-arith -p --all-normal -f --strip-none  @@
+jpegoptim -dtemp -P --keep-Adobe -T50% --strip-iptc --all-progressive --stdout -p --keep-icc --all-huffman -f --strip-exif -s --keep-com --strip-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx --keep-exif -dtemp -P -T50% --strip-iptc -o -t --stdout -v --all-huffman -f -s --keep-com --keep-xmp --strip-icc -m80  @@
+jpegoptim --strip-jfxx --keep-Adobe --keep-iptc -n --stdout -v --all-huffman -f --strip-exif --strip-com -s --nofix  @@
+jpegoptim -q --keep-exif --keep-Adobe -T50% --keep-iptc -t -n --all-arith -p -f -S50% -s --keep-com --keep-xmp --strip-icc  @@
+jpegoptim --strip-jfxx -dtemp -T50% -o --keep-iptc --all-progressive -p --all-huffman -f -S50% --strip-exif --strip-com --strip-Adobe --strip-xmp --nofix  @@
+jpegoptim -q --keep-exif -dtemp -P -T50% --keep-iptc -n -p --keep-icc -b --all-normal --all-huffman -S50% --keep-com --keep-xmp  @@
+jpegoptim --keep-Adobe -T50% -o --keep-iptc -n --all-progressive --stdout --all-arith -v -f --strip-exif --keep-xmp --strip-icc --nofix -m80  @@
+jpegoptim -q -P -T50% --strip-iptc -o -t --keep-icc --all-normal -f -S50% --strip-exif --strip-com --strip-Adobe --strip-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp --keep-Adobe --strip-iptc -t --all-progressive --stdout --all-arith -p -v -S50% --strip-com -s --keep-xmp --strip-icc -m80  @@
+jpegoptim -q -P --keep-Adobe -o --keep-iptc --stdout -p -b -v --all-huffman -f -s --keep-com --strip-icc -m80  @@
+jpegoptim --strip-jfxx -q -dtemp -P --strip-iptc -o -t -n --stdout --all-arith -p -f --strip-com -s --strip-Adobe --strip-icc --strip-xmp --nofix  @@
+jpegoptim -q --keep-exif -dtemp -P --keep-Adobe --keep-iptc -t --stdout --all-normal --strip-com -s --strip-icc --strip-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx -q -dtemp -P --keep-Adobe -n -p -b -v --all-normal -f -S50% --strip-exif -s --keep-xmp --strip-icc -m80  @@
+jpegoptim --keep-Adobe --strip-iptc -o -t --all-progressive --all-arith -p --keep-icc -S50% --strip-exif -s --keep-com --strip-xmp -m80  @@
+jpegoptim --strip-jfxx -q -t --all-progressive -p -v --all-huffman -f -S50% --strip-exif --strip-com -s --strip-icc --nofix -m80  @@
+jpegoptim --strip-jfxx --keep-exif -dtemp -P -T50% -o -t --stdout -v --all-normal --all-huffman -f -S50% --strip-com -s --strip-Adobe --strip-icc --strip-xmp --nofix  @@
+jpegoptim -q -dtemp --keep-Adobe -T50% --strip-iptc -o --all-arith -p -b -f -s --keep-xmp --nofix  @@
+jpegoptim -dtemp -P -T50% --keep-iptc -t --stdout --keep-icc --all-normal --all-huffman -f --strip-exif -s --strip-Adobe --nofix  @@
+jpegoptim --keep-exif -dtemp -P --keep-Adobe -T50% --keep-iptc -n --all-progressive -p --keep-icc -b -f -s --keep-com --keep-xmp  @@
+jpegoptim --strip-jfxx --keep-exif -dtemp --keep-iptc --all-progressive -v --all-huffman --strip-com --strip-Adobe --strip-icc --strip-xmp -m80  @@
+jpegoptim --keep-exif -P -o --keep-iptc -t -n --all-progressive -p -b -v --all-huffman -f -S50% --strip-com --keep-xmp --strip-Adobe --strip-icc -m80  @@
+jpegoptim --keep-exif -dtemp --keep-Adobe -T50% -o --keep-iptc -t --keep-icc -b --all-normal -f -S50% --keep-com --keep-xmp --nofix -m80  @@
+jpegoptim -dtemp -o --keep-iptc -t --all-progressive --all-arith --keep-icc -v -S50% --strip-exif -s --keep-xmp -m80  @@
+jpegoptim --keep-exif -P --keep-Adobe -T50% --strip-iptc -o --stdout -p -b -v --all-normal --all-huffman -f -S50% --strip-com -s --strip-icc --strip-xmp -m80  @@
+jpegoptim -q -T50% -n --all-progressive --all-arith -v -f -S50% --strip-none -m80  @@
+jpegoptim --keep-exif -dtemp -T50% --keep-iptc --stdout -p --all-normal -S50% --strip-com --keep-xmp --strip-Adobe -m80  @@
+jpegoptim -q --strip-iptc -o -n --all-arith -v -S50% --strip-com -s --strip-Adobe --strip-icc --strip-xmp -m80  @@
+jpegoptim --strip-jfxx -dtemp -P --keep-Adobe --keep-iptc -t -n --stdout --all-arith --keep-icc -b -v --all-normal -S50% --strip-exif -s --strip-xmp -m80  @@
+jpegoptim -q -T50% -o --stdout --all-arith -v --all-normal -f --strip-none --nofix  @@
+jpegoptim --strip-jfxx -q -dtemp -P --keep-Adobe --strip-iptc -o -t --all-progressive --stdout --keep-icc -b -S50% --strip-exif --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx -q -T50% -n --stdout -p --keep-icc -b -v --all-normal -f --strip-com -s --strip-Adobe -m80  @@
+jpegoptim --strip-jfxx -q -dtemp --keep-Adobe -o --keep-iptc -t -n -b -v --all-normal --all-huffman -S50% --strip-exif --strip-com --keep-xmp --strip-icc  @@
+jpegoptim -q -dtemp --keep-Adobe --keep-iptc -t -n --stdout --keep-icc -v --all-huffman --strip-exif -s --keep-com --strip-xmp --nofix -m80  @@
+jpegoptim -q --keep-exif -dtemp -T50% -t -n --stdout -p -v --all-huffman -s --keep-com --keep-xmp --strip-Adobe  @@
+jpegoptim -q -P --keep-iptc --all-progressive --stdout --keep-icc -v --all-huffman -S50% --strip-exif --keep-com --strip-Adobe --strip-xmp --nofix  @@
+jpegoptim -q --keep-exif -dtemp --keep-iptc --all-arith -b --all-normal -f -S50% --keep-com --keep-xmp --strip-Adobe --strip-icc -m80  @@
+jpegoptim --strip-jfxx --keep-Adobe --strip-iptc -o --stdout --all-arith -S50% --strip-exif --strip-com --strip-icc --nofix -m80  @@
+jpegoptim --keep-exif -P --keep-Adobe --strip-iptc --all-progressive --all-arith -p --keep-icc -b -f --strip-com --keep-xmp --nofix  @@
+jpegoptim -P -T50% -n -p --all-normal -f -S50% --strip-exif -s --keep-com --strip-Adobe --strip-icc --strip-xmp --nofix  @@
+jpegoptim -q -P -T50% -o -t --all-progressive --all-huffman -S50% --strip-none -m80  @@
+jpegoptim --strip-jfxx -P --keep-Adobe -T50% --strip-iptc -t -n --stdout --all-arith -b -v --all-normal -f -S50% --strip-exif --keep-com --keep-xmp --strip-icc --nofix -m80  @@
+jpegoptim --strip-jfxx -q -dtemp -P -T50% --strip-iptc -o -n --all-progressive --stdout -b -v --strip-exif --strip-com -s --strip-icc --nofix -m80  @@
+jpegoptim -q -dtemp -T50% --strip-iptc -t -n --stdout --all-arith -p --all-normal --strip-exif --keep-xmp --strip-Adobe --strip-icc -m80  @@
+jpegoptim -dtemp -P -T50% -o -t -n --all-progressive --stdout -b -v --all-huffman --strip-none --nofix  @@
+jpegoptim --keep-exif -dtemp -P --keep-Adobe --strip-iptc -o -t --all-arith -p --all-normal -f -S50% --keep-com --strip-xmp  @@
+jpegoptim --strip-jfxx --keep-exif -dtemp -P --strip-iptc -o -n -v --all-normal --all-huffman -f -S50% --strip-Adobe --strip-icc --strip-xmp  @@
+jpegoptim -q -P -T50% --keep-iptc -t -n --stdout --keep-icc -b -v --all-normal --all-huffman -f --strip-exif -s --keep-com --keep-xmp --strip-Adobe  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp -o --keep-iptc -t --all-arith -p --all-normal --strip-com -s --keep-xmp --strip-icc --nofix -m80  @@
+jpegoptim -q -dtemp -T50% -t --all-progressive -p -b -v --all-huffman --strip-none --nofix -m80  @@
+jpegoptim --strip-jfxx -o --keep-iptc --stdout --all-arith --keep-icc -b -v --all-normal -f --strip-exif --keep-xmp --strip-Adobe  @@
+jpegoptim --keep-exif --keep-Adobe --strip-iptc -t --all-progressive -v --all-huffman --keep-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx -P --keep-iptc -t --all-progressive --stdout -p --keep-icc -b -v --all-huffman -s --strip-Adobe --nofix -m80  @@
+jpegoptim -q -T50% -o -t -n --all-arith -v --strip-none --nofix  @@
+jpegoptim -q --keep-Adobe -T50% -o -t --all-progressive --keep-icc -b --all-huffman --keep-com --strip-xmp -m80  @@
+jpegoptim --strip-jfxx -P -T50% -n --all-progressive --stdout -S50% --strip-exif --keep-com --keep-xmp --strip-Adobe --strip-icc -m80  @@
+jpegoptim -q -dtemp -T50% -o --keep-iptc --stdout --all-arith -p --keep-icc -b -v --all-normal --strip-com -s --keep-xmp --strip-Adobe -m80  @@
+jpegoptim -dtemp -P -t --stdout --all-arith -v --all-normal -f -S50% --strip-none  @@
+jpegoptim -dtemp -P --keep-Adobe -T50% --keep-iptc -t -n -p -b --all-normal --strip-exif --keep-com --keep-xmp  @@
+jpegoptim --keep-exif -P --keep-Adobe -T50% -o --keep-iptc -n --stdout -b -v --all-normal -f -S50% -s --strip-xmp --nofix -m80  @@
+jpegoptim -q -T50% -o -t -p --keep-icc -v --all-normal -f -S50% --strip-exif -s --keep-com --strip-xmp --nofix  @@
+jpegoptim -q -P -o -t -n --stdout --all-arith --all-normal -f -S50% --strip-none --nofix -m80  @@
+jpegoptim --strip-jfxx -T50% --strip-iptc -t -n --all-progressive --stdout --all-arith -p -f --strip-exif -s --strip-icc --strip-xmp -m80  @@
+jpegoptim -q -dtemp -P -n --all-progressive -p -b -f -S50% --strip-none -m80  @@
+jpegoptim -q --keep-Adobe -T50% --strip-iptc -o -t -n --all-arith --keep-icc -v --all-normal -S50% --strip-exif -s --keep-com --strip-xmp -m80  @@
+jpegoptim --strip-jfxx --strip-iptc -o -t --all-progressive --all-huffman -f -S50% -s --keep-com --keep-xmp --strip-Adobe --strip-icc --nofix -m80  @@
+jpegoptim --strip-jfxx -q -P -o -n --all-progressive --stdout -p -b -v --all-huffman -f --strip-exif -s --keep-com --strip-Adobe --strip-icc --strip-xmp --nofix  @@
+jpegoptim -q --keep-exif -dtemp -P -o --keep-iptc -t -n --keep-icc -b -v --all-normal --all-huffman -s --keep-com --keep-xmp --strip-Adobe --nofix  @@
+jpegoptim -T50% --stdout -v --all-normal --all-huffman -f -S50% --strip-none --nofix -m80  @@
+jpegoptim --strip-jfxx --keep-Adobe -t -n -b -v --all-huffman --strip-exif --keep-com --strip-icc --strip-xmp  @@
+jpegoptim --strip-jfxx -q -dtemp -P --keep-iptc --all-progressive --stdout -b -v --all-huffman -f -S50% --keep-com --strip-Adobe --strip-icc --strip-xmp --nofix -m80  @@
+jpegoptim -q --keep-exif -dtemp -P --keep-Adobe --keep-iptc -t --stdout -p --keep-icc -b --all-huffman -f -S50% --strip-com --keep-xmp --nofix  @@
+jpegoptim -dtemp -o --keep-iptc -t -b --all-normal -f -S50% -s --strip-icc --strip-xmp --nofix  @@
+jpegoptim -dtemp --keep-Adobe -T50% --keep-iptc -n --all-arith --all-normal -S50% -s --keep-com --strip-icc --nofix -m80  @@
+jpegoptim -q -P -T50% -o -t --all-arith -p -f --strip-none --nofix -m80  @@
+jpegoptim --keep-exif -dtemp -o --keep-iptc -t -n --all-progressive --stdout --all-arith -p --keep-icc -b -v -f --strip-com -s --strip-Adobe --strip-xmp -m80  @@
+jpegoptim --keep-exif --keep-Adobe -T50% --strip-iptc -t -n --stdout -p --keep-icc --all-normal --all-huffman -f --strip-com --keep-xmp  @@
+jpegoptim -q --keep-exif -dtemp -P --keep-Adobe -T50% -o -t -n --all-progressive -v --all-huffman -S50% --keep-com --keep-xmp --strip-icc --nofix  @@
+jpegoptim --strip-jfxx -q -dtemp -P --keep-Adobe -o --keep-iptc -n --stdout --all-arith -b --all-normal --keep-com --keep-xmp --strip-icc --nofix  @@
+jpegoptim -P -o --stdout --all-arith -v -f --strip-none -m80  @@
+jpegoptim --strip-jfxx -T50% --strip-iptc -o -t -n -p --keep-icc --all-huffman -f --strip-exif -s --strip-Adobe -m80  @@
+jpegoptim -T50% -o -t -n --all-progressive -v --all-huffman -S50% --strip-none  @@
+jpegoptim --strip-jfxx -q -dtemp -P -o --keep-iptc -t --stdout -p --keep-icc -b --all-normal --all-huffman -f -S50% --strip-exif --strip-com -s --strip-Adobe --strip-xmp  @@
+jpegoptim --keep-exif -dtemp -T50% --strip-iptc -n --stdout --all-arith -p -b -v --all-normal -f -S50% --strip-com --strip-Adobe --strip-icc --strip-xmp --nofix -m80  @@
+jpegoptim -q -o --all-progressive --stdout --all-arith -p -f -S50% --strip-none -m80  @@
+jpegoptim -P -T50% --keep-iptc -t --all-progressive --stdout --all-arith -p --keep-icc -b -f -S50% --strip-exif --strip-com --strip-Adobe --strip-xmp --nofix -m80  @@
+jpegoptim -q --keep-exif -P --strip-iptc -o -t -n --all-progressive --all-arith -p --keep-icc -b -v --strip-com -s --strip-xmp --nofix -m80  @@
+jpegoptim -dtemp -T50% -o --keep-iptc --stdout --all-arith -b --all-normal -f --keep-com --strip-Adobe --strip-icc --strip-xmp --nofix -m80  @@
+jpegoptim -dtemp -P -T50% -o -t --all-progressive --stdout -p -v --strip-none  @@
+jpegoptim -q --strip-iptc -t -n --all-progressive --all-arith --keep-icc -f -S50% --strip-exif --keep-com --keep-xmp --strip-Adobe -m80  @@
+jpegoptim -q -dtemp -P -T50% --strip-iptc --stdout -p --keep-icc --all-normal -f -S50% --strip-exif --keep-xmp --strip-Adobe  @@
+jpegoptim --strip-jfxx -q --keep-exif -P --keep-Adobe --keep-iptc -t -n --all-progressive --stdout --all-arith -b -v -f -s --keep-xmp --strip-icc --nofix  @@
+jpegoptim --keep-Adobe --keep-iptc --all-arith -p -b -v --all-normal -f -S50% --strip-exif --keep-xmp --strip-icc  @@
+jpegoptim --strip-jfxx -dtemp -P -T50% -t --all-normal -f -S50% --strip-exif --strip-com --keep-xmp --strip-icc -m80  @@
+jpegoptim -dtemp -P -T50% --strip-iptc -o -t -n --all-progressive -p -b -v --all-huffman --strip-exif -s --keep-com --strip-Adobe --strip-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx -dtemp -T50% --keep-iptc -t --stdout --all-arith -p -v --all-normal -f -S50% --keep-com --keep-xmp --strip-Adobe --strip-icc  @@
+jpegoptim -dtemp -T50% --strip-iptc -t -n --all-progressive --stdout -p --keep-icc -S50% --strip-exif -s --keep-com --strip-Adobe --strip-xmp --nofix  @@
+jpegoptim -dtemp -P -T50% -t --stdout -p -b --all-normal --all-huffman -f --strip-none --nofix  @@
+jpegoptim -P --all-arith -b --all-normal -f --strip-none -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp --keep-iptc -n -p --keep-icc -b --all-normal -f --strip-com --strip-Adobe --nofix  @@
+jpegoptim --strip-jfxx -q --keep-iptc -t -n --stdout --all-arith --all-normal -S50% --strip-exif -s --keep-com --strip-Adobe --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx -dtemp --strip-iptc -o -n --stdout --all-arith -p -b -S50% --strip-exif --strip-com --strip-Adobe --strip-xmp -m80  @@
+jpegoptim -q -dtemp -T50% -t --all-progressive -b -v --all-huffman -f -S50% --strip-none -m80  @@
+jpegoptim -q -o --keep-iptc -t -n --all-progressive --all-arith -b -S50% --strip-exif --keep-com --keep-xmp --strip-icc -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp -P --keep-iptc -n --all-arith --keep-icc -b --all-normal -S50% --keep-xmp  @@
+jpegoptim --strip-jfxx -q -T50% -o --keep-iptc -t -n --all-arith -b --all-normal --strip-com --strip-Adobe --strip-icc --strip-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx --keep-exif --keep-Adobe -T50% -o -n --all-arith -v --all-normal -S50% --keep-com --strip-icc --strip-xmp -m80  @@
+jpegoptim --keep-exif -dtemp -P -T50% --keep-iptc -t -n --all-progressive --stdout -p -b --all-huffman -s --keep-com --strip-Adobe --strip-icc --strip-xmp  @@
+jpegoptim -P --strip-iptc -o -t --all-progressive -v -f --strip-com --strip-Adobe --strip-icc --strip-xmp  @@
+jpegoptim -q --keep-exif --keep-iptc -t --keep-icc -v --all-normal --all-huffman -S50% --strip-com --strip-Adobe  @@
+jpegoptim --keep-exif -dtemp -P --keep-Adobe --strip-iptc -o -t -n --keep-icc -b -v --all-normal --all-huffman -S50% --strip-com --keep-xmp  @@
+jpegoptim --keep-exif -P --keep-Adobe -T50% --keep-iptc -n --stdout --all-arith --keep-icc -b -S50% --keep-com --keep-xmp  @@
+jpegoptim -q --keep-exif -dtemp -T50% --all-progressive -p --keep-icc -b -f -S50% --keep-com --strip-Adobe --strip-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif -T50% -o --keep-iptc -n --stdout --all-arith -p --all-normal --keep-com --keep-xmp --strip-Adobe --strip-icc --nofix -m80  @@
+jpegoptim -q --keep-exif --keep-Adobe --strip-iptc -t -n --stdout -p -b --all-normal --all-huffman -f -s --keep-com --strip-icc --strip-xmp  @@
+jpegoptim -dtemp -T50% -o -n -b -v --all-normal --all-huffman --strip-exif -s --strip-Adobe --strip-icc --strip-xmp  @@
+jpegoptim -q --keep-exif -dtemp -P --keep-iptc -t -n --all-arith -p --keep-icc -b --all-normal -f --strip-Adobe --strip-xmp -m80  @@
+jpegoptim -P --keep-Adobe --strip-iptc -t --stdout -f --strip-exif --keep-com --strip-icc  @@
+jpegoptim -q --keep-exif -dtemp --keep-Adobe -T50% --strip-iptc -t -n --all-arith -p -v --all-normal --strip-com --strip-icc --nofix -m80  @@
+jpegoptim --strip-jfxx -P --strip-iptc --all-progressive --all-arith -b --strip-exif --strip-com -s --strip-Adobe --strip-xmp --nofix -m80  @@
+jpegoptim -q --keep-Adobe -T50% --strip-iptc -n -p -b -v --all-normal --all-huffman -S50% --strip-exif --keep-com --keep-xmp --strip-icc  @@
+jpegoptim -P -t -n --stdout -p -v -S50% --strip-none -m80  @@
+jpegoptim --strip-jfxx -q -dtemp -P --keep-Adobe --strip-iptc -t --all-progressive --stdout -p -v --all-huffman -f --strip-exif --keep-com --keep-xmp  @@
+jpegoptim --keep-exif -dtemp -t --stdout --all-normal --all-huffman -f -S50% --strip-com --keep-xmp --strip-Adobe --strip-icc  @@
+jpegoptim --strip-jfxx -q -P -T50% --strip-iptc -o --all-progressive --all-arith -p --keep-icc -f -S50% --strip-com -s --keep-xmp --strip-Adobe --nofix -m80  @@
+jpegoptim --keep-exif -P --keep-Adobe --keep-iptc -n --all-progressive --keep-icc -b -v --all-huffman -S50% --strip-xmp -m80  @@
+jpegoptim --strip-jfxx -dtemp -P --keep-Adobe --keep-iptc --all-progressive -v --all-huffman -f --strip-icc --strip-xmp --nofix -m80  @@
+jpegoptim -q -o -n --all-progressive -b --all-huffman -f -S50% --strip-none --nofix -m80  @@
+jpegoptim -q --keep-exif -dtemp --keep-Adobe --keep-iptc --all-progressive -p -v -S50% -s --strip-xmp --nofix -m80  @@
+jpegoptim --keep-exif -P --keep-iptc --stdout -p --keep-icc --all-huffman -f -S50% --keep-xmp --strip-Adobe --nofix  @@
+jpegoptim -q -t --all-progressive --stdout --all-huffman -S50% --strip-none --nofix  @@
+jpegoptim --keep-exif -dtemp -T50% -o -n --keep-icc -b -v --all-normal --all-huffman -S50% --keep-xmp --strip-Adobe --nofix  @@
+jpegoptim -q --keep-exif -dtemp -T50% --strip-iptc -o -t --all-progressive --stdout -p -b -v --all-huffman -f -S50% -s --keep-com --strip-icc --strip-xmp  @@
+jpegoptim -q -dtemp -P --keep-Adobe --all-arith --keep-icc -v -f -S50% --strip-exif -s --keep-com --keep-xmp  @@
+jpegoptim -q --keep-exif -dtemp --keep-Adobe --keep-iptc -n --all-huffman --keep-xmp --strip-icc -m80  @@
+jpegoptim -q -dtemp -t --all-arith -b -v -f -S50% --strip-none --nofix -m80  @@
+jpegoptim -q -T50% --strip-iptc -t -n -p --keep-icc --all-huffman -f --keep-com --keep-xmp  @@
+jpegoptim --keep-exif -dtemp -P --keep-Adobe -T50% --keep-iptc -t --all-progressive --all-arith -p -b -v -S50% --keep-com --strip-icc --strip-xmp --nofix -m80  @@
+jpegoptim -q -T50% --keep-iptc -t --all-progressive -p --keep-icc -v --all-huffman -f --strip-exif --keep-com --keep-xmp --strip-Adobe --nofix -m80  @@
+jpegoptim --keep-exif -P --keep-Adobe -T50% --keep-iptc -t -n --stdout -p --all-normal --all-huffman --strip-icc --strip-xmp  @@
+jpegoptim -q -P -T50% --keep-iptc --stdout -p -b --all-normal --all-huffman --keep-com --strip-Adobe --strip-xmp --nofix  @@
+jpegoptim -q --keep-exif --keep-Adobe -T50% --strip-iptc --stdout -p -v --all-huffman -f -s --keep-com --strip-icc --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx -q -dtemp -P --strip-iptc -o -t -b -v --all-normal --all-huffman -S50% -s --keep-com --keep-xmp --strip-Adobe -m80  @@
+jpegoptim -q -o -t --all-progressive -p -b -f --strip-none --nofix  @@
+jpegoptim --strip-jfxx --keep-exif -P --keep-Adobe -T50% --keep-iptc -t --all-progressive -b --all-huffman -S50% -s --strip-icc  @@
+jpegoptim --keep-exif -dtemp --strip-iptc -o --stdout -b -v --all-normal --strip-com --keep-xmp --strip-icc --nofix  @@
+jpegoptim -q -P --keep-Adobe -T50% --strip-iptc -o -t -n --all-progressive --stdout --all-huffman -s --keep-com --keep-xmp --strip-icc -m80  @@
+jpegoptim -T50% -o --all-progressive -b --all-huffman -f --strip-none  @@
+jpegoptim -dtemp --keep-iptc -t -n --stdout -p --keep-icc -b -v --all-normal --all-huffman -S50% -s --keep-com --strip-Adobe --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx -q -dtemp -P -T50% -o --keep-iptc --all-progressive --stdout -p -b -v -S50% --strip-exif --strip-com --strip-xmp -m80  @@
+jpegoptim -q -dtemp -T50% -n --all-arith -b --all-normal --strip-none  @@
+jpegoptim -q --keep-exif -P --all-progressive --stdout --all-arith -p --keep-icc -v -s --keep-xmp --strip-Adobe  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp --keep-Adobe -T50% -o --keep-iptc -p --keep-icc --all-huffman -s --keep-com --keep-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx -q -P -T50% --keep-iptc -n --stdout --all-normal --all-huffman --strip-exif --strip-com --keep-xmp --strip-icc --nofix -m80  @@
+jpegoptim --keep-Adobe -T50% -o --keep-iptc -t -n --all-progressive -b -v --all-huffman -f --strip-exif -s --keep-com --strip-icc --strip-xmp -m80  @@
+jpegoptim --strip-jfxx --keep-exif -dtemp -P --keep-Adobe -T50% --keep-iptc --all-arith --keep-icc -b -v --all-normal -f -S50% --strip-com -s --strip-xmp  @@
+jpegoptim --strip-jfxx --keep-exif -P --keep-iptc -n --all-progressive -b --all-huffman -f -S50% --keep-com --keep-xmp --strip-Adobe  @@
+jpegoptim -q --strip-iptc -o --stdout -p -b --all-normal --all-huffman -f --strip-com -s --strip-Adobe --strip-xmp --nofix  @@
+jpegoptim -q -dtemp -P --keep-Adobe -o --keep-iptc -t --stdout --all-arith -b --all-normal -S50% --strip-exif --strip-com --strip-icc --strip-xmp  @@
+jpegoptim --keep-Adobe -o --keep-iptc --keep-icc -b --all-normal --all-huffman -f -S50% --strip-exif --strip-com --keep-xmp --nofix  @@
+jpegoptim -q -dtemp --keep-iptc -t --stdout --all-arith -v --all-normal -S50% --strip-exif --keep-com --keep-xmp --strip-icc  @@
+jpegoptim -dtemp --keep-iptc -t -n --all-progressive --keep-icc -b -S50% -s --keep-com --keep-xmp --strip-Adobe --nofix -m80  @@
+jpegoptim --keep-exif -dtemp -T50% -o --keep-iptc -n --all-arith -p --keep-icc -f -S50% -s --keep-com --nofix -m80  @@
+jpegoptim -P --strip-iptc -n --stdout --all-arith --keep-icc -b --all-normal -f -s --keep-com --strip-Adobe --strip-xmp -m80  @@
+jpegoptim --strip-jfxx -q -P -T50% --strip-iptc -o -n --stdout -b --all-huffman --strip-exif -s --keep-com --strip-icc --strip-xmp  @@
+jpegoptim --strip-jfxx -q --keep-Adobe -T50% --keep-iptc -t --stdout --keep-icc -v --all-normal --all-huffman -f -S50% --strip-exif --strip-com --strip-xmp --nofix -m80  @@
+jpegoptim -q --keep-exif -P -T50% -o --keep-iptc -t -n -v --all-normal --all-huffman --keep-com --keep-xmp --strip-icc -m80  @@
+jpegoptim -q -P -T50% -o -t -n --all-progressive -p --all-huffman -S50% --strip-none --nofix -m80  @@
+jpegoptim --keep-exif -dtemp -P -T50% --strip-iptc -o -n --stdout --all-arith --keep-icc -b --all-normal --strip-Adobe --nofix -m80  @@
+jpegoptim -P -T50% --keep-iptc -t -n --stdout --all-arith --all-normal -f --strip-exif --keep-com --strip-icc --strip-xmp  @@
+jpegoptim --strip-jfxx -q -dtemp -P --keep-Adobe -T50% --keep-iptc -t -n --all-arith -b -v -f --strip-exif -s --keep-com --strip-icc --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx --keep-exif -T50% -o --keep-iptc -n --all-progressive -v --all-huffman --strip-com -s --strip-Adobe --nofix -m80  @@
+jpegoptim -dtemp -P -o --stdout --all-arith -p --all-normal -S50% --strip-none -m80  @@
+jpegoptim --strip-jfxx --keep-exif -dtemp --strip-iptc -o --all-arith -p --keep-icc --all-normal -S50% -s --strip-Adobe --strip-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx -P --keep-iptc -t --all-arith -p --keep-icc -S50% --strip-exif --keep-com --keep-xmp --strip-Adobe --nofix  @@
+jpegoptim --strip-jfxx --keep-exif -T50% --strip-iptc -t --all-arith -b --all-normal -S50% --strip-com --keep-xmp --nofix  @@
+jpegoptim -q -dtemp -P -o -t --all-progressive --all-arith -f --strip-exif --strip-com -s --keep-xmp --strip-Adobe --strip-icc  @@
+jpegoptim -q -dtemp --keep-Adobe -T50% -o --keep-iptc --all-progressive --stdout --all-arith -p -v -f --strip-exif -s --keep-com --strip-icc --strip-xmp  @@
+jpegoptim --strip-jfxx --keep-exif -dtemp -P -T50% --strip-iptc --stdout --keep-icc -b --all-normal --all-huffman --keep-com --keep-xmp --strip-Adobe --nofix -m80  @@
+jpegoptim --strip-jfxx -q -P -T50% --strip-iptc -n --all-arith -p --keep-icc -b -v --all-normal -s --strip-Adobe --strip-xmp  @@
+jpegoptim -q -P -n --stdout -p -b --all-huffman -f --strip-none --nofix -m80  @@
+jpegoptim --keep-exif -dtemp --keep-iptc -p --keep-icc -b -v --all-huffman -s --keep-com --strip-Adobe --strip-xmp --nofix -m80  @@
+jpegoptim -dtemp -P -T50% -n -p -b -v --all-huffman -f -S50% --strip-none --nofix -m80  @@
+jpegoptim --keep-exif --keep-Adobe --strip-iptc -o -t --all-progressive --stdout --all-arith -b -v -s --keep-com --strip-icc --strip-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx --keep-exif -dtemp --strip-iptc -t --all-progressive -p --keep-icc -v -f --strip-com -s --keep-xmp --strip-Adobe -m80  @@
+jpegoptim -dtemp --keep-Adobe -T50% --strip-iptc -o -t -n -p -b --all-normal --all-huffman -S50% --strip-exif --strip-com --strip-xmp -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif -P -T50% --strip-iptc -o -t --all-progressive --stdout --all-arith -p -b -v -f -S50% --keep-xmp --strip-Adobe --strip-icc -m80  @@
+jpegoptim -P -T50% --strip-iptc -o -n -b --strip-exif -s --keep-xmp --strip-Adobe --strip-icc --nofix  @@
+jpegoptim --strip-jfxx -q --keep-Adobe --strip-iptc -n --keep-icc -b --all-normal --all-huffman -f -S50% --strip-exif --keep-com --nofix  @@
+jpegoptim -q -dtemp -T50% -n -p -b --all-normal --all-huffman -S50% --strip-none --nofix -m80  @@
+jpegoptim --strip-jfxx -P -o --keep-iptc -t --all-progressive --all-arith --keep-icc -v -S50% --keep-com --strip-Adobe --strip-xmp  @@
+jpegoptim -q -P --keep-Adobe --strip-iptc -t -n --stdout --all-arith -p --keep-icc -f -S50% --strip-exif -s --keep-com --nofix  @@
+jpegoptim --strip-jfxx -q --keep-exif -P -o --keep-iptc -t --stdout --all-arith --keep-icc -b --all-normal -f --strip-com --keep-xmp --strip-Adobe  @@
+jpegoptim -q -dtemp -P -T50% --all-progressive -p --all-huffman -S50% --strip-none  @@
+jpegoptim --strip-jfxx --keep-exif --keep-Adobe -T50% --strip-iptc -t --all-progressive --stdout -p -b --all-huffman --keep-com --keep-xmp --strip-icc -m80  @@
+jpegoptim -q --keep-exif -P -T50% --strip-iptc --all-progressive -b -s --keep-com --keep-xmp --strip-Adobe --strip-icc -m80  @@
+jpegoptim --keep-exif -P --keep-Adobe -T50% -o --keep-iptc -t --stdout --all-arith -p -b --all-normal --strip-com --keep-xmp --strip-icc -m80  @@
+jpegoptim -q -dtemp -T50% --keep-iptc -t --all-progressive --stdout -p -v --all-huffman --strip-com -s --strip-icc --strip-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp -P -T50% -o --keep-iptc --all-progressive --stdout --all-arith -f -S50% -s --keep-com --strip-Adobe --strip-icc --strip-xmp --nofix -m80  @@
+jpegoptim --keep-exif -t --stdout --all-arith -v --all-normal --strip-com -s --keep-xmp --strip-Adobe --strip-icc --nofix -m80  @@
+jpegoptim --strip-jfxx --keep-exif -P --keep-Adobe --keep-iptc --all-progressive -v --all-huffman -f -S50% --strip-com --keep-xmp --strip-icc --nofix -m80  @@
+jpegoptim --strip-jfxx --keep-exif --keep-Adobe --strip-iptc -n --all-progressive --stdout --all-arith -p -b -v -f -s --keep-com --strip-xmp  @@
+jpegoptim --strip-jfxx -q --keep-Adobe -T50% --keep-iptc -n --all-progressive -p -v --all-huffman -f -S50% --strip-exif --strip-com --keep-xmp --strip-icc  @@
+jpegoptim --strip-jfxx --keep-exif --keep-Adobe --strip-iptc --stdout -p --keep-icc -b -f -S50% --strip-com --strip-xmp -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif --keep-Adobe --keep-iptc --all-progressive -p -b -v --all-huffman -f -S50% -s --keep-com --strip-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx --keep-exif -dtemp -P --keep-Adobe -T50% --strip-iptc --stdout --all-arith --all-normal -f -s --strip-icc --strip-xmp -m80  @@
+jpegoptim --strip-jfxx -q -P --keep-Adobe --keep-iptc -t --stdout -p --all-normal --all-huffman -f --strip-exif --strip-com --strip-icc --strip-xmp  @@
+jpegoptim -q -dtemp -o -t -n --all-progressive -p --all-huffman --strip-none  @@
+jpegoptim -q -P -o -t --all-progressive --stdout -b -v --all-huffman -f --strip-none -m80  @@
+jpegoptim -P -o -n --all-progressive --stdout -p -b --all-huffman -S50% --strip-none  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp --keep-Adobe --strip-iptc -o -n --all-arith -b --all-normal -f --strip-com --keep-xmp --strip-icc  @@
+jpegoptim -dtemp -P -o -t --all-progressive --all-arith -v -S50% --strip-none --nofix -m80  @@
+jpegoptim --strip-jfxx --keep-exif -dtemp -P --strip-iptc -t -n --all-progressive --all-arith -p -b -v -f -S50% -s --keep-com --strip-Adobe --strip-icc --strip-xmp  @@
+jpegoptim --keep-exif -dtemp -P -T50% -o --keep-iptc -t -p --keep-icc -v --all-normal --all-huffman --keep-com --keep-xmp --strip-Adobe  @@
+jpegoptim --strip-jfxx -P -o -n --keep-icc -b --all-huffman -S50% --strip-exif --strip-com -s --strip-Adobe -m80  @@
+jpegoptim --strip-jfxx -P -o --keep-iptc -n --all-progressive --stdout -p --all-huffman -S50% --strip-exif -s --strip-icc --strip-xmp --nofix  @@
+jpegoptim -dtemp -P -n --stdout --all-normal --strip-none --nofix -m80  @@
+jpegoptim -q --keep-Adobe --keep-iptc -t -n --all-progressive --all-arith -p --keep-icc -f -S50% --strip-exif --strip-com --keep-xmp --nofix -m80  @@
+jpegoptim -dtemp -T50% -o -t --stdout --all-arith -p -b -v --strip-none  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp -P --keep-Adobe -o --keep-iptc -n --all-progressive --keep-icc --keep-com --keep-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx -q -dtemp --keep-iptc -n --keep-icc --all-normal --all-huffman -s --keep-com --keep-xmp --strip-Adobe  @@
+jpegoptim --keep-exif -P --keep-Adobe -T50% --strip-iptc -o -n --stdout -p --keep-icc --all-normal --all-huffman -S50% -s --keep-com --strip-xmp --nofix  @@
+jpegoptim -dtemp -P --keep-Adobe --strip-iptc -o -t --stdout --all-arith --keep-icc -v --all-normal -f --strip-exif -s --keep-xmp --nofix  @@
+jpegoptim -P -T50% -n --all-progressive -p -v --all-huffman -f -S50% --strip-none -m80  @@
+jpegoptim --strip-jfxx -P --keep-iptc -t -n --all-progressive -p -v --all-huffman -S50% --strip-exif --strip-com -s --strip-Adobe --strip-icc --strip-xmp --nofix  @@
+jpegoptim -q --keep-exif -o --keep-iptc -t -n --all-progressive --all-arith -p -f -S50% --strip-com --strip-icc --strip-xmp --nofix -m80  @@
+jpegoptim --keep-exif -dtemp --keep-Adobe --keep-iptc -t -n --stdout --all-arith -p --keep-icc --all-normal -s --keep-com --keep-xmp --nofix  @@
+jpegoptim --strip-jfxx --keep-exif -dtemp -T50% -o --keep-iptc -t -n --stdout -b -f -S50% -s --keep-com --strip-Adobe --strip-icc --strip-xmp --nofix -m80  @@
+jpegoptim --keep-exif -dtemp -P --strip-iptc -n -p --keep-icc -b -v --all-normal --all-huffman -f -S50% --strip-com -s --keep-xmp  @@
+jpegoptim --strip-jfxx -dtemp -P -o --keep-iptc -t --stdout -p -b -v --all-normal --all-huffman -f --strip-exif --keep-xmp --strip-Adobe --strip-icc --nofix -m80  @@
+jpegoptim -q --keep-exif -dtemp --keep-iptc --all-progressive --stdout --all-arith --keep-icc -v --strip-com --strip-Adobe --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx -dtemp -P -T50% -o -t -n --all-progressive --stdout --all-arith --keep-icc -b --strip-exif --strip-Adobe --strip-xmp -m80  @@
+jpegoptim --keep-exif -P -T50% -o --keep-iptc -t --all-progressive --all-huffman --strip-com -s --keep-xmp --strip-Adobe --strip-icc --nofix  @@
+jpegoptim -q -dtemp --keep-Adobe -T50% --strip-iptc -o -n --stdout --all-arith -p -b -v --all-normal -f --strip-com -s --strip-icc --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx -q -P -T50% -o -t --stdout -p -b --all-huffman -S50% --strip-exif --keep-com --keep-xmp --strip-Adobe  @@
+jpegoptim -q -P -T50% -o -n --all-progressive --stdout --all-arith -p -v -S50% --strip-none --nofix  @@
+jpegoptim -q -P -T50% -o --stdout -p -b -v --all-normal --all-huffman -f --strip-none -m80  @@
+jpegoptim --strip-jfxx -dtemp --strip-iptc -n -p --keep-icc -v --all-normal --all-huffman -f --strip-exif -s --keep-com --strip-Adobe --strip-xmp  @@
+jpegoptim -dtemp -o -t -p -b -v --all-huffman -f --strip-none --nofix -m80  @@
+jpegoptim -q -dtemp -t --all-progressive --strip-none -m80  @@
+jpegoptim --strip-jfxx -q -dtemp -T50% -o --keep-iptc --all-arith -b -v -f --strip-exif --keep-com --keep-xmp --strip-Adobe  @@
+jpegoptim -dtemp -T50% --stdout -p --all-normal --all-huffman --strip-none -m80  @@
+jpegoptim -T50% -o -t --all-arith -v --all-normal -S50% --strip-none -m80  @@
+jpegoptim --strip-jfxx -q -P --keep-iptc --all-arith -p -b --strip-exif --strip-com -s --keep-xmp --strip-icc  @@
+jpegoptim -T50% --keep-iptc -n -p --keep-icc -b --all-normal --strip-exif --strip-com -s --keep-xmp -m80  @@
+jpegoptim -o --keep-iptc -n --all-arith -p -b -v --all-normal --strip-exif -s --strip-Adobe --strip-xmp --nofix -m80  @@
+jpegoptim -dtemp -P --keep-iptc -n --all-progressive --all-arith -v --strip-exif -s --keep-com --keep-xmp --strip-Adobe --strip-icc -m80  @@
+jpegoptim --strip-jfxx -dtemp -P --keep-iptc --all-progressive --stdout -p --keep-icc -b -v --keep-com --strip-xmp -m80  @@
+jpegoptim --strip-jfxx -q -P -T50% --all-progressive --stdout -p --keep-icc -v --all-huffman -f --strip-exif --strip-com -s --strip-Adobe --strip-xmp -m80  @@
+jpegoptim -q -n --all-progressive -b -S50% --strip-none -m80  @@
+jpegoptim --strip-jfxx --keep-Adobe -T50% --keep-iptc -n -p --keep-icc -b -v --all-normal --all-huffman -f --strip-exif --strip-com -s  @@
+jpegoptim -dtemp -P --keep-Adobe --strip-iptc -t --all-progressive --stdout --all-arith -p -b -f -S50% --strip-exif --strip-com --keep-xmp -m80  @@
+jpegoptim -q -n --all-arith -p -b -f -S50% --strip-none  @@
+jpegoptim --keep-exif -dtemp -T50% --keep-iptc -n --stdout --all-arith -p -b --strip-com --strip-Adobe --strip-xmp  @@
+jpegoptim --keep-exif -dtemp -P --keep-Adobe -o --keep-iptc -t --all-progressive --stdout -p --keep-icc -b -v --strip-com --strip-xmp -m80  @@
+jpegoptim -T50% -o --keep-iptc --stdout -b -v --all-normal --all-huffman -S50% --strip-com -s --strip-Adobe --strip-icc --strip-xmp  @@
+jpegoptim --strip-jfxx --keep-iptc --all-progressive --stdout -b -v -f --strip-exif --strip-com -s --strip-Adobe --strip-icc --strip-xmp --nofix  @@
+jpegoptim -q -dtemp -T50% -t --stdout --all-normal -f -S50% --strip-none  @@
+jpegoptim --strip-jfxx -q --keep-exif -P --keep-Adobe -T50% --strip-iptc -o --all-arith -p -b -v --all-normal -f --strip-com -s --strip-icc -m80  @@
+jpegoptim -q -T50% -t -n --all-progressive --stdout -p -b --all-huffman -f --strip-none --nofix  @@
+jpegoptim --keep-exif -dtemp -P --strip-iptc -o -n -v --all-huffman -f -s --keep-com --keep-xmp --strip-Adobe --strip-icc --nofix -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif --keep-Adobe --strip-iptc -o --all-progressive --stdout --all-arith -p --keep-icc -v -f -s --keep-com --strip-xmp -m80  @@
+jpegoptim --strip-jfxx --keep-exif --keep-Adobe -o -t -b -v --all-normal --all-huffman -f --keep-com --strip-xmp --nofix  @@
+jpegoptim -dtemp -P --keep-Adobe -T50% --keep-iptc -t -n -p --keep-icc -b -v --all-huffman -f --keep-com --nofix  @@
+jpegoptim --keep-exif -dtemp -P -T50% -o --keep-iptc --all-progressive --stdout --all-arith -p --keep-icc -v -S50% -s --keep-com --strip-xmp -m80  @@
+jpegoptim -q -dtemp --strip-iptc -o --all-progressive --all-arith -p -v -S50% --keep-xmp --strip-icc --nofix -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif -T50% --keep-iptc --all-progressive --all-arith -p -v -f -S50% --strip-com -s --strip-Adobe --nofix  @@
+jpegoptim --strip-jfxx -T50% --strip-iptc -n --all-progressive --stdout -p -v --all-huffman --strip-exif --strip-com --keep-xmp --strip-icc --nofix -m80  @@
+jpegoptim --keep-exif -P --strip-iptc -b -v --all-normal --all-huffman -f -S50% -s --keep-com --strip-Adobe --strip-icc --strip-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp --keep-Adobe -T50% -o --keep-iptc -n --stdout -p --keep-icc -b -v --all-normal --all-huffman --strip-com --strip-xmp  @@
+jpegoptim --strip-iptc -o -n --all-progressive --stdout --all-arith -b -f -S50% --strip-exif --keep-com --strip-Adobe --strip-icc  @@
+jpegoptim --strip-jfxx -dtemp --keep-Adobe --strip-iptc -n --stdout -v --all-normal -s --keep-com --strip-icc --strip-xmp  @@
+jpegoptim --strip-jfxx -q -dtemp --strip-iptc -t -n --stdout --all-arith --keep-icc --all-normal -f -S50% --strip-exif --strip-com -s --strip-Adobe  @@
+jpegoptim --strip-jfxx -T50% --strip-iptc --all-progressive --stdout --all-huffman -S50% --strip-exif -s --keep-com --keep-xmp --strip-Adobe --strip-icc --nofix  @@
+jpegoptim --keep-exif -P --strip-iptc -o -t -n --all-progressive -p --keep-icc -v --all-huffman -f -S50% -s --keep-com --keep-xmp --strip-Adobe --nofix  @@
+jpegoptim --strip-jfxx -q -o --keep-iptc --all-progressive --all-huffman -f --strip-com -s --strip-Adobe --strip-icc --nofix -m80  @@
+jpegoptim --strip-jfxx --keep-exif -dtemp -P -T50% --strip-iptc -t -n --all-progressive --stdout --all-arith -v -f --keep-com --keep-xmp --strip-Adobe --nofix  @@
+jpegoptim --strip-jfxx --keep-exif -dtemp -T50% -o --keep-iptc -t -n --stdout -p -v --all-normal --all-huffman -S50% --strip-com --keep-xmp --strip-Adobe --nofix  @@
+jpegoptim --strip-jfxx -q -P -T50% -o --all-progressive --all-arith --keep-icc -b -v -S50% --strip-exif -s --strip-Adobe --strip-xmp  @@
+jpegoptim -q --keep-exif -T50% --strip-iptc -t --all-progressive --keep-icc -v --all-huffman -S50% -s --keep-com --nofix  @@
+jpegoptim --keep-exif -dtemp -P -T50% --stdout -p --keep-icc -b --all-normal --all-huffman -f --keep-com --strip-Adobe  @@
+jpegoptim -q --keep-exif -dtemp -P --strip-iptc -t --all-arith --keep-icc -b -S50% -s --keep-com --keep-xmp --strip-Adobe -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif -P -T50% -o --all-progressive --stdout --all-arith -p -v --strip-com --keep-xmp --strip-Adobe --strip-icc  @@
+jpegoptim -q -P --keep-Adobe -T50% --strip-iptc --all-arith -b --all-normal --strip-exif --keep-com --keep-xmp --strip-icc --nofix  @@
+jpegoptim --strip-jfxx -q -P --keep-Adobe -T50% -o --keep-iptc -t -n --all-progressive --stdout --keep-icc -b --all-huffman -f -S50% --strip-exif --keep-com --keep-xmp --nofix  @@
+jpegoptim -P -T50% -n -p -b -v --all-normal --all-huffman -f --strip-none  @@
+jpegoptim -q -dtemp -T50% --strip-iptc -n --all-progressive -b -v --all-huffman -f --strip-exif -s --strip-Adobe --strip-icc -m80  @@
+jpegoptim -q -dtemp -P -T50% --stdout -v --all-huffman --strip-none -m80  @@
+jpegoptim --strip-jfxx --keep-exif -P -T50% --strip-iptc -o -t --keep-icc --all-huffman --keep-com --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx -q -dtemp -P -o --keep-iptc -t --all-progressive --stdout -p -b --all-huffman --strip-exif --keep-com --strip-Adobe --strip-icc --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx -dtemp --keep-Adobe -T50% -t --stdout -p --all-normal -f --strip-exif --strip-com  @@
+jpegoptim -q -dtemp -P -T50% -o -p -v --all-normal -f -S50% --strip-none --nofix -m80  @@
+jpegoptim --strip-jfxx --keep-exif -dtemp --keep-Adobe -o --keep-iptc -n --stdout --all-arith --all-normal --keep-com --strip-icc --strip-xmp --nofix -m80  @@
+jpegoptim -q -dtemp --all-progressive --stdout --all-arith -p --strip-none --nofix -m80  @@
+jpegoptim  @@
+jpegoptim --strip-jfxx -dtemp --keep-Adobe -T50% -o --keep-iptc -t -n --all-progressive -p --keep-icc -v --all-huffman -f -S50% --strip-exif --strip-com -s --nofix -m80  @@
+jpegoptim --keep-exif -dtemp --strip-iptc -o -n --all-progressive --all-huffman -S50% --keep-com --strip-icc --strip-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif --keep-Adobe -o --keep-iptc -t --all-arith -p --keep-icc -v --all-normal --strip-com -s --strip-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx --keep-exif -P -T50% -o -t --all-progressive --stdout --all-arith -p --keep-icc -f -S50% --keep-com --strip-Adobe --nofix -m80  @@
+jpegoptim -q -dtemp -T50% -o -t -n --stdout -p -b --all-normal -f -S50% --strip-none --nofix  @@
+jpegoptim -P --keep-Adobe -T50% -n --all-progressive --stdout -p -v --all-huffman -f -S50% --strip-exif --keep-com --strip-icc --strip-xmp  @@
+jpegoptim --strip-jfxx -q --keep-Adobe -o --keep-iptc -t --all-progressive --all-arith -p -f --strip-exif --strip-com -s --strip-icc --strip-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx -dtemp -P --keep-Adobe -T50% -o --keep-iptc -t -n --all-progressive --stdout --keep-icc -b --strip-exif -s --keep-com --strip-xmp  @@
+jpegoptim -q -dtemp -P --keep-Adobe -T50% --all-progressive --all-arith -p --keep-icc -v -f -S50% -s --keep-xmp  @@
+jpegoptim --strip-jfxx -dtemp -T50% --keep-iptc -n --all-progressive --all-arith -p --keep-icc -b --strip-exif --strip-com -s --keep-xmp --strip-Adobe  @@
+jpegoptim -p -b --all-normal -f -S50% --strip-none --nofix  @@
+jpegoptim --strip-jfxx -P -T50% -o --keep-iptc -n --stdout --all-arith --keep-icc -b -v --all-normal -f -S50% --strip-com --strip-Adobe --nofix -m80  @@
+jpegoptim -o -t --all-progressive --stdout -p -v --all-huffman -f --strip-none --nofix -m80  @@
+jpegoptim -q --keep-exif -dtemp --keep-Adobe -T50% --keep-iptc -t -n --all-normal --all-huffman -f -S50% -s --keep-com --strip-xmp --nofix -m80  @@
+jpegoptim -q -P -T50% --strip-iptc -n --all-progressive --all-arith -p -b -s --keep-com --keep-xmp --strip-Adobe -m80  @@
+jpegoptim --strip-jfxx -dtemp --keep-Adobe --strip-iptc -t -n --all-progressive -p -b --all-huffman -S50% -s --keep-com --strip-icc --nofix -m80  @@
+jpegoptim -q -dtemp --keep-Adobe -o --keep-iptc -t -p --keep-icc -b -v --strip-exif --strip-com -s --strip-xmp  @@
+jpegoptim -P --strip-iptc -n --all-progressive --all-arith -p --keep-icc -v --strip-exif --strip-com --strip-Adobe  @@
+jpegoptim -P --keep-Adobe -o -t --all-arith -p -v --all-normal --strip-exif -s --strip-icc --nofix  @@
+jpegoptim -P -T50% -o -n -p -b --all-normal --all-huffman --strip-none --nofix -m80  @@
+jpegoptim --strip-jfxx -P -T50% -o --keep-iptc -t --all-progressive -b --all-huffman --strip-exif -s --keep-com --keep-xmp --nofix -m80  @@
+jpegoptim --keep-exif -P --keep-Adobe -T50% --strip-iptc -t --all-arith --keep-icc -v -f --strip-com -s --keep-xmp -m80  @@
+jpegoptim -q -dtemp -T50% -o -n --all-progressive --stdout -b -v --all-huffman -f -S50% --strip-none  @@
+jpegoptim -q -dtemp -T50% -n -p -v --all-huffman -f --strip-none --nofix  @@
+jpegoptim --strip-jfxx -q --strip-iptc --all-progressive --stdout -p -b -v -S50% --keep-com --keep-xmp --strip-Adobe --strip-icc --nofix -m80  @@
+jpegoptim -T50% -o -t -p -b -v --all-normal --all-huffman -f -S50% --strip-none -m80  @@
+jpegoptim -q -dtemp -P -o --keep-iptc --all-arith --keep-icc -b --all-normal -f --strip-exif --strip-com -s --nofix -m80  @@
+jpegoptim --strip-jfxx --keep-iptc -p --keep-icc -v -S50% --strip-exif --keep-com --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx -q --keep-exif -P --keep-Adobe --strip-iptc -o -p --keep-icc -v --all-normal -S50% --strip-com -s --keep-xmp --nofix  @@
+jpegoptim -dtemp -P -T50% --strip-iptc -o -t -n --all-progressive --all-arith -p -b -S50% --strip-exif --strip-com -s --strip-icc --strip-xmp --nofix  @@
+jpegoptim -q -dtemp -P -T50% --strip-iptc -t -n -v --all-normal --all-huffman --strip-exif --strip-com --strip-Adobe --strip-xmp  @@
+jpegoptim -dtemp -P -o -t -n --all-huffman -S50% --strip-none -m80  @@
+jpegoptim --strip-jfxx -q -dtemp -T50% -o --keep-iptc -n -p --all-normal --all-huffman -f -S50% --strip-exif -s --keep-com --keep-xmp --strip-Adobe --strip-icc --nofix -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp -P -T50% -o --keep-iptc --all-arith -p --all-normal -s --keep-com --keep-xmp --strip-Adobe -m80  @@
+jpegoptim -q -dtemp --keep-Adobe --keep-iptc -t -n --all-progressive --stdout -p -v --strip-exif --keep-com --strip-icc --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx -dtemp -t --stdout -p --keep-icc -v --all-normal --all-huffman -S50% --strip-exif --strip-com --strip-Adobe  @@
+jpegoptim -q -dtemp -P --all-progressive --stdout --all-arith -p -b -v -f --strip-none  @@
+jpegoptim --keep-exif --keep-Adobe -T50% --strip-iptc -o -t --all-progressive -p -v -f --keep-com --strip-icc --strip-xmp --nofix  @@
+jpegoptim -dtemp --keep-Adobe --strip-iptc -n --all-progressive --stdout -p --keep-icc -b -v --all-huffman --strip-exif --strip-com --strip-xmp --nofix  @@
+jpegoptim -q -dtemp --keep-Adobe -T50% -o --keep-iptc -t --all-progressive --all-arith --strip-com -s --strip-xmp --nofix  @@
+jpegoptim -P --keep-Adobe -T50% -o --stdout --keep-icc -b -v --all-normal --all-huffman --strip-exif --strip-com --strip-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx --keep-exif --keep-Adobe -o -n --stdout -p --all-huffman -S50% -s --strip-icc --strip-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif -P --keep-Adobe --keep-iptc -t -p --keep-icc --all-normal -f -S50% --keep-com --strip-xmp --nofix  @@
+jpegoptim -dtemp -n --stdout --all-arith -p -v --all-normal -S50% --strip-none  @@
+jpegoptim -q -dtemp --keep-Adobe -o --keep-iptc -t --stdout -p --keep-icc -b -v --all-normal -f -S50% --strip-exif --strip-xmp -m80  @@
+jpegoptim -q --keep-exif -T50% --strip-iptc -o -t --all-progressive --stdout --keep-icc --all-huffman -f --strip-com -s --strip-Adobe --strip-xmp  @@
+jpegoptim --strip-jfxx -q --keep-exif -P --keep-Adobe -o --keep-iptc -n --all-arith -p --keep-icc -b -v --all-normal -f -s --keep-com --strip-xmp --nofix -m80  @@
+jpegoptim -q -dtemp -P -T50% -o -t -n -v -S50% --strip-exif --strip-com -s --keep-xmp --strip-Adobe --nofix -m80  @@
+jpegoptim --strip-jfxx --strip-iptc -o -n -b --all-huffman -f -s --keep-com --nofix  @@
+jpegoptim --strip-jfxx --keep-exif -o --keep-iptc -n --stdout -p -b -v --all-huffman -S50% -s --keep-com --keep-xmp --strip-Adobe --strip-icc  @@
+jpegoptim --strip-jfxx -q -P --keep-Adobe -T50% -o --keep-iptc -t --stdout --all-arith --keep-icc -v --all-normal -f --strip-exif --strip-com -s --keep-xmp --nofix  @@
+jpegoptim --strip-jfxx -dtemp --keep-Adobe -T50% --keep-iptc -t -n --stdout -p --keep-icc -b --all-huffman --strip-exif --keep-xmp -m80  @@
+jpegoptim -q --keep-exif -P --keep-Adobe -T50% --keep-iptc -t --all-progressive --stdout --all-arith -v -f --strip-com --strip-xmp -m80  @@
+jpegoptim --keep-exif -P --keep-Adobe -t -n --keep-icc --all-normal --all-huffman -f -s --keep-xmp -m80  @@
+jpegoptim -o --all-progressive --stdout --keep-icc -b -S50% --strip-exif --strip-com -s --keep-xmp --strip-Adobe  @@
+jpegoptim -P -T50% --keep-iptc -p -b --all-huffman --strip-exif --keep-com --keep-xmp --strip-Adobe --strip-icc --nofix -m80  @@
+jpegoptim -dtemp -o --keep-iptc -t -n --all-progressive --stdout --keep-icc --all-huffman -f -S50% --strip-exif --keep-com --strip-Adobe --strip-xmp --nofix -m80  @@
+jpegoptim -P -o --keep-iptc -n --stdout --all-arith -p -v --all-normal --strip-exif --strip-com -s --strip-Adobe --strip-icc --strip-xmp -m80  @@
+jpegoptim --strip-jfxx -dtemp -P --strip-iptc -n --all-progressive -p -v --all-huffman --strip-exif --keep-xmp --strip-Adobe --strip-icc  @@
+jpegoptim -q -o -t -n --stdout -p -v --all-normal --all-huffman -f -S50% --strip-none  @@
+jpegoptim -q --keep-Adobe -o -n --stdout --all-arith --keep-icc -v --all-normal -f -S50% --strip-com --strip-xmp --nofix  @@
+jpegoptim -T50% -o -t -n --all-progressive --stdout -f --strip-none --nofix -m80  @@
+jpegoptim --keep-exif -dtemp -P -o --keep-iptc -t --all-progressive --all-arith -p -s --keep-com --keep-xmp --strip-Adobe -m80  @@
+jpegoptim -q -dtemp -P -T50% --stdout --all-arith -b --all-normal -S50% --strip-none -m80  @@
+jpegoptim -q -dtemp -t -n --all-progressive -b -v --all-huffman -S50% --strip-none --nofix -m80  @@
+jpegoptim --strip-jfxx -q -P --keep-Adobe --strip-iptc -o -t --all-progressive --stdout --all-arith -p --strip-exif --keep-com --keep-xmp --strip-icc --nofix -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp --strip-iptc --stdout -p -v --all-normal --all-huffman --strip-com -s --keep-xmp --strip-Adobe --nofix  @@
+jpegoptim -q --strip-iptc -o -t --all-progressive -p --keep-icc --all-huffman --strip-exif -s --keep-com --strip-Adobe --strip-xmp  @@
+jpegoptim -q -P -T50% -t -n -b --all-normal --strip-none --nofix  @@
+jpegoptim -dtemp -P --keep-Adobe -o --keep-iptc -t --all-progressive --all-huffman -f -S50% --strip-exif -s --keep-com --keep-xmp --strip-icc --nofix  @@
+jpegoptim --strip-jfxx -dtemp -T50% --strip-iptc -o -t -n --all-progressive --stdout --all-arith --keep-icc -b -v --strip-exif -s --keep-com --keep-xmp --strip-Adobe --nofix  @@
+jpegoptim -q -dtemp -o -n --all-progressive --stdout -p --all-huffman -f --strip-none -m80  @@
+jpegoptim -q --keep-exif -dtemp -P --keep-Adobe --strip-iptc -o --stdout -p -b -v --all-normal --all-huffman -f --strip-com --keep-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx -q -dtemp -P --keep-Adobe --strip-iptc -o -n --stdout --all-arith --keep-icc -v --all-normal --strip-exif -s --keep-com -m80  @@
+jpegoptim -q --keep-exif --keep-Adobe -T50% -o --all-progressive -p --keep-icc --all-huffman -f -S50% --strip-com -s --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx -q -T50% -o --keep-iptc -n --all-progressive --stdout --all-arith -f --keep-xmp --strip-Adobe --nofix -m80  @@
+jpegoptim -q -dtemp -P -o --all-arith --all-normal --strip-none -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp -P --keep-Adobe -o --keep-iptc -n --all-progressive --stdout -v --all-huffman -S50% --strip-com -s --strip-icc --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx -P --keep-Adobe -T50% -t -n --all-progressive --stdout -p --keep-icc -b -v --all-huffman -S50% --strip-exif --strip-com -s --keep-xmp --nofix  @@
+jpegoptim -q --keep-exif --strip-iptc -o -t -p --all-normal --all-huffman -S50% --strip-com --keep-xmp --strip-Adobe --strip-icc --nofix -m80  @@
+jpegoptim --strip-jfxx -dtemp -P --keep-Adobe -T50% -o --keep-iptc -n --all-progressive --all-arith -p -v -f --strip-exif --strip-com --strip-icc --strip-xmp -m80  @@
+jpegoptim --strip-jfxx -q -dtemp --strip-iptc --all-progressive -p -b -v --all-huffman -f -S50% --strip-exif --strip-com -s --strip-icc --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx -q -P --keep-iptc --all-arith -p -b -v --all-normal --strip-exif -s --keep-com --strip-icc --strip-xmp -m80  @@
+jpegoptim --strip-jfxx -dtemp -P --keep-Adobe --strip-iptc -t --all-progressive --all-arith -b -v -f -s --keep-com --strip-xmp -m80  @@
+jpegoptim --strip-jfxx -q -dtemp --keep-Adobe -T50% -o --stdout -p -b --all-normal --all-huffman -S50% --strip-exif --strip-com -s --strip-icc --strip-xmp --nofix  @@
+jpegoptim -dtemp -P --keep-iptc -t --stdout --all-huffman --strip-exif --keep-com --keep-xmp --strip-icc --nofix -m80  @@
+jpegoptim --strip-jfxx -q -P --keep-Adobe --keep-iptc -n --stdout -p --keep-icc -b --all-huffman --strip-com -s -m80  @@
+jpegoptim -q -dtemp -o --stdout --keep-icc -v --all-normal --all-huffman -f -S50% --strip-exif -s --keep-com --strip-xmp --nofix  @@
+jpegoptim -dtemp -P -o -n --stdout -v --all-normal --all-huffman -f -S50% --strip-none --nofix  @@
+jpegoptim -dtemp --keep-Adobe -T50% --keep-iptc -n --all-progressive --all-arith --keep-icc -f --strip-exif -s --keep-com --strip-xmp -m80  @@
+jpegoptim --strip-jfxx -T50% --strip-iptc -t -n -p -b -v --all-huffman --strip-exif --strip-com -s --strip-Adobe --strip-icc --strip-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx -q -dtemp --strip-iptc -o -n --all-progressive --stdout -p -b -v --all-huffman --strip-exif --strip-com -s --strip-Adobe --strip-icc --strip-xmp -m80  @@
+jpegoptim -P --strip-iptc --stdout --all-arith -b -v --all-normal -f --strip-exif --strip-com -s --keep-xmp --strip-Adobe --strip-icc  @@
+jpegoptim -q -dtemp -P -T50% -o -t -n --all-progressive --all-arith -p -b --strip-none  @@
+jpegoptim --strip-jfxx --keep-exif -dtemp -P --keep-Adobe -T50% --keep-iptc -t --stdout --all-normal --all-huffman -f --strip-com --keep-xmp --strip-icc --nofix  @@
+jpegoptim -P --keep-Adobe -n --all-arith -b -v --strip-com -s --keep-xmp --strip-icc --nofix -m80  @@
+jpegoptim -q -dtemp -P --strip-iptc -b -v --all-normal --all-huffman -f -S50% --strip-com -s --keep-xmp --strip-Adobe --strip-icc --nofix -m80  @@
+jpegoptim --keep-exif -dtemp -P --keep-Adobe -t --stdout --all-arith -p -b -v --all-normal -f --keep-com --keep-xmp --strip-icc --nofix -m80  @@
+jpegoptim -q -n --stdout --all-normal --all-huffman -f --strip-none --nofix  @@
+jpegoptim -dtemp -P --strip-iptc -o -t --all-arith -b -f --strip-exif --strip-xmp --nofix -m80  @@
+jpegoptim -dtemp -o -n --all-progressive --all-arith -p -b -f -S50% --strip-none -m80  @@
+jpegoptim -q -dtemp -T50% --strip-iptc -o -t --stdout -p -v --all-normal --all-huffman -S50% --strip-exif --strip-com --strip-Adobe --strip-icc --strip-xmp -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp -P -T50% -n --stdout --all-arith -p -b -v --all-normal -s --keep-com --strip-Adobe --strip-icc  @@
+jpegoptim --strip-jfxx -q --keep-exif --keep-Adobe -T50% --strip-iptc -t --stdout --all-arith --keep-icc -b -v --all-normal -f -S50% --keep-com --keep-xmp -m80  @@
+jpegoptim -q -dtemp -P -o -n --all-progressive --all-arith -p -f --strip-none --nofix  @@
+jpegoptim -q -o -t -n --all-progressive --stdout -p --strip-none  @@
+jpegoptim --strip-jfxx -P -T50% --strip-iptc --stdout -v --all-huffman -S50% --strip-exif -s --keep-com --strip-Adobe --strip-icc --strip-xmp -m80  @@
+jpegoptim -q --keep-exif -P -o -t --stdout --all-arith -v -f --keep-com --strip-Adobe --strip-icc --strip-xmp -m80  @@
+jpegoptim -q --keep-exif -P --strip-iptc -o -t -n --all-progressive --stdout -p -v -f --keep-com --keep-xmp --strip-Adobe --strip-icc --nofix  @@
+jpegoptim -dtemp -P --keep-Adobe -t --all-progressive --all-arith -p --keep-icc -b -S50% --strip-exif --strip-com -s --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx -q --keep-exif --keep-Adobe -T50% --strip-iptc -o -t -n --stdout --all-arith -p -b -S50% --strip-com --strip-icc  @@
+jpegoptim --strip-jfxx -q -P --keep-Adobe -T50% --strip-iptc -o --stdout -p -v --all-normal --all-huffman -f -S50% --strip-com -s  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp -P -T50% -o --keep-iptc -t -n --all-progressive --keep-icc -v --all-huffman -S50% -s --strip-Adobe --strip-xmp --nofix -m80  @@
+jpegoptim -q --keep-exif -dtemp -P --strip-iptc -o -n --all-progressive --all-arith -v -f -s --keep-com --strip-Adobe --strip-xmp --nofix  @@
+jpegoptim -q -T50% --strip-iptc -o -t --all-arith -p -b --all-normal -f --strip-exif -s --keep-com --strip-Adobe --nofix -m80  @@
+jpegoptim -q -dtemp --keep-Adobe --strip-iptc -n --stdout -p --keep-icc -b -v --all-normal --strip-exif --strip-com -s --keep-xmp -m80  @@
+jpegoptim --keep-exif -dtemp -P --strip-iptc -t -n -b -v --all-huffman --strip-com -s --strip-Adobe --strip-icc --nofix  @@
+jpegoptim --strip-jfxx -q -dtemp -P -T50% --keep-iptc -n --keep-icc -b --all-normal --all-huffman -S50% --strip-exif --strip-com --strip-Adobe --strip-xmp --nofix -m80  @@
+jpegoptim -q -P -t -n -v --all-normal --all-huffman -f -S50% -s --keep-com --strip-Adobe --strip-icc --strip-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp --keep-Adobe --strip-iptc -o -n --stdout --keep-icc -v --all-huffman -f -S50% --keep-com --keep-xmp --nofix  @@
+jpegoptim -q -dtemp -o -n --all-arith -p -v --all-normal --strip-none -m80  @@
+jpegoptim --strip-jfxx -T50% --all-progressive --stdout --all-arith -S50% --strip-exif --keep-com --strip-Adobe --strip-icc --strip-xmp  @@
+jpegoptim -o --keep-iptc -t -n --all-progressive --stdout -p --keep-icc --all-huffman -f --strip-exif --strip-com -s --keep-xmp  @@
+jpegoptim --strip-jfxx --strip-iptc -o -b --all-normal --all-huffman -f -S50% --strip-exif --strip-icc --strip-xmp -m80  @@
+jpegoptim -dtemp -P -o -b -f --strip-none --nofix -m80  @@
+jpegoptim -q -dtemp --keep-iptc --all-arith -p --keep-icc -b -v --all-normal -S50% --strip-exif --strip-com --keep-xmp --strip-Adobe -m80  @@
+jpegoptim -q --keep-exif -T50% -o --keep-iptc -t -n --all-arith -p --keep-icc -b -v --all-normal -S50% --strip-com --keep-xmp --strip-Adobe  @@
+jpegoptim --strip-jfxx -q --keep-exif -P -o -n --all-progressive --stdout -S50% -s --keep-com --keep-xmp --strip-icc -m80  @@
+jpegoptim --keep-exif --keep-Adobe -T50% -n --all-progressive --all-arith -p --strip-com -s --keep-xmp --strip-icc --nofix  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp -P -o --keep-iptc --stdout -p -v --all-huffman --strip-com -s --keep-xmp --strip-Adobe --strip-icc --nofix -m80  @@
+jpegoptim -dtemp --keep-Adobe -T50% -o --keep-iptc -n -p --keep-icc --all-normal -f -S50% --strip-exif --strip-com -s --strip-xmp --nofix -m80  @@
+jpegoptim -q -dtemp -P -T50% -t -n --all-progressive --stdout --all-arith -b -f --strip-none --nofix -m80  @@
+jpegoptim --strip-jfxx -q -dtemp --keep-Adobe --keep-iptc -t -n --all-progressive --stdout --all-arith -p -f -m80  @@
+jpegoptim -P -T50% -o -n --stdout --all-arith -b -v -S50% --strip-none --nofix  @@
+jpegoptim -q --keep-exif -P --keep-iptc --all-progressive --stdout -p --keep-icc -b --all-huffman --strip-com -s --keep-xmp --strip-Adobe --nofix -m80  @@
+jpegoptim --strip-jfxx --keep-exif --keep-iptc -t --stdout --all-arith -b -v --all-normal -S50% --keep-com --strip-icc -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp --keep-iptc --all-progressive --keep-icc --all-huffman -s --strip-Adobe --strip-xmp -m80  @@
+jpegoptim -dtemp -P --keep-Adobe --strip-iptc -t --all-progressive --stdout --all-arith -b -v -s --keep-com --keep-xmp --strip-icc  @@
+jpegoptim --strip-jfxx -P --keep-Adobe --strip-iptc -t --stdout -p --keep-icc -b --all-normal --all-huffman --strip-exif --keep-com --strip-xmp --nofix -m80  @@
+jpegoptim -q -t -n -p --all-normal --all-huffman -f -S50% --strip-none --nofix -m80  @@
+jpegoptim -q -T50% --strip-iptc -t -n --all-progressive -p -b --all-huffman -f -S50% --strip-exif --strip-com -s --keep-xmp --strip-Adobe --strip-icc --nofix  @@
+jpegoptim -q -dtemp -P -T50% --strip-iptc -o -t -n --stdout --all-arith -b -v --all-normal -S50% --keep-com --strip-Adobe --strip-icc --strip-xmp  @@
+jpegoptim -P --stdout --all-arith -p --strip-none --nofix  @@
+jpegoptim -q -dtemp --keep-Adobe -T50% --strip-iptc -p --keep-icc -b -v --all-huffman --strip-exif --keep-com --strip-xmp --nofix -m80  @@
+jpegoptim -dtemp -P --strip-iptc -o -n --all-arith --all-normal -f --strip-exif --strip-com --keep-xmp --strip-icc -m80  @@
+jpegoptim -q -P --keep-Adobe --keep-iptc -n --stdout -p --keep-icc -v --all-normal -f -S50% --keep-com --keep-xmp -m80  @@
+jpegoptim -q -T50% --all-progressive --stdout -p -b -v -f --strip-none  @@
+jpegoptim --strip-jfxx --keep-exif -dtemp -T50% --strip-iptc -o -t -n -p -b -v --all-normal --strip-com -s --strip-Adobe --strip-icc --strip-xmp  @@
+jpegoptim -q --keep-exif -P --keep-Adobe -T50% --strip-iptc -n --all-progressive -p --all-huffman -f --strip-com --strip-icc --strip-xmp --nofix -m80  @@
+jpegoptim --keep-exif --keep-Adobe -T50% --keep-iptc -t -n -p -b -v --all-normal -f -S50% --strip-com --strip-icc --strip-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx --keep-Adobe -o --keep-iptc --all-progressive --stdout --all-arith --keep-icc -b -f -S50% --strip-exif -s --keep-com --keep-xmp -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif -T50% -o -t -n --all-arith --keep-icc -b --all-normal -f -S50% -s --keep-com --strip-Adobe --strip-xmp  @@
+jpegoptim --strip-jfxx --keep-exif --keep-Adobe -o -t --all-progressive --stdout --keep-icc --all-huffman -f -s --keep-com --keep-xmp --nofix  @@
+jpegoptim -q -T50% --keep-iptc -n --all-progressive --stdout -p --keep-icc --all-huffman -S50% --strip-exif --keep-com --keep-xmp --nofix -m80  @@
+jpegoptim --keep-exif -P --keep-Adobe --keep-iptc --all-progressive --stdout -p --all-huffman -S50% -s --keep-com --nofix -m80  @@
+jpegoptim --keep-exif -dtemp --keep-Adobe -T50% -o --keep-iptc --all-progressive --stdout -b -f -S50% --strip-com --strip-icc  @@
+jpegoptim --strip-jfxx --keep-exif -dtemp -T50% -t -p --keep-icc -v --all-normal --all-huffman -S50% --keep-com --strip-Adobe --strip-xmp -m80  @@
+jpegoptim -q --keep-exif -dtemp -T50% --keep-iptc -t --all-progressive --all-arith -b -s --keep-com --strip-Adobe --strip-icc --strip-xmp --nofix  @@
+jpegoptim -q --keep-Adobe -T50% -o --keep-iptc -t --all-arith -p --keep-icc --all-normal -S50% --strip-exif --strip-com  @@
+jpegoptim --strip-jfxx -q -dtemp -T50% --keep-iptc -t -n --all-progressive -p --keep-icc -b -v --all-huffman -S50% --strip-exif --keep-com --strip-xmp  @@
+jpegoptim --strip-jfxx --keep-Adobe --strip-iptc -o -t -n --all-arith -p --keep-icc --all-normal -f -S50% --strip-exif -s --keep-com --keep-xmp  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp --strip-iptc -o --stdout -p -b -v --all-normal -f -S50% -s --keep-com --strip-Adobe  @@
+jpegoptim --strip-jfxx -q -P --strip-iptc -o -t --all-normal --all-huffman -f --strip-exif --strip-Adobe --strip-icc --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx -P -T50% --strip-iptc -t -n --all-progressive --keep-icc -b -v --all-huffman -f -S50% --strip-exif -s --keep-com --strip-Adobe --strip-xmp -m80  @@
+jpegoptim -q --keep-exif --keep-Adobe -o --keep-iptc -t --all-progressive --strip-com --keep-xmp  @@
+jpegoptim -T50% -t --all-progressive --stdout --all-arith -p -b -v -S50% --strip-none --nofix -m80  @@
+jpegoptim --strip-jfxx --keep-exif -dtemp -P --keep-Adobe -o --keep-iptc -t -n --all-progressive --stdout -v --all-huffman -f --keep-com --strip-icc --strip-xmp -m80  @@
+jpegoptim --strip-jfxx -q -dtemp --keep-Adobe -T50% --strip-iptc -n -p --strip-exif --strip-com --keep-xmp --strip-icc --nofix  @@
+jpegoptim -q -dtemp -P -T50% -n --all-progressive --stdout -b --all-huffman -f -S50% --strip-none  @@
+jpegoptim --strip-jfxx -q -P -o --keep-iptc -t -n --all-progressive --stdout --all-arith --keep-icc -v --strip-exif --strip-com -s --strip-Adobe --strip-xmp --nofix -m80  @@
+jpegoptim -q -P -T50% -t --stdout -v --all-normal --all-huffman --strip-none -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif --keep-Adobe --strip-iptc -o -t -n --stdout --keep-icc --all-normal --all-huffman -f --strip-com --strip-xmp -m80  @@
+jpegoptim -P --strip-iptc -t -n --stdout -p -b --all-normal --all-huffman -s --keep-xmp --strip-icc --nofix -m80  @@
+jpegoptim --strip-jfxx -q -dtemp -P --strip-iptc -o -t --stdout --all-arith --all-normal -f -S50% --strip-exif -s --keep-com --keep-xmp --strip-Adobe --strip-icc --nofix -m80  @@
+jpegoptim --strip-jfxx --keep-exif -T50% -o --keep-iptc --keep-icc -v --all-huffman -f --strip-com -s --keep-xmp --strip-Adobe  @@
+jpegoptim -q -dtemp -P --keep-iptc -t -n --all-progressive --stdout -p --all-huffman -S50% --strip-exif --strip-com -s --strip-Adobe --nofix -m80  @@
+jpegoptim -T50% --strip-iptc -o -n --stdout -p -v --all-normal --all-huffman -f -S50% --strip-exif -s --keep-com --keep-xmp --nofix  @@
+jpegoptim -P -T50% --strip-iptc --all-progressive --stdout --keep-icc -f --keep-com --keep-xmp --nofix  @@
+jpegoptim --strip-jfxx --keep-exif -dtemp -P --strip-iptc --stdout -v --all-normal --all-huffman -S50% --strip-com -s --strip-xmp -m80  @@
+jpegoptim --strip-jfxx -q -dtemp -P -T50% --strip-iptc -t -n --keep-icc -b -v -S50% --strip-exif --strip-com -s --keep-xmp --strip-Adobe  @@
+jpegoptim -n --all-arith -S50% --strip-none --nofix -m80  @@
+jpegoptim --strip-jfxx -q --strip-iptc -t -b -v --all-normal -S50% --strip-exif -s --keep-com --keep-xmp --strip-Adobe --strip-icc -m80  @@
+jpegoptim -dtemp -T50% -o --all-progressive --stdout --all-arith -b -S50% --strip-none --nofix  @@
+jpegoptim --strip-jfxx -dtemp -P -t --all-progressive --stdout --all-arith -S50% --strip-exif -s --strip-Adobe --strip-xmp  @@
+jpegoptim --strip-jfxx -dtemp -T50% --keep-iptc -t -n -p -b --all-normal --strip-exif -s --keep-com --strip-icc --strip-xmp --nofix -m80  @@
+jpegoptim --keep-Adobe --keep-iptc -t --all-progressive --stdout --all-arith -p --keep-icc -v -f --strip-exif -s --keep-com --nofix  @@
+jpegoptim --strip-jfxx -dtemp -P -o --keep-iptc --all-arith --all-normal -f --strip-exif --strip-com --keep-xmp --strip-Adobe --strip-icc -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif -P --keep-Adobe --strip-iptc -t -n --stdout --all-arith -p -b -v --all-normal -f --strip-com -s --strip-icc --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx -P --keep-Adobe -T50% --strip-iptc -t -n --stdout -b --all-normal -f --strip-com -s --strip-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif --keep-iptc -t -n --stdout --all-arith --keep-icc -v -S50% --strip-Adobe --strip-xmp -m80  @@
+jpegoptim --keep-exif --keep-Adobe -T50% -n --all-arith -p -b --all-normal -f --keep-com --strip-icc --nofix -m80  @@
+jpegoptim --strip-jfxx -q -T50% --keep-iptc -t --stdout --all-arith -p --keep-icc -v --all-normal -f --strip-com -s --strip-Adobe --strip-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx -dtemp -T50% -p --keep-icc -v --all-normal -f --keep-com --strip-Adobe --strip-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx --keep-Adobe -T50% --strip-iptc -o -n --stdout -p --keep-icc --all-normal --strip-exif --nofix -m80  @@
+jpegoptim --strip-jfxx --keep-exif -T50% -o --keep-iptc --stdout --all-arith -v --all-normal -S50% -s --keep-xmp --strip-Adobe --strip-icc  @@
+jpegoptim --strip-jfxx --keep-exif -P --strip-iptc -t -n --stdout --all-arith -p -b -f --keep-com --strip-Adobe --strip-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif -P --keep-Adobe --strip-iptc -n --all-progressive -p -b --all-huffman --keep-com --strip-xmp --nofix -m80  @@
+jpegoptim -q --keep-exif --keep-Adobe -T50% --keep-iptc --stdout -p --keep-icc -b -v --all-normal --all-huffman -S50% -s --keep-com --keep-xmp -m80  @@
+jpegoptim --strip-jfxx -q -o --keep-iptc -t --all-arith --keep-icc -v --all-normal -f --strip-exif --keep-com --strip-Adobe --strip-xmp  @@
+jpegoptim --keep-exif -dtemp -T50% -o --keep-iptc -t -n --all-progressive --all-arith -p -b -v -S50% --keep-com --keep-xmp --strip-Adobe --strip-icc --nofix  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp -P --keep-Adobe -T50% -t -n --all-progressive -b -v --all-huffman -f -S50% --strip-com -s --strip-icc --strip-xmp -m80  @@
+jpegoptim --strip-jfxx -dtemp -P -T50% --strip-iptc -o --stdout --all-arith --keep-icc -b --all-normal -f -S50% --strip-exif --keep-com --strip-xmp  @@
+jpegoptim --strip-jfxx --keep-exif -P --keep-iptc -n --all-arith -p --keep-icc -v -f -S50% --keep-com --keep-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx -dtemp --keep-Adobe --strip-iptc -n --stdout --all-arith -p --keep-icc -b --all-normal -f --strip-exif --strip-com --keep-xmp --nofix -m80  @@
+jpegoptim -q -dtemp -P -o --keep-iptc -n --stdout --all-arith -p --keep-icc -b --all-normal -f --strip-exif -s --keep-com --keep-xmp --strip-Adobe --nofix  @@
+jpegoptim -dtemp -P --keep-Adobe -n --all-arith --keep-icc -b --all-normal -S50% --strip-exif --strip-com --keep-xmp -m80  @@
+jpegoptim -P -t -n --all-progressive --stdout --all-arith -p -S50% --strip-none -m80  @@
+jpegoptim -q -P -T50% -o --all-progressive --stdout -b --strip-none --nofix -m80  @@
+jpegoptim --strip-jfxx --keep-exif -dtemp --keep-Adobe -T50% --strip-iptc -o -t -n --all-progressive --stdout -p --keep-icc -b -f -s --keep-com --keep-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx -P --keep-Adobe -T50% --strip-iptc -o --all-progressive --stdout -v --all-huffman -f -S50% --strip-com --strip-xmp --nofix  @@
+jpegoptim -q -o -t -n --all-progressive --stdout --all-arith -b -f -S50% --strip-none --nofix -m80  @@
+jpegoptim -q --keep-Adobe -T50% -o -t -p -b -v --all-huffman -f --strip-exif --strip-com --keep-xmp --strip-icc --nofix -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif -o --keep-iptc --stdout -p --keep-icc -b -v --all-normal --all-huffman -f --strip-xmp --nofix -m80  @@
+jpegoptim -o -n --all-progressive --stdout --all-arith -v --strip-none  @@
+jpegoptim -P -o -n -b -v --all-normal -S50% --strip-none -m80  @@
+jpegoptim -T50% -t --all-progressive --stdout -b --all-huffman -S50% --strip-exif --strip-com -s --strip-Adobe --strip-icc --strip-xmp --nofix -m80  @@
+jpegoptim -dtemp -P -T50% --strip-iptc -o --stdout --all-arith -p --keep-icc -v --all-normal -S50% --keep-com --keep-xmp --strip-Adobe --nofix -m80  @@
+jpegoptim -dtemp -T50% -t --all-progressive --stdout --all-arith -p -f -S50% --strip-none  @@
+jpegoptim --keep-iptc -t -n --keep-icc -b -v --all-normal --all-huffman --strip-exif --strip-com -s --strip-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp -P -T50% --strip-iptc -t -n --stdout -p -b --all-normal -S50% --strip-com -s --keep-xmp --strip-Adobe --strip-icc  @@
+jpegoptim --strip-jfxx --keep-exif -dtemp -P -T50% --keep-iptc -t -n --all-arith --keep-icc -b -v --all-normal -S50% --strip-com -s --strip-Adobe --strip-xmp  @@
+jpegoptim --strip-jfxx -q -dtemp -P -T50% --strip-iptc -o -t -n --stdout -p --keep-icc -v --all-normal --all-huffman --keep-com --strip-Adobe  @@
+jpegoptim -dtemp -P -T50% -t -n --stdout --all-normal --all-huffman -S50% --strip-none -m80  @@
+jpegoptim -q -P -T50% -t -n --stdout -p -b -v -f -S50% --strip-none -m80  @@
+jpegoptim --strip-jfxx -dtemp -P -o --keep-iptc -n --all-progressive -p --keep-icc -v -S50% --strip-exif --strip-com --keep-xmp --strip-Adobe --nofix -m80  @@
+jpegoptim --strip-jfxx -dtemp -P --strip-iptc -o -t --stdout --keep-icc --all-normal --all-huffman -S50% --strip-exif -s --keep-com --keep-xmp --strip-Adobe  @@
+jpegoptim --strip-jfxx --keep-exif -dtemp -T50% -t -n -p -b -v --all-normal -f --strip-com --keep-xmp --nofix  @@
+jpegoptim -q -dtemp -P -T50% -o -n --stdout --all-normal -f --strip-none  @@
+jpegoptim -dtemp -o -n --all-progressive --stdout -p -v -S50% --strip-none --nofix  @@
+jpegoptim --strip-jfxx --keep-exif --strip-iptc --all-progressive --stdout --all-arith -p -s --keep-com --strip-Adobe --strip-icc --nofix  @@
+jpegoptim -q --keep-exif -dtemp -T50% -o --keep-iptc -b --all-huffman -f --strip-com -s --strip-icc --strip-xmp -m80  @@
+jpegoptim -o --keep-iptc -t -n --stdout --keep-icc --all-huffman --strip-exif --strip-com --keep-xmp --strip-Adobe --nofix  @@
+jpegoptim --strip-jfxx -q -dtemp --keep-Adobe -o -n --all-progressive --all-arith -p --strip-exif --keep-com --strip-icc  @@
+jpegoptim --strip-jfxx -dtemp -P -T50% -o -t --all-arith -p --keep-icc -b -v --all-normal --strip-exif -s --keep-com --keep-xmp --nofix  @@
+jpegoptim -q --keep-Adobe --strip-iptc -o -t -n --all-progressive --stdout -p -b -v --all-huffman --strip-com --keep-xmp --strip-icc --nofix  @@
+jpegoptim --keep-exif --keep-Adobe -T50% -o --keep-iptc -t --stdout --all-arith -p -b -f -S50% -s --keep-xmp --nofix -m80  @@
+jpegoptim -q --keep-exif -dtemp -T50% -o --keep-iptc -t -n -b --all-normal -f -S50% --strip-com -s --strip-Adobe --strip-xmp --nofix  @@
+jpegoptim --keep-exif -T50% --strip-iptc -p --keep-icc -v --all-huffman -S50% --strip-com --strip-Adobe -m80  @@
+jpegoptim --strip-jfxx -P -T50% --strip-iptc -o -t -n --stdout --all-normal --strip-exif -s --strip-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx --keep-exif -P -T50% --strip-iptc -o -n --stdout -p --keep-icc -b -v -f --strip-com --keep-xmp --strip-Adobe  @@
+jpegoptim -q -dtemp -P --all-normal --all-huffman -S50% --strip-none --nofix -m80  @@
+jpegoptim --keep-iptc -n --all-arith -p -v --all-normal -f --strip-exif --strip-com --strip-Adobe --strip-icc --strip-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx --keep-exif -dtemp -T50% --keep-iptc --all-progressive --stdout -p --keep-icc -v --all-huffman -f -S50% -s --keep-xmp --strip-Adobe  @@
+jpegoptim --strip-jfxx -dtemp --keep-Adobe --strip-iptc -o -t -n -b --all-huffman --strip-com --strip-icc --strip-xmp  @@
+jpegoptim --keep-exif -T50% --keep-iptc -n --stdout -p -v --all-normal --all-huffman -f --strip-com --strip-icc --nofix  @@
+jpegoptim -q -dtemp -P -T50% --keep-iptc -b -v --all-normal --strip-exif --keep-com --strip-Adobe --strip-icc --nofix -m80  @@
+jpegoptim --strip-jfxx --keep-exif -dtemp --strip-iptc -t --stdout --keep-icc --all-normal -f -S50% --strip-com --strip-xmp --nofix  @@
+jpegoptim -q -dtemp -P -T50% --strip-iptc --stdout --all-arith -p --all-normal --strip-exif --strip-com -s --strip-Adobe --strip-icc --strip-xmp  @@
+jpegoptim -q -dtemp -n --stdout -p -b --all-normal --all-huffman -f -S50% --strip-exif -s --keep-com --keep-xmp --strip-icc --nofix -m80  @@
+jpegoptim -P --keep-Adobe -T50% --strip-iptc -o -t --all-progressive --stdout -b -v -S50% --strip-exif --keep-com -m80  @@
+jpegoptim -q -dtemp -P -T50% -o -t -n --stdout -p -v --all-normal --all-huffman --strip-none  @@
+jpegoptim -P -T50% --strip-iptc -o -t -n --all-arith -b --all-normal -S50% --strip-exif --strip-com --keep-xmp --strip-Adobe --strip-icc -m80  @@
+jpegoptim -dtemp -P -T50% --strip-iptc -t -n -p -b -v -f -S50% --strip-exif --keep-com --keep-xmp --strip-icc -m80  @@
+jpegoptim -P -T50% --strip-iptc --stdout -p -b --all-normal --all-huffman -f -S50% --strip-com --strip-Adobe --strip-icc --nofix  @@
+jpegoptim -q -T50% --keep-iptc -t --all-progressive -b -v --all-huffman --strip-exif -s --strip-Adobe --strip-xmp  @@
+jpegoptim -q -T50% --strip-iptc -o --stdout --keep-icc -b -v --all-huffman --strip-exif --keep-com --keep-xmp --strip-Adobe --nofix  @@
+jpegoptim -q --keep-exif -dtemp --keep-Adobe -t -n -p --keep-icc -v --all-normal --all-huffman -f -S50% --strip-com -s --keep-xmp --nofix  @@
+jpegoptim -q --keep-exif --strip-iptc -o --stdout --all-arith -p --keep-icc -v --all-normal -s --keep-com --keep-xmp -m80  @@
+jpegoptim -P -T50% --strip-iptc -t --all-arith -b -S50% -s --keep-com --strip-Adobe --strip-icc --strip-xmp --nofix  @@
+jpegoptim -dtemp --keep-Adobe -o --keep-iptc -t --all-arith -p -b -v --strip-exif --strip-com -s --keep-xmp --strip-icc --nofix -m80  @@
+jpegoptim -P -T50% -o -t --stdout --all-huffman -f -S50% --strip-none  @@
+jpegoptim --strip-jfxx -q -dtemp -n --stdout --all-arith -b -f --keep-com --keep-xmp --strip-icc  @@
+jpegoptim -q -dtemp -P --keep-iptc -p -b --all-normal -f -S50% --strip-exif --strip-com -s --strip-icc  @@
+jpegoptim --strip-jfxx --keep-exif -dtemp -P --keep-Adobe -t -n --all-arith --keep-icc -v --all-normal --strip-com --strip-xmp --nofix -m80  @@
+jpegoptim -q -P --keep-Adobe -t -n --all-progressive --stdout --all-arith -v -S50% --strip-exif --keep-com --strip-xmp  @@
+jpegoptim -q -dtemp -P --keep-Adobe -T50% --keep-iptc --all-arith -p --all-normal -f --strip-exif --strip-com -s --keep-xmp -m80  @@
+jpegoptim --keep-Adobe -T50% --strip-iptc -o -t --all-progressive --stdout --keep-icc -b --all-huffman -f -S50% --strip-exif --strip-xmp --nofix  @@
+jpegoptim -dtemp -P --keep-Adobe -T50% -o --keep-iptc -t -p --all-huffman -S50% --strip-exif --strip-com --strip-icc --strip-xmp  @@
+jpegoptim --keep-exif -P -T50% --strip-iptc -t --all-arith --keep-icc -b --all-normal -S50% -s --keep-com --keep-xmp --strip-Adobe  @@
+jpegoptim --strip-jfxx -q -dtemp -P -T50% --all-arith --keep-icc -v --all-normal -f -S50% --strip-exif --strip-Adobe --nofix  @@
+jpegoptim --strip-jfxx -q --keep-exif -P --strip-iptc -o -t -n --stdout --all-arith --all-normal -S50% --strip-com --strip-Adobe --strip-icc --strip-xmp  @@
+jpegoptim -q -T50% -o -t -b --all-normal --all-huffman --strip-none --nofix -m80  @@
+jpegoptim --strip-jfxx -dtemp --keep-Adobe -T50% --strip-iptc -o -t --all-arith --all-normal -f --strip-exif --keep-com --strip-icc --strip-xmp  @@
+jpegoptim --strip-jfxx -P --keep-Adobe -T50% --keep-iptc -t -n --all-arith -p --keep-icc --all-normal -f -S50% --strip-exif --keep-xmp  @@
+jpegoptim -dtemp --keep-Adobe -o --keep-iptc --all-progressive -p --keep-icc -b -v --all-huffman --strip-exif -s -m80  @@
+jpegoptim --strip-jfxx -q -dtemp -P -T50% --keep-iptc --stdout --all-arith --keep-icc -b -v --all-normal -f -S50% --strip-exif --keep-com --strip-Adobe --strip-xmp --nofix  @@
+jpegoptim -q -dtemp -T50% --all-progressive --all-arith -b -v --strip-none -m80  @@
+jpegoptim --keep-exif -dtemp -T50% -o --stdout --all-arith -p --keep-icc --strip-com --strip-Adobe --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx -q -P --keep-Adobe -T50% --keep-iptc -t -b -v --all-normal --all-huffman -f -S50% -s --keep-com --keep-xmp --strip-icc  @@
+jpegoptim -dtemp -T50% -t -n --all-progressive --all-arith -p --keep-icc -b -v -f -S50% --strip-exif --strip-Adobe --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx -P --all-progressive --all-arith -f -S50% --strip-exif --strip-com --strip-icc --strip-xmp --nofix -m80  @@
+jpegoptim -q --keep-exif -dtemp --keep-Adobe -T50% --keep-iptc --all-arith -p --keep-icc --all-normal -f --strip-xmp --nofix -m80  @@
+jpegoptim --keep-exif -dtemp -o --keep-iptc -t -n --all-arith -v --all-normal -f -s --keep-com --strip-Adobe --strip-icc  @@
+jpegoptim -q -P -o --all-progressive --all-arith -p -b -v -S50% --strip-none --nofix -m80  @@
+jpegoptim -q -P -n -p -v --all-huffman --strip-none  @@
+jpegoptim --strip-jfxx --strip-iptc -n --stdout -b -v --all-huffman -f --strip-exif -s --keep-com  @@
+jpegoptim -q -P --keep-Adobe -T50% --strip-iptc -t --all-progressive --stdout --all-arith -v --strip-exif --strip-com -s --strip-icc --strip-xmp  @@
+jpegoptim --strip-jfxx --keep-exif --keep-Adobe -T50% --keep-iptc -t -n --all-arith -b -v --all-normal -f -s --keep-com --keep-xmp -m80  @@
+jpegoptim --stdout -p --all-normal -S50% --strip-none  @@
+jpegoptim --strip-jfxx -q -T50% -o --keep-iptc --all-arith -p --all-normal -f -S50% --strip-com -s --strip-xmp  @@
+jpegoptim -dtemp -T50% --strip-iptc -o -t -p -b -v --all-normal --all-huffman -S50% --strip-exif -s --keep-com --strip-Adobe --strip-icc  @@
+jpegoptim -q --keep-exif -dtemp -P --strip-iptc -t --all-progressive --keep-icc --all-huffman --strip-com -s --strip-Adobe --strip-xmp  @@
+jpegoptim --strip-jfxx -q -P --keep-iptc -n --stdout -v --all-normal -f --strip-exif --strip-com --keep-xmp --strip-Adobe -m80  @@
+jpegoptim --strip-jfxx -dtemp --keep-Adobe -T50% -o --keep-iptc -t --stdout -v --all-normal --all-huffman --strip-exif -s --keep-com --strip-xmp  @@
+jpegoptim --strip-jfxx -dtemp --keep-Adobe -T50% --strip-iptc -t -n --all-progressive --stdout -b -v -f -S50% --strip-exif --keep-xmp --strip-icc -m80  @@
+jpegoptim --strip-jfxx -dtemp --keep-iptc -t -n --stdout --all-arith -p -b --all-normal -f -S50% --strip-exif --strip-com -s --strip-icc --nofix  @@
+jpegoptim --strip-jfxx -q -dtemp -P --keep-iptc -t -n --stdout -p -v --all-normal --all-huffman --strip-com -s --keep-xmp --strip-Adobe --strip-icc  @@
+jpegoptim --keep-Adobe --keep-iptc --stdout -v --all-normal --all-huffman --strip-exif --strip-com --strip-icc --strip-xmp -m80  @@
+jpegoptim --keep-exif -dtemp -P --keep-iptc -t --stdout --keep-icc -b --all-huffman -f -s --keep-com --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx --keep-exif -dtemp -P -T50% --strip-iptc -o -t -p -b --all-normal --all-huffman -f -S50% -s --keep-xmp --strip-Adobe --nofix  @@
+jpegoptim --keep-Adobe --strip-iptc -p -b --all-normal --all-huffman -S50% --strip-exif -s --keep-xmp  @@
+jpegoptim --strip-jfxx -P --keep-Adobe -T50% --strip-iptc -o -n --stdout --all-arith -p --keep-icc -b -v --all-normal -S50% --strip-exif --strip-com --strip-xmp -m80  @@
+jpegoptim -dtemp -P --strip-iptc --all-arith -b -v --all-normal -S50% --strip-exif --keep-com --strip-icc --strip-xmp -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp -T50% -o --keep-iptc -n --stdout --all-arith --all-normal -f --strip-com -s --keep-xmp --strip-Adobe --strip-icc  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp -T50% -t -n --all-arith -p -s --keep-com --keep-xmp  @@
+jpegoptim -q -dtemp --all-progressive --stdout -p -v --all-huffman --strip-none -m80  @@
+jpegoptim --keep-exif -dtemp --keep-Adobe -T50% --strip-iptc -n --all-arith -v --all-normal -f -S50% -s --keep-com --keep-xmp --strip-icc  @@
+jpegoptim -q -T50% -n --stdout -p -v --all-normal --all-huffman -S50% --strip-none --nofix  @@
+jpegoptim --strip-jfxx -q -P --strip-iptc -t -n --all-progressive --all-arith -p --keep-icc -S50% --strip-exif --keep-com --keep-xmp --nofix  @@
+jpegoptim -q -dtemp -t --stdout -b --all-huffman -f --strip-none --nofix  @@
+jpegoptim --strip-jfxx --keep-exif -T50% --strip-iptc -n --stdout --all-arith -p --keep-icc -v --all-normal -S50% --keep-com --strip-Adobe --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx --keep-exif --keep-Adobe -T50% --keep-iptc -n -p --all-huffman --strip-com --strip-icc --strip-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx --keep-exif -T50% --keep-iptc -n --all-progressive --stdout --keep-icc -b --all-huffman --keep-com --strip-Adobe --nofix  @@
+jpegoptim -P --keep-Adobe --strip-iptc -o -t -n --stdout -p -v --all-normal -f --strip-exif --strip-com -s --keep-xmp --strip-icc  @@
+jpegoptim -dtemp -P -o -p -b --all-normal --all-huffman -f --strip-none -m80  @@
+jpegoptim -T50% -o --keep-iptc -t -n --stdout -p --keep-icc -b --all-normal --all-huffman -S50% --strip-exif --keep-com --keep-xmp --strip-Adobe -m80  @@
+jpegoptim --strip-jfxx -q -P --keep-Adobe -o --keep-iptc -n -p --keep-icc -f --strip-exif --strip-com -s --strip-xmp  @@
+jpegoptim -T50% -t -n --stdout --all-arith --all-normal -f -S50% --strip-none --nofix  @@
+jpegoptim --keep-exif -dtemp --keep-Adobe --keep-iptc -n --stdout --all-arith -v -S50% --strip-com -s --strip-icc --strip-xmp  @@
+jpegoptim -q --keep-exif -dtemp -P -T50% -o --keep-iptc -t -n -p --keep-icc -v -s --keep-com --strip-Adobe --strip-xmp -m80  @@
+jpegoptim -dtemp -P --keep-Adobe -T50% -o -t -n --stdout --keep-icc -b -v --all-normal -f -s --keep-com --strip-xmp  @@
+jpegoptim --keep-exif -dtemp -T50% -n -p --all-normal -s --keep-com --strip-Adobe --strip-xmp -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif -P -T50% --strip-iptc -t -n --stdout -v --all-normal --all-huffman -s --strip-Adobe --strip-icc --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp --keep-Adobe -t -b -v --all-normal -S50% --keep-com --strip-icc --strip-xmp  @@
+jpegoptim -q -dtemp -T50% -o -n --all-progressive -p --strip-none  @@
+jpegoptim -q -P -T50% -o --keep-iptc -n --stdout --all-arith -p -b -v --all-normal -f -s --keep-com --keep-xmp --strip-Adobe --strip-icc -m80  @@
+jpegoptim --strip-jfxx -q --keep-Adobe -o -n --all-progressive --stdout -p -f -S50% --strip-com --keep-xmp -m80  @@
+jpegoptim -q -P -n --stdout --all-arith -p -b -v --all-normal -f -S50% --strip-none --nofix -m80  @@
+jpegoptim -q -dtemp -P --strip-iptc -t -v --all-normal --all-huffman -f --strip-exif -s --keep-com --strip-icc --nofix -m80  @@
+jpegoptim --strip-jfxx --keep-exif -P --keep-Adobe -T50% --keep-iptc --stdout --all-normal --all-huffman -f -S50% --keep-com --keep-xmp --strip-icc --nofix -m80  @@
+jpegoptim -q -T50% -o --stdout -p -b --all-normal --all-huffman -f --strip-none --nofix  @@
+jpegoptim --strip-jfxx -dtemp -P --keep-Adobe --strip-iptc -t -p -v --all-normal --all-huffman -S50% --strip-com --strip-icc --strip-xmp  @@
+jpegoptim --strip-jfxx -q -dtemp -P --keep-Adobe -o --keep-iptc -t -n --all-progressive --stdout -p -b --all-huffman -f -S50% --strip-com -s --strip-icc --strip-xmp -m80  @@
+jpegoptim --strip-jfxx -q -T50% -o --keep-iptc --stdout --all-arith -p --keep-icc -b -S50% --strip-exif -s --keep-com --strip-Adobe --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx -q -P --strip-iptc -o -t --all-progressive -v --all-huffman --strip-exif --strip-com --keep-xmp --strip-Adobe --strip-icc  @@
+jpegoptim -P -o -v --all-normal --all-huffman --strip-none  @@
+jpegoptim --strip-jfxx -dtemp -T50% --strip-iptc -o -t -n --all-progressive --stdout --all-arith -f --strip-exif --strip-com --strip-Adobe --strip-icc --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx --keep-exif -dtemp --strip-iptc -o --all-progressive --stdout -p --all-huffman -f --strip-com -s --keep-xmp --strip-icc --nofix  @@
+jpegoptim --strip-jfxx -dtemp --keep-Adobe -o -n -p --keep-icc --all-normal --all-huffman -f --strip-exif --keep-com --keep-xmp -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp -P -T50% --strip-iptc -o -t -n --stdout -v --all-normal --all-huffman -f --keep-com --strip-icc --strip-xmp --nofix -m80  @@
+jpegoptim -q -P --strip-iptc -o -n --all-progressive --stdout --keep-icc -b -v --all-huffman -f -S50% --strip-exif -s --keep-xmp --strip-Adobe --nofix -m80  @@
+jpegoptim --strip-jfxx -q -dtemp --keep-Adobe -T50% --stdout -b --all-normal --all-huffman -f --strip-exif --keep-xmp --strip-icc  @@
+jpegoptim -P -T50% -o --all-progressive --all-arith -p -b -v -S50% --strip-none  @@
+jpegoptim --strip-jfxx -dtemp -T50% -o --keep-iptc --stdout -v --all-normal --all-huffman --strip-exif -s --keep-com --strip-Adobe --strip-icc --strip-xmp -m80  @@
+jpegoptim --strip-jfxx -q -o -t -p --keep-icc --all-huffman -f -S50% --strip-com -s --keep-xmp --strip-Adobe --nofix  @@
+jpegoptim -P -T50% -o -t --stdout --all-arith -p -b --all-normal -f --strip-none --nofix -m80  @@
+jpegoptim -q -dtemp -T50% --strip-iptc -n --all-progressive -b -v --all-huffman -f --strip-exif -s --keep-com --keep-xmp --strip-Adobe --strip-icc --nofix  @@
+jpegoptim --strip-jfxx --keep-Adobe -T50% --strip-iptc --all-progressive --stdout -p -S50% --strip-exif --keep-com --keep-xmp --strip-icc  @@
+jpegoptim --strip-jfxx -q --keep-exif --keep-Adobe -T50% --keep-iptc -t -n --all-progressive -p --keep-icc -b -v -S50% -s --strip-xmp --nofix  @@
+jpegoptim -q -dtemp --keep-Adobe -T50% --strip-iptc -n --all-progressive -b --all-huffman -S50% --strip-exif --keep-com --strip-icc --strip-xmp -m80  @@
+jpegoptim -q --keep-exif -P --keep-Adobe -T50% --keep-iptc -n --stdout -b -v --all-normal -f --strip-com --keep-xmp --strip-icc --nofix -m80  @@
+jpegoptim -dtemp --keep-Adobe -T50% --strip-iptc --all-progressive --keep-icc -v --strip-exif --strip-com -s --keep-xmp --nofix  @@
+jpegoptim -p -v --all-huffman -f --strip-none -m80  @@
+jpegoptim -q -dtemp --strip-iptc -o -n -p --keep-icc -b --all-huffman -S50% --strip-exif --keep-com --strip-Adobe --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx --keep-exif -dtemp -P -T50% --strip-iptc -o -t -n --all-progressive -p --keep-icc -v --all-huffman --strip-com --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx -q --keep-exif -P --keep-iptc -t --all-progressive --stdout -p --keep-icc -v --all-huffman -f -S50% -s --keep-com --strip-Adobe --strip-xmp --nofix  @@
+jpegoptim -q --keep-Adobe -T50% --strip-iptc -n -p -b -v -f --strip-exif -s --keep-com --strip-icc --strip-xmp -m80  @@
+jpegoptim --strip-jfxx -dtemp --keep-Adobe --keep-iptc --all-arith -p -b -v --all-normal -S50% --strip-exif -s --keep-com --keep-xmp --strip-icc --nofix -m80  @@
+jpegoptim -q --keep-exif -dtemp -T50% --keep-iptc --all-progressive -p --keep-icc -b --all-huffman -f -S50% --keep-xmp --strip-Adobe --nofix  @@
+jpegoptim -q --keep-exif -P --keep-Adobe -T50% --stdout --keep-icc -b -v --all-huffman -s --keep-com --nofix -m80  @@
+jpegoptim -q --keep-exif -dtemp --keep-Adobe -T50% --keep-iptc --all-arith --keep-icc -b -v -S50% --strip-com --strip-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx -q -dtemp --keep-Adobe -T50% -o --stdout --all-arith -p -v --all-normal -S50% --strip-exif --keep-com --keep-xmp --nofix -m80  @@
+jpegoptim -dtemp --keep-iptc -t --stdout -p --all-normal --all-huffman -f -S50% --strip-exif -s --keep-com --strip-Adobe --strip-icc --strip-xmp -m80  @@
+jpegoptim -dtemp -o -n --stdout -b --all-normal --all-huffman -S50% --strip-none  @@
+jpegoptim -q --keep-exif -P -o --keep-iptc --all-progressive --all-arith -p -b -S50% --strip-com -s -m80  @@
+jpegoptim --strip-jfxx -q -dtemp -o --keep-iptc -p -v -f --strip-exif --keep-xmp --strip-Adobe -m80  @@
+jpegoptim -q -o --all-arith -b -v --all-normal -f -S50% --strip-exif --strip-com -s --nofix  @@
+jpegoptim --keep-exif -P --strip-iptc -t --all-progressive --stdout -b --all-huffman -f -S50% --strip-Adobe --strip-icc --strip-xmp --nofix  @@
+jpegoptim -q -dtemp -P --keep-Adobe --strip-iptc --stdout --keep-icc -b --all-normal --all-huffman --strip-com -s  @@
+jpegoptim --strip-jfxx -dtemp -P --keep-Adobe -o --keep-iptc -t -n --all-arith -p -b -v -S50% --strip-exif --strip-com --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx --keep-exif -T50% -o --keep-iptc -t -n --stdout -v --all-normal --all-huffman -s --keep-com --strip-Adobe --strip-icc --strip-xmp -m80  @@
+jpegoptim -q --keep-exif --keep-Adobe --strip-iptc -o -n --all-progressive --stdout -b -v -s --keep-com --strip-icc --nofix  @@
+jpegoptim -T50% --all-progressive --stdout -p -v --all-huffman -S50% --strip-none  @@
+jpegoptim --strip-jfxx --keep-Adobe -T50% -o -t -n --stdout --all-arith --all-normal -S50% --strip-com -s --keep-xmp --strip-icc  @@
+jpegoptim -o -t -n --all-arith -b -v --all-normal --strip-none --nofix  @@
+jpegoptim -dtemp --keep-Adobe -T50% --strip-iptc -o -n --stdout --all-arith -p --keep-icc -v --all-normal --strip-com -s --strip-xmp  @@
+jpegoptim --strip-jfxx -q -dtemp -P --keep-Adobe --strip-iptc --all-progressive --stdout --keep-icc -v --all-huffman -f -s --keep-com --keep-xmp --nofix  @@
+jpegoptim -q -o --stdout --all-arith -b -v --all-normal --strip-none --nofix -m80  @@
+jpegoptim -dtemp -P --keep-Adobe --strip-iptc -t -n --all-progressive --all-arith -b -v -f -S50% --strip-exif --strip-com --keep-xmp --strip-icc --nofix  @@
+jpegoptim --strip-jfxx -dtemp -P --strip-iptc -o -t -n -p --keep-icc -v --all-normal --all-huffman -f -S50% --strip-exif -s --keep-com --nofix  @@
+jpegoptim -q -dtemp -o -t --stdout --all-arith -p -b --all-normal -S50% --strip-none --nofix -m80  @@
+jpegoptim -dtemp -P -T50% --all-arith -p -b -S50% --strip-none  @@
+jpegoptim --strip-jfxx -o --keep-iptc -p --all-normal --strip-exif --keep-com --keep-xmp --strip-icc  @@
+jpegoptim -dtemp --keep-Adobe --strip-iptc -o -n --stdout --all-arith -p -b -v --all-normal -S50% --strip-exif --keep-com --strip-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp -P --keep-Adobe -T50% --strip-iptc -o -n --all-progressive -p --keep-icc --all-huffman -S50% -s --keep-com --strip-xmp  @@
+jpegoptim -dtemp -P -n --all-progressive --stdout --all-arith -b -v -f -S50% --strip-none --nofix -m80  @@
+jpegoptim -P -t -n --all-progressive -v -f --strip-none --nofix  @@
+jpegoptim -dtemp -P -T50% -o -t -n --all-progressive --all-arith -p -b -v -f --strip-none -m80  @@
+jpegoptim --keep-exif -dtemp --keep-Adobe -o --keep-iptc -p -v --all-normal --all-huffman -f -s --keep-com --keep-xmp --strip-icc -m80  @@
+jpegoptim -q -dtemp -o --keep-iptc -n --all-progressive -p -b -v -f -S50% --strip-exif --keep-com --keep-xmp --nofix  @@
+jpegoptim -q -dtemp -T50% -o -t -n --stdout -p -S50% --strip-none --nofix -m80  @@
+jpegoptim --strip-jfxx -P --strip-iptc -o -n --stdout --all-normal --all-huffman -f --keep-com --keep-xmp --strip-Adobe --strip-icc -m80  @@
+jpegoptim --strip-jfxx -T50% --keep-iptc -t -p -b --all-normal --strip-exif --strip-com -s --strip-Adobe --strip-icc -m80  @@
+jpegoptim -q -dtemp -P --keep-Adobe --strip-iptc -o -n --all-progressive --stdout --all-arith -p -b -v -S50% --strip-exif -s --strip-icc --strip-xmp  @@
+jpegoptim -q --keep-Adobe --keep-iptc --all-arith -b --all-normal --strip-exif --strip-com --strip-icc  @@
+jpegoptim --strip-jfxx -q -dtemp --keep-Adobe -T50% --strip-iptc -o -t --all-progressive --keep-icc -b --all-huffman --strip-exif --strip-com -s --keep-xmp -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp --keep-Adobe --keep-iptc -t -n --stdout --all-arith --keep-icc -v --all-normal -f -s --keep-com --strip-xmp --nofix  @@
+jpegoptim -q -T50% --keep-iptc --all-progressive --stdout --all-arith -b -f -s --keep-com --keep-xmp --strip-Adobe --strip-icc --nofix -m80  @@
+jpegoptim -dtemp -P -T50% --all-progressive --all-huffman -f --strip-none --nofix -m80  @@
+jpegoptim -dtemp -P -t --all-arith -p -b -v --all-normal --strip-none --nofix  @@
+jpegoptim --strip-jfxx --keep-exif -dtemp --all-progressive --stdout -p --keep-icc --all-huffman -S50% --strip-com -s --keep-xmp --nofix  @@
+jpegoptim --keep-exif -dtemp -P -o -n -p -b --all-normal -f --strip-com --strip-Adobe --strip-icc --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx -q -T50% --keep-iptc -n --stdout -p -v --all-huffman -f --keep-com --keep-xmp --strip-Adobe --strip-icc --nofix -m80  @@
+jpegoptim --strip-jfxx -P --keep-Adobe -T50% --strip-iptc -n -v --all-normal --all-huffman -f --strip-exif -s --keep-com --strip-xmp --nofix -m80  @@
+jpegoptim -P -t --all-progressive --stdout -p -b -v --all-huffman -f -S50% --strip-none  @@
+jpegoptim --strip-jfxx -q --keep-exif -P --keep-Adobe -o --keep-iptc -t -n -p -b --all-normal --all-huffman -S50% --keep-com -m80  @@
+jpegoptim -q -dtemp -P -o --all-progressive -p -v --all-huffman -f -S50% --strip-none --nofix  @@
+jpegoptim -q --keep-exif -dtemp -P -T50% -o -n --stdout -p --keep-icc -v --all-normal --all-huffman --strip-com -s --strip-Adobe --strip-xmp --nofix  @@
+jpegoptim -q -P -T50% -t --all-arith -p --all-normal -S50% --strip-none --nofix  @@
+jpegoptim --strip-jfxx --keep-exif --keep-Adobe -T50% -o --keep-iptc --all-progressive --all-arith -b -f -S50% --strip-com -s --keep-xmp --strip-icc --nofix -m80  @@
+jpegoptim -dtemp -T50% -n --all-arith -v --all-normal -f --strip-none  @@
+jpegoptim -q -P -o --keep-iptc -t --all-progressive --stdout -v --all-huffman -S50% --strip-exif -s --keep-com --strip-Adobe --strip-icc  @@
+jpegoptim -q --keep-Adobe -t --all-progressive --stdout --all-arith -p --keep-icc -v -S50% --strip-exif --keep-com --keep-xmp -m80  @@
+jpegoptim --strip-jfxx -dtemp -o --keep-iptc -n --stdout --all-arith --keep-icc --all-normal -f --strip-com --strip-xmp -m80  @@
+jpegoptim --strip-jfxx -q -dtemp -P --keep-Adobe -T50% --strip-iptc -o -t --stdout --all-arith -p -v --strip-exif --strip-icc --strip-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx -q -dtemp -T50% --strip-iptc --all-progressive --stdout --all-arith --keep-icc -v -f --strip-exif -s --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx -q -P -T50% --keep-iptc -n --all-progressive --stdout --all-arith -b -v --strip-com --keep-xmp --strip-Adobe --strip-icc  @@
+jpegoptim -dtemp -t -b -v --all-normal --all-huffman -S50% --strip-none  @@
+jpegoptim --strip-jfxx -P -T50% -o --keep-iptc --keep-icc -v --all-huffman -S50% --strip-exif --keep-xmp -m80  @@
+jpegoptim --strip-jfxx -dtemp -P --keep-Adobe -o --keep-iptc --all-progressive -p -b -v -S50% --strip-com -s --keep-xmp --strip-icc --nofix -m80  @@
+jpegoptim --strip-jfxx -q -P --keep-Adobe --strip-iptc -n --all-progressive --all-arith --keep-icc -b -v -S50% --strip-com -s --strip-xmp -m80  @@
+jpegoptim --strip-jfxx --keep-Adobe -T50% --keep-iptc -t --all-arith -b -v --all-normal -f --strip-com --strip-icc --strip-xmp -m80  @@
+jpegoptim -q -dtemp -P -T50% -o --keep-iptc -t -n --stdout --all-arith --keep-icc -v -f --strip-exif --strip-com --keep-xmp  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp -P -T50% -o --keep-iptc -t -n -p --keep-icc -v --all-normal --all-huffman -f -S50% --strip-com -s --keep-xmp -m80  @@
+jpegoptim --strip-jfxx -dtemp --strip-iptc -t -n --all-arith -v --all-normal -S50% --strip-exif -s --keep-xmp --strip-Adobe --strip-icc --nofix -m80  @@
+jpegoptim -q -dtemp -o -t -p -v --all-normal --strip-none  @@
+jpegoptim --strip-jfxx --keep-Adobe -o --keep-iptc -t --stdout --all-arith -p --keep-icc -s --keep-com --keep-xmp --nofix -m80  @@
+jpegoptim -q -T50% -t -n -p -b --all-normal --strip-none -m80  @@
+jpegoptim -q -dtemp --keep-Adobe -T50% -o --keep-iptc -t -n --stdout -b -v --all-normal --all-huffman -f -S50% --strip-exif -s --strip-icc --nofix  @@
+jpegoptim -q --keep-exif -dtemp --keep-iptc -t --all-progressive --stdout --all-arith -p --keep-icc -b -s --keep-com --strip-Adobe -m80  @@
+jpegoptim --strip-jfxx --keep-Adobe -o --keep-iptc -t -n -p --all-normal --all-huffman --strip-exif -s --keep-com --keep-xmp --strip-icc --nofix -m80  @@
+jpegoptim --strip-jfxx --keep-exif -dtemp -P --keep-Adobe -T50% -o -n --all-progressive --stdout --all-arith -b -S50% --strip-com -s --strip-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx -dtemp --keep-Adobe -T50% --strip-iptc -o -n --keep-icc -b -v --all-normal --all-huffman -f --keep-com --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx -q -P -o --keep-iptc -t -n --all-arith -b --all-normal --strip-exif --keep-com --keep-xmp --strip-Adobe  @@
+jpegoptim -P -T50% -t -n --stdout --all-arith -p -v --all-normal -f --strip-none  @@
+jpegoptim --strip-jfxx --keep-exif -o -n --all-arith -p --keep-icc -v --all-normal -S50% --strip-com --nofix  @@
+jpegoptim --strip-jfxx -q -o -t -n --stdout --keep-icc -b -v --all-normal -f -S50% --strip-exif --keep-com --keep-xmp --strip-Adobe --nofix -m80  @@
+jpegoptim --strip-jfxx -P -T50% --strip-iptc -o -n -b --all-normal --all-huffman -f --strip-exif --strip-com -s --keep-xmp --strip-Adobe --nofix  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp -P --strip-iptc -o -n --all-arith -b -v --all-normal -f -S50% --keep-com --strip-icc --strip-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx -P -o --keep-iptc -t -n --all-progressive --stdout --all-arith -S50% --strip-exif --keep-com --strip-Adobe --strip-icc --nofix -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif -P -o --keep-iptc -t --stdout -p --keep-icc -b --all-normal --all-huffman -f -S50% -s --keep-com --strip-Adobe --nofix -m80  @@
+jpegoptim --strip-jfxx --keep-exif -dtemp --keep-Adobe -o --keep-iptc --all-progressive --all-arith -p --keep-icc -v -S50% --keep-com  @@
+jpegoptim --keep-Adobe --strip-iptc -o --stdout -p -v --all-normal --all-huffman -f --strip-exif --keep-com --strip-icc --strip-xmp --nofix -m80  @@
+jpegoptim -dtemp -P -T50% -o --keep-iptc -n -p --all-normal --all-huffman -f --strip-com --strip-Adobe --strip-icc --strip-xmp  @@
+jpegoptim --strip-jfxx -q -P --keep-Adobe -T50% --keep-iptc -p --keep-icc -v --all-normal --all-huffman --strip-exif -s --keep-xmp --nofix  @@
+jpegoptim -q --keep-exif -dtemp -P -T50% --strip-iptc --all-progressive -p -b --all-huffman -f --strip-com --keep-xmp --strip-icc  @@
+jpegoptim -q -dtemp -P --keep-iptc --stdout -v --all-huffman -f -S50% --strip-exif --strip-com --strip-Adobe --strip-xmp --nofix -m80  @@
+jpegoptim --strip-iptc -o -t --keep-icc -b --all-normal --all-huffman -f -S50% --keep-com --keep-xmp --strip-Adobe  @@
+jpegoptim --strip-jfxx -q -dtemp -t -n --all-progressive -p --keep-icc --strip-exif --strip-com --strip-Adobe --strip-xmp  @@
+jpegoptim --strip-jfxx -P --keep-Adobe -T50% --keep-iptc -n --all-progressive --all-arith -v -f -S50% --strip-exif --keep-com --strip-xmp --nofix -m80  @@
+jpegoptim -o -t -n --all-arith -p -b -v --all-normal -f -S50% --strip-exif --strip-com -s --keep-xmp --strip-Adobe -m80  @@
+jpegoptim -dtemp --keep-Adobe -T50% --keep-iptc -t -b --all-normal --all-huffman -f --strip-exif --strip-com -s --strip-icc --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx -P --keep-Adobe --strip-iptc -t -p -v --all-normal --all-huffman -f --strip-exif --strip-com -s --strip-icc --strip-xmp --nofix  @@
+jpegoptim -q -P -T50% -o -n --all-arith -p --all-normal -f -S50% --strip-none  @@
+jpegoptim -q -dtemp -t --all-progressive --all-arith -b -v -f -S50% --strip-none --nofix  @@
+jpegoptim --strip-jfxx -q --keep-Adobe -T50% -o --keep-iptc --all-progressive --stdout -p --keep-icc -v --all-huffman -f -S50% --keep-com --keep-xmp -m80  @@
+jpegoptim -q -dtemp -P -t -n --stdout -p -b -v -f -S50% --strip-none  @@
+jpegoptim --strip-jfxx -q -dtemp -P -T50% --keep-iptc -n --stdout --all-arith -p --keep-icc -S50% --strip-exif -s --keep-com --strip-Adobe -m80  @@
+jpegoptim --strip-jfxx -q -dtemp -P -t --all-progressive --stdout --all-arith -b --strip-exif --strip-com --keep-xmp --strip-Adobe --strip-icc --nofix -m80  @@
+jpegoptim -q -dtemp -P -T50% -t --all-arith -p -v --all-normal -f -S50% --strip-none  @@
+jpegoptim -q --keep-exif -n --all-progressive --stdout --all-arith -b -f -S50% -s --keep-com --strip-icc --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx -q --keep-exif -o --keep-iptc -t -b --all-normal -f -s --keep-xmp --strip-icc --nofix  @@
+jpegoptim -q -P -o -t --stdout -p -b --all-normal --all-huffman -S50% --strip-none  @@
+jpegoptim -dtemp -o -t -n --stdout -b -v --all-normal --all-huffman -f --strip-none -m80  @@
+jpegoptim --strip-jfxx --keep-exif -o --keep-iptc -t -n --stdout -p --keep-icc -b --all-normal -S50% --strip-com -s --keep-xmp  @@
+jpegoptim -q -dtemp --keep-Adobe -T50% --strip-iptc -o -t --all-progressive --stdout --all-arith --keep-icc -b -v -f --strip-com -s --nofix -m80  @@
+jpegoptim -q --keep-exif -dtemp -P --keep-Adobe -T50% --strip-iptc -o -t --stdout -p --keep-icc -b -v --all-normal --all-huffman -f -S50% -s --strip-xmp  @@
+jpegoptim -q --keep-exif -P --strip-iptc -o --all-progressive --stdout --all-arith -p -b -f -S50% -s --keep-com --keep-xmp --strip-icc --nofix -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif -dtemp -T50% --strip-iptc -t -p --all-huffman -f -S50% --strip-Adobe --strip-icc --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx --keep-Adobe -T50% --keep-iptc -n --stdout --keep-icc -b -v --all-normal --all-huffman --strip-com -s --keep-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx -dtemp -P --strip-iptc -o --all-progressive --stdout -p --keep-icc --all-huffman -f -S50% --strip-exif --strip-com --strip-Adobe -m80  @@
+jpegoptim -q -dtemp -T50% --strip-iptc -t -n --keep-icc -b -v --all-normal --all-huffman -f --strip-exif --strip-com --keep-xmp --strip-Adobe --nofix -m80  @@
+jpegoptim --strip-jfxx -q -dtemp -P --strip-iptc -t -n --stdout -p --all-normal -S50% -s --keep-com --strip-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx -q --keep-exif -P -T50% --strip-iptc -o -t -n --stdout -b -v --all-normal --all-huffman -S50% --keep-com --strip-Adobe --strip-icc --strip-xmp --nofix -m80  @@
+jpegoptim --strip-jfxx --keep-exif -P --keep-Adobe -o -t --stdout --all-arith -p --keep-icc -b --all-normal -f -S50% -s --keep-com --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx -q --keep-exif -T50% --strip-iptc -t -p -v --all-normal --all-huffman -f -s --keep-com --keep-xmp --strip-Adobe --strip-icc --nofix  @@
+jpegoptim --strip-jfxx -dtemp -P --keep-iptc -t -n --stdout -p -b --all-normal --all-huffman -f -S50% --strip-exif -s --keep-xmp --strip-Adobe --nofix  @@
+jpegoptim -q -P -T50% -t -n -b -v --all-normal --all-huffman -f --strip-none  @@
+jpegoptim --strip-jfxx -q -T50% -o --keep-iptc -n --all-progressive -p -b --all-huffman -f -S50% -s --keep-com --strip-Adobe --strip-icc --strip-xmp  @@
+jpegoptim --strip-jfxx -q --strip-iptc -t -n -p --keep-icc -b --all-normal --all-huffman --strip-exif --strip-com -s --strip-Adobe --strip-xmp --nofix  @@
+jpegoptim -q -dtemp -P --keep-Adobe --keep-iptc -n --all-progressive -p --keep-icc -b -v -f -S50% --strip-exif -s --keep-com  @@
+jpegoptim -q -dtemp -P -T50% -o --keep-iptc --all-progressive --stdout --all-arith -p -b -v -f --strip-exif --strip-com -s --keep-xmp --strip-Adobe  @@
+jpegoptim --strip-jfxx -q -P --keep-Adobe -o --keep-iptc --all-progressive -p --keep-icc --all-huffman --strip-exif --keep-com --keep-xmp  @@
+jpegoptim -q -P -t -n --all-progressive --all-arith -b -v --strip-none -m80  @@
+jpegoptim -q -dtemp --keep-Adobe -T50% --strip-iptc -t -n --all-progressive --stdout --all-arith -p --keep-icc -b -f -S50% --keep-com --strip-xmp --nofix  @@
+jpegoptim --strip-jfxx -q --keep-exif -P --keep-Adobe -T50% -o --keep-iptc -n --all-progressive --stdout --keep-icc --all-huffman --strip-com --strip-xmp --nofix -m80  @@
+jpegoptim -dtemp -P -T50% -o -n --all-progressive --stdout --all-huffman -f --strip-none  @@
+jpegoptim --strip-jfxx -q -dtemp -P --keep-Adobe -o --keep-iptc -n --stdout --all-normal --all-huffman -f -S50% --strip-exif -s --keep-com --strip-icc --strip-xmp -m80  @@
+jpegoptim --strip-jfxx -dtemp -T50% --keep-iptc -t -n --all-progressive -f -S50% --strip-exif --strip-com --keep-xmp --strip-Adobe --strip-icc --nofix -m80  @@
+jpegoptim -q -P --keep-Adobe --keep-iptc --stdout --all-arith --all-normal -S50% --keep-com --strip-icc --strip-xmp --nofix -m80  @@
+jpegoptim -dtemp -T50% -t -n --all-progressive -p -v --all-huffman -S50% --strip-none --nofix -m80  @@
+jpegoptim -q -dtemp -P -T50% --keep-iptc -t -n --all-progressive --stdout --keep-icc --all-huffman -f -S50% --strip-com --keep-xmp --strip-Adobe  @@
+jpegoptim --strip-jfxx --keep-exif -P --keep-Adobe -T50% -o --keep-iptc -t -n --all-arith -p --keep-icc -b -v -S50% --strip-com --strip-xmp  @@
+jpegoptim --strip-jfxx -P --keep-Adobe -o --keep-iptc -n --stdout --all-arith -p -b -v --all-normal -f -S50% --strip-exif --keep-com --strip-icc --strip-xmp  @@
+jpegoptim -dtemp -P -T50% -t -p --all-normal -f -S50% --strip-none -m80  @@
+jpegoptim --strip-jfxx -dtemp -T50% -t -n --stdout --all-arith --keep-icc -b -v --all-normal -f -S50% --strip-exif --strip-com -s --keep-xmp --nofix -m80  @@
+jpegoptim -q -dtemp -P -t -n --stdout --all-arith -p -b -v --all-normal -S50% --strip-none  @@
+jpegoptim --strip-jfxx -dtemp -T50% --strip-iptc -o -t -n --all-progressive -f -S50% -s --keep-com --keep-xmp --strip-Adobe  @@
+jpegoptim -q -dtemp -T50% -o -t --all-progressive --all-arith -p -v -S50% --strip-com -s --strip-Adobe --strip-icc --strip-xmp  @@
+jpegoptim -t --all-progressive --all-arith -p -f --strip-none -m80  @@
+jpegoptim -q -P --keep-Adobe -T50% -o --keep-iptc -t -n --all-arith -b -f -S50% --strip-exif --strip-com --strip-icc --strip-xmp -m80  @@
+jpegoptim --strip-jfxx -q --keep-Adobe -T50% --strip-iptc -o -t -n --all-progressive --stdout -p -v --all-huffman -S50% --strip-exif --keep-com --strip-icc --strip-xmp --nofix -m80  @@
+jpegoptim -dtemp --keep-Adobe --strip-iptc -t -p --keep-icc -v --all-huffman -f -S50% -s --keep-com --strip-xmp -m80  @@
+jpegoptim --keep-exif --strip-iptc -t -n --all-arith --keep-icc -b -v --all-normal -f -S50% --strip-com --strip-Adobe --strip-xmp --nofix -m80  @@
+jpegoptim -q -P --keep-iptc -t --stdout -b -v --all-normal --all-huffman -f -S50% --strip-com -s --keep-xmp --strip-Adobe  @@
+jpegoptim --strip-jfxx -dtemp -T50% --strip-iptc -t --stdout -b --all-huffman -f --strip-com --keep-xmp --strip-Adobe --strip-icc -m80  @@
+jpegoptim --strip-jfxx -P --keep-Adobe -o --keep-iptc -n --all-progressive --stdout --all-arith -p -S50% --strip-exif -s --keep-xmp  @@
+jpegoptim -q -o -t -n --stdout --all-arith -b --strip-none  @@
+jpegoptim --strip-jfxx -q --keep-exif -P --keep-iptc --all-arith -p --all-normal -f -S50% --strip-com -s --strip-Adobe --strip-icc --strip-xmp --nofix  @@
+jpegoptim -t --all-progressive --stdout -p -b --all-huffman -f --strip-exif --keep-com --keep-xmp --strip-Adobe --strip-icc  @@
+jpegoptim -q --keep-Adobe --strip-iptc --all-progressive --stdout -f -S50% --strip-exif --strip-com --strip-icc --nofix  @@

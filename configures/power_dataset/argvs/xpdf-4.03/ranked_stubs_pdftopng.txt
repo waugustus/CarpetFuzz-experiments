@@ -1,0 +1,327 @@
+326
+pdftopng -rot 270 -r 240 -upw 123456 -l 1 -aaVector no -q  @@ /tmp/foo.png
+pdftopng -opw 123456 -r 240 -f 1 -q -aa no  @@ /tmp/foo.png
+pdftopng -rot 270 -r 240 -upw 123456 -f 1 -q -aa no  @@ /tmp/foo.png
+pdftopng -rot 90 -opw 123456 -r 240 -upw 123456 -f 1 -aaVector no -q  @@ /tmp/foo.png
+pdftopng -opw 123456 -r 240 -upw 123456 -l 1 -q -aa no  @@ /tmp/foo.png
+pdftopng -r 240 -f 1 -aaVector no -q  @@ /tmp/foo.png
+pdftopng -rot 90 -opw 123456 -r 240 -upw 123456 -aa no  @@ /tmp/foo.png
+pdftopng -rot 270 -r 240 -mono -l 1 -aaVector no -q  @@ /tmp/foo.png
+pdftopng -rot 270 -opw 123456 -r 240 -mono -upw 123456 -l 1 -q -aa no  @@ /tmp/foo.png
+pdftopng -rot 180 -r 240 -f 1 -aa no  @@ /tmp/foo.png
+pdftopng -rot 270 -opw 123456 -r 240 -mono -upw 123456 -q -aa no  @@ /tmp/foo.png
+pdftopng -rot 90 -opw 123456 -r 240 -mono -f 1 -aaVector no -q  @@ /tmp/foo.png
+pdftopng -alpha -opw 123456 -r 240 -upw 123456 -l 1 -q -aa no  @@ /tmp/foo.png
+pdftopng -rot 270 -r 240 -mono -upw 123456 -f 1 -aaVector no  @@ /tmp/foo.png
+pdftopng -alpha -rot 180 -opw 123456 -r 240 -f 1 -q -aa no  @@ /tmp/foo.png
+pdftopng -rot 270 -opw 123456 -r 240 -mono -l 1 -aaVector no  @@ /tmp/foo.png
+pdftopng -rot 270 -opw 123456 -r 240 -f 1 -aaVector no -gray  @@ /tmp/foo.png
+pdftopng -alpha -rot 180 -r 240 -upw 123456 -l 1 -q -aa no  @@ /tmp/foo.png
+pdftopng -rot 180 -r 240 -l 1 -aaVector no  @@ /tmp/foo.png
+pdftopng -rot 270 -r 240 -mono -aa no  @@ /tmp/foo.png
+pdftopng -opw 123456 -r 240 -upw 123456 -f 1 -q -gray -aa no  @@ /tmp/foo.png
+pdftopng -alpha -r 240 -upw 123456 -f 1 -q -aa no  @@ /tmp/foo.png
+pdftopng -rot 180 -r 240 -upw 123456 -q -gray -aa no  @@ /tmp/foo.png
+pdftopng -alpha -rot 90 -opw 123456 -r 240 -upw 123456 -q -aa no  @@ /tmp/foo.png
+pdftopng -opw 123456 -r 240 -upw 123456 -l 1 -aaVector no -q -gray  @@ /tmp/foo.png
+pdftopng -r 240 -l 1 -gray -aa no  @@ /tmp/foo.png
+pdftopng -alpha -opw 123456 -r 240 -upw 123456 -f 1 -aa no  @@ /tmp/foo.png
+pdftopng -r 240 -mono -upw 123456 -l 1 -q -aa no  @@ /tmp/foo.png
+pdftopng -rot 90 -r 240 -upw 123456 -aaVector no -gray  @@ /tmp/foo.png
+pdftopng -alpha -rot 90 -r 240 -l 1 -aa no  @@ /tmp/foo.png
+pdftopng -rot 90 -opw 123456 -r 240 -mono -upw 123456 -l 1 -aaVector no  @@ /tmp/foo.png
+pdftopng -opw 123456 -r 240 -mono -upw 123456 -l 1 -aaVector no -q  @@ /tmp/foo.png
+pdftopng -opw 123456 -r 240 -mono -upw 123456 -f 1 -q -aa no  @@ /tmp/foo.png
+pdftopng -alpha -rot 90 -r 240 -upw 123456 -f 1 -aa no  @@ /tmp/foo.png
+pdftopng -opw 123456 -r 240 -l 1 -gray -aa no  @@ /tmp/foo.png
+pdftopng -rot 90 -opw 123456 -r 240 -l 1 -q  @@ /tmp/foo.png
+pdftopng -rot 180 -opw 123456 -r 240 -upw 123456 -l 1 -gray -aa no  @@ /tmp/foo.png
+pdftopng -rot 180 -opw 123456 -r 240 -l 1 -aaVector no -q -gray  @@ /tmp/foo.png
+pdftopng -r 240 -mono -l 1 -q -aa no  @@ /tmp/foo.png
+pdftopng -alpha -r 240 -upw 123456 -l 1 -aa no  @@ /tmp/foo.png
+pdftopng -rot 180 -opw 123456 -r 240 -mono -f 1 -q -aa no  @@ /tmp/foo.png
+pdftopng -rot 270 -opw 123456 -r 240 -mono -upw 123456 -l 1  @@ /tmp/foo.png
+pdftopng -opw 123456 -r 240 -mono -upw 123456 -f 1 -aaVector no  @@ /tmp/foo.png
+pdftopng -alpha -r 240 -l 1 -q -gray -aa no  @@ /tmp/foo.png
+pdftopng -opw 123456 -r 240 -mono -l 1 -aa no  @@ /tmp/foo.png
+pdftopng -alpha -rot 90 -r 240 -f 1 -q -gray -aa no  @@ /tmp/foo.png
+pdftopng -alpha -rot 180 -opw 123456 -r 240 -q -gray -aa no  @@ /tmp/foo.png
+pdftopng -r 240 -mono -f 1 -aa no  @@ /tmp/foo.png
+pdftopng -alpha -rot 90 -r 240 -upw 123456 -f 1 -aaVector no -q  @@ /tmp/foo.png
+pdftopng -alpha -rot 270 -r 240 -upw 123456 -l 1 -aaVector no  @@ /tmp/foo.png
+pdftopng -rot 180 -r 240 -mono -upw 123456 -l 1 -aa no  @@ /tmp/foo.png
+pdftopng -r 240 -mono -l 1 -aaVector no  @@ /tmp/foo.png
+pdftopng -opw 123456 -r 240 -upw 123456 -f 1 -aaVector no -gray  @@ /tmp/foo.png
+pdftopng -alpha -rot 270 -opw 123456 -r 240 -upw 123456 -l 1 -gray -aa no  @@ /tmp/foo.png
+pdftopng -alpha -rot 180 -opw 123456 -r 240 -upw 123456 -aaVector no -q  @@ /tmp/foo.png
+pdftopng -alpha -r 240 -f 1 -aaVector no -q  @@ /tmp/foo.png
+pdftopng -alpha -rot 270 -r 240 -aaVector no -q -gray  @@ /tmp/foo.png
+pdftopng -l 1 -q -aa no  @@ /tmp/foo.png
+pdftopng -r 240 -mono -upw 123456 -f 1 -q  @@ /tmp/foo.png
+pdftopng -alpha -rot 270 -r 240 -upw 123456 -l 1 -gray -aa no  @@ /tmp/foo.png
+pdftopng -rot 90 -upw 123456 -l 1 -q -aa no  @@ /tmp/foo.png
+pdftopng -alpha -rot 270 -r 240 -f 1 -gray -aa no  @@ /tmp/foo.png
+pdftopng -alpha -opw 123456 -r 240 -f 1 -aaVector no -q  @@ /tmp/foo.png
+pdftopng -r 240 -mono -upw 123456 -l 1 -q  @@ /tmp/foo.png
+pdftopng -alpha -opw 123456 -r 240 -f 1 -gray -aa no  @@ /tmp/foo.png
+pdftopng -alpha -opw 123456 -r 240 -l 1 -gray -aa no  @@ /tmp/foo.png
+pdftopng -alpha -r 240 -l 1 -aaVector no -q  @@ /tmp/foo.png
+pdftopng -alpha -rot 270 -opw 123456 -r 240 -upw 123456 -f 1 -gray -aa no  @@ /tmp/foo.png
+pdftopng -alpha -r 240 -l 1 -aaVector no  @@ /tmp/foo.png
+pdftopng -opw 123456 -r 240 -aaVector no  @@ /tmp/foo.png
+pdftopng -alpha -r 240 -upw 123456 -f 1 -aaVector no  @@ /tmp/foo.png
+pdftopng -alpha -opw 123456 -r 240 -upw 123456 -l 1 -aaVector no  @@ /tmp/foo.png
+pdftopng -alpha -rot 90 -opw 123456 -r 240 -upw 123456 -f 1 -aaVector no -q -gray  @@ /tmp/foo.png
+pdftopng -alpha -rot 180 -r 240 -aaVector no  @@ /tmp/foo.png
+pdftopng -alpha -opw 123456 -r 240 -f 1 -aaVector no  @@ /tmp/foo.png
+pdftopng -alpha -rot 90 -r 240 -f 1 -aaVector no -q -gray  @@ /tmp/foo.png
+pdftopng -opw 123456 -r 240 -upw 123456 -l 1 -q -gray  @@ /tmp/foo.png
+pdftopng -rot 90 -opw 123456 -upw 123456 -f 1 -aaVector no  @@ /tmp/foo.png
+pdftopng -rot 90 -opw 123456 -l 1 -aa no  @@ /tmp/foo.png
+pdftopng -alpha -rot 90 -opw 123456 -r 240 -l 1 -aaVector no -gray  @@ /tmp/foo.png
+pdftopng -alpha -opw 123456 -r 240 -aa no  @@ /tmp/foo.png
+pdftopng -alpha -r 240 -upw 123456 -l 1 -aaVector no -q -gray  @@ /tmp/foo.png
+pdftopng -alpha -opw 123456 -r 240 -l 1 -aaVector no -q -gray  @@ /tmp/foo.png
+pdftopng -rot 270 -f 1 -aaVector no -q -gray  @@ /tmp/foo.png
+pdftopng -opw 123456 -upw 123456 -l 1 -aa no  @@ /tmp/foo.png
+pdftopng -rot 180 -opw 123456 -upw 123456 -f 1 -aa no  @@ /tmp/foo.png
+pdftopng -alpha -rot 180 -r 240 -l 1 -aaVector no -q -gray  @@ /tmp/foo.png
+pdftopng -rot 90 -opw 123456 -l 1 -aaVector no  @@ /tmp/foo.png
+pdftopng -alpha -f 1 -q -aa no  @@ /tmp/foo.png
+pdftopng -alpha -r 240 -upw 123456 -q -gray -aa no  @@ /tmp/foo.png
+pdftopng -r 240 -mono -upw 123456 -aa no  @@ /tmp/foo.png
+pdftopng -rot 90 -opw 123456 -f 1 -q -gray -aa no  @@ /tmp/foo.png
+pdftopng -alpha -opw 123456 -upw 123456 -f 1 -q -aa no  @@ /tmp/foo.png
+pdftopng -rot 270 -upw 123456 -l 1 -q -gray -aa no  @@ /tmp/foo.png
+pdftopng -l 1 -aaVector no  @@ /tmp/foo.png
+pdftopng -alpha -r 240 -f 1 -aaVector no -gray  @@ /tmp/foo.png
+pdftopng -alpha -rot 180 -r 240 -upw 123456 -f 1 -aaVector no -gray  @@ /tmp/foo.png
+pdftopng -alpha -rot 270 -opw 123456 -l 1 -q -aa no  @@ /tmp/foo.png
+pdftopng -upw 123456 -l 1 -q -gray -aa no  @@ /tmp/foo.png
+pdftopng -opw 123456 -r 240 -mono -upw 123456 -aaVector no  @@ /tmp/foo.png
+pdftopng -upw 123456 -f 1 -aaVector no  @@ /tmp/foo.png
+pdftopng -rot 90 -opw 123456 -mono -upw 123456 -f 1 -q -aa no  @@ /tmp/foo.png
+pdftopng -upw 123456 -f 1 -gray -aa no  @@ /tmp/foo.png
+pdftopng -opw 123456 -mono -l 1 -aaVector no -q  @@ /tmp/foo.png
+pdftopng -rot 90 -mono -aaVector no -q  @@ /tmp/foo.png
+pdftopng -rot 180 -mono -l 1 -q -aa no  @@ /tmp/foo.png
+pdftopng -mono -f 1 -aaVector no -q  @@ /tmp/foo.png
+pdftopng -alpha -upw 123456 -l 1 -aa no  @@ /tmp/foo.png
+pdftopng -alpha -rot 270 -opw 123456 -f 1 -aaVector no  @@ /tmp/foo.png
+pdftopng -rot 270 -mono -upw 123456 -f 1 -aa no  @@ /tmp/foo.png
+pdftopng -alpha -rot 90 -upw 123456 -aa no  @@ /tmp/foo.png
+pdftopng -mono -upw 123456 -l 1 -aaVector no -q  @@ /tmp/foo.png
+pdftopng -alpha -rot 90 -f 1 -aa no  @@ /tmp/foo.png
+pdftopng -f 1 -aaVector no -q -gray  @@ /tmp/foo.png
+pdftopng -opw 123456 -mono -l 1 -q -aa no  @@ /tmp/foo.png
+pdftopng -alpha -rot 90 -opw 123456 -aa no  @@ /tmp/foo.png
+pdftopng -rot 180 -opw 123456 -mono -upw 123456 -f 1 -aaVector no -q  @@ /tmp/foo.png
+pdftopng -rot 270 -opw 123456 -mono -upw 123456 -l 1 -aaVector no  @@ /tmp/foo.png
+pdftopng -alpha -rot 90 -opw 123456 -upw 123456 -l 1 -aaVector no -q  @@ /tmp/foo.png
+pdftopng -rot 270 -opw 123456 -mono -l 1 -aa no  @@ /tmp/foo.png
+pdftopng -alpha -r 240 -upw 123456 -l 1  @@ /tmp/foo.png
+pdftopng -alpha -rot 270 -opw 123456 -upw 123456 -l 1 -aa no  @@ /tmp/foo.png
+pdftopng -q -aa no  @@ /tmp/foo.png
+pdftopng -alpha -opw 123456 -l 1 -aa no  @@ /tmp/foo.png
+pdftopng -opw 123456 -mono -upw 123456 -f 1 -q -aa no  @@ /tmp/foo.png
+pdftopng -rot 90 -mono -upw 123456 -aaVector no -q  @@ /tmp/foo.png
+pdftopng -rot 90 -mono -f 1 -q -aa no  @@ /tmp/foo.png
+pdftopng -opw 123456 -upw 123456 -l 1 -aaVector no -q -gray  @@ /tmp/foo.png
+pdftopng -rot 90 -upw 123456 -l 1 -gray -aa no  @@ /tmp/foo.png
+pdftopng -r 240 -mono -q  @@ /tmp/foo.png
+pdftopng -alpha -rot 90 -opw 123456 -q -gray -aa no  @@ /tmp/foo.png
+pdftopng -alpha -rot 270 -upw 123456 -f 1 -aaVector no -q -gray  @@ /tmp/foo.png
+pdftopng -alpha -opw 123456 -r 240 -upw 123456 -f 1 -q -gray  @@ /tmp/foo.png
+pdftopng -rot 180 -opw 123456 -l 1 -aaVector no -gray  @@ /tmp/foo.png
+pdftopng -alpha -rot 90 -opw 123456 -upw 123456 -f 1 -q -gray -aa no  @@ /tmp/foo.png
+pdftopng -alpha -opw 123456 -upw 123456 -l 1 -q -gray -aa no  @@ /tmp/foo.png
+pdftopng -alpha -rot 90 -upw 123456 -l 1 -aaVector no  @@ /tmp/foo.png
+pdftopng -opw 123456 -mono -f 1 -aa no  @@ /tmp/foo.png
+pdftopng -rot 180 -mono -f 1 -aaVector no  @@ /tmp/foo.png
+pdftopng -opw 123456 -upw 123456 -aaVector no -q  @@ /tmp/foo.png
+pdftopng -l 1 -aaVector no -gray  @@ /tmp/foo.png
+pdftopng -mono -upw 123456 -l 1 -aa no  @@ /tmp/foo.png
+pdftopng -rot 270 -upw 123456 -f 1  @@ /tmp/foo.png
+pdftopng -rot 180 -opw 123456 -mono -upw 123456 -l 1 -aa no  @@ /tmp/foo.png
+pdftopng -upw 123456 -l 1 -aaVector no -gray  @@ /tmp/foo.png
+pdftopng -alpha -opw 123456 -f 1 -q -gray -aa no  @@ /tmp/foo.png
+pdftopng -alpha -rot 180 -upw 123456 -l 1 -q -gray -aa no  @@ /tmp/foo.png
+pdftopng -alpha -rot 270 -gray -aa no  @@ /tmp/foo.png
+pdftopng -alpha -opw 123456 -f 1 -gray -aa no  @@ /tmp/foo.png
+pdftopng -alpha -l 1 -gray -aa no  @@ /tmp/foo.png
+pdftopng -alpha -opw 123456 -upw 123456 -f 1 -aaVector no -q  @@ /tmp/foo.png
+pdftopng -alpha -rot 180 -l 1 -aaVector no -q  @@ /tmp/foo.png
+pdftopng -alpha -upw 123456 -f 1 -gray -aa no  @@ /tmp/foo.png
+pdftopng -alpha -opw 123456 -f 1 -aaVector no -q  @@ /tmp/foo.png
+pdftopng -alpha -opw 123456 -l 1 -aaVector no -q  @@ /tmp/foo.png
+pdftopng -alpha -opw 123456 -r 240 -upw 123456 -aaVector no -q -gray  @@ /tmp/foo.png
+pdftopng -alpha -rot 270 -opw 123456 -l 1 -gray -aa no  @@ /tmp/foo.png
+pdftopng -alpha -rot 180 -opw 123456 -r 240 -upw 123456 -gray  @@ /tmp/foo.png
+pdftopng -alpha -rot 180 -r 240 -f 1 -gray  @@ /tmp/foo.png
+pdftopng -rot 90 -opw 123456 -mono -f 1  @@ /tmp/foo.png
+pdftopng -alpha -rot 270 -opw 123456 -f 1 -q  @@ /tmp/foo.png
+pdftopng -alpha -f 1 -aaVector no  @@ /tmp/foo.png
+pdftopng -alpha -opw 123456 -upw 123456 -l 1 -aaVector no  @@ /tmp/foo.png
+pdftopng -alpha -rot 90 -opw 123456 -aaVector no -gray  @@ /tmp/foo.png
+pdftopng -alpha -r 240 -upw 123456 -aaVector no -gray  @@ /tmp/foo.png
+pdftopng -alpha -opw 123456 -l 1 -aaVector no -q -gray  @@ /tmp/foo.png
+pdftopng -alpha -rot 180 -opw 123456 -l 1 -aaVector no -q -gray  @@ /tmp/foo.png
+pdftopng -mono -upw 123456 -q -aa no  @@ /tmp/foo.png
+pdftopng -alpha -opw 123456 -f 1 -aaVector no -q -gray  @@ /tmp/foo.png
+pdftopng -mono -upw 123456 -aaVector no  @@ /tmp/foo.png
+pdftopng -alpha -opw 123456 -upw 123456 -f 1 -aaVector no -gray  @@ /tmp/foo.png
+pdftopng -alpha -rot 180 -opw 123456 -upw 123456 -l 1 -q  @@ /tmp/foo.png
+pdftopng -alpha -rot 180 -opw 123456 -upw 123456 -l 1 -aaVector no -gray  @@ /tmp/foo.png
+pdftopng -alpha -l 1 -aaVector no -gray  @@ /tmp/foo.png
+pdftopng -alpha -opw 123456 -upw 123456 -l 1  @@ /tmp/foo.png
+pdftopng -alpha -aaVector no -q  @@ /tmp/foo.png
+pdftopng -alpha -gray -aa no  @@ /tmp/foo.png
+pdftopng -alpha -l 1 -q -gray  @@ /tmp/foo.png
+pdftopng -alpha -upw 123456 -aaVector no -gray  @@ /tmp/foo.png
+pdftopng  @@ /tmp/foo.png
+pdftopng -rot 270 -r 240 -upw 123456 -freetype no -l 1  @@ /tmp/foo.png
+pdftopng -r 240 -upw 123456 -freetype no -f 1  @@ /tmp/foo.png
+pdftopng -rot 90 -r 240 -freetype no -f 1  @@ /tmp/foo.png
+pdftopng -alpha -rot 180 -r 240 -freetype no -f 1  @@ /tmp/foo.png
+pdftopng -alpha -rot 90 -opw 123456 -r 240 -upw 123456 -freetype no -f 1  @@ /tmp/foo.png
+pdftopng -rot 180 -opw 123456 -r 240 -upw 123456 -freetype no -f 1 -gray  @@ /tmp/foo.png
+pdftopng -alpha -rot 270 -opw 123456 -r 240 -freetype no -l 1  @@ /tmp/foo.png
+pdftopng -rot 90 -opw 123456 -r 240 -freetype no -gray  @@ /tmp/foo.png
+pdftopng -alpha -opw 123456 -r 240 -freetype no -l 1  @@ /tmp/foo.png
+pdftopng -alpha -r 240 -upw 123456 -freetype no -f 1  @@ /tmp/foo.png
+pdftopng -r 240 -upw 123456 -freetype no -l 1 -gray  @@ /tmp/foo.png
+pdftopng -rot 90 -r 240 -mono -upw 123456 -freetype no -f 1  @@ /tmp/foo.png
+pdftopng -r 240 -mono -freetype no -f 1  @@ /tmp/foo.png
+pdftopng -opw 123456 -r 240 -mono -upw 123456 -freetype no -l 1  @@ /tmp/foo.png
+pdftopng -rot 180 -opw 123456 -r 240 -mono -freetype no -l 1  @@ /tmp/foo.png
+pdftopng -alpha -r 240 -upw 123456 -freetype no -l 1 -gray  @@ /tmp/foo.png
+pdftopng -rot 90 -opw 123456 -r 240 -freetype no -l 1 -q  @@ /tmp/foo.png
+pdftopng -alpha -rot 180 -r 240 -freetype no -f 1 -gray  @@ /tmp/foo.png
+pdftopng -opw 123456 -r 240 -upw 123456 -freetype no -l 1 -q  @@ /tmp/foo.png
+pdftopng -alpha -rot 270 -r 240 -freetype no -gray  @@ /tmp/foo.png
+pdftopng -alpha -opw 123456 -r 240 -freetype no -f 1 -gray  @@ /tmp/foo.png
+pdftopng -alpha -rot 270 -opw 123456 -r 240 -upw 123456 -freetype no -l 1 -gray  @@ /tmp/foo.png
+pdftopng -rot 270 -r 240 -mono -upw 123456 -freetype no -q  @@ /tmp/foo.png
+pdftopng -opw 123456 -freetype no -f 1  @@ /tmp/foo.png
+pdftopng -opw 123456 -r 240 -mono -freetype no  @@ /tmp/foo.png
+pdftopng -alpha -rot 270 -opw 123456 -r 240 -upw 123456 -freetype no -l 1 -q  @@ /tmp/foo.png
+pdftopng -rot 90 -r 240 -upw 123456 -freetype no -f 1 -q -gray  @@ /tmp/foo.png
+pdftopng -opw 123456 -r 240 -freetype no -l 1 -q -gray  @@ /tmp/foo.png
+pdftopng -alpha -r 240 -freetype no -l 1 -q  @@ /tmp/foo.png
+pdftopng -alpha -rot 180 -opw 123456 -r 240 -freetype no -f 1 -q  @@ /tmp/foo.png
+pdftopng -alpha -rot 90 -opw 123456 -r 240 -upw 123456 -freetype no -q  @@ /tmp/foo.png
+pdftopng -alpha -opw 123456 -r 240 -upw 123456 -freetype no -gray  @@ /tmp/foo.png
+pdftopng -rot 180 -r 240 -mono -freetype no -l 1 -q  @@ /tmp/foo.png
+pdftopng -alpha -rot 180 -freetype no -l 1  @@ /tmp/foo.png
+pdftopng -opw 123456 -r 240 -mono -upw 123456 -freetype no -f 1 -q  @@ /tmp/foo.png
+pdftopng -alpha -rot 90 -upw 123456 -freetype no -f 1  @@ /tmp/foo.png
+pdftopng -alpha -opw 123456 -upw 123456 -freetype no -l 1  @@ /tmp/foo.png
+pdftopng -alpha -rot 180 -freetype no  @@ /tmp/foo.png
+pdftopng -rot 180 -opw 123456 -upw 123456 -freetype no -l 1 -gray  @@ /tmp/foo.png
+pdftopng -r 240 -mono -freetype no -f 1 -q  @@ /tmp/foo.png
+pdftopng -rot 180 -r 240 -mono -upw 123456 -freetype no -f 1 -q  @@ /tmp/foo.png
+pdftopng -opw 123456 -freetype no -l 1 -gray  @@ /tmp/foo.png
+pdftopng -alpha -rot 90 -opw 123456 -r 240 -freetype no -l 1 -q -gray  @@ /tmp/foo.png
+pdftopng -mono -freetype no -l 1  @@ /tmp/foo.png
+pdftopng -alpha -r 240 -upw 123456 -freetype no -l 1 -q -gray  @@ /tmp/foo.png
+pdftopng -rot 180 -opw 123456 -mono -upw 123456 -freetype no -f 1  @@ /tmp/foo.png
+pdftopng -alpha -r 240 -freetype no -f 1 -q -gray  @@ /tmp/foo.png
+pdftopng -alpha -opw 123456 -r 240 -freetype no -f 1 -q -gray  @@ /tmp/foo.png
+pdftopng -alpha -rot 180 -r 240 -upw 123456 -freetype no -f 1 -q -gray  @@ /tmp/foo.png
+pdftopng -opw 123456 -mono -freetype no -f 1  @@ /tmp/foo.png
+pdftopng -alpha -rot 90 -r 240 -upw 123456 -freetype no -l 1 -q -gray  @@ /tmp/foo.png
+pdftopng -rot 90 -mono -upw 123456 -freetype no  @@ /tmp/foo.png
+pdftopng -rot 90 -mono -upw 123456 -freetype no -l 1  @@ /tmp/foo.png
+pdftopng -alpha -rot 180 -upw 123456 -freetype no -l 1 -gray  @@ /tmp/foo.png
+pdftopng -rot 180 -opw 123456 -freetype no -q  @@ /tmp/foo.png
+pdftopng -alpha -rot 180 -opw 123456 -freetype no -f 1 -gray  @@ /tmp/foo.png
+pdftopng -rot 90 -freetype no -l 1 -q  @@ /tmp/foo.png
+pdftopng -alpha -freetype no -l 1 -gray  @@ /tmp/foo.png
+pdftopng -alpha -opw 123456 -upw 123456 -freetype no -f 1 -gray  @@ /tmp/foo.png
+pdftopng -rot 180 -upw 123456 -freetype no -f 1 -q  @@ /tmp/foo.png
+pdftopng -alpha -r 240 -freetype no -q  @@ /tmp/foo.png
+pdftopng -alpha -opw 123456 -freetype no  @@ /tmp/foo.png
+pdftopng -alpha -upw 123456 -freetype no  @@ /tmp/foo.png
+pdftopng -upw 123456 -freetype no -gray  @@ /tmp/foo.png
+pdftopng -alpha -upw 123456 -freetype no -f 1 -q  @@ /tmp/foo.png
+pdftopng -alpha -opw 123456 -freetype no -l 1 -q  @@ /tmp/foo.png
+pdftopng -opw 123456 -upw 123456 -freetype no -f 1 -q -gray  @@ /tmp/foo.png
+pdftopng -rot 270 -opw 123456 -mono -freetype no -q  @@ /tmp/foo.png
+pdftopng -alpha -rot 270 -freetype no -f 1 -q  @@ /tmp/foo.png
+pdftopng -alpha -opw 123456 -freetype no -f 1 -q  @@ /tmp/foo.png
+pdftopng -alpha -rot 270 -opw 123456 -freetype no -l 1 -q  @@ /tmp/foo.png
+pdftopng -freetype no -f 1 -q -gray  @@ /tmp/foo.png
+pdftopng -alpha -upw 123456 -freetype no -l 1 -q  @@ /tmp/foo.png
+pdftopng -alpha -opw 123456 -upw 123456 -freetype no -f 1 -q  @@ /tmp/foo.png
+pdftopng -opw 123456 -mono -upw 123456 -freetype no -l 1 -q  @@ /tmp/foo.png
+pdftopng -mono -upw 123456 -freetype no -l 1 -q  @@ /tmp/foo.png
+pdftopng -rot 180 -mono -freetype no -f 1 -q  @@ /tmp/foo.png
+pdftopng -rot 180 -opw 123456 -mono -upw 123456 -freetype no -l 1 -q  @@ /tmp/foo.png
+pdftopng -alpha -rot 270 -opw 123456 -upw 123456 -freetype no -q -gray  @@ /tmp/foo.png
+pdftopng -alpha -rot 90 -freetype no -l 1 -q -gray  @@ /tmp/foo.png
+pdftopng -alpha -opw 123456 -upw 123456 -freetype no -l 1 -q -gray  @@ /tmp/foo.png
+pdftopng -alpha -freetype no -f 1 -q -gray  @@ /tmp/foo.png
+pdftopng -freetype no -q -gray  @@ /tmp/foo.png
+pdftopng -rot 270 -r 240 -mono -f 1 -q -gray -aa no  @@ /tmp/foo.png
+pdftopng -opw 123456 -r 240 -mono -freetype no -f 1 -q -gray  @@ /tmp/foo.png
+pdftopng -opw 123456 -r 240 -mono -upw 123456 -l 1 -q -gray -aa no  @@ /tmp/foo.png
+pdftopng -rot 180 -opw 123456 -r 240 -mono -freetype no -l 1 -gray  @@ /tmp/foo.png
+pdftopng -rot 270 -r 240 -mono -f 1 -aaVector no -q -gray  @@ /tmp/foo.png
+pdftopng -rot 90 -opw 123456 -r 240 -mono -f 1 -gray -aa no  @@ /tmp/foo.png
+pdftopng -r 240 -mono -f 1 -gray -aa no  @@ /tmp/foo.png
+pdftopng -rot 90 -opw 123456 -r 240 -mono -l 1 -q -gray -aa no  @@ /tmp/foo.png
+pdftopng -r 240 -mono -upw 123456 -l 1 -aaVector no -q -gray  @@ /tmp/foo.png
+pdftopng -rot 180 -r 240 -mono -upw 123456 -freetype no -gray  @@ /tmp/foo.png
+pdftopng -rot 270 -r 240 -mono -upw 123456 -f 1 -gray -aa no  @@ /tmp/foo.png
+pdftopng -opw 123456 -r 240 -mono -upw 123456 -freetype no -f 1 -gray  @@ /tmp/foo.png
+pdftopng -rot 90 -opw 123456 -r 240 -mono -freetype no -f 1 -q -gray  @@ /tmp/foo.png
+pdftopng -r 240 -mono -upw 123456 -freetype no -f 1 -gray  @@ /tmp/foo.png
+pdftopng -r 240 -mono -freetype no -l 1 -gray  @@ /tmp/foo.png
+pdftopng -rot 90 -r 240 -mono -l 1 -gray -aa no  @@ /tmp/foo.png
+pdftopng -r 240 -mono -f 1 -aaVector no -gray  @@ /tmp/foo.png
+pdftopng -opw 123456 -r 240 -mono -l 1 -aaVector no -gray  @@ /tmp/foo.png
+pdftopng -rot 180 -r 240 -mono -upw 123456 -l 1 -aaVector no -gray  @@ /tmp/foo.png
+pdftopng -rot 90 -opw 123456 -r 240 -mono -upw 123456 -f 1 -q -gray -aa no  @@ /tmp/foo.png
+pdftopng -rot 180 -opw 123456 -r 240 -mono -upw 123456 -f 1 -aaVector no -gray  @@ /tmp/foo.png
+pdftopng -rot 270 -opw 123456 -r 240 -mono -upw 123456 -freetype no -l 1 -q -gray  @@ /tmp/foo.png
+pdftopng -rot 270 -r 240 -mono -upw 123456 -aaVector no -q -gray  @@ /tmp/foo.png
+pdftopng -opw 123456 -r 240 -mono -upw 123456 -f 1 -gray -aa no  @@ /tmp/foo.png
+pdftopng -r 240 -mono -upw 123456 -freetype no -l 1 -q -gray  @@ /tmp/foo.png
+pdftopng -rot 270 -opw 123456 -r 240 -mono -upw 123456 -l 1 -q -gray  @@ /tmp/foo.png
+pdftopng -opw 123456 -r 240 -mono -upw 123456 -f 1 -aaVector no -q -gray  @@ /tmp/foo.png
+pdftopng -r 240 -mono -f 1 -q -gray -aa no  @@ /tmp/foo.png
+pdftopng -opw 123456 -r 240 -mono -aaVector no -q -gray  @@ /tmp/foo.png
+pdftopng -opw 123456 -r 240 -mono -upw 123456 -freetype no -q -gray  @@ /tmp/foo.png
+pdftopng -opw 123456 -r 240 -mono -upw 123456 -gray -aa no  @@ /tmp/foo.png
+pdftopng -rot 180 -mono -upw 123456 -freetype no -l 1 -q -gray  @@ /tmp/foo.png
+pdftopng -opw 123456 -mono -f 1 -aaVector no -gray  @@ /tmp/foo.png
+pdftopng -mono -freetype no -f 1 -gray  @@ /tmp/foo.png
+pdftopng -rot 90 -opw 123456 -mono -upw 123456 -l 1 -aaVector no -q -gray  @@ /tmp/foo.png
+pdftopng -opw 123456 -mono -upw 123456 -l 1 -gray -aa no  @@ /tmp/foo.png
+pdftopng -rot 180 -opw 123456 -mono -upw 123456 -gray -aa no  @@ /tmp/foo.png
+pdftopng -mono -upw 123456 -l 1 -aaVector no -gray  @@ /tmp/foo.png
+pdftopng -mono -upw 123456 -f 1 -q -gray -aa no  @@ /tmp/foo.png
+pdftopng -rot 90 -mono -freetype no -f 1 -gray  @@ /tmp/foo.png
+pdftopng -rot 180 -opw 123456 -mono -aaVector no -gray  @@ /tmp/foo.png
+pdftopng -mono -upw 123456 -f 1 -aaVector no -q -gray  @@ /tmp/foo.png
+pdftopng -mono -l 1 -q -gray -aa no  @@ /tmp/foo.png
+pdftopng -rot 90 -opw 123456 -mono -upw 123456 -freetype no -l 1 -gray  @@ /tmp/foo.png
+pdftopng -mono -freetype no -f 1 -q -gray  @@ /tmp/foo.png
+pdftopng -rot 270 -opw 123456 -mono -f 1 -gray -aa no  @@ /tmp/foo.png
+pdftopng -rot 180 -mono -f 1 -q -gray -aa no  @@ /tmp/foo.png
+pdftopng -rot 270 -opw 123456 -mono -f 1 -aaVector no -q -gray  @@ /tmp/foo.png
+pdftopng -rot 270 -opw 123456 -mono -upw 123456 -freetype no -f 1 -q -gray  @@ /tmp/foo.png
+pdftopng -rot 180 -mono -upw 123456 -f 1 -aaVector no -gray  @@ /tmp/foo.png
+pdftopng -rot 90 -mono -upw 123456 -l 1 -q -gray -aa no  @@ /tmp/foo.png
+pdftopng -rot 180 -mono -upw 123456 -q -gray  @@ /tmp/foo.png
+pdftopng -opw 123456 -mono -f 1 -gray  @@ /tmp/foo.png
+pdftopng -mono -upw 123456 -freetype no -f 1 -gray  @@ /tmp/foo.png
+pdftopng -opw 123456 -mono -freetype no -l 1 -q -gray  @@ /tmp/foo.png
+pdftopng -rot 180 -mono -l 1 -aaVector no -q -gray  @@ /tmp/foo.png
+pdftopng -rot 270 -opw 123456 -mono -freetype no -l 1 -gray  @@ /tmp/foo.png
+pdftopng -rot 90 -mono -l 1 -aaVector no -gray  @@ /tmp/foo.png
+pdftopng -rot 270 -mono -l 1 -gray  @@ /tmp/foo.png
+pdftopng -opw 123456 -mono -q -gray -aa no  @@ /tmp/foo.png
+pdftopng -mono -gray -aa no  @@ /tmp/foo.png
+pdftopng -mono -freetype no -gray  @@ /tmp/foo.png
+pdftopng -opw 123456 -mono -upw 123456 -aaVector no -q -gray  @@ /tmp/foo.png

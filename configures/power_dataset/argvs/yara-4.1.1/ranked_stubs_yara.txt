@@ -1,0 +1,456 @@
+455
+yara -k 16 --max-strings-per-rule=100 -l 2 -e -n --fail-on-warnings -d test=value -r -S -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -g --max-strings-per-rule=100 -e -L -D --fail-on-warnings -f -t Foo -d test=value -S -x test=dummy  -p 1 @@ input_yara
+yara -i test -g --max-strings-per-rule=100 -w -e -n -D -f -t Foo -d test=value -r -S -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara --max-strings-per-rule=100 -l 2 -w -L -f -t Foo -d test=value -c -m -S -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -e -L -D --fail-on-warnings -d test=value -r -m -S -a 3  -p 1 @@ input_yara
+yara -i test -l 2 -e -L -n -D --fail-on-warnings -f -t Foo -d test=value -r -S -s -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -g --max-strings-per-rule=100 -l 2 -w -L -n -f -d test=value -c -m -S -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -l 2 -e -L -n -f -d test=value -c -r -m -S -x test=dummy  -p 1 @@ input_yara
+yara -i test -g -n --fail-on-warnings -d test=value -S  -p 1 @@ input_yara
+yara -i test -g -l 2 -w -e -L -D -f -t Foo -d test=value -c -m -S -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -g -l 2 -w -e -L -D -f -d test=value -c -r -S -s  -p 1 @@ input_yara
+yara -i test -k 16 -g -n -t Foo -d test=value -r -m -S  -p 1 @@ input_yara
+yara -i test -k 16 -l 2 -w -L -n -D -d test=value -r -m -S  -p 1 @@ input_yara
+yara -i test -k 16 -g -l 2 -L -n -D -f -d test=value -c -m -S -s -a 3  -p 1 @@ input_yara
+yara -i test --max-strings-per-rule=100 -l 2 -L -n -D --fail-on-warnings -d test=value -c -r -m -x test=dummy -a 3  -p 1 @@ input_yara
+yara -k 16 -l 2 --fail-on-warnings -f -d test=value -c -m -x test=dummy -a 3  -p 1 @@ input_yara
+yara -i test -k 16 --max-strings-per-rule=100 -l 2 -w -e -n -D -f -t Foo -d test=value -c -m -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -g --max-strings-per-rule=100 -w -f -d test=value -r -m  -p 1 @@ input_yara
+yara -i test -k 16 --max-strings-per-rule=100 -e -n -D --fail-on-warnings -t Foo -d test=value  -p 1 @@ input_yara
+yara -g --max-strings-per-rule=100 -l 2 -e -L --fail-on-warnings -f -t Foo -d test=value -c -r -a 3  -p 1 @@ input_yara
+yara -g -l 2 -L -n --fail-on-warnings -m -S -x test=dummy -s  -p 1 @@ input_yara
+yara -k 16 -g --max-strings-per-rule=100 -l 2 -w -n -D -m -S -x test=dummy -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -g --max-strings-per-rule=100 -w -e -L -D -d test=value -c  -p 1 @@ input_yara
+yara -i test -g -l 2 -w -n -t Foo -d test=value -c -m -x test=dummy -s  -p 1 @@ input_yara
+yara -k 16 --max-strings-per-rule=100 -L -f -r -m -S -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -k 16 -w -e -L -D -t Foo -d test=value -c -r -a 3  -p 1 @@ input_yara
+yara -i test -g -e -L --fail-on-warnings -f -r -S -x test=dummy -s  -p 1 @@ input_yara
+yara --max-strings-per-rule=100 -e -L -n -D -c -S -x test=dummy -s  -p 1 @@ input_yara
+yara -i test -k 16 -w -t Foo -d test=value -c -s -a 3  -p 1 @@ input_yara
+yara -i test --max-strings-per-rule=100 -n -D --fail-on-warnings -f -c -r -S  -p 1 @@ input_yara
+yara -i test -l 2 --fail-on-warnings -S -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -k 16 -n -D --fail-on-warnings -t Foo -r -m -S -x test=dummy -a 3  -p 1 @@ input_yara
+yara -i test -k 16 --max-strings-per-rule=100 -L -n --fail-on-warnings -t Foo -c -m -S -s -a 3  -p 1 @@ input_yara
+yara -k 16 -g --fail-on-warnings -f -t Foo -c -S -x test=dummy -a 3  -p 1 @@ input_yara
+yara -k 16 --max-strings-per-rule=100 -l 2 -D --fail-on-warnings -f -t Foo -c -m -S -s  -p 1 @@ input_yara
+yara -k 16 -l 2 -w -D -t Foo -S -x test=dummy -s  -p 1 @@ input_yara
+yara -k 16 -g -w -e -L -r -m -S -s -a 3  -p 1 @@ input_yara
+yara -i test -g -w -e -n -D -c -S -s -a 3  -p 1 @@ input_yara
+yara -g -w -e -L -n -f -t Foo -c -m -S -s -a 3  -p 1 @@ input_yara
+yara --max-strings-per-rule=100 -e -L -n --fail-on-warnings -f -x test=dummy -a 3  -p 1 @@ input_yara
+yara -k 16 --max-strings-per-rule=100 -w -e -n -D -f -r -x test=dummy  -p 1 @@ input_yara
+yara -g --max-strings-per-rule=100 -l 2 -e -L -n -r -s  -p 1 @@ input_yara
+yara -i test -g --max-strings-per-rule=100 -l 2 -n --fail-on-warnings -t Foo -c -r -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -i test -k 16 --max-strings-per-rule=100 -e -L -n -D --fail-on-warnings -f -t Foo -x test=dummy -s  -p 1 @@ input_yara
+yara -i test -k 16 --max-strings-per-rule=100 -L --fail-on-warnings -c -m -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -i test -g --max-strings-per-rule=100 -n -D -c -r -m -x test=dummy -s  -p 1 @@ input_yara
+yara -i test --max-strings-per-rule=100 -L -D -f -t Foo -r -x test=dummy -a 3  -p 1 @@ input_yara
+yara --max-strings-per-rule=100 -w -e -t Foo -c -x test=dummy  -p 1 @@ input_yara
+yara -k 16 -g --max-strings-per-rule=100 -l 2 -e -n --fail-on-warnings -c -m -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -l 2 -e -n --fail-on-warnings -f -t Foo -c -r -m  -p 1 @@ input_yara
+yara -k 16 -g --max-strings-per-rule=100 -L -D --fail-on-warnings -t Foo -m -a 3  -p 1 @@ input_yara
+yara -i test -g --max-strings-per-rule=100 -l 2 -w -e -L -f -t Foo -m  -p 1 @@ input_yara
+yara -l 2 -w -e -L -f -m -x test=dummy -a 3  -p 1 @@ input_yara
+yara -g -l 2 -w -L -n -D -f -t Foo -r -x test=dummy -s  -p 1 @@ input_yara
+yara -i test -k 16 -g -l 2 -L -t Foo -m -x test=dummy  -p 1 @@ input_yara
+yara  -p 1 @@ input_yara
+yara -e -f -t Foo -c -m -s -a 3  -p 1 @@ input_yara
+yara -i test -k 16 --max-strings-per-rule=100 -f -t Foo -d test=value -c -r --scan-list -S -x test=dummy  -p 1 @@ input_yara
+yara -g --max-strings-per-rule=100 -l 2 -e -D -f -t Foo -d test=value -c --scan-list -m -S -x test=dummy  -p 1 @@ input_yara
+yara -i test -k 16 -g --max-strings-per-rule=100 -L -n -t Foo -d test=value -c --scan-list -m -S -x test=dummy  -p 1 @@ input_yara
+yara -i test -w -D -f -d test=value -c -r --scan-list -S -x test=dummy -s  -p 1 @@ input_yara
+yara -k 16 -g -D --fail-on-warnings -t Foo -d test=value -c -r --scan-list -m -S -x test=dummy -s  -p 1 @@ input_yara
+yara -k 16 -g -l 2 -w -L -f -t Foo -d test=value -c -r --scan-list -m -S -x test=dummy -a 3  -p 1 @@ input_yara
+yara -g --max-strings-per-rule=100 -l 2 -w -e -L -t Foo -d test=value --scan-list -S -s -a 3  -p 1 @@ input_yara
+yara -i test --max-strings-per-rule=100 -l 2 -w -e -D -t Foo -d test=value --scan-list -m -S -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -g --max-strings-per-rule=100 -e -L -t Foo -d test=value --scan-list -m -S -a 3  -p 1 @@ input_yara
+yara -g -l 2 -e -n -D --fail-on-warnings -t Foo -d test=value -r --scan-list -S -a 3  -p 1 @@ input_yara
+yara -w -e -f -d test=value --scan-list -S -s -a 3  -p 1 @@ input_yara
+yara -i test -e --fail-on-warnings -f -d test=value -c -r --scan-list -m -S -s  -p 1 @@ input_yara
+yara -k 16 -g -l 2 -w -L -n -D -f -t Foo -d test=value -r --scan-list -m -S -s  -p 1 @@ input_yara
+yara -i test -k 16 --max-strings-per-rule=100 -w -e -L -n -t Foo -d test=value -r --scan-list -m -x test=dummy -s  -p 1 @@ input_yara
+yara -k 16 --max-strings-per-rule=100 -l 2 -L -D --fail-on-warnings -d test=value -r --scan-list -x test=dummy  -p 1 @@ input_yara
+yara -i test -k 16 -g --max-strings-per-rule=100 -l 2 -e -L --fail-on-warnings -d test=value -r --scan-list -x test=dummy -a 3  -p 1 @@ input_yara
+yara -g --max-strings-per-rule=100 -l 2 -w -e -L -n -D -f -d test=value --scan-list -m -x test=dummy -s  -p 1 @@ input_yara
+yara -i test -g --max-strings-per-rule=100 --fail-on-warnings -f -t Foo -d test=value -r --scan-list -m -x test=dummy -a 3  -p 1 @@ input_yara
+yara -k 16 -g --max-strings-per-rule=100 -w -e -L -D -f -d test=value -c --scan-list -x test=dummy  -p 1 @@ input_yara
+yara -g --max-strings-per-rule=100 -w -e -n -f -t Foo -d test=value -c -r --scan-list -x test=dummy -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -l 2 -w -e -L -f -d test=value --scan-list -m -x test=dummy -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -g --max-strings-per-rule=100 -l 2 -w -D -f -t Foo -d test=value --scan-list -s -a 3  -p 1 @@ input_yara
+yara -i test -g --max-strings-per-rule=100 -e -L -n --fail-on-warnings -d test=value -c --scan-list -s -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -g --max-strings-per-rule=100 -l 2 -e -n -D -f -t Foo -d test=value -r --scan-list -s  -p 1 @@ input_yara
+yara -g --max-strings-per-rule=100 -w -L -D -t Foo -d test=value -c -r --scan-list -s -a 3  -p 1 @@ input_yara
+yara -i test -L -D --fail-on-warnings -f -t Foo -d test=value --scan-list -m  -p 1 @@ input_yara
+yara -i test -g -l 2 -w -d test=value -c -r --scan-list -a 3  -p 1 @@ input_yara
+yara -k 16 -g -e -L -n --fail-on-warnings -f -t Foo -d test=value --scan-list -m -s -a 3  -p 1 @@ input_yara
+yara -l 2 -L -n --fail-on-warnings -t Foo -d test=value -c -r --scan-list -s  -p 1 @@ input_yara
+yara -i test --max-strings-per-rule=100 -l 2 -e -n --fail-on-warnings -f -t Foo --scan-list -m -S -x test=dummy -a 3  -p 1 @@ input_yara
+yara -g --max-strings-per-rule=100 -n -D --fail-on-warnings -c --scan-list -m -S -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -l 2 -w -L -f -t Foo -c --scan-list -S -x test=dummy -s  -p 1 @@ input_yara
+yara -i test -k 16 -e -D --fail-on-warnings -c --scan-list -m -S -x test=dummy -a 3  -p 1 @@ input_yara
+yara -k 16 --max-strings-per-rule=100 -l 2 -w -e -L -n -f -t Foo -c -r --scan-list -m -S  -p 1 @@ input_yara
+yara -i test -k 16 --max-strings-per-rule=100 -l 2 -L -n -D --fail-on-warnings --scan-list -S  -p 1 @@ input_yara
+yara --max-strings-per-rule=100 -w -L -n -f --scan-list -S  -p 1 @@ input_yara
+yara -i test -g -l 2 -w -e -L -D -t Foo -r --scan-list -m -S -s  -p 1 @@ input_yara
+yara -i test -k 16 -g -l 2 -w -e -n -f -r --scan-list -S -s  -p 1 @@ input_yara
+yara -i test -k 16 -g -l 2 --fail-on-warnings --scan-list -m -S -s -a 3  -p 1 @@ input_yara
+yara -l 2 -n -f -c --scan-list -S -a 3  -p 1 @@ input_yara
+yara -g -l 2 -L -n -D --fail-on-warnings -c -r --scan-list -m -S -s  -p 1 @@ input_yara
+yara -k 16 -g --max-strings-per-rule=100 -l 2 -n --fail-on-warnings -f -t Foo -r --scan-list -x test=dummy -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -g --max-strings-per-rule=100 -w -e -D -f -c -r --scan-list -m -x test=dummy -s  -p 1 @@ input_yara
+yara -i test -g --max-strings-per-rule=100 -l 2 -w -L -D -f --scan-list -x test=dummy -a 3  -p 1 @@ input_yara
+yara -w -D -f -t Foo -c -r --scan-list -m -x test=dummy -a 3  -p 1 @@ input_yara
+yara -k 16 -g -L -n --fail-on-warnings -c -r --scan-list -x test=dummy  -p 1 @@ input_yara
+yara -k 16 -e -L -n -f -t Foo -c -r --scan-list -x test=dummy -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -g -l 2 -e -n -D --fail-on-warnings -t Foo --scan-list -x test=dummy -s  -p 1 @@ input_yara
+yara -i test -g --max-strings-per-rule=100 -L -D -f -t Foo -c --scan-list -s  -p 1 @@ input_yara
+yara --max-strings-per-rule=100 -l 2 -e --fail-on-warnings -c -r --scan-list -m -s  -p 1 @@ input_yara
+yara -k 16 -g --max-strings-per-rule=100 -l 2 -w -e -L -D -c -r --scan-list -m -s -a 3  -p 1 @@ input_yara
+yara -i test -w -n --scan-list -m -s -a 3  -p 1 @@ input_yara
+yara -k 16 -l 2 -w -n -t Foo --scan-list  -p 1 @@ input_yara
+yara -i test -k 16 -g -e -D --fail-on-warnings -f -c -r --scan-list -m -s -a 3  -p 1 @@ input_yara
+yara -n -D --fail-on-warnings -t Foo --scan-list -s -a 3  -p 1 @@ input_yara
+yara -C --max-strings-per-rule=100 -l 2 -n -D --fail-on-warnings -f -d test=value --scan-list -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -C -g --max-strings-per-rule=100 -l 2 -L --fail-on-warnings -f -t Foo --scan-list -m -S -x test=dummy -s  -p 1 @@ input_yara
+yara -k 16 -C -g --max-strings-per-rule=100 -l 2 -e --fail-on-warnings -t Foo -c --scan-list -x test=dummy  -p 1 @@ input_yara
+yara -i test -k 16 -C -g --max-strings-per-rule=100 -l 2 -n -D --fail-on-warnings -d test=value -c --scan-list -m -x test=dummy -s  -p 1 @@ input_yara
+yara -i test -C -g --max-strings-per-rule=100 -l 2 -w -n -D -f -t Foo -c -r --scan-list -m -S -x test=dummy -a 3  -p 1 @@ input_yara
+yara -C -g --max-strings-per-rule=100 -l 2 -w -e -L -c -r --scan-list -m -x test=dummy -a 3  -p 1 @@ input_yara
+yara -i test -C --max-strings-per-rule=100 -w -n -d test=value --scan-list -S -x test=dummy -s  -p 1 @@ input_yara
+yara -C --max-strings-per-rule=100 -w -e -t Foo -r --scan-list -S -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -C --max-strings-per-rule=100 -l 2 -w -e -L -D -f -t Foo -c -r --scan-list -x test=dummy -s  -p 1 @@ input_yara
+yara -i test -k 16 -C --max-strings-per-rule=100 -e -L --fail-on-warnings -f -d test=value -c --scan-list -x test=dummy -s  -p 1 @@ input_yara
+yara -i test -C --max-strings-per-rule=100 -l 2 -e -L -n --fail-on-warnings -f -t Foo -c --scan-list -m -x test=dummy -s  -p 1 @@ input_yara
+yara -i test -C -g --max-strings-per-rule=100 -l 2 -e -D --fail-on-warnings -t Foo -d test=value -c --scan-list -m -S -x test=dummy -a 3  -p 1 @@ input_yara
+yara -k 16 -C -g -l 2 -w -e -n -d test=value -c -r --scan-list -S -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -k 16 -C --max-strings-per-rule=100 -l 2 -e -L -D --fail-on-warnings -c -r -S -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -i test -C -g --max-strings-per-rule=100 -l 2 -e -n --fail-on-warnings -f -d test=value -r -m -S -x test=dummy  -p 1 @@ input_yara
+yara -k 16 -C -w -L -n -t Foo -c --scan-list -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -i test -C -l 2 -e -f -t Foo -d test=value --scan-list -x test=dummy -s  -p 1 @@ input_yara
+yara -i test -C -l 2 -w -e -L -n -D -f -d test=value -c -r --scan-list -x test=dummy -a 3  -p 1 @@ input_yara
+yara -i test -C -g -L -n -D --fail-on-warnings -d test=value --scan-list -S -x test=dummy  -p 1 @@ input_yara
+yara -k 16 -C -l 2 -L -n --fail-on-warnings -f -c -r --scan-list -S -x test=dummy -s  -p 1 @@ input_yara
+yara -i test -C --max-strings-per-rule=100 -L --fail-on-warnings -t Foo -d test=value -r -m -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -k 16 -C --max-strings-per-rule=100 -e -L --fail-on-warnings -f -t Foo -d test=value -c -r -m -S -x test=dummy  -p 1 @@ input_yara
+yara -i test -C --max-strings-per-rule=100 -e -L -D --fail-on-warnings -f -c -m -S -x test=dummy -a 3  -p 1 @@ input_yara
+yara -C -l 2 -w -t Foo -c -r --scan-list -x test=dummy  -p 1 @@ input_yara
+yara -i test -k 16 -C -g -e -L -D -r --scan-list -S -x test=dummy  -p 1 @@ input_yara
+yara -C -g --max-strings-per-rule=100 -l 2 -e -n -D --fail-on-warnings -t Foo -d test=value -c -S -x test=dummy -s  -p 1 @@ input_yara
+yara -i test -C -g -l 2 -w -D -t Foo -d test=value --scan-list -m -x test=dummy -a 3  -p 1 @@ input_yara
+yara -C -g -w -n -D -f -t Foo -d test=value --scan-list -m -x test=dummy -s  -p 1 @@ input_yara
+yara -k 16 -C -L -n -D --fail-on-warnings -f -t Foo -d test=value --scan-list -S -x test=dummy -s  -p 1 @@ input_yara
+yara -i test -k 16 -C -g --max-strings-per-rule=100 -l 2 -e -L -D --fail-on-warnings -f -d test=value -c -r -m -S -x test=dummy  -p 1 @@ input_yara
+yara -C -g -l 2 -L -D -d test=value -c -r --scan-list -m -S -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -i test -C -g -e -L -n -D --fail-on-warnings -f -c -r --scan-list -m -S -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -k 16 -C -g -w -f --scan-list -m -S -x test=dummy -a 3  -p 1 @@ input_yara
+yara -C -e --fail-on-warnings -t Foo -d test=value -m -S -x test=dummy -a 3  -p 1 @@ input_yara
+yara -i test -C -g --max-strings-per-rule=100 -w -L -D -t Foo -d test=value -m -S -x test=dummy -s  -p 1 @@ input_yara
+yara -i test -C -g -l 2 -L -D --fail-on-warnings -t Foo -c -x test=dummy -a 3  -p 1 @@ input_yara
+yara -C --max-strings-per-rule=100 -l 2 -w -e -D -d test=value -r -m -S -x test=dummy -s  -p 1 @@ input_yara
+yara -k 16 -C -g --max-strings-per-rule=100 -w -e -n -f -t Foo -d test=value -c -r -S -x test=dummy  -p 1 @@ input_yara
+yara -i test -k 16 -C -l 2 -n -D --fail-on-warnings -t Foo -r -m -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -C -n -D --fail-on-warnings -f -c -m -x test=dummy  -p 1 @@ input_yara
+yara -i test -C --max-strings-per-rule=100 -l 2 -w -L -n -D -f -t Foo -c -x test=dummy -s  -p 1 @@ input_yara
+yara -C -g -e -D --fail-on-warnings -f -t Foo -r -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -C --max-strings-per-rule=100 -n -D -f -d test=value -S -x test=dummy -a 3  -p 1 @@ input_yara
+yara -C -g --max-strings-per-rule=100 -n -d test=value -x test=dummy -s  -p 1 @@ input_yara
+yara -i test -k 16 -C -g -e -L -n --fail-on-warnings -t Foo -d test=value -m -x test=dummy -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -C --max-strings-per-rule=100 -l 2 -w -e -n -r -m -x test=dummy -a 3  -p 1 @@ input_yara
+yara -k 16 -C --max-strings-per-rule=100 -w -L -n -D -d test=value -m -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -k 16 -C --max-strings-per-rule=100 -l 2 -w -L -n -D -c -r -S -x test=dummy  -p 1 @@ input_yara
+yara -C -l 2 -D --fail-on-warnings -t Foo -d test=value -r -m -x test=dummy  -p 1 @@ input_yara
+yara -k 16 -C -g --max-strings-per-rule=100 -l 2 -w -e -n -D -t Foo -d test=value -c -S -x test=dummy  -p 1 @@ input_yara
+yara -i test -C -g --max-strings-per-rule=100 -l 2 -w -e -n -D -t Foo -c --scan-list -m  -p 1 @@ input_yara
+yara -k 16 -C --max-strings-per-rule=100 -w -L -n -D -t Foo -d test=value -r --scan-list -m -S -a 3  -p 1 @@ input_yara
+yara -i test -C -g --max-strings-per-rule=100 --fail-on-warnings -t Foo -c -r --scan-list -S -s -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -C -g --max-strings-per-rule=100 -L -n --fail-on-warnings -f -d test=value -r --scan-list -m -a 3  -p 1 @@ input_yara
+yara -k 16 -C --max-strings-per-rule=100 --fail-on-warnings -f -d test=value -c -r --scan-list -m -s -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -C --max-strings-per-rule=100 -l 2 -e -L -n -D --fail-on-warnings -t Foo -d test=value -c --scan-list -S -a 3  -p 1 @@ input_yara
+yara -i test -C --max-strings-per-rule=100 -e -L -n -f -t Foo -d test=value -c --scan-list -m -S  -p 1 @@ input_yara
+yara -i test -k 16 -C --max-strings-per-rule=100 -l 2 -n -D -t Foo -c -r --scan-list -m -a 3  -p 1 @@ input_yara
+yara -C -g --max-strings-per-rule=100 -l 2 -D -t Foo -r --scan-list -S -s -a 3  -p 1 @@ input_yara
+yara -k 16 -C -g --max-strings-per-rule=100 -n -D --fail-on-warnings -f -d test=value -r --scan-list -m -S -a 3  -p 1 @@ input_yara
+yara -i test -C -g --max-strings-per-rule=100 -l 2 --fail-on-warnings -t Foo -d test=value -c -r --scan-list -m -s -a 3  -p 1 @@ input_yara
+yara -C --max-strings-per-rule=100 -l 2 -e -D -d test=value -c --scan-list  -p 1 @@ input_yara
+yara -k 16 -C -g --max-strings-per-rule=100 -n -D --fail-on-warnings -f -t Foo -c -m -S -s  -p 1 @@ input_yara
+yara -k 16 -C --max-strings-per-rule=100 -l 2 -w -e -L -D -f --scan-list -m -S -s  -p 1 @@ input_yara
+yara -C -g --max-strings-per-rule=100 -l 2 -e -L -n -D --fail-on-warnings -f -c --scan-list -m -a 3  -p 1 @@ input_yara
+yara -i test -C -g --max-strings-per-rule=100 -e -L -n --fail-on-warnings -t Foo -r -m -S  -p 1 @@ input_yara
+yara -i test -k 16 -C --max-strings-per-rule=100 -l 2 -L -D --fail-on-warnings -f -t Foo -r  -p 1 @@ input_yara
+yara -i test -C -g --max-strings-per-rule=100 -e -L --fail-on-warnings -c -r  -p 1 @@ input_yara
+yara -k 16 -C -g --max-strings-per-rule=100 -n -D -f -c -r --scan-list -s  -p 1 @@ input_yara
+yara -i test -C -g --max-strings-per-rule=100 -L -D --fail-on-warnings -f -d test=value -S -s -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -C -g -w -L -c -r --scan-list -m -S  -p 1 @@ input_yara
+yara -i test -k 16 -C -e -L -n -D --fail-on-warnings -f -t Foo --scan-list -s -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -C -l 2 -w -L -D -d test=value -r --scan-list -S -s -a 3  -p 1 @@ input_yara
+yara -k 16 -C -w -e -n -D -d test=value -c --scan-list -m -s  -p 1 @@ input_yara
+yara -i test -k 16 -C -n --fail-on-warnings -d test=value -r --scan-list -s  -p 1 @@ input_yara
+yara -i test -C -g -e -L -t Foo -d test=value -c -r --scan-list -S -s -a 3  -p 1 @@ input_yara
+yara -i test -C -l 2 -D --fail-on-warnings --scan-list -S  -p 1 @@ input_yara
+yara -k 16 -C -e -L -D --fail-on-warnings -t Foo -c --scan-list -m  -p 1 @@ input_yara
+yara -i test -k 16 -C -w -e -n -D -f -t Foo -r --scan-list -m -S -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -C -g --max-strings-per-rule=100 -e -D -d test=value -r -m -a 3  -p 1 @@ input_yara
+yara -k 16 -C -l 2 -w -L -n -f -t Foo -d test=value -r -m -x test=dummy  -p 1 @@ input_yara
+yara -i test -C --max-strings-per-rule=100 -l 2 -w -e -f -t Foo -c -r -S -s -a 3  -p 1 @@ input_yara
+yara -C -g -w -e -L -D -f -r --scan-list  -p 1 @@ input_yara
+yara -C -g -l 2 --fail-on-warnings -f -t Foo -d test=value -c -r -S  -p 1 @@ input_yara
+yara -i test -C --max-strings-per-rule=100 -l 2 -w -d test=value -c -m -S -a 3  -p 1 @@ input_yara
+yara -C -L -n --fail-on-warnings -f -d test=value -c -S  -p 1 @@ input_yara
+yara -i test -k 16 -C -l 2 -e -L -n -D --fail-on-warnings -d test=value -c -m -S -s  -p 1 @@ input_yara
+yara -k 16 -C -g -l 2 -e --fail-on-warnings -d test=value -s  -p 1 @@ input_yara
+yara -i test -k 16 -C -g -l 2 -w -e -L -n -t Foo -S -x test=dummy -a 3  -p 1 @@ input_yara
+yara -i test -C -w -e -L -t Foo -c -m -x test=dummy  -p 1 @@ input_yara
+yara -i test -k 16 -C --max-strings-per-rule=100 -w -e -L -n -f -c -s -a 3  -p 1 @@ input_yara
+yara -C -l 2 -e -n -D -f -r --scan-list -m -S -s  -p 1 @@ input_yara
+yara -C -g -l 2 -w -L --scan-list -m -s  -p 1 @@ input_yara
+yara -k 16 -C -e -L -D -f -t Foo -d test=value -c -r -m -x test=dummy -s  -p 1 @@ input_yara
+yara -i test -k 16 -C -g --max-strings-per-rule=100 -l 2 -f -c -m -s  -p 1 @@ input_yara
+yara -k 16 -C -g --max-strings-per-rule=100 -l 2 -w -L -t Foo -d test=value -c -r  -p 1 @@ input_yara
+yara -k 16 -C --max-strings-per-rule=100 -e -L -n -t Foo -d test=value -S -s  -p 1 @@ input_yara
+yara -i test -C -g --max-strings-per-rule=100 -w -e -D -f -d test=value -c -S -a 3  -p 1 @@ input_yara
+yara -k 16 -C -g -w -L -n -D -t Foo -d test=value -c -S -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -k 16 -C -g -w -L -D -d test=value -r -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -C -g -l 2 -w -e -L -n -D -c -r -m -S -x test=dummy  -p 1 @@ input_yara
+yara -C -g -l 2 -n -f -t Foo -c -r -m -S -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -k 16 -C -g -l 2 -L -D --fail-on-warnings -f -c --scan-list -m  -p 1 @@ input_yara
+yara -i test -k 16 -C -g -e -D --fail-on-warnings -t Foo -d test=value -c -r -S -a 3  -p 1 @@ input_yara
+yara -k 16 -C -g --max-strings-per-rule=100 -w -e -n -D -f -t Foo -d test=value -c -r -m -S  -p 1 @@ input_yara
+yara -i test -C -g -l 2 -n --fail-on-warnings -f -d test=value -r -m -s -a 3  -p 1 @@ input_yara
+yara -k 16 -C --max-strings-per-rule=100 -w -r -m -S -s  -p 1 @@ input_yara
+yara -i test -k 16 -C -g -w -n -D -f -c -r -a 3  -p 1 @@ input_yara
+yara -C -l 2 -L -n -D -t Foo -r -S -a 3  -p 1 @@ input_yara
+yara -i test -C -w -L -n -f -t Foo -d test=value -r -a 3  -p 1 @@ input_yara
+yara -i test -C -g -l 2 -e -n -D -f -t Foo -d test=value -c -s -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -C -l 2 -w -L -f -t Foo -m -s -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -C -g -l 2 -w -e -D -t Foo -d test=value -c -r -m -S -a 3  -p 1 @@ input_yara
+yara -C -l 2 -w -e -n -f -t Foo -r -m -s -a 3  -p 1 @@ input_yara
+yara -C -g -e -L -n -D -f -d test=value -m -a 3  -p 1 @@ input_yara
+yara -k 16 -C -g -l 2 -e -L -n -D -f -c -S -s -a 3  -p 1 @@ input_yara
+yara -i test --max-strings-per-rule=100 -l 2 -e -L --atom-quality-table -D -f -t Foo -r -m -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -i test -k 16 --max-strings-per-rule=100 -l 2 -w -e --atom-quality-table -n -d test=value -S  -p 1 @@ input_yara
+yara -i test -k 16 -C --max-strings-per-rule=100 -l 2 -L --atom-quality-table -n -t Foo -r --scan-list -s  -p 1 @@ input_yara
+yara -i test -k 16 -C --max-strings-per-rule=100 -w -L --atom-quality-table -n -D -f -t Foo -m -S -x test=dummy -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -g --max-strings-per-rule=100 -e --atom-quality-table -n --fail-on-warnings -t Foo -d test=value -c --scan-list -m -S -x test=dummy -s  -p 1 @@ input_yara
+yara -i test -C -g --max-strings-per-rule=100 -l 2 -w -L --atom-quality-table -n -f -d test=value -c -r --scan-list -S -x test=dummy -s  -p 1 @@ input_yara
+yara -i test -k 16 --max-strings-per-rule=100 -l 2 -w -e -L --atom-quality-table -n -t Foo -c -r --scan-list -S -x test=dummy -a 3  -p 1 @@ input_yara
+yara -i test -g --max-strings-per-rule=100 -l 2 --atom-quality-table -D --fail-on-warnings -d test=value -c -m -S -s  -p 1 @@ input_yara
+yara -i test -k 16 -C -g --max-strings-per-rule=100 -l 2 -L --atom-quality-table -n -D --fail-on-warnings -f -t Foo -d test=value -c -r -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -C -g --max-strings-per-rule=100 -L --atom-quality-table --fail-on-warnings -c -S -x test=dummy  -p 1 @@ input_yara
+yara -i test -k 16 -C --max-strings-per-rule=100 -e -L --atom-quality-table -D --fail-on-warnings -f -d test=value --scan-list -S -s  -p 1 @@ input_yara
+yara -i test -k 16 -C --max-strings-per-rule=100 -l 2 -w --atom-quality-table -D -f -c -r --scan-list -m  -p 1 @@ input_yara
+yara -i test -k 16 -g --max-strings-per-rule=100 -L --atom-quality-table -D --fail-on-warnings -f -t Foo -c -r --scan-list -S -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -C --max-strings-per-rule=100 -w -e --atom-quality-table -D -t Foo -c -r -S -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -i test -C --max-strings-per-rule=100 -l 2 -e -L --atom-quality-table -c -S -s  -p 1 @@ input_yara
+yara -i test -k 16 -g --max-strings-per-rule=100 -w -L --atom-quality-table -n -t Foo --scan-list  -p 1 @@ input_yara
+yara -i test -k 16 -C -g --max-strings-per-rule=100 -l 2 -w --atom-quality-table -D -f -d test=value -r -S -x test=dummy  -p 1 @@ input_yara
+yara -i test -k 16 --max-strings-per-rule=100 -l 2 -e --atom-quality-table -D --scan-list -S -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -C -g --max-strings-per-rule=100 -l 2 -w -e --atom-quality-table -n -D -d test=value -c -r -x test=dummy -a 3  -p 1 @@ input_yara
+yara -i test -k 16 --max-strings-per-rule=100 -l 2 -e --atom-quality-table -D --fail-on-warnings -t Foo -r -m  -p 1 @@ input_yara
+yara -i test -C -g --max-strings-per-rule=100 -l 2 -w -e -L --atom-quality-table -n -D -s -a 3  -p 1 @@ input_yara
+yara -i test --max-strings-per-rule=100 -l 2 -w -e -L --atom-quality-table -D -f -d test=value -c --scan-list -S -x test=dummy  -p 1 @@ input_yara
+yara -i test -k 16 -C -g --max-strings-per-rule=100 -l 2 -e --atom-quality-table -n -f -c --scan-list -m -S -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -C -g --max-strings-per-rule=100 -L --atom-quality-table -n -D -f -d test=value -r -m -s  -p 1 @@ input_yara
+yara -i test -C --max-strings-per-rule=100 -l 2 -e --atom-quality-table -n -D --fail-on-warnings -t Foo -d test=value -m -S -s -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -g --max-strings-per-rule=100 -w -e --atom-quality-table -f -m -x test=dummy -s  -p 1 @@ input_yara
+yara -i test -k 16 -g --max-strings-per-rule=100 -l 2 -e --atom-quality-table --fail-on-warnings -f -d test=value -r -s  -p 1 @@ input_yara
+yara -i test -k 16 -C -g --max-strings-per-rule=100 -l 2 -e --atom-quality-table --fail-on-warnings -r -S -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -i test -C --max-strings-per-rule=100 -l 2 -w -e -L --atom-quality-table -n -D -f -t Foo -d test=value -r --scan-list -m  -p 1 @@ input_yara
+yara -i test -C --max-strings-per-rule=100 -l 2 -L --atom-quality-table -n --fail-on-warnings -t Foo -d test=value -c -m  -p 1 @@ input_yara
+yara -i test -g --max-strings-per-rule=100 -l 2 -L --atom-quality-table -n --fail-on-warnings -f -t Foo -d test=value -c -m -x test=dummy -a 3  -p 1 @@ input_yara
+yara -i test -C -g --max-strings-per-rule=100 -l 2 -L --atom-quality-table -f -t Foo -d test=value -r -S -x test=dummy  -p 1 @@ input_yara
+yara -i test -k 16 -C --max-strings-per-rule=100 -e --atom-quality-table -f -d test=value -c -r --scan-list -S  -p 1 @@ input_yara
+yara -i test -k 16 --max-strings-per-rule=100 -l 2 -L --atom-quality-table -D --fail-on-warnings -f -d test=value --scan-list -m -S -x test=dummy -s  -p 1 @@ input_yara
+yara -i test -k 16 -C -g --max-strings-per-rule=100 -w -e -L --atom-quality-table -n -D -f -t Foo -d test=value -c -r -S -s  -p 1 @@ input_yara
+yara -i test -g --max-strings-per-rule=100 -l 2 -w --atom-quality-table -f -c --scan-list -m -S -s -a 3  -p 1 @@ input_yara
+yara -i test -g --max-strings-per-rule=100 -l 2 --atom-quality-table -n -d test=value -S -x test=dummy -s  -p 1 @@ input_yara
+yara -i test -k 16 -C -g --max-strings-per-rule=100 -w -L --atom-quality-table -D -t Foo -c -r -m -a 3  -p 1 @@ input_yara
+yara -i test -C --max-strings-per-rule=100 -l 2 -w -L --atom-quality-table -d test=value -r -S -a 3  -p 1 @@ input_yara
+yara -i test -g --max-strings-per-rule=100 -l 2 -w -e --atom-quality-table -n -f -d test=value -c -r  -p 1 @@ input_yara
+yara -i test -k 16 -C --max-strings-per-rule=100 -w -L --atom-quality-table -D -d test=value -c --scan-list -S -s  -p 1 @@ input_yara
+yara -k 16 -g --max-strings-per-rule=100 -w -e -L --atom-quality-table -n -D -f -d test=value -c -r --scan-list -m -S -x test=dummy -a 3  -p 1 @@ input_yara
+yara -i test -g --max-strings-per-rule=100 -e --atom-quality-table -n -f -t Foo -a 3  -p 1 @@ input_yara
+yara -k 16 -g --max-strings-per-rule=100 -l 2 -w --atom-quality-table -t Foo -c -r -m -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -i test -C --max-strings-per-rule=100 -e --atom-quality-table -n -D --fail-on-warnings -t Foo -r --scan-list -S -x test=dummy  -p 1 @@ input_yara
+yara -k 16 --max-strings-per-rule=100 -L --atom-quality-table --fail-on-warnings -d test=value --scan-list -m  -p 1 @@ input_yara
+yara -k 16 -C -g --max-strings-per-rule=100 -l 2 -e -L --atom-quality-table -f -d test=value -c -x test=dummy -a 3  -p 1 @@ input_yara
+yara -g --max-strings-per-rule=100 -l 2 -L --atom-quality-table -D --fail-on-warnings -f -r --scan-list -m -S -s -a 3  -p 1 @@ input_yara
+yara -k 16 -C --max-strings-per-rule=100 -w --atom-quality-table -D -d test=value -c --scan-list -x test=dummy -s  -p 1 @@ input_yara
+yara -C --max-strings-per-rule=100 -l 2 -e -L --atom-quality-table -n --fail-on-warnings -t Foo -m -a 3  -p 1 @@ input_yara
+yara -k 16 --max-strings-per-rule=100 -l 2 -e --atom-quality-table -n -D --fail-on-warnings -f -c --scan-list -s -a 3  -p 1 @@ input_yara
+yara -i test --max-strings-per-rule=100 -w --atom-quality-table -n -D -t Foo -d test=value -c -r --scan-list -m -S -s -a 3  -p 1 @@ input_yara
+yara -k 16 -g --max-strings-per-rule=100 -l 2 -L --atom-quality-table -n -D -t Foo -d test=value -c -r -S  -p 1 @@ input_yara
+yara -k 16 -C -g --max-strings-per-rule=100 -e -L --atom-quality-table -n -D --fail-on-warnings -t Foo -r --scan-list -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -i test -C -g --max-strings-per-rule=100 -w -e --atom-quality-table -f --scan-list -m -S -a 3  -p 1 @@ input_yara
+yara -i test -k 16 --max-strings-per-rule=100 -l 2 --atom-quality-table -n --fail-on-warnings -f -t Foo -d test=value -S -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -C --max-strings-per-rule=100 -l 2 --atom-quality-table -n --fail-on-warnings -t Foo -d test=value -r  -p 1 @@ input_yara
+yara -g --max-strings-per-rule=100 -l 2 -w -L --atom-quality-table -n -D -t Foo -c --scan-list -m -x test=dummy  -p 1 @@ input_yara
+yara -i test --max-strings-per-rule=100 -w -L --atom-quality-table -t Foo -d test=value -r -S -x test=dummy -a 3  -p 1 @@ input_yara
+yara -g --max-strings-per-rule=100 -l 2 --atom-quality-table --fail-on-warnings -f -d test=value -c --scan-list -x test=dummy -s  -p 1 @@ input_yara
+yara -C --max-strings-per-rule=100 -l 2 -L --atom-quality-table -D --fail-on-warnings -t Foo -r --scan-list -m -S -x test=dummy  -p 1 @@ input_yara
+yara --max-strings-per-rule=100 -l 2 -w -L --atom-quality-table -n -D -c -r --scan-list -s -a 3  -p 1 @@ input_yara
+yara -k 16 -C -g --max-strings-per-rule=100 -l 2 -w -e --atom-quality-table -D -f -t Foo -d test=value -r -m -s -a 3  -p 1 @@ input_yara
+yara -k 16 --max-strings-per-rule=100 -e --atom-quality-table --fail-on-warnings -f -t Foo --scan-list -S -s -a 3  -p 1 @@ input_yara
+yara -k 16 --max-strings-per-rule=100 -l 2 -w -L --atom-quality-table -d test=value -c --scan-list -m -S -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -k 16 -C -g --max-strings-per-rule=100 -l 2 -e -L --atom-quality-table -n --fail-on-warnings -d test=value -c -r --scan-list -m -S -s  -p 1 @@ input_yara
+yara -C -g --max-strings-per-rule=100 -l 2 -w --atom-quality-table -n -f -t Foo -d test=value --scan-list -m -S -s  -p 1 @@ input_yara
+yara -i test --max-strings-per-rule=100 -w -e --atom-quality-table -r -m -S -x test=dummy  -p 1 @@ input_yara
+yara -i test -C -g --max-strings-per-rule=100 -e --atom-quality-table -D --fail-on-warnings -f -t Foo -d test=value -c -m -s -a 3  -p 1 @@ input_yara
+yara -k 16 -C --max-strings-per-rule=100 --atom-quality-table -t Foo --scan-list -x test=dummy -a 3  -p 1 @@ input_yara
+yara -k 16 -C -g --max-strings-per-rule=100 -l 2 -w -e --atom-quality-table -t Foo -c --scan-list -S -a 3  -p 1 @@ input_yara
+yara -i test -C --max-strings-per-rule=100 -e --atom-quality-table --fail-on-warnings --scan-list -m -x test=dummy -s  -p 1 @@ input_yara
+yara -k 16 --max-strings-per-rule=100 -l 2 -w -L --atom-quality-table -f -t Foo -d test=value -a 3  -p 1 @@ input_yara
+yara -g --max-strings-per-rule=100 -l 2 -w --atom-quality-table -n -D -t Foo -r -m -S -s  -p 1 @@ input_yara
+yara -i test -C --max-strings-per-rule=100 -e --atom-quality-table -n -D --fail-on-warnings -d test=value -r --scan-list -m -a 3  -p 1 @@ input_yara
+yara -i test --max-strings-per-rule=100 -w -L --atom-quality-table -n -f -r --scan-list -m -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -k 16 -g --max-strings-per-rule=100 -L --atom-quality-table --fail-on-warnings -f -t Foo -d test=value -c -r --scan-list -S -s -a 3  -p 1 @@ input_yara
+yara -i test -k 16 --max-strings-per-rule=100 --atom-quality-table -n -D --fail-on-warnings -f --scan-list -m -x test=dummy  -p 1 @@ input_yara
+yara -k 16 -C -g --max-strings-per-rule=100 -l 2 -e -L --atom-quality-table -D --fail-on-warnings -f -t Foo -d test=value --scan-list -m -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -k 16 --max-strings-per-rule=100 -w -e -L --atom-quality-table -n -D -d test=value -c -r -s -a 3  -p 1 @@ input_yara
+yara -k 16 --max-strings-per-rule=100 -l 2 -w --atom-quality-table -n -f -d test=value -c -r -s -a 3  -p 1 @@ input_yara
+yara -g --max-strings-per-rule=100 -l 2 -L --atom-quality-table -f -S  -p 1 @@ input_yara
+yara -k 16 -g --max-strings-per-rule=100 --atom-quality-table -n --fail-on-warnings -f -t Foo -r -S -s  -p 1 @@ input_yara
+yara -k 16 --max-strings-per-rule=100 -w -e --atom-quality-table -n -D -f -t Foo -c -r --scan-list -S -s -a 3  -p 1 @@ input_yara
+yara -C -g --max-strings-per-rule=100 -l 2 -L --atom-quality-table -n --scan-list -m -S -a 3  -p 1 @@ input_yara
+yara -k 16 --max-strings-per-rule=100 -w --atom-quality-table -t Foo -d test=value -c -r -m -S  -p 1 @@ input_yara
+yara -i test -g --max-strings-per-rule=100 -e -L --atom-quality-table -n --fail-on-warnings -f -c -r --scan-list -m -S -s  -p 1 @@ input_yara
+yara -k 16 -C -g --max-strings-per-rule=100 -l 2 -w -e -L --atom-quality-table -n -t Foo -r --scan-list -x test=dummy  -p 1 @@ input_yara
+yara -g --max-strings-per-rule=100 -l 2 -w -e --atom-quality-table -D -f -c -r -S -a 3  -p 1 @@ input_yara
+yara -k 16 -C --max-strings-per-rule=100 -l 2 -w --atom-quality-table -D -d test=value -c -x test=dummy -a 3  -p 1 @@ input_yara
+yara -i test -C -g --max-strings-per-rule=100 -e --atom-quality-table -D --fail-on-warnings -c -r -m -x test=dummy  -p 1 @@ input_yara
+yara -k 16 -C --max-strings-per-rule=100 -l 2 -e --atom-quality-table -f -t Foo -m -x test=dummy  -p 1 @@ input_yara
+yara -i test -C -g --max-strings-per-rule=100 -w --atom-quality-table -t Foo -d test=value -c -r --scan-list -S -x test=dummy  -p 1 @@ input_yara
+yara -C --max-strings-per-rule=100 -l 2 -e -L --atom-quality-table -n --fail-on-warnings -t Foo -d test=value -c -r -x test=dummy  -p 1 @@ input_yara
+yara -i test -k 16 --max-strings-per-rule=100 --atom-quality-table -n -f -t Foo -c -r -m -S -s -a 3  -p 1 @@ input_yara
+yara -C --max-strings-per-rule=100 -w -e -L --atom-quality-table -f -t Foo -d test=value -c -r --scan-list -m -s  -p 1 @@ input_yara
+yara -C --max-strings-per-rule=100 -w -e --atom-quality-table -n -c -r -m -S -a 3  -p 1 @@ input_yara
+yara -C -g --max-strings-per-rule=100 -w --atom-quality-table -r -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -g --max-strings-per-rule=100 -e -L --atom-quality-table -n -D --fail-on-warnings -f -d test=value -m -s  -p 1 @@ input_yara
+yara -C -g --max-strings-per-rule=100 -L --atom-quality-table -n -D -f -t Foo -d test=value -c -r --scan-list -S -x test=dummy -a 3  -p 1 @@ input_yara
+yara --max-strings-per-rule=100 -l 2 --atom-quality-table -d test=value -r --scan-list -m -s -a 3  -p 1 @@ input_yara
+yara -C --max-strings-per-rule=100 -L --atom-quality-table -n --fail-on-warnings -f -c -r -m -x test=dummy -a 3  -p 1 @@ input_yara
+yara -g --max-strings-per-rule=100 -e --atom-quality-table -D --fail-on-warnings -d test=value -r --scan-list -S -x test=dummy  -p 1 @@ input_yara
+yara -C --max-strings-per-rule=100 -w -L --atom-quality-table -D -m  -p 1 @@ input_yara
+yara --max-strings-per-rule=100 -e -L --atom-quality-table -n -D --fail-on-warnings -f -t Foo -c -r --scan-list -m -x test=dummy -s  -p 1 @@ input_yara
+yara -C -g --max-strings-per-rule=100 -w -L --atom-quality-table -D -f -c -m -S -x test=dummy -s  -p 1 @@ input_yara
+yara -C -g --max-strings-per-rule=100 -e --atom-quality-table -n --fail-on-warnings -f -t Foo --scan-list -S  -p 1 @@ input_yara
+yara -g --max-strings-per-rule=100 -w -e -L --atom-quality-table -n -t Foo -c -S -x test=dummy -s  -p 1 @@ input_yara
+yara --max-strings-per-rule=100 -w -e -L --atom-quality-table -n -D -f -t Foo -d test=value -c --scan-list -S -a 3  -p 1 @@ input_yara
+yara --max-strings-per-rule=100 -L --atom-quality-table -D -t Foo -d test=value -c -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -C --max-strings-per-rule=100 -w --atom-quality-table -n -f -d test=value -c --scan-list -m -x test=dummy  -p 1 @@ input_yara
+yara -C --max-strings-per-rule=100 -L --atom-quality-table -n -D --fail-on-warnings -f -t Foo -c --scan-list -S -x test=dummy -a 3  -p 1 @@ input_yara
+yara --max-strings-per-rule=100 -l 2 --atom-quality-table -D --fail-on-warnings -f -d test=value -c -r -m -s -a 3  -p 1 @@ input_yara
+yara -k 16 --max-strings-per-rule=100 -l 2 --atom-quality-table -D --fail-on-warnings -f --scan-list -S -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -C -w -e --atom-quality-table -f -c -x test=dummy -s  -p 1 @@ input_yara
+yara -i test -g -l 2 -w --atom-quality-table -D -r --scan-list -S -x test=dummy  -p 1 @@ input_yara
+yara -i test -k 16 -C -l 2 -e --atom-quality-table -D --fail-on-warnings -f -t Foo -d test=value -c -r --scan-list -m -S -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -g -l 2 -e -L --atom-quality-table -D --fail-on-warnings -t Foo -c --scan-list -s  -p 1 @@ input_yara
+yara -i test -k 16 -l 2 -L --atom-quality-table --fail-on-warnings -f -c -r -s -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -C -g -l 2 -w -e -L --atom-quality-table -n -D -r -m -x test=dummy -s  -p 1 @@ input_yara
+yara -i test -k 16 -C -g -l 2 --atom-quality-table -n --fail-on-warnings -r --scan-list -m -S -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -w -L --atom-quality-table -D -f -t Foo -c -r -m -S  -p 1 @@ input_yara
+yara -i test -C -g -l 2 -e -L --atom-quality-table --fail-on-warnings -t Foo -d test=value -c -r --scan-list -m -x test=dummy  -p 1 @@ input_yara
+yara -i test -l 2 -L --atom-quality-table -n -D -f --scan-list  -p 1 @@ input_yara
+yara -i test -g -l 2 -w -e -L --atom-quality-table -f -t Foo -r --scan-list -m -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -g -l 2 -w --atom-quality-table -f -t Foo -d test=value -m -S  -p 1 @@ input_yara
+yara -i test -k 16 -C -g -w -e -L --atom-quality-table -n -f -t Foo -d test=value -c -m  -p 1 @@ input_yara
+yara -i test -k 16 -w --atom-quality-table -n -D -f -t Foo -d test=value -r --scan-list -x test=dummy  -p 1 @@ input_yara
+yara -i test -C -l 2 -w -L --atom-quality-table -n -D -t Foo -c -r -m -S -x test=dummy -s  -p 1 @@ input_yara
+yara -i test -C -l 2 --atom-quality-table -n --fail-on-warnings -f -t Foo -c --scan-list -S -s -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -w -L --atom-quality-table -n -D -c -m -s  -p 1 @@ input_yara
+yara -i test -k 16 -g -e -L --atom-quality-table -n -D --fail-on-warnings -t Foo -r -m -S -s  -p 1 @@ input_yara
+yara -i test -g -l 2 -L --atom-quality-table -n -D --fail-on-warnings -f -d test=value -r -S -a 3  -p 1 @@ input_yara
+yara -i test -C -g -l 2 -e -L --atom-quality-table -D --fail-on-warnings -f -d test=value --scan-list -m -S  -p 1 @@ input_yara
+yara -i test -k 16 -g -w -e -L --atom-quality-table -D -d test=value -r --scan-list -S -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -C --atom-quality-table -n -c -r -x test=dummy -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -g --atom-quality-table -D -f --scan-list -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -C -L --atom-quality-table --fail-on-warnings -f -t Foo -d test=value -r --scan-list -m -S -x test=dummy -a 3  -p 1 @@ input_yara
+yara -i test -l 2 -e -L --atom-quality-table --fail-on-warnings -t Foo -c --scan-list -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -C -g -l 2 -w --atom-quality-table -D -f -t Foo -c -r --scan-list -s  -p 1 @@ input_yara
+yara -i test -k 16 -g -l 2 -w -L --atom-quality-table -n -D -f -c --scan-list -m -x test=dummy -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -C -l 2 -w -e --atom-quality-table -t Foo -d test=value -c --scan-list -m -S -x test=dummy -s  -p 1 @@ input_yara
+yara -i test -C -g -l 2 -w -e --atom-quality-table -D -f -t Foo -c -r -x test=dummy -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -g --atom-quality-table -D --fail-on-warnings -d test=value -r -m -x test=dummy  -p 1 @@ input_yara
+yara -i test -k 16 -l 2 -e -L --atom-quality-table -n -D --fail-on-warnings -f -t Foo -d test=value -c -S -x test=dummy  -p 1 @@ input_yara
+yara -i test -k 16 -C -g -w --atom-quality-table -n -t Foo -d test=value -c --scan-list -S  -p 1 @@ input_yara
+yara -i test -C -l 2 -w -e -L --atom-quality-table -n -d test=value -c -r -S  -p 1 @@ input_yara
+yara -i test -k 16 -C -w -L --atom-quality-table -D -c --scan-list -a 3  -p 1 @@ input_yara
+yara -i test -C -g -l 2 -w -e --atom-quality-table -d test=value -c -m -s -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -C -l 2 -w -L --atom-quality-table -n -f -d test=value -r --scan-list -m -S -s -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -g -l 2 -w --atom-quality-table -n -D -d test=value -c --scan-list -S -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -g -l 2 -w --atom-quality-table -n -d test=value -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -g -l 2 -L --atom-quality-table -n -D --fail-on-warnings -t Foo -a 3  -p 1 @@ input_yara
+yara -i test -k 16 -e --atom-quality-table -n --fail-on-warnings -t Foo -d test=value -c -S -x test=dummy -s  -p 1 @@ input_yara
+yara -l 2 -L --atom-quality-table -n --fail-on-warnings -f -t Foo -c --scan-list -m -S -x test=dummy  -p 1 @@ input_yara
+yara -i test -C -e -L --atom-quality-table -n -d test=value --scan-list -m -S -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -C -l 2 -w -L --atom-quality-table -D -f -c -S -a 3  -p 1 @@ input_yara
+yara -i test -C -g --atom-quality-table -D --fail-on-warnings -f -d test=value -c --scan-list -x test=dummy -a 3  -p 1 @@ input_yara
+yara -k 16 -C -g -e --atom-quality-table -D -t Foo --scan-list -m -S  -p 1 @@ input_yara
+yara -k 16 -C -g -w -L --atom-quality-table -f -t Foo -d test=value -S -s -a 3  -p 1 @@ input_yara
+yara -l 2 -w -e --atom-quality-table -n -D -f -t Foo -d test=value -c -m  -p 1 @@ input_yara
+yara -i test -w -e --atom-quality-table -D -t Foo -d test=value -r -s  -p 1 @@ input_yara
+yara -k 16 -C -l 2 --atom-quality-table -n -D -t Foo -d test=value -c --scan-list -S -x test=dummy -a 3  -p 1 @@ input_yara
+yara -g -l 2 -e -L --atom-quality-table -n --fail-on-warnings -t Foo -d test=value -r -m -S -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -k 16 -C -l 2 -w -e --atom-quality-table -n -f --scan-list -m -x test=dummy  -p 1 @@ input_yara
+yara -k 16 -C --atom-quality-table --fail-on-warnings -t Foo -c -r -m -s -a 3  -p 1 @@ input_yara
+yara -C -g -l 2 -w -e --atom-quality-table -n -D -f -t Foo --scan-list -S -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -C -g -l 2 -w --atom-quality-table -n -D -d test=value -m -a 3  -p 1 @@ input_yara
+yara -k 16 -g -w --atom-quality-table -n -f -d test=value -c --scan-list -S -s  -p 1 @@ input_yara
+yara -i test -w -L --atom-quality-table -D -f -d test=value -c -m -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -k 16 -g -l 2 -e --atom-quality-table -D --fail-on-warnings -f -r -m -x test=dummy -a 3  -p 1 @@ input_yara
+yara -k 16 -l 2 -w -e --atom-quality-table -f -t Foo -d test=value -r --scan-list -S -x test=dummy -s  -p 1 @@ input_yara
+yara -i test -e --atom-quality-table -n --fail-on-warnings -f -d test=value -c -r -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -i test -g -e --atom-quality-table -n -D -d test=value -c -r --scan-list -m -x test=dummy  -p 1 @@ input_yara
+yara -i test -C -w --atom-quality-table -D -f -t Foo -s  -p 1 @@ input_yara
+yara -k 16 -C -e -L --atom-quality-table -n --fail-on-warnings -f -r -S -a 3  -p 1 @@ input_yara
+yara -i test -C -g -w -e --atom-quality-table -n -t Foo -d test=value -r --scan-list -s -a 3  -p 1 @@ input_yara
+yara -i test -C -g --atom-quality-table --fail-on-warnings -f -t Foo -m -x test=dummy -s  -p 1 @@ input_yara
+yara -k 16 -g -e --atom-quality-table -d test=value -c -m -S -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -k 16 -l 2 -e -L --atom-quality-table -n -D -t Foo -d test=value --scan-list -m -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -g -l 2 -e --atom-quality-table -t Foo -c -r -x test=dummy  -p 1 @@ input_yara
+yara -k 16 -C -g -l 2 -e --atom-quality-table -n -D --fail-on-warnings -c -S  -p 1 @@ input_yara
+yara -k 16 -w -e -L --atom-quality-table -n -D --scan-list -m -S -x test=dummy  -p 1 @@ input_yara
+yara -l 2 -w -e --atom-quality-table -n -f -d test=value -c -r --scan-list -m -S -x test=dummy -a 3  -p 1 @@ input_yara
+yara -C -l 2 -w -e -L --atom-quality-table -n -f -d test=value -x test=dummy -s  -p 1 @@ input_yara
+yara -k 16 -C -g -e --atom-quality-table -n --fail-on-warnings -f -d test=value -c --scan-list -x test=dummy  -p 1 @@ input_yara
+yara -k 16 -g -w -e --atom-quality-table -D -t Foo -d test=value --scan-list -m -x test=dummy -a 3  -p 1 @@ input_yara
+yara -l 2 -e -L --atom-quality-table -D --fail-on-warnings -d test=value -c -x test=dummy -s  -p 1 @@ input_yara
+yara -i test -C -w --atom-quality-table -n -f -t Foo -d test=value -c -r -m -S -x test=dummy -s  -p 1 @@ input_yara
+yara -k 16 -C -w -e -L --atom-quality-table -d test=value -r -m -a 3  -p 1 @@ input_yara
+yara -k 16 -C -g -l 2 -L --atom-quality-table -D --fail-on-warnings -f -t Foo -r -S -x test=dummy -s  -p 1 @@ input_yara
+yara -k 16 -g -w -L --atom-quality-table -n -c -r -m -s  -p 1 @@ input_yara
+yara -k 16 -g -l 2 -e --atom-quality-table -n -D --fail-on-warnings -f -t Foo -c -r -m -S -x test=dummy  -p 1 @@ input_yara
+yara -i test -l 2 --atom-quality-table --fail-on-warnings -f -t Foo -r --scan-list -x test=dummy  -p 1 @@ input_yara
+yara -C -l 2 --atom-quality-table -D -d test=value -c -r -m -S -s  -p 1 @@ input_yara
+yara -k 16 -C -l 2 --atom-quality-table -n -D --fail-on-warnings -m -S -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -i test -g -w --atom-quality-table -n -D -f -t Foo -c --scan-list -S  -p 1 @@ input_yara
+yara -k 16 -g -L --atom-quality-table -f -t Foo -d test=value -c --scan-list -m  -p 1 @@ input_yara
+yara -i test -g -L --atom-quality-table -n --fail-on-warnings -f -t Foo -c -x test=dummy -s  -p 1 @@ input_yara
+yara -i test -L --atom-quality-table -D -t Foo -c --scan-list -m -S -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -k 16 -C -l 2 -e -L --atom-quality-table --fail-on-warnings -f -d test=value -r --scan-list -a 3  -p 1 @@ input_yara
+yara -k 16 -l 2 -e --atom-quality-table -D -r  -p 1 @@ input_yara
+yara -C -l 2 -e -L --atom-quality-table -n -D --fail-on-warnings -f -t Foo -S -s  -p 1 @@ input_yara
+yara -k 16 -g -w -L --atom-quality-table -n -D -f -x test=dummy -a 3  -p 1 @@ input_yara
+yara -k 16 -l 2 -L --atom-quality-table -n --fail-on-warnings -t Foo -d test=value --scan-list -S -s  -p 1 @@ input_yara
+yara -l 2 -e --atom-quality-table -D --fail-on-warnings -d test=value -r --scan-list -m -S -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -i test -l 2 --atom-quality-table -n --fail-on-warnings -d test=value -c -r --scan-list -m -x test=dummy -s  -p 1 @@ input_yara
+yara -i test -C -e --atom-quality-table -n --fail-on-warnings -f -c -r --scan-list -a 3  -p 1 @@ input_yara
+yara -k 16 -w -e --atom-quality-table -t Foo -d test=value -r --scan-list -s -a 3  -p 1 @@ input_yara
+yara -C -l 2 --atom-quality-table -D --fail-on-warnings -t Foo --scan-list -x test=dummy -s  -p 1 @@ input_yara
+yara -C -g -L --atom-quality-table -n -D --fail-on-warnings -t Foo -d test=value -c -r -s  -p 1 @@ input_yara
+yara -k 16 --atom-quality-table -n -D --fail-on-warnings -f -d test=value -r -m -S -s  -p 1 @@ input_yara
+yara -C -g --atom-quality-table -n -f -t Foo -r --scan-list -m -x test=dummy -s  -p 1 @@ input_yara
+yara -g -w -L --atom-quality-table -n -d test=value -x test=dummy -a 3  -p 1 @@ input_yara
+yara -e -L --atom-quality-table --fail-on-warnings -c -r --scan-list -S  -p 1 @@ input_yara
+yara --max-strings-per-rule=100 --atom-quality-table -D --fail-on-warnings -t Foo -d test=value -c -x test=dummy -a 3  -p 1 @@ input_yara
+yara -C -w -e -L --atom-quality-table -D -f -t Foo -d test=value --scan-list -S -x test=dummy  -p 1 @@ input_yara
+yara -g -L --atom-quality-table --fail-on-warnings -t Foo -c --scan-list -m -S -a 3  -p 1 @@ input_yara
+yara -L --atom-quality-table -D -f -d test=value -r -m -S -a 3  -p 1 @@ input_yara
+yara -C -g -L --atom-quality-table --fail-on-warnings --scan-list -s -a 3  -p 1 @@ input_yara
+yara -k 16 -l 2 --atom-quality-table -n -D --fail-on-warnings -d test=value -c --scan-list -m -S -a 3  -p 1 @@ input_yara
+yara -C -g -w -e --atom-quality-table -n -D -f -t Foo -d test=value -c -r --scan-list -m -s -a 3  -p 1 @@ input_yara
+yara -g -e --atom-quality-table -D -f -r -m -S -x test=dummy -a 3  -p 1 @@ input_yara
+yara -C -e -L --atom-quality-table --fail-on-warnings -f -d test=value -c -m -S -x test=dummy -s -a 3  -p 1 @@ input_yara
+yara -C -w --atom-quality-table -n -r -S  -p 1 @@ input_yara
+yara -C -w -e --atom-quality-table -n -t Foo -c -r --scan-list -S -s  -p 1 @@ input_yara
+yara --atom-quality-table -n -d test=value -r -S -x test=dummy -s  -p 1 @@ input_yara

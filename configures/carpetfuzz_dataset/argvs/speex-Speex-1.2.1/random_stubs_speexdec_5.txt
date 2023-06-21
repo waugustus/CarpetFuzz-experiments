@@ -1,0 +1,272 @@
+271
+speexdec --packet-loss --no-pf --rate --pf -V --force-wb  @@ /tmp/foo
+speexdec --pf --force-nb  @@ /tmp/foo
+speexdec --no-enh --rate --force-wb  @@ /tmp/foo
+speexdec --no-pf --no-enh -V --force-uwb  @@ /tmp/foo
+speexdec --no-pf --rate -V --mono  @@ /tmp/foo
+speexdec --packet-loss --no-pf --rate --pf --force-nb  @@ /tmp/foo
+speexdec --packet-loss --rate --stereo -V --enh  @@ /tmp/foo
+speexdec --no-pf --force-wb  @@ /tmp/foo
+speexdec --packet-loss --rate --stereo --pf -V  @@ /tmp/foo
+speexdec --packet-loss --no-pf --no-enh --pf --force-nb  @@ /tmp/foo
+speexdec --packet-loss --no-pf --no-enh --rate --force-nb  @@ /tmp/foo
+speexdec --rate -V --enh --force-uwb  @@ /tmp/foo
+speexdec --packet-loss --no-pf -V --force-wb --enh  @@ /tmp/foo
+speexdec --packet-loss -V --mono  @@ /tmp/foo
+speexdec --packet-loss --no-pf --rate --pf -V --force-uwb  @@ /tmp/foo
+speexdec --no-enh --pf -V --force-wb  @@ /tmp/foo
+speexdec --packet-loss --no-pf -V --mono --enh  @@ /tmp/foo
+speexdec --rate --enh --force-uwb  @@ /tmp/foo
+speexdec --packet-loss --no-pf --no-enh -V --force-uwb  @@ /tmp/foo
+speexdec --packet-loss --no-enh --pf --force-nb  @@ /tmp/foo
+speexdec --no-pf --no-enh --rate --mono  @@ /tmp/foo
+speexdec --packet-loss --no-pf --rate --pf -V --mono  @@ /tmp/foo
+speexdec -V --force-wb --enh  @@ /tmp/foo
+speexdec --no-pf --no-enh --rate -V --force-uwb  @@ /tmp/foo
+speexdec --packet-loss --rate -V --enh --force-uwb  @@ /tmp/foo
+speexdec --no-enh -V --force-nb  @@ /tmp/foo
+speexdec --packet-loss --no-pf --pf --mono  @@ /tmp/foo
+speexdec --packet-loss --no-pf --rate -V --force-wb --enh  @@ /tmp/foo
+speexdec --packet-loss --force-nb --enh  @@ /tmp/foo
+speexdec --packet-loss --no-pf --no-enh --pf -V --mono  @@ /tmp/foo
+speexdec --rate --force-nb --enh  @@ /tmp/foo
+speexdec --packet-loss --rate --pf --force-wb  @@ /tmp/foo
+speexdec --no-pf --rate -V --enh --force-uwb  @@ /tmp/foo
+speexdec --packet-loss --no-pf --rate --pf --force-uwb  @@ /tmp/foo
+speexdec --packet-loss --rate --stereo -V  @@ /tmp/foo
+speexdec --no-enh --rate --force-uwb  @@ /tmp/foo
+speexdec --no-enh --rate -V --force-uwb  @@ /tmp/foo
+speexdec --no-enh --stereo  @@ /tmp/foo
+speexdec --packet-loss --no-pf --rate -V --force-nb  @@ /tmp/foo
+speexdec --rate --pf -V --force-uwb  @@ /tmp/foo
+speexdec --packet-loss --no-pf --no-enh --rate --pf --mono  @@ /tmp/foo
+speexdec --packet-loss --no-pf --no-enh --rate --pf -V --force-uwb  @@ /tmp/foo
+speexdec --no-pf --rate -V --force-wb --enh  @@ /tmp/foo
+speexdec --packet-loss --rate -V --force-nb --enh  @@ /tmp/foo
+speexdec --no-enh --pf -V --force-uwb  @@ /tmp/foo
+speexdec --packet-loss --rate --pf --mono  @@ /tmp/foo
+speexdec --packet-loss --no-enh --force-wb  @@ /tmp/foo
+speexdec --rate --force-nb  @@ /tmp/foo
+speexdec --no-enh --stereo -V  @@ /tmp/foo
+speexdec --packet-loss --no-pf --no-enh --rate --pf -V --force-nb  @@ /tmp/foo
+speexdec --packet-loss --no-pf --pf -V --force-nb  @@ /tmp/foo
+speexdec --packet-loss --pf --force-nb  @@ /tmp/foo
+speexdec --packet-loss --stereo -V --enh  @@ /tmp/foo
+speexdec --no-pf --no-enh --pf -V --force-nb  @@ /tmp/foo
+speexdec --packet-loss --no-enh --rate --pf --force-uwb  @@ /tmp/foo
+speexdec --rate --stereo --pf  @@ /tmp/foo
+speexdec --packet-loss --no-enh --rate --pf -V --force-uwb  @@ /tmp/foo
+speexdec --packet-loss --no-enh -V --force-wb  @@ /tmp/foo
+speexdec --packet-loss --no-pf --stereo --pf  @@ /tmp/foo
+speexdec --packet-loss --no-pf --pf --force-wb  @@ /tmp/foo
+speexdec --force-nb --enh  @@ /tmp/foo
+speexdec --no-enh --rate --pf -V --force-nb  @@ /tmp/foo
+speexdec --packet-loss --stereo --pf  @@ /tmp/foo
+speexdec --no-pf --rate -V  @@ /tmp/foo
+speexdec --packet-loss --no-enh --rate -V --force-wb  @@ /tmp/foo
+speexdec --no-pf -V --force-nb  @@ /tmp/foo
+speexdec --no-pf --mono  @@ /tmp/foo
+speexdec --no-pf --rate --enh --force-uwb  @@ /tmp/foo
+speexdec --packet-loss --no-pf -V --force-nb --enh  @@ /tmp/foo
+speexdec --no-enh --pf --force-uwb  @@ /tmp/foo
+speexdec --no-pf --force-wb --enh  @@ /tmp/foo
+speexdec --rate -V --mono --enh  @@ /tmp/foo
+speexdec --packet-loss --no-enh --force-uwb  @@ /tmp/foo
+speexdec --no-pf --pf -V --force-wb  @@ /tmp/foo
+speexdec --packet-loss --no-pf --no-enh -V --force-wb  @@ /tmp/foo
+speexdec --no-enh --rate --stereo --pf -V  @@ /tmp/foo
+speexdec --no-pf --rate --stereo -V  @@ /tmp/foo
+speexdec --packet-loss -V --force-wb --enh  @@ /tmp/foo
+speexdec --no-pf --no-enh -V --force-wb  @@ /tmp/foo
+speexdec --no-enh --rate --pf --force-wb  @@ /tmp/foo
+speexdec --packet-loss --rate --stereo  @@ /tmp/foo
+speexdec --no-pf --rate --stereo --pf  @@ /tmp/foo
+speexdec --no-pf --rate --pf --force-nb  @@ /tmp/foo
+speexdec --pf --force-uwb  @@ /tmp/foo
+speexdec --packet-loss -V --mono --enh  @@ /tmp/foo
+speexdec --packet-loss --no-enh --stereo --pf  @@ /tmp/foo
+speexdec --no-pf --no-enh --force-nb  @@ /tmp/foo
+speexdec --packet-loss --no-pf --rate --pf --force-wb  @@ /tmp/foo
+speexdec --packet-loss --pf -V --mono  @@ /tmp/foo
+speexdec --packet-loss --no-pf --no-enh --pf  @@ /tmp/foo
+speexdec --packet-loss --no-pf --pf --force-uwb  @@ /tmp/foo
+speexdec --rate --pf -V --force-nb  @@ /tmp/foo
+speexdec --no-pf --rate --force-wb --enh  @@ /tmp/foo
+speexdec --packet-loss --no-pf --force-nb --enh  @@ /tmp/foo
+speexdec --packet-loss --rate --force-wb --enh  @@ /tmp/foo
+speexdec --no-pf --stereo --enh  @@ /tmp/foo
+speexdec -V --enh --force-uwb  @@ /tmp/foo
+speexdec --packet-loss --no-pf --no-enh --rate --force-uwb  @@ /tmp/foo
+speexdec --no-pf -V --force-nb --enh  @@ /tmp/foo
+speexdec --no-pf -V --mono --enh  @@ /tmp/foo
+speexdec  @@ /tmp/foo
+speexdec --packet-loss -V --force-nb --enh  @@ /tmp/foo
+speexdec --no-pf --no-enh --pf --force-wb  @@ /tmp/foo
+speexdec --no-pf --pf -V --mono  @@ /tmp/foo
+speexdec --packet-loss --no-pf --rate --force-nb --enh  @@ /tmp/foo
+speexdec --packet-loss --no-pf --rate -V --enh --force-uwb  @@ /tmp/foo
+speexdec --no-enh --rate --force-nb  @@ /tmp/foo
+speexdec --no-pf --mono --enh  @@ /tmp/foo
+speexdec --rate --pf --force-uwb  @@ /tmp/foo
+speexdec --stereo --enh  @@ /tmp/foo
+speexdec --packet-loss --no-pf --rate --force-wb --enh  @@ /tmp/foo
+speexdec --packet-loss --no-pf --enh --force-uwb  @@ /tmp/foo
+speexdec --packet-loss --no-pf -V --force-uwb  @@ /tmp/foo
+speexdec --no-pf --no-enh --pf --mono  @@ /tmp/foo
+speexdec --no-pf --rate --mono --enh  @@ /tmp/foo
+speexdec --no-pf --rate --pf --force-wb  @@ /tmp/foo
+speexdec --packet-loss --no-pf --rate -V --mono  @@ /tmp/foo
+speexdec --no-pf --no-enh --stereo --pf -V  @@ /tmp/foo
+speexdec --rate -V --force-wb --enh  @@ /tmp/foo
+speexdec --no-pf --no-enh --rate --pf --force-wb  @@ /tmp/foo
+speexdec --no-pf -V --enh --force-uwb  @@ /tmp/foo
+speexdec --force-wb --enh  @@ /tmp/foo
+speexdec --packet-loss --no-pf --stereo -V --enh  @@ /tmp/foo
+speexdec --packet-loss --rate -V --mono --enh  @@ /tmp/foo
+speexdec --no-pf --no-enh -V --mono  @@ /tmp/foo
+speexdec --packet-loss --no-enh --rate --pf --force-nb  @@ /tmp/foo
+speexdec --packet-loss --no-pf --no-enh --rate -V --mono  @@ /tmp/foo
+speexdec --rate -V --force-uwb  @@ /tmp/foo
+speexdec --no-pf --no-enh --pf --force-uwb  @@ /tmp/foo
+speexdec --rate --stereo --enh  @@ /tmp/foo
+speexdec --packet-loss --no-pf --rate -V --force-wb  @@ /tmp/foo
+speexdec --pf -V --force-nb  @@ /tmp/foo
+speexdec --packet-loss --no-pf --no-enh -V --force-nb  @@ /tmp/foo
+speexdec --no-pf --no-enh --rate -V --mono  @@ /tmp/foo
+speexdec --packet-loss --no-pf --no-enh --pf -V --force-uwb  @@ /tmp/foo
+speexdec --packet-loss --no-pf --rate --stereo --pf  @@ /tmp/foo
+speexdec --packet-loss --rate --force-nb --enh  @@ /tmp/foo
+speexdec --packet-loss --no-enh --rate --stereo -V  @@ /tmp/foo
+speexdec --packet-loss --no-pf --rate --mono --enh  @@ /tmp/foo
+speexdec --packet-loss --no-pf --rate -V --force-nb --enh  @@ /tmp/foo
+speexdec --no-enh --pf --force-nb  @@ /tmp/foo
+speexdec --packet-loss --no-pf --no-enh --stereo  @@ /tmp/foo
+speexdec --packet-loss --pf -V --force-uwb  @@ /tmp/foo
+speexdec --packet-loss --no-enh --rate --mono  @@ /tmp/foo
+speexdec --packet-loss --no-enh --rate --pf --force-wb  @@ /tmp/foo
+speexdec --no-pf --force-uwb  @@ /tmp/foo
+speexdec --packet-loss --no-enh --rate --stereo  @@ /tmp/foo
+speexdec --rate --mono --enh  @@ /tmp/foo
+speexdec --no-enh --rate --pf --force-nb  @@ /tmp/foo
+speexdec --packet-loss --no-pf --stereo --enh  @@ /tmp/foo
+speexdec --pf --force-wb  @@ /tmp/foo
+speexdec --packet-loss --no-enh --pf -V --force-nb  @@ /tmp/foo
+speexdec --no-pf --no-enh --rate --stereo --pf  @@ /tmp/foo
+speexdec --packet-loss --rate --stereo --enh  @@ /tmp/foo
+speexdec --packet-loss --no-pf --rate --stereo -V --enh  @@ /tmp/foo
+speexdec --stereo -V  @@ /tmp/foo
+speexdec --rate -V --force-nb --enh  @@ /tmp/foo
+speexdec -V --mono --enh  @@ /tmp/foo
+speexdec --no-pf --no-enh --stereo --pf  @@ /tmp/foo
+speexdec --packet-loss --stereo --enh  @@ /tmp/foo
+speexdec --packet-loss --rate -V --force-wb --enh  @@ /tmp/foo
+speexdec --no-pf --rate --stereo -V --enh  @@ /tmp/foo
+speexdec --stereo --pf -V  @@ /tmp/foo
+speexdec --packet-loss --rate --pf --force-uwb  @@ /tmp/foo
+speexdec --packet-loss --rate --mono --enh  @@ /tmp/foo
+speexdec --packet-loss --no-pf --mono --enh  @@ /tmp/foo
+speexdec --packet-loss --rate -V --force-wb  @@ /tmp/foo
+speexdec --packet-loss --no-enh --pf -V --force-uwb  @@ /tmp/foo
+speexdec --no-pf --enh --force-uwb  @@ /tmp/foo
+speexdec --no-pf --rate -V --mono --enh  @@ /tmp/foo
+speexdec --packet-loss --no-pf --rate -V --mono --enh  @@ /tmp/foo
+speexdec --packet-loss --no-pf --rate --stereo --enh  @@ /tmp/foo
+speexdec --packet-loss --no-enh --pf -V --mono  @@ /tmp/foo
+speexdec --packet-loss --no-enh --stereo -V  @@ /tmp/foo
+speexdec --no-enh --rate --pf -V --mono  @@ /tmp/foo
+speexdec --packet-loss --no-enh --rate --stereo --pf  @@ /tmp/foo
+speexdec --no-pf --rate --force-nb --enh  @@ /tmp/foo
+speexdec --rate --stereo -V --enh  @@ /tmp/foo
+speexdec --no-enh -V --force-wb  @@ /tmp/foo
+speexdec --no-pf --no-enh --rate --pf --force-nb  @@ /tmp/foo
+speexdec --no-pf --no-enh --rate --pf -V --force-uwb  @@ /tmp/foo
+speexdec --no-pf --no-enh --force-uwb  @@ /tmp/foo
+speexdec --packet-loss --no-enh --stereo --pf -V  @@ /tmp/foo
+speexdec --no-pf --pf --force-nb  @@ /tmp/foo
+speexdec --packet-loss --rate --pf -V --force-nb  @@ /tmp/foo
+speexdec --no-pf --rate --stereo  @@ /tmp/foo
+speexdec --no-pf --no-enh --rate -V --force-wb  @@ /tmp/foo
+speexdec --packet-loss --enh  @@ /tmp/foo
+speexdec --no-enh --rate --mono  @@ /tmp/foo
+speexdec --no-pf --rate --pf --mono  @@ /tmp/foo
+speexdec --mono --enh  @@ /tmp/foo
+speexdec --packet-loss --no-pf --no-enh -V --mono  @@ /tmp/foo
+speexdec --no-pf --no-enh --rate --pf --force-uwb  @@ /tmp/foo
+speexdec --packet-loss --no-pf --force-nb  @@ /tmp/foo
+speexdec --no-enh -V --force-uwb  @@ /tmp/foo
+speexdec --no-enh --rate --stereo  @@ /tmp/foo
+speexdec --packet-loss --no-enh --pf --mono  @@ /tmp/foo
+speexdec --packet-loss --no-enh --rate -V --force-uwb  @@ /tmp/foo
+speexdec --packet-loss --no-pf --stereo --pf -V  @@ /tmp/foo
+speexdec --no-pf --no-enh --rate --pf -V --force-wb  @@ /tmp/foo
+speexdec --packet-loss --rate --enh --force-uwb  @@ /tmp/foo
+speexdec --packet-loss --pf --force-uwb  @@ /tmp/foo
+speexdec --no-pf --no-enh --stereo  @@ /tmp/foo
+speexdec --no-pf --rate --pf --force-uwb  @@ /tmp/foo
+speexdec --rate --pf -V --mono  @@ /tmp/foo
+speexdec --packet-loss --no-enh --pf --force-wb  @@ /tmp/foo
+speexdec --packet-loss --no-pf --no-enh --pf --force-wb  @@ /tmp/foo
+speexdec --packet-loss --no-pf --no-enh --rate --stereo  @@ /tmp/foo
+speexdec --no-pf --rate --pf -V --force-nb  @@ /tmp/foo
+speexdec --packet-loss --no-pf --no-enh --pf -V --force-wb  @@ /tmp/foo
+speexdec --packet-loss --no-enh --rate -V --mono  @@ /tmp/foo
+speexdec --packet-loss --rate --mono  @@ /tmp/foo
+speexdec --packet-loss --no-pf --no-enh --mono  @@ /tmp/foo
+speexdec --packet-loss --force-wb --enh  @@ /tmp/foo
+speexdec --rate --force-wb --enh  @@ /tmp/foo
+speexdec --no-pf --rate --stereo --pf -V  @@ /tmp/foo
+speexdec --packet-loss --force-uwb  @@ /tmp/foo
+speexdec --no-pf -V --force-wb --enh  @@ /tmp/foo
+speexdec --no-pf --stereo -V --enh  @@ /tmp/foo
+speexdec --no-enh --stereo --pf  @@ /tmp/foo
+speexdec --mono  @@ /tmp/foo
+speexdec --packet-loss --no-pf --rate --force-uwb  @@ /tmp/foo
+speexdec --no-enh --force-wb  @@ /tmp/foo
+speexdec --packet-loss --no-enh --rate -V --force-nb  @@ /tmp/foo
+speexdec --packet-loss --no-pf --no-enh --rate --pf -V --force-wb  @@ /tmp/foo
+speexdec --no-enh --rate --pf -V --force-wb  @@ /tmp/foo
+speexdec --no-pf --no-enh --rate --stereo -V  @@ /tmp/foo
+speexdec --no-pf --no-enh --rate --force-nb  @@ /tmp/foo
+speexdec --packet-loss --force-wb  @@ /tmp/foo
+speexdec --no-enh --rate --pf --mono  @@ /tmp/foo
+speexdec --no-pf --force-nb --enh  @@ /tmp/foo
+speexdec --packet-loss --no-pf --no-enh --pf --force-uwb  @@ /tmp/foo
+speexdec --packet-loss --no-pf --no-enh --stereo -V  @@ /tmp/foo
+speexdec --no-enh --mono  @@ /tmp/foo
+speexdec --no-pf --pf -V --force-uwb  @@ /tmp/foo
+speexdec --no-pf --no-enh --rate --pf -V --mono  @@ /tmp/foo
+speexdec --no-enh --pf -V --mono  @@ /tmp/foo
+speexdec -V --force-nb --enh  @@ /tmp/foo
+speexdec --no-enh -V --mono  @@ /tmp/foo
+speexdec --packet-loss -V --force-nb  @@ /tmp/foo
+speexdec --packet-loss -V --enh --force-uwb  @@ /tmp/foo
+speexdec --rate --pf -V --force-wb  @@ /tmp/foo
+speexdec --packet-loss --mono --enh  @@ /tmp/foo
+speexdec --no-enh --rate --pf -V --force-uwb  @@ /tmp/foo
+speexdec --rate --stereo --pf -V  @@ /tmp/foo
+speexdec --packet-loss --pf -V --force-wb  @@ /tmp/foo
+speexdec --no-pf --no-enh --force-wb  @@ /tmp/foo
+speexdec --packet-loss --enh --force-uwb  @@ /tmp/foo
+speexdec --packet-loss --no-enh --rate --pf -V --force-wb  @@ /tmp/foo
+speexdec --no-pf --stereo --pf  @@ /tmp/foo
+speexdec --enh --force-uwb  @@ /tmp/foo
+speexdec --rate --force-wb  @@ /tmp/foo
+speexdec --no-pf --no-enh --rate -V --force-nb  @@ /tmp/foo
+speexdec --no-pf --rate -V --force-nb --enh  @@ /tmp/foo
+speexdec --packet-loss --no-enh --mono  @@ /tmp/foo
+speexdec --no-pf -V --force-wb  @@ /tmp/foo
+speexdec --packet-loss --no-pf --force-wb --enh  @@ /tmp/foo
+speexdec --pf --mono  @@ /tmp/foo
+speexdec --packet-loss --no-pf --no-enh --stereo --pf  @@ /tmp/foo
+speexdec --packet-loss --no-enh --force-nb  @@ /tmp/foo
+speexdec --packet-loss --rate --pf --force-nb  @@ /tmp/foo
+speexdec --packet-loss --no-pf -V --enh --force-uwb  @@ /tmp/foo
+speexdec --packet-loss --no-pf --no-enh --rate --force-wb  @@ /tmp/foo
+speexdec --packet-loss --no-enh --rate --pf -V --mono  @@ /tmp/foo
+speexdec --stereo -V --enh  @@ /tmp/foo
+speexdec --packet-loss --no-pf --no-enh --rate --stereo --pf -V  @@ /tmp/foo
+speexdec --no-pf --no-enh --pf --force-nb  @@ /tmp/foo
+speexdec --packet-loss --no-pf --rate --enh --force-uwb  @@ /tmp/foo
+speexdec --no-pf --rate --stereo --enh  @@ /tmp/foo
+speexdec --packet-loss --no-pf --stereo  @@ /tmp/foo
+speexdec --no-pf --stereo --pf -V  @@ /tmp/foo

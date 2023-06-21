@@ -1,0 +1,79 @@
+78
+gs -P -SDEVICE=pdfwrite -r60x72 -DNOPAUSE  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -I/tmp -SsPAPERSIZE=legal -r60x72 -DNOPAUSE  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -r240x72 -DNOPAUSE  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -P -I/tmp -SDEVICE=epson -DNOPAUSE  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -P -I/tmp -DNOPAUSE -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -g720x480 -P -DNOPAUSE -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -g720x480 -P -I/tmp -r240x72 -DNODISPLAY -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -g720x480 -P -r240x72 -DNODISPLAY -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -P -I/tmp -SDEVICE=epson -DNODISPLAY -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -I/tmp -SDEVICE=pdfwrite -DNODISPLAY -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -g720x480 -DNODISPLAY  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -P -SPAPERSIZE=a4 -r240x72  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -P -SPAPERSIZE=a4 -DSAFER  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -P -I/tmp -SsDEVICE=bbox -r240x72  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -P -I/tmp -r240x72 -DNOPLATFONTS  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -P -SPAPERSIZE=a4  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -P -SsDEVICE=bbox -r60x72 -DNOCACHE -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -P -I/tmp -SsPAPERSIZE=legal -r60x72 -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -P -I/tmp -SDEVICE=epson -r240x72 -DWRITESYSTEMDICT -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -P -r240x72  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -I/tmp -r60x72  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -P -I/tmp -r240x72 -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -P -r240x72 -DSAFER -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -P -SDEVICE=pdfwrite -r60x72 -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -SsPAPERSIZE=legal -r60x72  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -I/tmp -r240x72 -DNOCACHE -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -P -I/tmp  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -P -DWRITESYSTEMDICT  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -I/tmp -SDEVICE=epson -r240x72 -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -P  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -I/tmp -DNOBIND  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -SDEVICE=pdfwrite -r240x72 -DNOCACHE -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -r240x72 -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -P -SDEVICE=pdfwrite -DWRITESYSTEMDICT -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -P -I/tmp -SsPAPERSIZE=legal -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -P -SsPAPERSIZE=legal -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -I/tmp -SsPAPERSIZE=legal  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -P -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -I/tmp -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -SDEVICE=pdfwrite  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -SsDEVICE=bbox -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -g720x480 -P -I/tmp -SDEVICE=pdfwrite -r60x72 -DSAFER  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -g720x480 -P -r60x72 -DNOCACHE  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -g720x480 -P -I/tmp -r240x72  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -g720x480 -P -I/tmp -SsDEVICE=bbox -DDEVICEHEIGHT=40  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -g720x480 -P -SDEVICE=epson -r60x72  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -g720x480 -P -I/tmp -DNOCACHE  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -g720x480 -P -I/tmp -SPAPERSIZE=a4  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -g720x480 -P -SDEVICE=epson -r60x72 -DSAFER -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -g720x480 -P -SPAPERSIZE=a4 -DSAFER  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -g720x480 -P -I/tmp -SsDEVICE=bbox -DSAFER -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -g720x480 -P -r60x72 -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -g720x480 -P -SDEVICE=pdfwrite -r60x72 -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -g720x480 -P -I/tmp -SDEVICE=pdfwrite -r240x72 -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -g720x480 -I/tmp -r240x72 -DDEVICEWIDTH=72  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -g720x480 -I/tmp -SDEVICE=epson -r60x72 -DNOBIND -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -g720x480 -SPAPERSIZE=a4 -r60x72 -DWRITESYSTEMDICT  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -g720x480 -P  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -g720x480 -I/tmp -SDEVICE=pdfwrite -DSAFER  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -g720x480 -I/tmp -SsPAPERSIZE=legal -r240x72  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -g720x480 -P -I/tmp -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -P -DDEVICEHEIGHT=40 -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -g720x480 -I/tmp -SDEVICE=epson  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -g720x480 -I/tmp  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -g720x480 -P -SsDEVICE=bbox -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -g720x480 -I/tmp -r240x72 -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -g720x480 -I/tmp -DSAFER -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -g720x480 -r240x72  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -SsPAPERSIZE=legal -DDEVICEWIDTH=72  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -g720x480 -SsPAPERSIZE=legal  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -g720x480 -I/tmp -SDEVICE=epson -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -g720x480 -r240x72 -DNOCACHE -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -g720x480 -SsDEVICE=bbox -r240x72 -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -g720x480 -SsDEVICE=bbox -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -DDEVICEHEIGHT=40 -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -g720x480 -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@
+gs -g720x480 -SDEVICE=epson -DNOPLATFONTS -q  -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@

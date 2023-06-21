@@ -1,0 +1,770 @@
+769
+mutool draw -O conpress-fonts -R 90 -i -o /tmp/foo.pdf -H 300 -l -w 400 -P -M -L -X -z -p 123456 -b -d -c cmykalpha -B 768 -x 4  @@
+mutool draw -O compress-images -W 400 -i -o /tmp/foo.pdf -l -w 400 -A 16 -D -G 0.7 -c rgbalpha -S 18 -x 4 -a  @@
+mutool draw -W 400 -i -o /tmp/foo.pdf -H 300 -l -w 400 -F pwg -L -X -D -G 0.7 -I -p 123456 -S 18 -y 4 -a  @@
+mutool draw -i -o /tmp/foo.pdf -l -h 300 -I -S 18 -x 4 -s m  @@
+mutool draw -W 400 -R 90 -i -H 300 -l -w 400 -F ps -e -A 16 -L -D -p 123456 -b -d -B 768 -S 18 -x 4 -s t  @@
+mutool draw  @@
+mutool draw -O compress -W 400 -o /tmp/foo.pdf -l -w 400 -P -F pbm -e -M -A 16 -L -X -D -z -f -b -d -c rgb -S 18 -x 4 -a  @@
+mutool draw -O garbage -o /tmp/foo.pdf -H 300 -l -w 400 -e -M -A 16 -L -f -c grayalpha -B 768 -x 4 -s t  @@
+mutool draw -O garbage -W 400 -R 90 -l -F png -e -A 16 -L -h 300 -D -I -p 123456 -d -B 768 -S 18 -y 4 -s f -a  @@
+mutool draw -W 400 -R 90 -l -w 400 -P -F pgm -X -D -z -G 0.7 -f -p 123456 -b -c gray -x 4 -s t -a  @@
+mutool draw -W 400 -H 300 -l -w 400 -P -F ppm -e -L -G 0.7 -f -I -d -B 768 -S 18 -y 4  @@
+mutool draw -R 90 -H 300 -l -F pcl -e -A 16 -h 300 -D -G 0.7 -B 768 -S 18 -x 4 -s 5  @@
+mutool draw -O conpress-fonts -l -F pam -A 16 -X -D -z -G 0.7 -f -r 144 -B 768 -S 18  @@
+mutool draw -W 400 -l -w 400 -e -X -D -G 0.7 -f -I -b -c grayalpha -y 4  @@
+mutool draw -O decompress -W 400 -R 90 -i -o /tmp/foo.pdf -H 300 -l -P -A 16 -D -p 123456 -c rgbalpha -r 144 -S 18 -a  @@
+mutool info  @@
+mutool draw -W 400 -R 90 -i -H 300 -P -F ps -e -M -A 16 -X -D -G 0.7 -I -p 123456 -c rgb -r 144 -S 18 -y 4  @@
+mutool draw -o /tmp/foo.pdf -w 400 -F pbm -e -G 0.7 -f -I -b -d -c gray -B 768 -S 18 -x 4 -s f  @@
+mutool draw -R 90 -i -o /tmp/foo.pdf -e -A 16 -L -X -h 300 -D -z -b -d -x 4  @@
+mutool draw -O compress-images -W 400 -i -H 300 -l -P -e -M -A 16 -X -h 300 -D -p 123456 -d -B 768 -x 4 -s f  @@
+mutool draw -O ascii -W 400 -R 90 -i -H 300 -F png -e -M -A 16 -L -X -D -z -I -r 144 -B 768 -s t  @@
+mutool draw -i -o /tmp/foo.pdf -H 300 -l -P -F pam -e -M -A 16 -L -X -h 300 -D -z -G 0.7 -I -d -x 4  @@
+mutool draw -W 400 -R 90 -P -F pcl -e -M -A 16 -L -h 300 -D -z -G 0.7 -f -I -b -c rgbalpha -B 768 -y 4 -a  @@
+mutool draw -O compress -H 300 -l -e -A 16 -L -X -G 0.7 -f -p 123456 -b -d -c grayalpha -r 144 -S 18 -a  @@
+mutool draw -O decompress -o /tmp/foo.pdf -H 300 -P -e -M -A 16 -D -f -p 123456 -b -r 144 -B 768 -a  @@
+mutool pages  @@
+mutool draw -O decompress -W 400 -i -o /tmp/foo.pdf -P -F png -e -M -D -z -G 0.7 -I -p 123456 -b -c grayalpha -r 144 -B 768 -S 18 -y 4 -s f  @@
+mutool draw -O linearize -W 400 -i -X -h 300 -G 0.7 -I -p 123456 -d -c rgb -B 768 -x 4 -a  @@
+mutool draw -O sanitize -W 400 -R 90 -o /tmp/foo.pdf -l -P -e -L -X -D -z -f -p 123456 -d -c rgbalpha -r 144 -B 768 -y 4 -s t  @@
+mutool draw -O decompress -R 90 -i -o /tmp/foo.pdf -l -P -e -L -X -D -z -G 0.7 -b -B 768 -S 18 -x 4 -a  @@
+mutool draw -O garbage -o /tmp/foo.pdf -l -P -F pwg -e -M -X -h 300 -D -z -G 0.7 -f -b -d -c mono -S 18 -x 4  @@
+mutool draw -W 400 -R 90 -o /tmp/foo.pdf -P -A 16 -L -h 300 -D -z -f -d -y 4 -a  @@
+mutool extract  @@
+mutool draw -W 400 -i -o /tmp/foo.pdf -H 300 -h 300 -D -p 123456 -b -B 768 -S 18 -y 4 -s 5  @@
+mutool draw -i -o /tmp/foo.pdf -F pam -A 16 -X -h 300 -I -b -d -c gray -S 18 -y 4 -s t  @@
+mutool draw -O sanitize -i -w 400 -e -M -L -X -D -z -b -c cmyk -x 4 -a  @@
+mutool draw -i -o /tmp/foo.pdf -H 300 -F pbm -e -L -X -D -z -G 0.7 -d -r 144 -B 768 -x 4 -s f -a  @@
+mutool create  @@
+mutool draw -W 400 -i -o /tmp/foo.pdf -H 300 -w 400 -P -M -L -X -z -G 0.7 -I -c rgbalpha -B 768 -S 18 -x 4 -s f -a  @@
+mutool draw -O linearize -W 400 -R 90 -i -H 300 -l -P -M -X -b -d -c cmyk -B 768 -x 4 -s t -a  @@
+mutool draw -O garbage -W 400 -o /tmp/foo.pdf -F ppm -e -L -z -G 0.7 -p 123456 -b -d -c rgbalpha -r 144 -y 4  @@
+mutool draw -W 400 -R 90 -o /tmp/foo.pdf -w 400 -F pcl -M -X -D -z -f -d -B 768  @@
+mutool draw -O garbage -o /tmp/foo.pdf -H 300 -P -F pam -M -A 16 -X -h 300 -D -f -I -b -d -c grayalpha -B 768 -S 18 -x 4 -s f  @@
+mutool show  @@
+mutool draw -O garbage -W 400 -i -o /tmp/foo.pdf -g -H 300 -P -M -A 16 -L -z -G 0.7 -p 123456 -d -r 144 -B 768 -s m  @@
+mutool draw -O linearize -W 400 -R 90 -i -g -H 300 -w 400 -e -L -X -G 0.7 -p 123456 -b -c rgbalpha -y 4 -s m -a  @@
+mutool draw -R 90 -o /tmp/foo.pdf -w 400 -P -M -A 16 -X -D -z -f -b -B 768 -S 18 -x 4 -s f  @@
+mutool draw -O decompress -W 400 -o /tmp/foo.pdf -F pwg -M -A 16 -h 300 -D -z -G 0.7 -f -p 123456 -b -d -y 4 -s 5 -a  @@
+mutool draw -i -o /tmp/foo.pdf -H 300 -l -P -M -A 16 -G 0.7 -I -S 18 -x 4  @@
+mutool draw -W 400 -R 90 -i -o /tmp/foo.pdf -g -H 300 -l -P -F pwg -h 300 -z -I -b -d -S 18 -x 4 -s m  @@
+mutool draw -O sanitize -W 400 -R 90 -i -g -e -L -G 0.7 -d -r 144 -y 4 -s m  @@
+mutool draw -O linearize -W 400 -R 90 -i -g -l -X -D -z -G 0.7 -p 123456 -r 144 -B 768 -x 4 -a  @@
+mutool draw -O sanitize -i -o /tmp/foo.pdf -H 300 -M -b -d -c cmyk -r 144 -S 18 -x 4 -a  @@
+mutool draw -O compress -W 400 -R 90 -o /tmp/foo.pdf -g -l -e -A 16 -G 0.7 -f -p 123456 -b -r 144 -y 4 -s f -a  @@
+mutool draw -R 90 -o /tmp/foo.pdf -H 300 -l -P -M -h 300 -D -G 0.7 -I -p 123456 -b -B 768  @@
+mutool draw -O garbage -W 400 -R 90 -o /tmp/foo.pdf -g -H 300 -e -M -h 300 -D -z -G 0.7 -f -I -p 123456 -d -c cmyk -S 18 -y 4  @@
+mutool clean -i -g -l -P -e -M -L -G 0.7 -I -b -c cmyk -r 144 -S 18 -y 4 -s m  @@
+mutool draw -W 400 -R 90 -i -o /tmp/foo.pdf -g -H 300 -P -A 16 -L -X -h 300 -c cmyk -B 768 -y 4 -s t  @@
+mutool draw -O ascii -R 90 -i -o /tmp/foo.pdf -g -H 300 -l -P -F png -X -G 0.7 -I -b -d -c cmyk -r 144 -a  @@
+mutool draw -O conpress-fonts -W 400 -i -o /tmp/foo.pdf -g -H 300 -l -F pam -A 16 -L -D -z -d -c rgb -r 144 -B 768 -y 4 -s f  @@
+mutool draw -R 90 -i -o /tmp/foo.pdf -g -H 300 -F ps -A 16 -h 300 -G 0.7 -I -p 123456 -b -B 768 -y 4  @@
+mutool draw -O ascii -W 400 -o /tmp/foo.pdf -g -l -w 400 -e -M -L -X -D -z -G 0.7 -f -I -d -c grayalpha -B 768 -x 4 -s f  @@
+mutool draw -O linearize -W 400 -R 90 -g -H 300 -l -w 400 -e -X -f -p 123456 -S 18 -x 4  @@
+mutool draw -O sanitize -W 400 -R 90 -g -H 300 -P -A 16 -X -f -I -p 123456 -d -c cmykalpha -r 144 -y 4  @@
+mutool clean -i -g -P -e -M -L -h 300 -B 768 -s 5 -a  @@
+mutool draw -O ascii -i -o /tmp/foo.pdf -g -l -F pgm -A 16 -X -h 300 -D -z -G 0.7 -I -b -c rgb -B 768 -y 4 -s t -a  @@
+mutool draw -W 400 -i -o /tmp/foo.pdf -g -H 300 -P -F pwg -M -L -X -z -I -b -d -B 768 -y 4  @@
+mutool draw -W 400 -R 90 -i -g -w 400 -P -e -A 16 -D -z -G 0.7 -I -p 123456 -b -d -c mono -B 768 -S 18 -x 4 -a  @@
+mutool draw -O conpress-fonts -R 90 -o /tmp/foo.pdf -g -H 300 -F pam -A 16 -L -h 300 -f -p 123456 -b -S 18 -y 4 -s t  @@
+mutool draw -O garbage -R 90 -i -g -H 300 -P -A 16 -X -z -G 0.7 -d -c cmyk -r 144 -x 4  @@
+mutool draw -O ascii -W 400 -o /tmp/foo.pdf -g -H 300 -w 400 -F pwg -M -z -f -b -B 768 -S 18  @@
+mutool draw -W 400 -R 90 -o /tmp/foo.pdf -g -F ps -e -M -A 16 -I -b -c gray -r 144 -B 768 -x 4 -a  @@
+mutool draw -W 400 -R 90 -i -g -l -P -F ppm -L -X -D -G 0.7 -p 123456 -b -c cmykalpha -r 144 -S 18 -y 4 -a  @@
+mutool draw -W 400 -R 90 -o /tmp/foo.pdf -g -w 400 -P -F pwg -e -A 16 -L -X -D -z -f -I -p 123456 -d -y 4 -s t -a  @@
+mutool draw -R 90 -i -o /tmp/foo.pdf -g -H 300 -w 400 -F pgm -e -M -A 16 -L -z -G 0.7 -I -b -c rgb -B 768 -x 4 -s m  @@
+mutool convert -H 300 -A 16 -X -D -z -G 0.7 -f -p 123456 -b -c cmykalpha -r 144 -S 18 -x 4  @@
+mutool draw -O pretty -R 90 -o /tmp/foo.pdf -g -H 300 -l -h 300 -D -G 0.7 -f -p 123456 -d -c grayalpha -S 18 -x 4 -s f -a  @@
+mutool clean  @@
+mutool poster  @@
+mutool convert -O linearize -W 400 -g -H 300 -w 400 -F ppm -M -L -X -D -G 0.7 -f -I -c mono -B 768 -y 4 -a  @@
+mutool draw -W 400 -o /tmp/foo.pdf -g -H 300 -l -P -F pwg -e -X -I -d -c cmykalpha -r 144 -y 4 -s t  @@
+mutool convert -O sanitize -W 400 -R 90 -i -w 400 -P -M -A 16 -X -D -z -p 123456 -y 4 -s m -a  @@
+mutool convert -O decompress -W 400 -g -H 300 -l -e -M -A 16 -L -h 300 -D -G 0.7 -f -p 123456 -b -d -c mono -S 18 -y 4  @@
+mutool draw -R 90 -w 400 -M -L -D -z -G 0.7 -f -I -b -d -c rgbalpha -B 768 -S 18 -y 4 -a  @@
+mutool draw -W 400 -R 90 -g -H 300 -l -F pwg -M -A 16 -X -D -z -I -p 123456 -b -d -r 144 -S 18 -x 4 -s t  @@
+mutool convert -O conpress-fonts -W 400 -i -g -H 300 -l -P -e -M -X -D -z -G 0.7 -I -p 123456 -b -d -r 144 -S 18 -y 4 -a  @@
+mutool draw -O compress-images -o /tmp/foo.pdf -g -P -e -M -A 16 -X -G 0.7 -I -d -r 144 -S 18 -y 4  @@
+mutool convert -O compress -W 400 -i -o /tmp/foo.pdf -g -H 300 -l -F pbm -e -M -L -X -h 300 -G 0.7 -I -b -d -x 4 -s f  @@
+mutool clean -O compress-images -i -o /tmp/foo.pdf -g -H 300 -l -w 400 -M -D -z -G 0.7 -p 123456 -b -B 768 -y 4  @@
+mutool convert -O conpress-fonts -W 400 -R 90 -i -o /tmp/foo.pdf -l -w 400 -F pbm -e -A 16 -L -z -b -d -c mono -B 768 -S 18 -y 4  @@
+mutool draw -i -o /tmp/foo.pdf -g -w 400 -P -F pgm -e -A 16 -X -D -z -G 0.7 -I -p 123456 -b -c mono -B 768 -y 4 -a  @@
+mutool clean -O compress-images -l -F ppm -e -M -z -G 0.7 -r 144 -x 4  @@
+mutool draw -O pretty -R 90 -g -l -P -e -M -L -f -b -d -c cmykalpha -r 144 -x 4 -s 5  @@
+mutool convert -O sanitize -W 400 -R 90 -o /tmp/foo.pdf -H 300 -l -w 400 -F ps -e -M -A 16 -X -G 0.7 -f -I -b -B 768 -y 4 -s m  @@
+mutool show -o /tmp/foo.pdf -g -H 300 -l -P -F ppm -e -L -h 300 -D -f -I -b -d -c rgb -y 4  @@
+mutool convert -O compress -o /tmp/foo.pdf -w 400 -P -M -X -z -f -I -p 123456 -c cmykalpha -y 4  @@
+mutool convert -O compress-images -W 400 -i -g -l -F ppm -e -A 16 -X -p 123456 -b -r 144 -B 768 -y 4  @@
+mutool draw -O decompress -R 90 -g -w 400 -P -e -M -A 16 -z -I -B 768 -S 18 -x 4 -s f -a  @@
+mutool convert -O pretty -W 400 -R 90 -o /tmp/foo.pdf -H 300 -l -F ps -e -M -A 16 -G 0.7 -f -b -d -c rgbalpha -r 144 -S 18 -y 4 -a  @@
+mutool convert -O garbage -W 400 -i -l -A 16 -L -X -h 300 -z -I -d -S 18 -y 4 -s t -a  @@
+mutool clean -O linearize -g -w 400 -F pcl -M -A 16 -L -X -G 0.7 -f -b -d -c grayalpha -B 768 -x 4  @@
+mutool convert -H 300 -F ps -e -A 16 -X -z -f -I -d -c grayalpha -r 144 -x 4  @@
+mutool create -O pretty -o /tmp/foo.pdf -l -P -e -M -L -h 300 -G 0.7 -f -b -d -c rgbalpha -B 768 -y 4 -s m  @@
+mutool convert -O compress -o /tmp/foo.pdf -e -A 16 -L -D -G 0.7 -I -p 123456 -b -d -c cmykalpha -r 144 -x 4 -s m -a  @@
+mutool convert -O conpress-fonts -o /tmp/foo.pdf -g -H 300 -w 400 -P -A 16 -L -X -G 0.7 -f -I -p 123456 -c grayalpha -S 18 -s 5  @@
+mutool convert -O sanitize -W 400 -R 90 -P -F pgm -A 16 -X -h 300 -G 0.7 -f -p 123456 -b -B 768 -y 4 -s t -a  @@
+mutool create -O compress-images -o /tmp/foo.pdf -g -H 300 -l -P -F pwg -e -D -f -p 123456 -b -d -r 144 -S 18 -x 4  @@
+mutool draw -R 90 -i -g -H 300 -l -w 400 -P -F pbm -e -A 16 -z -G 0.7 -b -B 768 -y 4  @@
+mutool show -o /tmp/foo.pdf -g -l -P -F ps -e -L -D -z -b -r 144 -B 768 -S 18 -s t -a  @@
+mutool convert -O conpress-fonts -W 400 -g -H 300 -P -e -M -A 16 -X -z -G 0.7 -f -b -r 144 -S 18 -x 4 -s f  @@
+mutool convert -O linearize -W 400 -R 90 -i -o /tmp/foo.pdf -F ps -M -A 16 -z -I -b -d -r 144 -B 768 -x 4 -s 5  @@
+mutool draw -O compress-images -o /tmp/foo.pdf -g -H 300 -F pbm -L -D -z -G 0.7 -f -p 123456 -c cmyk -x 4 -s f  @@
+mutool clean -O compress -g -H 300 -P -e -A 16 -L -h 300 -G 0.7 -f -I -b -c gray -x 4  @@
+mutool draw -l -P -F ps -M -A 16 -L -X -G 0.7 -f -I -d -r 144 -B 768 -y 4 -s m -a  @@
+mutool convert -O compress -W 400 -R 90 -i -o /tmp/foo.pdf -g -H 300 -w 400 -M -A 16 -L -X -D -I -p 123456 -d -B 768 -S 18 -y 4 -s f -a  @@
+mutool convert -O linearize -W 400 -i -g -H 300 -l -e -X -h 300 -z -G 0.7 -I -p 123456 -b -c mono -y 4 -a  @@
+mutool draw -i -o /tmp/foo.pdf -g -H 300 -P -e -D -I -b -r 144 -x 4 -s t -a  @@
+mutool convert -O decompress -W 400 -R 90 -i -H 300 -l -P -F ppm -M -I -p 123456 -c grayalpha -r 144 -B 768 -y 4 -s m  @@
+mutool convert -O sanitize -W 400 -R 90 -l -w 400 -F png -e -M -A 16 -D -z -c mono -B 768 -S 18 -y 4  @@
+mutool convert -O garbage -W 400 -i -o /tmp/foo.pdf -g -l -F pcl -A 16 -L -z -I -p 123456 -B 768 -x 4 -s f  @@
+mutool draw -i -l -P -M -A 16 -L -X -h 300 -p 123456 -b -d -S 18 -x 4 -s t -a  @@
+mutool convert -O compress-images -H 300 -l -F png -e -A 16 -X -h 300 -f -I -p 123456 -d -y 4 -a  @@
+mutool convert -O compress -W 400 -R 90 -i -o /tmp/foo.pdf -g -H 300 -P -e -L -X -D -z -G 0.7 -I -d -r 144 -B 768 -y 4 -a  @@
+mutool convert -O compress-images -W 400 -i -g -l -w 400 -F pbm -e -L -D -z -I -b -d -x 4 -s f  @@
+mutool convert -O linearize -W 400 -R 90 -H 300 -l -w 400 -F ppm -e -M -A 16 -L -X -z -G 0.7 -I -d -x 4 -a  @@
+mutool draw -R 90 -o /tmp/foo.pdf -g -l -w 400 -P -F ps -X -z -f -b -c cmyk -B 768 -S 18 -y 4 -s t  @@
+mutool clean -O garbage -i -o /tmp/foo.pdf -g -l -P -F pwg -e -A 16 -L -X -h 300 -D -d -c rgbalpha -B 768 -x 4 -a  @@
+mutool convert -O compress-images -F pam -L -z -f -b -d -c cmyk -r 144 -B 768 -S 18 -x 4 -s t  @@
+mutool convert -O linearize -W 400 -R 90 -i -g -F ps -M -L -X -G 0.7 -I -c rgb -r 144 -B 768 -S 18 -x 4 -s 5  @@
+mutool create -O decompress -o /tmp/foo.pdf -H 300 -w 400 -P -M -L -X -D -G 0.7 -f -I -p 123456 -B 768 -x 4 -a  @@
+mutool draw -O garbage -W 400 -g -H 300 -l -w 400 -F pbm -e -A 16 -z -G 0.7 -f -I -B 768 -y 4 -s t -a  @@
+mutool convert -O compress-images -W 400 -R 90 -g -F pwg -e -A 16 -h 300 -D -G 0.7 -f -I -d -c grayalpha -x 4 -s m -a  @@
+mutool convert -O pretty -W 400 -g -H 300 -l -P -M -A 16 -L -h 300 -D -G 0.7 -I -x 4 -a  @@
+mutool draw -O compress -W 400 -g -l -w 400 -F png -e -X -I -p 123456 -b -d -c rgbalpha -x 4  @@
+mutool convert -O garbage -W 400 -R 90 -H 300 -w 400 -F ppm -e -A 16 -f -b -y 4  @@
+mutool convert -O sanitize -W 400 -R 90 -g -l -P -M -D -z -f -p 123456 -c grayalpha -B 768 -x 4 -s 5  @@
+mutool clean -O decompress -W 400 -R 90 -i -o /tmp/foo.pdf -g -H 300 -l -w 400 -e -M -A 16 -z -b -S 18 -y 4 -a  @@
+mutool convert -O conpress-fonts -R 90 -o /tmp/foo.pdf -g -w 400 -F png -e -M -L -p 123456 -x 4 -s f  @@
+mutool create -O garbage -W 400 -R 90 -o /tmp/foo.pdf -H 300 -l -M -L -X -z -G 0.7 -f -I -p 123456 -b -c grayalpha -r 144 -S 18 -x 4  @@
+mutool convert -o /tmp/foo.pdf -g -H 300 -l -w 400 -F pam -M -A 16 -L -X -D -z -f -I -p 123456 -b -c grayalpha -B 768 -S 18 -y 4 -s t -a  @@
+mutool create -O ascii -R 90 -i -o /tmp/foo.pdf -H 300 -P -F pcl -M -L -X -h 300 -D -b -c mono -B 768 -x 4 -s t -a  @@
+mutool draw -O sanitize -g -l -w 400 -P -F pwg -M -X -z -G 0.7 -f -I -b -d -x 4 -s m -a  @@
+mutool clean -O compress -H 300 -l -P -M -A 16 -D -z -f -I -c rgbalpha -r 144 -B 768 -x 4 -s 5 -a  @@
+mutool create -O ascii -W 400 -R 90 -i -o /tmp/foo.pdf -H 300 -l -F png -e -M -L -h 300 -z -p 123456 -c cmykalpha -y 4  @@
+mutool convert -W 400 -i -H 300 -w 400 -M -A 16 -X -z -G 0.7 -b -d -c grayalpha -S 18 -y 4  @@
+mutool create -O garbage -W 400 -R 90 -o /tmp/foo.pdf -g -M -X -h 300 -D -G 0.7 -f -b -S 18 -s f  @@
+mutool convert -W 400 -R 90 -i -g -l -P -X -h 300 -z -G 0.7 -d -B 768 -y 4 -s t  @@
+mutool create -O conpress-fonts -R 90 -o /tmp/foo.pdf -H 300 -l -w 400 -P -F pgm -M -A 16 -X -G 0.7 -f -c rgbalpha -y 4 -a  @@
+mutool convert -O ascii -R 90 -H 300 -w 400 -e -M -A 16 -X -D -G 0.7 -I -b -c mono -x 4 -a  @@
+mutool convert -O ascii -g -P -F pcl -e -A 16 -h 300 -D -I -c gray -B 768 -y 4 -s m  @@
+mutool create -O decompress -R 90 -o /tmp/foo.pdf -l -e -A 16 -h 300 -D -z -G 0.7 -p 123456 -d -c cmykalpha -S 18 -x 4 -s 5 -a  @@
+mutool create -O sanitize -W 400 -R 90 -o /tmp/foo.pdf -g -l -P -F pam -e -A 16 -X -h 300 -D -z -f -I -p 123456 -b -B 768 -S 18 -x 4  @@
+mutool create -O pretty -g -H 300 -l -F pgm -e -h 300 -z -G 0.7 -f -I -p 123456 -d -c gray -S 18 -s m  @@
+mutool clean -i -o /tmp/foo.pdf -H 300 -w 400 -M -A 16 -L -G 0.7 -I -p 123456 -b -d -S 18 -x 4 -a  @@
+mutool convert -O conpress-fonts -R 90 -i -P -F pam -h 300 -D -z -I -p 123456 -b -S 18  @@
+mutool clean -O sanitize -W 400 -R 90 -o /tmp/foo.pdf -g -H 300 -P -F pbm -A 16 -L -X -D -G 0.7 -I -p 123456 -b -r 144 -B 768 -S 18 -y 4 -s f -a  @@
+mutool convert -W 400 -R 90 -g -H 300 -P -A 16 -L -X -h 300 -D -S 18 -y 4 -a  @@
+mutool convert -W 400 -i -o /tmp/foo.pdf -g -w 400 -P -M -L -X -D -z -p 123456 -d -c rgbalpha -S 18 -y 4 -a  @@
+mutool convert -W 400 -R 90 -l -e -M -A 16 -L -X -h 300 -z -f -I -c grayalpha -B 768 -x 4 -a  @@
+mutool create -O ascii -R 90 -i -H 300 -l -P -e -M -A 16 -z -b -d -c mono -r 144 -y 4 -s m  @@
+mutool convert -W 400 -R 90 -i -H 300 -F pwg -e -A 16 -L -h 300 -G 0.7 -p 123456 -d -c gray -S 18 -x 4 -s f  @@
+mutool create -O sanitize -W 400 -o /tmp/foo.pdf -g -H 300 -l -P -F pam -h 300 -D -G 0.7 -f -I -B 768 -a  @@
+mutool create -O sanitize -R 90 -i -o /tmp/foo.pdf -g -H 300 -F pbm -A 16 -L -X -p 123456 -d -r 144 -S 18 -y 4 -a  @@
+mutool create -O sanitize -W 400 -w 400 -A 16 -L -z -f -I -b -x 4 -s t -a  @@
+mutool clean -O linearize -W 400 -R 90 -l -P -e -D -f -I -b -r 144 -S 18 -y 4 -s 5  @@
+mutool show -g -l -P -F pcl -e -M -A 16 -X -D -f -I -p 123456 -b -c cmyk -r 144 -y 4 -s 5 -a  @@
+mutool clean -O ascii -R 90 -o /tmp/foo.pdf -H 300 -F ps -e -A 16 -L -h 300 -D -z -f -p 123456 -b -B 768 -S 18 -x 4 -a  @@
+mutool create -O pretty -W 400 -R 90 -g -l -w 400 -A 16 -X -f -I -b -d -c cmykalpha -B 768 -S 18 -y 4 -a  @@
+mutool convert -O decompress -R 90 -i -g -H 300 -l -P -F ppm -e -A 16 -L -h 300 -z -p 123456 -b -d -c gray -B 768 -y 4 -s f -a  @@
+mutool clean -O decompress -W 400 -R 90 -i -o /tmp/foo.pdf -g -P -F pcl -e -M -A 16 -h 300 -D -z -G 0.7 -d -c rgb -B 768 -y 4  @@
+mutool clean -O decompress -W 400 -R 90 -o /tmp/foo.pdf -g -F png -A 16 -X -h 300 -d -c rgb -a  @@
+mutool clean -O compress-images -R 90 -i -l -P -F ps -h 300 -z -d -x 4 -a  @@
+mutool clean -O decompress -W 400 -i -g -F ps -M -A 16 -L -h 300 -D -z -I -b -S 18 -x 4  @@
+mutool clean -O ascii -R 90 -i -o /tmp/foo.pdf -g -P -e -A 16 -X -h 300 -G 0.7 -I -p 123456 -b -d -S 18 -x 4 -s t  @@
+mutool clean -O compress -W 400 -i -H 300 -l -e -D -z -G 0.7 -I -p 123456 -c cmykalpha -B 768 -y 4 -a  @@
+mutool convert -W 400 -R 90 -i -P -F pbm -A 16 -L -D -G 0.7 -b -d -y 4 -s m  @@
+mutool convert -O sanitize -R 90 -i -o /tmp/foo.pdf -g -l -P -F png -A 16 -z -G 0.7 -I -r 144 -y 4 -s t  @@
+mutool clean -O compress -W 400 -R 90 -o /tmp/foo.pdf -P -e -M -L -h 300 -z -f -I -p 123456 -d -B 768 -x 4 -s f  @@
+mutool convert -W 400 -g -H 300 -w 400 -P -F pbm -M -A 16 -D -G 0.7 -d -c rgbalpha -S 18 -x 4 -s 5  @@
+mutool draw -R 90 -g -H 300 -l -w 400 -e -M -A 16 -L -X -D -z -G 0.7 -f -p 123456 -d -c rgbalpha -S 18 -x 4 -s f -a  @@
+mutool clean -O pretty -W 400 -R 90 -o /tmp/foo.pdf -g -w 400 -L -X -D -G 0.7 -I -b -d -S 18 -x 4 -a  @@
+mutool create -O linearize -R 90 -o /tmp/foo.pdf -H 300 -w 400 -P -e -A 16 -z -G 0.7 -f -p 123456 -c mono -B 768 -x 4  @@
+mutool draw -W 400 -g -P -e -M -A 16 -L -X -h 300 -D -G 0.7 -f -p 123456 -b -d -B 768 -s 5  @@
+mutool convert -O garbage -R 90 -o /tmp/foo.pdf -H 300 -w 400 -P -F pcl -D -z -I -b -d -B 768 -s t -a  @@
+mutool clean -O garbage -W 400 -g -l -e -M -A 16 -X -h 300 -D -z -f -I -p 123456 -y 4 -s m  @@
+mutool create -O sanitize -W 400 -i -g -H 300 -l -P -F ppm -e -h 300 -D -z -G 0.7 -I -p 123456 -c cmyk -B 768 -x 4 -s t  @@
+mutool clean -O pretty -W 400 -i -o /tmp/foo.pdf -P -F pgm -e -A 16 -L -h 300 -I -c rgb -S 18 -x 4  @@
+mutool convert -W 400 -g -F pwg -L -D -I -c gray -r 144 -S 18 -y 4  @@
+mutool clean -O conpress-fonts -W 400 -R 90 -i -H 300 -w 400 -P -e -M -L -D -z -I -b -d -S 18 -y 4  @@
+mutool clean -O ascii -R 90 -g -H 300 -l -F pgm -e -M -h 300 -z -f -b -B 768 -S 18 -x 4 -s m -a  @@
+mutool convert -W 400 -i -o /tmp/foo.pdf -g -P -F pwg -e -M -A 16 -X -D -d -c cmyk -r 144 -B 768 -S 18 -x 4 -s t -a  @@
+mutool create -O conpress-fonts -W 400 -R 90 -o /tmp/foo.pdf -g -F ps -e -M -A 16 -L -X -z -G 0.7 -f -I -p 123456 -c rgb -r 144 -y 4 -s t  @@
+mutool create -O conpress-fonts -W 400 -i -l -w 400 -P -F pwg -e -A 16 -L -X -G 0.7 -I -p 123456 -d -c mono -x 4 -s t  @@
+mutool create -O garbage -W 400 -R 90 -H 300 -l -P -A 16 -L -D -z -G 0.7 -c cmykalpha -r 144 -S 18 -y 4 -a  @@
+mutool clean -O compress -W 400 -i -M -A 16 -X -D -z -G 0.7 -p 123456 -b -d -r 144 -B 768 -S 18 -y 4 -a  @@
+mutool clean -O decompress -R 90 -i -g -F ppm -D -z -I -b -d -c grayalpha -r 144 -B 768 -y 4  @@
+mutool convert -W 400 -R 90 -i -o /tmp/foo.pdf -H 300 -l -w 400 -P -F pwg -M -L -X -D -I -p 123456 -b -y 4  @@
+mutool clean -O pretty -W 400 -R 90 -o /tmp/foo.pdf -F ps -M -L -X -D -z -f -r 144 -B 768 -S 18 -y 4 -s f -a  @@
+mutool create -O pretty -R 90 -g -P -F ps -L -X -D -p 123456 -d -c rgbalpha -r 144 -S 18 -s 5 -a  @@
+mutool draw -R 90 -g -H 300 -P -F ppm -e -X -h 300 -D -z -G 0.7 -f -B 768 -y 4 -s m  @@
+mutool clean -O sanitize -W 400 -H 300 -l -F ps -L -X -h 300 -D -G 0.7 -f -I -d -B 768 -S 18 -x 4 -s m -a  @@
+mutool convert -W 400 -R 90 -i -o /tmp/foo.pdf -e -M -A 16 -L -X -z -b -c cmyk -B 768 -y 4 -s 5  @@
+mutool create -O decompress -g -l -P -e -L -X -h 300 -D -z -f -I -c rgbalpha -B 768 -S 18 -x 4  @@
+mutool create -O linearize -W 400 -l -w 400 -P -M -A 16 -D -G 0.7 -f -I -p 123456 -B 768 -S 18 -y 4  @@
+mutool create -O decompress -R 90 -g -l -P -X -h 300 -z -G 0.7 -I -p 123456 -b -d -c cmyk -B 768 -x 4 -s m -a  @@
+mutool convert -W 400 -l -w 400 -P -e -M -L -f -p 123456 -d -c gray -B 768 -S 18 -x 4  @@
+mutool create -O conpress-fonts -W 400 -R 90 -H 300 -l -P -F pbm -e -X -I -d -c mono -r 144 -S 18 -x 4 -a  @@
+mutool create -O ascii -W 400 -R 90 -g -H 300 -w 400 -P -F png -e -L -X -D -z -f -I -p 123456 -b -B 768 -y 4 -s 5  @@
+mutool create -O pretty -W 400 -g -H 300 -l -F png -M -L -X -G 0.7 -p 123456 -d -c rgbalpha -B 768 -S 18 -y 4 -s m -a  @@
+mutool show -o /tmp/foo.pdf -P -e -M -X -D -z -G 0.7 -f -I -p 123456 -d -c gray -r 144 -S 18 -y 4 -a  @@
+mutool clean -O compress-images -W 400 -R 90 -i -o /tmp/foo.pdf -g -F pcl -e -L -I -p 123456 -d -c cmykalpha -B 768 -S 18  @@
+mutool clean -O conpress-fonts -W 400 -i -H 300 -l -w 400 -F pwg -M -X -p 123456 -b -d -B 768 -S 18 -x 4 -s m -a  @@
+mutool convert -O conpress-fonts -R 90 -i -H 300 -e -D -G 0.7 -p 123456 -b -r 144 -B 768 -S 18 -x 4 -s m -a  @@
+mutool clean -O sanitize -R 90 -g -w 400 -P -e -M -L -D -G 0.7 -f -I -b -S 18 -x 4 -s m -a  @@
+mutool create -O garbage -W 400 -o /tmp/foo.pdf -g -l -P -F png -e -L -h 300 -D -G 0.7 -p 123456 -b -d -S 18 -x 4  @@
+mutool convert -O conpress-fonts -R 90 -g -H 300 -F pam -A 16 -L -X -h 300 -z -I -c rgbalpha -B 768 -S 18 -x 4  @@
+mutool clean -g -w 400 -P -A 16 -L -X -D -f -p 123456 -b -d -c gray -B 768 -a  @@
+mutool create -O compress-images -W 400 -i -o /tmp/foo.pdf -g -H 300 -P -F pwg -M -A 16 -L -X -r 144 -B 768 -S 18 -x 4  @@
+mutool create -O ascii -P -F pwg -M -A 16 -z -I -p 123456 -d -c cmyk -r 144 -B 768 -y 4 -s t -a  @@
+mutool create -O sanitize -W 400 -R 90 -i -H 300 -e -L -X -h 300 -z -I -d -B 768 -S 18  @@
+mutool convert -O decompress -i -o /tmp/foo.pdf -l -w 400 -P -F pcl -e -D -p 123456 -B 768 -x 4 -s m -a  @@
+mutool convert -H 300 -l -w 400 -F ppm -A 16 -L -X -f -B 768 -x 4  @@
+mutool create -O decompress -W 400 -g -l -P -F ps -e -M -A 16 -X -D -G 0.7 -f -I -d -r 144 -s t -a  @@
+mutool clean -O conpress-fonts -W 400 -R 90 -i -o /tmp/foo.pdf -g -M -L -X -h 300 -z -I -p 123456 -S 18 -y 4  @@
+mutool clean -O compress-images -W 400 -R 90 -i -H 300 -l -w 400 -P -F pgm -e -M -A 16 -X -D -z -G 0.7 -p 123456 -d -B 768 -S 18 -s m  @@
+mutool clean -O conpress-fonts -W 400 -R 90 -o /tmp/foo.pdf -g -H 300 -l -F pwg -L -h 300 -G 0.7 -f -p 123456 -c rgbalpha -x 4 -s 5 -a  @@
+mutool show -o /tmp/foo.pdf -l -P -e -L -X -G 0.7 -f -p 123456 -d -c grayalpha -B 768 -x 4 -s t -a  @@
+mutool create -O ascii -g -l -M -A 16 -L -h 300 -D -z -f -I -b -d -B 768 -a  @@
+mutool convert -O decompress -i -H 300 -w 400 -X -D -z -I -d -B 768 -x 4 -a  @@
+mutool create -O pretty -R 90 -o /tmp/foo.pdf -H 300 -l -w 400 -P -e -L -X -f -b -c rgbalpha -S 18 -x 4 -s f -a  @@
+mutool clean -O garbage -R 90 -i -o /tmp/foo.pdf -g -P -F pam -M -X -h 300 -D -z -G 0.7 -I -b -d -c rgb -B 768 -S 18 -y 4 -a  @@
+mutool create -O pretty -W 400 -R 90 -g -H 300 -l -w 400 -e -L -z -b -c rgbalpha -B 768 -S 18 -y 4 -s m -a  @@
+mutool create -O compress -R 90 -i -o /tmp/foo.pdf -H 300 -e -M -A 16 -h 300 -z -G 0.7 -I -p 123456 -b -B 768 -s t -a  @@
+mutool clean -O compress-images -H 300 -w 400 -e -M -A 16 -D -z -I -p 123456 -d -S 18 -s 5 -a  @@
+mutool convert -O compress-images -R 90 -i -l -P -F pcl -e -L -h 300 -p 123456 -c rgb -B 768 -x 4  @@
+mutool clean -O compress -W 400 -i -g -H 300 -l -F ppm -e -M -L -D -z -G 0.7 -p 123456 -b -c cmykalpha -r 144 -S 18 -y 4 -s 5 -a  @@
+mutool create -O ascii -R 90 -i -o /tmp/foo.pdf -H 300 -l -w 400 -e -M -L -D -z -G 0.7 -I -p 123456 -d -a  @@
+mutool clean -O conpress-fonts -R 90 -i -H 300 -P -M -L -X -h 300 -z -B 768 -S 18 -x 4  @@
+mutool convert -O compress-images -R 90 -i -o /tmp/foo.pdf -g -H 300 -l -P -A 16 -L -X -z -I -p 123456 -b -c cmyk -r 144 -S 18 -x 4 -s t -a  @@
+mutool convert -o /tmp/foo.pdf -g -H 300 -w 400 -F png -L -D -z -f -d -B 768 -x 4 -s f -a  @@
+mutool create -O decompress -R 90 -o /tmp/foo.pdf -g -P -M -L -X -D -f -p 123456 -d -c grayalpha -r 144 -S 18 -y 4 -a  @@
+mutool clean -O sanitize -R 90 -i -g -H 300 -P -F pcl -M -L -X -D -I -p 123456 -b -r 144 -B 768  @@
+mutool convert -O conpress-fonts -R 90 -o /tmp/foo.pdf -g -H 300 -l -P -F pam -e -M -A 16 -h 300 -z -G 0.7 -f -b -d -c gray -B 768  @@
+mutool create -O conpress-fonts -W 400 -i -o /tmp/foo.pdf -g -H 300 -l -F pam -e -M -L -h 300 -D -z -b -d -c cmyk -x 4 -s m  @@
+mutool create -O ascii -W 400 -g -P -e -M -A 16 -L -h 300 -G 0.7 -f -p 123456 -d -B 768 -S 18 -x 4 -a  @@
+mutool convert -O conpress-fonts -R 90 -g -H 300 -l -w 400 -P -e -L -D -z -f -I -b -d -c rgbalpha -B 768 -S 18  @@
+mutool clean -O garbage -W 400 -R 90 -g -H 300 -F ppm -e -M -L -D -z -G 0.7 -f -I -p 123456 -b -c cmykalpha -r 144 -x 4  @@
+mutool convert -W 400 -R 90 -F ppm -A 16 -X -h 300 -G 0.7 -p 123456 -b -d -c rgb -x 4 -s f  @@
+mutool clean -O decompress -W 400 -R 90 -o /tmp/foo.pdf -g -H 300 -l -P -F ppm -e -L -D -z -I -r 144 -S 18 -x 4 -s 5  @@
+mutool create -O sanitize -R 90 -o /tmp/foo.pdf -H 300 -e -A 16 -L -f -p 123456 -r 144 -B 768 -S 18 -y 4 -a  @@
+mutool create -O ascii -R 90 -o /tmp/foo.pdf -w 400 -F pgm -M -L -X -D -z -G 0.7 -f -I -S 18 -x 4  @@
+mutool create -O sanitize -R 90 -i -o /tmp/foo.pdf -g -H 300 -l -D -z -G 0.7 -I -b -r 144 -B 768  @@
+mutool convert -W 400 -R 90 -g -H 300 -l -w 400 -P -F pam -M -A 16 -X -z -G 0.7 -f -p 123456 -d -S 18 -s f -a  @@
+mutool convert -W 400 -i -g -H 300 -F pgm -L -D -z -G 0.7 -b -d -c rgb -r 144 -B 768 -y 4 -s f  @@
+mutool create -O garbage -W 400 -R 90 -o /tmp/foo.pdf -g -P -F ppm -e -M -A 16 -X -h 300 -S 18 -x 4 -a  @@
+mutool convert  @@
+mutool show -O linearize -o /tmp/foo.pdf -l -F ps -M -A 16 -X -p 123456 -b -d -c mono -B 768  @@
+mutool info -W 400 -R 90 -i -g -H 300 -P -e -L -h 300 -D -z -G 0.7 -I -c rgb -S 18 -x 4 -s f -a  @@
+mutool poster -g -l -P -A 16 -L -X -D -G 0.7 -f -p 123456 -r 144 -S 18 -y 4 -s f  @@
+mutool create -R 90 -H 300 -l -w 400 -P -F pwg -e -M -A 16 -D -z -G 0.7 -f -I -p 123456 -d -x 4  @@
+mutool info -O compress -R 90 -g -e -X -z -f -I -b -d -r 144 -B 768 -y 4 -s f -a  @@
+mutool extract -W 400 -R 90 -H 300 -w 400 -P -F pam -A 16 -L -X -z -b -d -c rgbalpha -B 768 -S 18 -s 5  @@
+mutool poster -i -H 300 -l -L -D -z -p 123456 -b -d -r 144 -a  @@
+mutool poster -W 400 -R 90 -o /tmp/foo.pdf -g -l -w 400 -P -M -G 0.7 -f -p 123456 -d -c rgbalpha -B 768 -S 18 -s t -a  @@
+mutool pages -o /tmp/foo.pdf -H 300 -e -M -A 16 -L -X -h 300 -D -f -d -c cmykalpha -y 4 -s f -a  @@
+mutool pages -O compress-images -W 400 -o /tmp/foo.pdf -g -F png -A 16 -D -z -f -I -d -r 144 -S 18 -x 4 -a  @@
+mutool clean -W 400 -i -g -w 400 -P -e -M -A 16 -L -X -D -I -b -B 768 -x 4  @@
+mutool poster -O conpress-fonts -o /tmp/foo.pdf -l -w 400 -P -e -L -z -G 0.7 -f -b -B 768 -y 4 -a  @@
+mutool poster -O linearize -R 90 -i -g -l -P -F ppm -M -L -G 0.7 -I -b -d -c cmykalpha -r 144 -S 18 -y 4 -a  @@
+mutool poster -i -l -F ppm -e -M -A 16 -X -h 300 -z -G 0.7 -b -B 768 -S 18 -x 4 -s f -a  @@
+mutool extract -W 400 -i -o /tmp/foo.pdf -H 300 -l -P -F ppm -A 16 -X -h 300 -D -z -G 0.7 -p 123456 -d -c gray -S 18 -y 4 -a  @@
+mutool info -W 400 -R 90 -o /tmp/foo.pdf -w 400 -e -A 16 -L -X -G 0.7 -f -I -p 123456 -B 768 -S 18  @@
+mutool poster -O compress-images -g -H 300 -w 400 -P -D -f -p 123456 -b -d -c mono -B 768 -S 18 -x 4  @@
+mutool pages -R 90 -i -o /tmp/foo.pdf -l -w 400 -X -D -z -I -c cmyk -x 4 -s m  @@
+mutool show -O ascii -i -o /tmp/foo.pdf -g -H 300 -l -w 400 -P -F ps -e -L -X -D -G 0.7 -d -S 18 -x 4  @@
+mutool show -W 400 -R 90 -i -o /tmp/foo.pdf -w 400 -P -F pgm -e -D -b -d -c cmyk -y 4 -a  @@
+mutool poster -O pretty -R 90 -i -g -H 300 -l -P -e -M -A 16 -X -h 300 -I -B 768 -S 18  @@
+mutool info -W 400 -R 90 -g -l -F pcl -e -A 16 -L -D -z -G 0.7 -f -b -c rgbalpha -r 144 -B 768 -x 4  @@
+mutool pages -i -g -H 300 -F pwg -e -M -A 16 -p 123456 -c grayalpha -r 144 -x 4 -s t -a  @@
+mutool info -O compress -R 90 -P -F pam -e -A 16 -L -X -f -I -p 123456 -b -c gray -r 144 -S 18 -x 4 -a  @@
+mutool clean -W 400 -H 300 -l -P -M -L -h 300 -z -f -I -b -B 768 -y 4 -s f  @@
+mutool info -W 400 -R 90 -H 300 -F pcl -G 0.7 -f -r 144 -S 18 -y 4 -s f  @@
+mutool info -i -o /tmp/foo.pdf -g -l -P -e -M -h 300 -z -I -p 123456 -b -d -c cmyk -x 4  @@
+mutool info -O sanitize -i -o /tmp/foo.pdf -P -A 16 -L -h 300 -D -z -I -d -B 768 -S 18 -y 4  @@
+mutool pages -W 400 -R 90 -o /tmp/foo.pdf -g -w 400 -P -F ps -M -A 16 -L -z -f -I -c rgb -y 4  @@
+mutool show -O linearize -H 300 -P -e -X -h 300 -z -G 0.7 -p 123456 -b -c rgbalpha -S 18 -y 4 -s t  @@
+mutool info -R 90 -g -l -w 400 -F png -e -X -D -f -p 123456 -d -S 18 -y 4 -a  @@
+mutool pages -O ascii -R 90 -H 300 -l -w 400 -A 16 -L -G 0.7 -f -d -B 768 -S 18 -x 4 -s f -a  @@
+mutool show -O garbage -W 400 -R 90 -i -g -l -w 400 -F pam -L -D -z -G 0.7 -I -p 123456 -b -d -B 768 -y 4 -s f  @@
+mutool show -O linearize -W 400 -R 90 -i -o /tmp/foo.pdf -H 300 -l -w 400 -P -A 16 -X -D -G 0.7 -I -b -d -c cmykalpha -B 768 -y 4 -s m  @@
+mutool show -W 400 -l -P -e -M -X -D -G 0.7 -p 123456 -r 144 -B 768 -y 4 -a  @@
+mutool show -O decompress -i -o /tmp/foo.pdf -H 300 -l -F pcl -e -A 16 -L -X -D -z -G 0.7 -I -b -r 144 -y 4 -s t  @@
+mutool show -W 400 -R 90 -o /tmp/foo.pdf -H 300 -l -e -M -h 300 -D -I -b -d -B 768 -S 18 -x 4 -a  @@
+mutool poster -R 90 -i -o /tmp/foo.pdf -H 300 -l -w 400 -P -e -L -X -z -I -p 123456 -d -B 768 -S 18 -y 4 -s f -a  @@
+mutool pages -O compress-images -R 90 -o /tmp/foo.pdf -g -H 300 -P -F pbm -e -M -A 16 -X -D -z -G 0.7 -f -p 123456 -d -c grayalpha -r 144 -B 768 -a  @@
+mutool convert -i -l -w 400 -P -e -A 16 -G 0.7 -I -p 123456 -b -c grayalpha -S 18 -y 4 -s t -a  @@
+mutool show -W 400 -g -P -F pwg -M -L -X -h 300 -z -f -p 123456 -d -c rgb -S 18 -x 4  @@
+mutool info -O linearize -W 400 -o /tmp/foo.pdf -H 300 -w 400 -P -F ppm -e -M -X -D -f -I -p 123456 -S 18 -x 4 -s t -a  @@
+mutool show -W 400 -R 90 -i -o /tmp/foo.pdf -l -P -F ps -M -A 16 -L -X -G 0.7 -d -r 144 -S 18 -x 4 -s t -a  @@
+mutool show -O compress-images -i -e -M -L -X -D -z -d -c cmykalpha -r 144 -S 18 -x 4 -s t  @@
+mutool poster -O linearize -R 90 -g -l -P -A 16 -h 300 -D -f -b -c grayalpha -y 4 -a  @@
+mutool info -W 400 -o /tmp/foo.pdf -g -l -w 400 -A 16 -X -z -p 123456 -b -B 768 -x 4 -s f -a  @@
+mutool show -W 400 -o /tmp/foo.pdf -H 300 -l -w 400 -F pam -L -D -G 0.7 -f -I -p 123456 -b -x 4 -a  @@
+mutool pages -R 90 -o /tmp/foo.pdf -g -H 300 -P -L -X -h 300 -z -G 0.7 -f -I -p 123456 -b -d -x 4 -a  @@
+mutool poster -R 90 -i -g -H 300 -l -P -F pgm -X -D -z -c rgb -r 144 -B 768 -S 18 -y 4  @@
+mutool create -i -o /tmp/foo.pdf -g -A 16 -L -X -G 0.7 -c rgbalpha -r 144 -B 768 -S 18 -y 4 -a  @@
+mutool create -i -g -H 300 -w 400 -P -F pgm -e -M -L -D -G 0.7 -p 123456 -d -B 768 -y 4 -s t  @@
+mutool poster -O garbage -W 400 -i -o /tmp/foo.pdf -g -l -M -A 16 -L -h 300 -D -G 0.7 -I -p 123456 -c rgb -B 768 -S 18 -x 4 -s 5 -a  @@
+mutool convert -R 90 -o /tmp/foo.pdf -g -P -F png -e -M -A 16 -L -h 300 -z -G 0.7 -I -b -d -S 18 -y 4 -s f -a  @@
+mutool pages -O conpress-fonts -R 90 -i -g -w 400 -A 16 -L -z -G 0.7 -p 123456 -d -c cmyk -x 4  @@
+mutool show -O decompress -W 400 -w 400 -e -M -A 16 -z -f -p 123456 -d -c cmyk -B 768 -y 4 -s m  @@
+mutool pages -W 400 -o /tmp/foo.pdf -P -F pwg -e -A 16 -h 300 -G 0.7 -f  @@
+mutool create -R 90 -i -o /tmp/foo.pdf -g -F ps -e -L -D -p 123456 -b -d -r 144 -S 18 -y 4 -s f  @@
+mutool info -O decompress -W 400 -i -g -H 300 -l -e -A 16 -G 0.7 -I -b -d -r 144 -B 768 -S 18 -s 5 -a  @@
+mutool extract -O compress -W 400 -H 300 -l -P -F ps -A 16 -L -h 300 -p 123456 -b -x 4 -s f  @@
+mutool show -O ascii -W 400 -R 90 -i -o /tmp/foo.pdf -g -w 400 -P -F ppm -M -A 16 -X -G 0.7 -p 123456 -b -B 768 -S 18 -y 4  @@
+mutool poster -W 400 -i -g -F pgm -e -M -A 16 -L -X -z -I -p 123456 -b -d -r 144 -a  @@
+mutool pages -O conpress-fonts -W 400 -i -o /tmp/foo.pdf -g -H 300 -w 400 -F pwg -e -A 16 -X -D -z -c cmykalpha -B 768 -S 18 -x 4 -s t  @@
+mutool create -W 400 -o /tmp/foo.pdf -P -F pgm -L -X -h 300 -D -z -G 0.7 -I -B 768 -x 4 -s 5 -a  @@
+mutool show -R 90 -o /tmp/foo.pdf -M -A 16 -z -I -p 123456 -b -r 144 -y 4  @@
+mutool show -O compress -W 400 -R 90 -i -H 300 -l -w 400 -F pam -M -I -c cmyk -B 768 -S 18 -x 4  @@
+mutool show -i -l -w 400 -F pbm -M -L -X -I -p 123456 -B 768 -S 18 -y 4  @@
+mutool extract -O sanitize -W 400 -i -g -l -P -F pcl -e -L -X -h 300 -D -z -b -d -c rgb -B 768 -a  @@
+mutool poster -O garbage -R 90 -o /tmp/foo.pdf -g -H 300 -l -L -I -d -r 144 -B 768 -x 4  @@
+mutool info -O conpress-fonts -W 400 -R 90 -o /tmp/foo.pdf -g -H 300 -l -w 400 -P -F pwg -e -M -A 16 -L -f -I -p 123456 -b -d -c grayalpha -B 768 -x 4 -s t -a  @@
+mutool show -R 90 -g -H 300 -e -M -L -D -z -G 0.7 -f -I -p 123456 -r 144 -S 18 -s f -a  @@
+mutool extract -O ascii -W 400 -g -P -e -M -L -f -b -r 144 -B 768 -S 18 -y 4 -a  @@
+mutool poster -R 90 -g -F pcl -M -h 300 -D -f -I -p 123456 -d -B 768 -x 4 -s f  @@
+mutool extract -O garbage -o /tmp/foo.pdf -g -H 300 -l -F pam -e -z -G 0.7 -f -I -p 123456 -c rgbalpha -r 144 -B 768 -S 18 -y 4 -a  @@
+mutool extract -O pretty -R 90 -H 300 -F pam -M -A 16 -L -X -h 300 -z -G 0.7 -f -I -p 123456 -b -d -c mono -B 768 -y 4 -s f  @@
+mutool show -i -g -l -F pgm -L -X -h 300 -D -G 0.7 -p 123456 -b -c mono -B 768 -S 18 -x 4  @@
+mutool create -H 300 -P -F pcl -A 16 -z -b -d -r 144 -B 768 -S 18 -y 4 -a  @@
+mutool extract -g -H 300 -w 400 -e -A 16 -L -X -D -z -f -I -d -y 4  @@
+mutool pages -O sanitize -W 400 -R 90 -e -L -h 300 -G 0.7 -f -I -b -d -y 4  @@
+mutool poster -O linearize -R 90 -i -o /tmp/foo.pdf -w 400 -F pbm -e -M -X -z -G 0.7 -p 123456 -d -B 768 -S 18 -x 4 -a  @@
+mutool pages -O pretty -R 90 -g -H 300 -l -w 400 -P -M -L -X -D -I -p 123456 -d -c rgb -y 4 -a  @@
+mutool create -W 400 -i -o /tmp/foo.pdf -g -l -w 400 -F pam -e -M -A 16 -D -G 0.7 -I -d -c mono -S 18 -y 4 -s t  @@
+mutool create -R 90 -i -o /tmp/foo.pdf -H 300 -P -e -A 16 -D -G 0.7 -I -p 123456 -c gray -r 144 -B 768 -x 4 -s t  @@
+mutool clean -R 90 -i -o /tmp/foo.pdf -l -e -M -D -G 0.7 -d -c cmykalpha -r 144 -B 768 -y 4 -a  @@
+mutool clean -o /tmp/foo.pdf -g -H 300 -l -P -M -X -h 300 -f -c cmykalpha -S 18 -x 4 -s m -a  @@
+mutool pages -i -g -H 300 -w 400 -P -F pam -A 16 -X -G 0.7 -I -d -s 5 -a  @@
+mutool extract -R 90 -i -H 300 -w 400 -P -M -A 16 -L -D -p 123456 -b -c rgbalpha -S 18 -y 4  @@
+mutool extract -O compress-images -W 400 -R 90 -i -o /tmp/foo.pdf -g -P -z -p 123456 -b -c rgbalpha -r 144 -B 768 -S 18 -x 4 -s t -a  @@
+mutool show -O compress -W 400 -i -H 300 -P -F pwg -e -A 16 -L -D -G 0.7 -b -d -r 144 -B 768 -x 4 -a  @@
+mutool extract -W 400 -R 90 -o /tmp/foo.pdf -H 300 -P -F pbm -e -M -X -h 300 -f -I -p 123456 -b -d -c cmyk -B 768 -S 18 -y 4  @@
+mutool show -R 90 -i -H 300 -l -F png -e -L -X -h 300 -I -b -y 4 -s 5 -a  @@
+mutool clean -W 400 -R 90 -g -H 300 -l -F pgm -M -A 16 -h 300 -z -f -d -B 768 -y 4 -a  @@
+mutool show -W 400 -R 90 -i -g -F ppm -e -M -A 16 -X -h 300 -z -I -p 123456 -c mono -B 768 -S 18 -y 4 -s 5 -a  @@
+mutool info -R 90 -i -g -l -P -e -A 16 -L -z -I -p 123456 -d -r 144 -B 768 -S 18 -x 4 -a  @@
+mutool show -W 400 -i -o /tmp/foo.pdf -H 300 -e -A 16 -L -z -I -c mono -r 144 -y 4 -a  @@
+mutool info -W 400 -R 90 -o /tmp/foo.pdf -H 300 -P -M -X -D -f -b -d -r 144 -y 4 -s f -a  @@
+mutool info -o /tmp/foo.pdf -g -H 300 -l -e -A 16 -L -X -h 300 -z -G 0.7 -p 123456 -c cmykalpha -B 768 -x 4  @@
+mutool show -O sanitize -i -o /tmp/foo.pdf -g -H 300 -M -h 300 -D -z -I -d -y 4 -s 5 -a  @@
+mutool clean -R 90 -o /tmp/foo.pdf -g -H 300 -l -w 400 -e -A 16 -z -f -b -c grayalpha -s 5  @@
+mutool poster -W 400 -R 90 -i -g -l -w 400 -P -e -M -L -X -z -G 0.7 -b -S 18 -x 4 -s f  @@
+mutool extract -W 400 -o /tmp/foo.pdf -l -M -A 16 -L -D -f -I -b -d -c rgbalpha -r 144 -S 18  @@
+mutool show -O sanitize -W 400 -H 300 -l -P -F pbm -M -L -z -f -p 123456 -d -c mono -r 144 -S 18 -y 4 -s 5 -a  @@
+mutool pages -W 400 -R 90 -i -o /tmp/foo.pdf -g -H 300 -l -w 400 -F png -M -L -D -z -G 0.7 -B 768 -x 4 -s f -a  @@
+mutool clean -W 400 -R 90 -i -g -H 300 -w 400 -F ps -e -z -I -b -d -c gray -S 18 -x 4 -a  @@
+mutool extract -W 400 -i -l -P -A 16 -X -G 0.7 -I -b -d -c cmyk -r 144 -x 4  @@
+mutool info -O conpress-fonts -i -o /tmp/foo.pdf -l -P -F pwg -e -h 300 -I -p 123456 -y 4 -s 5 -a  @@
+mutool create -H 300 -F pgm -e -M -L -X -G 0.7 -f -b -c rgbalpha -r 144 -B 768 -y 4  @@
+mutool poster -O linearize -W 400 -R 90 -i -o /tmp/foo.pdf -g -l -P -e -M -A 16 -L -X -D -I -c cmyk -r 144 -x 4 -a  @@
+mutool pages -O decompress -i -o /tmp/foo.pdf -g -l -w 400 -P -F ppm -M -A 16 -L -D -b -S 18 -y 4 -s f -a  @@
+mutool info -O conpress-fonts -R 90 -o /tmp/foo.pdf -H 300 -w 400 -P -F pwg -L -D -z -G 0.7 -f -I -c rgbalpha -S 18 -y 4 -s 5  @@
+mutool show -W 400 -R 90 -i -o /tmp/foo.pdf -l -P -M -L -h 300 -G 0.7 -p 123456 -c rgb -B 768 -S 18 -y 4 -a  @@
+mutool info -g -P -F pwg -M -G 0.7 -f -p 123456 -b -r 144 -B 768 -x 4 -s m  @@
+mutool info -O linearize -i -g -H 300 -l -w 400 -P -F pwg -A 16 -L -z -I -p 123456 -c gray -S 18 -x 4 -a  @@
+mutool poster -O linearize -H 300 -l -M -L -X -D -I -p 123456 -b -c cmyk -r 144 -B 768 -S 18 -y 4 -s t -a  @@
+mutool show -O conpress-fonts -W 400 -i -o /tmp/foo.pdf -g -L -h 300 -I -b -d -c rgb -S 18 -y 4 -s f  @@
+mutool poster -W 400 -o /tmp/foo.pdf -H 300 -l -P -e -A 16 -X -z -G 0.7 -f -p 123456 -b -d -r 144 -B 768 -S 18 -x 4 -s 5 -a  @@
+mutool extract -O linearize -W 400 -R 90 -o /tmp/foo.pdf -g -H 300 -P -e -A 16 -L -h 300 -z -G 0.7 -f -c rgbalpha -B 768 -S 18 -y 4 -s f -a  @@
+mutool pages -O conpress-fonts -i -o /tmp/foo.pdf -g -H 300 -P -F pam -M -X -D -z -G 0.7 -I -b -c grayalpha -r 144 -x 4  @@
+mutool clean -W 400 -R 90 -o /tmp/foo.pdf -l -F pbm -A 16 -L -X -h 300 -D -G 0.7 -f -I -p 123456 -d -c cmyk -y 4 -s 5  @@
+mutool info -O linearize -R 90 -P -M -L -X -D -G 0.7 -p 123456 -b -d -r 144 -B 768 -x 4  @@
+mutool poster -W 400 -o /tmp/foo.pdf -g -e -M -A 16 -h 300 -D -G 0.7 -f -p 123456 -b -c gray -B 768 -x 4 -a  @@
+mutool clean -o /tmp/foo.pdf -H 300 -l -P -F png -e -M -A 16 -L -D -f -r 144 -B 768 -S 18 -y 4 -s 5  @@
+mutool pages -W 400 -R 90 -e -M -A 16 -D -G 0.7 -f -I -d -c gray -r 144 -B 768 -S 18 -x 4 -s f  @@
+mutool info -R 90 -i -H 300 -w 400 -P -F ps -e -L -X -z -I -p 123456 -B 768 -x 4 -s t  @@
+mutool clean -W 400 -o /tmp/foo.pdf -H 300 -l -w 400 -P -e -M -A 16 -L -D -z -G 0.7 -I -p 123456 -d -B 768 -S 18 -y 4  @@
+mutool show -i -g -F ppm -A 16 -L -D -z -G 0.7 -p 123456 -d -c cmykalpha -r 144 -B 768 -y 4 -s 5 -a  @@
+mutool show -i -H 300 -l -P -F ppm -M -h 300 -D -G 0.7 -b -d -c grayalpha -B 768 -S 18 -x 4 -a  @@
+mutool extract -O linearize -o /tmp/foo.pdf -l -P -L -X -h 300 -f -I -p 123456 -b -d -B 768 -S 18 -s t  @@
+mutool pages -O compress-images -R 90 -i -l -F pbm -M -A 16 -X -p 123456 -b -r 144 -B 768 -s 5 -a  @@
+mutool info -W 400 -g -H 300 -w 400 -M -G 0.7 -I -b -y 4 -s f -a  @@
+mutool clean -W 400 -H 300 -l -w 400 -F png -e -L -X -D -z -f -c gray -S 18 -y 4 -s t -a  @@
+mutool show -O compress-images -R 90 -o /tmp/foo.pdf -g -H 300 -l -F pcl -X -D -G 0.7 -f -b -d -c rgbalpha -r 144 -x 4 -s t -a  @@
+mutool info -O compress -l -w 400 -P -F pam -M -A 16 -L -D -f -d  @@
+mutool info -O compress -R 90 -i -g -l -e -M -L -X -h 300 -D -z -G 0.7 -p 123456 -b -d -B 768 -S 18 -y 4 -s 5  @@
+mutool extract -O linearize -w 400 -P -F png -e -A 16 -L -X -D -G 0.7 -f -I -d -c cmykalpha -B 768 -S 18 -y 4 -s m -a  @@
+mutool create -W 400 -R 90 -g -l -M -X -z -f -p 123456 -b -c rgb -r 144 -S 18 -y 4 -a  @@
+mutool poster -i -P -M -A 16 -L -X -h 300 -D -z -G 0.7 -I -p 123456 -b -c rgbalpha -s m -a  @@
+mutool info -R 90 -H 300 -l -P -A 16 -L -h 300 -D -z -G 0.7 -f -I -b -d -c grayalpha -B 768 -S 18 -x 4 -s t  @@
+mutool extract -W 400 -o /tmp/foo.pdf -H 300 -F pbm -e -X -h 300 -D -z -f -I -b -d -B 768 -y 4 -a  @@
+mutool pages -O ascii -W 400 -R 90 -g -H 300 -P -F pam -M -A 16 -X -h 300 -z -G 0.7 -f -I -S 18 -x 4 -a  @@
+mutool extract -O pretty -W 400 -i -o /tmp/foo.pdf -H 300 -F ppm -M -X -D -I -p 123456 -d -r 144 -y 4  @@
+mutool extract -O linearize -W 400 -o /tmp/foo.pdf -g -w 400 -P -e -D -z -G 0.7 -f -I -p 123456 -b -d -S 18 -y 4 -s m  @@
+mutool info -O sanitize -o /tmp/foo.pdf -g -l -F png -M -L -X -h 300 -z -f -d -B 768 -S 18 -y 4 -a  @@
+mutool info -O decompress -W 400 -i -H 300 -l -L -D -G 0.7 -I -p 123456 -r 144 -S 18 -x 4 -s m  @@
+mutool info -O pretty -W 400 -R 90 -F pwg -e -D -f -I -p 123456 -c cmykalpha -r 144 -B 768 -a  @@
+mutool clean -W 400 -i -o /tmp/foo.pdf -H 300 -l -P -F ps -e -L -z -p 123456 -b -c grayalpha -r 144 -B 768 -S 18 -x 4  @@
+mutool create -R 90 -i -o /tmp/foo.pdf -P -F png -M -L -X -z -I -d -c gray -r 144 -B 768 -S 18 -s 5  @@
+mutool pages -W 400 -R 90 -g -H 300 -e -M -L -X -D -z -G 0.7 -d -c cmykalpha -r 144 -B 768 -S 18 -y 4  @@
+mutool poster -O ascii -W 400 -R 90 -i -o /tmp/foo.pdf -H 300 -M -A 16 -h 300 -D -z -G 0.7 -b -c rgbalpha -x 4 -s t  @@
+mutool extract -W 400 -g -l -P -F pbm -e -M -h 300 -D -G 0.7 -f -p 123456 -b -S 18 -y 4 -s t -a  @@
+mutool poster -O conpress-fonts -i -H 300 -P -F png -e -M -L -z -G 0.7 -I -d -r 144 -B 768 -S 18 -a  @@
+mutool show -R 90 -o /tmp/foo.pdf -g -H 300 -l -P -F png -M -A 16 -L -h 300 -D -G 0.7 -f -S 18 -x 4  @@
+mutool pages -W 400 -o /tmp/foo.pdf -g -l -F ps -e -M -L -X -f -p 123456 -b -d -r 144 -B 768 -x 4 -s t -a  @@
+mutool poster -W 400 -i -g -l -w 400 -P -I -c mono -B 768 -y 4 -s 5  @@
+mutool pages -o /tmp/foo.pdf -g -M -A 16 -z -G 0.7 -f -I -p 123456 -d -r 144 -B 768 -S 18 -y 4  @@
+mutool poster -R 90 -i -o /tmp/foo.pdf -g -H 300 -l -P -M -A 16 -X -h 300 -D -G 0.7 -I -p 123456 -b -y 4 -s m -a  @@
+mutool clean -W 400 -g -H 300 -A 16 -L -X -D -f -p 123456 -r 144 -B 768 -x 4  @@
+mutool extract -W 400 -g -w 400 -F pam -A 16 -L -z -G 0.7 -f -p 123456 -B 768 -S 18 -y 4 -s 5 -a  @@
+mutool poster -O decompress -R 90 -i -g -H 300 -P -e -M -A 16 -L -X -z -G 0.7 -I -c cmyk -S 18 -y 4 -s t  @@
+mutool poster -O decompress -W 400 -R 90 -i -l -w 400 -e -M -D -G 0.7 -I -p 123456 -b -d -s 5 -a  @@
+mutool show -i -o /tmp/foo.pdf -l -F pbm -A 16 -X -D -I -p 123456 -r 144 -S 18 -x 4 -a  @@
+mutool clean -R 90 -o /tmp/foo.pdf -g -l -w 400 -P -e -X -D -G 0.7 -b -c mono -B 768 -S 18 -y 4  @@
+mutool clean -W 400 -R 90 -o /tmp/foo.pdf -g -H 300 -l -P -F pwg -e -M -L -D -z -G 0.7 -p 123456 -b -c grayalpha -a  @@
+mutool poster -O linearize -i -o /tmp/foo.pdf -g -H 300 -P -F pbm -e -M -A 16 -L -X -h 300 -G 0.7 -p 123456 -y 4 -a  @@
+mutool extract -O decompress -W 400 -i -o /tmp/foo.pdf -e -L -X -h 300 -D -G 0.7 -S 18 -y 4 -s m -a  @@
+mutool pages -R 90 -i -o /tmp/foo.pdf -g -H 300 -e -M -X -h 300 -G 0.7 -b -d -c gray -B 768 -S 18  @@
+mutool create -R 90 -o /tmp/foo.pdf -g -H 300 -w 400 -F ps -A 16 -D -f -p 123456 -d -B 768 -y 4 -a  @@
+mutool poster -W 400 -o /tmp/foo.pdf -g -H 300 -P -e -L -z -G 0.7 -f -d -c cmyk -r 144 -x 4 -s 5 -a  @@
+mutool poster -g -e -L -X -D -f -I -b -c rgbalpha -B 768 -S 18 -x 4 -s f -a  @@
+mutool poster -O conpress-fonts -H 300 -l -w 400 -e -M -L -X -z -f -p 123456 -b -S 18 -s m  @@
+mutool extract -W 400 -R 90 -i -H 300 -w 400 -P -e -X -G 0.7 -d -B 768 -x 4 -a  @@
+mutool create -W 400 -i -l -M -A 16 -D -z -p 123456 -c rgb -r 144 -B 768 -S 18 -s m  @@
+mutool poster -O compress-images -i -w 400 -F ppm -X -D -p 123456 -b -d -c rgbalpha -B 768 -S 18 -y 4 -s 5 -a  @@
+mutool show -H 300 -l -w 400 -P -F ps -e -M -A 16 -X -z -f -I -p 123456 -b -d -B 768 -S 18 -y 4 -a  @@
+mutool extract -O pretty -R 90 -o /tmp/foo.pdf -H 300 -l -P -e -M -A 16 -L -X -h 300 -D -z -f -I -p 123456 -b -d -c mono -S 18 -y 4 -a  @@
+mutool show -i -o /tmp/foo.pdf -g -l -w 400 -P -A 16 -L -D -b -d -c gray -B 768 -x 4 -s m -a  @@
+mutool clean -R 90 -l -X -h 300 -D -z -G 0.7 -f -I -c grayalpha -S 18 -a  @@
+mutool extract -W 400 -o /tmp/foo.pdf -H 300 -e -M -X -z -G 0.7 -f -I -b -r 144 -B 768 -S 18 -x 4 -a  @@
+mutool extract -O pretty -W 400 -o /tmp/foo.pdf -H 300 -w 400 -F ps -e -A 16 -D -G 0.7 -f -p 123456 -b -d -c cmyk  @@
+mutool info -R 90 -i -H 300 -M -h 300 -D -z -G 0.7 -p 123456 -y 4  @@
+mutool pages -O garbage -W 400 -g -l -w 400 -P -F ppm -M -A 16 -L -z -G 0.7 -I -p 123456 -b -c gray -B 768 -S 18  @@
+mutool extract -O sanitize -R 90 -i -H 300 -P -M -A 16 -h 300 -G 0.7 -I -p 123456 -d -c grayalpha -B 768 -S 18 -y 4 -a  @@
+mutool poster -W 400 -R 90 -i -H 300 -l -P -F pgm -e -X -z -G 0.7 -I -b -c rgbalpha -r 144 -B 768 -x 4 -s f -a  @@
+mutool show -O pretty -W 400 -R 90 -o /tmp/foo.pdf -H 300 -l -F ppm -M -X -h 300 -z -G 0.7 -c gray -B 768 -S 18 -y 4 -s t  @@
+mutool pages -O garbage -i -o /tmp/foo.pdf -H 300 -l -w 400 -e -A 16 -L -X -p 123456 -d -c rgbalpha -B 768 -y 4  @@
+mutool info -W 400 -R 90 -i -g -H 300 -P -M -L -X -D -I -b -d -c rgb -r 144 -B 768 -S 18 -x 4 -s t  @@
+mutool extract -O garbage -R 90 -o /tmp/foo.pdf -l -P -F pcl -L -G 0.7 -f -I -b -r 144 -B 768 -x 4 -a  @@
+mutool extract -o /tmp/foo.pdf -g -l -P -M -L -X -D -z -f -I -b -r 144 -B 768 -y 4  @@
+mutool poster -O garbage -R 90 -i -o /tmp/foo.pdf -g -w 400 -P -e -L -D -I -B 768 -y 4 -a  @@
+mutool info -W 400 -R 90 -i -o /tmp/foo.pdf -g -l -F ppm -e -M -D -z -G 0.7 -p 123456 -d -r 144 -S 18 -x 4  @@
+mutool info -O decompress -M -X -h 300 -f -p 123456 -b -c mono -x 4  @@
+mutool extract -O compress-images -i -o /tmp/foo.pdf -P -L -X -z -G 0.7 -p 123456 -r 144 -y 4 -s 5 -a  @@
+mutool show -W 400 -o /tmp/foo.pdf -H 300 -w 400 -L -X -f -p 123456 -b -d -B 768 -y 4 -s m  @@
+mutool convert -i -o /tmp/foo.pdf -g -l -z -p 123456 -d -S 18 -y 4 -s m  @@
+mutool poster -R 90 -H 300 -l -w 400 -F pbm -A 16 -D -z -G 0.7 -I -p 123456 -b -S 18 -y 4  @@
+mutool info -g -H 300 -X -D -z -G 0.7 -f -I -p 123456 -b -d -c cmykalpha -r 144 -B 768 -s f  @@
+mutool extract -O conpress-fonts -i -o /tmp/foo.pdf -g -H 300 -l -F ppm -M -A 16 -L -X -z -G 0.7 -I -p 123456 -b -d -c rgbalpha -r 144 -B 768 -S 18 -x 4 -s f  @@
+mutool show -O pretty -W 400 -R 90 -H 300 -P -M -D -z -f -p 123456 -d -S 18 -x 4 -a  @@
+mutool poster -O ascii -W 400 -o /tmp/foo.pdf -l -M -A 16 -L -X -h 300 -z -G 0.7 -I -b -y 4  @@
+mutool info -W 400 -i -g -H 300 -A 16 -X -h 300 -D -z -b -d -x 4 -s 5 -a  @@
+mutool info -R 90 -o /tmp/foo.pdf -H 300 -F pcl -A 16 -X -f -I -B 768 -S 18 -y 4 -s t -a  @@
+mutool show -O decompress -W 400 -R 90 -i -H 300 -P -F pwg -e -h 300 -G 0.7 -b -B 768 -S 18 -y 4 -a  @@
+mutool pages -W 400 -H 300 -P -e -A 16 -h 300 -f -I -p 123456 -b -d -c cmykalpha -B 768 -S 18 -a  @@
+mutool create -W 400 -R 90 -i -o /tmp/foo.pdf -H 300 -F png -A 16 -L -D -I -b -c rgbalpha -r 144 -B 768 -y 4 -s f -a  @@
+mutool extract -O garbage -R 90 -i -o /tmp/foo.pdf -g -H 300 -l -L -h 300 -p 123456 -b -d -c rgbalpha -B 768 -S 18 -x 4 -a  @@
+mutool pages -i -o /tmp/foo.pdf -H 300 -l -F png -e -M -A 16 -L -h 300 -D -z -G 0.7 -I -c cmyk -B 768 -S 18 -y 4 -s f  @@
+mutool pages -R 90 -i -o /tmp/foo.pdf -g -H 300 -w 400 -P -e -M -D -I -c gray -S 18  @@
+mutool show -R 90 -o /tmp/foo.pdf -g -H 300 -l -A 16 -L -X -D -z -G 0.7 -f -b -d -r 144 -y 4 -a  @@
+mutool extract -P -F pgm -e -M -L -X -h 300 -D -G 0.7 -f -I -p 123456 -c grayalpha -S 18 -y 4  @@
+mutool pages -O compress -i -o /tmp/foo.pdf -e -A 16 -X -D -b -c gray -r 144 -S 18 -y 4 -s m -a  @@
+mutool show -O garbage -W 400 -i -H 300 -l -w 400 -P -F ppm -z -G 0.7 -d -y 4 -a  @@
+mutool show -O garbage -R 90 -i -o /tmp/foo.pdf -g -l -M -X -G 0.7 -I -r 144 -B 768 -S 18 -y 4 -s f -a  @@
+mutool poster -W 400 -R 90 -i -o /tmp/foo.pdf -g -H 300 -l -P -e -L -X -G 0.7 -p 123456 -b -r 144 -y 4  @@
+mutool info -O conpress-fonts -R 90 -o /tmp/foo.pdf -g -H 300 -e -L -X -h 300 -D -f -I -p 123456 -c grayalpha -B 768 -y 4 -s 5 -a  @@
+mutool create -W 400 -R 90 -P -F pcl -M -A 16 -L -D -z -G 0.7 -f -p 123456 -c gray -r 144 -x 4 -a  @@
+mutool poster -O compress -W 400 -R 90 -g -H 300 -l -P -F png -e -A 16 -L -X -z -G 0.7 -f -I -d -r 144 -B 768 -S 18 -y 4 -s t  @@
+mutool extract -W 400 -R 90 -g -H 300 -F png -L -h 300 -z -f -p 123456 -b -c cmyk -S 18 -y 4 -s m -a  @@
+mutool extract -O compress-images -R 90 -i -o /tmp/foo.pdf -g -l -w 400 -P -F png -M -A 16 -D -z -I -p 123456 -b -d -B 768 -S 18 -x 4 -s m  @@
+mutool extract -i -H 300 -e -M -L -h 300 -D -z -I -p 123456 -b -B 768 -x 4 -a  @@
+mutool show -R 90 -g -H 300 -l -F png -e -M -L -X -h 300 -G 0.7 -I -p 123456 -d -a  @@
+mutool extract -W 400 -R 90 -H 300 -l -P -F pam -e -X -h 300 -D -f -d -c cmykalpha -x 4 -s m  @@
+mutool convert -R 90 -o /tmp/foo.pdf -l -w 400 -F pgm -e -M -L -X -z -I -b -d -c grayalpha -y 4 -s f -a  @@
+mutool poster -O conpress-fonts -W 400 -R 90 -g -l -F pgm -e -M -A 16 -G 0.7 -f -I -d -x 4 -s t -a  @@
+mutool show -O compress -W 400 -o /tmp/foo.pdf -g -H 300 -l -D -z -f -b -d -c cmyk -r 144 -B 768 -y 4  @@
+mutool poster -O garbage -W 400 -R 90 -o /tmp/foo.pdf -l -w 400 -P -F pbm -e -A 16 -L -X -D -z -G 0.7 -p 123456 -a  @@
+mutool poster -O compress -i -g -w 400 -e -M -A 16 -D -G 0.7 -B 768 -y 4 -a  @@
+mutool create -W 400 -o /tmp/foo.pdf -H 300 -P -F png -M -A 16 -L -h 300 -z -I -p 123456 -d -c grayalpha -B 768 -x 4 -a  @@
+mutool extract -W 400 -R 90 -o /tmp/foo.pdf -g -H 300 -l -P -M -A 16 -G 0.7 -f -I -p 123456 -b -d -r 144 -B 768 -y 4 -a  @@
+mutool extract -i -w 400 -F ps -e -M -A 16 -D -z -p 123456 -d -c grayalpha -x 4 -s f -a  @@
+mutool show -W 400 -i -o /tmp/foo.pdf -H 300 -l -w 400 -F ppm -L -X -G 0.7 -b -c rgbalpha -B 768 -S 18 -s t -a  @@
+mutool info -O decompress -R 90 -i -g -H 300 -l -w 400 -e -M -A 16 -X -D -G 0.7 -I -p 123456 -b -c cmyk -B 768 -x 4 -s f  @@
+mutool poster -O linearize -R 90 -o /tmp/foo.pdf -l -P -F ps -A 16 -X -f -p 123456 -d -c rgb -r 144 -B 768 -S 18 -x 4 -s m  @@
+mutool create -R 90 -i -H 300 -l -F pwg -M -L -G 0.7 -I -p 123456 -d -c rgbalpha -r 144 -x 4 -s 5 -a  @@
+mutool pages -O garbage -W 400 -o /tmp/foo.pdf -g -H 300 -l -P -A 16 -L -X -h 300 -f -b -c cmykalpha -B 768 -S 18 -y 4  @@
+mutool extract -o /tmp/foo.pdf -l -F pwg -e -A 16 -h 300 -z -f -I -p 123456 -b -x 4 -s f -a  @@
+mutool info -W 400 -R 90 -H 300 -w 400 -P -e -M -A 16 -L -f -p 123456 -b -S 18 -y 4 -s f -a  @@
+mutool info -W 400 -R 90 -i -g -l -M -L -X -h 300 -D -I -p 123456 -b -d -c gray -x 4 -a  @@
+mutool pages -W 400 -i -l -P -A 16 -L -h 300 -z -G 0.7 -p 123456 -b -B 768 -x 4  @@
+mutool info -R 90 -o /tmp/foo.pdf -g -H 300 -e -M -A 16 -X -h 300 -D -z -I -p 123456 -d -S 18 -x 4 -s f  @@
+mutool poster -W 400 -o /tmp/foo.pdf -w 400 -P -F pwg -e -L -D -p 123456 -b -c rgb -B 768 -S 18 -x 4  @@
+mutool extract -R 90 -i -g -l -w 400 -A 16 -L -X -D -z -G 0.7 -I -B 768 -S 18 -a  @@
+mutool pages -R 90 -i -o /tmp/foo.pdf -l -F pgm -M -A 16 -L -X -h 300 -D -z -p 123456 -d -c grayalpha -B 768  @@
+mutool show -O sanitize -H 300 -P -A 16 -h 300 -D -G 0.7 -f -p 123456 -d -S 18 -y 4 -a  @@
+mutool show -W 400 -R 90 -g -l -P -e -X -z -r 144 -S 18  @@
+mutool show -i -g -H 300 -l -e -h 300 -D -G 0.7 -I -d -B 768 -S 18 -y 4  @@
+mutool extract -O sanitize -i -g -e -A 16 -h 300 -G 0.7 -d -B 768 -S 18 -x 4 -a  @@
+mutool pages -W 400 -R 90 -o /tmp/foo.pdf -g -w 400 -F pbm -M -G 0.7 -f -I -p 123456 -c grayalpha -x 4 -a  @@
+mutool pages -O decompress -W 400 -i -o /tmp/foo.pdf -g -H 300 -w 400 -P -L -z -p 123456 -b -d -x 4 -s 5  @@
+mutool poster -W 400 -R 90 -i -o /tmp/foo.pdf -l -e -L -X -G 0.7 -I -p 123456 -b -c rgbalpha -r 144 -s t  @@
+mutool show -O decompress -R 90 -i -g -H 300 -w 400 -F pwg -M -L -X -b -d -S 18 -y 4 -s f  @@
+mutool create -g -H 300 -l -w 400 -e -D -G 0.7 -f -B 768 -x 4 -a  @@
+mutool convert -R 90 -o /tmp/foo.pdf -g -H 300 -P -e -A 16 -D -G 0.7 -f -b -c cmykalpha -r 144 -B 768 -S 18 -y 4  @@
+mutool create -W 400 -H 300 -w 400 -P -e -M -X -z -f -I -p 123456 -b -c rgb -B 768 -a  @@
+mutool pages -O linearize -W 400 -g -H 300 -F ps -e -M -h 300 -D -z -p 123456 -b -d -c gray -B 768 -S 18 -y 4 -a  @@
+mutool extract -R 90 -i -o /tmp/foo.pdf -F pwg -L -X -z -G 0.7 -b -d -r 144 -B 768 -S 18 -x 4  @@
+mutool poster -O conpress-fonts -R 90 -o /tmp/foo.pdf -g -w 400 -e -M -A 16 -X -z -G 0.7 -f -d -y 4 -s t -a  @@
+mutool extract -W 400 -R 90 -i -o /tmp/foo.pdf -H 300 -w 400 -F png -A 16 -L -X -D -z -G 0.7 -I -p 123456 -d -c grayalpha -B 768 -y 4 -a  @@
+mutool info -o /tmp/foo.pdf -l -P -e -M -A 16 -L -b -c cmyk -r 144 -S 18 -x 4 -a  @@
+mutool clean -R 90 -M -L -h 300 -d -c grayalpha -B 768 -S 18 -y 4 -s t  @@
+mutool poster -O linearize -g -H 300 -l -P -F pgm -e -A 16 -L -D -f -I -p 123456 -b -d -B 768 -y 4  @@
+mutool info -O garbage -i -H 300 -l -P -e -M -A 16 -X -p 123456 -r 144 -B 768 -S 18 -x 4 -a  @@
+mutool extract -O sanitize -W 400 -o /tmp/foo.pdf -H 300 -l -w 400 -F ps -X -z -G 0.7 -p 123456 -d -S 18 -y 4 -s 5  @@
+mutool clean -W 400 -R 90 -i -o /tmp/foo.pdf -l -w 400 -P -e -M -A 16 -I -d -B 768 -a  @@
+mutool extract -w 400 -e -L -X -D -z -G 0.7 -d -B 768 -y 4 -s 5  @@
+mutool info -i -g -P -F pwg -A 16 -L -X -h 300 -D -I -p 123456 -b -d -B 768 -y 4 -a  @@
+mutool poster -R 90 -o /tmp/foo.pdf -g -l -w 400 -P -e -L -G 0.7 -f -p 123456 -b -d -c mono -y 4  @@
+mutool info -O pretty -o /tmp/foo.pdf -g -e -L -X -D -G 0.7 -f -I -p 123456 -r 144 -S 18 -x 4  @@
+mutool poster -O decompress -W 400 -i -g -w 400 -F pgm -e -M -L -z -G 0.7 -c rgb -S 18 -s f -a  @@
+mutool poster -O sanitize -o /tmp/foo.pdf -H 300 -L -z -f -I -p 123456 -b -d -r 144 -S 18 -y 4 -s m -a  @@
+mutool info -W 400 -i -g -H 300 -l -w 400 -P -e -A 16 -L -X -I -b -d -c grayalpha -S 18 -y 4 -a  @@
+mutool show -W 400 -i -o /tmp/foo.pdf -g -H 300 -w 400 -F png -e -M -X -z -I -p 123456 -d -B 768 -y 4  @@
+mutool show -O garbage -W 400 -i -o /tmp/foo.pdf -H 300 -F pcl -M -A 16 -L -h 300 -z -G 0.7 -I -b -d -c mono -S 18 -s f -a  @@
+mutool show -W 400 -R 90 -o /tmp/foo.pdf -g -P -e -h 300 -p 123456 -d -c cmyk -y 4 -s f -a  @@
+mutool show -W 400 -R 90 -o /tmp/foo.pdf -g -l -P -M -A 16 -X -h 300 -z -f -p 123456 -b -d -S 18 -y 4  @@
+mutool extract -W 400 -R 90 -o /tmp/foo.pdf -g -H 300 -P -A 16 -X -D -G 0.7 -f -d -c mono -B 768 -x 4  @@
+mutool info -R 90 -i -g -F pam -e -M -X -h 300 -D -c rgbalpha -x 4  @@
+mutool create -W 400 -g -H 300 -l -w 400 -P -M -A 16 -D -z -f -I -b -d -S 18 -x 4  @@
+mutool info -O compress-images -W 400 -R 90 -o /tmp/foo.pdf -g -H 300 -P -F pgm -e -M -L -D -z -f -I -p 123456 -d -r 144 -B 768 -x 4 -a  @@
+mutool info -i -H 300 -l -P -M -p 123456 -d -r 144 -y 4  @@
+mutool extract -o /tmp/foo.pdf -H 300 -h 300 -z -G 0.7 -f -I -c mono -B 768 -S 18 -y 4  @@
+mutool info -R 90 -H 300 -P -A 16 -L -X -z -r 144 -B 768 -S 18 -x 4 -s m -a  @@
+mutool show -O linearize -g -H 300 -l -F pam -e -M -X -D -f -r 144 -y 4 -a  @@
+mutool poster -R 90 -l -P -M -X -z -G 0.7 -f -I -b -d -c gray -y 4 -s 5 -a  @@
+mutool info -R 90 -o /tmp/foo.pdf -P -F pgm -e -M -X -h 300 -z -f -p 123456 -b -S 18 -a  @@
+mutool info -O decompress -R 90 -l -w 400 -F pcl -A 16 -L -D -z -f -I -p 123456 -b -d -c mono -B 768 -S 18 -x 4  @@
+mutool clean -R 90 -o /tmp/foo.pdf -g -l -P -F pbm -A 16 -L -X -h 300 -f -I -d -c cmykalpha -B 768 -S 18 -y 4 -s 5 -a  @@
+mutool pages -O compress -i -o /tmp/foo.pdf -H 300 -w 400 -P -F pgm -M -A 16 -I -b -c gray -y 4 -s t  @@
+mutool extract -R 90 -g -H 300 -l -P -F pam -M -L -f -I -c mono -r 144 -B 768  @@
+mutool info -W 400 -R 90 -i -o /tmp/foo.pdf -H 300 -l -P -e -A 16 -L -X -h 300 -G 0.7 -I -b -c mono -S 18 -y 4 -s 5  @@
+mutool poster -O compress-images -g -l -e -M -A 16 -L -D -z -G 0.7 -I -p 123456 -b -c cmykalpha -r 144 -B 768 -x 4  @@
+mutool poster -W 400 -i -o /tmp/foo.pdf -g -P -F pbm -D -z -G 0.7 -I -b -d -r 144 -y 4 -s m -a  @@
+mutool show -O ascii -R 90 -i -P -M -A 16 -X -h 300 -D -G 0.7 -d -c mono -S 18 -y 4 -s 5  @@
+mutool info -O sanitize -o /tmp/foo.pdf -g -l -w 400 -F ppm -e -D -z -G 0.7 -f -p 123456 -b -d -B 768 -S 18 -s 5 -a  @@
+mutool pages -W 400 -o /tmp/foo.pdf -H 300 -F pgm -X -f -d -r 144 -S 18 -s t  @@
+mutool info -O sanitize -W 400 -o /tmp/foo.pdf -P -F png -e -M -X -D -G 0.7 -f -p 123456 -b -d -c gray -B 768 -S 18 -y 4 -s m  @@
+mutool poster -O conpress-fonts -R 90 -i -o /tmp/foo.pdf -P -F pbm -M -A 16 -L -h 300 -D -G 0.7 -p 123456 -B 768 -s 5 -a  @@
+mutool convert -R 90 -o /tmp/foo.pdf -g -l -P -F pam -D -z -G 0.7 -f -I -p 123456 -b -d -c cmykalpha -r 144 -B 768 -S 18 -y 4 -s 5 -a  @@
+mutool extract -R 90 -o /tmp/foo.pdf -H 300 -P -F pbm -e -h 300 -D -G 0.7 -f -I -p 123456 -b -c mono -S 18 -x 4 -s 5 -a  @@
+mutool show -i -o /tmp/foo.pdf -g -P -h 300 -D -z -p 123456 -d -c gray -B 768 -s m  @@
+mutool info -O garbage -W 400 -R 90 -l -M -A 16 -X -h 300 -G 0.7 -f -p 123456 -B 768 -S 18 -x 4 -s f  @@
+mutool poster -g -F png -e -A 16 -X -h 300 -z -f -b -c cmykalpha -B 768 -S 18 -y 4  @@
+mutool show -O decompress -o /tmp/foo.pdf -g -H 300 -w 400 -F png -e -A 16 -L -I -d -c mono -B 768 -S 18 -y 4 -a  @@
+mutool poster -W 400 -i -o /tmp/foo.pdf -g -H 300 -w 400 -P -F png -M -L -D -z -G 0.7 -b -d -c cmykalpha -B 768 -y 4 -s f -a  @@
+mutool show -O garbage -i -g -P -F pgm -M -A 16 -X -D -p 123456 -b -S 18 -x 4 -a  @@
+mutool show -O ascii -W 400 -R 90 -i -o /tmp/foo.pdf -g -H 300 -e -M -A 16 -L -D -p 123456 -b -c mono -r 144 -B 768 -S 18 -y 4  @@
+mutool pages -O compress-images -W 400 -R 90 -l -w 400 -L -z -f -I -d -c gray -a  @@
+mutool clean -o /tmp/foo.pdf -g -l -w 400 -F ppm -e -M -L -X -z -G 0.7 -f -I -p 123456 -b -S 18 -x 4  @@
+mutool pages -W 400 -R 90 -i -o /tmp/foo.pdf -g -l -w 400 -P -F ppm -e -A 16 -X -D -I -x 4 -s t -a  @@
+mutool info -O ascii -W 400 -R 90 -o /tmp/foo.pdf -P -F pwg -M -A 16 -L -D -G 0.7 -f -p 123456 -b -d -r 144 -y 4 -s m  @@
+mutool show -W 400 -l -w 400 -e -A 16 -L -D -p 123456 -c rgbalpha -y 4 -s 5  @@
+mutool poster -O sanitize -W 400 -R 90 -i -g -H 300 -l -P -M -A 16 -L -h 300 -D -p 123456 -d -s f  @@
+mutool poster -R 90 -o /tmp/foo.pdf -H 300 -e -M -A 16 -L -X -D -z -f -p 123456 -r 144 -x 4 -s 5  @@
+mutool pages -O decompress -R 90 -F pgm -e -M -A 16 -L -X -h 300 -D -G 0.7 -b -y 4 -a  @@
+mutool poster -O compress-images -W 400 -g -H 300 -M -A 16 -z -G 0.7 -b -c cmyk -r 144 -y 4 -s m -a  @@
+mutool poster -O sanitize -i -H 300 -w 400 -e -A 16 -L -D -G 0.7 -I -b -B 768  @@
+mutool clean -W 400 -i -o /tmp/foo.pdf -g -H 300 -l -F ps -A 16 -L -X -h 300 -z -p 123456 -B 768 -S 18 -s t -a  @@
+mutool clean -W 400 -R 90 -g -l -F pwg -M -L -h 300 -D -G 0.7 -I -b -c rgb -B 768 -y 4 -s m  @@
+mutool poster -R 90 -i -w 400 -P -F pam -L -X -b -S 18 -x 4 -a  @@
+mutool poster -O ascii -W 400 -o /tmp/foo.pdf -g -F ppm -e -M -A 16 -L -h 300 -f -I -S 18 -y 4 -s m -a  @@
+mutool info -O conpress-fonts -i -o /tmp/foo.pdf -H 300 -l -A 16 -L -X -h 300 -D -G 0.7 -d -B 768 -y 4 -a  @@
+mutool pages -W 400 -R 90 -H 300 -l -F pam -A 16 -L -X -z -G 0.7 -f -I -p 123456 -d -r 144 -B 768  @@
+mutool pages -R 90 -g -H 300 -l -A 16 -G 0.7 -p 123456 -b -d -c mono -r 144 -B 768 -S 18 -y 4 -s 5  @@
+mutool info -l -w 400 -P -A 16 -X -z -f -d -c cmyk -S 18 -y 4 -s m  @@
+mutool pages -O garbage -W 400 -R 90 -o /tmp/foo.pdf -l -w 400 -P -L -X -D -f -c cmyk -B 768 -y 4 -s 5  @@
+mutool info -W 400 -o /tmp/foo.pdf -w 400 -F pcl -M -A 16 -X -f -I -p 123456 -d -S 18 -x 4 -s m  @@
+mutool info -W 400 -o /tmp/foo.pdf -g -H 300 -P -F pwg -e -M -A 16 -X -h 300 -G 0.7 -b -d -B 768 -S 18 -x 4 -s t -a  @@
+mutool info -R 90 -i -l -P -F ppm -e -M -A 16 -L -X -D -z -I -p 123456 -b -d -r 144 -B 768 -S 18 -y 4  @@
+mutool extract -O garbage -R 90 -o /tmp/foo.pdf -g -H 300 -l -X -h 300 -D -z -G 0.7 -f -p 123456 -d -B 768 -x 4  @@
+mutool extract -R 90 -i -o /tmp/foo.pdf -g -H 300 -P -F pgm -e -M -A 16 -X -z -G 0.7 -p 123456 -b -d -c gray -r 144 -B 768 -S 18 -y 4 -s t -a  @@
+mutool show -i -o /tmp/foo.pdf -g -w 400 -F pam -D -z -I -p 123456 -b -c grayalpha -S 18 -y 4  @@
+mutool create -W 400 -l -P -L -X -D -f -I -p 123456 -d -c rgbalpha -r 144 -B 768 -S 18 -x 4 -s f -a  @@
+mutool poster -O ascii -W 400 -o /tmp/foo.pdf -H 300 -P -M -D -G 0.7 -I -b -c cmykalpha -r 144 -s m  @@
+mutool extract -O linearize -R 90 -g -P -F pbm -M -A 16 -z -f -I -b -c cmyk -r 144 -S 18 -y 4 -s t -a  @@
+mutool poster -O conpress-fonts -W 400 -o /tmp/foo.pdf -g -H 300 -l -w 400 -P -F ps -M -A 16 -X -D -z -B 768 -y 4 -s t  @@
+mutool info -O sanitize -i -o /tmp/foo.pdf -g -l -e -M -A 16 -X -D -z -I -d -c cmykalpha -r 144 -s 5 -a  @@
+mutool show -O sanitize -W 400 -R 90 -P -F ppm -X -D -z -f -p 123456 -b -r 144 -x 4  @@
+mutool info -W 400 -i -o /tmp/foo.pdf -g -l -F ppm -e -M -h 300 -D -z -G 0.7 -I -b -y 4 -a  @@
+mutool info -W 400 -o /tmp/foo.pdf -l -e -M -L -h 300 -D -z -f -p 123456 -d -S 18 -y 4 -s 5 -a  @@
+mutool info -o /tmp/foo.pdf -g -H 300 -F pwg -e -L -X -D -f -I -b -d -a  @@
+mutool extract -W 400 -o /tmp/foo.pdf -g -H 300 -F pam -M -A 16 -L -G 0.7 -f -I -d -c gray -r 144 -B 768 -S 18 -x 4 -s t -a  @@
+mutool info -O garbage -W 400 -l -w 400 -P -M -z -G 0.7 -I -p 123456 -d -c cmyk -S 18 -x 4 -s f  @@
+mutool clean -W 400 -g -H 300 -P -A 16 -L -h 300 -D -z -f -I -p 123456 -d -c mono -y 4 -s 5  @@
+mutool pages -O conpress-fonts -W 400 -R 90 -i -g -w 400 -P -F pbm -e -A 16 -X -D -z -G 0.7 -p 123456 -b -d -c mono -S 18 -y 4 -s m  @@
+mutool create -R 90 -i -l -e -A 16 -L -z -r 144 -y 4 -s f -a  @@
+mutool info -O sanitize -R 90 -i -g -P -e -M -L -h 300 -z -G 0.7 -d -c rgbalpha -S 18 -x 4 -s 5 -a  @@
+mutool convert -i -o /tmp/foo.pdf -g -F pam -L -X -z -G 0.7 -p 123456 -c grayalpha -r 144 -x 4 -s m  @@
+mutool extract -O ascii -W 400 -i -o /tmp/foo.pdf -H 300 -l -e -A 16 -X -h 300 -D -z -I -p 123456 -c mono -S 18  @@
+mutool pages -o /tmp/foo.pdf -H 300 -l -w 400 -P -F pgm -X -z -G 0.7 -I -b -c grayalpha -B 768 -x 4  @@
+mutool clean -W 400 -R 90 -i -g -P -F png -A 16 -X -z -I -b -r 144 -S 18 -y 4 -s m  @@
+mutool show -O sanitize -R 90 -i -o /tmp/foo.pdf -l -e -A 16 -z -I -p 123456 -b -r 144 -x 4 -s f -a  @@
+mutool show -O ascii -W 400 -R 90 -i -g -H 300 -l -w 400 -F pam -e -M -X -z -G 0.7 -I -p 123456 -b -c mono -B 768 -S 18 -y 4 -a  @@
+mutool clean -W 400 -R 90 -g -l -w 400 -F pgm -M -L -D -f -b -d -S 18 -y 4 -s m -a  @@
+mutool extract -R 90 -i -H 300 -l -e -A 16 -L -h 300 -D -G 0.7 -b -d -c rgb -S 18 -s t -a  @@
+mutool show -O sanitize -W 400 -g -H 300 -l -P -M -A 16 -L -X -h 300 -z -G 0.7 -f -b -c cmyk -s m -a  @@
+mutool create -i -o /tmp/foo.pdf -H 300 -l -P -F ps -e -M -A 16 -D -G 0.7 -b -d -r 144 -S 18 -s f  @@
+mutool poster -W 400 -i -o /tmp/foo.pdf -l -F pcl -M -L -X -D -z -b -c cmyk -r 144 -B 768 -y 4 -a  @@
+mutool info -O garbage -R 90 -H 300 -P -F pgm -e -M -L -X -h 300 -G 0.7 -f -p 123456 -b -d -x 4 -a  @@
+mutool pages -W 400 -R 90 -H 300 -e -h 300 -z -b -B 768 -x 4  @@
+mutool extract -O compress-images -W 400 -R 90 -o /tmp/foo.pdf -g -P -e -L -X -z -G 0.7 -f -b -c grayalpha -r 144 -B 768 -S 18 -s t  @@
+mutool poster -O pretty -W 400 -o /tmp/foo.pdf -F png -M -A 16 -L -X -D -z -G 0.7 -p 123456 -c grayalpha -r 144 -B 768 -S 18 -x 4 -s t -a  @@
+mutool extract -O compress -o /tmp/foo.pdf -g -l -P -F ppm -A 16 -L -z -f -I -p 123456 -c rgb -r 144 -y 4  @@
+mutool clean -R 90 -g -H 300 -l -F pwg -e -M -D -f -p 123456 -b -d -r 144 -B 768 -S 18 -y 4  @@
+mutool extract -H 300 -l -F pgm -e -A 16 -X -D -z -G 0.7 -r 144 -x 4 -s t -a  @@
+mutool pages -O linearize -R 90 -i -o /tmp/foo.pdf -g -H 300 -w 400 -F pwg -M -A 16 -L -X -D -z -p 123456 -b -c cmyk  @@
+mutool clean -W 400 -i -o /tmp/foo.pdf -g -H 300 -w 400 -P -M -A 16 -X -D -G 0.7 -p 123456 -x 4 -s m  @@
+mutool poster -W 400 -R 90 -g -H 300 -F pgm -e -A 16 -z -b -d -c rgbalpha -B 768 -S 18 -x 4  @@
+mutool poster -O compress -W 400 -g -H 300 -l -w 400 -M -A 16 -D -f -I -p 123456 -c gray -B 768 -S 18 -y 4 -s f -a  @@
+mutool show -O compress-images -R 90 -l -e -M -h 300 -D -f -I -p 123456 -b -c gray -B 768 -S 18 -y 4 -s m  @@
+mutool extract -R 90 -o /tmp/foo.pdf -w 400 -P -A 16 -X -G 0.7 -I -p 123456 -d -B 768 -y 4 -s m  @@
+mutool info -O garbage -W 400 -R 90 -o /tmp/foo.pdf -w 400 -X -D -f -I -d -c mono -B 768 -x 4 -s m -a  @@
+mutool info -i -g -H 300 -P -A 16 -L -h 300 -D -z -G 0.7 -I -p 123456 -d -B 768 -S 18 -x 4 -s 5 -a  @@
+mutool clean -W 400 -R 90 -i -o /tmp/foo.pdf -g -l -e -M -A 16 -L -X -D -z -G 0.7 -I -b -r 144 -S 18 -x 4 -s m -a  @@
+mutool info -O compress-images -W 400 -H 300 -e -A 16 -L -h 300 -f -p 123456 -b -d -c mono -S 18 -x 4 -s 5 -a  @@
+mutool clean -W 400 -R 90 -i -g -l -F ps -e -M -A 16 -h 300 -z -G 0.7 -I -p 123456 -d -c grayalpha -B 768 -x 4 -a  @@
+mutool extract -W 400 -i -o /tmp/foo.pdf -g -H 300 -P -A 16 -L -I -p 123456 -b -d -c gray -r 144 -x 4  @@
+mutool clean -R 90 -i -o /tmp/foo.pdf -g -H 300 -l -P -F ps -e -M -L -D -z -I -r 144 -S 18 -y 4 -a  @@
+mutool pages -i -H 300 -l -w 400 -P -F pcl -e -M -L -D -z -G 0.7 -I -b -d -c rgbalpha -s m  @@
+mutool poster -O ascii -W 400 -R 90 -o /tmp/foo.pdf -l -P -M -X -h 300 -D -I -p 123456 -b -d -y 4 -a  @@
+mutool info -i -H 300 -w 400 -F pam -M -L -G 0.7 -p 123456 -c rgbalpha -B 768 -S 18 -a  @@
+mutool extract -O sanitize -W 400 -i -o /tmp/foo.pdf -g -P -F png -e -G 0.7 -I -p 123456 -d -c cmyk -r 144 -B 768 -y 4 -a  @@
+mutool extract -R 90 -e -A 16 -L -z -G 0.7 -f -I -p 123456 -d -c cmykalpha -S 18 -y 4 -a  @@
+mutool poster -R 90 -i -o /tmp/foo.pdf -H 300 -l -e -M -A 16 -L -X -G 0.7 -I -p 123456 -d -c cmykalpha -r 144 -B 768 -S 18 -x 4  @@
+mutool pages -g -H 300 -M -A 16 -L -D -f -I -b -d -r 144 -x 4 -a  @@
+mutool pages -i -o /tmp/foo.pdf -g -H 300 -l -w 400 -e -z -I -p 123456 -d -S 18 -x 4 -a  @@
+mutool pages -W 400 -R 90 -g -H 300 -w 400 -F ps -A 16 -X -D -G 0.7 -f -I -b -c rgbalpha -s f -a  @@
+mutool info -W 400 -R 90 -o /tmp/foo.pdf -g -H 300 -w 400 -P -e -M -L -D -z -G 0.7 -f -b -d -S 18 -y 4 -a  @@
+mutool extract -R 90 -i -o /tmp/foo.pdf -P -A 16 -h 300 -D -I -d -c cmykalpha -B 768 -x 4  @@
+mutool info -i -o /tmp/foo.pdf -g -l -P -M -h 300 -z -p 123456 -b -c gray -B 768 -y 4 -s 5 -a  @@
+mutool poster -W 400 -o /tmp/foo.pdf -l -w 400 -P -A 16 -z -G 0.7 -f -I -b -S 18 -x 4 -s f -a  @@
+mutool create -W 400 -i -P -F pwg -X -h 300 -D -z -G 0.7 -I -p 123456 -b -d -B 768 -S 18 -y 4 -s 5  @@
+mutool clean -W 400 -R 90 -i -P -e -A 16 -L -h 300 -D -z -b -c cmyk -B 768 -y 4 -s f -a  @@
+mutool poster -g -l -w 400 -P -e -M -A 16 -c mono -y 4 -s t -a  @@
+mutool poster -O decompress -R 90 -o /tmp/foo.pdf -g -H 300 -l -P -F pbm -e -L -X -h 300 -z -G 0.7 -d -y 4 -s m  @@
+mutool info -W 400 -g -H 300 -P -M -h 300 -I -p 123456 -c cmykalpha -S 18 -y 4 -s f -a  @@
+mutool extract -W 400 -R 90 -i -o /tmp/foo.pdf -g -P -A 16 -h 300 -z -b -c gray -B 768 -S 18 -x 4 -a  @@
+mutool show -W 400 -i -H 300 -P -e -X -z -G 0.7 -I -p 123456 -d -r 144 -B 768 -y 4  @@
+mutool pages -O linearize -g -l -F ppm -L -h 300 -z -G 0.7 -f -p 123456 -c cmykalpha -B 768 -y 4  @@
+mutool pages -R 90 -o /tmp/foo.pdf -H 300 -w 400 -F pwg -M -D -G 0.7 -p 123456 -c mono -B 768 -S 18 -y 4 -s 5 -a  @@
+mutool extract -W 400 -R 90 -g -w 400 -P -F ps -A 16 -L -G 0.7 -f -d -S 18 -y 4 -s t  @@
+mutool extract -i -o /tmp/foo.pdf -e -A 16 -G 0.7 -b -r 144 -B 768  @@
+mutool poster -R 90 -o /tmp/foo.pdf -l -z -f -I -p 123456 -r 144 -S 18 -x 4 -s 5 -a  @@
+mutool info -W 400 -i -o /tmp/foo.pdf -g -H 300 -P -F pbm -e -M -L -X -h 300 -D -z -G 0.7 -p 123456 -b -B 768 -y 4  @@
+mutool show -R 90 -o /tmp/foo.pdf -g -e -M -D -G 0.7 -I -p 123456 -b -B 768 -y 4 -s m  @@
+mutool poster -O decompress -g -P -M -X -D -I -p 123456 -d -r 144 -B 768 -S 18 -x 4 -s t  @@
+mutool show -W 400 -i -H 300 -P -F pam -e -M -A 16 -h 300 -D -b -d -c mono -S 18 -y 4 -s m  @@
+mutool poster -W 400 -R 90 -o /tmp/foo.pdf -H 300 -M -A 16 -X -z -f -p 123456 -d -c rgbalpha -r 144 -B 768 -S 18 -y 4 -s t -a  @@
+mutool convert -R 90 -o /tmp/foo.pdf -g -l -P -M -A 16 -L -X -h 300 -D -z -p 123456 -c rgbalpha -B 768 -S 18 -a  @@
+mutool create -W 400 -o /tmp/foo.pdf -g -L -h 300 -G 0.7 -f -b -d -S 18 -x 4  @@
+mutool info -O pretty -W 400 -i -H 300 -l -F pgm -M -A 16 -L -X -h 300 -D -z -I -p 123456 -b -c cmyk -S 18 -x 4  @@
+mutool convert -i -o /tmp/foo.pdf -g -w 400 -P -e -M -A 16 -L -X -G 0.7 -b -d -c grayalpha -B 768 -S 18 -y 4 -s f  @@
+mutool convert -R 90 -o /tmp/foo.pdf -g -H 300 -w 400 -P -F pam -M -A 16 -X -z -G 0.7 -p 123456 -b -d -c grayalpha -S 18 -x 4 -a  @@
+mutool poster -R 90 -i -o /tmp/foo.pdf -g -l -P -F ps -M -A 16 -h 300 -z -c cmykalpha -y 4 -s m  @@
+mutool show -O decompress -R 90 -i -l -w 400 -F pbm -M -A 16 -L -G 0.7 -I -p 123456 -b -B 768 -x 4  @@
+mutool create -W 400 -R 90 -g -H 300 -P -e -M -A 16 -L -X -h 300 -G 0.7 -f -I -p 123456 -b -B 768 -S 18 -y 4 -s m  @@
+mutool pages -o /tmp/foo.pdf -H 300 -l -F pam -M -L -X -D -p 123456 -b -d -c rgb -r 144 -B 768 -x 4  @@
+mutool poster -W 400 -i -l -w 400 -M -A 16 -X -D -z -p 123456 -b -d -y 4  @@
+mutool info -W 400 -R 90 -H 300 -l -P -M -L -D -f -I -b -c cmyk -S 18 -s f  @@
+mutool extract -W 400 -H 300 -l -P -M -D -z -G 0.7 -f -I -b -d -r 144 -B 768 -S 18 -x 4  @@
+mutool show -R 90 -i -o /tmp/foo.pdf -g -l -P -F pgm -A 16 -L -h 300 -z -G 0.7 -I -c grayalpha -S 18 -y 4 -a  @@
+mutool extract -O ascii -R 90 -i -o /tmp/foo.pdf -g -l -w 400 -M -A 16 -L -X -z -G 0.7 -I -c gray -B 768 -S 18 -y 4 -s 5  @@
+mutool create -i -o /tmp/foo.pdf -P -F ppm -e -A 16 -z -p 123456 -r 144 -B 768 -S 18 -y 4 -s 5 -a  @@
+mutool info -O sanitize -W 400 -R 90 -g -l -w 400 -F png -e -X -D -I -b -B 768 -s 5  @@
+mutool pages -W 400 -R 90 -o /tmp/foo.pdf -H 300 -F pwg -L -X -h 300 -D -f -p 123456 -b -c cmykalpha -B 768 -S 18 -a  @@
+mutool pages -R 90 -i -g -H 300 -e -A 16 -X -D -I -b -d -c cmyk -r 144 -B 768 -y 4 -s f -a  @@
+mutool extract -R 90 -i -o /tmp/foo.pdf -g -l -w 400 -F pwg -e -M -A 16 -X -G 0.7 -I -b -d -c rgb -B 768 -x 4 -a  @@
+mutool extract -W 400 -o /tmp/foo.pdf -g -H 300 -w 400 -e -M -D -z -G 0.7 -f -c mono -S 18 -y 4  @@
+mutool draw -g -H 300 -F ps -M -L -X -h 300 -D -S 18 -y 4 -a  @@
+mutool pages -O decompress -W 400 -o /tmp/foo.pdf -g -H 300 -l -w 400 -e -M -A 16 -D -z -f -p 123456 -b -x 4 -a  @@
+mutool extract -O conpress-fonts -i -g -P -e -A 16 -D -I -d -c rgbalpha -r 144 -B 768 -S 18 -y 4 -s m -a  @@
+mutool create -R 90 -g -l -w 400 -F png -A 16 -X -f -I -p 123456 -c gray -B 768 -x 4 -s m  @@
+mutool extract -W 400 -F ps -e -A 16 -D -z -f -I -p 123456 -b -r 144 -B 768 -y 4 -s 5  @@
+mutool pages -W 400 -R 90 -g -l -e -M -A 16 -X -h 300 -z -G 0.7 -f -I -d -c mono -y 4 -s 5  @@
+mutool show -O ascii -W 400 -g -l -P -e -M -A 16 -L -X -z -G 0.7 -f -d -r 144 -x 4 -a  @@
+mutool pages -O compress -R 90 -o /tmp/foo.pdf -H 300 -l -P -F pgm -e -M -X -z -G 0.7 -I -p 123456 -d -r 144 -B 768 -x 4 -s m  @@
+mutool info -O garbage -W 400 -i -o /tmp/foo.pdf -P -F pgm -e -M -h 300 -z -G 0.7 -p 123456 -x 4 -s 5 -a  @@
+mutool poster -W 400 -g -l -F pbm -M -X -h 300 -D -z -p 123456 -b -d -c mono -x 4 -s f -a  @@
+mutool pages -W 400 -R 90 -i -H 300 -w 400 -P -D -I -d -c gray -x 4  @@
+mutool extract -W 400 -g -F pbm -e -A 16 -L -X -I -p 123456 -b -d -r 144 -B 768 -S 18 -y 4 -s m  @@
+mutool extract -W 400 -R 90 -P -F ppm -L -D -G 0.7 -I -p 123456 -d -r 144 -S 18 -y 4  @@
+mutool poster -O compress-images -i -g -H 300 -w 400 -P -F ps -L -z -G 0.7 -I -p 123456 -d -c cmyk -y 4 -s 5  @@
+mutool extract -O decompress -o /tmp/foo.pdf -H 300 -w 400 -P -F png -G 0.7 -f -b -d -S 18 -y 4  @@
+mutool info -O decompress -R 90 -i -H 300 -l -F pcl -M -L -h 300 -G 0.7 -S 18 -y 4  @@
+mutool poster -W 400 -R 90 -o /tmp/foo.pdf -g -H 300 -l -P -F pgm -A 16 -L -X -z -f -I -p 123456 -S 18 -x 4  @@
+mutool extract -W 400 -R 90 -i -g -H 300 -P -e -M -p 123456 -c rgb -r 144 -B 768 -x 4  @@
+mutool info -O compress-images -R 90 -i -H 300 -l -w 400 -M -A 16 -L -D -G 0.7 -b -d -c gray -x 4  @@
+mutool extract -O conpress-fonts -W 400 -i -o /tmp/foo.pdf -l -F ps -h 300 -p 123456 -d -B 768 -s f -a  @@
+mutool pages -R 90 -o /tmp/foo.pdf -l -P -e -M -A 16 -L -h 300 -D -z -G 0.7 -f -I -p 123456 -d -B 768 -s t -a  @@
+mutool pages -O sanitize -R 90 -H 300 -w 400 -X -D -G 0.7 -f -I -p 123456 -S 18 -y 4  @@
+mutool extract -O compress-images -H 300 -w 400 -P -F pgm -A 16 -L -X -D -z -G 0.7 -f -p 123456 -b -d -c gray -B 768 -y 4 -a  @@
+mutool poster -O compress -W 400 -R 90 -i -l -P -M -z -G 0.7 -p 123456 -b -d -c grayalpha -r 144 -a  @@
+mutool info -W 400 -o /tmp/foo.pdf -H 300 -l -A 16 -X -h 300 -f -I -p 123456 -c cmykalpha -x 4 -a  @@
+mutool poster -O garbage -W 400 -i -o /tmp/foo.pdf -H 300 -w 400 -P -A 16 -L -G 0.7 -p 123456 -c grayalpha -B 768 -S 18 -x 4 -s m  @@
+mutool poster -O garbage -g -H 300 -w 400 -P -F pgm -e -L -D -z -G 0.7 -f -p 123456 -d -c gray -B 768 -S 18 -x 4 -s 5 -a  @@
+mutool info -O ascii -W 400 -i -g -l -F pgm -M -h 300 -I -B 768 -y 4 -a  @@
+mutool poster -O conpress-fonts -W 400 -o /tmp/foo.pdf -H 300 -l -P -F pgm -D -G 0.7 -f -r 144 -x 4 -a  @@
+mutool info -i -l -w 400 -P -F pgm -M -D -z -I -B 768 -x 4 -a  @@
+mutool extract -W 400 -g -H 300 -l -F pgm -f -I -p 123456 -b -c grayalpha -r 144 -S 18 -s m -a  @@
+mutool extract -R 90 -o /tmp/foo.pdf -g -l -F pcl -M -L -D -z -f -b -c grayalpha -r 144 -S 18 -x 4 -a  @@
+mutool clean -W 400 -R 90 -o /tmp/foo.pdf -l -F png -X -h 300 -D -z -G 0.7 -f -I -p 123456 -b -d -c cmykalpha -B 768 -y 4 -s m -a  @@
+mutool info -O conpress-fonts -i -P -M -h 300 -D -z -G 0.7 -B 768  @@
+mutool clean -W 400 -R 90 -l -A 16 -X -h 300 -I -b -c gray -y 4 -s f  @@
+mutool info -W 400 -R 90 -i -o /tmp/foo.pdf -w 400 -P -M -A 16 -L -X -G 0.7 -I -b -B 768 -x 4 -s 5  @@
+mutool pages -O linearize -o /tmp/foo.pdf -g -H 300 -P -A 16 -L -X -h 300 -D -z -I -b -d -c rgbalpha -B 768 -S 18 -s f  @@
+mutool show -O compress-images -W 400 -o /tmp/foo.pdf -H 300 -l -F pbm -A 16 -D -z -G 0.7 -b -d -c rgbalpha -y 4  @@
+mutool show -W 400 -R 90 -A 16 -L -z -G 0.7 -f -r 144 -B 768 -y 4  @@
+mutool extract -O compress -R 90 -P -L -X -h 300 -z -f -b -B 768 -y 4 -a  @@
+mutool info -O compress -W 400 -i -o /tmp/foo.pdf -g -H 300 -l -w 400 -F pwg -e -M -A 16 -L -X -D -z -G 0.7 -d -c cmykalpha -B 768 -S 18 -y 4 -s m  @@
+mutool info -W 400 -i -g -l -F png -A 16 -L -X -D -z -I -p 123456 -d -c gray -r 144 -B 768 -S 18 -y 4 -s f  @@
+mutool show -R 90 -g -H 300 -l -w 400 -P -F pbm -e -M -A 16 -L -X -D -G 0.7 -f -I -c grayalpha -B 768 -S 18 -x 4 -a  @@
+mutool poster -W 400 -R 90 -g -l -F pbm -A 16 -L -X -h 300 -D -z -G 0.7 -f -I -p 123456 -b -d -B 768 -S 18 -s t -a  @@
+mutool show -O ascii -W 400 -R 90 -g -H 300 -l -w 400 -F pbm -e -M -L -f -b -d -c mono -x 4 -s t  @@
+mutool show -O pretty -R 90 -o /tmp/foo.pdf -H 300 -l -P -F pbm -e -M -L -X -D -G 0.7 -f -I -b -d -c cmykalpha -r 144 -B 768 -S 18 -x 4  @@
+mutool extract -W 400 -o /tmp/foo.pdf -g -H 300 -l -w 400 -e -L -D -z -I -c cmykalpha -x 4 -s m  @@
+mutool info -O decompress -W 400 -g -M -L -h 300 -D -G 0.7 -f -b -d -c gray -B 768 -S 18 -y 4 -s f  @@
+mutool extract -O compress -W 400 -i -o /tmp/foo.pdf -l -P -F png -A 16 -D -z -G 0.7 -d -r 144 -B 768 -S 18 -y 4 -s 5  @@
+mutool poster -W 400 -i -w 400 -P -e -A 16 -z -p 123456 -b -S 18 -s t  @@
+mutool pages -W 400 -g -F ps -A 16 -L -D -z -G 0.7 -f -I -b -r 144 -x 4 -s m  @@
+mutool convert -R 90 -o /tmp/foo.pdf -P -F ppm -e -L -z -f -d -c rgbalpha -r 144 -B 768 -S 18 -y 4 -a  @@
+mutool info -O garbage -W 400 -o /tmp/foo.pdf -g -H 300 -F pcl -e -A 16 -h 300 -z -G 0.7 -f -b -d -B 768 -x 4 -s 5  @@
+mutool poster -W 400 -R 90 -g -l -L -X -h 300 -G 0.7 -f -b -d -c grayalpha -x 4 -s 5  @@
+mutool clean -R 90 -o /tmp/foo.pdf -F ppm -e -A 16 -G 0.7 -b -r 144 -S 18  @@
+mutool pages -O linearize -W 400 -R 90 -i -g -H 300 -M -A 16 -h 300 -z -G 0.7 -p 123456 -d -B 768 -S 18 -x 4 -s t  @@
+mutool info -O conpress-fonts -i -o /tmp/foo.pdf -l -F png -e -M -c rgbalpha -r 144 -B 768 -S 18 -x 4 -s f -a  @@
+mutool poster -O pretty -F ppm -M -L -X -h 300 -D -z -G 0.7 -f -I -c cmyk -B 768 -x 4 -s f -a  @@
+mutool create -W 400 -R 90 -g -l -P -A 16 -L -X -b -d -c gray -r 144 -B 768 -S 18 -x 4 -s m  @@
+mutool extract -R 90 -i -l -F pgm -e -M -L -G 0.7 -c cmyk -B 768 -x 4 -s t -a  @@
+mutool show -O linearize -R 90 -w 400 -F pcl -M -L -G 0.7 -I -p 123456 -d -c rgbalpha -y 4  @@
+mutool poster -O conpress-fonts -W 400 -R 90 -i -o /tmp/foo.pdf -g -H 300 -l -w 400 -F pcl -M -X -z -G 0.7 -p 123456 -d -B 768 -x 4 -s 5  @@
+mutool poster -W 400 -o /tmp/foo.pdf -g -l -w 400 -P -F ppm -e -M -A 16 -X -f -B 768 -s t -a  @@
+mutool convert -R 90 -i -o /tmp/foo.pdf -g -l -e -M -A 16 -L -h 300 -z -p 123456 -c gray -B 768 -s t  @@
+mutool pages -W 400 -i -o /tmp/foo.pdf -g -P -M -X -h 300 -G 0.7 -I -p 123456 -S 18 -a  @@
+mutool convert -R 90 -i -o /tmp/foo.pdf -g -l -e -A 16 -L -D -p 123456 -b -c rgbalpha -r 144 -B 768 -S 18 -a  @@
+mutool poster -O pretty -W 400 -i -o /tmp/foo.pdf -g -H 300 -e -M -A 16 -X -z -I -r 144 -y 4 -s f -a  @@
+mutool extract -O compress -W 400 -i -o /tmp/foo.pdf -g -H 300 -l -P -h 300 -D -z -I -p 123456 -b -B 768 -S 18 -x 4 -s m -a  @@
+mutool poster -O linearize -W 400 -o /tmp/foo.pdf -H 300 -l -w 400 -A 16 -z -f -I -b -B 768 -S 18 -x 4 -s m  @@
+mutool extract -W 400 -H 300 -w 400 -e -A 16 -I -p 123456 -b -d -B 768 -S 18 -y 4  @@
+mutool info -O sanitize -W 400 -i -H 300 -l -w 400 -A 16 -D -I -p 123456 -b -c rgb -B 768 -S 18 -y 4 -s 5 -a  @@
+mutool clean -W 400 -o /tmp/foo.pdf -g -H 300 -l -A 16 -X -D -G 0.7 -f -I -p 123456 -r 144 -S 18 -y 4 -s 5  @@
+mutool show -O pretty -R 90 -i -o /tmp/foo.pdf -g -l -w 400 -F pwg -M -L -X -G 0.7 -p 123456 -a  @@
+mutool pages -g -w 400 -F png -L -D -z -G 0.7 -f -p 123456 -d -S 18 -x 4 -a  @@
+mutool extract -W 400 -g -H 300 -l -e -A 16 -z -f -p 123456 -d -c cmyk -r 144 -x 4 -s f -a  @@
+mutool extract -O pretty -R 90 -o /tmp/foo.pdf -g -H 300 -l -w 400 -F pcl -e -M -L -f -I -d -x 4 -a  @@
+mutool pages -W 400 -R 90 -H 300 -l -e -A 16 -L -G 0.7 -I -b -r 144 -y 4  @@
+mutool clean -W 400 -R 90 -o /tmp/foo.pdf -H 300 -l -P -e -h 300 -D -f -I -p 123456 -d  @@
+mutool info -O compress-images -W 400 -i -o /tmp/foo.pdf -g -H 300 -l -P -L -X -h 300 -D -z -b -B 768 -S 18 -y 4 -a  @@
+mutool poster -O garbage -W 400 -i -o /tmp/foo.pdf -g -H 300 -l -F pgm -M -L -X -h 300 -D -z -G 0.7 -I -p 123456 -b -c rgb -B 768 -S 18 -x 4 -a  @@
+mutool clean -o /tmp/foo.pdf -g -H 300 -l -P -F pam -e -M -X -h 300 -D -f -I -b -d -c grayalpha -B 768  @@
+mutool info -O pretty -W 400 -R 90 -o /tmp/foo.pdf -g -H 300 -M -L -D -z -G 0.7 -c rgbalpha -r 144 -x 4 -s t  @@
+mutool create -W 400 -R 90 -g -H 300 -w 400 -P -e -M -A 16 -L -z -G 0.7 -I -b -d -B 768 -x 4  @@
+mutool pages -g -P -F pgm -e -M -A 16 -L -X -D -z -f -I -p 123456 -b -r 144 -a  @@
+mutool extract -W 400 -o /tmp/foo.pdf -w 400 -P -e -L -X -D -z -G 0.7 -f -p 123456 -d -B 768 -x 4 -s m  @@
+mutool create -R 90 -o /tmp/foo.pdf -g -l -P -F png -e -A 16 -X -z -f -I -p 123456 -b -d -r 144 -B 768 -S 18 -x 4  @@
+mutool poster -g -H 300 -l -L -h 300 -D -G 0.7 -p 123456 -d -c cmykalpha -x 4 -s f -a  @@
+mutool poster -O compress-images -W 400 -R 90 -i -g -F pbm -A 16 -L -h 300 -D -z -I -B 768 -s f  @@

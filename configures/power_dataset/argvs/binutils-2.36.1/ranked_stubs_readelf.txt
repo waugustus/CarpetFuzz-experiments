@@ -1,0 +1,1131 @@
+1130
+readelf -W --ctf=.text --dwarf-start==1 -g -C --recurse-limit --ctf-symbols=.text -wF -e -A -L -h -t -c --dwarf-depth==1 -a  @@
+readelf --ctf=.data -g -C --dyn-syms --recurse-limit --ctf-symbols=.text -wf -e -A -h -z -V -T -t --no-demangle -a  @@
+readelf -W -R 1 --lto-syms --dwarf-start==1 -g -C --recurse-limit -wf -e -L -V -I -t -c -a  @@
+readelf --lto-syms --dwarf-start==1 -g --dyn-syms --recurse-limit --ctf-symbols=.bss -wf -A -L -n -h -z -t -d -c -x 1 -s -a  @@
+readelf -W --ctf=.bss -C --dyn-syms --recurse-limit --ctf-symbols=.text -l -wf -A -L -h -D -z -I -c -S -a  @@
+readelf -C --dyn-syms --recurse-limit -wf -e -A -L -n -I -p 1 -c --dwarf-depth==1 --ctf-parent=.text -S -s -a  @@
+readelf --ctf=.data -l -wF -z -V -T --ctf-parent=.text -S -s -a  @@
+readelf -W --ctf=.data --dwarf-start==1 -g --ctf-symbols=.data -l -wF -e -A -L -h -z -V --no-demangle -a  @@
+readelf --lto-syms --dwarf-start==1 -g -C --recurse-limit --ctf-symbols=.text -wF -A -L -n -h -I -t -d -r --no-demangle -x 1 -a  @@
+readelf --dwarf-start==1 --recurse-limit --ctf-symbols=.data -l -wF -e -u -A -L -n -h -z -I -t -c --no-demangle --dwarf-depth==1 -x 1 -s -a  @@
+readelf -W -R 1 --dwarf-start==1 -g --recurse-limit -l -wf -e -A -n -h -z -V -T -t -c -r --ctf-parent=.data -a  @@
+readelf -W -R 1 --lto-syms --dwarf-start==1 -C --dyn-syms --ctf-symbols=.data -l -wf -e -u -A -n -h -D -V -I -t -c -s -a  @@
+readelf -W -R 1 -g --dyn-syms -l -wf -e -A -L -n -z -V -T -I -t -d -c -r  @@
+readelf -W --dwarf-start==1 -g --recurse-limit --ctf-symbols=.text -wf -e -u -n -h -V -T -I -t -p 1 -d --no-demangle --dwarf-depth==1 -s -a  @@
+readelf -W -R 1 --lto-syms -C --dyn-syms --ctf-symbols=.text -wF -u -L -n -h -T -d --dwarf-depth==1 -S -a  @@
+readelf -W -R 1 -C --dyn-syms --recurse-limit -wF -e -u -A -L -n -h -z -V -I -r --ctf-parent=.data -S -a  @@
+readelf --lto-syms -l -wF -A -L -h -z -V -d -c -r --no-demangle --dwarf-depth==1 --ctf-parent=.text -S -x 1 -a  @@
+readelf -W --lto-syms -g -C --dyn-syms --recurse-limit -wF -u -A -h -z -T -t -d -c -r --dwarf-depth==1 --ctf-parent=.bss -s -a  @@
+readelf -R 1 -g -C --dyn-syms -l -wf -A -h -D -z -I -c -r --dwarf-depth==1 --ctf-parent=.data -a  @@
+readelf -W -R 1 --dyn-syms -l -wF -e -u -A -L -V -t -d -r --dwarf-depth==1 --ctf-parent=.text -s -a  @@
+readelf -R 1 --dwarf-start==1 -C -wf -e -u -A -n -D --dwarf-depth==1 -S -s -a  @@
+readelf --dwarf-start==1 -g --dyn-syms --recurse-limit -l -wF -A -L -h -T -t -p 1 --no-demangle -a  @@
+readelf -W -R 1 --lto-syms -g -l -wF -u -L -n -h -z -V -T -d -r --no-demangle --dwarf-depth==1 --ctf-parent=.data -a  @@
+readelf -W --lto-syms -g --recurse-limit -l -wF -n -h -z --no-demangle --ctf-parent=.text -x 1 -s -a  @@
+readelf -W -R 1 --recurse-limit --ctf-symbols=.text -l -wF -e -n -c -r --no-demangle --dwarf-depth==1 -S -s -a  @@
+readelf -W --lto-syms --dwarf-start==1 -g --dyn-syms --ctf-symbols=.bss -l -wf -A -n -h -D -t -p 1 -r -a  @@
+readelf -W --lto-syms --dwarf-start==1 -g -C --dyn-syms --recurse-limit --ctf-symbols=.bss -l -wF -A -n -D -T -I -t -p 1 -d -c -r --no-demangle --dwarf-depth==1 -s -a  @@
+readelf --lto-syms --dwarf-start==1 -g --dyn-syms --recurse-limit --ctf-symbols=.text -wF -e -u -A -D -z -I -c -r --no-demangle --dwarf-depth==1 -x 1 -s -a  @@
+readelf --dwarf-start==1 -g -C --dyn-syms --ctf-symbols=.data -l -wf -D -z -T -I -d -r --no-demangle -x 1 -a  @@
+readelf -W --lto-syms --recurse-limit --ctf-symbols=.data -wf -A -L -n -h -D -z -V -p 1 -r --no-demangle --dwarf-depth==1 -S -s -a  @@
+readelf -W --lto-syms --ctf-symbols=.data -l -wf -L -D --no-demangle --dwarf-depth==1 -S -x 1 -a  @@
+readelf -g --recurse-limit -l -wF -D -t -c --no-demangle --dwarf-depth==1 -x 1 -s -a  @@
+readelf -W -R 1 -C --dyn-syms --ctf-symbols=.data -wF -A -L -n -h -D -V -c -r --no-demangle --dwarf-depth==1 -s -a  @@
+readelf -W --dyn-syms --recurse-limit -l -wF -e -A -n -V -T -t -d -c -r --no-demangle --dwarf-depth==1 --ctf-parent=.data -x 1 -s  @@
+readelf --lto-syms --ctf-symbols=.text -l -wF -u -n -z -V -I -d -c -r --no-demangle -S -x 1  @@
+readelf -W -C -wf -e -u -A -L -h -D -V -T -I -d --no-demangle --ctf-parent=.text -S -x 1 -s  @@
+readelf --lto-syms -g --recurse-limit --ctf-symbols=.text -l -wf -e -u -L -n -h -z -T -t -p 1 -d -c -r --dwarf-depth==1 -s  @@
+readelf --ctf=.bss --dwarf-start==1 -g --dyn-syms --ctf-symbols=.bss -l -wF -h -D -z -V -I -t -c --no-demangle --dwarf-depth==1  @@
+readelf -W --lto-syms --dwarf-start==1 -C --dyn-syms --recurse-limit --ctf-symbols=.text -l -wF -e -u -L -n -D -V -T -d -c --no-demangle --dwarf-depth==1 -S -x 1  @@
+readelf -W --ctf=.text --dwarf-start==1 -g --dyn-syms --ctf-symbols=.data -l -wF -e -A -L -h -D -V -T -I -t -c --no-demangle --dwarf-depth==1 -s  @@
+readelf -R 1 --lto-syms --dwarf-start==1 --dyn-syms --ctf-symbols=.bss -wF -u -L -h -V -T -I -d -c -r --dwarf-depth==1 -S -s  @@
+readelf -W --lto-syms --dwarf-start==1 -g --dyn-syms --recurse-limit -l -wf -e -u -A -L -h -V -T -p 1 -r --no-demangle --dwarf-depth==1 --ctf-parent=.text  @@
+readelf -W --lto-syms --dwarf-start==1 -C --ctf-symbols=.bss -wF -e -n -D -z -V -T -I -d -S -x 1  @@
+readelf --ctf=.bss --dwarf-start==1 -g -C --recurse-limit -l -wF -A -L -h -z -V -T -c --no-demangle --dwarf-depth==1 --ctf-parent=.bss -s -a  @@
+readelf -W --ctf=.bss --dwarf-start==1 -g -C --dyn-syms --ctf-symbols=.data -wf -e -A -h -D -z -I -t -c --dwarf-depth==1 -s  @@
+readelf -W --ctf=.bss --dwarf-start==1 --recurse-limit --ctf-symbols=.bss -l -wF -e -D -V -T -I --no-demangle --dwarf-depth==1 -s  @@
+readelf -R 1 --lto-syms --dwarf-start==1 -C --dyn-syms --recurse-limit -wF -e -u -A -n -h -D -z -T -I -c --no-demangle --ctf-parent=.text -S  @@
+readelf --lto-syms --dwarf-start==1 -C --ctf-symbols=.bss -l -wF -e -u -A -L -n -h -D -z -p 1 -d -r -S  @@
+readelf -W --lto-syms --dwarf-start==1 --recurse-limit --ctf-symbols=.bss -l -wF -e -u -h -D -z -T -I -t -d -c -r -x 1  @@
+readelf -W --ctf=.text --dwarf-start==1 -C --ctf-symbols=.data -l -wf -A -I -t --dwarf-depth==1 -s  @@
+readelf -W --ctf=.text --dwarf-start==1 --dyn-syms -wf -e -A -L -h -D -z -V -T --dwarf-depth==1 --ctf-parent=.data -S -s  @@
+readelf --dwarf-start==1 -C --recurse-limit -l -wF -e -A -n -h -I -p 1 -c --no-demangle --dwarf-depth==1 -S -s  @@
+readelf -W --ctf=.text -g -C --dyn-syms --recurse-limit --ctf-symbols=.bss -l -wF -e -D -z -V -t -c --no-demangle -s  @@
+readelf -W --lto-syms --dwarf-start==1 -g --dyn-syms -wF -u -A -L -h -D -T -I -t -d -r --no-demangle --ctf-parent=.bss -x 1 -s  @@
+readelf -W --dwarf-start==1 --dyn-syms -l -wf -e -u -A -T -I --no-demangle --dwarf-depth==1 -S -x 1 -s  @@
+readelf --lto-syms --dwarf-start==1 -C --ctf-symbols=.bss -l -wF -h -D -z -T -I -t -p 1 -r --no-demangle --dwarf-depth==1 -s  @@
+readelf -R 1 --lto-syms --dwarf-start==1 -C --dyn-syms -wF -e -L -D -z -d -c -r --no-demangle --dwarf-depth==1 --ctf-parent=.bss -S -s  @@
+readelf --ctf=.text --dwarf-start==1 -C --recurse-limit --ctf-symbols=.data -wF -A -h -z -V -T -t -c -s  @@
+readelf -R 1 --dwarf-start==1 -C --dyn-syms --recurse-limit --ctf-symbols=.data -wF -L -n -D -V -T -I --dwarf-depth==1 -S -s  @@
+readelf -W -R 1 --lto-syms --dwarf-start==1 -g -C -l -wF -e -A -D -z -I --no-demangle --ctf-parent=.data -s  @@
+readelf --lto-syms --dwarf-start==1 -wF -e -V -T -p 1 -r --dwarf-depth==1 -S  @@
+readelf -W --dwarf-start==1 -C --ctf-symbols=.text -l -wF -u -n -z -T -t -c -r --no-demangle -x 1  @@
+readelf --lto-syms --dwarf-start==1 -C --recurse-limit -wF -e -A -z -t -c -r --dwarf-depth==1 --ctf-parent=.text -x 1  @@
+readelf -R 1 --dwarf-start==1 -l -wf -L -n -D -z -V --ctf-parent=.bss -S  @@
+readelf --ctf=.data -g --dyn-syms --recurse-limit --ctf-symbols=.text -wF -L -D -z -I -t -c --no-demangle --dwarf-depth==1  @@
+readelf --lto-syms -C --dyn-syms --ctf-symbols=.text -l -wK -e -A -L -h -V -I -t -p 1 -c -r --dwarf-depth==1 -s -a  @@
+readelf --ctf=.data -g -C --dyn-syms --recurse-limit -l -e -A -z -t --ctf-parent=.data -a  @@
+readelf --ctf=.text --dwarf-start==1 -C --ctf-symbols=.text -l -wK -e -L -h -z -V -c --no-demangle -S -s -a  @@
+readelf -W --ctf=.text --dwarf-start==1 -C -wi -A -z -V -t --ctf-parent=.data -a  @@
+readelf --ctf=.data --dwarf-start==1 -C --dyn-syms --recurse-limit --ctf-symbols=.text -l -wA -A -h -T -t -a  @@
+readelf -W --ctf=.data -g -C --dyn-syms --ctf-symbols=.data -l -e -A -h -V -I -t -c -s -a  @@
+readelf -R 1 --lto-syms --dwarf-start==1 -g -C --dyn-syms --ctf-symbols=.data -l -wk -n -z -V -T -I -t -c -r -s -a  @@
+readelf --ctf=.data -C --recurse-limit -wo -e -z -V -T -I --dwarf-depth==1 --ctf-parent=.data -S -a  @@
+readelf -W --ctf=.bss --dwarf-start==1 -C --dyn-syms --ctf-symbols=.bss -wA -L -z -V -T -I -S -s -a  @@
+readelf --ctf=.text --dwarf-start==1 -C -wa -e -A -L -h -z -T -I -c --dwarf-depth==1 -a  @@
+readelf --ctf=.text -C --dyn-syms --recurse-limit -l -h -z -V -T -I -S -s -a  @@
+readelf -W --ctf=.text -C --dyn-syms -A -L -h -z -I -c --ctf-parent=.data -S -a  @@
+readelf --ctf=.bss -g --ctf-symbols=.bss -wt -e -A -L -h -z -V -T -I -t --no-demangle --dwarf-depth==1 -a  @@
+readelf --ctf=.text --dwarf-start==1 -g --recurse-limit -l -wm -L -z -V -t --dwarf-depth==1 -s -a  @@
+readelf -W --ctf=.text --dwarf-start==1 -l -wg -e -h -V -T -I -t -c --dwarf-depth==1 --ctf-parent=.bss -s -a  @@
+readelf --ctf=.data -g --recurse-limit -A -L -h -z -I -t --no-demangle --ctf-parent=.data -a  @@
+readelf -R 1 --lto-syms --dwarf-start==1 -g --dyn-syms --ctf-symbols=.bss -l -wK -u -A -z -t -r --no-demangle --dwarf-depth==1 -s -a  @@
+readelf -W --ctf=.bss -g -C --recurse-limit --ctf-symbols=.text -l -wi -e -T -I -t --no-demangle --dwarf-depth==1 -s -a  @@
+readelf --lto-syms -g -C --recurse-limit --ctf-symbols=.data -l -wa -e -u -A -n -h -T -I -t -r --dwarf-depth==1 -x 1 -s -a  @@
+readelf --ctf=.data --dwarf-start==1 -g -C --dyn-syms --recurse-limit --ctf-symbols=.bss -l -ws -L -h -T -I -t -c --no-demangle --dwarf-depth==1 -a  @@
+readelf -W --ctf=.bss --dwarf-start==1 --ctf-symbols=.bss -l -wl -e -A -L -h -V -T -I -t --dwarf-depth==1 -a  @@
+readelf -W --ctf=.data --dwarf-start==1 -C --dyn-syms -wA -L -h -z -V -T -I -t --no-demangle --dwarf-depth==1 -a  @@
+readelf --ctf=.data -g -C --dyn-syms -l -L -T -t --no-demangle --ctf-parent=.text -s -a  @@
+readelf --ctf=.text -g -C -l -wi -A -D -z -T -I -t -c --dwarf-depth==1 --ctf-parent=.data -s -a  @@
+readelf --dwarf-start==1 -g -C --dyn-syms --recurse-limit --ctf-symbols=.data -l -wo -n -h -z -V -t --dwarf-depth==1 -x 1 -s -a  @@
+readelf --ctf=.bss --dwarf-start==1 -g -C --dyn-syms --recurse-limit --ctf-symbols=.bss -wo -e -h -V --no-demangle --dwarf-depth==1 -s -a  @@
+readelf -W --lto-syms --dwarf-start==1 -C --dyn-syms --recurse-limit --ctf-symbols=.text -ws -L -n -z -V -T -I -t --dwarf-depth==1 -x 1 -s -a  @@
+readelf -g -C --ctf-symbols=.data -l -wT -e -A -n -h -z -V -t -d -c -x 1 -a  @@
+readelf -g -C -e -u -A -n -h -z -V -t -d -c -r --ctf-parent=.data -x 1 -a  @@
+readelf --ctf=.bss --dwarf-start==1 -g -C --ctf-symbols=.bss -l -wo -e -h -D -z -V -T -t --dwarf-depth==1 -a  @@
+readelf -W --ctf=.data -C -e -A -S -s -a  @@
+readelf --ctf=.bss --dwarf-start==1 --dyn-syms --recurse-limit --ctf-symbols=.bss -l -wl -e -A -c --dwarf-depth==1 -S -a  @@
+readelf -W --ctf=.data --dwarf-start==1 -g --dyn-syms -wp -h -z -V -T -I -c --no-demangle --dwarf-depth==1 --ctf-parent=.text -s -a  @@
+readelf -R 1 --lto-syms --dwarf-start==1 -l -wK -n -h -T -t -c --no-demangle --dwarf-depth==1 -s -a  @@
+readelf --ctf=.text -g -C -wg -L -V -I -c --no-demangle --ctf-parent=.text -a  @@
+readelf -W --ctf=.bss --ctf-symbols=.data -L -z -V -I -t --no-demangle -s -a  @@
+readelf -W --ctf=.text -g --dyn-syms -L -h -z -t -c --no-demangle -a  @@
+readelf -R 1 --lto-syms -C --dyn-syms --recurse-limit --ctf-symbols=.text -l -wK -e -A -V -T -d -c -r --no-demangle --dwarf-depth==1 -S -a  @@
+readelf -W --ctf=.bss --dwarf-start==1 -C --recurse-limit --ctf-symbols=.data -l -wi -e -h -z --no-demangle --dwarf-depth==1 -S -s -a  @@
+readelf --lto-syms -C --ctf-symbols=.text -e -u -L -h -T -t -d -c -x 1 -a  @@
+readelf --ctf=.bss -C --recurse-limit --ctf-symbols=.bss -l -L -h -D -V -T -I -t -s -a  @@
+readelf -W --ctf=.data --recurse-limit --ctf-symbols=.bss -l -e -A -h -T -I -t -c -s -a  @@
+readelf -W --ctf=.bss --dyn-syms --recurse-limit --ctf-symbols=.bss -l -wT -A -L -h -z -V -I --dwarf-depth==1 -S -a  @@
+readelf -g -C --ctf-symbols=.bss -l -u -A -L -h -V -T -I -t -d -r -x 1 -s -a  @@
+readelf --ctf=.bss -g --ctf-symbols=.text -wl -e -h -c --dwarf-depth==1 -s -a  @@
+readelf --ctf=.data --dwarf-start==1 -C --recurse-limit -l -wU -e -A -L -D -V -T -I -c --dwarf-depth==1 --ctf-parent=.data -S -a  @@
+readelf --ctf=.text --dyn-syms -A -L -I --no-demangle --ctf-parent=.bss -S -s -a  @@
+readelf -W -g -C -l -wr -e -L -h -z -V -T -I -t --dwarf-depth==1 --ctf-parent=.data -x 1 -a  @@
+readelf --ctf=.text -C --dyn-syms --ctf-symbols=.text -ws -e -A -D -z -V -T -t -c --dwarf-depth==1 -s -a  @@
+readelf --ctf=.data --recurse-limit -l -wc -z -V -I -c --dwarf-depth==1 -S -a  @@
+readelf -W --ctf=.data --ctf-symbols=.bss -l -e -h -V -T -t -c --no-demangle -a  @@
+readelf --lto-syms -g -C --dyn-syms -l -e -A -n -h -V -T -I -t -p 1 -d -r -a  @@
+readelf --ctf=.bss --ctf-symbols=.data -wc -A -L -h -V -T -c --dwarf-depth==1 -S -a  @@
+readelf -W -R 1 --lto-syms --dwarf-start==1 -C -l -wK -e -A -V -T -d -c -r --no-demangle --dwarf-depth==1 -S -s -a  @@
+readelf -W --ctf=.bss -g --recurse-limit --ctf-symbols=.data -A -L -z -V -T -I -c --no-demangle -s -a  @@
+readelf -W --ctf=.data -C --dyn-syms --ctf-symbols=.data -wc -e -A -h -z -V -T -I --no-demangle --dwarf-depth==1 -S -a  @@
+readelf -W --lto-syms -C --dyn-syms -l -u -A -L -n -h -z -V -T -c -r -S -x 1 -s -a  @@
+readelf -W --lto-syms --dwarf-start==1 -C --dyn-syms --recurse-limit -wk -u -A -L -n -h -V -c -r --no-demangle --dwarf-depth==1 --ctf-parent=.text -x 1 -s -a  @@
+readelf --ctf=.text -C -l -wT -A -h -D -V --dwarf-depth==1 --ctf-parent=.data -S -s -a  @@
+readelf -W --ctf=.text --dwarf-start==1 --dyn-syms --recurse-limit --ctf-symbols=.bss -wL -e -A -L -V -T -I --dwarf-depth==1 -S -s -a  @@
+readelf --lto-syms -g -C --recurse-limit --ctf-symbols=.data -e -u -A -L -n -h -z -V -T -I -x 1 -s -a  @@
+readelf -W --ctf=.text --dwarf-start==1 -wr -e -L -I --no-demangle --dwarf-depth==1 --ctf-parent=.bss -S -a  @@
+readelf -W -R 1 --lto-syms --dwarf-start==1 -C --recurse-limit -l -wg -e -n -z -t -r --dwarf-depth==1 --ctf-parent=.data -a  @@
+readelf -W -g -C --dyn-syms --recurse-limit -e -A -n -V -T -t --ctf-parent=.text -x 1 -s -a  @@
+readelf -R 1 --lto-syms -C --recurse-limit -wm -e -h -z -V -I -d -c --ctf-parent=.text -S -s -a  @@
+readelf --ctf=.data --dyn-syms --ctf-symbols=.bss -l -e -A -L -z -V -c -s -a  @@
+readelf -W --ctf=.text --dyn-syms -l -A -L -h -T -I -c --ctf-parent=.text -a  @@
+readelf -W -R 1 --lto-syms -g -C --dyn-syms --ctf-symbols=.data -l -A -h -z -I -t -d -s -a  @@
+readelf -R 1 --lto-syms -C -l -e -L -n -h -z -T -t -d --ctf-parent=.bss -a  @@
+readelf -W -g -wk -A -L -h -z -T -t -c -r --no-demangle --dwarf-depth==1 --ctf-parent=.bss -x 1 -a  @@
+readelf -W --lto-syms --dwarf-start==1 -C --dyn-syms --recurse-limit --ctf-symbols=.text -wk -u -n -h -V -d -c --no-demangle -S -x 1 -s -a  @@
+readelf -W --ctf=.bss --dyn-syms --ctf-symbols=.data -l -h -z -T -I -c -S -a  @@
+readelf -R 1 --lto-syms --dwarf-start==1 -C --ctf-symbols=.bss -l -wk -u -L -D -z -V -I -t -c --dwarf-depth==1 -a  @@
+readelf --ctf=.data -C --dyn-syms -l -e -A -L -D -z -V -T --ctf-parent=.text -S -s -a  @@
+readelf -W --ctf=.bss -C --recurse-limit --ctf-symbols=.bss -e -L -T -I --no-demangle -S -a  @@
+readelf --ctf=.data -C --dyn-syms --ctf-symbols=.text -e -A -h -T -I -c --no-demangle -S -s -a  @@
+readelf -W --ctf=.data --ctf-symbols=.bss -L -h -z -V -t -a  @@
+readelf -W -R 1 --lto-syms --dwarf-start==1 -C --dyn-syms --recurse-limit --ctf-symbols=.data -l -wK -e -A -L -n -h -D -z -d -r --dwarf-depth==1 -S -s -a  @@
+readelf -R 1 --lto-syms -C --recurse-limit -e -u -A -L -h -c -r --ctf-parent=.text -S -s -a  @@
+readelf --ctf=.data -C --ctf-symbols=.data -l -L -z -V --no-demangle -S -a  @@
+readelf -W --dwarf-start==1 -g -C --recurse-limit -l -wm -e -A -L -h -z -V -I -r --ctf-parent=.bss -x 1 -s -a  @@
+readelf -W --lto-syms --dwarf-start==1 -g -C --dyn-syms -wr -e -A -V -T -I --dwarf-depth==1 -x 1 -s -a  @@
+readelf -W -R 1 --dwarf-start==1 -g -C --dyn-syms --recurse-limit -wr -u -V -T -t --dwarf-depth==1 --ctf-parent=.text -s -a  @@
+readelf -W --ctf=.bss --dyn-syms --recurse-limit --ctf-symbols=.bss -l -A -V --no-demangle -S -a  @@
+readelf -W --ctf=.text --recurse-limit -l -e -L -h -T -c --no-demangle -S -a  @@
+readelf -W -R 1 --lto-syms --dwarf-start==1 -C --dyn-syms --recurse-limit -wu -e -u -A -L -n -V -c -r --ctf-parent=.data -S -a  @@
+readelf -g -C --recurse-limit -wL -e -L -h -z -V -T -t -p 1 -d --ctf-parent=.bss -a  @@
+readelf -W -R 1 -g -C --dyn-syms --recurse-limit -l -u -n -h -V -I -t -c --ctf-parent=.data -a  @@
+readelf --lto-syms --dwarf-start==1 -g -l -wU -e -A -L -h -z -V -T -t -d -c --dwarf-depth==1 --ctf-parent=.bss -x 1 -a  @@
+readelf --lto-syms -C -l -u -n -z -I -d --ctf-parent=.bss -x 1 -s -a  @@
+readelf --lto-syms --dwarf-start==1 -g --dyn-syms --ctf-symbols=.data -l -wO -e -A -L -n -h -z -V -t -p 1 -c -r --no-demangle -s -a  @@
+readelf -W --ctf=.text -g -l -A -h -T -I --ctf-parent=.data -a  @@
+readelf -W --dwarf-start==1 --dyn-syms --recurse-limit -l -wK -e -A -z -V -I -S -x 1 -s -a  @@
+readelf --dwarf-start==1 -C --ctf-symbols=.text -wc -e -A -L -n -h -V -T -r --dwarf-depth==1 -S -x 1 -a  @@
+readelf --ctf=.text --dwarf-start==1 -g -C --dyn-syms -l -wF -A -L -h -D -z -s  @@
+readelf --lto-syms -C --dyn-syms --recurse-limit --ctf-symbols=.bss -wk -u -L -n -h -D -z -V -I -r --dwarf-depth==1 -S -x 1 -a  @@
+readelf --lto-syms -C --dyn-syms -l -V -T -I -c -r --ctf-parent=.bss -S -x 1 -a  @@
+readelf -W --lto-syms --dyn-syms --recurse-limit -l -wk -e -u -A -L -n -h -d --dwarf-depth==1 --ctf-parent=.data -S -x 1 -a  @@
+readelf -W -g -C --recurse-limit -u -L -h -z -t -d -x 1 -a  @@
+readelf -W -g -C --dyn-syms --recurse-limit -e -L -h -V -T -I -d -c -r --ctf-parent=.bss -x 1 -s -a  @@
+readelf --lto-syms --dwarf-start==1 -g -C --dyn-syms -wO -e -u -L -V -T -I -p 1 -c --ctf-parent=.bss -a  @@
+readelf -W --dwarf-start==1 -C -l -wK -A -d --no-demangle --ctf-parent=.data -S -x 1 -s -a  @@
+readelf -W --ctf=.text -C --recurse-limit -l -h -z -I --no-demangle -a  @@
+readelf --dwarf-start==1 -C --dyn-syms --ctf-symbols=.bss -l -wu -e -A -V -T -I -p 1 -d -c -r --dwarf-depth==1 -S -s -a  @@
+readelf -W --lto-syms --dwarf-start==1 -C -wK -e -L -n -D -T -I -t -d -c -r --no-demangle --dwarf-depth==1 --ctf-parent=.bss -x 1 -a  @@
+readelf -R 1 --dwarf-start==1 -g --dyn-syms --recurse-limit --ctf-symbols=.data -l -wp -e -A -L -n -h -V -I -t -d --no-demangle --dwarf-depth==1 -s -a  @@
+readelf -g --dyn-syms --recurse-limit -wK -e -u -A -h -D -z -V -t -d -c --no-demangle --dwarf-depth==1 -x 1 -a  @@
+readelf -W -R 1 --lto-syms -C --dyn-syms -wo -e -n -z -V -T -d -c -r --dwarf-depth==1 -a  @@
+readelf -W --lto-syms --dwarf-start==1 -g -C --dyn-syms --recurse-limit -wU -e -u -L -z -T -t -r --no-demangle --ctf-parent=.bss -x 1 -a  @@
+readelf --lto-syms --dwarf-start==1 --dyn-syms --ctf-symbols=.bss -wi -e -u -I -t -d -r --dwarf-depth==1 -x 1 -a  @@
+readelf --lto-syms --dwarf-start==1 -g -C --dyn-syms -wR -L -h -t -p 1 -d -c -r --no-demangle --dwarf-depth==1 --ctf-parent=.data -s -a  @@
+readelf -W --lto-syms -C --ctf-symbols=.data -l -wT -L -n -h -V -T -I -p 1 -c -S -s -a  @@
+readelf -W --ctf=.text --dwarf-start==1 -g -C -l -wk -e -L -h -D -T -I --no-demangle -s -a  @@
+readelf -R 1 --lto-syms --dwarf-start==1 -C --dyn-syms --recurse-limit -wi -A -h -I -t -d -r --no-demangle --dwarf-depth==1 --ctf-parent=.data -a  @@
+readelf -C --recurse-limit -l -e -u -A -T -I -t -p 1 --ctf-parent=.text -a  @@
+readelf -g -C --recurse-limit --ctf-symbols=.text -l -wu -e -u -L -V -T -I -t -c --no-demangle --dwarf-depth==1 -x 1 -a  @@
+readelf -W --ctf=.bss --dwarf-start==1 -g -C --dyn-syms --recurse-limit --ctf-symbols=.data -l -wr -A -D -z -V -t --no-demangle -s -a  @@
+readelf -R 1 --dwarf-start==1 -g -l -wT -e -A -L -h -z -V -t -c -r --no-demangle --dwarf-depth==1 --ctf-parent=.data -s -a  @@
+readelf --dwarf-start==1 -g --dyn-syms --recurse-limit -l -wk -L -n -h -V -T --no-demangle --dwarf-depth==1 --ctf-parent=.text -x 1 -a  @@
+readelf --ctf=.text -C --recurse-limit -A -h -D -V -t --no-demangle --ctf-parent=.bss -s -a  @@
+readelf -W --lto-syms -C --recurse-limit --ctf-symbols=.data -l -wK -e -n -D -z -T -p 1 -d --dwarf-depth==1 -S -s -a  @@
+readelf --lto-syms -g --dyn-syms -wr -e -u -h -z -I -t -p 1 -c -r --dwarf-depth==1 --ctf-parent=.bss -a  @@
+readelf --dwarf-start==1 -C --ctf-symbols=.text -l -wc -e -L -n -I -p 1 -d -S -s -a  @@
+readelf --lto-syms -g -C --recurse-limit -l -e -u -A -L -n -V -t -p 1 -r --no-demangle --ctf-parent=.text -s -a  @@
+readelf -C --dyn-syms --ctf-symbols=.bss -l -L -n -T -I -d -S -x 1 -s -a  @@
+readelf -R 1 --dwarf-start==1 -C --dyn-syms --recurse-limit -wo -A -V -I -r -S -s -a  @@
+readelf -R 1 -C --dyn-syms --ctf-symbols=.data -wk -e -u -A -L -h -I --no-demangle --dwarf-depth==1 -S -s -a  @@
+readelf -W --lto-syms --dwarf-start==1 --dyn-syms -wk -A -z -T -I -d --ctf-parent=.text -S -x 1 -a  @@
+readelf -W --dwarf-start==1 -g -wK -e -A -n -z -V -p 1 -d -r --no-demangle --ctf-parent=.text -a  @@
+readelf -W --ctf=.text -g --dyn-syms -l -wL -e -L -D -V -T -t --dwarf-depth==1 --ctf-parent=.data -a  @@
+readelf -W --ctf=.text -g -C --dyn-syms -D -z -I --ctf-parent=.data -a  @@
+readelf --ctf=.data --dwarf-start==1 -C --ctf-symbols=.data -l -wi -e -A -D -V -t -c --no-demangle --dwarf-depth==1 -a  @@
+readelf -W --dwarf-start==1 -g --dyn-syms --ctf-symbols=.bss -l -wt -e -L -n -z -V -t -r --no-demangle --dwarf-depth==1 -x 1 -s -a  @@
+readelf --ctf=.bss -g --dyn-syms --recurse-limit --ctf-symbols=.data -e -A -D -t --no-demangle -s -a  @@
+readelf --recurse-limit -l -e -u -L -h -T -I -t -d -c -r --no-demangle --ctf-parent=.data -x 1 -s -a  @@
+readelf -W --lto-syms --dwarf-start==1 -C -l -wi -e -u -A -h -V -T -t -p 1 -c -r --no-demangle --dwarf-depth==1 --ctf-parent=.data -a  @@
+readelf -g --dyn-syms --ctf-symbols=.data -l -wK -e -A -n -h -D -t -d --no-demangle -x 1 -s -a  @@
+readelf -R 1 --dwarf-start==1 -C --dyn-syms -wT -u -L -n -h -z -T -d -r -S -a  @@
+readelf --ctf=.data -g -C --ctf-symbols=.text -l -e -D -z -T -I -c -s -a  @@
+readelf --ctf=.bss -g --dyn-syms --ctf-symbols=.bss -l -A -L -D -z -V -T -I -t --no-demangle -a  @@
+readelf -W --lto-syms -g --recurse-limit --ctf-symbols=.text -l -e -h -V -I -t -d --no-demangle -x 1 -s -a  @@
+readelf -W --recurse-limit -l -wk -L -n -V -I -d -r --dwarf-depth==1 -S -x 1 -s -a  @@
+readelf -W -R 1 --lto-syms -g -l -wg -u -n -h -I -t -c -r --no-demangle --dwarf-depth==1 --ctf-parent=.bss -s -a  @@
+readelf -W -R 1 -C --recurse-limit --ctf-symbols=.bss -l -u -A -L -n -h -V -T -I -c -a  @@
+readelf -W -R 1 --lto-syms -C --dyn-syms --ctf-symbols=.data -e -u -A -L -z -V -T -t -d -c --no-demangle -s -a  @@
+readelf --lto-syms --dwarf-start==1 -g --dyn-syms --recurse-limit --ctf-symbols=.bss -l -wg -A -V -T -t -p 1 -c --dwarf-depth==1 -s -a  @@
+readelf --lto-syms -C --dyn-syms --recurse-limit --ctf-symbols=.data -e -L -z -I -d -c -r --no-demangle -S -x 1 -s -a  @@
+readelf -W --dwarf-start==1 -g --dyn-syms --recurse-limit --ctf-symbols=.bss -wt -u -V -T -t -d -c --dwarf-depth==1 -x 1 -s -a  @@
+readelf --lto-syms --dwarf-start==1 --dyn-syms --ctf-symbols=.text -wp -e -A -L -n -z -V -T -t -p 1 -d -r -s -a  @@
+readelf --ctf=.text --dyn-syms --recurse-limit -wA -e -D -V -T -I -t --no-demangle --dwarf-depth==1 -s -a  @@
+readelf --lto-syms --dwarf-start==1 -C --recurse-limit -wa -u -L -n -h -T -I -c -r --no-demangle --dwarf-depth==1 -S -x 1 -s -a  @@
+readelf --dwarf-start==1 -C -wu -e -h -z -T -I -p 1 -c --dwarf-depth==1 -S -s -a  @@
+readelf -W --lto-syms --dwarf-start==1 -g -C --recurse-limit -l -wp -A -L -n -z -I -t -p 1 --no-demangle --dwarf-depth==1 --ctf-parent=.text -a  @@
+readelf --ctf=.text -g --recurse-limit --ctf-symbols=.data -l -e -A -L -h -D -z -T -I -t --no-demangle -s -a  @@
+readelf -C --dyn-syms --recurse-limit -l -e -L -n -h -z -V -t -p 1 -d -c --no-demangle --ctf-parent=.data -a  @@
+readelf -W -R 1 --lto-syms --dwarf-start==1 -g --ctf-symbols=.text -wr -u -L -h -z -I -t -c -r --dwarf-depth==1 -a  @@
+readelf --lto-syms -C --ctf-symbols=.text -l -e -u -A -h -V -I -d -c --no-demangle -S -x 1 -a  @@
+readelf -W --lto-syms -g -C --dyn-syms -wm -A -n -h -D -V -T -I -t -d -c --ctf-parent=.text -x 1 -a  @@
+readelf -W -R 1 --dwarf-start==1 -g --ctf-symbols=.bss -l -wA -e -u -A -L -h -z -T -t -d -c -r --no-demangle -a  @@
+readelf -W -R 1 --lto-syms --recurse-limit --ctf-symbols=.text -l -u -A -L -n -h -z -T -I -t -d --no-demangle -s -a  @@
+readelf -R 1 --lto-syms --dwarf-start==1 -C --dyn-syms --ctf-symbols=.data -wR -u -A -n -z -V -I -c -r --no-demangle --dwarf-depth==1 -S -a  @@
+readelf -R 1 --dwarf-start==1 --dyn-syms --recurse-limit -wt -u -A -n -I -t -c --dwarf-depth==1 --ctf-parent=.text -s -a  @@
+readelf --dwarf-start==1 -wk -e -A -L -n -h -z -V -T -I -d -c -r --dwarf-depth==1 --ctf-parent=.text -S -x 1 -s  @@
+readelf -W -R 1 --lto-syms -g --recurse-limit --ctf-symbols=.bss -l -wc -A -L -h -z -V -T -t --no-demangle --dwarf-depth==1 -a  @@
+readelf -W -g -C --dyn-syms -l -L -h -z -V -t -c -r --no-demangle --ctf-parent=.bss -x 1 -s -a  @@
+readelf -W --lto-syms --dwarf-start==1 --recurse-limit -wT -u -A -L -h -V -t -p 1 -d -c --dwarf-depth==1 -s -a  @@
+readelf -R 1 --lto-syms -g --dyn-syms --recurse-limit --ctf-symbols=.bss -ws -e -u -L -n -z -V -I -d --no-demangle --dwarf-depth==1 -s -a  @@
+readelf -W -R 1 -g -C --recurse-limit --ctf-symbols=.bss -e -A -z -V -T -I -r -s -a  @@
+readelf --lto-syms --dwarf-start==1 -C --dyn-syms --recurse-limit --ctf-symbols=.text -l -wm -e -u -L -n -h -z -T -I -p 1 -r --no-demangle --dwarf-depth==1 -S -s -a  @@
+readelf -W --lto-syms --dwarf-start==1 -g -C --dyn-syms -l -wm -e -L -h -D -z -V -T -I -t -p 1 -d -c -r --dwarf-depth==1 -a  @@
+readelf -W -R 1 -C --dyn-syms -u -A -h -z -d -c --ctf-parent=.text -S -s -a  @@
+readelf --lto-syms --recurse-limit -l -wA -e -u -L -n -h -z -V -I -p 1 -d -c --dwarf-depth==1 --ctf-parent=.bss -S -a  @@
+readelf -W --lto-syms --dwarf-start==1 --recurse-limit --ctf-symbols=.data -l -wg -e -u -A -n -h -z -V -r --no-demangle --dwarf-depth==1 -S -x 1 -a  @@
+readelf -W -R 1 --lto-syms --dwarf-start==1 -g --ctf-symbols=.text -l -wk -u -n -h -I --dwarf-depth==1 -a  @@
+readelf -W -R 1 --lto-syms --dwarf-start==1 --recurse-limit -wK -e -u -A -L -n -h -D -z -I -t --ctf-parent=.text -s -a  @@
+readelf -R 1 --lto-syms --dwarf-start==1 -C --dyn-syms --recurse-limit -l -wU -e -u -V -I -d -c --no-demangle --ctf-parent=.text -S -a  @@
+readelf -W --lto-syms -C --dyn-syms -wi -u -L -n -h -z -T -t -p 1 -c --no-demangle --dwarf-depth==1 -a  @@
+readelf -W --ctf-symbols=.data -e -u -L -n -z -V -I -t -c -r -x 1 -s -a  @@
+readelf --dwarf-start==1 -C --dyn-syms --recurse-limit -l -wo -u -L -n -h -D -z -V -T -I -t -d -x 1 -a  @@
+readelf -W -g -C --dyn-syms --recurse-limit --ctf-symbols=.bss -l -wa -h -V -T -t -p 1 -d -c -r --no-demangle --dwarf-depth==1 -a  @@
+readelf -R 1 --dwarf-start==1 -g -C --dyn-syms --recurse-limit -l -wk -e -u -A -L -h -D -V -T -d -r --ctf-parent=.data -a  @@
+readelf -W --dwarf-start==1 -g --dyn-syms --ctf-symbols=.bss -l -wc -u -A -L -n -T -I -t -p 1 -d -c --dwarf-depth==1 -a  @@
+readelf --lto-syms --recurse-limit -l -A -n -T -t -d -r -x 1 -a  @@
+readelf --dwarf-start==1 -g -C -l -wO -u -A -L -n -D -T -t -d -r --dwarf-depth==1 --ctf-parent=.text -x 1 -s -a  @@
+readelf --ctf=.data -L -h -D -V -I -t -c -a  @@
+readelf -W --ctf=.data --dwarf-start==1 -g --ctf-symbols=.data -l -wA -L -D -I -t -c --no-demangle --dwarf-depth==1 -s -a  @@
+readelf -W --ctf=.data --dyn-syms --recurse-limit -l -D -z -T -I -t --ctf-parent=.bss -a  @@
+readelf --lto-syms -g -C --recurse-limit -l -e -u -n -V -I -t -d -r --no-demangle -x 1 -s  @@
+readelf -R 1 --dwarf-start==1 -g --dyn-syms -wg -e -n -h -z -V -t -r --dwarf-depth==1 -a  @@
+readelf --ctf=.data --dwarf-start==1 --dyn-syms --ctf-symbols=.bss -l -wl -e -L -D -z -T -I -t -a  @@
+readelf -W --dwarf-start==1 -g --dyn-syms --recurse-limit -l -wa -e -A -n -h -z -V -T -I -t -p 1 --dwarf-depth==1 --ctf-parent=.text -a  @@
+readelf -W --lto-syms -g -C --dyn-syms --recurse-limit --ctf-symbols=.text -l -e -u -A -D -z -T -t -r -x 1 -a  @@
+readelf -W --lto-syms --dwarf-start==1 -C --dyn-syms --recurse-limit --ctf-symbols=.text -l -wl -A -L -h -D -T -I -d -c -r --dwarf-depth==1 -S -x 1 -s -a  @@
+readelf -g --ctf-symbols=.bss -u -A -z -V -T -I -t -r --no-demangle -x 1 -a  @@
+readelf --dwarf-start==1 -g -C --dyn-syms --recurse-limit -l -wm -u -A -L -D -z -V -t -p 1 -d --dwarf-depth==1 --ctf-parent=.bss -s -a  @@
+readelf --lto-syms --dwarf-start==1 -g --recurse-limit --ctf-symbols=.bss -wL -u -A -z -I -p 1 -d -c -r --no-demangle --dwarf-depth==1 -a  @@
+readelf -W -R 1 -g -C --recurse-limit -wi -e -A -L -n -z -I -t --no-demangle --dwarf-depth==1 --ctf-parent=.bss -s -a  @@
+readelf -R 1 --lto-syms --dwarf-start==1 --dyn-syms --ctf-symbols=.data -l -wr -e -n -h -z -d -c --dwarf-depth==1 -s -a  @@
+readelf -R 1 --lto-syms --dwarf-start==1 --dyn-syms --ctf-symbols=.data -wc -u -A -L -n -c --no-demangle --dwarf-depth==1 -S -s -a  @@
+readelf --dwarf-start==1 -g --ctf-symbols=.bss -l -wA -u -L -n -z -V -T -I -t -p 1 -r -s -a  @@
+readelf -W --dyn-syms --recurse-limit --ctf-symbols=.data -l -ws -u -A -L -z -V -I -t -p 1 -d -r --no-demangle --dwarf-depth==1 -a  @@
+readelf -g --recurse-limit -z -t -d --no-demangle --ctf-parent=.bss -x 1 -s -a  @@
+readelf -W --lto-syms -C --dyn-syms -e -A -L -z -V -T -d -c --no-demangle --ctf-parent=.data -S -x 1 -s -a  @@
+readelf --lto-syms -C --dyn-syms --ctf-symbols=.bss -l -wR -e -u -A -L -D -z -V -t -p 1 -d -a  @@
+readelf -W -R 1 --lto-syms -g -C --dyn-syms --recurse-limit --ctf-symbols=.data -u -L -h -V -t -r --no-demangle -a  @@
+readelf --dyn-syms --ctf-symbols=.text -wl -L -n -z -t -p 1 -d --no-demangle --dwarf-depth==1 -s -a  @@
+readelf -R 1 --lto-syms -g -e -L -n -h -T -I -t -r --ctf-parent=.data -a  @@
+readelf -W --dwarf-start==1 -C -wT -e -u -A -h -D -z -T -t -c --dwarf-depth==1 --ctf-parent=.bss -x 1 -s -a  @@
+readelf --dwarf-start==1 -g --dyn-syms --ctf-symbols=.bss -wt -e -L -h -T -I -c -r --no-demangle --dwarf-depth==1 -x 1 -s -a  @@
+readelf -W --lto-syms --dwarf-start==1 -g -C --ctf-symbols=.text -l -wi -e -u -A -n -h -z -V -T -I -p 1 -d --no-demangle -s -a  @@
+readelf -W --dyn-syms -l -ws -u -h -z -V -T -I -t -p 1 -d -r --no-demangle --ctf-parent=.bss -s -a  @@
+readelf -R 1 --lto-syms -g -C -l -e -A -h -D -V -t -d -c -s -a  @@
+readelf -W -C --dyn-syms --ctf-symbols=.data -e -h -z -T -t -d --no-demangle -x 1 -s -a  @@
+readelf -W -g -C --dyn-syms -wA -e -u -A -L -z -T -t -p 1 -c --no-demangle --ctf-parent=.bss -a  @@
+readelf -C --dyn-syms --recurse-limit --ctf-symbols=.text -u -A -n -h -z -V -r --no-demangle -S -x 1 -s -a  @@
+readelf --lto-syms --dwarf-start==1 -g --recurse-limit --ctf-symbols=.data -l -wo -e -L -h -z -V -p 1 --no-demangle --dwarf-depth==1 -s -a  @@
+readelf --dyn-syms --recurse-limit --ctf-symbols=.bss -l -wc -u -A -h -c --dwarf-depth==1 -S -x 1 -s -a  @@
+readelf --lto-syms -g -wA -e -A -n -V -T -c --no-demangle --dwarf-depth==1 --ctf-parent=.bss -x 1 -a  @@
+readelf --ctf=.text --dwarf-start==1 -C --dyn-syms --recurse-limit --ctf-symbols=.data -l -ws -L -h -D -V -c --no-demangle -S -a  @@
+readelf --dwarf-start==1 --recurse-limit -wA -e -V -I -d -r --no-demangle --dwarf-depth==1 --ctf-parent=.text -S -x 1 -s -a  @@
+readelf --lto-syms --dwarf-start==1 -C --dyn-syms -l -ws -e -L -h -D -I -t -p 1 --ctf-parent=.text -s -a  @@
+readelf -W -R 1 --lto-syms --dwarf-start==1 --dyn-syms -l -wp -e -A -L -n -h -z -V -T --dwarf-depth==1 --ctf-parent=.data -S -s -a  @@
+readelf -W --lto-syms -g -C --ctf-symbols=.bss -wU -u -z -T -I -d --no-demangle --dwarf-depth==1 -x 1 -s -a  @@
+readelf --ctf=.text --dwarf-start==1 -wO -e -L -h -D -T --no-demangle --ctf-parent=.bss -S -s -a  @@
+readelf --lto-syms --dwarf-start==1 --dyn-syms -wc -u -h -z -T -I --no-demangle --ctf-parent=.text -S -x 1 -a  @@
+readelf -W -g --dyn-syms --ctf-symbols=.bss -l -n -h -T -I -t --no-demangle -x 1 -a  @@
+readelf -R 1 --lto-syms --ctf-symbols=.text -wc -u -A -L -n -z -I -d -r -S -s -a  @@
+readelf -W -R 1 --lto-syms --dwarf-start==1 -g -C --dyn-syms -l -wu -L -T -I -d -c --no-demangle --dwarf-depth==1 --ctf-parent=.bss -s -a  @@
+readelf -W --ctf=.text --ctf-symbols=.data -l -e -A -h -D -z -I -t -c --no-demangle -a  @@
+readelf -W --ctf=.text -C --dyn-syms --ctf-symbols=.data -L -h -D -z -T -t --no-demangle -s -a  @@
+readelf -W --ctf=.text -g -C --dyn-syms --ctf-symbols=.text -A -h -D -V -T -t --no-demangle -a  @@
+readelf -W --ctf=.text --dwarf-start==1 -g --ctf-symbols=.text -wr -A -D -t --no-demangle --dwarf-depth==1 -s -a  @@
+readelf -W --ctf=.bss --dwarf-start==1 -C --dyn-syms --ctf-symbols=.data -wm -e -A -L -h -D -z --no-demangle -S -a  @@
+readelf -R 1 -g -wm -e -A -h -V -T -t -r --no-demangle --dwarf-depth==1 --ctf-parent=.data -a  @@
+readelf --dwarf-start==1 -C -wL -e -A -D -I -t -d -c -x 1 -a  @@
+readelf -W -R 1 --dwarf-start==1 -g -C --dyn-syms --recurse-limit -l -wt -e -u -A -n -z -d -c -r --no-demangle --dwarf-depth==1 -s -a  @@
+readelf --ctf=.data -C --dyn-syms --recurse-limit --ctf-symbols=.data -e -L -D -z -I -c --no-demangle -S -s -a  @@
+readelf -C --recurse-limit -l -e -n -h -z -T -d -c --no-demangle --ctf-parent=.data -S -x 1 -s -a  @@
+readelf -W --lto-syms -g --recurse-limit -e -u -A -n -h -z -t -p 1 --ctf-parent=.bss -a  @@
+readelf -W -R 1 --dyn-syms --recurse-limit --ctf-symbols=.text -l -L -z -I -t -d -c --no-demangle -s -a  @@
+readelf --lto-syms -g -C --dyn-syms -u -L -n -D -z -V -t -p 1 --ctf-parent=.bss -s -a  @@
+readelf -W --ctf=.data --dyn-syms -l -wL -L -D -I -c --dwarf-depth==1 --ctf-parent=.text -S -s -a  @@
+readelf -R 1 -g -C --dyn-syms -l -u -L -n -t --no-demangle -a  @@
+readelf -R 1 --lto-syms -g -C --ctf-symbols=.data -wc -e -u -D -T -t -d -c -r -a  @@
+readelf --ctf=.data -g --recurse-limit --ctf-symbols=.data -l -L -D -T -t -c -a  @@
+readelf -g -C --ctf-symbols=.data -wl -L -h -z -V -T -c -r --no-demangle --dwarf-depth==1 -x 1 -a  @@
+readelf -W --dyn-syms --recurse-limit -l -u -A -L -n -z -T -d -c --no-demangle --ctf-parent=.bss -S -x 1 -s -a  @@
+readelf --lto-syms --ctf-symbols=.bss -l -e -L -h -T -I -t -p 1 -r -a  @@
+readelf --ctf=.text -g -l -A -L -D -V -T -c --no-demangle --ctf-parent=.bss -s -a  @@
+readelf -R 1 -g -C --dyn-syms -e -u -A -L -h -I -d -c -r --no-demangle --ctf-parent=.text -s -a  @@
+readelf -W --dwarf-start==1 --dyn-syms -l -wO -e -A -n -h -z -T -I --dwarf-depth==1 --ctf-parent=.bss -S -x 1 -s -a  @@
+readelf -R 1 --dwarf-start==1 -g --recurse-limit -wu -u -L -n -h -z -V -T -c -r --no-demangle --dwarf-depth==1 --ctf-parent=.data -a  @@
+readelf -W --ctf=.data --dwarf-start==1 -g --recurse-limit --ctf-symbols=.text -wt -A -h -D -z -V -T -I -c --dwarf-depth==1 -s -a  @@
+readelf -W -R 1 --dwarf-start==1 -g --dyn-syms -wo -e -u -n -t -d --no-demangle --ctf-parent=.bss -a  @@
+readelf -W --ctf=.data --dwarf-start==1 --recurse-limit -wc -D -z -c --no-demangle --dwarf-depth==1 --ctf-parent=.bss -S -a  @@
+readelf -W --lto-syms -g --dyn-syms -e -u -A -n -I -d -r --no-demangle --ctf-parent=.bss -x 1 -a  @@
+readelf --ctf=.data --dwarf-start==1 --dyn-syms -wR -A -h -D -z -T --no-demangle --dwarf-depth==1 -S -a  @@
+readelf -W --lto-syms --recurse-limit -wa -e -L -n -z -T -r --no-demangle -S -x 1 -a  @@
+readelf -g -C --ctf-symbols=.text -l -e -n -z -V -T -t -p 1 --no-demangle -s -a  @@
+readelf -W -C --recurse-limit -e -A -n -z -T -I -d -c -r --no-demangle --ctf-parent=.text -S -x 1 -a  @@
+readelf --lto-syms -C --dyn-syms --ctf-symbols=.text -l -A -L -n -h -D -T -d -c -r -S -x 1 -s -a  @@
+readelf --lto-syms -C --dyn-syms --ctf-symbols=.data -l -n -h -D -V -I -t -p 1 -d -c -r  @@
+readelf --lto-syms -C --dyn-syms --recurse-limit -l -wR -e -u -A -L -n -h -D -V -T -I -t -r --no-demangle --dwarf-depth==1 --ctf-parent=.bss -x 1 -s -a  @@
+readelf -R 1 --dwarf-start==1 --dyn-syms -wo -e -A -L -h -T -I -c -r --no-demangle --dwarf-depth==1 --ctf-parent=.text -S -s -a  @@
+readelf --ctf=.data --dwarf-start==1 -g -C --dyn-syms --ctf-symbols=.data -wg -A -L -D -T -c --no-demangle --dwarf-depth==1 -a  @@
+readelf --lto-syms --dwarf-start==1 -g -C --recurse-limit --ctf-symbols=.data -wt -u -L -n -D --dwarf-depth==1 -x 1 -a  @@
+readelf --ctf=.data -C --ctf-symbols=.bss -wT -D -z -V -c --no-demangle --dwarf-depth==1 -s -a  @@
+readelf --dwarf-start==1 -C --ctf-symbols=.bss -wg -A -L -h -V -I -p 1 -c --no-demangle --dwarf-depth==1 -S -a  @@
+readelf --lto-syms --dyn-syms --recurse-limit --ctf-symbols=.data -l -n -h -V -T -I -p 1 -c -r -S -s -a  @@
+readelf --lto-syms -C --dyn-syms --recurse-limit --ctf-symbols=.bss -l -A -n -p 1 -c --no-demangle -S -a  @@
+readelf -W -R 1 -g -C --ctf-symbols=.bss -l -wT -e -u -n -D -z -V -T -t -c --dwarf-depth==1 -a  @@
+readelf --ctf=.text --dwarf-start==1 -g --dyn-syms --recurse-limit --ctf-symbols=.text -l -wi -e -L -D -T -c -s -a  @@
+readelf -W --dyn-syms --recurse-limit --ctf-symbols=.bss -l -e -u -n -z -V -T -I -d -r --no-demangle -x 1 -a  @@
+readelf -C --ctf-symbols=.data -e -u -h -D -z -I -t -p 1 -d -c -r -s -a  @@
+readelf -W -g --recurse-limit --ctf-symbols=.text -e -u -A -V -t -p 1 -d -c -r -a  @@
+readelf -W -R 1 --lto-syms -g --ctf-symbols=.data -e -u -A -L -z -V -I -d -c -r -s -a  @@
+readelf -W --lto-syms --dyn-syms --recurse-limit -l -e -A -n -h -T -I -S -x 1 -a  @@
+readelf -W -R 1 --dwarf-start==1 -C --ctf-symbols=.text -l -wr -A -L -n -T -d -c -r --no-demangle -S -s -a  @@
+readelf --lto-syms -C --recurse-limit -l -wg -u -L -z -V -T -p 1 --no-demangle --dwarf-depth==1 -S -a  @@
+readelf -R 1 --lto-syms -C --dyn-syms --recurse-limit -u -z -T -I -c -r --no-demangle -S -a  @@
+readelf --lto-syms -g -C --recurse-limit --ctf-symbols=.data -e -L -V -T -p 1 -d -c -r --no-demangle -a  @@
+readelf -W -R 1 --lto-syms -C --dyn-syms --ctf-symbols=.bss -e -n -h -D -z -t -d -r -s -a  @@
+readelf -W --ctf=.data --dwarf-start==1 --dyn-syms --ctf-symbols=.data -wU -e -L -h -D -z -V -I -c -S -a  @@
+readelf -W --recurse-limit --ctf-symbols=.text -n -V -t -p 1 -d -c -r --no-demangle -s -a  @@
+readelf -W --lto-syms --dyn-syms --recurse-limit --ctf-symbols=.text -e -A -L -n -h -z -V -p 1 -d --no-demangle -S -s -a  @@
+readelf -W --lto-syms -C --dyn-syms -l -A -L -n -D -z -t -p 1 -d -r --ctf-parent=.bss -s -a  @@
+readelf -W --lto-syms --dwarf-start==1 --dyn-syms -wA -A -L -z -V -T -I -p 1 --no-demangle --dwarf-depth==1 --ctf-parent=.bss -S -a  @@
+readelf -W --ctf=.bss --dyn-syms --ctf-symbols=.text -l -e -D -V -T -I -S -s -a  @@
+readelf -W --ctf=.data --dwarf-start==1 --dyn-syms --recurse-limit --ctf-symbols=.bss -wg -A -h -D -V -T --no-demangle --dwarf-depth==1 -S -a  @@
+readelf -R 1 --lto-syms --dyn-syms --ctf-symbols=.text -l -u -L -V -d -S -a  @@
+readelf -W --lto-syms -g --dyn-syms --recurse-limit -A -n -z -T -I -p 1 -d -r --no-demangle --ctf-parent=.data -s -a  @@
+readelf -wm -u -A -n -z -T -I -p 1 -c -r --no-demangle --dwarf-depth==1 --ctf-parent=.text -S -s -a  @@
+readelf -W --lto-syms --dwarf-start==1 --dyn-syms --recurse-limit --ctf-symbols=.bss -wg -e -T -I -p 1 -d --no-demangle -S -s -a  @@
+readelf -W --ctf=.text -g -C --dyn-syms --recurse-limit --ctf-symbols=.bss -l -e -h -D -T -I -c --no-demangle -a  @@
+readelf -W --lto-syms --dyn-syms --ctf-symbols=.text -u -A -c --no-demangle -x 1 -s -a  @@
+readelf -W -R 1 --dwarf-start==1 -C --dyn-syms --ctf-symbols=.data -l -wi -e -h -z -V -I -d --no-demangle --dwarf-depth==1 -S -a  @@
+readelf -W -C --dyn-syms -e -u -n -h -I -t -p 1 -r --no-demangle -a  @@
+readelf -R 1 --lto-syms -C --dyn-syms -A -n -V -T -I -r --no-demangle --ctf-parent=.bss -S -a  @@
+readelf -W --lto-syms -C --dyn-syms --recurse-limit -l -e -u -n -h -D -z -I -d --ctf-parent=.bss -S -x 1 -a  @@
+readelf -W --lto-syms --dwarf-start==1 -C --dyn-syms -l -wl -u -L -h -D -V -I -t -d -c --no-demangle --dwarf-depth==1 --ctf-parent=.data -x 1 -s -a  @@
+readelf -W --dwarf-start==1 --dyn-syms --recurse-limit -wU -e -u -A -L -h -I -p 1 -c -r --no-demangle --dwarf-depth==1 --ctf-parent=.bss -a  @@
+readelf -W --dwarf-start==1 --dyn-syms --recurse-limit -wu -e -u -A -z -V -I -p 1 -c -r --dwarf-depth==1 --ctf-parent=.text -S -a  @@
+readelf -R 1 --lto-syms -g -C --dyn-syms -wT -e -A -L -n -D -z -I -t -d -c -r --no-demangle --dwarf-depth==1 -s -a  @@
+readelf -W --dwarf-start==1 --dyn-syms --recurse-limit -l -wu -u -L -h -z -I -p 1 -d -r --ctf-parent=.bss -S -s -a  @@
+readelf --lto-syms --dyn-syms --recurse-limit --ctf-symbols=.data -l -e -u -L -n -h -D -z -t -d -r --no-demangle -x 1 -a  @@
+readelf --lto-syms --dwarf-start==1 -C --recurse-limit -wO -e -u -A -n -z -I -d -c -r -S -a  @@
+readelf -R 1 --ctf-symbols=.text -L -n -z -V -I -c --no-demangle -S -s -a  @@
+readelf -W -R 1 --lto-syms -C -l -wp -e -u -A -L -h -D -z -V -I -r --dwarf-depth==1 --ctf-parent=.data -S -a  @@
+readelf --lto-syms --dwarf-start==1 --dyn-syms --recurse-limit -l -wk -e -u -A -L -h -V -c -r --dwarf-depth==1 --ctf-parent=.bss -S -s -a  @@
+readelf --dwarf-start==1 -g -C --recurse-limit -wk -u -D -z -T -I -t -p 1 -d -c --no-demangle --ctf-parent=.text -a  @@
+readelf -R 1 --lto-syms --dwarf-start==1 -g -wK -A -n -D -T -r --no-demangle --dwarf-depth==1 --ctf-parent=.data -a  @@
+readelf -W -C -wi -u -A -L -n -D -z -T -I -c -r --dwarf-depth==1 --ctf-parent=.bss -S -x 1 -a  @@
+readelf -W --lto-syms --dwarf-start==1 -g -C -l -wr -e -A -L -h -D -d --dwarf-depth==1 -x 1 -a  @@
+readelf -W -R 1 --lto-syms --recurse-limit --ctf-symbols=.data -l -e -L -h -z -V -d -r -S -a  @@
+readelf -R 1 --lto-syms --dyn-syms -l -L -V -T -I -c --ctf-parent=.text -S -a  @@
+readelf -C -l -wK -A -L -n -h -D -z -T -p 1 -d -r --no-demangle --dwarf-depth==1 --ctf-parent=.bss -S -a  @@
+readelf -W --lto-syms --recurse-limit -L -I -d -r --ctf-parent=.bss -S -x 1 -a  @@
+readelf -W --lto-syms --dwarf-start==1 --dyn-syms -wk -e -A -n -D -T -I -t -p 1 -r --no-demangle --ctf-parent=.data -a  @@
+readelf -W --ctf=.text -C --dyn-syms --ctf-symbols=.bss -wu -e -A -h -D -c --no-demangle -S -a  @@
+readelf --dyn-syms -e -u -z -T -c --no-demangle -S -x 1 -a  @@
+readelf -R 1 --lto-syms -g --dyn-syms --recurse-limit --ctf-symbols=.bss -e -u -A -n -h -D -V -I -t -d -c -r --no-demangle -a  @@
+readelf --lto-syms --dyn-syms --ctf-symbols=.bss -l -e -A -n -V -T -I -d -r --no-demangle -S -x 1 -s  @@
+readelf -W -R 1 --dyn-syms --recurse-limit --ctf-symbols=.data -l -e -u -A -n -z -V -T -c -S -a  @@
+readelf --dyn-syms --ctf-symbols=.data -l -e -h -p 1 -d -c -r --no-demangle -S -a  @@
+readelf -W -g -C --recurse-limit -l -A -n -h -D -V -I -t -p 1 -d -r --ctf-parent=.data -s  @@
+readelf -R 1 -g --recurse-limit --ctf-symbols=.text -l -u -n -h -V -d -s -a  @@
+readelf -R 1 --lto-syms --dwarf-start==1 -g --recurse-limit -l -wu -e -A -L -n -D -V -I -t -d -r --dwarf-depth==1 --ctf-parent=.text -a  @@
+readelf -W --dwarf-start==1 --recurse-limit --ctf-symbols=.bss -l -wA -u -A -L -n -h -p 1 -d -r --dwarf-depth==1 -S -a  @@
+readelf -W --lto-syms -l -wt -e -u -n -h -D -z -T -I -t -d -c -r --dwarf-depth==1 -x 1 -s -a  @@
+readelf -R 1 --dwarf-start==1 -C --recurse-limit --ctf-symbols=.data -l -wl -A -L -n -h -D -z -V -T -r --dwarf-depth==1 -S -s -a  @@
+readelf --ctf=.text -g --ctf-symbols=.data -L -h -D -I -s -a  @@
+readelf --lto-syms --dwarf-start==1 -g -C --dyn-syms -l -wa -u -h -D -V -T -t -r --no-demangle --ctf-parent=.text -x 1 -s -a  @@
+readelf -W --ctf=.text --ctf-symbols=.text -wi -A -L -D -z -I --no-demangle -S -s -a  @@
+readelf --dwarf-start==1 --dyn-syms -ws -e -A -T -I -p 1 -d -c -r --ctf-parent=.data -S -a  @@
+readelf -W --lto-syms --dwarf-start==1 --dyn-syms --recurse-limit --ctf-symbols=.data -l -wL -e -u -A -L -D -z -V -T -I -d -c -r --no-demangle --dwarf-depth==1 -S -x 1 -s -a  @@
+readelf -W --lto-syms -g -C -wR -u -L -n -D -V -p 1 -d -c -r --dwarf-depth==1 --ctf-parent=.text -s -a  @@
+readelf -g -C --ctf-symbols=.bss -e -u -L -h -z -T -I -t -d -c -r -s -a  @@
+readelf --dwarf-start==1 -C --recurse-limit -wc -e -u -n -h -D -z -V -T -p 1 -d -c -r -S -s -a  @@
+readelf -W --lto-syms --recurse-limit --ctf-symbols=.bss -l -u -A -V -p 1 -d -r -S -s -a  @@
+readelf -W -R 1 --lto-syms --dwarf-start==1 -C --recurse-limit --ctf-symbols=.text -l -wc -u -h -D -z -T -I -t -d -c -r --no-demangle --dwarf-depth==1 -s -a  @@
+readelf -W --lto-syms --dyn-syms --recurse-limit -e -n -V -T -I -p 1 -c -S -a  @@
+readelf -g --ctf-symbols=.data -l -u -A -n -T -I -p 1 -d -c -r -a  @@
+readelf --lto-syms --dwarf-start==1 -g -wc -A -D -V -I -t -c -r -x 1 -a  @@
+readelf -W --lto-syms --dwarf-start==1 -C --dyn-syms -l -ws -A -D -z -V -p 1 -c -r --ctf-parent=.data -S -a  @@
+readelf -W -R 1 --lto-syms -C --dyn-syms --recurse-limit -u -A -L -n -D -T -I -d --ctf-parent=.bss -S -s -a  @@
+readelf --lto-syms --dwarf-start==1 --recurse-limit -l -wk -e -A -L -h -D -V -T -I -p 1 -r --no-demangle --ctf-parent=.bss -S -a  @@
+readelf -W --lto-syms --dwarf-start==1 -C --dyn-syms --recurse-limit --ctf-symbols=.data -l -ws -h -D -I -p 1 -d -r --dwarf-depth==1 -s -a  @@
+readelf -R 1 --lto-syms -C --dyn-syms -l -wi -e -L -n -h -D -V -t -c --no-demangle --ctf-parent=.bss -a  @@
+readelf -R 1 -g --recurse-limit -l -L -h -z -I -d -a  @@
+readelf -W -g -l -wt -A -T -I -p 1 -d -c --dwarf-depth==1 --ctf-parent=.text -s -a  @@
+readelf -W --lto-syms -g -l -wa -D -z -V -I -t -d -c -r --no-demangle --dwarf-depth==1 -x 1 -s -a  @@
+readelf --dwarf-start==1 -C --ctf-symbols=.data -wo -e -u -D -V -I -p 1 -d -r --dwarf-depth==1 -S -a  @@
+readelf -R 1 --lto-syms -C --ctf-symbols=.text -A -n -h -D -z -d -S -a  @@
+readelf -W --dwarf-start==1 -C --dyn-syms --recurse-limit -wt -e -L -n -h -D -V -T -p 1 -r --dwarf-depth==1 --ctf-parent=.text -S -s -a  @@
+readelf -W --ctf=.data --dyn-syms --ctf-symbols=.bss -A -D -V -T -I -s -a  @@
+readelf -W -C --dyn-syms -A -n -z -V -I -p 1 -d -c --no-demangle -S -a  @@
+readelf --dwarf-start==1 -g -C --dyn-syms --recurse-limit -wm -u -L -n -D -z -I -t -p 1 -d -c -r --no-demangle --dwarf-depth==1 -a  @@
+readelf -W -R 1 --dyn-syms --recurse-limit -L -n -z -T -d -r --no-demangle --ctf-parent=.text -S -a  @@
+readelf -R 1 --lto-syms --dwarf-start==1 --dyn-syms --ctf-symbols=.text -wp -e -u -L -D -V -I -t -d -r -s -a  @@
+readelf -W --lto-syms -e -L -h -p 1 -c -r --ctf-parent=.data -S -a  @@
+readelf -W --lto-syms -g -l -wp -u -A -L -D -t -d -c -r --dwarf-depth==1 --ctf-parent=.data -x 1 -a  @@
+readelf -R 1 -C --recurse-limit --ctf-symbols=.bss -e -u -A -h -D -z -V -I -S -s -a  @@
+readelf --lto-syms -g -C --dyn-syms -l -L -D -t -r --no-demangle -x 1 -s -a  @@
+readelf --lto-syms -C -e -n -h -D -z -I -p 1 --ctf-parent=.data -S -a  @@
+readelf -W -R 1 --lto-syms --dwarf-start==1 -g --dyn-syms --recurse-limit -wc -n -h -D -z -V -T -I -t -r --no-demangle --ctf-parent=.data -s -a  @@
+readelf -W --lto-syms -g --dyn-syms -wr -L -D -z -I -t -c --dwarf-depth==1 --ctf-parent=.data -x 1 -s -a  @@
+readelf -W --dwarf-start==1 -wt -e -u -A -n -z -p 1 -d -r --ctf-parent=.bss -a  @@
+readelf -W --lto-syms -C -l -A -L -h -D -V -T -I -t -c --no-demangle -x 1 -s -a  @@
+readelf -W -R 1 --lto-syms --dwarf-start==1 -g -C --dyn-syms --recurse-limit -l -wm -A -L -n -h -D -T -t -d --no-demangle --dwarf-depth==1 -a  @@
+readelf --lto-syms --recurse-limit -wL -e -h -D -V -T -I -t -r --ctf-parent=.text -x 1 -s -a  @@
+readelf -R 1 --lto-syms -g --recurse-limit --ctf-symbols=.bss -l -u -A -n -D -I -t -c -r -s -a  @@
+readelf -W -R 1 --lto-syms --recurse-limit --ctf-symbols=.data -l -wi -e -A -n -h -D -V -T -I -t -d -r --dwarf-depth==1 -a  @@
+readelf --dwarf-start==1 -g --ctf-symbols=.bss -wp -u -A -n -D -z -V -T -I -t -d -x 1 -s -a  @@
+readelf -W -g --dyn-syms -l -e -u -n -h -D -V -T -t -d -c -r --ctf-parent=.bss -x 1 -s -a  @@
+readelf -R 1 --lto-syms -g --dyn-syms --ctf-symbols=.bss -wL -e -u -A -L -D -V -T -I -t --no-demangle -s -a  @@
+readelf -W -g -C --recurse-limit --ctf-symbols=.text -wT -A -n -h -D -I -t -d -c --no-demangle --dwarf-depth==1 -x 1 -a  @@
+readelf -R 1 --dwarf-start==1 --dyn-syms --recurse-limit -l -wm -e -L -n -V -T -I -t -d -c -r --ctf-parent=.bss  @@
+readelf -W --lto-syms -g --recurse-limit -e -A -D -z -V -I -t -c --no-demangle --ctf-parent=.bss -x 1 -a  @@
+readelf -g --dyn-syms --recurse-limit --ctf-symbols=.bss -l -A -D -V -T -I -t -d -c -r -x 1 -s -a  @@
+readelf --lto-syms -g -C --dyn-syms -l -e -u -A -n -D -t -p 1 -d -c --no-demangle -a  @@
+readelf -W -R 1 -n -h -V -I -d -r --ctf-parent=.text -S -s -a  @@
+readelf --lto-syms --dwarf-start==1 --recurse-limit -l -wu -e -u -n -D -c -r --ctf-parent=.bss -S -x 1 -s -a  @@
+readelf --lto-syms --dwarf-start==1 --dyn-syms --recurse-limit --ctf-symbols=.data -wa -e -n -h -D -t -p 1 --no-demangle --dwarf-depth==1 -a  @@
+readelf -W --lto-syms -g -C --ctf-symbols=.data -A -L -h -D -z -I -p 1 -r -s -a  @@
+readelf --dwarf-start==1 -g -C --dyn-syms --ctf-symbols=.text -l -wr -u -L -h -D -T -t -p 1 -d -c --no-demangle --dwarf-depth==1 -s -a  @@
+readelf -W --dwarf-start==1 -g --recurse-limit -ws -n -h -D -z -T -t -r --no-demangle --dwarf-depth==1 --ctf-parent=.bss -x 1 -s -a  @@
+readelf -W -C --dyn-syms --ctf-symbols=.text -A -L -D -z -V -d -S -x 1 -a  @@
+readelf --dyn-syms -A -L -h -z -T -p 1 -S -s -a  @@
+readelf --dwarf-start==1 -g -C --dyn-syms --recurse-limit -wi -e -L -n -D -z -V -I -d -c --no-demangle --ctf-parent=.text -x 1 -a  @@
+readelf -W --lto-syms -g --ctf-symbols=.text -wt -A -n -h -D -z -V -t -p 1 -d -c -r --no-demangle --dwarf-depth==1 -a  @@
+readelf -W -R 1 --lto-syms --dwarf-start==1 --recurse-limit --ctf-symbols=.text -wk -A -D -z -V -T -d --no-demangle -S -a  @@
+readelf -W -z -T -I -p 1 -d -c -r --ctf-parent=.data -S -a  @@
+readelf -R 1 --dwarf-start==1 -g --ctf-symbols=.data -wA -u -A -L -n -D -z -I -t -d -c -a  @@
+readelf -W --lto-syms -C --dyn-syms --ctf-symbols=.bss -l -e -L -h -D -V -T -p 1 -d -a  @@
+readelf -W -R 1 --lto-syms --dwarf-start==1 --dyn-syms --recurse-limit -wL -e -u -n -h -D -z -V -T -I -d -c -r --no-demangle --dwarf-depth==1 --ctf-parent=.bss -S -s -a  @@
+readelf -W -C --recurse-limit -e -h -D -z -c --ctf-parent=.bss -S -x 1 -a  @@
+readelf --lto-syms --dwarf-start==1 -g --recurse-limit -l -wL -A -L -h -D -r --no-demangle --dwarf-depth==1 --ctf-parent=.text -x 1 -s -a  @@
+readelf -W -g --ctf-symbols=.data -l -u -A -L -n -h -D -z -V -I -t -d -r --no-demangle -x 1 -a  @@
+readelf -W -R 1 -C -l -wi -L -D -z -T -c -r --dwarf-depth==1 -S -a  @@
+readelf -g -C --dyn-syms --recurse-limit -l -L -h -D -I -p 1 -d -a  @@
+readelf --lto-syms --dwarf-start==1 -g --recurse-limit --ctf-symbols=.data -wu -e -A -L -n -D -T -I -t -p 1 -s -a  @@
+readelf -g --recurse-limit --ctf-symbols=.text -l -ws -e -u -L -n -D -I -t -p 1 -r --no-demangle --dwarf-depth==1 -a  @@
+readelf -R 1 --lto-syms --dyn-syms --recurse-limit --ctf-symbols=.data -wg -L -h -D -T -I -t -c --dwarf-depth==1 -a  @@
+readelf -R 1 -g -C --dyn-syms -l -e -A -L -D -T -c --ctf-parent=.text -a  @@
+readelf -W -R 1 --lto-syms -g -C --dyn-syms --recurse-limit -A -n -D -z -t -c -r --no-demangle --ctf-parent=.text -s -a  @@
+readelf --lto-syms --dwarf-start==1 --dyn-syms --recurse-limit -l -wa -e -u -n -h -D -z -V -p 1 -c --dwarf-depth==1 --ctf-parent=.text -S -s -a  @@
+readelf --lto-syms -C --ctf-symbols=.bss -e -A -L -n -D -z -T -I -t -p 1 -c -r --no-demangle -a  @@
+readelf -W --lto-syms --dwarf-start==1 -g -C --recurse-limit -wp -n -h -D -z -V -T -I -d -c -r --no-demangle -x 1 -a  @@
+readelf -W --lto-syms --ctf-symbols=.data -u -L -D -V -T -t -c -r --no-demangle -x 1 -a  @@
+readelf -W -g --ctf-symbols=.data -l -wU -A -D -I -t -c -r --no-demangle --dwarf-depth==1 -x 1 -s -a  @@
+readelf -W -R 1 --lto-syms -g -C --recurse-limit -u -L -h -D -z -V -T -t -d --no-demangle --ctf-parent=.bss -a  @@
+readelf -W --lto-syms -C --recurse-limit -e -n -D -z -V -T -I -t -p 1 -c -r --no-demangle --ctf-parent=.bss -a  @@
+readelf --lto-syms -g -C --dyn-syms --recurse-limit -ws -e -u -A -n -h -D -T -I -p 1 -d -c --no-demangle --dwarf-depth==1 --ctf-parent=.data -s -a  @@
+readelf -R 1 --dwarf-start==1 -C --recurse-limit --ctf-symbols=.bss -wc -e -u -A -L -D -z -T -t -r --no-demangle --dwarf-depth==1 -a  @@
+readelf -W -R 1 -g -C --dyn-syms --recurse-limit --ctf-symbols=.data -n -D -V -T -d -c -a  @@
+readelf --dwarf-start==1 -C --dyn-syms --ctf-symbols=.text -wm -e -u -A -L -D -I -c -r --no-demangle -S -x 1 -a  @@
+readelf -W --lto-syms -g -C --dyn-syms --recurse-limit -l -wT -e -u -A -L -n -D -z -T -I -p 1 -d -c -r --no-demangle --ctf-parent=.bss -a  @@
+readelf -R 1 -g -C --recurse-limit --ctf-symbols=.bss -e -u -h -D -z -V -I -t --no-demangle -s -a  @@
+readelf --lto-syms -C --dyn-syms -L -n -h -z -T -c -r --ctf-parent=.bss -S -a  @@
+readelf --dwarf-start==1 -C --dyn-syms --ctf-symbols=.data -wt -u -n -h -D -z -I -d --no-demangle --dwarf-depth==1 -S -x 1 -s -a  @@
+readelf --lto-syms -C -l -wA -e -D -V -d -r --no-demangle --dwarf-depth==1 --ctf-parent=.data -x 1 -s -a  @@
+readelf -W -R 1 --dwarf-start==1 -g -C -l -wr -h -D -z -V -T -I -t -c -r --no-demangle -s -a  @@
+readelf -W --lto-syms --dwarf-start==1 -l -wR -A -L -n -h -D -z -d -c --no-demangle --ctf-parent=.data -S -x 1 -s -a  @@
+readelf -W --dwarf-start==1 --recurse-limit --ctf-symbols=.bss -l -wL -A -L -n -h -D -z -T -I -t -p 1 -c -r -a  @@
+readelf --dwarf-start==1 --dyn-syms -l -wr -e -A -n -h -D -T -I -d -c --no-demangle --ctf-parent=.data -S -x 1 -s -a  @@
+readelf -R 1 -g --dyn-syms -l -A -L -D -z -I -t -d -r --ctf-parent=.text -s -a  @@
+readelf -W --lto-syms --dwarf-start==1 --recurse-limit -l -wo -e -L -n -h -D -z -V -T -d --no-demangle -S -x 1 -a  @@
+readelf -R 1 -g -e -u -A -n -D -z -V -T -t -d -r --no-demangle --ctf-parent=.text -s -a  @@
+readelf --lto-syms --dwarf-start==1 --dyn-syms --recurse-limit --ctf-symbols=.text -wp -e -n -D -z -p 1 -d -c -r --dwarf-depth==1 -S -a  @@
+readelf --lto-syms -C --ctf-symbols=.text -wp -u -A -D -T -I -d -c --no-demangle --dwarf-depth==1 -x 1 -a  @@
+readelf -W --lto-syms --dwarf-start==1 --ctf-symbols=.data -l -wU -e -n -D -V -I -r --no-demangle --dwarf-depth==1 -S -x 1 -s -a  @@
+readelf -W -R 1 -g -C --dyn-syms --ctf-symbols=.text -l -e -L -n -h -D -I -t -d -r --no-demangle -a  @@
+readelf -W -g -l -e -u -A -L -n -h -D -V -T -t -p 1 -c --no-demangle -s -a  @@
+readelf -W -R 1 --lto-syms --dwarf-start==1 --recurse-limit --ctf-symbols=.bss -l -wT -e -u -L -h -D -V -c --no-demangle --dwarf-depth==1 -S -s -a  @@
+readelf -R 1 -g --dyn-syms -e -u -h -D -z -T -I -t -c --ctf-parent=.text -s -a  @@
+readelf -g --dyn-syms --recurse-limit -l -wp -u -A -L -D -z -V -T -c --ctf-parent=.bss -x 1 -s -a  @@
+readelf -g --recurse-limit -wk -e -A -D -z -T -p 1 -d -r --dwarf-depth==1 -a  @@
+readelf -W --lto-syms -g -C --dyn-syms -l -u -L -h -D -z -V -d -r --no-demangle --ctf-parent=.text -x 1 -a  @@
+readelf -W --lto-syms --dwarf-start==1 --dyn-syms --recurse-limit -l -wo -A -n -D -V -T -I -p 1 -d -c -r --no-demangle --ctf-parent=.bss -S -a  @@
+readelf --lto-syms --dyn-syms --recurse-limit --ctf-symbols=.text -l -wa -e -u -L -D -V -T -I -p 1 -d -c -r -S -a  @@
+readelf -W -R 1 --dwarf-start==1 --ctf-symbols=.text -l -wp -e -L -h -D -T -I -t -d --no-demangle --dwarf-depth==1 -a  @@
+readelf -g -C -l -e -A -h -D -I -t -p 1 -d --no-demangle --ctf-parent=.bss -a  @@
+readelf -R 1 --lto-syms --dwarf-start==1 -C --recurse-limit --ctf-symbols=.text -wO -e -u -A -V -T -I -t -d -r --no-demangle --dwarf-depth==1 -s  @@
+readelf -W -R 1 --dwarf-start==1 -g --recurse-limit -l -wa -D -T -t -d -c --ctf-parent=.data -s -a  @@
+readelf --lto-syms -g -l -e -h -D -z -I -p 1 -d -c -r --no-demangle --ctf-parent=.text -s -a  @@
+readelf -W -R 1 --lto-syms -g -C --dyn-syms -l -u -A -L -n -D -z -V -I -c -r --no-demangle --ctf-parent=.bss -a  @@
+readelf -W --dwarf-start==1 --dyn-syms --recurse-limit -l -wO -u -A -n -D -z -V -I --no-demangle --dwarf-depth==1 --ctf-parent=.data -S -x 1 -a  @@
+readelf -W --lto-syms -g --dyn-syms --ctf-symbols=.text -l -u -D -z -V -I -t -p 1 -d -a  @@
+readelf -W --dwarf-start==1 -g -C --ctf-symbols=.bss -wa -e -u -A -D -V -t -p 1 -r --no-demangle -s -a  @@
+readelf -g --dyn-syms -e -A -L -D -z -t -p 1 -r --no-demangle --ctf-parent=.bss -a  @@
+readelf -R 1 --dyn-syms --ctf-symbols=.data -u -L -n -h -D -V -T -t -r --no-demangle -s -a  @@
+readelf -R 1 --lto-syms -g --recurse-limit -l -L -D -z -V -T -I -d -c -r --no-demangle --ctf-parent=.bss -s -a  @@
+readelf --dwarf-start==1 --recurse-limit -ws -e -u -L -D -V -T -I -d --no-demangle --dwarf-depth==1 --ctf-parent=.bss -S -x 1 -a  @@
+readelf -R 1 -C --dyn-syms --ctf-symbols=.text -l -ws -u -n -D -z -V -d -c --no-demangle --dwarf-depth==1 -S -a  @@
+readelf -R 1 --lto-syms -C --ctf-symbols=.text -l -e -u -A -L -D -z -V --no-demangle -S -s -a  @@
+readelf --lto-syms --recurse-limit -n -D -z -V -r --no-demangle --ctf-parent=.data -S -x 1 -a  @@
+readelf -W -g --dyn-syms --recurse-limit --ctf-symbols=.bss -L -n -h -D -z -V -T -I -t -p 1 -c -a  @@
+readelf --ctf-symbols=.text -l -u -A -L -h -D -z -I -c -x 1 -s -a  @@
+readelf -W --lto-syms -g --ctf-symbols=.bss -l -e -A -L -n -D -z -T -d --no-demangle -x 1 -a  @@
+readelf -W --lto-syms -g --dyn-syms --ctf-symbols=.data -l -e -n -h -D -V -c -r -x 1 -a  @@
+readelf -R 1 --dyn-syms --ctf-symbols=.text -wu -e -u -n -h -D -z -I -d -r --dwarf-depth==1 -S -s -a  @@
+readelf -W --dwarf-start==1 --recurse-limit --ctf-symbols=.bss -wm -L -D -z -V -d -c -r --dwarf-depth==1 -S -x 1 -s -a  @@
+readelf -g -C -l -u -h -D -I -c --no-demangle --ctf-parent=.data -x 1 -s -a  @@
+readelf -W -R 1 --recurse-limit -l -e -A -n -h -D -I -t -d -c -r -a  @@
+readelf --dyn-syms --recurse-limit -e -A -h -D -z -I -d -S -x 1 -s -a  @@
+readelf -W -C --recurse-limit --ctf-symbols=.data -u -h -D -z -T -I -d -c --no-demangle -S -x 1 -s -a  @@
+readelf -R 1 --lto-syms -C --recurse-limit --ctf-symbols=.data -l -u -n -h -D -T -I --no-demangle -S -s -a  @@
+readelf -R 1 --dwarf-start==1 -l -ws -u -A -h -D -V -T -I -d --no-demangle --dwarf-depth==1 --ctf-parent=.bss -S -s -a  @@
+readelf -W --lto-syms --ctf-symbols=.data -wO -e -u -A -L -n -D -V -T -p 1 -c --dwarf-depth==1 -S -a  @@
+readelf -C --recurse-limit --ctf-symbols=.bss -l -u -A -L -n -h -D -z -V -T -p 1 -d -r --no-demangle -S -s -a  @@
+readelf -W --lto-syms -g -C --ctf-symbols=.bss -l -wu -e -D -z -V -I -p 1 -c --no-demangle --dwarf-depth==1 -a  @@
+readelf -R 1 --recurse-limit -wr -u -L -h -D -V -c --no-demangle --dwarf-depth==1 --ctf-parent=.bss -S -a  @@
+readelf --lto-syms --dyn-syms --recurse-limit --ctf-symbols=.text -n -D -T -r -S -x 1 -s -a  @@
+readelf -W -R 1 --lto-syms -C --recurse-limit -l -wL -u -n -D -z -d --no-demangle --ctf-parent=.text -S -s -a  @@
+readelf -W -R 1 -C -u -L -h -D -T -I -t -r --no-demangle --ctf-parent=.data -a  @@
+readelf -W --lto-syms --dwarf-start==1 -wT -e -A -L -n -D -I -p 1 -d -r --no-demangle --dwarf-depth==1 -S -s -a  @@
+readelf --lto-syms -g --recurse-limit -l -u -L -h -D -V -T -I -p 1 -c --ctf-parent=.data -s -a  @@
+readelf -W --lto-syms --dwarf-start==1 --recurse-limit --ctf-symbols=.text -wF -L -z -T -I -c --dwarf-depth==1 -S -x 1  @@
+readelf -W --lto-syms -C -l -e -u -A -L -h -D -T -I -p 1 -d --no-demangle --ctf-parent=.text -S -a  @@
+readelf -R 1 --lto-syms -l -e -u -A -D -z -V -r --no-demangle -a  @@
+readelf -W --dyn-syms --recurse-limit -l -wt -A -n -h -D -z -V -T -p 1 -d -c --dwarf-depth==1 --ctf-parent=.text -s -a  @@
+readelf -R 1 --lto-syms --dyn-syms --ctf-symbols=.data -l -u -A -D -z -T -d -r --no-demangle -S -a  @@
+readelf --lto-syms --dwarf-start==1 -C --ctf-symbols=.data -wL -e -u -A -L -n -h -D -V -I -d -r --dwarf-depth==1 -S -s  @@
+readelf -W --lto-syms --recurse-limit -l -wO -e -A -L -n -z -d -c --no-demangle --dwarf-depth==1 --ctf-parent=.data -S -a  @@
+readelf -W --dwarf-start==1 --dyn-syms --ctf-symbols=.data -wa -e -L -n -h -D -z -V -T -I -p 1 -d -c -r --no-demangle -S  @@
+readelf --dwarf-start==1 --recurse-limit -wl -u -h -D -z -V -I -p 1 --no-demangle --dwarf-depth==1 --ctf-parent=.text -a  @@
+readelf -W --dyn-syms -l -e -A -L -h -D -c -r --ctf-parent=.data -S -x 1 -a  @@
+readelf -W --dwarf-start==1 -g --dyn-syms -l -wg -e -u -A -L -D -T -I -p 1 -r --dwarf-depth==1 --ctf-parent=.data -s -a  @@
+readelf --ctf-symbols=.data -A -L -n -D -V -I -p 1 -d -c -S -s -a  @@
+readelf -W --recurse-limit --ctf-symbols=.text -e -u -h -D -T -I -d -r -S -x 1 -a  @@
+readelf -C --recurse-limit --ctf-symbols=.text -l -u -V -I -t -d -c -r -x 1 -s  @@
+readelf -W -R 1 --lto-syms -l -e -n -D -I -c -r --no-demangle --ctf-parent=.text -S -a  @@
+readelf -W -g --dyn-syms --recurse-limit --ctf-symbols=.bss -l -e -u -L -h -D -z -T -p 1 -c -r -s -a  @@
+readelf -W -C --dyn-syms --recurse-limit -l -e -u -D -V -I -p 1 -c -r --no-demangle --ctf-parent=.data -S -s -a  @@
+readelf -W -R 1 --dwarf-start==1 --ctf-symbols=.bss -l -wi -e -u -L -n -D -z -T -I -r -S -a  @@
+readelf --dwarf-start==1 --dyn-syms --ctf-symbols=.data -wl -u -A -h -D -z -T -p 1 -c -S -s -a  @@
+readelf -R 1 -C --dyn-syms -e -n -D -V -T -I -c --no-demangle --ctf-parent=.text -S -s -a  @@
+readelf -W -g -C --recurse-limit -l -A -n -h -D -z -V -T -I -p 1 -c --no-demangle --ctf-parent=.data -a  @@
+readelf -W -R 1 --dyn-syms -A -L -h -D -V -T -I -d -c -r --no-demangle -S -a  @@
+readelf -W --lto-syms --dwarf-start==1 -C --ctf-symbols=.data -l -wp -u -A -L -n -h -z -I -d -r --dwarf-depth==1 -S -x 1 -s  @@
+readelf -W -R 1 -C --dyn-syms --ctf-symbols=.data -wK -A -L -n -z -V -T -I -t -d -c -r --dwarf-depth==1 -s  @@
+readelf -W -R 1 --lto-syms --dwarf-start==1 -g -C --dyn-syms -wL -e -A -L -n -V -T -I -c -r --no-demangle --dwarf-depth==1 -s  @@
+readelf -R 1 --dyn-syms --recurse-limit -wR -A -L -D -z -T --dwarf-depth==1 --ctf-parent=.text -S -s -a  @@
+readelf -R 1 -g --ctf-symbols=.bss -wL -e -D -z -T -I -d --no-demangle --dwarf-depth==1 -a  @@
+readelf --lto-syms --dwarf-start==1 -C --ctf-symbols=.bss -l -wU -e -A -L -n -D -z -V -I -t -d --dwarf-depth==1 -x 1 -s  @@
+readelf -W --lto-syms -l -A -h -D -T -p 1 -r --no-demangle --ctf-parent=.data -S -s -a  @@
+readelf -W --dwarf-start==1 -C -l -wa -A -D -z -p 1 -d --no-demangle --dwarf-depth==1 --ctf-parent=.bss -S -s -a  @@
+readelf -C --recurse-limit --ctf-symbols=.text -e -A -L -n -D -T -p 1 -d --no-demangle -S -s -a  @@
+readelf -g -C --dyn-syms --recurse-limit --ctf-symbols=.text -wg -e -n -D -z -V -T -I -r --dwarf-depth==1 -x 1  @@
+readelf -W -C --dyn-syms --ctf-symbols=.text -u -A -n -h -D -V -T -p 1 --no-demangle -S -s -a  @@
+readelf -g -C --dyn-syms -l -wr -e -u -A -L -n -h -z -I -t -d -r --no-demangle --dwarf-depth==1 --ctf-parent=.data -x 1 -s  @@
+readelf --dwarf-start==1 -C --dyn-syms --recurse-limit -wu -e -A -L -z -V -T -I -t -p 1 -d -c -r --no-demangle --dwarf-depth==1 --ctf-parent=.text -s  @@
+readelf -W --recurse-limit -u -L -n -h -D -p 1 -d -c --no-demangle --ctf-parent=.text -S -a  @@
+readelf -W -R 1 -g --recurse-limit -u -L -n -h -D -z -T -I -s -a  @@
+readelf -R 1 --lto-syms --dwarf-start==1 -g -C -wA -e -L -n -h -z -I -t -d -r --ctf-parent=.data -s  @@
+readelf -W -R 1 --lto-syms --recurse-limit -L -n -D -z --ctf-parent=.data -a  @@
+readelf -W -l -wr -A -D -z -V -p 1 -d --no-demangle --ctf-parent=.bss -S -a  @@
+readelf -W --lto-syms --dwarf-start==1 -g --dyn-syms --ctf-symbols=.data -wA -e -u -A -n -h -D -z -T -t -d -c --dwarf-depth==1 -s -a  @@
+readelf -W --dyn-syms --recurse-limit --ctf-symbols=.bss -e -A -L -h -z -V -I -t -d -r --no-demangle -x 1  @@
+readelf -W --dwarf-start==1 --dyn-syms --recurse-limit --ctf-symbols=.bss -l -wa -e -A -L -n -h -V -T -I -c -r --no-demangle -S -x 1  @@
+readelf -R 1 --dwarf-start==1 -C --dyn-syms -l -wR -e -u -A -n -z -T -I -d -r --dwarf-depth==1 --ctf-parent=.data -S  @@
+readelf -W -R 1 --dwarf-start==1 -g --ctf-symbols=.text -l -wg -n -D -V -I -t -d -r --no-demangle --dwarf-depth==1 -s  @@
+readelf --lto-syms -g --dyn-syms --recurse-limit -l -u -A -L -D -z -I -t -d --no-demangle -s -a  @@
+readelf -W --lto-syms -g -C --dyn-syms --recurse-limit -l -e -L -n -h -D -z -V -T -I -d -c --ctf-parent=.data -x 1 -s  @@
+readelf --lto-syms -C --dyn-syms --recurse-limit --ctf-symbols=.data -u -L -n -D -I -t --no-demangle -s -a  @@
+readelf --dwarf-start==1 -g --recurse-limit -l -wl -e -u -L -n -h -z -V -I -p 1 -d -c -r --dwarf-depth==1  @@
+readelf -W --lto-syms -C --dyn-syms --ctf-symbols=.bss -e -u -A -L -z -V -t -d -c -r -x 1  @@
+readelf -g -C --dyn-syms -l -u -A -n -D -t -d --no-demangle --ctf-parent=.data -a  @@
+readelf -R 1 -C -l -wK -e -u -A -L -n -h -V -d -r --dwarf-depth==1 --ctf-parent=.text -S  @@
+readelf --lto-syms --dyn-syms --recurse-limit -l -wo -A -n -D -z -V -T -I -t -p 1 -c -r --dwarf-depth==1 --ctf-parent=.data  @@
+readelf --lto-syms -g -C --recurse-limit --ctf-symbols=.bss -e -u -A -L -n -h -D -V -T -I -c --no-demangle -a  @@
+readelf -W --dyn-syms -wl -e -u -L -n -z -V -T -I -p 1 -r --dwarf-depth==1 --ctf-parent=.data -S  @@
+readelf -W -R 1 --lto-syms -C --dyn-syms --recurse-limit -l -e -u -A -L -n -h -D -V -T -t -d -r --no-demangle --ctf-parent=.bss -s  @@
+readelf -W --lto-syms -C --dyn-syms --recurse-limit --ctf-symbols=.bss -l -e -n -h -D -z -V -d -r --no-demangle -S -s -a  @@
+readelf -W -R 1 -C --recurse-limit -l -e -u -L -n -z -V -T -I -d -r --no-demangle --ctf-parent=.data -S  @@
+readelf -W --lto-syms -l -e -A -n -h -z -V -T -p 1 -d -c -r -S -s  @@
+readelf -W --lto-syms --dwarf-start==1 -g --dyn-syms -l -wr -A -n -D -z -V -T -I -t -d --no-demangle --dwarf-depth==1 -x 1 -s  @@
+readelf --lto-syms -g -C --dyn-syms --recurse-limit --ctf-symbols=.bss -e -u -A -n -z -V -T -I -d -c  @@
+readelf --lto-syms --dwarf-start==1 -g -C --recurse-limit --ctf-symbols=.bss -wO -e -A -h -z -V -T -t -d -c -r --no-demangle -x 1 -s  @@
+readelf -g --recurse-limit -l -e -u -L -n -z -V -T -I -p 1 -d -c -r --ctf-parent=.bss  @@
+readelf -W --lto-syms --dwarf-start==1 -g -C --recurse-limit --ctf-symbols=.data -l -wc -u -A -L -n -h -D -V -T -I -t -c -r --no-demangle --dwarf-depth==1 -x 1  @@
+readelf -W --lto-syms -C --dyn-syms -u -A -L -n -D -z -V -I -t -d -c -r --no-demangle -x 1  @@
+readelf -W -C --dyn-syms --ctf-symbols=.bss -l -wK -e -u -A -L -n -D -V -T -d --no-demangle --dwarf-depth==1 -S -x 1  @@
+readelf --lto-syms -C --recurse-limit --ctf-symbols=.text -e -u -A -n -D -z -I -p 1 -d -c -r -s  @@
+readelf --lto-syms -C --dyn-syms --ctf-symbols=.data -u -L -n -z -V -T -I -p 1 -d -c -r -S  @@
+readelf --dwarf-start==1 -g -wU -n -h -V -T -I -t -p 1 -d -r --dwarf-depth==1 --ctf-parent=.bss -s  @@
+readelf --ctf=.bss --dwarf-start==1 -g -C --recurse-limit --ctf-symbols=.bss -l -wo -e -A -L -z -V -T -I -c --dwarf-depth==1 -s  @@
+readelf -R 1 --lto-syms -C -l -L -n -h -V -I -d -r --no-demangle -S  @@
+readelf --lto-syms --dwarf-start==1 -g -C --recurse-limit -l -wg -e -u -A -n -h -t -p 1 -d -c -r --ctf-parent=.data -s  @@
+readelf -R 1 --lto-syms -C --dyn-syms --ctf-symbols=.data -l -A -L -h -V -T -I -t -d -s  @@
+readelf -W -C --dyn-syms -e -u -L -n -V -T -t -c -r --ctf-parent=.data -x 1  @@
+readelf --lto-syms --dwarf-start==1 -g --dyn-syms --recurse-limit -l -wk -z -V -t -d -c -r --dwarf-depth==1 --ctf-parent=.bss -x 1  @@
+readelf -R 1 --lto-syms --dyn-syms --recurse-limit -l -wo -n -z -V -T -I -r --dwarf-depth==1 --ctf-parent=.data -S -s  @@
+readelf -W --lto-syms --dwarf-start==1 --dyn-syms --ctf-symbols=.text -l -wr -u -A -L -n -D -z -V -I -p 1 -r --dwarf-depth==1 -S -s  @@
+readelf --lto-syms --dwarf-start==1 -g --ctf-symbols=.bss -l -wg -e -u -A -n -h -V -T -I -c --dwarf-depth==1 -x 1 -s  @@
+readelf -R 1 --lto-syms --dwarf-start==1 --dyn-syms --recurse-limit -l -wo -e -u -A -L -z -V -I -d -S -s  @@
+readelf -R 1 -g -C -e -A -L -V -I -t -d -c --no-demangle --ctf-parent=.data -s  @@
+readelf -W -g -C --recurse-limit --ctf-symbols=.text -wl -e -A -L -n -z -V -t -p 1 -d -r --dwarf-depth==1  @@
+readelf -W --dwarf-start==1 -C --dyn-syms -wU -e -u -L -n -V -I -c --dwarf-depth==1 --ctf-parent=.text -S -x 1 -s  @@
+readelf -R 1 --lto-syms -g -C --dyn-syms --ctf-symbols=.data -e -n -D -V -I -r --no-demangle -s  @@
+readelf -W --ctf=.data --dwarf-start==1 -g -C --dyn-syms --recurse-limit -l -wg -A -L -D -z -V -T -I -t -c --dwarf-depth==1  @@
+readelf -W --ctf=.data --dwarf-start==1 -g -C --dyn-syms --ctf-symbols=.bss -l -wA -e -A -h -z -V -I -c  @@
+readelf --ctf=.data -C --dyn-syms -e -A -L -h -V -T -I -t --ctf-parent=.text  @@
+readelf -R 1 --ctf-symbols=.text -l -u -n -D -z -V -T -I -d -c -r --no-demangle -S  @@
+readelf --lto-syms --dwarf-start==1 -C -l -wA -e -u -n -V -I -t -p 1 -c --no-demangle --dwarf-depth==1 --ctf-parent=.data -s  @@
+readelf -C --recurse-limit -e -u -L -z -V -I -p 1 -d -c -r --ctf-parent=.data  @@
+readelf -W --ctf=.bss -g -wF -e -L -D -z -T --ctf-parent=.bss  @@
+readelf -W --lto-syms -C --dyn-syms --ctf-symbols=.data -e -u -A -L -z -I -p 1 -d -c -r -S  @@
+readelf --dwarf-start==1 -g -C --dyn-syms --recurse-limit --ctf-symbols=.bss -l -wa -e -u -n -V -I -t -p 1 -c --no-demangle  @@
+readelf -W -R 1 --lto-syms -C --recurse-limit --ctf-symbols=.bss -wA -u -A -L -z -V -T -I -d -r --dwarf-depth==1 -S -s  @@
+readelf --lto-syms --dwarf-start==1 --dyn-syms --recurse-limit --ctf-symbols=.text -l -wi -u -A -L -V -T -d -r -S -x 1  @@
+readelf --lto-syms --recurse-limit -e -u -A -L -h -D -V -I -p 1 -d -c -r -S  @@
+readelf -W --lto-syms -g -C --dyn-syms -l -L -n -h -z -V -T -I -t -p 1 --no-demangle --ctf-parent=.text  @@
+readelf -W -R 1 -C --dyn-syms --recurse-limit -l -A -L -n -z -V -t -r -s  @@
+readelf --ctf=.text -g --dyn-syms --recurse-limit --ctf-symbols=.data -e -A -h -V -T -I -t -c --no-demangle -s  @@
+readelf --lto-syms -C -l -wK -e -u -A -L -n -D -z -T -I -d -c --no-demangle --dwarf-depth==1 -S -x 1 -s  @@
+readelf --lto-syms -g -C -l -wO -u -A -L -D -V -I -t -p 1 -d -c -r --no-demangle --ctf-parent=.text  @@
+readelf -W --lto-syms -g -C --dyn-syms -l -A -n -h -D -z -V -T -t -c -r --no-demangle --ctf-parent=.data -x 1 -s  @@
+readelf -W --ctf=.bss --dwarf-start==1 -g -C --dyn-syms -wa -e -L -h -I -t --ctf-parent=.text -s -a  @@
+readelf --dwarf-start==1 --dyn-syms -wu -e -u -A -n -h -V -p 1 -d --no-demangle --dwarf-depth==1 --ctf-parent=.data -S  @@
+readelf --lto-syms --dwarf-start==1 -C --recurse-limit -l -wK -h -V -T -I -c --dwarf-depth==1 --ctf-parent=.text -S -x 1 -s  @@
+readelf -W -R 1 --lto-syms --dyn-syms --recurse-limit -l -wk -e -A -h -D -I -d -c -r --no-demangle --dwarf-depth==1 --ctf-parent=.bss -S  @@
+readelf -W -g -C --dyn-syms --ctf-symbols=.text -l -ws -e -L -n -V -t -d --no-demangle -x 1  @@
+readelf --dwarf-start==1 -C --recurse-limit -wO -u -L -n -h -z -V -T -I -d -c -r --no-demangle --dwarf-depth==1 --ctf-parent=.text -S -s  @@
+readelf -W --lto-syms -g -C --dyn-syms --recurse-limit --ctf-symbols=.text -l -e -A -L -h -V -I -t -p 1 -c -s  @@
+readelf -W -g -C --dyn-syms --ctf-symbols=.bss -l -A -n -z -V -T -I -d -c -r --no-demangle -x 1  @@
+readelf -W -R 1 --dwarf-start==1 --dyn-syms --recurse-limit --ctf-symbols=.text -wT -e -u -A -L -n -V -d --dwarf-depth==1 -S -s  @@
+readelf -W --dwarf-start==1 -g --ctf-symbols=.bss -l -wc -e -L -h -D -z -V -I -t -p 1 -d -r --dwarf-depth==1  @@
+readelf -R 1 --lto-syms -g -C --dyn-syms -wk -u -A -n -h -z -V -I -t --dwarf-depth==1  @@
+readelf -W --lto-syms -g --recurse-limit -l -A -L -n -z -I -t -c -r --ctf-parent=.data -x 1 -s  @@
+readelf -W --ctf=.bss -g -C --dyn-syms --recurse-limit -wk -e -h -V -t -c --no-demangle --dwarf-depth==1 -a  @@
+readelf --lto-syms --dwarf-start==1 -C --dyn-syms --recurse-limit --ctf-symbols=.bss -l -wa -u -A -L -n -h -z -V -T -d --dwarf-depth==1 -S  @@
+readelf -W -R 1 --lto-syms --recurse-limit --ctf-symbols=.text -l -u -n -h -D -z -I -d -c -r --no-demangle -S -s  @@
+readelf -W -g --recurse-limit -e -u -L -h -D -z -V -I -t -p 1 -d -r --no-demangle --ctf-parent=.text  @@
+readelf -W --dwarf-start==1 --recurse-limit --ctf-symbols=.text -l -wc -e -u -A -z -T -I -p 1 -d -c -r --no-demangle -S -s  @@
+readelf --lto-syms --recurse-limit -wg -e -A -h -D -z -V -I -r --no-demangle --dwarf-depth==1 --ctf-parent=.data -S -x 1 -s  @@
+readelf -W --lto-syms -C --dyn-syms --recurse-limit --ctf-symbols=.data -l -wk -e -A -L -n -D -T -d -c -r -S -x 1 -s  @@
+readelf -W -R 1 --lto-syms --dwarf-start==1 -C --dyn-syms --ctf-symbols=.bss -l -wt -u -n -T -t -d -r --dwarf-depth==1 -s  @@
+readelf -W -g -C -u -A -n -h -D -V -T -I -t -d -r --no-demangle --ctf-parent=.text -x 1  @@
+readelf -W --lto-syms -g -C --dyn-syms -wp -e -A -n -z -I -t -p 1 -d --no-demangle -s  @@
+readelf --ctf=.bss --dwarf-start==1 --dyn-syms -l -wa -e -z -V -I -t -c --no-demangle --ctf-parent=.data -s -a  @@
+readelf -W -R 1 -g --dyn-syms --ctf-symbols=.text -l -A -n -h -z -T -t -d -c -r -s  @@
+readelf -W --lto-syms --dwarf-start==1 -l -wU -L -n -h -V -T -t -d --ctf-parent=.text -x 1 -s  @@
+readelf --lto-syms --dyn-syms --ctf-symbols=.text -wu -u -A -n -h -z -V -I -p 1 -d --dwarf-depth==1 -S -s  @@
+readelf -W --dwarf-start==1 -C -l -wO -A -n -h -D -z -V -I -t -d --no-demangle --dwarf-depth==1 --ctf-parent=.text -x 1  @@
+readelf -W -R 1 -g --dyn-syms --recurse-limit --ctf-symbols=.bss -wT -e -u -D -V -T -I -t -c -r --no-demangle --dwarf-depth==1 -s  @@
+readelf -R 1 --lto-syms --dwarf-start==1 -g --recurse-limit -l -wA -e -u -n -z -V -T -I -t -d --no-demangle --dwarf-depth==1  @@
+readelf -R 1 --lto-syms --dyn-syms --recurse-limit -l -u -A -n -h -D -z -V -d -c --no-demangle --ctf-parent=.bss -S -s  @@
+readelf --lto-syms -g --dyn-syms --ctf-symbols=.bss -l -u -A -n -D -V -t -r --no-demangle -x 1 -s  @@
+readelf -W -R 1 --dwarf-start==1 -g -C --dyn-syms --recurse-limit -l -wO -e -u -L -n -h -D -I -t -c -r --dwarf-depth==1 --ctf-parent=.text -s  @@
+readelf -R 1 --lto-syms --dwarf-start==1 -g -C --ctf-symbols=.bss -wi -e -A -n -h -D -V -T -d -c --no-demangle --dwarf-depth==1 -s  @@
+readelf -W -R 1 --dwarf-start==1 -C --recurse-limit -wL -A -n -h -D -V -I -d -c -r --dwarf-depth==1 --ctf-parent=.data -S  @@
+readelf --dwarf-start==1 -C --dyn-syms --recurse-limit --ctf-symbols=.text -l -wR -e -u -L -D -z -V -I -d --no-demangle -x 1 -s  @@
+readelf -W -R 1 --lto-syms -C -l -u -n -z -I -t -d -c --ctf-parent=.bss -s  @@
+readelf -W --dwarf-start==1 -g --dyn-syms --ctf-symbols=.text -l -wi -e -n -D -z -I -t -d -c --dwarf-depth==1 -x 1  @@
+readelf -W -R 1 --lto-syms -g --ctf-symbols=.text -e -L -n -D -z -V -T -I -t -d -c  @@
+readelf -W --lto-syms --dwarf-start==1 --dyn-syms -l -wL -u -L -n -h -z -t -p 1 -d -r --no-demangle --ctf-parent=.data -s  @@
+readelf -W --lto-syms --dwarf-start==1 -g -l -ws -e -u -L -n -D -z -V -t -p 1 -d -c --no-demangle --ctf-parent=.data -s  @@
+readelf --ctf=.bss -g --recurse-limit -l -wm -e -L -h -I -t --no-demangle -s -a  @@
+readelf -W --ctf=.bss -C --dyn-syms --recurse-limit -A -T -c -S -a  @@
+readelf --ctf=.bss -g --recurse-limit -l -h -t -c --no-demangle --ctf-parent=.data -s -a  @@
+readelf --lto-syms -g --recurse-limit -l -wc -e -A -L -h -z -V -T -I -t -p 1 -c --dwarf-depth==1 --ctf-parent=.text -s  @@
+readelf --lto-syms -C --dyn-syms --recurse-limit --ctf-symbols=.text -l -A -D -z -V -T -I -p 1 -d -S -s  @@
+readelf -g -C --dyn-syms --recurse-limit --ctf-symbols=.text -e -u -n -h -z -I -t -p 1 -d --no-demangle -s  @@
+readelf --lto-syms --ctf-symbols=.bss -e -u -L -n -h -D -z -V -T -I -S -x 1 -s  @@
+readelf -W -R 1 --dwarf-start==1 --dyn-syms --recurse-limit -ws -e -u -A -L -D -z -V -T -I -t -c --no-demangle --dwarf-depth==1  @@
+readelf -R 1 --dwarf-start==1 -g -C --ctf-symbols=.bss -l -ws -e -L -h -z -V -T -t -d --dwarf-depth==1 -s  @@
+readelf -W -R 1 --lto-syms --dyn-syms --ctf-symbols=.bss -u -L -n -h -z -V -T -I -r -S  @@
+readelf -W -R 1 --dwarf-start==1 -C --dyn-syms --recurse-limit --ctf-symbols=.bss -wr -e -u -L -h -D -z -V -T -d -c -r --no-demangle -S -s  @@
+readelf --ctf=.data --dwarf-start==1 --dyn-syms --recurse-limit -l -wi -e -h -z -V -I -S  @@
+readelf -g -C --ctf-symbols=.data -e -A -L -n -V -t -d -c -r  @@
+readelf --ctf-symbols=.bss -l -wi -L -n -h -V -T -I -p 1 -r --no-demangle --dwarf-depth==1 -S  @@
+readelf -W --ctf=.bss --recurse-limit -A -L -z -T -t -c --ctf-parent=.text -s -a  @@
+readelf --lto-syms -g -C --dyn-syms --ctf-symbols=.bss -l -e -u -h -z -I -t -r -x 1  @@
+readelf -W --dwarf-start==1 -g -C --dyn-syms --recurse-limit -l -wR -u -L -n -D -I -t -c -r --ctf-parent=.data -x 1 -s  @@
+readelf -W --ctf=.bss -C --recurse-limit -wi -e -L -h -D -z -I -t -c --dwarf-depth==1 --ctf-parent=.data -a  @@
+readelf --lto-syms --dwarf-start==1 --recurse-limit --ctf-symbols=.bss -wi -u -L -n -V -I -p 1 -c -r --no-demangle -S -s  @@
+readelf --ctf=.bss --dyn-syms --recurse-limit -e -h -V -c --ctf-parent=.text -S -s -a  @@
+readelf -W --lto-syms -g --dyn-syms --recurse-limit --ctf-symbols=.data -l -e -u -n -D -T -t -p 1 -d -c -r  @@
+readelf -W --ctf=.bss --dwarf-start==1 -l -wl -e -A -h -z -V -I -c --no-demangle --dwarf-depth==1 -S -s -a  @@
+readelf --ctf=.bss -g --dyn-syms --recurse-limit -A -L -z -V -I --ctf-parent=.text -s -a  @@
+readelf --lto-syms -l -e -u -A -z -V -r --ctf-parent=.data -S -x 1 -s  @@
+readelf -W --ctf=.bss -C --recurse-limit -l -e -L -z -V -I -c --no-demangle --ctf-parent=.bss -S -s -a  @@
+readelf --lto-syms -C --recurse-limit --ctf-symbols=.data -e -u -A -L -n -z -T -I -t -d -c -s  @@
+readelf -R 1 --lto-syms -g -C --dyn-syms --recurse-limit -l -e -A -z -T -I -t -d --ctf-parent=.text  @@
+readelf -W --ctf=.bss -g -C --recurse-limit -l -h -D -z -V -T -t -c --ctf-parent=.data -s -a  @@
+readelf -W --dwarf-start==1 --recurse-limit -wa -e -u -A -L -h -V -I -c -r --dwarf-depth==1 -S -x 1  @@
+readelf -W --ctf=.bss -g --dyn-syms --recurse-limit -l -A -h -V -I -c --no-demangle --ctf-parent=.data -a  @@
+readelf -R 1 --lto-syms -g --recurse-limit -l -u -A -L -h -D -z -V -I -t -r --ctf-parent=.text  @@
+readelf -W --ctf=.bss --dwarf-start==1 --recurse-limit -l -wu -e -A -h -V -T --ctf-parent=.bss -S -a  @@
+readelf -W --lto-syms -g -C --dyn-syms --recurse-limit -wL -e -A -D -z -V -T -t -p 1 -r --no-demangle --dwarf-depth==1 --ctf-parent=.bss  @@
+readelf -W --ctf=.text --dwarf-start==1 -g -C --recurse-limit -wt -e -h -D -V -T -I --no-demangle --dwarf-depth==1 --ctf-parent=.bss -s  @@
+readelf -W --lto-syms --dwarf-start==1 -C --dyn-syms --recurse-limit --ctf-symbols=.bss -ws -e -u -A -L -h -D -z -I -p 1 -d -c --dwarf-depth==1 -S  @@
+readelf -W -C --dyn-syms --ctf-symbols=.bss -l -e -A -L -n -z -I -p 1 -r --no-demangle -S  @@
+readelf -W --ctf=.bss -g -C --dyn-syms --recurse-limit -e -A -L -D -V -T -t -c -s -a  @@
+readelf --lto-syms -g --dyn-syms -e -u -A -z -V -p 1 -c -r -s  @@
+readelf -C -l -A -n -h -D -z -V -T -I -d -r --no-demangle --ctf-parent=.data -x 1 -s  @@
+readelf -W --ctf=.bss --dwarf-start==1 -g -C -wm -e -A -h -D -V -I -c --dwarf-depth==1 --ctf-parent=.data -s -a  @@
+readelf -R 1 --dwarf-start==1 -C --dyn-syms --ctf-symbols=.data -l -wt -u -A -h -D -V -c -r -S -s  @@
+readelf -W --lto-syms --dwarf-start==1 -g --ctf-symbols=.bss -l -wK -e -A -L -D -I -p 1 -d -c -r --no-demangle --dwarf-depth==1  @@
+readelf -C --dyn-syms --recurse-limit -e -u -L -n -h -z -T -I -p 1 -d --no-demangle --ctf-parent=.data -S -s  @@
+readelf --ctf=.bss -g -e -A -V -T --no-demangle --ctf-parent=.text -a  @@
+readelf -g -e -L -D -z -V -T -d -r --ctf-parent=.text -x 1 -s  @@
+readelf -W -C --dyn-syms --recurse-limit --ctf-symbols=.bss -e -u -A -n -D -I -c -r --no-demangle -S -x 1 -s  @@
+readelf --lto-syms --dwarf-start==1 -g --dyn-syms -wk -e -u -L -h -D -z -V -T -t -c -r --dwarf-depth==1 -x 1 -s  @@
+readelf --recurse-limit --ctf-symbols=.text -l -A -L -n -D -V -I -d -c -S -x 1  @@
+readelf --ctf=.bss --dwarf-start==1 --dyn-syms --recurse-limit -wt -e -A -L -h -D -I -t -c --no-demangle --dwarf-depth==1 --ctf-parent=.text -s -a  @@
+readelf --lto-syms --dyn-syms -e -u -A -L -n -D -d -r --no-demangle --ctf-parent=.bss -S -x 1 -s  @@
+readelf -W -R 1 --lto-syms --dwarf-start==1 --dyn-syms --recurse-limit -wa -u -A -L -n -h -D -V -d -c -r --no-demangle --dwarf-depth==1 -S -s  @@
+readelf -W --ctf=.bss -g -A -z -V -T --no-demangle --ctf-parent=.text -s -a  @@
+readelf --lto-syms --dyn-syms --recurse-limit -e -A -L -n -D -p 1 -d -r --ctf-parent=.bss -S  @@
+readelf -W -R 1 -C --ctf-symbols=.data -wa -e -u -A -L -n -h -D -z -I -d -c --no-demangle --dwarf-depth==1 -S -s  @@
+readelf -R 1 --lto-syms --dwarf-start==1 -C -wk -u -A -L -n -z -V -T -t -c -r --no-demangle --ctf-parent=.data -s  @@
+readelf --ctf=.bss --dwarf-start==1 -C --recurse-limit -wt -A -D -I --dwarf-depth==1 -S -s -a  @@
+readelf -W -R 1 --lto-syms --dwarf-start==1 -C --dyn-syms --recurse-limit -l -wa -u -A -n -h -V -c --no-demangle --dwarf-depth==1 --ctf-parent=.text -S  @@
+readelf -W --ctf=.bss -g -C --dyn-syms --recurse-limit -l -e -A -D -z -V -T -I --ctf-parent=.bss -a  @@
+readelf --lto-syms -g --dyn-syms --recurse-limit -l -e -u -A -L -n -T -I -t -c --no-demangle --ctf-parent=.bss -x 1  @@
+readelf --lto-syms -g --recurse-limit -wU -u -L -n -D -V -I -t -d --no-demangle --dwarf-depth==1 --ctf-parent=.bss -x 1 -s  @@
+readelf -W --ctf=.bss --dwarf-start==1 -g -C --dyn-syms -l -wR -e -A -L -D -z -T -t -c --no-demangle --dwarf-depth==1 --ctf-parent=.text -s -a  @@
+readelf --dwarf-start==1 --recurse-limit --ctf-symbols=.text -l -wp -e -u -A -h -z -V -T -p 1 -d -c --dwarf-depth==1 -S -s  @@
+readelf -W --dyn-syms -l -wO -e -L -h -D -V -I -p 1 -d -c --no-demangle --dwarf-depth==1 --ctf-parent=.bss -S -s  @@
+readelf -R 1 -g --dyn-syms --recurse-limit --ctf-symbols=.data -l -A -n -h -V -T -t --no-demangle  @@
+readelf --lto-syms --recurse-limit -l -u -h -D -z -I -t -p 1 -d -r --no-demangle -s  @@
+readelf --ctf=.bss --dwarf-start==1 -g --dyn-syms --recurse-limit -wm -A -L -D -V -T -I -t -c --no-demangle --ctf-parent=.bss -a  @@
+readelf -R 1 -l -e -A -L -n -h -D -z -T -I -t -c -r --no-demangle -s  @@
+readelf -W --lto-syms --dyn-syms --ctf-symbols=.bss -l -e -A -L -V -T -d -c -r -S  @@
+readelf -R 1 --dwarf-start==1 -g --dyn-syms -wL -e -L -h -D -z -V -T -t -d --no-demangle --dwarf-depth==1 --ctf-parent=.text  @@
+readelf -W --ctf=.bss -g --dyn-syms --recurse-limit -l -wu -A -D -V -T -I -t -c --no-demangle --ctf-parent=.data -s -a  @@
+readelf -W -R 1 --lto-syms --ctf-symbols=.data -l -wK -e -u -L -n -T -I -r --no-demangle --dwarf-depth==1  @@
+readelf --lto-syms -C --dyn-syms --ctf-symbols=.data -l -wT -A -h -D -V -T -I -p 1 --no-demangle --dwarf-depth==1 -S  @@
+readelf -W -R 1 --lto-syms -g --dyn-syms --recurse-limit --ctf-symbols=.bss -e -A -L -h -T -t -d -c -r -s  @@
+readelf --dwarf-start==1 --recurse-limit -l -wt -e -D -V -p 1 -d -c -r --no-demangle -S -s  @@
+readelf --ctf=.bss --dwarf-start==1 --ctf-symbols=.bss -l -wa -h -D -V -T -I -c -S -s  @@
+readelf -R 1 --lto-syms --dwarf-start==1 -g --recurse-limit --ctf-symbols=.bss -l -wU -e -u -L -T -I -t -r --no-demangle -s  @@
+readelf -W --ctf=.text -C --dyn-syms -e -A -L -V -T --ctf-parent=.text -S -s  @@
+readelf --ctf=.bss -g --recurse-limit -l -ws -e -A -L -h -D -z --no-demangle --dwarf-depth==1 --ctf-parent=.data -s -a  @@
+readelf -W --dwarf-start==1 --dyn-syms --recurse-limit --ctf-symbols=.data -wk -e -A -h -D -z -V -I -t -p 1 --no-demangle --dwarf-depth==1 -s  @@
+readelf --lto-syms -g -C --dyn-syms -A -h -D -V -I -t -p 1 -d --no-demangle --ctf-parent=.text  @@
+readelf --ctf=.data --dwarf-start==1 -g -C --dyn-syms --ctf-symbols=.text -wT -e -A -D -z -T -I -t  @@
+readelf --lto-syms -g --dyn-syms --recurse-limit -e -n -D -z -V -T -t -p 1 --no-demangle  @@
+readelf -R 1 --lto-syms -C --dyn-syms --recurse-limit -l -u -n -h -z -T -c -r --ctf-parent=.text -S  @@
+readelf -g -C --dyn-syms --recurse-limit -wr -u -A -L -n -I -t -c -r -x 1  @@
+readelf -W --ctf=.bss --dwarf-start==1 --dyn-syms --recurse-limit -l -wo -A -h -D -V -t --dwarf-depth==1 --ctf-parent=.data -a  @@
+readelf -W -R 1 --lto-syms --dwarf-start==1 -wO -e -u -A -T -I -d -c -r --dwarf-depth==1 --ctf-parent=.text -S  @@
+readelf -W --dwarf-start==1 -g -C --dyn-syms -l -wu -e -t -p 1 -d -r --dwarf-depth==1 --ctf-parent=.text  @@
+readelf -R 1 --dyn-syms -e -D -T -I -d -r -S  @@
+readelf -W --lto-syms -l -u -A -L -n -h -D -V -I -d --no-demangle --ctf-parent=.bss -S  @@
+readelf --ctf=.bss --dwarf-start==1 --dyn-syms --recurse-limit -l -wR -L -h -D -T -I --no-demangle --dwarf-depth==1 --ctf-parent=.text -S -s -a  @@
+readelf -W --lto-syms --dyn-syms -u -A -L -h -V -T -I -t -p 1 -d -c --ctf-parent=.data  @@
+readelf -W -R 1 -g -C --recurse-limit --ctf-symbols=.text -ws -e -h -T -I -d -c --dwarf-depth==1 -s  @@
+readelf -W --ctf=.bss --dwarf-start==1 -l -wt -A -L -h -D -V -t -c --no-demangle -a  @@
+readelf -R 1 --dwarf-start==1 -g -wk -e -h -D -z -I -t -d -c -r --no-demangle --dwarf-depth==1 --ctf-parent=.bss  @@
+readelf -W -g --dyn-syms -l -e -u -A -h -z -V -p 1 -d --ctf-parent=.data  @@
+readelf -W --lto-syms --dwarf-start==1 -C --recurse-limit -wk -u -A -h -T -I -p 1 -d -r --no-demangle --dwarf-depth==1 --ctf-parent=.data -S -s  @@
+readelf -W --lto-syms -g --recurse-limit --ctf-symbols=.bss -wl -e -u -A -L -h -D -z -I -d -r --dwarf-depth==1 -x 1  @@
+readelf --lto-syms -g --dyn-syms -wL -e -A -n -D -V -T -t -p 1 --dwarf-depth==1 --ctf-parent=.bss -s  @@
+readelf -R 1 -C --ctf-symbols=.data -wR -e -u -n -h -V -t -c -r --no-demangle --dwarf-depth==1  @@
+readelf -W --ctf=.text -g -C --dyn-syms --recurse-limit --ctf-symbols=.bss -l -wu -e -A -L -h -z -I --dwarf-depth==1 -s  @@
+readelf -W --ctf=.bss --dwarf-start==1 -C --dyn-syms -l -wi -D -V -T -I --no-demangle --dwarf-depth==1 --ctf-parent=.text -S -a  @@
+readelf --dwarf-start==1 --dyn-syms --recurse-limit -l -wR -A -L -D -z -T -I -d -r --no-demangle --ctf-parent=.bss -S -x 1 -s  @@
+readelf --lto-syms --dwarf-start==1 -g --recurse-limit -l -wr -u -A -L -n -h -D -V -T -d -c -r --ctf-parent=.bss -x 1 -s  @@
+readelf -W --lto-syms --ctf-symbols=.text -l -u -D -z -I -d -c -r --no-demangle -S -x 1 -s  @@
+readelf -W -R 1 --dwarf-start==1 -g --dyn-syms --recurse-limit --ctf-symbols=.text -l -wo -u -A -L -n -h -D -z -V -T -I -d -c --no-demangle --dwarf-depth==1 -s  @@
+readelf --dwarf-start==1 -g --dyn-syms -wr -A -n -h -I -t -r --dwarf-depth==1 --ctf-parent=.text -x 1  @@
+readelf -W --lto-syms --dwarf-start==1 -C --recurse-limit -wr -e -u -L -n -h -D -z -V -T -p 1 -c -r --no-demangle --dwarf-depth==1 --ctf-parent=.text -S  @@
+readelf -W --lto-syms --dwarf-start==1 -g -C --ctf-symbols=.text -l -wt -e -A -h -D -z -I -p 1 -r -s  @@
+readelf -C --dyn-syms -l -u -A -L -n -h -D -T -t -p 1 -c -r --ctf-parent=.data -s  @@
+readelf -W --ctf=.bss -e -A -L -h -D -z -I -c --ctf-parent=.bss -S -a  @@
+readelf -C --dyn-syms -e -u -h -D -z -V -T -p 1 -r --ctf-parent=.data -S -s  @@
+readelf --ctf=.bss -C -l -A -L -h -D -V -T --no-demangle -S -s -a  @@
+readelf -g -C --recurse-limit --ctf-symbols=.text -e -L -z -T -I -t -p 1 -r --no-demangle -s  @@
+readelf -R 1 --lto-syms -g -C --dyn-syms -wi -e -u -L -h -D -T -t -d -r --dwarf-depth==1 -s  @@
+readelf -W --lto-syms -C -l -L -n -D -z -I -p 1 -d -c -S -s  @@
+readelf --lto-syms --dwarf-start==1 -g -C -l -ws -e -n -D -V --no-demangle --dwarf-depth==1 --ctf-parent=.data -x 1 -s  @@
+readelf -W --ctf=.data -g -l -wA -e -A -D -z -V -I --no-demangle --dwarf-depth==1  @@
+readelf -R 1 -C --dyn-syms --ctf-symbols=.bss -l -e -u -L -n -T -d -c -S -s  @@
+readelf -W --dwarf-start==1 -C --dyn-syms -wU -h -D -V -T -d -c -r --dwarf-depth==1 --ctf-parent=.data -S -x 1  @@
+readelf -C --dyn-syms --recurse-limit --ctf-symbols=.bss -l -u -L -h -D -V -T -I --no-demangle -S -x 1 -s  @@
+readelf --ctf=.data --dwarf-start==1 -g --dyn-syms -wA -e -A -h -I -t --dwarf-depth==1  @@
+readelf --lto-syms --dwarf-start==1 -g -l -wo -u -h -D -z -V -T -t -p 1 -d --dwarf-depth==1 --ctf-parent=.bss -s  @@
+readelf -W --dyn-syms -n -h -D -z -V -I -r --ctf-parent=.text -S -x 1 -s  @@
+readelf -W --lto-syms -C --dyn-syms --ctf-symbols=.bss -e -u -L -T -t -p 1 -d -r --no-demangle -s  @@
+readelf -W --ctf=.data --dwarf-start==1 --dyn-syms -l -wg -A -L -V -t -c --no-demangle --dwarf-depth==1 --ctf-parent=.text -s  @@
+readelf -R 1 --recurse-limit --ctf-symbols=.bss -l -e -A -L -h -D -V -I -d -S  @@
+readelf -W --lto-syms -C --dyn-syms --recurse-limit --ctf-symbols=.bss -l -wK -u -L -D -z -V -t --no-demangle --dwarf-depth==1 -x 1  @@
+readelf -R 1 --dwarf-start==1 -g --dyn-syms --recurse-limit --ctf-symbols=.text -l -wm -u -A -n -D -T -t -c -r --dwarf-depth==1  @@
+readelf -W -R 1 -g --dyn-syms -l -e -u -n -h -z -V --ctf-parent=.text -s  @@
+readelf --ctf=.text -C --dyn-syms --recurse-limit -l -wm -L -h -V -T -c --no-demangle --dwarf-depth==1 --ctf-parent=.bss -S -s  @@
+readelf -W -R 1 --lto-syms --dyn-syms --recurse-limit -e -u -L -h -T -I -d -c --no-demangle --ctf-parent=.text -s  @@
+readelf --lto-syms -g --dyn-syms -A -L -n -h -z -I -t -p 1 -d -c --ctf-parent=.data -s  @@
+readelf --lto-syms --dwarf-start==1 --dyn-syms --recurse-limit --ctf-symbols=.text -wm -e -A -n -D -T -I -x 1  @@
+readelf -W -C --dyn-syms --recurse-limit -l -u -z -T -d -r -S -x 1  @@
+readelf --dwarf-start==1 -C --dyn-syms -l -wt -e -u -A -L -h -D -z -V -c --no-demangle --dwarf-depth==1 --ctf-parent=.data -S -x 1  @@
+readelf -R 1 --dwarf-start==1 --dyn-syms --recurse-limit --ctf-symbols=.bss -l -wU -e -h -z -I -c -r -S  @@
+readelf -W -g --recurse-limit -l -e -L -I -t -p 1 -r -s  @@
+readelf -W --dwarf-start==1 --recurse-limit -l -wA -e -n -h -D -V -t -r --no-demangle --ctf-parent=.text -x 1  @@
+readelf --lto-syms --dyn-syms -wR -u -n -h -D -V -T -d -c --dwarf-depth==1 -S -x 1  @@
+readelf --lto-syms --dyn-syms --ctf-symbols=.bss -l -A -L -n -h -z -T -I -d -c --no-demangle -S  @@
+readelf -W --dwarf-start==1 --dyn-syms --recurse-limit -l -wl -e -A -h -D -V -d -c --ctf-parent=.bss -S -x 1 -s  @@
+readelf -W --lto-syms -C --dyn-syms -l -wm -L -z -T -I -t -c -r --no-demangle --dwarf-depth==1 --ctf-parent=.bss -x 1  @@
+readelf --dwarf-start==1 --recurse-limit --ctf-symbols=.data -wg -e -L -h -D -V -T -t -c -r --no-demangle --dwarf-depth==1 -x 1 -s  @@
+readelf -W -R 1 -g -C --ctf-symbols=.data -l -u -A -D -T -I -t -d -r --no-demangle  @@
+readelf -R 1 --dwarf-start==1 -g -l -wc -e -L -n -h -V -T -I -c  @@
+readelf -W --ctf=.text -g -C --recurse-limit --ctf-symbols=.data -e -A -L -z -V -I -t --no-demangle  @@
+readelf -W --ctf=.data --dwarf-start==1 -g --recurse-limit -wu -e -A -I -c --no-demangle --ctf-parent=.bss -s  @@
+readelf --ctf=.data --dwarf-start==1 --dyn-syms -wo -e -L -z -V -T -c --no-demangle --dwarf-depth==1 -S -s  @@
+readelf --lto-syms --dwarf-start==1 -g -C --dyn-syms --recurse-limit --ctf-symbols=.text -wp -u -L -h -z -V -t -p 1 -r  @@
+readelf -R 1 --lto-syms --dyn-syms -l -ws -e -u -L -n -h -D -T -r --no-demangle --ctf-parent=.data -S  @@
+readelf --ctf=.text --dwarf-start==1 -C --dyn-syms -wU -e -A -L -z -I --no-demangle --dwarf-depth==1 --ctf-parent=.bss -S -s  @@
+readelf -C --dyn-syms --ctf-symbols=.data -l -wR -u -A -L -h -z -p 1 -c -r --dwarf-depth==1 -S -s  @@
+readelf --lto-syms --dyn-syms -l -e -u -A -D -z -T -I -p 1 -d -c --no-demangle --ctf-parent=.data -S -s  @@
+readelf --ctf=.text --dwarf-start==1 --dyn-syms --ctf-symbols=.bss -wA -A -L -h -V -I --no-demangle --dwarf-depth==1 -S -s  @@
+readelf -W -R 1 --lto-syms --dwarf-start==1 -g -C --dyn-syms --recurse-limit --ctf-symbols=.bss -l -wg -L -h -D -z -V -d -r --dwarf-depth==1  @@
+readelf -W --dwarf-start==1 -g --recurse-limit -wt -e -u -A -L -n -h -T -I -d --dwarf-depth==1 -x 1  @@
+readelf -W -R 1 --lto-syms -C --dyn-syms --recurse-limit --ctf-symbols=.text -e -L -D -z -I -c -r --no-demangle -S  @@
+readelf -g --dyn-syms --recurse-limit --ctf-symbols=.bss -e -L -D -V -p 1 -d -c -s  @@
+readelf --lto-syms --dyn-syms --recurse-limit --ctf-symbols=.data -wo -e -L -n -h -T -d -c --no-demangle --dwarf-depth==1 -S -x 1 -s  @@
+readelf -W --ctf=.text --ctf-symbols=.bss -l -wA -e -A -D -V -I -c --no-demangle --dwarf-depth==1 -S  @@
+readelf -W --dwarf-start==1 -g --dyn-syms --recurse-limit --ctf-symbols=.data -l -wO -e -L -h -D -I -t -d --dwarf-depth==1 -x 1 -s  @@
+readelf -R 1 --dyn-syms --recurse-limit -u -D -z -V -t -d -c -r --ctf-parent=.bss  @@
+readelf --dwarf-start==1 -C --dyn-syms --recurse-limit -l -wa -e -h -D -d -r --no-demangle --dwarf-depth==1 -S -x 1  @@
+readelf -W --ctf=.text -C --ctf-symbols=.bss -l -A -L -z -V -I -c -S  @@
+readelf --lto-syms --ctf-symbols=.bss -l -e -n -V -I -t -p 1  @@
+readelf --dwarf-start==1 -wc -e -A -L -V -t -c --no-demangle --ctf-parent=.text -x 1 -s  @@
+readelf -W --ctf=.data --dwarf-start==1 -C --dyn-syms -l -wp -e -A -D -z -I -c --ctf-parent=.data -S -s  @@
+readelf --lto-syms --recurse-limit --ctf-symbols=.data -u -A -n -D -z -V -T -t -d --no-demangle -x 1 -s  @@
+readelf --dwarf-start==1 -g --dyn-syms --recurse-limit --ctf-symbols=.bss -l -wi -A -n -D -V -p 1 -d -r --no-demangle -s  @@
+readelf -W --ctf=.bss -C --dyn-syms --recurse-limit --ctf-symbols=.bss -z -V -I -t -c  @@
+readelf -W --ctf=.text --dwarf-start==1 -C --ctf-symbols=.bss -l -wK -e -A -L -D -T -I --no-demangle -S -s  @@
+readelf --lto-syms --dwarf-start==1 --recurse-limit --ctf-symbols=.data -wk -L -n -D -T -I -p 1 -d -r --dwarf-depth==1 -S -s  @@
+readelf -W -R 1 --lto-syms --dwarf-start==1 -g --recurse-limit --ctf-symbols=.text -wU -e -u -A -L -n -D -z -r -s  @@
+readelf --lto-syms --dwarf-start==1 -g -C --dyn-syms --ctf-symbols=.data -l -wL -A -n -z -V -T -p 1 -d --dwarf-depth==1  @@
+readelf -W --ctf=.data --ctf-symbols=.bss -l -A -h -V -T -I --no-demangle -S  @@
+readelf --lto-syms --dwarf-start==1 -g -C --recurse-limit --ctf-symbols=.text -wl -e -A -L -n -D -T -I -t -c -r --no-demangle --dwarf-depth==1  @@
+readelf -C --dyn-syms -l -e -A -D -z -T -I -t --ctf-parent=.text -x 1  @@
+readelf -W --lto-syms --dwarf-start==1 -g -C --dyn-syms --ctf-symbols=.bss -l -wi -e -A -L -n -h -D -z -t --no-demangle -x 1  @@
+readelf -W -R 1 -g -C --dyn-syms --recurse-limit -l -n -D -V -T -t --no-demangle --ctf-parent=.text -s  @@
+readelf --dyn-syms --recurse-limit -l -wp -e -u -A -n -z -t -r --no-demangle --ctf-parent=.bss  @@
+readelf --ctf=.text --dyn-syms --recurse-limit --ctf-symbols=.text -wL -A -L -V -I -t --dwarf-depth==1  @@
+readelf --dwarf-start==1 -C --dyn-syms --recurse-limit --ctf-symbols=.data -wr -e -A -D -z -V -T -c --dwarf-depth==1 -S -x 1 -s  @@
+readelf -W -g --dyn-syms --recurse-limit --ctf-symbols=.text -l -wi -u -L -n -h -V -T -d -r --no-demangle -s  @@
+readelf --ctf=.text -C --dyn-syms --ctf-symbols=.data -l -A -h -D -I --no-demangle -S  @@
+readelf --ctf=.text -C -l -e -D -z -V -t --no-demangle -s  @@
+readelf -W --lto-syms --dwarf-start==1 -C --dyn-syms --recurse-limit --ctf-symbols=.text -l -wc -u -L -V -T -I -d -r --no-demangle --dwarf-depth==1  @@
+readelf --lto-syms -g -C --dyn-syms --recurse-limit -l -wc -e -u -A -L -n -D -z -c --no-demangle --dwarf-depth==1 -x 1  @@
+readelf -W --lto-syms --dwarf-start==1 --dyn-syms --ctf-symbols=.bss -wR -e -A -L -D -d -r --no-demangle --dwarf-depth==1 -S -x 1 -s  @@
+readelf -W -R 1 --dwarf-start==1 -C -l -wl -e -u -D -z -I -d -c --no-demangle --dwarf-depth==1 -S -s  @@
+readelf -W -R 1 --lto-syms --dyn-syms -e -u -A -h -t -c -r --no-demangle --ctf-parent=.text -s  @@
+readelf -C -l -u -n -V -T -p 1 -d --ctf-parent=.text -S  @@
+readelf -W --ctf=.bss --recurse-limit --ctf-symbols=.bss -l -wo -e -L -h -D -z -V -T --no-demangle --dwarf-depth==1 -S -s  @@
+readelf -W -e -A -D -V -p 1 -d --no-demangle -S -s  @@
+readelf -W --lto-syms --dwarf-start==1 --dyn-syms -l -wA -u -n -D -T -p 1 -r --no-demangle --dwarf-depth==1 -S  @@
+readelf --ctf=.data -C --dyn-syms -l -V -c --no-demangle -S  @@
+readelf -W --dwarf-start==1 --dyn-syms -l -wr -e -n -z -d -c -S -x 1 -s  @@
+readelf -W -l -e -u -n -D -T -I -t -p 1 -d -c --ctf-parent=.data  @@
+readelf -W --lto-syms --dwarf-start==1 --dyn-syms --recurse-limit --ctf-symbols=.text -wt -A -n -h -D -I -t -r --no-demangle --dwarf-depth==1 -x 1 -s  @@
+readelf -W -R 1 --lto-syms -C --recurse-limit -wt -e -u -A -D -z -V -T -c --no-demangle --dwarf-depth==1 --ctf-parent=.data -S -s  @@
+readelf -C -wR -e -u -D -z -d -r --no-demangle --dwarf-depth==1 -x 1 -s  @@
+readelf -W --dwarf-start==1 -g -C --dyn-syms --ctf-symbols=.data -l -wU -u -n -h -z -I -p 1 -c -r --dwarf-depth==1  @@
+readelf -C --ctf-symbols=.text -l -u -A -L -n -h -z -T -r -S -x 1  @@
+readelf --lto-syms -C --recurse-limit -l -wp -e -n -T -p 1 -d -c -r --no-demangle --ctf-parent=.data -S  @@
+readelf -W --ctf=.text --dwarf-start==1 -C --recurse-limit --ctf-symbols=.data -l -wA -e -L -D -I -t --dwarf-depth==1 -s  @@
+readelf -W --lto-syms -C -V -d -r --no-demangle --ctf-parent=.data -S -x 1 -s  @@
+readelf -W -R 1 --lto-syms --recurse-limit -e -n -h -T -d --no-demangle -S -s  @@
+readelf --dwarf-start==1 -l -wK -e -u -L -n -h -D -z -T -c -r --no-demangle --dwarf-depth==1 --ctf-parent=.bss -S -x 1  @@
+readelf -W --lto-syms -g -C --dyn-syms --recurse-limit -l -wR -u -A -h -D -t -p 1 -r --dwarf-depth==1 -s  @@
+readelf -W -g --dyn-syms --recurse-limit -wl -e -u -L -h -z -V -T -p 1 --no-demangle --dwarf-depth==1 --ctf-parent=.text -s  @@
+readelf -W --lto-syms -C --dyn-syms --ctf-symbols=.data -wA -e -L -h -c -r -x 1  @@
+readelf -W --ctf=.text --dwarf-start==1 -g -C --dyn-syms --recurse-limit -l -wo -e -L -h -z -T -t -c --ctf-parent=.text  @@
+readelf -W --ctf=.text --recurse-limit -e -A -h -D -T -I -t --no-demangle --ctf-parent=.data -s  @@
+readelf -W --dwarf-start==1 -g -C -wt -A -L -z -V -t -c -r --no-demangle --dwarf-depth==1 -x 1 -s  @@
+readelf --ctf=.text --dyn-syms --ctf-symbols=.text -l -wA -e -L -D -z -T -I --dwarf-depth==1 -S  @@
+readelf --dyn-syms --recurse-limit --ctf-symbols=.bss -ws -e -A -n -h -D -p 1 -r -S -s  @@
+readelf -W --ctf=.data --dwarf-start==1 --dyn-syms --recurse-limit --ctf-symbols=.data -l -wp -A -L -T -I -c --no-demangle -S -s  @@
+readelf -R 1 --lto-syms --dwarf-start==1 --dyn-syms --ctf-symbols=.bss -l -wU -e -u -L -h -D -t -d --no-demangle  @@
+readelf -W --lto-syms --dwarf-start==1 -g -C --recurse-limit -l -wr -e -u -h -z -I -d -c --dwarf-depth==1 --ctf-parent=.text -x 1  @@
+readelf -W -R 1 -C --dyn-syms -e -A -h -z -V --no-demangle --ctf-parent=.bss -S  @@
+readelf -W --ctf=.data -g -C --recurse-limit -l -A -D -T -I -t -c --no-demangle -s  @@
+readelf -W -R 1 --lto-syms --dwarf-start==1 -g --dyn-syms -wu -e -u -A -h -D -z -d --dwarf-depth==1 --ctf-parent=.bss  @@
+readelf -W --lto-syms -C --dyn-syms --recurse-limit -u -h -D -V -T -p 1 -d --ctf-parent=.data -S  @@
+readelf -g --dyn-syms --recurse-limit --ctf-symbols=.bss -u -A -L -D -z -V -T -I -t -p 1 -c --no-demangle  @@
+readelf --ctf=.bss -g -l -e -L -h -z -V -I -t -c --ctf-parent=.bss -s  @@
+readelf --dyn-syms -e -A -n -h -D -z -t -c --no-demangle --ctf-parent=.data -x 1  @@
+readelf --ctf=.bss --dwarf-start==1 -g -wo -e -L -z -V -T -I -t -c --dwarf-depth==1 --ctf-parent=.text -s  @@
+readelf -W -R 1 --dyn-syms -l -A -L -n -h -D -z -I -d -r --no-demangle --ctf-parent=.data -s  @@
+readelf -R 1 -g -C -u -V -I -t -r --ctf-parent=.bss  @@
+readelf -R 1 --lto-syms --ctf-symbols=.data -l -u -L -h -z -T -I -c --no-demangle -S -s  @@
+readelf -W -R 1 --lto-syms --dwarf-start==1 -g -C --ctf-symbols=.text -l -wo -e -u -h -D -I -c -r --no-demangle --dwarf-depth==1  @@
+readelf --dwarf-start==1 -g -C --dyn-syms --ctf-symbols=.data -wL -u -A -n -V -d -c -r --no-demangle --dwarf-depth==1 -x 1  @@
+readelf -C --dyn-syms --recurse-limit -wi -u -A -z -T -d -r --dwarf-depth==1 --ctf-parent=.text -S -x 1 -s  @@
+readelf -W --lto-syms -C --recurse-limit -e -h -z -V -p 1 -c --no-demangle --ctf-parent=.text -S -s  @@
+readelf -g -e -u -n -h -z -t --no-demangle -x 1 -s  @@
+readelf --ctf=.bss --dwarf-start==1 -C -wk -e -h -V -T -I -c --no-demangle --dwarf-depth==1 --ctf-parent=.data -S -s  @@
+readelf -W --lto-syms -C --dyn-syms --ctf-symbols=.text -u -A -T -I -p 1 -c -r -S -s  @@
+readelf -W -g --dyn-syms --recurse-limit -u -L -z -V -T -t -c -r --no-demangle --ctf-parent=.data -x 1 -s  @@
+readelf -W --lto-syms -C --recurse-limit --ctf-symbols=.text -A -L -n -D -z -V -p 1 -c -r --no-demangle -S -s  @@
+readelf -W --lto-syms --dwarf-start==1 -g --recurse-limit -wo -L -h -D -z -V -I -t -d --dwarf-depth==1 --ctf-parent=.text -s  @@
+readelf -R 1 --lto-syms -C --dyn-syms --recurse-limit -l -wa -e -D -V -T -t --no-demangle --dwarf-depth==1 --ctf-parent=.text -s  @@
+readelf -W --lto-syms -g -C --dyn-syms --ctf-symbols=.data -u -h -D -z -V -T -I -t -c --no-demangle -x 1 -s  @@
+readelf -W -R 1 --dwarf-start==1 --dyn-syms --recurse-limit --ctf-symbols=.bss -l -wo -u -A -L -I --no-demangle --dwarf-depth==1 -S  @@
+readelf -W -R 1 --lto-syms --dwarf-start==1 -g --ctf-symbols=.data -wu -e -n -D -V -t -c --dwarf-depth==1  @@
+readelf -W --lto-syms --dyn-syms --recurse-limit --ctf-symbols=.text -A -n -h -z -V -T -c --no-demangle -S -x 1  @@
+readelf -W --lto-syms -g -e -h -T -t -d -c -r --no-demangle --ctf-parent=.text -x 1  @@
+readelf -g --recurse-limit -e -A -L -h -D -z -T -t -d -r --ctf-parent=.text -x 1  @@
+readelf -W --ctf=.text --recurse-limit -A -L -D -z -V -T -I --ctf-parent=.bss -S -s  @@
+readelf -W -R 1 --ctf-symbols=.text -l -e -V -T -t -r --no-demangle  @@
+readelf -W --dwarf-start==1 -g -C --dyn-syms --recurse-limit -wk -u -A -n -D -z -T -I -t -p 1 -s  @@
+readelf --lto-syms -g --recurse-limit -l -u -A -L -D -V -I -p 1 -r --ctf-parent=.bss -s  @@
+readelf -W -R 1 --dwarf-start==1 -g -C --dyn-syms --recurse-limit --ctf-symbols=.data -wR -A -h -D -z -t -d -c -r --no-demangle  @@
+readelf -R 1 --lto-syms -g --dyn-syms --ctf-symbols=.data -l -e -L -n -h -D -z -T -c --no-demangle  @@
+readelf -R 1 --lto-syms --dwarf-start==1 -C --recurse-limit -wa -A -L -h -T -I -r --no-demangle --dwarf-depth==1 -S -s  @@
+readelf --ctf-symbols=.bss -u -A -D -V -T -I -c -r --no-demangle -S -x 1  @@
+readelf -W --dyn-syms --recurse-limit -l -A -L -V -T -p 1 -c --ctf-parent=.text -S -s  @@
+readelf -W -R 1 -g --dyn-syms -wu -A -L -n -h -D -z -T -t -d -c --no-demangle --dwarf-depth==1 --ctf-parent=.bss  @@
+readelf -W -l -wR -e -u -A -L -D -z -I -t -p 1 --dwarf-depth==1 --ctf-parent=.data -s  @@
+readelf --lto-syms -C --ctf-symbols=.text -n -D -z -V -p 1 -d -r --no-demangle -S  @@
+readelf -W --lto-syms -g --dyn-syms --ctf-symbols=.bss -l -wk -A -h -D -T -t --dwarf-depth==1 -x 1  @@
+readelf -W -C --dyn-syms --recurse-limit --ctf-symbols=.text -l -u -L -D -z -p 1 -r -S  @@
+readelf -W --lto-syms --dwarf-start==1 -g --recurse-limit -l -wu -u -n -V -t --dwarf-depth==1 --ctf-parent=.data -x 1  @@
+readelf --ctf=.text -g --dyn-syms --recurse-limit -e -L -h -D -t -c --no-demangle --ctf-parent=.data  @@
+readelf --ctf=.text --dwarf-start==1 -C --dyn-syms --recurse-limit -l -wO -e --dwarf-depth==1 --ctf-parent=.bss  @@
+readelf --lto-syms -g --dyn-syms --ctf-symbols=.data -e -u -L -D -t -d -c -x 1 -s  @@
+readelf --dyn-syms --recurse-limit --ctf-symbols=.text -l -e -h -D -z -V -c -S -x 1 -s  @@
+readelf -W -g -C --dyn-syms --ctf-symbols=.data -wl -e -L -n -z -T -p 1 -c --no-demangle --dwarf-depth==1 -s  @@
+readelf --lto-syms --dwarf-start==1 -C --dyn-syms --recurse-limit -wl -u -L -n -D -I -p 1 --dwarf-depth==1 --ctf-parent=.data -S  @@
+readelf -W --ctf=.text --dwarf-start==1 -g --dyn-syms --recurse-limit --ctf-symbols=.text -l -wa -e -A -L -D -z --no-demangle --dwarf-depth==1  @@
+readelf --lto-syms --dwarf-start==1 --recurse-limit -wA -A -L -h -z -V -I -p 1 -d --ctf-parent=.bss -S  @@
+readelf -g -C --recurse-limit --ctf-symbols=.text -e -L -n -D -z -T -t -c --no-demangle -x 1 -s  @@
+readelf -W --lto-syms --recurse-limit -e -L -h -D -V --no-demangle -S -x 1 -s  @@
+readelf --dwarf-start==1 -C --dyn-syms --recurse-limit -wt -h -V -T -I -p 1 -d -r --no-demangle --ctf-parent=.bss -s  @@
+readelf -W --ctf=.data -g --recurse-limit --ctf-symbols=.bss -e -A -h -D -z -V -t  @@
+readelf -W -g -C --recurse-limit --ctf-symbols=.data -l -u -L -h -D -z -V -T -t -p 1 -d  @@
+readelf --lto-syms --recurse-limit -l -A -L -T -I -p 1 -d -c -r --no-demangle -s  @@
+readelf -W -g -C --recurse-limit -l -u -A -L -h -z -V -I -p 1 -c -r --no-demangle  @@
+readelf -W --ctf=.bss --dyn-syms --recurse-limit -e -A -z -V -T -I -c --no-demangle --ctf-parent=.text -S  @@
+readelf -W -g --ctf-symbols=.data -wr -A -L -n -h -D -V -d -c -r --dwarf-depth==1 -x 1 -s  @@
+readelf -W --ctf=.bss --dwarf-start==1 -C --dyn-syms --recurse-limit -wl -e -A -L -D -V -I --no-demangle -S  @@
+readelf -R 1 --dwarf-start==1 -C -l -wp -e -u -h -D -z -T -I -t -d --no-demangle --dwarf-depth==1 --ctf-parent=.data  @@
+readelf -W --ctf=.text -C --recurse-limit --ctf-symbols=.text -l -e -D -V -T -c -S  @@
+readelf -W -R 1 -g -C -L -h -t -d -r --no-demangle -s  @@
+readelf -W --ctf=.data --dwarf-start==1 -C -l -wi -e -A -h -D -T -c --dwarf-depth==1 -S -s  @@
+readelf -W -R 1 -C --recurse-limit -l -h -D -T -c -r --ctf-parent=.bss -S -s  @@
+readelf -W -R 1 -C --recurse-limit -u -L -z -V -d -c --no-demangle -S -s  @@
+readelf -W --dwarf-start==1 -C --recurse-limit --ctf-symbols=.bss -wc -u -n -D -V -T -t -p 1 -d -c --dwarf-depth==1  @@
+readelf -R 1 --lto-syms --dwarf-start==1 --dyn-syms --recurse-limit -l -wm -u -L -n -h -D -d -c -r --no-demangle -s  @@
+readelf --ctf=.bss -C --ctf-symbols=.text -l -ws -e -L -V -c --no-demangle --dwarf-depth==1 -S  @@
+readelf -W --lto-syms -g -C --ctf-symbols=.text -l -e -L -D -T -I -p 1 --no-demangle -s  @@
+readelf -W --lto-syms -g --ctf-symbols=.text -l -wa -e -L -I -p 1 -d --no-demangle  @@
+readelf -W -R 1 --lto-syms -g -C -l -u -h -V -T -r --no-demangle --ctf-parent=.bss -s  @@
+readelf --ctf=.bss --dwarf-start==1 -C --recurse-limit --ctf-symbols=.text -wr -A -L -h -D -z -V -T -c --no-demangle -S -s  @@
+readelf -W --ctf=.data --dwarf-start==1 --dyn-syms -l -ws -h -D -z -V -T -I --ctf-parent=.text -s  @@
+readelf -W -R 1 --lto-syms --dwarf-start==1 --dyn-syms -l -wp -e -h -D -T -I -c --dwarf-depth==1 -S -s  @@
+readelf -W --ctf=.text --dwarf-start==1 --dyn-syms --recurse-limit --ctf-symbols=.data -wo -e -L -h -z -T -t --no-demangle --dwarf-depth==1 -s  @@
+readelf -W --ctf=.text -g --ctf-symbols=.bss -l -e -z -t -s  @@
+readelf -R 1 --lto-syms --dyn-syms -l -ws -u -A -z -V -d -c --ctf-parent=.text  @@
+readelf -W --lto-syms -C --recurse-limit -l -e -u -L -D -V -T --ctf-parent=.bss -S -x 1  @@
+readelf -W --ctf=.text --dwarf-start==1 -g --ctf-symbols=.text -wT -e -V -T -t --no-demangle  @@
+readelf -W --ctf=.data -g --dyn-syms --recurse-limit -e -h -z -T -s  @@
+readelf -W --recurse-limit --ctf-symbols=.bss -h -V -d -r --no-demangle -S -x 1  @@
+readelf -W -R 1 --recurse-limit -e -u -I -d --no-demangle --ctf-parent=.data -S  @@
+readelf --lto-syms --dwarf-start==1 -l -wU -L -z -T -p 1 -d -c --dwarf-depth==1 --ctf-parent=.bss -S -s  @@
+readelf -R 1 --lto-syms -g -C --recurse-limit -l -wm -L -n -t -d -c --dwarf-depth==1 --ctf-parent=.text  @@
+readelf -W --ctf=.data --dwarf-start==1 -C --recurse-limit -l -wO -A -h -z -I --no-demangle --ctf-parent=.text -S  @@
+readelf -W --lto-syms --dyn-syms --recurse-limit -wu -n -V -T --no-demangle --dwarf-depth==1 --ctf-parent=.text -S -x 1  @@
+readelf -W --lto-syms -g --dyn-syms --ctf-symbols=.data -l -wO -u -A -L -n -z -V -p 1 -c --no-demangle --dwarf-depth==1  @@
+readelf -W -R 1 --lto-syms --dwarf-start==1 -C --recurse-limit --ctf-symbols=.bss -wt -u -n -h -z -d -r --no-demangle --dwarf-depth==1 -S  @@
+readelf -W -R 1 --dwarf-start==1 -g -wt -u -h -D -z -V -I -d -r -s  @@
+readelf -W --lto-syms -g -u -n -D -V -t -r -s  @@
+readelf -W --ctf=.bss --dwarf-start==1 -C --dyn-syms --ctf-symbols=.text -wu -e -D -T -c --dwarf-depth==1 -S -s  @@
+readelf --ctf=.data --dyn-syms --recurse-limit --ctf-symbols=.bss -l -e -D -z -T -t --no-demangle  @@
+readelf -W -R 1 --lto-syms -g --recurse-limit -wa -e -u -A -h -V -c --no-demangle --ctf-parent=.data  @@
+readelf -W --dwarf-start==1 -g --dyn-syms --recurse-limit -wr -u -L -n -h -D -I -t -p 1 -c --no-demangle --ctf-parent=.bss -s  @@
+readelf -W --lto-syms --recurse-limit -u -T -I -d -c --ctf-parent=.text -S -x 1 -s  @@
+readelf -W -R 1 --lto-syms --dyn-syms --recurse-limit -l -u -A -L -h -D -V -T -I --ctf-parent=.data -s  @@
+readelf -W --ctf=.text --dyn-syms --recurse-limit -l -L -h -z -c --ctf-parent=.text -S -s  @@
+readelf -W -R 1 --lto-syms -g --dyn-syms --recurse-limit --ctf-symbols=.data -l -e -u -h -z -t -c --no-demangle  @@
+readelf -R 1 -g --recurse-limit --ctf-symbols=.bss -n -I -t -c -r --no-demangle  @@
+readelf --ctf=.text -C --dyn-syms --recurse-limit --ctf-symbols=.data -l -wg -A -h -D -z -c --no-demangle --dwarf-depth==1 -S -s  @@
+readelf --lto-syms -g --dyn-syms -L -D -V -T -t -p 1 -d --no-demangle --ctf-parent=.text -s  @@
+readelf -W --ctf=.text -g -C -l -e -h -D -I -t -c --no-demangle --ctf-parent=.text  @@
+readelf -W --ctf=.data -C --dyn-syms -l -e -A -h -D -z -T -c --no-demangle --ctf-parent=.bss -S -s  @@
+readelf --ctf-symbols=.text -wK -A -L -t -c -r --no-demangle --dwarf-depth==1 -x 1 -s  @@
+readelf -W --ctf=.text --dyn-syms -l -e -L -D --no-demangle --ctf-parent=.text -S  @@
+readelf --ctf=.text -l -A -L -h -z -T -I -c -S  @@
+readelf -W -C --ctf-symbols=.data -l -wm -A -n -D -z -c --no-demangle --dwarf-depth==1 -S -x 1 -s  @@
+readelf --lto-syms -C --dyn-syms --recurse-limit -L -h -I -t --ctf-parent=.bss -x 1 -s  @@
+readelf -W -R 1 -g -C --recurse-limit --ctf-symbols=.data -wc -L -h -D -z -t -d -r --no-demangle -s  @@
+readelf --dwarf-start==1 --recurse-limit -l -wK -e -u -A -L -n -h -D -z -T -p 1 -c --no-demangle --dwarf-depth==1 --ctf-parent=.bss -S  @@
+readelf --ctf=.data -g -C -wl -A -h -z -V -T -I --no-demangle --dwarf-depth==1 --ctf-parent=.text -s  @@
+readelf -W -g --recurse-limit -l -A -h -D -V -T -c -r --no-demangle -x 1 -s  @@
+readelf -W -C --dyn-syms --recurse-limit --ctf-symbols=.bss -wT -A -L -D -T -p 1 -d -c -r --no-demangle --dwarf-depth==1 -S  @@
+readelf --ctf=.data --dwarf-start==1 -C -l -wR -L -h -D -z -T -I -t --no-demangle --dwarf-depth==1 --ctf-parent=.bss  @@
+readelf -W --lto-syms --dwarf-start==1 -g -C --recurse-limit --ctf-symbols=.bss -wm -L -h -D -V -T -I -p 1 -c -r --dwarf-depth==1 -s  @@
+readelf --ctf=.data -g -C --ctf-symbols=.data -e -L -h -D -I -t -c --no-demangle  @@
+readelf -W --ctf=.bss -g -C --recurse-limit -wt -e -A -V -T -t --no-demangle --dwarf-depth==1 --ctf-parent=.data -s  @@
+readelf -l -wL -e -A -L -D -z -T -I -r --no-demangle --dwarf-depth==1 --ctf-parent=.text  @@
+readelf --dwarf-start==1 --ctf-symbols=.text -l -wO -L -D -V -T -t -p 1 -d --no-demangle  @@
+readelf -W --recurse-limit --ctf-symbols=.text -u -A -h -z -V -p 1 -r --no-demangle -S  @@
+readelf -W --lto-syms -C --dyn-syms --ctf-symbols=.text -u -h -I -p 1 -c -S  @@
+readelf -W --dwarf-start==1 -g --ctf-symbols=.data -l -wi -e -u -L -h -V -t --no-demangle -x 1  @@
+readelf --ctf=.text --recurse-limit --ctf-symbols=.bss -wO -h -I --no-demangle --dwarf-depth==1 -S -s  @@
+readelf --dwarf-start==1 -g -C -wO -e -A -L -n -h -D -z -p 1 -c --dwarf-depth==1 --ctf-parent=.data  @@
+readelf -W --dwarf-start==1 --ctf-symbols=.text -wt -u -L -h -D -z -V -T -I -d -r --dwarf-depth==1 -x 1  @@
+readelf --ctf=.data -g --recurse-limit -l -D -T -t --ctf-parent=.bss -s  @@
+readelf -g -C --recurse-limit --ctf-symbols=.text -L -n -h -T -I -d -c -r -x 1  @@
+readelf -W --ctf=.text -C --dyn-syms --recurse-limit -l -wL -L -h -D -V -T --no-demangle --ctf-parent=.text  @@
+readelf --ctf=.text --ctf-symbols=.bss -A -D -z -V -c --no-demangle -S -s  @@
+readelf -R 1 -g -C --recurse-limit --ctf-symbols=.data -l -wg -e -u -A -n -t  @@
+readelf -W --ctf=.text --dwarf-start==1 --dyn-syms -l -wp -e -L -D -T --no-demangle --dwarf-depth==1 -S -s  @@
+readelf --ctf=.bss --dwarf-start==1 -g --dyn-syms --recurse-limit -wp -e -A -h -D -z -V -t --dwarf-depth==1 --ctf-parent=.bss -s  @@
+readelf --dwarf-start==1 --dyn-syms --ctf-symbols=.text -wR -u -A -L -t -d --no-demangle --dwarf-depth==1 -x 1 -s  @@
+readelf -W --lto-syms --recurse-limit --ctf-symbols=.text -l -u -z -t -p 1 -c -s  @@
+readelf -W --ctf=.bss --recurse-limit --ctf-symbols=.data -l -e -h -D -c --no-demangle -s  @@
+readelf -R 1 --lto-syms -g --recurse-limit -l -wo -u -A -L -D -I -d -c --dwarf-depth==1 -s  @@
+readelf -R 1 -C --recurse-limit --ctf-symbols=.text -e -u -L -h -D -z -T -c -r --no-demangle  @@
+readelf -g -C --dyn-syms --recurse-limit -l -u -h -D -z -T -p 1 -d -r --no-demangle --ctf-parent=.text  @@
+readelf -g --ctf-symbols=.bss -u -L -n -h -D -V -T -I -p 1 -r --no-demangle  @@
+readelf -W -R 1 --lto-syms -u -A -h -D -z -V -T -t -d --ctf-parent=.bss  @@
+readelf -W -g -A -T -I -t -r --ctf-parent=.text -x 1  @@
+readelf --ctf=.data -C --dyn-syms -wO -V -I -c --ctf-parent=.bss -s  @@
+readelf -W --ctf=.data --dyn-syms --recurse-limit --ctf-symbols=.text -l -L -h -D -S -s  @@
+readelf -W --ctf=.data --dwarf-start==1 -g --dyn-syms --ctf-symbols=.bss -l -wa -V -T -c --dwarf-depth==1  @@
+readelf -W --ctf=.text -g --dyn-syms --recurse-limit -l -wR -h -T -I --dwarf-depth==1 --ctf-parent=.bss  @@
+readelf --ctf=.bss -g --recurse-limit -l -e -L -D -V -I --ctf-parent=.bss  @@
+readelf -W --ctf=.bss --dwarf-start==1 -g --dyn-syms -wc -e -D -T -I -t -c --no-demangle --dwarf-depth==1 --ctf-parent=.bss  @@
+readelf -W --ctf=.data -C -T -I -c --no-demangle --ctf-parent=.bss -S -s  @@
+readelf -W --dwarf-start==1 --recurse-limit -wl -A -h -T -d -c --no-demangle --dwarf-depth==1 -S -x 1 -s  @@
+readelf -W --ctf=.bss -g -C -l -A -L -h -z -V -I -t --no-demangle --ctf-parent=.bss  @@
+readelf -W -R 1 --lto-syms -g -C --dyn-syms --recurse-limit --ctf-symbols=.data -l -u -A -L -z -V -c --no-demangle -s  @@
+readelf --ctf=.data -g --dyn-syms -D -T -I -t -c -s  @@
+readelf -W --lto-syms -g --dyn-syms -wa -L -h -D -V -I -p 1 -d --no-demangle --dwarf-depth==1 -s  @@
+readelf -W --ctf=.bss -g --recurse-limit -e -A -h -D -V -T -I --no-demangle  @@
+readelf -R 1 --recurse-limit --ctf-symbols=.data -wO -e -u -A -L -n -h -T --dwarf-depth==1 -S  @@
+readelf --lto-syms -C -A -L -n -h -I --no-demangle --ctf-parent=.text -S -x 1  @@
+readelf -R 1 --dwarf-start==1 -C --ctf-symbols=.bss -wt -V -I -d --no-demangle -s  @@
+readelf --ctf=.bss -e -L -D -V -t -c --no-demangle --ctf-parent=.bss -s  @@
+readelf --dwarf-start==1 -C --recurse-limit --ctf-symbols=.data -wK -u -A -L -z --no-demangle -S -x 1 -s  @@
+readelf -W --lto-syms --dyn-syms --recurse-limit --ctf-symbols=.data -wu -u -A -L -n -D -T -t -p 1 -c --no-demangle -s  @@
+readelf -W --ctf=.data --recurse-limit -l -wt -A -L -z -T -I -c --no-demangle --dwarf-depth==1 -s  @@
+readelf -W -R 1 --lto-syms --recurse-limit --ctf-symbols=.text -A -L -n -D -V -t -c --no-demangle  @@
+readelf -W --lto-syms --dwarf-start==1 -C -wT -e -A -h -D -z -T -t -p 1 -d -c --no-demangle  @@
+readelf -W -g -C --recurse-limit -l -u -A -L -D -t -d -c --no-demangle --ctf-parent=.data -x 1  @@
+readelf -W -R 1 --lto-syms --dwarf-start==1 -l -wc -A -L -n -h -D -c --no-demangle -S  @@
+readelf -g --dyn-syms --recurse-limit --ctf-symbols=.text -l -u -A -n -h -z -x 1 -s  @@
+readelf --ctf=.bss --dwarf-start==1 -C --dyn-syms -wR -e -A -D -I -c --ctf-parent=.data -S -s  @@
+readelf --recurse-limit --ctf-symbols=.bss -e -L -D -z -T -I -p 1 -S  @@
+readelf --ctf=.data -C --recurse-limit --ctf-symbols=.text -e -A -L -h -D -S  @@
+readelf -R 1 -g -C --recurse-limit --ctf-symbols=.bss -u -A -L -n -h -D -z -T -d -c -r --no-demangle -s  @@
+readelf -W -g --recurse-limit -l -A -L -V -T -p 1 -c --no-demangle --ctf-parent=.data -s  @@
+readelf -W -R 1 --ctf-symbols=.data -A -z -T -I -c -S -s  @@
+readelf -W -R 1 --dwarf-start==1 --recurse-limit --ctf-symbols=.text -wk -A -L -h -z -T -t -c --dwarf-depth==1 -s  @@
+readelf --ctf=.text --dwarf-start==1 -g -l -wo -A -h -D -t -c --ctf-parent=.text  @@
+readelf -W --dwarf-start==1 -C --recurse-limit --ctf-symbols=.data -wL -A -L -n -z -T -p 1 -c --no-demangle -S -s  @@
+readelf -W --ctf=.data --recurse-limit -l -wU -e -A -h -z -T -c --dwarf-depth==1 --ctf-parent=.bss -S  @@
+readelf --ctf=.text -C --dyn-syms --recurse-limit -wu -A -D -z --dwarf-depth==1 --ctf-parent=.text -S -s  @@
+readelf -W --lto-syms --dwarf-start==1 --recurse-limit -wr -u -A -n -D -z -T -d -c --dwarf-depth==1 --ctf-parent=.bss -S -x 1  @@
+readelf -R 1 --lto-syms --dwarf-start==1 --recurse-limit -wO -z -T -d --dwarf-depth==1 --ctf-parent=.bss -S -s  @@
+readelf -W --dwarf-start==1 -g -C --dyn-syms --recurse-limit --ctf-symbols=.text -wA -L -h -D -z -d -c -r -x 1  @@
+readelf -R 1 --lto-syms --dwarf-start==1 -g -C -wg -u -L -D -V -I --dwarf-depth==1 --ctf-parent=.data -s  @@
+readelf -W --ctf=.data -g -C --ctf-symbols=.data -L -h -z -V -T -s  @@
+readelf -W -R 1 --lto-syms --dyn-syms --recurse-limit -wk -u -h -D -V -T -c -r -s  @@
+readelf -W --ctf=.data --dwarf-start==1 --ctf-symbols=.data -l -ws -e -A -L -z -T -S  @@
+readelf --lto-syms -C -wa -n -D -T -I -p 1 -r --dwarf-depth==1 --ctf-parent=.data -s  @@
+readelf --dyn-syms --ctf-symbols=.text -l -u -L -n -h -z -T -p 1 -c --no-demangle  @@
+readelf -W --ctf=.data --ctf-symbols=.bss -wT -e -A -L -T -t -c  @@
+readelf --ctf=.text -g -C --dyn-syms -A -D -V -c --ctf-parent=.bss -s  @@
+readelf -W -R 1 --lto-syms --dyn-syms --ctf-symbols=.text -A -D -r -S -s  @@
+readelf -W --ctf=.text -g --dyn-syms -l -D -I -c -s  @@
+readelf -W -R 1 --dwarf-start==1 -g --recurse-limit --ctf-symbols=.text -wU -A -z -I -c -r --no-demangle -s  @@
+readelf --lto-syms --dwarf-start==1 -g -C --dyn-syms --recurse-limit -wo -A -L -n -z -T -d --no-demangle --dwarf-depth==1 --ctf-parent=.data -x 1  @@
+readelf --ctf=.text --dwarf-start==1 -g -C --recurse-limit -wT -z -T -I -t --no-demangle --ctf-parent=.bss  @@
+readelf -W --ctf=.text --recurse-limit -l -e -T -t -c --ctf-parent=.bss  @@
+readelf -R 1 -g --dyn-syms --recurse-limit -A -L -n -r --ctf-parent=.data -s  @@
+readelf -W -R 1 --lto-syms --dwarf-start==1 -C --recurse-limit -l -wl -A -L -h -D -z -T -c -r --dwarf-depth==1 --ctf-parent=.text  @@
+readelf -W --recurse-limit -wL -u -h -V -t -p 1 --dwarf-depth==1 --ctf-parent=.text  @@
+readelf -W -g --ctf-symbols=.data -l -n -h -D -p 1 -c --no-demangle -s  @@
+readelf -W --dwarf-start==1 -C -wp -A -L -t -p 1 -c -r --no-demangle --dwarf-depth==1  @@
+readelf -R 1 --dwarf-start==1 --ctf-symbols=.bss -wK -u -L -D -z -T -d -c --dwarf-depth==1 -S  @@
+readelf --ctf=.text -C --recurse-limit -wu -h -D -V -T -I -c --dwarf-depth==1 --ctf-parent=.bss  @@
+readelf -W --lto-syms --dwarf-start==1 -g --recurse-limit -wp -L -h -z -T -t -p 1 -d -c --no-demangle --dwarf-depth==1  @@
+readelf -W -R 1 --dwarf-start==1 -g -C --dyn-syms --ctf-symbols=.data -wr -A -L -h -T -I --no-demangle  @@
+readelf -R 1 --dwarf-start==1 -C -wo -D -T --ctf-parent=.text -S -s  @@
+readelf -g -C --ctf-symbols=.bss -u -A -h -T -t -p 1 -d --no-demangle  @@
+readelf --ctf=.bss --dyn-syms -l -wu -L -h -D -z -t --dwarf-depth==1 -s  @@
+readelf -W --dwarf-start==1 -C --dyn-syms --recurse-limit -wL -L -z -V -p 1 -c -s  @@
+readelf --ctf=.bss --dyn-syms --recurse-limit -h -D -z -T -I --no-demangle --ctf-parent=.bss -S  @@
+readelf -g --recurse-limit -wu -u -A -L -T -t -p 1 -d --no-demangle --dwarf-depth==1 --ctf-parent=.data  @@
+readelf --recurse-limit -u -A -h -D -V -T -d -c --ctf-parent=.text -x 1  @@
+readelf --ctf=.text --dwarf-start==1 -C --recurse-limit --ctf-symbols=.text -wt -L -z -T -c --dwarf-depth==1 -S  @@
+readelf --ctf=.bss --dyn-syms --recurse-limit -ws -A -h -D -z -T -I -S -s  @@
+readelf --ctf=.bss -g --dyn-syms -wg -A -L -h -t --no-demangle --dwarf-depth==1 --ctf-parent=.bss  @@
+readelf --ctf=.bss --dwarf-start==1 -g --dyn-syms --recurse-limit -l -wL -L -D -z -I --dwarf-depth==1 --ctf-parent=.text  @@
+readelf -W --ctf=.bss --dwarf-start==1 -C -wR -L -h -D -V --dwarf-depth==1 --ctf-parent=.data -S  @@
+readelf -W --ctf=.bss -g -wo -A -L -h -z -T -t --no-demangle --dwarf-depth==1 -s  @@
+readelf -W --lto-syms --dwarf-start==1 -g -wT -n -T -p 1 -c -r --ctf-parent=.data  @@
+readelf --lto-syms -g --recurse-limit -h -D -T -t -p 1 -c --ctf-parent=.data  @@
+readelf -W --lto-syms -g --recurse-limit -u -D -z -r --no-demangle --ctf-parent=.data -x 1 -s  @@
+readelf --ctf=.bss -g -C --dyn-syms --recurse-limit -L -h -D -z -V -T -c --no-demangle --ctf-parent=.bss  @@
+readelf --ctf=.data -g -C --recurse-limit --ctf-symbols=.text -l -A -z -c --no-demangle  @@
+readelf -W --ctf=.bss -g -C -l -wt -z -t --no-demangle --dwarf-depth==1 --ctf-parent=.text  @@
+readelf -W --lto-syms -g --ctf-symbols=.bss -u -L -T -I -x 1  @@
+readelf --ctf=.bss -C -A -h -z -c --ctf-parent=.data -S  @@
+readelf -W -R 1 --lto-syms -g --ctf-symbols=.text -u -T -d -c  @@
+readelf --ctf=.text -C --recurse-limit --ctf-symbols=.text -wU -D -T -c --no-demangle --dwarf-depth==1  @@
+readelf  @@

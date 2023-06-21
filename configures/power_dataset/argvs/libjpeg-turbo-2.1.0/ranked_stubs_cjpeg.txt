@@ -1,0 +1,556 @@
+555
+cjpeg -optimize -restart 1 -baseline -progressive -targa -smooth 1 -sample 160x90 -outfile /tmp/foo -dct float -verbose -arithmetic -maxmemory 4m -qslots  @@
+cjpeg -optimize -report -quality 75 -memdst -baseline -targa -smooth 1 -sample 160x90 -outfile /tmp/foo -dct float -verbose -rgb  @@
+cjpeg -optimize -report -quality 75 -baseline -targa -smooth 1 -outfile /tmp/foo -dct fast -arithmetic -debug -maxmemory 4m -qslots -rgb  @@
+cjpeg -scans -memdst -restart 1 -targa -smooth 1 -sample 160x90 -outfile /tmp/foo -dct float -arithmetic -debug -maxmemory 4m -rgb  @@
+cjpeg -optimize -report -quality 75 -restart 1 -targa -smooth 1 -sample 160x90 -dct float -arithmetic -debug -rgb  @@
+cjpeg -scans -report -quality 75 -memdst -restart 1 -baseline -progressive -qtables -targa -smooth 1 -sample 160x90 -outfile /tmp/foo -dct fast -verbose -arithmetic -qslots  @@
+cjpeg -scans -optimize -memdst -restart 1 -baseline -progressive -targa -dct float -verbose -arithmetic -qslots  @@
+cjpeg -optimize -report -memdst -restart 1 -grayscale -targa -smooth 1 -outfile /tmp/foo -dct int -arithmetic -debug -maxmemory 4m -qslots  @@
+cjpeg -report -quality 75 -memdst -baseline -targa -smooth 1 -outfile /tmp/foo -dct float -debug -qslots  @@
+cjpeg -scans -optimize -report -quality 75 -restart 1 -baseline -smooth 1 -outfile /tmp/foo -dct float -verbose -maxmemory 4m -qslots -rgb  @@
+cjpeg -scans -optimize -quality 75 -restart 1 -grayscale -targa -smooth 1 -sample 160x90 -outfile /tmp/foo -dct fast -debug -maxmemory 4m  @@
+cjpeg -scans -optimize -quality 75 -memdst -progressive -targa -smooth 1 -sample 160x90 -dct float -arithmetic -debug -maxmemory 4m  @@
+cjpeg -optimize -memdst -restart 1 -baseline -qtables -targa -smooth 1 -sample 160x90 -outfile /tmp/foo -dct int -verbose -arithmetic -qslots -rgb  @@
+cjpeg -scans -report -memdst -targa -smooth 1 -outfile /tmp/foo -dct float -verbose -maxmemory 4m -qslots -rgb  @@
+cjpeg -scans -optimize -report -baseline -progressive -targa -sample 160x90 -dct float -verbose -arithmetic -maxmemory 4m  @@
+cjpeg -scans -optimize -quality 75 -memdst -baseline -smooth 1 -outfile /tmp/foo -dct float -verbose -arithmetic -maxmemory 4m -qslots -rgb  @@
+cjpeg -optimize -report -memdst -baseline -progressive -targa -smooth 1 -dct fast -verbose -maxmemory 4m  @@
+cjpeg -scans -report -baseline -grayscale -targa -smooth 1 -sample 160x90 -outfile /tmp/foo -dct float -verbose -arithmetic -icc  @@
+cjpeg -scans -optimize -report -quality 75 -memdst -progressive -targa -outfile /tmp/foo -dct float -arithmetic -icc  @@
+cjpeg -scans -optimize -report -quality 75 -restart 1 -baseline -grayscale -qtables -targa -smooth 1 -sample 160x90 -dct int -arithmetic -debug -maxmemory 4m  @@
+cjpeg -restart 1 -baseline -progressive -targa -smooth 1 -outfile /tmp/foo -dct fast -debug -maxmemory 4m  @@
+cjpeg -optimize -quality 75 -memdst -restart 1 -progressive -targa -sample 160x90 -outfile /tmp/foo -dct float -arithmetic -icc -debug -maxmemory 4m  @@
+cjpeg -scans -optimize -quality 75 -restart 1 -baseline -qtables -targa -smooth 1 -sample 160x90 -dct fast -arithmetic -debug -maxmemory 4m -qslots -rgb  @@
+cjpeg -optimize -quality 75 -restart 1 -progressive -targa -smooth 1 -sample 160x90 -outfile /tmp/foo -dct int -arithmetic -maxmemory 4m  @@
+cjpeg -report -memdst -restart 1 -baseline -progressive -qtables -targa -smooth 1 -sample 160x90 -outfile /tmp/foo -dct fast -icc -debug -maxmemory 4m -qslots  @@
+cjpeg -optimize -memdst -baseline -grayscale -qtables -targa -smooth 1 -sample 160x90 -dct float -debug  @@
+cjpeg -scans -optimize -report -quality 75 -grayscale -qtables -targa -smooth 1 -sample 160x90 -outfile /tmp/foo -dct fast -verbose -arithmetic -maxmemory 4m -qslots  @@
+cjpeg -optimize -quality 75 -restart 1 -baseline -progressive -targa -dct float -debug -maxmemory 4m -qslots  @@
+cjpeg -optimize -report -memdst -targa -dct float -verbose -arithmetic -qslots -rgb  @@
+cjpeg -scans -report -quality 75 -memdst -restart 1 -baseline -grayscale -targa -sample 160x90 -outfile /tmp/foo -dct int -arithmetic -icc -debug -qslots  @@
+cjpeg -optimize -report -baseline -targa -smooth 1 -sample 160x90 -outfile /tmp/foo -dct fast -arithmetic -maxmemory 4m -rgb  @@
+cjpeg -scans -optimize -memdst -restart 1 -smooth 1 -dct float -arithmetic -debug -maxmemory 4m -qslots -rgb  @@
+cjpeg -optimize -report -quality 75 -grayscale -smooth 1 -dct float -arithmetic -debug -maxmemory 4m  @@
+cjpeg -scans -report -quality 75 -memdst -restart 1 -progressive -qtables -targa -dct float -verbose -arithmetic  @@
+cjpeg -optimize -quality 75 -memdst -restart 1 -progressive -qtables -targa -smooth 1 -outfile /tmp/foo -dct float -icc -debug  @@
+cjpeg -report -memdst -baseline -smooth 1 -outfile /tmp/foo -dct fast -verbose -arithmetic -qslots -rgb  @@
+cjpeg -scans -memdst -baseline -progressive -qtables -targa -smooth 1 -sample 160x90 -outfile /tmp/foo -dct float -verbose  @@
+cjpeg -scans -report -quality 75 -restart 1 -baseline -progressive -targa -outfile /tmp/foo -dct int -verbose -arithmetic -icc  @@
+cjpeg -scans -optimize -report -memdst -baseline -grayscale -targa -sample 160x90 -outfile /tmp/foo -arithmetic -debug -maxmemory 4m  @@
+cjpeg -scans -report -memdst -baseline -grayscale -targa -smooth 1 -dct float -arithmetic -maxmemory 4m  @@
+cjpeg -scans -optimize -report -memdst -restart 1 -baseline -progressive -targa -sample 160x90 -outfile /tmp/foo -debug -maxmemory 4m  @@
+cjpeg -report -memdst -restart 1 -smooth 1 -outfile /tmp/foo -dct float -debug -maxmemory 4m -rgb  @@
+cjpeg -scans -optimize -quality 75 -memdst -restart 1 -baseline -smooth 1 -outfile /tmp/foo -arithmetic -debug -maxmemory 4m -qslots -rgb  @@
+cjpeg -scans -optimize -quality 75 -targa -sample 160x90 -outfile /tmp/foo -dct float -debug -qslots -rgb  @@
+cjpeg -scans -optimize -report -quality 75 -memdst -restart 1 -baseline -qtables -targa -sample 160x90 -outfile /tmp/foo -dct fast -arithmetic -icc -debug -maxmemory 4m -rgb  @@
+cjpeg -optimize -restart 1 -baseline -grayscale -targa -outfile /tmp/foo -dct int -verbose -arithmetic -maxmemory 4m  @@
+cjpeg -scans -optimize -report -memdst -baseline -targa -smooth 1 -sample 160x90 -dct float -icc -debug -qslots -rgb  @@
+cjpeg -scans -report -quality 75 -memdst -restart 1 -baseline -sample 160x90 -outfile /tmp/foo -dct float -verbose -arithmetic -icc -rgb  @@
+cjpeg -optimize -report -quality 75 -memdst -baseline -progressive -smooth 1 -sample 160x90 -outfile /tmp/foo -dct float -arithmetic -icc -maxmemory 4m  @@
+cjpeg -optimize -report -memdst -restart 1 -grayscale -targa -smooth 1 -sample 160x90 -dct int -verbose -icc  @@
+cjpeg -scans -memdst -restart 1 -progressive -targa -smooth 1 -sample 160x90 -dct fast -debug -maxmemory 4m -qslots  @@
+cjpeg -scans -optimize -report -memdst -baseline -progressive -smooth 1 -outfile /tmp/foo -dct int -arithmetic -debug -maxmemory 4m  @@
+cjpeg -scans -optimize -report -memdst -grayscale -smooth 1 -sample 160x90 -dct float -arithmetic -debug  @@
+cjpeg -quality 75 -memdst -restart 1 -baseline -progressive -targa -smooth 1 -outfile /tmp/foo -verbose -arithmetic -icc -qslots  @@
+cjpeg -optimize -report -memdst -restart 1 -baseline -progressive -targa -outfile /tmp/foo -arithmetic -debug  @@
+cjpeg -report -quality 75 -grayscale -qtables -targa -smooth 1 -sample 160x90 -outfile /tmp/foo -dct float -arithmetic -icc -debug  @@
+cjpeg -scans -report -quality 75 -restart 1 -baseline -progressive -targa -smooth 1 -sample 160x90 -arithmetic -debug  @@
+cjpeg -quality 75 -memdst -baseline -grayscale -qtables -targa -sample 160x90 -outfile /tmp/foo -dct float -verbose -arithmetic  @@
+cjpeg -scans -optimize -quality 75 -memdst -restart 1 -qtables -targa -smooth 1 -dct fast -verbose -rgb  @@
+cjpeg -scans -optimize -report -restart 1 -baseline -progressive -qtables -targa -smooth 1 -outfile /tmp/foo -dct int -maxmemory 4m  @@
+cjpeg -optimize -report -quality 75 -restart 1 -baseline -targa -smooth 1 -sample 160x90 -dct int -verbose -arithmetic -icc -qslots  @@
+cjpeg -scans -optimize -report -restart 1 -progressive -targa -smooth 1 -outfile /tmp/foo -verbose -arithmetic -maxmemory 4m  @@
+cjpeg -optimize -report -memdst -restart 1 -targa -smooth 1 -outfile /tmp/foo -verbose -qslots -rgb  @@
+cjpeg -scans -optimize -quality 75 -memdst -restart 1 -sample 160x90 -dct float -verbose -arithmetic -qslots -rgb  @@
+cjpeg -scans -report -restart 1 -baseline -smooth 1 -dct float -arithmetic -debug -maxmemory 4m  @@
+cjpeg -scans -optimize -report -restart 1 -baseline -progressive -sample 160x90 -dct float -arithmetic -debug -maxmemory 4m  @@
+cjpeg -quality 75 -memdst -baseline -progressive -smooth 1 -sample 160x90 -outfile /tmp/foo -dct int -arithmetic -debug -maxmemory 4m -qslots  @@
+cjpeg -scans -memdst -restart 1 -baseline -sample 160x90 -outfile /tmp/foo -dct float -verbose -maxmemory 4m -rgb  @@
+cjpeg -scans -optimize -quality 75 -memdst -restart 1 -baseline -progressive -qtables -targa -smooth 1 -sample 160x90 -dct float -icc -maxmemory 4m -qslots  @@
+cjpeg -scans -optimize -report -quality 75 -baseline -progressive -targa -smooth 1 -sample 160x90 -debug -maxmemory 4m  @@
+cjpeg -scans -optimize -memdst -restart 1 -qtables -targa -smooth 1 -outfile /tmp/foo -verbose -arithmetic -maxmemory 4m -rgb  @@
+cjpeg -optimize -report -memdst -restart 1 -baseline -qtables -targa -outfile /tmp/foo -dct float -verbose -maxmemory 4m -qslots -rgb  @@
+cjpeg -optimize -quality 75 -memdst -targa -outfile /tmp/foo -dct fast -debug -maxmemory 4m -rgb  @@
+cjpeg -report -quality 75 -memdst -baseline -progressive -targa -sample 160x90 -dct fast -arithmetic -icc -debug -qslots  @@
+cjpeg -scans -optimize -report -memdst -restart 1 -baseline -progressive -smooth 1 -sample 160x90 -outfile /tmp/foo -verbose -arithmetic  @@
+cjpeg -quality 75 -memdst -restart 1 -progressive -qtables -targa -smooth 1 -sample 160x90 -dct int -arithmetic -debug -qslots  @@
+cjpeg -report -quality 75 -restart 1 -progressive -smooth 1 -dct float -verbose -arithmetic -qslots  @@
+cjpeg -scans -optimize -quality 75 -progressive -targa -smooth 1 -sample 160x90 -outfile /tmp/foo -dct float -icc -debug -qslots  @@
+cjpeg -scans -optimize -restart 1 -grayscale -targa -sample 160x90 -dct fast -verbose -arithmetic -qslots  @@
+cjpeg -scans -optimize -report -quality 75 -memdst -restart 1 -progressive -smooth 1 -sample 160x90 -dct int -verbose -arithmetic -icc  @@
+cjpeg -scans -report -quality 75 -memdst -baseline -grayscale -qtables -targa -smooth 1 -sample 160x90 -outfile /tmp/foo -dct float -icc -maxmemory 4m -qslots  @@
+cjpeg -quality 75 -restart 1 -baseline -qtables -targa -smooth 1 -sample 160x90 -outfile /tmp/foo -verbose -arithmetic -maxmemory 4m  @@
+cjpeg -scans -report -restart 1 -grayscale -targa -smooth 1 -sample 160x90 -outfile /tmp/foo -debug -maxmemory 4m  @@
+cjpeg -optimize -quality 75 -restart 1 -baseline -qtables -targa -smooth 1 -sample 160x90 -outfile /tmp/foo -verbose -maxmemory 4m -rgb  @@
+cjpeg -scans -optimize -memdst -progressive -qtables -targa -sample 160x90 -outfile /tmp/foo -dct float -verbose  @@
+cjpeg -memdst -baseline -targa -sample 160x90 -dct float -verbose -arithmetic -qslots  @@
+cjpeg -scans -report -quality 75 -restart 1 -baseline -grayscale -targa -sample 160x90 -verbose -arithmetic -maxmemory 4m -qslots  @@
+cjpeg -scans -optimize -report -restart 1 -progressive -smooth 1 -sample 160x90 -outfile /tmp/foo -dct fast -arithmetic -icc -debug -qslots  @@
+cjpeg -scans -report -restart 1 -baseline -targa -smooth 1 -debug -maxmemory 4m -qslots -rgb  @@
+cjpeg -quality 75 -memdst -baseline -qtables -targa -smooth 1 -dct fast -verbose -maxmemory 4m -qslots -rgb  @@
+cjpeg -scans -optimize -memdst -restart 1 -grayscale -targa -smooth 1 -sample 160x90 -outfile /tmp/foo -dct int -icc -debug -maxmemory 4m  @@
+cjpeg -scans -report -memdst -restart 1 -baseline -grayscale -targa -sample 160x90 -outfile /tmp/foo -verbose -icc  @@
+cjpeg -scans -optimize -quality 75 -memdst -baseline -progressive -qtables -targa -smooth 1 -sample 160x90 -outfile /tmp/foo -verbose -arithmetic -maxmemory 4m -qslots  @@
+cjpeg -scans -optimize -report -quality 75 -restart 1 -baseline -targa -dct fast -qslots -rgb  @@
+cjpeg -optimize -report -quality 75 -memdst -restart 1 -baseline -targa -sample 160x90 -arithmetic -maxmemory 4m -rgb  @@
+cjpeg -optimize -quality 75 -baseline -grayscale -targa -smooth 1 -sample 160x90 -outfile /tmp/foo -debug -maxmemory 4m -qslots  @@
+cjpeg -scans -report -quality 75 -progressive -targa -dct float -verbose -maxmemory 4m -qslots  @@
+cjpeg -scans -optimize -quality 75 -restart 1 -baseline -progressive -targa -smooth 1 -outfile /tmp/foo -verbose -icc  @@
+cjpeg -scans -optimize -memdst -restart 1 -baseline -grayscale -qtables -targa -smooth 1 -outfile /tmp/foo -arithmetic -icc -debug -maxmemory 4m -qslots  @@
+cjpeg -optimize -memdst -restart 1 -baseline -progressive -smooth 1 -sample 160x90 -outfile /tmp/foo -dct int -verbose -icc -qslots  @@
+cjpeg -quality 75 -baseline -targa -smooth 1 -sample 160x90 -dct fast -verbose -qslots -rgb  @@
+cjpeg -scans -optimize -report -memdst -restart 1 -progressive -qtables -targa -smooth 1 -outfile /tmp/foo -dct int -verbose -icc -maxmemory 4m -qslots  @@
+cjpeg -report -restart 1 -progressive -qtables -targa -smooth 1 -outfile /tmp/foo -dct int -arithmetic -debug -qslots  @@
+cjpeg -optimize -report -quality 75 -memdst -restart 1 -baseline -grayscale -qtables -targa -sample 160x90 -outfile /tmp/foo -arithmetic -debug  @@
+cjpeg -optimize -report -restart 1 -grayscale -targa -smooth 1 -verbose -arithmetic -maxmemory 4m  @@
+cjpeg -memdst -restart 1 -baseline -grayscale -targa -smooth 1 -verbose -maxmemory 4m -qslots  @@
+cjpeg -optimize -report -quality 75 -restart 1 -baseline -grayscale -qtables -targa -smooth 1 -outfile /tmp/foo -debug -qslots  @@
+cjpeg -report -memdst -progressive -targa -smooth 1 -sample 160x90 -verbose -arithmetic -maxmemory 4m -qslots  @@
+cjpeg -scans -report -quality 75 -memdst -restart 1 -grayscale -targa -smooth 1 -sample 160x90 -outfile /tmp/foo -arithmetic -icc -qslots  @@
+cjpeg -scans -optimize -report -quality 75 -memdst -restart 1 -grayscale -smooth 1 -outfile /tmp/foo -debug  @@
+cjpeg -optimize -memdst -baseline -targa -sample 160x90 -arithmetic -debug -maxmemory 4m -qslots -rgb  @@
+cjpeg -scans -optimize -report -quality 75 -restart 1 -baseline -progressive -sample 160x90 -outfile /tmp/foo -dct fast -verbose -qslots  @@
+cjpeg -scans -optimize -report -restart 1 -baseline -grayscale -qtables -targa -smooth 1 -sample 160x90 -verbose -maxmemory 4m  @@
+cjpeg -quality 75 -memdst -progressive -qtables -targa -smooth 1 -outfile /tmp/foo -arithmetic -debug -maxmemory 4m  @@
+cjpeg -optimize -quality 75 -memdst -grayscale -targa -smooth 1 -outfile /tmp/foo -dct int -verbose -icc -qslots  @@
+cjpeg -optimize -report -memdst -restart 1 -grayscale -qtables -targa -smooth 1 -sample 160x90 -outfile /tmp/foo -verbose -qslots  @@
+cjpeg -quality 75 -restart 1 -baseline -grayscale -targa -smooth 1 -dct int -arithmetic -qslots  @@
+cjpeg -scans -optimize -quality 75 -memdst -progressive -qtables -targa -outfile /tmp/foo -dct fast -verbose -maxmemory 4m  @@
+cjpeg -optimize -quality 75 -restart 1 -progressive -targa -smooth 1 -verbose -arithmetic  @@
+cjpeg -memdst -restart 1 -baseline -grayscale -smooth 1 -sample 160x90 -dct int -debug -maxmemory 4m  @@
+cjpeg -scans -optimize -memdst -restart 1 -qtables -targa -smooth 1 -sample 160x90 -dct fast -debug -qslots  @@
+cjpeg -optimize -restart 1 -grayscale -targa -outfile /tmp/foo -dct float -qslots  @@
+cjpeg -restart 1 -baseline -targa -smooth 1 -outfile /tmp/foo -dct int -arithmetic -icc -debug -qslots -rgb  @@
+cjpeg -scans -optimize -quality 75 -restart 1 -baseline -grayscale -targa -sample 160x90 -outfile /tmp/foo -arithmetic  @@
+cjpeg -optimize -report -memdst -restart 1 -grayscale -targa -outfile /tmp/foo -debug -maxmemory 4m  @@
+cjpeg -scans -optimize -report -quality 75 -restart 1 -baseline -progressive -qtables -targa -smooth 1 -sample 160x90 -debug -maxmemory 4m -qslots  @@
+cjpeg -optimize -report -quality 75 -restart 1 -progressive -smooth 1 -sample 160x90 -dct int -arithmetic -maxmemory 4m  @@
+cjpeg -scans -report -quality 75 -memdst -restart 1 -baseline -grayscale -dct int -arithmetic -debug  @@
+cjpeg -optimize -report -memdst -restart 1 -baseline -grayscale -sample 160x90 -dct fast -verbose -arithmetic -qslots  @@
+cjpeg -scans -optimize -baseline -grayscale -smooth 1 -outfile /tmp/foo -dct fast -verbose -maxmemory 4m  @@
+cjpeg -scans -optimize -report -restart 1 -progressive -targa -dct float -icc -debug -maxmemory 4m  @@
+cjpeg -scans -report -memdst -restart 1 -qtables -targa -sample 160x90 -outfile /tmp/foo -arithmetic -debug -qslots -rgb  @@
+cjpeg -quality 75 -restart 1 -grayscale -targa -smooth 1 -sample 160x90 -dct fast -verbose -arithmetic -icc -maxmemory 4m -qslots  @@
+cjpeg -report -baseline -grayscale -qtables -targa -smooth 1 -sample 160x90 -dct int -arithmetic -debug -qslots  @@
+cjpeg -report -restart 1 -qtables -targa -smooth 1 -outfile /tmp/foo -dct fast -verbose -icc -rgb  @@
+cjpeg -optimize -report -quality 75 -memdst -restart 1 -targa -smooth 1 -sample 160x90 -dct int -verbose -icc -maxmemory 4m -qslots -rgb  @@
+cjpeg -scans -report -quality 75 -targa -smooth 1 -outfile /tmp/foo -dct int -verbose -arithmetic -icc -qslots -rgb  @@
+cjpeg -scans -optimize -report -targa -sample 160x90 -outfile /tmp/foo -verbose -arithmetic -maxmemory 4m -rgb  @@
+cjpeg -scans -baseline -progressive -smooth 1 -dct float -verbose -arithmetic -maxmemory 4m  @@
+cjpeg -optimize -report -restart 1 -baseline -smooth 1 -sample 160x90 -outfile /tmp/foo -dct fast -icc -debug -maxmemory 4m -rgb  @@
+cjpeg -optimize -report -quality 75 -memdst -baseline -progressive -smooth 1 -outfile /tmp/foo -debug -qslots  @@
+cjpeg -optimize -report -quality 75 -baseline -targa -outfile /tmp/foo -verbose -arithmetic -qslots -rgb  @@
+cjpeg -baseline -progressive -targa -outfile /tmp/foo -dct int -arithmetic -debug -maxmemory 4m -qslots  @@
+cjpeg -scans -memdst -restart 1 -baseline -targa -smooth 1 -outfile /tmp/foo -dct int -arithmetic -icc -qslots -rgb  @@
+cjpeg -report -memdst -targa -outfile /tmp/foo -dct float -arithmetic -icc -debug -rgb  @@
+cjpeg -scans -optimize -report -memdst -restart 1 -baseline -grayscale -targa -sample 160x90 -arithmetic  @@
+cjpeg -scans -optimize -quality 75 -targa -smooth 1 -sample 160x90 -outfile /tmp/foo -verbose -maxmemory 4m -qslots -rgb  @@
+cjpeg -scans -optimize -memdst -restart 1 -progressive -smooth 1 -dct int -arithmetic -debug -qslots  @@
+cjpeg -memdst -restart 1 -baseline -qtables -targa -smooth 1 -outfile /tmp/foo -dct int -icc -debug -qslots -rgb  @@
+cjpeg -scans -report -baseline -targa -sample 160x90 -outfile /tmp/foo -arithmetic -debug -qslots -rgb  @@
+cjpeg -scans -optimize -report -quality 75 -restart 1 -baseline -grayscale -smooth 1 -sample 160x90 -dct fast -icc  @@
+cjpeg -scans -optimize -report -baseline -qtables -targa -smooth 1 -sample 160x90 -outfile /tmp/foo -verbose -arithmetic -icc -qslots -rgb  @@
+cjpeg -quality 75 -memdst -grayscale -targa -sample 160x90 -dct fast -verbose -qslots  @@
+cjpeg -optimize -report -quality 75 -progressive -smooth 1 -outfile /tmp/foo -dct fast -verbose -arithmetic -icc -maxmemory 4m -qslots  @@
+cjpeg -report -quality 75 -memdst -grayscale -qtables -targa -smooth 1 -dct int -arithmetic -maxmemory 4m -qslots  @@
+cjpeg -memdst -restart 1 -qtables -targa -sample 160x90 -dct fast -verbose -arithmetic -maxmemory 4m -rgb  @@
+cjpeg -scans -optimize -report -memdst -baseline -grayscale -smooth 1 -dct float -verbose -icc -maxmemory 4m -qslots  @@
+cjpeg -scans -report -memdst -restart 1 -grayscale -qtables -targa -smooth 1 -dct int -icc -debug -maxmemory 4m -qslots  @@
+cjpeg -report -quality 75 -memdst -restart 1 -grayscale -outfile /tmp/foo -dct float -verbose -maxmemory 4m  @@
+cjpeg -report -quality 75 -memdst -restart 1 -baseline -sample 160x90 -outfile /tmp/foo -dct fast -maxmemory 4m -qslots -rgb  @@
+cjpeg -optimize -report -restart 1 -baseline -progressive -qtables -targa -sample 160x90 -outfile /tmp/foo -dct int -arithmetic -debug -qslots  @@
+cjpeg -optimize -restart 1 -targa -smooth 1 -sample 160x90 -outfile /tmp/foo -arithmetic -icc -debug -maxmemory 4m -qslots -rgb  @@
+cjpeg -scans -optimize -quality 75 -memdst -restart 1 -baseline -grayscale -dct fast -arithmetic -icc -debug -qslots  @@
+cjpeg -memdst -restart 1 -smooth 1 -dct float -arithmetic -icc -debug -rgb  @@
+cjpeg -scans -report -quality 75 -restart 1 -targa -smooth 1 -outfile /tmp/foo -dct int -verbose -icc -maxmemory 4m  @@
+cjpeg -report -quality 75 -restart 1 -grayscale -qtables -targa -sample 160x90 -dct fast -debug -maxmemory 4m  @@
+cjpeg -scans -optimize -memdst -restart 1 -baseline -progressive -targa -smooth 1 -sample 160x90 -verbose -arithmetic -icc -maxmemory 4m  @@
+cjpeg -grayscale -smooth 1 -outfile /tmp/foo -dct float -icc -debug -maxmemory 4m -qslots  @@
+cjpeg -scans -optimize -report -restart 1 -smooth 1 -sample 160x90 -verbose -arithmetic -maxmemory 4m -qslots -rgb  @@
+cjpeg -scans -report -quality 75 -memdst -restart 1 -progressive -targa -sample 160x90 -outfile /tmp/foo -verbose -icc -maxmemory 4m  @@
+cjpeg -report -memdst -qtables -targa -smooth 1 -sample 160x90 -debug -maxmemory 4m -rgb  @@
+cjpeg -scans -memdst -grayscale -targa -dct fast -arithmetic -debug -qslots  @@
+cjpeg -optimize -report -restart 1 -baseline -grayscale -qtables -targa -smooth 1 -dct int -verbose -icc -maxmemory 4m -qslots  @@
+cjpeg -scans -report -memdst -baseline -targa -smooth 1 -sample 160x90 -verbose -rgb  @@
+cjpeg -report -restart 1 -grayscale -targa -outfile /tmp/foo -arithmetic -debug -qslots  @@
+cjpeg -optimize -report -quality 75 -memdst -baseline -grayscale -smooth 1 -sample 160x90 -verbose -qslots  @@
+cjpeg -scans -optimize -report -quality 75 -progressive -qtables -targa -smooth 1 -sample 160x90 -verbose -arithmetic  @@
+cjpeg -memdst -restart 1 -progressive -qtables -targa -smooth 1 -verbose -arithmetic -maxmemory 4m -qslots  @@
+cjpeg -report -memdst -restart 1 -baseline -progressive -qtables -targa -smooth 1 -sample 160x90  @@
+cjpeg -scans -optimize -quality 75 -memdst -grayscale -qtables -targa -sample 160x90 -outfile /tmp/foo -dct fast -arithmetic -qslots  @@
+cjpeg -memdst -restart 1 -targa -smooth 1 -arithmetic -qslots -rgb  @@
+cjpeg -scans -optimize -report -quality 75 -memdst -restart 1 -baseline -grayscale -qtables -targa -smooth 1 -sample 160x90 -verbose -icc -maxmemory 4m -qslots  @@
+cjpeg -scans -report -quality 75 -restart 1 -baseline -grayscale -qtables -targa -dct fast -verbose -qslots  @@
+cjpeg -optimize -report -quality 75 -restart 1 -baseline -grayscale -smooth 1 -dct int -verbose -arithmetic -icc -maxmemory 4m  @@
+cjpeg -scans -report -restart 1 -baseline -smooth 1 -outfile /tmp/foo -arithmetic -debug -rgb  @@
+cjpeg -scans -optimize -quality 75 -restart 1 -grayscale -smooth 1 -dct int -arithmetic -icc -debug -maxmemory 4m -qslots  @@
+cjpeg -scans -optimize -report -memdst -grayscale -sample 160x90 -outfile /tmp/foo -dct int -debug -maxmemory 4m -qslots  @@
+cjpeg -optimize -report -quality 75 -progressive -targa -sample 160x90 -outfile /tmp/foo -debug -qslots  @@
+cjpeg -report -quality 75 -baseline -progressive -targa -smooth 1 -sample 160x90 -verbose -icc  @@
+cjpeg -report -quality 75 -memdst -baseline -grayscale -targa -outfile /tmp/foo -arithmetic -icc -debug -maxmemory 4m  @@
+cjpeg -scans -optimize -report -memdst -restart 1 -targa -outfile /tmp/foo -verbose -icc -qslots -rgb  @@
+cjpeg -optimize -report -quality 75 -qtables -targa -smooth 1 -verbose -arithmetic -rgb  @@
+cjpeg -scans -optimize -quality 75 -memdst -grayscale -targa -dct fast -verbose -arithmetic -icc -maxmemory 4m  @@
+cjpeg -report -progressive -qtables -targa -outfile /tmp/foo -dct float -arithmetic -debug -maxmemory 4m  @@
+cjpeg -optimize -memdst -progressive -targa -sample 160x90 -outfile /tmp/foo -verbose -arithmetic -icc  @@
+cjpeg -scans -optimize -restart 1 -baseline -qtables -targa -smooth 1 -dct int -arithmetic -icc -debug -rgb  @@
+cjpeg -scans -optimize -report -quality 75 -memdst -restart 1 -progressive -sample 160x90 -arithmetic -debug -maxmemory 4m -qslots  @@
+cjpeg -optimize -quality 75 -memdst -restart 1 -baseline -grayscale -qtables -targa -sample 160x90 -outfile /tmp/foo -verbose -icc  @@
+cjpeg -scans -optimize -report -quality 75 -memdst -baseline -smooth 1 -sample 160x90 -outfile /tmp/foo -arithmetic -icc -debug -rgb  @@
+cjpeg -scans -optimize -report -quality 75 -restart 1 -baseline -progressive -qtables -targa -outfile /tmp/foo -arithmetic -maxmemory 4m -qslots  @@
+cjpeg -scans -optimize -quality 75 -grayscale -targa -smooth 1 -sample 160x90 -verbose -maxmemory 4m  @@
+cjpeg -scans -optimize -report -quality 75 -memdst -restart 1 -progressive -qtables -targa -outfile /tmp/foo -arithmetic -icc -debug -qslots  @@
+cjpeg -report -quality 75 -memdst -progressive -smooth 1 -arithmetic -debug -maxmemory 4m -qslots  @@
+cjpeg -optimize -report -restart 1 -baseline -smooth 1 -dct int -verbose -arithmetic -icc -rgb  @@
+cjpeg -scans -report -memdst -restart 1 -baseline -progressive -targa -sample 160x90 -verbose -icc -qslots  @@
+cjpeg -optimize -report -memdst -restart 1 -baseline -grayscale -smooth 1 -sample 160x90 -outfile /tmp/foo -icc -debug -maxmemory 4m  @@
+cjpeg -scans -report -quality 75 -qtables -targa -smooth 1 -dct fast -debug -qslots -rgb  @@
+cjpeg -scans -report -memdst -restart 1 -qtables -targa -smooth 1 -dct int -icc -debug -maxmemory 4m -rgb  @@
+cjpeg -optimize -quality 75 -memdst -baseline -progressive -qtables -targa -smooth 1 -sample 160x90 -verbose -icc -qslots  @@
+cjpeg -optimize -report -memdst -restart 1 -baseline -progressive -qtables -targa -sample 160x90 -dct int -verbose -arithmetic -icc -maxmemory 4m -qslots  @@
+cjpeg -scans -report -memdst -restart 1 -baseline -qtables -targa -smooth 1 -outfile /tmp/foo -verbose -icc -maxmemory 4m -rgb  @@
+cjpeg -scans -report -baseline -targa -smooth 1 -verbose -maxmemory 4m -qslots -rgb  @@
+cjpeg -optimize -report -quality 75 -restart 1 -grayscale -targa -outfile /tmp/foo -maxmemory 4m  @@
+cjpeg -scans -memdst -progressive -smooth 1 -sample 160x90 -outfile /tmp/foo -dct float -verbose -icc -maxmemory 4m  @@
+cjpeg -report -memdst -restart 1 -grayscale -qtables -targa -sample 160x90 -dct int -verbose -arithmetic -icc -qslots  @@
+cjpeg -scans -optimize -report -quality 75 -memdst -baseline -grayscale -qtables -targa -debug -maxmemory 4m -qslots  @@
+cjpeg -scans -baseline -progressive -targa -sample 160x90 -outfile /tmp/foo -verbose -maxmemory 4m -qslots  @@
+cjpeg -memdst -restart 1 -smooth 1 -sample 160x90 -debug -qslots -rgb  @@
+cjpeg -scans -report -quality 75 -memdst -restart 1 -smooth 1 -verbose -maxmemory 4m -rgb  @@
+cjpeg -scans -optimize -restart 1 -baseline -qtables -targa -smooth 1 -outfile /tmp/foo -arithmetic -icc  @@
+cjpeg -optimize -report -quality 75 -memdst -qtables -targa -smooth 1 -sample 160x90 -outfile /tmp/foo -verbose -icc -maxmemory 4m -qslots -rgb  @@
+cjpeg -scans -optimize -memdst -smooth 1 -sample 160x90 -outfile /tmp/foo -dct fast -maxmemory 4m -qslots  @@
+cjpeg -optimize -restart 1 -baseline -grayscale -targa -verbose -arithmetic -icc  @@
+cjpeg -scans -memdst -restart 1 -progressive -qtables -targa -smooth 1 -debug -maxmemory 4m -qslots  @@
+cjpeg -optimize -quality 75 -restart 1 -grayscale -targa -smooth 1 -sample 160x90 -arithmetic -icc -debug  @@
+cjpeg -quality 75 -baseline -grayscale -smooth 1 -dct int -verbose -arithmetic  @@
+cjpeg -scans -optimize -report -memdst -targa -smooth 1 -outfile /tmp/foo -verbose -arithmetic -icc -maxmemory 4m -rgb  @@
+cjpeg -quality 75 -memdst -baseline -grayscale -smooth 1 -sample 160x90 -outfile /tmp/foo -arithmetic -icc -debug -qslots  @@
+cjpeg -optimize -report -quality 75 -progressive -qtables -targa -smooth 1 -outfile /tmp/foo -arithmetic -icc -debug -qslots  @@
+cjpeg -optimize -quality 75 -memdst -baseline -grayscale -targa -sample 160x90 -dct int -icc -debug  @@
+cjpeg -optimize -restart 1 -baseline -targa -smooth 1 -sample 160x90 -verbose -icc -rgb  @@
+cjpeg -optimize -quality 75 -memdst -restart 1 -grayscale -targa -icc -debug -maxmemory 4m -qslots  @@
+cjpeg -quality 75 -restart 1 -baseline -targa -outfile /tmp/foo -dct int -icc -debug -rgb  @@
+cjpeg -optimize -report -baseline -progressive -targa -smooth 1 -sample 160x90 -outfile /tmp/foo -icc -qslots  @@
+cjpeg -report -quality 75 -restart 1 -progressive -qtables -targa -smooth 1 -sample 160x90 -icc -debug -maxmemory 4m -qslots  @@
+cjpeg -report -restart 1 -baseline -grayscale -sample 160x90 -outfile /tmp/foo -dct fast -arithmetic -icc -debug -maxmemory 4m  @@
+cjpeg -scans -report -quality 75 -grayscale -targa -sample 160x90 -dct fast -icc -debug -qslots  @@
+cjpeg -report -baseline -qtables -targa -sample 160x90 -outfile /tmp/foo -dct int -debug -rgb  @@
+cjpeg -optimize -report -quality 75 -memdst -smooth 1 -verbose -arithmetic -icc  @@
+cjpeg -scans -qtables -targa -sample 160x90 -dct fast -arithmetic -icc -debug -maxmemory 4m -rgb  @@
+cjpeg -optimize -memdst -restart 1 -baseline -qtables -targa -sample 160x90 -debug -rgb  @@
+cjpeg -scans -optimize -report -quality 75 -restart 1 -grayscale -targa -outfile /tmp/foo -verbose -icc -maxmemory 4m -qslots  @@
+cjpeg -scans -optimize -quality 75 -memdst -qtables -targa -smooth 1 -outfile /tmp/foo -dct fast -icc -maxmemory 4m -rgb  @@
+cjpeg -optimize -memdst -grayscale -smooth 1 -outfile /tmp/foo -dct int -verbose -arithmetic -icc -maxmemory 4m -qslots  @@
+cjpeg -scans -optimize -report -restart 1 -baseline -grayscale -targa -dct int -icc -debug  @@
+cjpeg -targa -outfile /tmp/foo -verbose -arithmetic -maxmemory 4m -qslots -rgb  @@
+cjpeg -scans -report -baseline -progressive -smooth 1 -sample 160x90 -dct fast -verbose -icc  @@
+cjpeg -scans -baseline -progressive -targa -smooth 1 -dct float -verbose -icc -maxmemory 4m -qslots  @@
+cjpeg -scans -memdst -baseline -targa -sample 160x90 -arithmetic -debug  @@
+cjpeg -scans -optimize -report -grayscale -targa -smooth 1 -arithmetic -icc -debug -qslots  @@
+cjpeg -report -quality 75 -baseline -targa -sample 160x90 -dct int -verbose -arithmetic -icc -maxmemory 4m -qslots -rgb  @@
+cjpeg -scans -targa -smooth 1 -dct fast -arithmetic -maxmemory 4m -rgb  @@
+cjpeg -optimize -quality 75 -restart 1 -qtables -targa -outfile /tmp/foo -dct float -verbose -arithmetic -icc -maxmemory 4m -qslots -rgb  @@
+cjpeg -report -quality 75 -restart 1 -sample 160x90 -outfile /tmp/foo -arithmetic -debug -maxmemory 4m -rgb  @@
+cjpeg -scans -memdst -baseline -grayscale -qtables -targa -smooth 1 -outfile /tmp/foo -verbose -arithmetic -icc -maxmemory 4m  @@
+cjpeg -scans -optimize -quality 75 -baseline -sample 160x90 -outfile /tmp/foo -dct int -arithmetic -rgb  @@
+cjpeg -scans -optimize -memdst -baseline -progressive -qtables -targa -sample 160x90 -outfile /tmp/foo -arithmetic -icc -debug -maxmemory 4m  @@
+cjpeg -progressive -qtables -targa -smooth 1 -dct fast -arithmetic -icc  @@
+cjpeg -scans -optimize -quality 75 -restart 1 -progressive -qtables -targa -sample 160x90 -arithmetic -debug -qslots  @@
+cjpeg -report -memdst -restart 1 -baseline -grayscale -smooth 1 -sample 160x90 -verbose -arithmetic -icc -maxmemory 4m  @@
+cjpeg -scans -report -quality 75 -memdst -grayscale -qtables -targa -sample 160x90 -verbose -arithmetic  @@
+cjpeg -report -baseline -grayscale -qtables -targa -sample 160x90 -outfile /tmp/foo -verbose -arithmetic -maxmemory 4m -qslots  @@
+cjpeg -scans -optimize -memdst -baseline -grayscale -outfile /tmp/foo -arithmetic -debug  @@
+cjpeg -scans -report -quality 75 -baseline -progressive -qtables -targa -outfile /tmp/foo -debug  @@
+cjpeg -optimize -report -baseline -progressive -targa -smooth 1 -arithmetic -icc -debug  @@
+cjpeg -scans -optimize -report -memdst -progressive -targa -smooth 1 -sample 160x90 -dct int -icc -maxmemory 4m -qslots  @@
+cjpeg -optimize -baseline -grayscale -targa -smooth 1 -outfile /tmp/foo -verbose -icc -qslots  @@
+cjpeg -scans -optimize -report -memdst -restart 1 -targa -smooth 1 -verbose -arithmetic -icc -maxmemory 4m -rgb  @@
+cjpeg -optimize -quality 75 -baseline -targa -smooth 1 -sample 160x90 -outfile /tmp/foo -icc -qslots -rgb  @@
+cjpeg -report -quality 75 -memdst -progressive -smooth 1 -outfile /tmp/foo  @@
+cjpeg -scans -optimize -memdst -baseline -progressive -smooth 1 -sample 160x90 -debug -qslots  @@
+cjpeg -memdst -restart 1 -grayscale -qtables -targa -smooth 1 -sample 160x90 -outfile /tmp/foo -icc -maxmemory 4m  @@
+cjpeg -report -baseline -progressive -targa -smooth 1 -outfile /tmp/foo -verbose -icc -maxmemory 4m -qslots  @@
+cjpeg -scans -report -quality 75 -memdst -baseline -smooth 1 -sample 160x90 -outfile /tmp/foo -icc -debug -maxmemory 4m -qslots -rgb  @@
+cjpeg -scans -optimize -report -quality 75 -restart 1 -targa -sample 160x90 -outfile /tmp/foo -verbose -icc -maxmemory 4m -rgb  @@
+cjpeg -report -quality 75 -baseline -progressive -qtables -targa -sample 160x90 -outfile /tmp/foo -verbose  @@
+cjpeg -report -quality 75 -memdst -restart 1 -baseline -smooth 1 -icc -debug -qslots -rgb  @@
+cjpeg -quality 75 -smooth 1 -outfile /tmp/foo -verbose -maxmemory 4m -rgb  @@
+cjpeg -optimize -quality 75 -memdst -baseline -progressive -sample 160x90 -dct float -verbose -icc -maxmemory 4m  @@
+cjpeg -optimize -report -baseline -progressive -sample 160x90 -dct fast -verbose -arithmetic -icc -qslots  @@
+cjpeg -scans -optimize -quality 75 -grayscale -qtables -targa -smooth 1 -outfile /tmp/foo -verbose -icc -qslots  @@
+cjpeg -optimize -report -restart 1 -targa -sample 160x90 -maxmemory 4m  @@
+cjpeg -scans -optimize -report -qtables -targa -smooth 1 -sample 160x90 -maxmemory 4m -qslots -rgb  @@
+cjpeg -report -memdst -grayscale -smooth 1 -sample 160x90 -arithmetic -icc -debug -qslots  @@
+cjpeg -quality 75 -memdst -baseline -grayscale -qtables -targa -sample 160x90 -dct fast -icc -debug -maxmemory 4m -qslots  @@
+cjpeg -scans -optimize -report -quality 75 -memdst -grayscale -sample 160x90 -outfile /tmp/foo -verbose -arithmetic -icc -maxmemory 4m -qslots  @@
+cjpeg -report -quality 75 -memdst -outfile /tmp/foo -dct float -verbose -maxmemory 4m  @@
+cjpeg -scans -optimize -memdst -restart 1 -baseline -progressive -sample 160x90 -outfile /tmp/foo  @@
+cjpeg -scans -optimize -quality 75 -restart 1 -baseline -grayscale -smooth 1 -maxmemory 4m -qslots  @@
+cjpeg -memdst -restart 1 -smooth 1 -sample 160x90 -outfile /tmp/foo -verbose -icc -rgb  @@
+cjpeg -scans -report -quality 75 -baseline -progressive -targa -sample 160x90 -icc -debug -maxmemory 4m -qslots  @@
+cjpeg -optimize -report -memdst -sample 160x90 -outfile /tmp/foo -dct int -arithmetic -maxmemory 4m -rgb  @@
+cjpeg -scans -optimize -report -grayscale -qtables -targa -outfile /tmp/foo -dct int -qslots  @@
+cjpeg -optimize -restart 1 -progressive -qtables -targa -sample 160x90 -outfile /tmp/foo -verbose -maxmemory 4m -qslots  @@
+cjpeg -scans -report -restart 1 -progressive -smooth 1 -outfile /tmp/foo -verbose -icc -qslots  @@
+cjpeg -optimize -quality 75 -memdst -restart 1 -baseline -grayscale -outfile /tmp/foo -dct int -icc -debug -qslots  @@
+cjpeg -restart 1 -smooth 1 -sample 160x90 -dct fast -verbose -arithmetic -icc -maxmemory 4m -qslots -rgb  @@
+cjpeg -scans -optimize -quality 75 -memdst -restart 1 -baseline -qtables -targa -verbose -arithmetic -icc -maxmemory 4m -qslots -rgb  @@
+cjpeg -quality 75 -memdst -baseline -qtables -targa -sample 160x90 -arithmetic -debug -qslots -rgb  @@
+cjpeg -scans -report -memdst -progressive -dct int -arithmetic -debug -qslots  @@
+cjpeg -scans -qtables -smooth 1 -sample 160x90 -outfile /tmp/foo -arithmetic -debug -qslots  @@
+cjpeg -scans -report -memdst -restart 1 -progressive -qtables -targa -sample 160x90 -arithmetic -qslots  @@
+cjpeg -scans -optimize -memdst -restart 1 -grayscale -sample 160x90 -dct float -icc -maxmemory 4m -qslots  @@
+cjpeg -scans -optimize -quality 75 -memdst -progressive -smooth 1 -verbose -qslots  @@
+cjpeg -optimize -quality 75 -memdst -baseline -grayscale -smooth 1 -sample 160x90 -outfile /tmp/foo -icc -maxmemory 4m  @@
+cjpeg -quality 75 -baseline -progressive -smooth 1 -dct int  @@
+cjpeg -optimize -grayscale -sample 160x90 -outfile /tmp/foo -dct fast -verbose -arithmetic -icc  @@
+cjpeg -scans -optimize -restart 1 -dct float -verbose -arithmetic -icc -maxmemory 4m -rgb  @@
+cjpeg -quality 75 -baseline -grayscale -qtables -targa -smooth 1 -sample 160x90 -verbose -arithmetic -icc -maxmemory 4m -qslots  @@
+cjpeg -report -quality 75 -restart 1 -targa -sample 160x90 -verbose -icc -rgb  @@
+cjpeg -report -memdst -restart 1 -baseline -progressive -sample 160x90 -outfile /tmp/foo -arithmetic -icc -debug -maxmemory 4m  @@
+cjpeg -scans -optimize -report -quality 75 -baseline -qtables -targa -verbose -maxmemory 4m -qslots  @@
+cjpeg -scans -optimize -report -sample 160x90 -dct int -arithmetic -icc -debug -maxmemory 4m -qslots  @@
+cjpeg -optimize -report -baseline -grayscale -qtables -targa -smooth 1 -arithmetic -icc -maxmemory 4m -qslots  @@
+cjpeg -memdst -restart 1 -baseline -progressive -targa -outfile /tmp/foo -icc -maxmemory 4m  @@
+cjpeg -scans -memdst -restart 1 -baseline -grayscale -sample 160x90 -debug -qslots  @@
+cjpeg -optimize -memdst -restart 1 -baseline -grayscale -qtables -targa -verbose  @@
+cjpeg -report -grayscale -smooth 1 -sample 160x90 -outfile /tmp/foo -qslots  @@
+cjpeg -scans -report -memdst -baseline -progressive -outfile /tmp/foo -arithmetic -qslots  @@
+cjpeg -report -grayscale -targa -verbose  @@
+cjpeg -quality 75 -baseline -qtables -targa -smooth 1 -sample 160x90 -outfile /tmp/foo -arithmetic -icc -maxmemory 4m -rgb  @@
+cjpeg -optimize -quality 75 -memdst -restart 1 -sample 160x90 -dct int -icc -debug -qslots -rgb  @@
+cjpeg -optimize -quality 75 -memdst -qtables -targa -smooth 1 -sample 160x90 -verbose -icc -maxmemory 4m -qslots  @@
+cjpeg -memdst -restart 1 -smooth 1 -outfile /tmp/foo -icc -debug -maxmemory 4m  @@
+cjpeg -scans -report -baseline -sample 160x90 -outfile /tmp/foo -verbose -qslots -rgb  @@
+cjpeg -optimize -quality 75 -qtables -targa -dct float -arithmetic -debug -maxmemory 4m  @@
+cjpeg -scans -report -memdst -grayscale -qtables -targa -verbose -arithmetic -icc -qslots  @@
+cjpeg -optimize -report -quality 75 -memdst -grayscale -qtables -targa -outfile /tmp/foo -verbose -maxmemory 4m  @@
+cjpeg -scans -progressive -targa -smooth 1 -sample 160x90 -outfile /tmp/foo -arithmetic -icc -debug  @@
+cjpeg -report -quality 75 -memdst -progressive -qtables -targa -outfile /tmp/foo -dct int -verbose -qslots  @@
+cjpeg -scans -report -quality 75 -memdst -qtables -targa -outfile /tmp/foo -icc -debug -maxmemory 4m -rgb  @@
+cjpeg -scans -report -qtables -targa -outfile /tmp/foo -verbose -arithmetic -icc -qslots -rgb  @@
+cjpeg -scans -report -quality 75 -memdst -baseline -qtables -targa -sample 160x90 -dct int -arithmetic -icc -maxmemory 4m -qslots -rgb  @@
+cjpeg -scans -report -quality 75 -memdst -sample 160x90 -dct int -icc -debug -maxmemory 4m -qslots -rgb  @@
+cjpeg -scans -memdst -baseline -outfile /tmp/foo -debug -rgb  @@
+cjpeg -memdst -restart 1 -targa -sample 160x90 -outfile /tmp/foo -icc -maxmemory 4m -qslots -rgb  @@
+cjpeg -scans -baseline -qtables -targa -sample 160x90 -outfile /tmp/foo -dct int -verbose -icc -maxmemory 4m -qslots -rgb  @@
+cjpeg -restart 1 -progressive -sample 160x90 -outfile /tmp/foo -dct int -verbose -arithmetic -icc -maxmemory 4m -qslots  @@
+cjpeg -scans -optimize -baseline -grayscale -sample 160x90 -debug -maxmemory 4m  @@
+cjpeg -scans -report -quality 75 -progressive -qtables -targa -sample 160x90 -outfile /tmp/foo -dct int -icc -maxmemory 4m  @@
+cjpeg -optimize -quality 75 -restart 1 -progressive -sample 160x90 -arithmetic -icc -debug -maxmemory 4m -qslots  @@
+cjpeg -restart 1 -qtables -targa -sample 160x90 -verbose -maxmemory 4m -qslots -rgb  @@
+cjpeg -baseline -progressive -qtables -targa -sample 160x90 -debug -maxmemory 4m  @@
+cjpeg -optimize -report -memdst -restart 1 -baseline -sample 160x90 -arithmetic -icc -debug -maxmemory 4m -rgb  @@
+cjpeg -memdst -progressive -smooth 1 -sample 160x90 -outfile /tmp/foo -verbose -icc -maxmemory 4m  @@
+cjpeg -scans -memdst -baseline -qtables -targa -outfile /tmp/foo -verbose -icc  @@
+cjpeg -optimize -grayscale -qtables -targa -sample 160x90 -outfile /tmp/foo -arithmetic -icc -debug -maxmemory 4m -qslots  @@
+cjpeg -optimize -report -quality 75 -restart 1 -grayscale -sample 160x90 -outfile /tmp/foo -icc -debug -qslots  @@
+cjpeg -optimize -quality 75 -smooth 1 -sample 160x90 -arithmetic -icc -debug -rgb  @@
+cjpeg -scans -optimize -report -quality 75 -qtables -targa -sample 160x90 -arithmetic -icc -debug -rgb  @@
+cjpeg -report -sample 160x90 -dct int -verbose -arithmetic -rgb  @@
+cjpeg -optimize -report -quality 75 -memdst -smooth 1 -arithmetic -icc -maxmemory 4m -qslots -rgb  @@
+cjpeg -report -memdst -baseline -progressive -outfile /tmp/foo -dct int -verbose -icc  @@
+cjpeg -scans -memdst -baseline -progressive -smooth 1 -arithmetic -icc -debug -maxmemory 4m  @@
+cjpeg -optimize -restart 1 -grayscale -qtables -targa -sample 160x90 -dct int -arithmetic -icc -maxmemory 4m  @@
+cjpeg -report -restart 1 -baseline -qtables -targa -sample 160x90 -outfile /tmp/foo -icc -debug -qslots  @@
+cjpeg -scans -optimize -report -quality 75 -memdst -restart 1 -baseline -progressive -qtables -smooth 1 -sample 160x90 -dct float -debug  @@
+cjpeg -optimize -progressive -targa -sample 160x90  @@
+cjpeg -scans -optimize -quality 75 -baseline -progressive -outfile /tmp/foo -icc -debug -maxmemory 4m  @@
+cjpeg -scans -baseline -grayscale -sample 160x90 -dct float -arithmetic -icc -maxmemory 4m -qslots  @@
+cjpeg -optimize -baseline -progressive -qtables -targa -dct float -verbose -icc -qslots  @@
+cjpeg -memdst -progressive -targa -icc -debug -qslots  @@
+cjpeg -report -memdst -restart 1 -baseline -progressive -verbose -maxmemory 4m  @@
+cjpeg -scans -report -quality 75 -memdst -restart 1 -baseline -progressive -qtables -smooth 1 -outfile /tmp/foo -dct int -verbose -arithmetic -icc -maxmemory 4m  @@
+cjpeg -scans -report -quality 75 -baseline -grayscale -sample 160x90 -verbose -icc  @@
+cjpeg -quality 75 -restart 1 -grayscale -qtables -targa -outfile /tmp/foo -verbose -icc  @@
+cjpeg -restart 1 -progressive -qtables -targa -outfile /tmp/foo -arithmetic -icc -debug -maxmemory 4m -qslots  @@
+cjpeg -scans -grayscale -qtables -targa -sample 160x90 -outfile /tmp/foo -verbose -arithmetic -icc -maxmemory 4m  @@
+cjpeg -memdst -restart 1 -grayscale -outfile /tmp/foo -arithmetic -maxmemory 4m  @@
+cjpeg -optimize -report -quality 75 -memdst -baseline -progressive -qtables -targa -verbose -arithmetic -icc -maxmemory 4m  @@
+cjpeg -scans -optimize -report -quality 75 -memdst -restart 1 -baseline -qtables -sample 160x90 -outfile /tmp/foo -debug  @@
+cjpeg -optimize -memdst -restart 1 -baseline -dct fast -icc -rgb  @@
+cjpeg -scans -optimize -report -quality 75 -memdst -baseline -grayscale -qtables -sample 160x90 -dct int -verbose -arithmetic -icc  @@
+cjpeg -scans -optimize -quality 75 -memdst -restart 1 -grayscale -qtables -smooth 1 -sample 160x90 -outfile /tmp/foo -dct int -arithmetic -debug -qslots  @@
+cjpeg -scans -optimize -report -quality 75 -restart 1 -baseline -grayscale -qtables -outfile /tmp/foo -verbose -arithmetic -icc -maxmemory 4m  @@
+cjpeg -scans -optimize -smooth 1 -outfile /tmp/foo -icc -debug -rgb  @@
+cjpeg -optimize -restart 1 -progressive -outfile /tmp/foo -debug  @@
+cjpeg -scans -report -baseline -arithmetic -icc -debug -maxmemory 4m -qslots -rgb  @@
+cjpeg -scans -optimize -report -memdst -restart 1 -grayscale -qtables -sample 160x90 -dct int -arithmetic -icc -debug -maxmemory 4m -qslots  @@
+cjpeg -optimize -report -baseline -progressive -outfile /tmp/foo -dct float -icc -maxmemory 4m -qslots  @@
+cjpeg -scans -optimize -report -memdst -restart 1 -grayscale -qtables -smooth 1 -sample 160x90 -outfile /tmp/foo -verbose -icc -maxmemory 4m -qslots  @@
+cjpeg -scans -report -quality 75 -memdst -restart 1 -progressive -qtables -smooth 1 -outfile /tmp/foo -dct int -icc -qslots  @@
+cjpeg -scans -optimize -memdst -restart 1 -progressive -qtables -outfile /tmp/foo -arithmetic -icc -maxmemory 4m -qslots  @@
+cjpeg -progressive -sample 160x90 -dct int -debug  @@
+cjpeg -scans -optimize -report -restart 1 -baseline -grayscale -qtables -smooth 1 -outfile /tmp/foo -dct int -verbose -arithmetic -icc  @@
+cjpeg -scans -report -memdst -grayscale -targa -icc -maxmemory 4m  @@
+cjpeg -scans -optimize -report -quality 75 -memdst -baseline -qtables -outfile /tmp/foo -arithmetic -debug -maxmemory 4m -qslots -rgb  @@
+cjpeg -scans -optimize -quality 75 -restart 1 -baseline -progressive -qtables -smooth 1 -sample 160x90 -outfile /tmp/foo -dct float -verbose -arithmetic -icc -qslots  @@
+cjpeg -scans -optimize -memdst -restart 1 -progressive -qtables -outfile /tmp/foo -verbose -icc  @@
+cjpeg -scans -memdst -restart 1 -baseline -verbose -arithmetic -icc -maxmemory 4m -qslots  @@
+cjpeg -scans -report -quality 75 -restart 1 -baseline -grayscale -qtables -outfile /tmp/foo -dct int -arithmetic -debug -maxmemory 4m -qslots  @@
+cjpeg -scans -optimize -report -restart 1 -baseline -progressive -qtables -dct int -verbose -icc -qslots  @@
+cjpeg -report -quality 75 -memdst -restart 1 -baseline -grayscale -qslots  @@
+cjpeg -scans -report -quality 75 -restart 1 -baseline -grayscale -qtables -smooth 1 -sample 160x90 -dct float -icc -debug -maxmemory 4m  @@
+cjpeg -scans -report -restart 1 -baseline -progressive -qtables -sample 160x90 -verbose -arithmetic -icc -maxmemory 4m  @@
+cjpeg -scans -report -quality 75 -memdst -baseline -grayscale -qtables -smooth 1 -outfile /tmp/foo -dct float -verbose -icc -qslots  @@
+cjpeg -scans -optimize -report -memdst -baseline -qtables -dct float -arithmetic -rgb  @@
+cjpeg -scans -optimize -restart 1 -baseline -grayscale -qtables -sample 160x90 -icc -debug -qslots  @@
+cjpeg -scans -memdst -restart 1 -baseline -progressive -qtables -dct int -icc -debug -maxmemory 4m -qslots  @@
+cjpeg -scans -optimize -report -memdst -progressive -qtables -sample 160x90 -outfile /tmp/foo -dct int -verbose -arithmetic -qslots  @@
+cjpeg -scans -optimize -report -memdst -progressive -qtables -smooth 1 -debug  @@
+cjpeg -scans -report -quality 75 -memdst -baseline -qtables -targa -icc -maxmemory 4m -rgb  @@
+cjpeg -scans -memdst -restart 1 -baseline -grayscale -qtables -outfile /tmp/foo -dct int -verbose -arithmetic -icc -qslots  @@
+cjpeg -scans -report -quality 75 -memdst -restart 1 -qtables -outfile /tmp/foo -dct fast -arithmetic -icc -debug -maxmemory 4m -qslots -rgb  @@
+cjpeg -optimize -report -quality 75 -memdst -restart 1 -baseline -grayscale -qtables -sample 160x90 -dct float -arithmetic -maxmemory 4m -qslots  @@
+cjpeg -optimize -report -quality 75 -memdst -restart 1 -baseline -grayscale -qtables -smooth 1 -outfile /tmp/foo -verbose -arithmetic -qslots  @@
+cjpeg -optimize -report -memdst -qtables -targa -arithmetic -icc -debug -maxmemory 4m -rgb  @@
+cjpeg -scans -optimize -report -quality 75 -restart 1 -baseline -qtables -smooth 1 -outfile /tmp/foo -debug -rgb  @@
+cjpeg -scans -optimize -quality 75 -memdst -baseline -progressive -qtables -sample 160x90 -arithmetic -icc -debug -qslots  @@
+cjpeg -scans -optimize -report -memdst -grayscale -qtables -outfile /tmp/foo -dct int -arithmetic -icc -debug  @@
+cjpeg -scans -report -restart 1 -baseline -grayscale -qtables -dct float -verbose -arithmetic -maxmemory 4m -qslots  @@
+cjpeg -scans -optimize -report -quality 75 -sample 160x90 -outfile /tmp/foo -icc -maxmemory 4m -rgb  @@
+cjpeg -scans -optimize -memdst -baseline -grayscale -qtables -smooth 1 -sample 160x90 -verbose -arithmetic -maxmemory 4m -qslots  @@
+cjpeg -optimize -quality 75 -memdst -restart 1 -baseline -progressive -qtables -dct float -verbose -arithmetic  @@
+cjpeg -scans -optimize -progressive -qtables -targa -verbose -icc -maxmemory 4m -qslots  @@
+cjpeg -scans -optimize -report -baseline -progressive -qtables -smooth 1 -outfile /tmp/foo -dct int -debug -maxmemory 4m -qslots  @@
+cjpeg -optimize -report -memdst -restart 1 -baseline -progressive -qtables -sample 160x90 -dct fast -icc -debug  @@
+cjpeg -scans -report -memdst -baseline -progressive -qtables -smooth 1 -sample 160x90 -outfile /tmp/foo -icc -debug -qslots  @@
+cjpeg -scans -report -quality 75 -restart 1 -progressive -qtables -sample 160x90 -outfile /tmp/foo -dct fast -debug -maxmemory 4m -qslots  @@
+cjpeg -scans -report -memdst -baseline -grayscale -qtables -smooth 1 -sample 160x90 -dct float -qslots  @@
+cjpeg -scans -report -memdst -restart 1 -qtables -sample 160x90 -dct float -verbose -qslots -rgb  @@
+cjpeg -optimize -report -quality 75 -memdst -restart 1 -progressive -qtables -smooth 1 -outfile /tmp/foo -verbose -maxmemory 4m -qslots  @@
+cjpeg -scans -report -quality 75 -memdst -progressive -qtables -smooth 1 -sample 160x90 -dct float -arithmetic -icc -debug  @@
+cjpeg -optimize -memdst -restart 1 -baseline -grayscale -qtables -smooth 1 -dct fast -verbose  @@
+cjpeg -scans -report -restart 1 -grayscale -qtables -smooth 1 -sample 160x90 -dct float -verbose -maxmemory 4m -qslots  @@
+cjpeg -scans -optimize -report -quality 75 -baseline -qtables -smooth 1 -dct float -verbose -arithmetic -maxmemory 4m -rgb  @@
+cjpeg -scans -optimize -report -quality 75 -restart 1 -qtables -smooth 1 -outfile /tmp/foo -icc -qslots -rgb  @@
+cjpeg -scans -optimize -quality 75 -memdst -progressive -qtables -smooth 1 -dct int -arithmetic -maxmemory 4m -qslots  @@
+cjpeg -scans -optimize -quality 75 -memdst -grayscale -qtables -smooth 1 -dct int -icc -debug -maxmemory 4m  @@
+cjpeg -scans -optimize -report -memdst -qtables -outfile /tmp/foo -dct float -verbose -rgb  @@
+cjpeg -scans -optimize -report -quality 75 -baseline -qtables -sample 160x90 -dct int -verbose -rgb  @@
+cjpeg -scans -report -restart 1 -grayscale -qtables -smooth 1 -sample 160x90 -dct int -verbose  @@
+cjpeg -scans -report -quality 75 -memdst -grayscale -qtables -smooth 1 -sample 160x90 -outfile /tmp/foo -dct float -icc -debug  @@
+cjpeg -scans -optimize -quality 75 -restart 1 -qtables -sample 160x90 -verbose -icc -maxmemory 4m -rgb  @@
+cjpeg -scans -report -memdst -grayscale -qtables -sample 160x90 -outfile /tmp/foo -debug -maxmemory 4m  @@
+cjpeg -report -quality 75 -restart 1 -progressive -arithmetic -icc -qslots  @@
+cjpeg -scans -optimize -quality 75 -baseline -grayscale -qtables -sample 160x90 -outfile /tmp/foo -dct float -arithmetic -icc -debug  @@
+cjpeg -optimize -baseline -qtables -arithmetic -debug -qslots -rgb  @@
+cjpeg -optimize -report -memdst -restart 1 -grayscale -qtables -smooth 1 -arithmetic -icc  @@
+cjpeg -quality 75 -memdst -outfile /tmp/foo -dct int -verbose -arithmetic -icc -qslots -rgb  @@
+cjpeg -baseline -grayscale -qtables -targa -outfile /tmp/foo -maxmemory 4m  @@
+cjpeg -quality 75 -memdst -restart 1 -baseline -grayscale -qtables -smooth 1 -outfile /tmp/foo -dct fast -arithmetic -icc -debug  @@
+cjpeg -optimize -quality 75 -memdst -restart 1 -baseline -qtables -smooth 1 -dct int -verbose -arithmetic -rgb  @@
+cjpeg -scans -optimize -memdst -baseline -qtables -outfile /tmp/foo -dct fast -icc -debug -maxmemory 4m -rgb  @@
+cjpeg -report -quality 75 -memdst -restart 1 -baseline -qtables -smooth 1 -sample 160x90 -verbose -arithmetic -icc -qslots -rgb  @@
+cjpeg -scans -report -restart 1 -qtables -smooth 1 -sample 160x90 -outfile /tmp/foo -dct int -icc -maxmemory 4m -rgb  @@
+cjpeg -optimize -memdst -restart 1 -progressive -qtables -sample 160x90 -dct int -arithmetic -debug -maxmemory 4m  @@
+cjpeg -memdst -restart 1 -grayscale -qtables -verbose -icc -maxmemory 4m -qslots  @@
+cjpeg -quality 75 -baseline -grayscale -qtables -targa -dct int -icc  @@
+cjpeg -scans -optimize -baseline -progressive -qtables -smooth 1 -dct float -verbose -arithmetic -icc -maxmemory 4m  @@
+cjpeg -scans -report -baseline -grayscale -qtables -sample 160x90 -dct int -arithmetic -debug -maxmemory 4m  @@
+cjpeg -quality 75 -memdst -restart 1 -grayscale -qtables -sample 160x90 -arithmetic -icc -debug -maxmemory 4m  @@
+cjpeg -optimize -quality 75 -baseline -grayscale -qtables -verbose -arithmetic -qslots  @@
+cjpeg -scans -report -quality 75 -grayscale -qtables -smooth 1 -outfile /tmp/foo -debug -maxmemory 4m -qslots  @@
+cjpeg -optimize -restart 1 -baseline -progressive -qtables -smooth 1 -arithmetic -icc -debug -maxmemory 4m -qslots  @@
+cjpeg -scans -optimize -memdst -qtables -smooth 1 -sample 160x90 -dct float -verbose -icc -qslots -rgb  @@
+cjpeg -optimize -quality 75 -memdst -restart 1 -qtables -sample 160x90 -outfile /tmp/foo -verbose -maxmemory 4m -qslots -rgb  @@
+cjpeg -optimize -report -quality 75 -restart 1 -baseline -qtables -smooth 1 -sample 160x90 -outfile /tmp/foo -dct int -arithmetic -qslots -rgb  @@
+cjpeg -report -quality 75 -restart 1 -baseline -progressive -qtables -outfile /tmp/foo -dct float -icc -debug -qslots  @@
+cjpeg -optimize -quality 75 -progressive -qtables -debug -maxmemory 4m  @@
+cjpeg -optimize -report -memdst -restart 1 -qtables -outfile /tmp/foo -arithmetic -debug -rgb  @@
+cjpeg -report -quality 75 -restart 1 -baseline -grayscale -qtables -smooth 1 -arithmetic -debug -maxmemory 4m -qslots  @@
+cjpeg -report -quality 75 -restart 1 -baseline -progressive -qtables -sample 160x90 -outfile /tmp/foo -dct fast -verbose -arithmetic -icc -maxmemory 4m  @@
+cjpeg -quality 75 -memdst -restart 1 -grayscale -qtables -smooth 1 -dct float -verbose -icc  @@
+cjpeg -quality 75 -restart 1 -baseline -grayscale -qtables -sample 160x90 -outfile /tmp/foo -dct int -verbose -maxmemory 4m -qslots  @@
+cjpeg -optimize -report -quality 75 -memdst -progressive -qtables -sample 160x90 -icc -qslots  @@
+cjpeg -scans -baseline -progressive -qtables -smooth 1 -outfile /tmp/foo -verbose -arithmetic -qslots  @@
+cjpeg -optimize -quality 75 -restart 1 -baseline -qtables -smooth 1 -maxmemory 4m -rgb  @@
+cjpeg -scans -optimize -baseline -qtables -sample 160x90 -debug -maxmemory 4m -qslots -rgb  @@
+cjpeg -optimize -report -memdst -grayscale -qtables -sample 160x90 -outfile /tmp/foo -dct fast -verbose -icc -maxmemory 4m  @@
+cjpeg -memdst -qtables -targa -outfile /tmp/foo -icc -debug -qslots -rgb  @@
+cjpeg -restart 1 -baseline -progressive -qtables -smooth 1 -sample 160x90 -outfile /tmp/foo -arithmetic -debug  @@
+cjpeg -optimize -restart 1 -progressive -qtables -smooth 1 -sample 160x90 -dct int -verbose  @@
+cjpeg -report -memdst -restart 1 -qtables -smooth 1 -sample 160x90 -outfile /tmp/foo -dct fast -verbose -arithmetic -icc -maxmemory 4m -qslots  @@
+cjpeg -optimize -restart 1 -grayscale -qtables -smooth 1 -sample 160x90 -verbose -arithmetic -maxmemory 4m  @@
+cjpeg -report -quality 75 -restart 1 -progressive -qtables -smooth 1 -verbose -icc -maxmemory 4m  @@
+cjpeg -report -quality 75 -restart 1 -grayscale -qtables -smooth 1 -sample 160x90 -outfile /tmp/foo -icc -debug -maxmemory 4m -qslots  @@
+cjpeg -optimize -baseline -outfile /tmp/foo -dct float -verbose -arithmetic -icc -qslots  @@
+cjpeg -optimize -report -restart 1 -qtables -dct int -debug -maxmemory 4m -qslots -rgb  @@
+cjpeg -quality 75 -restart 1 -grayscale -qtables -smooth 1 -outfile /tmp/foo -dct int -verbose -arithmetic  @@
+cjpeg -report -restart 1 -baseline -qtables -outfile /tmp/foo -verbose -arithmetic -icc -maxmemory 4m -rgb  @@
+cjpeg -quality 75 -restart 1 -baseline -qtables -smooth 1 -sample 160x90 -outfile /tmp/foo -icc -debug -maxmemory 4m -qslots -rgb  @@
+cjpeg -report -restart 1 -grayscale -qtables -dct float -debug -qslots  @@
+cjpeg -optimize -report -quality 75 -memdst -qtables -smooth 1 -sample 160x90 -dct fast -arithmetic -debug -qslots -rgb  @@
+cjpeg -scans -memdst -qtables -outfile /tmp/foo -arithmetic -rgb  @@
+cjpeg -scans -memdst -qtables -sample 160x90 -outfile /tmp/foo -verbose -arithmetic -icc -maxmemory 4m -rgb  @@
+cjpeg -optimize -report -baseline -verbose -icc -maxmemory 4m -rgb  @@
+cjpeg -report -quality 75 -baseline -progressive -qtables -smooth 1 -sample 160x90 -dct float -verbose -icc -maxmemory 4m -qslots  @@
+cjpeg -optimize -report -quality 75 -progressive -qtables -sample 160x90 -outfile /tmp/foo -verbose -arithmetic -qslots  @@
+cjpeg -report -memdst -progressive -qtables -sample 160x90 -outfile /tmp/foo -dct float -icc -debug -maxmemory 4m -qslots  @@
+cjpeg -report -quality 75 -baseline -progressive -qtables -smooth 1 -outfile /tmp/foo -dct int -arithmetic -icc -debug  @@
+cjpeg -report -baseline -grayscale -qtables -smooth 1 -icc -debug  @@
+cjpeg -optimize -report -progressive -qtables -smooth 1 -sample 160x90 -outfile /tmp/foo -arithmetic -icc -debug -maxmemory 4m  @@
+cjpeg -optimize -report -progressive -qtables -dct float -arithmetic -icc -debug -maxmemory 4m  @@
+cjpeg -report -memdst -qtables -smooth 1 -outfile /tmp/foo -arithmetic -icc -maxmemory 4m -rgb  @@
+cjpeg -optimize -quality 75 -memdst -baseline -qtables -outfile /tmp/foo -verbose -icc -rgb  @@
+cjpeg -quality 75 -memdst -baseline -progressive -qtables -sample 160x90 -arithmetic -maxmemory 4m -qslots  @@
+cjpeg -report -quality 75 -baseline -qtables -dct float -arithmetic -debug -rgb  @@
+cjpeg -report -quality 75 -grayscale -qtables -sample 160x90 -outfile /tmp/foo -dct fast -verbose -icc -maxmemory 4m -qslots  @@
+cjpeg -scans -quality 75 -memdst -restart 1 -qtables -targa -smooth 1 -sample 160x90 -rgb  @@
+cjpeg -scans -restart 1 -baseline -grayscale -qtables -targa -outfile /tmp/foo -dct int -debug  @@
+cjpeg -scans -quality 75 -baseline -progressive -qtables -targa -smooth 1 -dct float -arithmetic -icc -debug -qslots  @@
+cjpeg -scans -restart 1 -qtables -smooth 1 -outfile /tmp/foo -verbose -arithmetic -qslots -rgb  @@
+cjpeg -scans -quality 75 -restart 1 -grayscale -qtables -targa -smooth 1 -arithmetic -icc -debug -maxmemory 4m  @@
+cjpeg -optimize -memdst -baseline -qtables -smooth 1 -sample 160x90 -outfile /tmp/foo -dct int -arithmetic -icc -debug -maxmemory 4m -qslots -rgb  @@
+cjpeg -scans -restart 1 -grayscale -verbose -icc  @@
+cjpeg -scans -restart 1 -progressive -targa -sample 160x90 -dct float -qslots  @@
+cjpeg -scans -quality 75 -baseline -qtables -verbose -qslots -rgb  @@
+cjpeg -scans -quality 75 -progressive -qtables -sample 160x90 -outfile /tmp/foo -verbose -arithmetic -icc  @@
+cjpeg -scans -quality 75 -restart 1 -baseline -qtables -smooth 1 -sample 160x90 -dct fast -debug -maxmemory 4m -rgb  @@
+cjpeg -scans -restart 1 -baseline -grayscale -smooth 1 -sample 160x90 -outfile /tmp/foo -arithmetic -debug -qslots  @@
+cjpeg -scans -quality 75 -restart 1 -baseline -grayscale -outfile /tmp/foo -dct fast -verbose -arithmetic -icc -maxmemory 4m -qslots  @@
+cjpeg -scans -quality 75 -memdst -qtables -targa -smooth 1 -outfile /tmp/foo -arithmetic -debug -qslots -rgb  @@
+cjpeg -scans -quality 75 -memdst -restart 1 -progressive -outfile /tmp/foo -dct fast -debug -maxmemory 4m  @@
+cjpeg -scans -quality 75 -memdst -restart 1 -grayscale -smooth 1 -sample 160x90 -outfile /tmp/foo -verbose -arithmetic  @@
+cjpeg -scans -quality 75 -memdst -grayscale -verbose -arithmetic -maxmemory 4m -qslots  @@
+cjpeg -scans -quality 75 -restart 1 -baseline -targa -sample 160x90 -outfile /tmp/foo -arithmetic -icc -debug -maxmemory 4m -qslots -rgb  @@
+cjpeg -report -baseline -qtables -dct int -arithmetic -maxmemory 4m -qslots  @@
+cjpeg -scans -quality 75 -memdst -restart 1 -baseline -grayscale -targa -smooth 1 -dct int -verbose -icc  @@
+cjpeg -scans -quality 75 -restart 1 -qtables -dct float -icc -qslots  @@
+cjpeg -scans -quality 75 -memdst -restart 1 -baseline -progressive -qtables -targa -sample 160x90 -verbose -icc  @@
+cjpeg -scans -quality 75 -grayscale -qtables -outfile /tmp/foo -dct int -icc  @@
+cjpeg -scans -quality 75 -baseline -targa -smooth 1 -sample 160x90 -outfile /tmp/foo -dct float -verbose  @@
+cjpeg -scans -quality 75 -memdst -baseline -targa -smooth 1 -arithmetic -icc -debug -maxmemory 4m -rgb  @@
+cjpeg -scans -quality 75 -memdst -restart 1 -targa -sample 160x90 -verbose -arithmetic -icc -qslots -rgb  @@
+cjpeg -scans -quality 75 -restart 1 -baseline -progressive -smooth 1 -sample 160x90 -verbose -maxmemory 4m -qslots  @@
+cjpeg -scans -restart 1 -progressive -smooth 1 -sample 160x90 -arithmetic -icc -maxmemory 4m  @@
+cjpeg -scans -restart 1 -baseline -qtables -sample 160x90 -arithmetic -icc -qslots -rgb  @@
+cjpeg -scans -quality 75 -memdst -baseline -grayscale -targa -smooth 1 -outfile /tmp/foo -dct fast -debug  @@
+cjpeg -scans -quality 75 -memdst -restart 1 -baseline -grayscale -qtables -smooth 1 -outfile /tmp/foo -maxmemory 4m  @@
+cjpeg -optimize -memdst -progressive -qtables -sample 160x90 -dct int -verbose -maxmemory 4m -qslots  @@
+cjpeg -scans -quality 75 -memdst -restart 1 -baseline -grayscale -targa -sample 160x90 -outfile /tmp/foo -dct fast -verbose -maxmemory 4m -qslots  @@
+cjpeg -scans -quality 75 -qtables -targa -smooth 1 -sample 160x90 -outfile /tmp/foo -verbose -icc -rgb  @@
+cjpeg -scans -quality 75 -restart 1 -baseline -qtables -targa -outfile /tmp/foo -dct int -verbose -arithmetic -maxmemory 4m -rgb  @@
+cjpeg -scans -quality 75 -memdst -restart 1 -grayscale -qtables -sample 160x90 -debug -qslots  @@
+cjpeg -scans -quality 75 -restart 1 -qtables -sample 160x90 -outfile /tmp/foo -dct int -icc -debug -qslots -rgb  @@
+cjpeg -scans -quality 75 -restart 1 -baseline -targa -smooth 1 -dct int -icc -debug -maxmemory 4m -rgb  @@
+cjpeg -scans -quality 75 -memdst -restart 1 -baseline -progressive -outfile /tmp/foo -dct float -verbose -icc -qslots  @@
+cjpeg -optimize -report -qtables -sample 160x90 -outfile /tmp/foo -dct float -verbose -icc -qslots -rgb  @@
+cjpeg -scans -quality 75 -memdst -progressive -targa -smooth 1 -sample 160x90 -outfile /tmp/foo -arithmetic -icc -maxmemory 4m -qslots  @@
+cjpeg -scans -smooth 1 -verbose -icc -maxmemory 4m -qslots -rgb  @@
+cjpeg -scans -quality 75 -restart 1 -grayscale -targa -verbose -arithmetic  @@
+cjpeg -scans -restart 1 -qtables -outfile /tmp/foo -dct int -arithmetic -debug -maxmemory 4m -rgb  @@
+cjpeg -scans -restart 1 -baseline -dct fast -arithmetic -debug -qslots -rgb  @@
+cjpeg -scans -quality 75 -memdst -baseline -targa -smooth 1 -sample 160x90 -dct fast -arithmetic -icc -debug  @@
+cjpeg -scans -quality 75 -progressive -qtables -outfile /tmp/foo -icc -debug -maxmemory 4m  @@
+cjpeg -report -quality 75 -qtables -dct float -arithmetic -qslots -rgb  @@
+cjpeg -memdst -baseline -qtables -smooth 1 -dct int -debug -maxmemory 4m -rgb  @@
+cjpeg -memdst -baseline -qtables -dct fast -verbose -arithmetic -icc -rgb  @@
+cjpeg -quality 75 -memdst -qtables -smooth 1 -sample 160x90 -outfile /tmp/foo -dct fast -verbose -arithmetic -maxmemory 4m -rgb  @@
+cjpeg -optimize -grayscale -qtables -outfile /tmp/foo -dct float -arithmetic -debug -maxmemory 4m -qslots  @@
+cjpeg -optimize -quality 75 -qtables -smooth 1 -dct float -icc -debug -maxmemory 4m -qslots -rgb  @@
+cjpeg -quality 75 -progressive -qtables -smooth 1 -sample 160x90 -outfile /tmp/foo  @@
+cjpeg -grayscale -qtables -smooth 1 -sample 160x90 -verbose -icc -qslots  @@
+cjpeg  @@

@@ -1,0 +1,259 @@
+258
+pspp -o -e /tmp/foo.err -s -O format=pdf -i -x enhanced  @@
+pspp -o -e /tmp/foo.err -I /tmp/ -O format=ps --no-output  @@
+pspp -o -e /tmp/foo.err -b -s -r -a enhanced --no-output  @@
+pspp -I- -e /tmp/foo.err -b -I /tmp/ -O format=svg --no-output  @@
+pspp -e /tmp/foo.err -b -I /tmp/ -O format=pdf  @@
+pspp -b -I /tmp/ -O format=pdf -x compatible --no-output  @@
+pspp -o -I- -e /tmp/foo.err -b -s -O format=svg -a enhanced --no-output  @@
+pspp -o -b -s -I /tmp/ -O format=svg -a enhanced -x compatible --no-output  @@
+pspp -o -I- -e /tmp/foo.err -s -I /tmp/ -O format=ps  @@
+pspp -I- -e /tmp/foo.err -b -I /tmp/ -r -O format=pdf -a compatible -x enhanced  @@
+pspp -o -I- -e /tmp/foo.err -b -s -I /tmp/ -r -O format=pdf -a enhanced -x enhanced --no-output  @@
+pspp -I- -e /tmp/foo.err -b -s -O format=pdf -x enhanced  @@
+pspp -I- -e /tmp/foo.err --syntax-encoding=Auto -s -O format=svg -x compatible --no-output  @@
+pspp -I- -e /tmp/foo.err -s -I /tmp/ -O format=ps -i --no-output  @@
+pspp -o -s -I /tmp/ -O format=pdf  @@
+pspp -o -e /tmp/foo.err -x compatible --no-output  @@
+pspp -I- -b -r -O format=pdf -x enhanced --no-output  @@
+pspp -o -e /tmp/foo.err -I /tmp/ -r -a compatible -x enhanced  @@
+pspp --syntax-encoding=Auto -b -s -I /tmp/ -r -O format=svg  @@
+pspp -I- -I /tmp/ -O format=svg -a enhanced -i -x compatible  @@
+pspp -o -b -s -O format=svg -a enhanced  @@
+pspp -o --syntax-encoding=Auto -I /tmp/ -O format=ps -i  @@
+pspp -e /tmp/foo.err -O format=pdf -a compatible -i --no-output  @@
+pspp -I- -e /tmp/foo.err -O format=ps -a compatible -i --no-output  @@
+pspp -O format=ps -a compatible  @@
+pspp -o -b -O format=ps  @@
+pspp -e /tmp/foo.err -b -s -r -O format=ps --no-output  @@
+pspp -e /tmp/foo.err -s -I /tmp/ -r -O format=svg -a compatible -i --no-output  @@
+pspp -o -I- -s -I /tmp/ -r -O format=svg -a enhanced  @@
+pspp -I- -r -O format=pdf -x compatible  @@
+pspp -o --syntax-encoding=Auto -b -I /tmp/ -O format=png -x compatible --no-output  @@
+pspp -o -b -I /tmp/ -r -O format=pdf -a compatible -x enhanced  @@
+pspp -o -I- -b -I /tmp/ -O format=png -a compatible --no-output  @@
+pspp -b -s -r -O format=svg -a enhanced -x enhanced  @@
+pspp -o --syntax-encoding=Auto,encoding -b -s -I /tmp/ --no-output  @@
+pspp -o --syntax-encoding=ISO-8859-1 -s -I /tmp/ -O device=listing -x compatible  @@
+pspp -I- -I /tmp/ -r -O format=svg -a enhanced -i  @@
+pspp -o -I- -e /tmp/foo.err -r -O format=pdf -a enhanced --no-output  @@
+pspp -e /tmp/foo.err -r -O format=pdf -a compatible -x compatible --no-output  @@
+pspp -o -I- -I /tmp/ -O format=png -a enhanced -x compatible --no-output  @@
+pspp -s -I /tmp/ -r -O format=svg -i -x compatible --no-output  @@
+pspp -o -I- -b -s -I /tmp/  @@
+pspp -o -I- -I /tmp/ -r -O format=svg -i --no-output  @@
+pspp -o -I- -s -I /tmp/ -r -O format=ps -i -x compatible  @@
+pspp -e /tmp/foo.err -b -I /tmp/ -a compatible  @@
+pspp -o -I- -e /tmp/foo.err -s -I /tmp/ -x compatible  @@
+pspp -o -I- -s -I /tmp/ -r -O format=pdf -a compatible -i  @@
+pspp -o -I- -e /tmp/foo.err -b -a enhanced -x enhanced --no-output  @@
+pspp -o -I- -e /tmp/foo.err -b -s -a enhanced -x compatible  @@
+pspp -o -I /tmp/ -O format=png -a enhanced -i -x compatible --no-output  @@
+pspp -e /tmp/foo.err -s -I /tmp/ -O format=png -a compatible -i -x enhanced  @@
+pspp -I- -e /tmp/foo.err -b -s -I /tmp/ -r -O format=png  @@
+pspp -o -I- -b -s -x enhanced --no-output  @@
+pspp -o -I- -e /tmp/foo.err -I /tmp/ -O format=png -i -x enhanced --no-output  @@
+pspp -o --syntax-encoding=Auto,Local -r -O format=svg  @@
+pspp -o -I- -e /tmp/foo.err -I /tmp/ -a enhanced -i -x compatible --no-output  @@
+pspp -o --syntax-encoding=Auto,Local -s -O format=png -a enhanced -x compatible --no-output  @@
+pspp -o -e /tmp/foo.err -s -I /tmp/ -i --no-output  @@
+pspp -o -I /tmp/ -O format=png -a compatible -i  @@
+pspp -o -I- -e /tmp/foo.err -s -I /tmp/ -a enhanced -i  @@
+pspp -o -I- --syntax-encoding=Auto -r -O format=ps -a compatible -i --no-output  @@
+pspp -o -I /tmp/ -i -x compatible  @@
+pspp -e /tmp/foo.err -s -O device=terminal  @@
+pspp -o -I- -I /tmp/ -a enhanced -i --no-output  @@
+pspp -o -I- -e /tmp/foo.err -O device=terminal -a enhanced -i -x compatible  @@
+pspp -o -e /tmp/foo.err -s -r -O format=pdf -a enhanced -i  @@
+pspp -o -b -a enhanced --no-output  @@
+pspp -I- -b -s -I /tmp/ -O device=terminal -a compatible --no-output  @@
+pspp -o --syntax-encoding=LOCALE -O device=listing -i -x compatible --no-output  @@
+pspp -o -I- -e /tmp/foo.err -b -I /tmp/ -r -x enhanced  @@
+pspp -I- -s -O device=listing -a enhanced -x enhanced --no-output  @@
+pspp -e /tmp/foo.err -s -a enhanced -x compatible  @@
+pspp -e /tmp/foo.err -s -I /tmp/ -r -O format=png -x compatible  @@
+pspp -I- -e /tmp/foo.err -b -r -a enhanced  @@
+pspp -o -b -I /tmp/ -r -O format=png -a compatible --no-output  @@
+pspp -I- -e /tmp/foo.err --syntax-encoding=Auto -s -r -O device=listing -a compatible -i -x compatible  @@
+pspp -o -b -s -I /tmp/ -r -O format=png --no-output  @@
+pspp -e /tmp/foo.err -b -r -O device=terminal -a compatible -x compatible --no-output  @@
+pspp -I- -e /tmp/foo.err --syntax-encoding=ASCII -I /tmp/ -O format=pdf -i -x enhanced  @@
+pspp -o -I /tmp/ -r -x enhanced --no-output  @@
+pspp -o -e /tmp/foo.err -b -O format=pdf -x enhanced  @@
+pspp -o -I- --syntax-encoding=Auto -s -i -x enhanced  @@
+pspp -I- -e /tmp/foo.err -s -I /tmp/ -r  @@
+pspp -o -I- --syntax-encoding=ASCII -b -s -I /tmp/ -r -O format=ps -a enhanced -x enhanced --no-output  @@
+pspp -I- --syntax-encoding=EUC-JP -I /tmp/ -O format=svg -a compatible --no-output  @@
+pspp -o -I- -e /tmp/foo.err --syntax-encoding=EUC-JP -s -I /tmp/ -O format=ps -a compatible -i --no-output  @@
+pspp -o -s -a enhanced -i -x compatible  @@
+pspp -o -I- --syntax-encoding=ASCII -b -I /tmp/ -r -O format=svg -a compatible  @@
+pspp -I- -e /tmp/foo.err -s -r -O device=listing -i  @@
+pspp -o --syntax-encoding=ISO-8859-1 -b -s -r -a enhanced -x compatible --no-output  @@
+pspp -o -I- -e /tmp/foo.err --syntax-encoding=Auto -b -r --no-output  @@
+pspp -o -r -i --no-output  @@
+pspp -I- -b -s -I /tmp/ -a compatible -x enhanced  @@
+pspp -e /tmp/foo.err -I /tmp/ -r -O device=terminal -i -x compatible --no-output  @@
+pspp -I- -e /tmp/foo.err -r -O device=terminal -i -x enhanced  @@
+pspp -o -I- -b -s -r -O format=png -x enhanced  @@
+pspp -o -I- -e /tmp/foo.err -b -s -r -a enhanced  @@
+pspp -o -e /tmp/foo.err --syntax-encoding=Auto -I /tmp/ -r -a enhanced -i --no-output  @@
+pspp -o --syntax-encoding=windows-1252 -s -I /tmp/ -r -a enhanced -i --no-output  @@
+pspp -e /tmp/foo.err -i -x enhanced  @@
+pspp -o -I- -b -r -a compatible  @@
+pspp -o --syntax-encoding=windows-1252 -b -r -x compatible  @@
+pspp -o -I- -s -I /tmp/ -r -i --no-output  @@
+pspp -o -I- -e /tmp/foo.err -s -r --no-output  @@
+pspp -o -I- -e /tmp/foo.err --syntax-encoding=LOCALE -s -I /tmp/ -r -O format=ps -a enhanced  @@
+pspp -o -e /tmp/foo.err --syntax-encoding=LOCALE -s -I /tmp/ -r -O device=terminal -a compatible -i -x compatible  @@
+pspp -o -I- -s -O device=terminal -i --no-output  @@
+pspp -o -s -r -O device=listing -a enhanced -i -x compatible --no-output  @@
+pspp -I- -s -r -O device=listing -a compatible -i  @@
+pspp -o -e /tmp/foo.err -I /tmp/ -r -a compatible -i -x enhanced  @@
+pspp -o -s -r -x enhanced --no-output  @@
+pspp -I- -e /tmp/foo.err --syntax-encoding=windows-1252 -b -I /tmp/ -r -O format=ps -a enhanced -x enhanced --no-output  @@
+pspp -e /tmp/foo.err -I /tmp/ -r -i  @@
+pspp -o -s -r -a enhanced  @@
+pspp -o -I- -e /tmp/foo.err -s -r -a enhanced -i -x compatible --no-output  @@
+pspp -e /tmp/foo.err --syntax-encoding=EUC-JP -b -s -I /tmp/ -O device=terminal -a enhanced -x compatible --no-output  @@
+pspp -o -e /tmp/foo.err --syntax-encoding=ISO-8859-1 -I /tmp/ -r -a compatible --no-output  @@
+pspp -o -I- -b -r -O device=terminal --no-output  @@
+pspp -o -e /tmp/foo.err -b -s -I /tmp/ -a enhanced -x compatible  @@
+pspp -o -e /tmp/foo.err -r -O device=listing -i  @@
+pspp -I- -b  @@
+pspp -o --syntax-encoding=LOCALE -r -O format=png -a compatible -i -x compatible  @@
+pspp -o -I- -e /tmp/foo.err --syntax-encoding=EUC-JP -b -s -I /tmp/ -x compatible --no-output  @@
+pspp -o -I- --syntax-encoding=windows-1252 -b -s -O format=ps -a compatible  @@
+pspp -I- -s -I /tmp/ -a compatible -i  @@
+pspp -o -I- -r -i -x enhanced --no-output  @@
+pspp -o --syntax-encoding=Auto,Local -s -r -a enhanced -i -x compatible  @@
+pspp -O format=png -i -x compatible --no-output  @@
+pspp -o -e /tmp/foo.err --syntax-encoding=LOCALE -r -x compatible  @@
+pspp -I- -e /tmp/foo.err --syntax-encoding=ISO-8859-1 -I /tmp/ -O format=ps -a compatible -i  @@
+pspp -b -I /tmp/ -r -x enhanced  @@
+pspp -o -s -r -i  @@
+pspp -O format=png -i  @@
+pspp -I- -I /tmp/ -r -a compatible  @@
+pspp  @@
+pspp -I- -O device=terminal -i  @@
+pspp -I- --syntax-encoding=ISO-8859-1 -b -s -r -O format=pdf  @@
+pspp --syntax-encoding=ISO-8859-1 -s -I /tmp/ -O format=pdf -a compatible -i --no-output  @@
+pspp --syntax-encoding=Auto -s -a enhanced -i  @@
+pspp -s -I /tmp/ -r -O device=terminal -a compatible -i  @@
+pspp --syntax-encoding=ASCII -b -s -O device=listing -x compatible --no-output  @@
+pspp -o -I- -e /tmp/foo.err --syntax-encoding=windows-1252 -b -r -O format=pdf -a compatible -x compatible --no-output  @@
+pspp -e /tmp/foo.err --syntax-encoding=ISO-8859-1 -I /tmp/ -r -O format=ps -a enhanced --no-output  @@
+pspp -o -e /tmp/foo.err -b -s -I /tmp/ -r -O format=png -x compatible --no-output  @@
+pspp -I- -e /tmp/foo.err --syntax-encoding=EUC-JP -b -O device=terminal --no-output  @@
+pspp -I- -s -I /tmp/ -r -i -x compatible  @@
+pspp -a enhanced -i  @@
+pspp -e /tmp/foo.err --syntax-encoding=EUC-JP -s -I /tmp/ -O device=terminal -i --no-output  @@
+pspp -b -s -r -a compatible -x enhanced  @@
+pspp -o -I- --syntax-encoding=EUC-JP -b -I /tmp/ -O device=terminal -x enhanced  @@
+pspp -o -e /tmp/foo.err --syntax-encoding=LOCALE -b -I /tmp/ -O format=ps -a compatible --no-output  @@
+pspp -I- -r -a compatible -i -x enhanced  @@
+pspp -o -I- -e /tmp/foo.err --syntax-encoding=windows-1252 -b -s -I /tmp/ -a compatible --no-output  @@
+pspp -o -I- --syntax-encoding=EUC-JP -s -I /tmp/ -a compatible -i -x enhanced --no-output  @@
+pspp -o -I- -e /tmp/foo.err --syntax-encoding=LOCALE -I /tmp/ -i  @@
+pspp -o -e /tmp/foo.err -b -I /tmp/ -r --no-output  @@
+pspp -e /tmp/foo.err --syntax-encoding=EUC-JP -b -I /tmp/ -r -O format=png -x enhanced  @@
+pspp -I- -e /tmp/foo.err --syntax-encoding=EUC-JP -b -s -I /tmp/ -r -a compatible  @@
+pspp -o -e /tmp/foo.err -b -s -I /tmp/ -r  @@
+pspp -o -I- --syntax-encoding=EUC-JP -I /tmp/ -a enhanced -i -x enhanced  @@
+pspp -o -e /tmp/foo.err --syntax-encoding=windows-1252 -r -O format=ps -a compatible -i -x enhanced --no-output  @@
+pspp -o -I- -e /tmp/foo.err --syntax-encoding=ISO-8859-1 -b -s -O device=listing  @@
+pspp -o -e /tmp/foo.err --syntax-encoding=ASCII -s -i -x enhanced --no-output  @@
+pspp --syntax-encoding=EUC-JP -s -r -O format=ps -i -x enhanced  @@
+pspp --syntax-encoding=EUC-JP -r -O format=svg -i --no-output  @@
+pspp -e /tmp/foo.err --syntax-encoding=EUC-JP -s -I /tmp/ -i -x enhanced  @@
+pspp -I- -e /tmp/foo.err --syntax-encoding=ISO-8859-1 -b -I /tmp/ -a compatible -x enhanced  @@
+pspp --syntax-encoding=ASCII -I /tmp/ -O format=png -a enhanced -x compatible  @@
+pspp -I- -e /tmp/foo.err --syntax-encoding=windows-1252 -b -s -I /tmp/  @@
+pspp -o -I- --syntax-encoding=LOCALE -I /tmp/ -r -x compatible --no-output  @@
+pspp -e /tmp/foo.err --syntax-encoding=EUC-JP -O device=terminal -i -x compatible  @@
+pspp -o -e /tmp/foo.err --syntax-encoding=ISO-8859-1 -b -s -O format=ps -a enhanced -x enhanced --no-output  @@
+pspp -o -e /tmp/foo.err --syntax-encoding=ISO-8859-1 -s -O format=png -a enhanced -i --no-output  @@
+pspp -o -I- -e /tmp/foo.err --syntax-encoding=windows-1252 -I /tmp/ -a enhanced  @@
+pspp -I- -e /tmp/foo.err --syntax-encoding=ASCII -s -r -a compatible -i -x compatible  @@
+pspp --syntax-encoding=ISO-8859-1 -s -r -O format=svg --no-output  @@
+pspp -o -e /tmp/foo.err --syntax-encoding=windows-1252 -a enhanced -i  @@
+pspp -o -I- -e /tmp/foo.err --syntax-encoding=ISO-8859-1 -s -O format=png -a compatible -x enhanced  @@
+pspp -o -I- --syntax-encoding=windows-1252 -b -a compatible  @@
+pspp -o -I- -e /tmp/foo.err --syntax-encoding=ISO-8859-1 -s -a enhanced --no-output  @@
+pspp -o -e /tmp/foo.err --syntax-encoding=windows-1252 -b -I /tmp/ -r -O format=ps -a enhanced -x compatible  @@
+pspp -e /tmp/foo.err --syntax-encoding=ISO-8859-1 -b -s  @@
+pspp --syntax-encoding=LOCALE -b -s -I /tmp/ -r -O device=terminal -a enhanced --no-output  @@
+pspp -o -e /tmp/foo.err --syntax-encoding=LOCALE -b -s -I /tmp/ -O device=listing -a enhanced -x compatible  @@
+pspp -o -I- --syntax-encoding=windows-1252 -b -I /tmp/ -r -a enhanced --no-output  @@
+pspp -o -e /tmp/foo.err --syntax-encoding=ISO-8859-1 -s -I /tmp/ -r -a enhanced -i  @@
+pspp --syntax-encoding=EUC-JP -I /tmp/  @@
+pspp -o -I- -e /tmp/foo.err --syntax-encoding=ASCII -r -i  @@
+pspp -I- -e /tmp/foo.err --syntax-encoding=ISO-8859-1 -s -r -O format=png -a enhanced -i --no-output  @@
+pspp -o -I- --syntax-encoding=LOCALE -s -r -O format=png -i --no-output  @@
+pspp -e /tmp/foo.err --syntax-encoding=windows-1252 -b -r -O format=png -a compatible  @@
+pspp -o -I- -e /tmp/foo.err --syntax-encoding=ISO-8859-1 -s -I /tmp/ -r -O format=png -i -x compatible --no-output  @@
+pspp -o -e /tmp/foo.err --syntax-encoding=EUC-JP -b -s -r -O format=svg --no-output  @@
+pspp -I- --syntax-encoding=LOCALE -s  @@
+pspp -o -e /tmp/foo.err --syntax-encoding=windows-1252 -b -I /tmp/  @@
+pspp -I- --syntax-encoding=ISO-8859-1 -b -O format=png -a enhanced --no-output  @@
+pspp --syntax-encoding=EUC-JP -s -I /tmp/ -r -a enhanced -x compatible  @@
+pspp --syntax-encoding=LOCALE -a enhanced -i -x compatible  @@
+pspp -I- --syntax-encoding=windows-1252 -s -I /tmp/ -O device=terminal -i  @@
+pspp -I- --syntax-encoding=windows-1252 -s -O device=terminal -a enhanced -i -x enhanced --no-output  @@
+pspp --syntax-encoding=ISO-8859-1 -I /tmp/ -r -O device=terminal -a compatible -i -x enhanced --no-output  @@
+pspp --syntax-encoding=EUC-JP -s -r -i  @@
+pspp -e /tmp/foo.err -b -s -I /tmp/ -a compatible -x compatible --no-output  @@
+pspp -I- -b -I /tmp/ -a compatible -x enhanced --no-output  @@
+pspp -I- -e /tmp/foo.err -I /tmp/ -x enhanced --no-output  @@
+pspp -s -I /tmp/ -a compatible --no-output  @@
+pspp -e /tmp/foo.err -b -s -x compatible --no-output  @@
+pspp -e /tmp/foo.err -b -a compatible --no-output  @@
+pspp -I- -b -s -I /tmp/ -r -a enhanced -x compatible --no-output  @@
+pspp -I /tmp/ -i -x enhanced --no-output  @@
+pspp -I- --syntax-encoding=Auto -a enhanced -x enhanced --no-output  @@
+pspp -I- -b -s -r --no-output  @@
+pspp -b -s -I /tmp/ -r --no-output  @@
+pspp -I- -e /tmp/foo.err -s -i -x compatible --no-output  @@
+pspp -I- -e /tmp/foo.err -s -a enhanced -i --no-output  @@
+pspp -I- -e /tmp/foo.err -I /tmp/ -r -a compatible -i --no-output  @@
+pspp -I- -s -a compatible -i -x enhanced --no-output  @@
+pspp -s -i --no-output  @@
+pspp -e /tmp/foo.err -r -a compatible -i -x compatible --no-output  @@
+pspp -r --no-output  @@
+pspp --syntax-encoding=LOCALE -b -I /tmp/ -a enhanced --no-output  @@
+pspp -I- -e /tmp/foo.err --syntax-encoding=ASCII -b -s -r -x compatible --no-output  @@
+pspp --syntax-encoding=ASCII -b -a compatible -x enhanced --no-output  @@
+pspp -I- -e /tmp/foo.err --syntax-encoding=LOCALE -s -I /tmp/ -r -a compatible -x compatible --no-output  @@
+pspp -o -e /tmp/foo.err --syntax-encoding=Auto,Local -s -I /tmp/ --no-output  @@
+pspp -I- -e /tmp/foo.err --syntax-encoding=ASCII -i --no-output  @@
+pspp -I- --syntax-encoding=ASCII -I /tmp/ -r -i -x enhanced --no-output  @@
+pspp -I- --syntax-encoding=ASCII -s -r -a enhanced -i --no-output  @@
+pspp -e /tmp/foo.err --syntax-encoding=Auto,Local -s -O format=svg -a enhanced -i -x enhanced --no-output  @@
+pspp -e /tmp/foo.err --syntax-encoding=windows-1252 -b -x enhanced --no-output  @@
+pspp -e /tmp/foo.err --syntax-encoding=EUC-JP -b -s -r -a compatible --no-output  @@
+pspp -o -I- --syntax-encoding=Auto,Local -b -I /tmp/ -r -O format=pdf -a compatible -x enhanced --no-output  @@
+pspp -o -e /tmp/foo.err --syntax-encoding=Auto,encoding -I /tmp/ -a enhanced -i -x enhanced --no-output  @@
+pspp -e /tmp/foo.err --syntax-encoding=windows-1252 -I /tmp/ -r -i -x enhanced --no-output  @@
+pspp -e /tmp/foo.err --syntax-encoding=Auto,encoding -s -I /tmp/ -O device=listing -a enhanced -x enhanced --no-output  @@
+pspp -e /tmp/foo.err --syntax-encoding=Auto,encoding -s -r -O format=pdf -i --no-output  @@
+pspp -I- --syntax-encoding=Auto,encoding -b -s -I /tmp/ -O device=listing -x compatible --no-output  @@
+pspp -o -e /tmp/foo.err --syntax-encoding=Auto,Local -s -I /tmp/ -r -i -x compatible  @@
+pspp -o -I- -e /tmp/foo.err --syntax-encoding=Auto,Local -I /tmp/ -r -O device=terminal -i  @@
+pspp -o -I- --syntax-encoding=Auto,Local --no-output  @@
+pspp -o -I- --syntax-encoding=Auto,encoding -b -s -I /tmp/ -r -a enhanced -x compatible  @@
+pspp -I- -e /tmp/foo.err --syntax-encoding=Auto,encoding -b -r -a enhanced -x compatible  @@
+pspp -o -I- --syntax-encoding=Auto,encoding -b -I /tmp/ -r  @@
+pspp -o -I- -e /tmp/foo.err --syntax-encoding=Auto,Local -r -O device=listing -x enhanced  @@
+pspp --syntax-encoding=Auto,encoding -b -s -I /tmp/ -x compatible  @@
+pspp -e /tmp/foo.err --syntax-encoding=Auto,encoding -I /tmp/ -r -a compatible  @@
+pspp -o -I- --syntax-encoding=Auto,Local -s -r -O format=png -a enhanced -x compatible --no-output  @@
+pspp -I- --syntax-encoding=Auto,Local -b -O format=png -a compatible -x enhanced  @@
+pspp -e /tmp/foo.err --syntax-encoding=Auto,Local -b -s -r -x compatible  @@
+pspp -I- --syntax-encoding=Auto,encoding -s -I /tmp/ -r -a compatible -i -x compatible  @@
+pspp -I- --syntax-encoding=Auto,encoding -i -x compatible  @@
+pspp --syntax-encoding=Auto,Local -I /tmp/ -r -a enhanced -i  @@
+pspp --syntax-encoding=Auto,encoding -r -O device=terminal -i  @@
+pspp --syntax-encoding=Auto,Local -b -r -a compatible  @@
+pspp -I- -e /tmp/foo.err --syntax-encoding=Auto,Local -s -I /tmp/ -a compatible -i --no-output  @@
+pspp -I- --syntax-encoding=Auto,Local -b -s -a enhanced --no-output  @@
+pspp -I- --syntax-encoding=Auto,encoding -b -I /tmp/ -r --no-output  @@
+pspp --syntax-encoding=Auto,Local -b -I /tmp/ -r -a compatible -x compatible --no-output  @@

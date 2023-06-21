@@ -1,0 +1,646 @@
+645
+lrzip -z -Q -q -S .lrzip -H -c  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -Q -U -q -v -N 8 -D  -f -p 1 @@ -o /tmp/foo
+lrzip  -f -p 1 @@ -o /tmp/foo
+lrzip -q -b -v -S .lrzip -N 8 -c  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -U -S .lrzip -H -N 8 -c  -f -p 1 @@ -o /tmp/foo
+lrzip -U -w 8 -q -b -N 8 -c -L 5 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -U -q -b -S .lrzip -H -N 8  -f -p 1 @@ -o /tmp/foo
+lrzip -T -w 8 -b -H -c -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -U -n -w 8 -q -v -N 8  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -n -w 8 -q -S .lrzip -H -D  -f -p 1 @@ -o /tmp/foo
+lrzip -n -S .lrzip -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -U -t -q -v -g -S .lrzip -N 8 -c -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -t -n -w 8 -q -v -S .lrzip -c -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -t -q -b -v -S .lrzip -H -c -L 5 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -t -q -v -S .lrzip -c -L 5 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -t -w 8 -S .lrzip -H -c --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -Q -t -v -H -N 8 -c -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -U -t -b -v -H -N 8 -L 5 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -t -b -v -S .lrzip -H -N 8 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -U -t -v -H -N 8 -L 5 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -z -t -q -v -H -N 8 -c --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -U -t -q -b -v -c -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -t -c -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -Q -U -t -w 8 -v -H -N 8 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -U -t -q -S .lrzip -N 8 -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -Q -U -t -v -S .lrzip -H -N 8 -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -l -Q -t -q -v -S .lrzip -H -c -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -U -i -t -n -w 8 -q -v -S .lrzip -N 8 -c -L 5 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -Q -U -i -t -w 8 -v -S .lrzip -H -c -L 5 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -T -U -t -n -q -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -t -w 8 -q -v --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -U -t -n -S .lrzip -H -N 8 -c  -f -p 1 @@ -o /tmp/foo
+lrzip -z -U -i -t -w 8 -q -S .lrzip -N 8 -c  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -i -t -n -w 8 -v -H -N 8 -c --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -U -i -t -w 8 -b -v -S .lrzip -H -D  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -t -n -H -c -L 5 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -i -t -w 8 -q -b -v -c --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -U -t -w 8 -b -L 5 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -Q -U -i -t -q -S .lrzip -H -N 8 -c -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -t -b -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -i -t -w 8 -N 8 -c -D  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -i -t -n -v -S .lrzip -c --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -T -i -t -n -w 8 -q -v -N 8 -L 5 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -Q -U -i -t -q -H -N 8 -c -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -Q -t -q -S .lrzip -L 5 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -Q -i -t -v -c  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -U -i -t -w 8 -q -g -H -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -z -U -i -t -w 8 -v --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -i -t -n -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -U -i -t -n -q -S .lrzip -N 8 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -z -Q -i -t -N 8 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -U -i -w 8 -b -v -S .lrzip -H -N 8 -c -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -Q -U -i -q -S .lrzip -H -N 8 -c -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -U -i -n -v -H -c -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -i -w 8 -v -S .lrzip -N 8 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -i -v -H -c --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -T -i -n -q -S .lrzip -H -N 8 -L 5 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -i -w 8 -q -c -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -U -i -b -H -c -L 5 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -Q -U -i -w 8 -H -c --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -U -i -q -v -g -N 8 -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -i -q -S .lrzip -N 8 -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -i -n -q -c -L 5 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -z -Q -U -i -v -N 8 -L 5 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -i -g -N 8 -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -l -w 8 -v -S .lrzip -H -N 8 -c -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -U -i -n -S .lrzip -H --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -Q -i -w 8 -H  -f -p 1 @@ -o /tmp/foo
+lrzip -z -v -S .lrzip -H -N 8 -c --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -Q -U -i -q -H --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -i -b -v --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -U -w 8 -S .lrzip -H -c -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -Q -U -w 8 -v -N 8 -c --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -n -w 8 -v -S .lrzip -N 8 -c --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -U -n -w 8 -N 8 -c --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -w 8 -b -S .lrzip -H -c --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -U -i -t -n -w 8 -q -v -H -N 8 -L 5 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -U -i -t -w 8 -q -b -H -N 8 -c -L 5 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -Q -t -w 8 -q -v -S .lrzip -N 8 -c -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -U -i -t -w 8 -q -H -N 8 -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -Q -U -i -t -w 8 -S .lrzip -H -N 8 -c -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -U -i -t -w 8 -b -v -S .lrzip -N 8 -L 5 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -Q -U -i -t -w 8 -q -c -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -U -i -t -n -w 8 -q -S .lrzip -H -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -i -t -w 8 -q -b -S .lrzip -H -N 8 -c -r  -f -p 1 @@ -o /tmp/foo
+lrzip -l -Q -U -t -w 8 -q -S .lrzip -H -N 8 -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -U -t -q -b -v -S .lrzip -H -N 8 -c -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -i -t -q -S .lrzip -H -N 8 -c -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -t -n -q -v -S .lrzip -H -N 8 -c -L 5 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -i -t -w 8 -q -S .lrzip -H -c -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -Q -U -i -t -w 8 -v -N 8 -c -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -U -i -t -g -S .lrzip -H -N 8 -c -L 5 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -Q -i -t -S .lrzip -N 8 -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -U -n -w 8 -v -S .lrzip -H -N 8 -c -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -U -i -t -n -q -v -S .lrzip -H -N 8 -c -r  -f -p 1 @@ -o /tmp/foo
+lrzip -T -U -n -w 8 -v -S .lrzip -H -N 8 -c -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -U -i -t -q -b -v -S .lrzip -N 8 -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -U -t -w 8 -v -S .lrzip -H -c -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -U -n -w 8 -q -v -S .lrzip -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -t -w 8 -q -b -v -H -N 8 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -U -i -n -w 8 -S .lrzip -H -N 8 -c -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -U -i -n -q -v -S .lrzip -H -N 8 -c -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -U -t -n -q -v -S .lrzip -N 8 -c -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -U -t -n -S .lrzip -N 8 -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -Q -t -w 8 -S .lrzip -H -N 8 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -i -t -n -q -v -H -c -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -U -t -b -S .lrzip -N 8 -c -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -U -w 8 -b -v -S .lrzip -H -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -Q -i -w 8 -q -S .lrzip -H -N 8 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -i -q -b -v -S .lrzip -H -c -L 5 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -U -i -n -q -H -N 8 -c -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -t -w 8 -q -v -H -c -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -Q -U -i -v -S .lrzip -c -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -U -i -t -w 8 -v -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -Q -i -q -v -H -N 8 -c -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -t -n -w 8 -v -H -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -U -t -n -w 8 -q -H -c -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -U -i -q -v -S .lrzip -H -L 5 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -U -t -q -v -S .lrzip -N 8 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -U -i -w 8 -q -S .lrzip -L 5 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -U -t -S .lrzip -H -c -L 5 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -Q -i -t -v -S .lrzip -N 8 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -Q -U -w 8 -S .lrzip -L 5 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -T -i -b -v -S .lrzip -c -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -i -t -q -b -H -N 8 -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -z -Q -w 8 -q -N 8 -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -U -w 8 -b -S .lrzip -c -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -t -w 8 -q -b -v -S .lrzip -H -r  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -t -n -v -S .lrzip -L 5 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -z -Q -i -t -q -H -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -t -n -q -N 8 -c -L 5 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -z -Q -U -i -v -S .lrzip -H -c -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -U -i -q -b -H -c -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -U -w 8 -b -S .lrzip -H -N 8 -c -r  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -i -t -q -b -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -U -i -q -v -H -N 8 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -Q -U -i -w 8 -v -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -i -n -w 8 -N 8 -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -Q -U -i -t -v -H -r  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -Q -U -v -H -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -U -i -w 8 -q -b -v -H -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -Q -w 8 -q -v -c -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -l -i -w 8 -q -v -S .lrzip -c -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -i -t -b -S .lrzip -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -T -i -t -w 8 -b -H -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -i -q -b -v -S .lrzip -N 8 -c -r  -f -p 1 @@ -o /tmp/foo
+lrzip -U -i -n -w 8 -q -v -S .lrzip -r  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -i -w 8 -b -v -N 8 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -q -v -S .lrzip -N 8 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -U -i -t -n -w 8 -H -r  -f -p 1 @@ -o /tmp/foo
+lrzip -T -U -q -b -H -N 8 -c -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -Q -U -q -v -H -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -l -Q -i -t -q -c -r  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -U -q -S .lrzip -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -U -w 8 -N 8 -c -r  -f -p 1 @@ -o /tmp/foo
+lrzip -T -q -b -N 8 -L 5 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -T -n -w 8 -q -H -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -v -S .lrzip -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -U -i -S .lrzip -H -L 5 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -k -Q -t -w 8 -q -g -c  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -k -w 8 -q -v -g -S .lrzip -H -N 8 -c -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -k -U -i -w 8 -v -c -L 5 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -Q -g -H -N 8 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -U -q -v -g -S .lrzip -N 8 -c -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -k -Q -i -q -v -S .lrzip -c -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -t -q -H -c -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -k -t -q -N 8 -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -Q -t -w 8 -S .lrzip -H -N 8 -c --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -U -i -t -w 8 -v -S .lrzip -H -N 8 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -U -i -t -q -v -g -S .lrzip -c -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -k -U -w 8 -q -S .lrzip -H -N 8 -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -k -Q -U -t -S .lrzip -H --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -k -i -w 8 -q -g -H -N 8 -c -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -Q -i -w 8 -q -v -g -H -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -Q -U -i -t -g -S .lrzip -N 8 -L 5 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -k -U -t -v -g -N 8 -c -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -k -Q -i -v -H -N 8 -c -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -i -w 8 -g -N 8 -c -r  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -Q -i -t -q -v -g -S .lrzip -H -N 8  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -k -Q -U -w 8 -v -g -S .lrzip -H -N 8 -L 5 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -Q -U -t -v -g -N 8 -c -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -k -Q -U -q -v -g -S .lrzip -H -c -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -Q -w 8 -H -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -k -w 8 -N 8 -c --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -Q -U -w 8 -q -N 8 -L 5 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -U -c -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -Q -U -i -w 8 -v -g -H -c -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -k -Q -i -t -v -g -S .lrzip -H -r  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -Q -U -q -v -g -S .lrzip -H -N 8 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -n -v -N 8 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -k -Q -U -i -w 8 -q -g -N 8 -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -Q -i -t -v -N 8 -c -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -t -v -L 5 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -k -Q -U -i -w 8 -q -v -S .lrzip -c -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -Q -U -t -q -g -H -c -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -k -U -t -w 8 -v -S .lrzip  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -i -w 8 -q -v -S .lrzip -H -c -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -q -v -H -N 8 -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -k -Q -U -i -t -q -r  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -k -Q -U -i -t -w 8 -q -v -H --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -k -Q -i -w 8 -v -S .lrzip -N 8 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -Q -U -t -w 8 -S .lrzip -c -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -k -i -t -q -v -g -N 8 -c -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -w 8 -v -g -S .lrzip -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -k -i -q -S .lrzip -H -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -k -Q -U -t -w 8 -q -v -S .lrzip -H -N 8 -c -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -t -w 8 -q -S .lrzip -N 8 -c -L 5 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -k -Q -q -v -g -L 5 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -Q -U -q -v -S .lrzip -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -i -t -w 8 -q -g -S .lrzip -H -N 8 -c -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -k -U -i -t -q -v -g -S .lrzip -H -N 8 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -k -U -q -g -H -c -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -k -Q -w 8 -S .lrzip -N 8 -c -L 5 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -i -t -v -g -S .lrzip -H -N 8 -c --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -q -v -S .lrzip -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -U -i -t -q -N 8 -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -Q -t -w 8 -q -v -H -c -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -k -i -t -H -N 8 -L 5 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -k -w 8 -g -H -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -k -U -t -w 8 -q -g -S .lrzip -N 8 -c -L 5 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -i -t -w 8 -v -g -S .lrzip --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -Q -U -t -q -g -S .lrzip -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -Q -U -i -v -S .lrzip -H -N 8 -c -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -k -Q -i -t -q -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -k -Q -t -w 8 -v -H -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -k -t -v -g -S .lrzip -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -w 8 -v -g -c -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -Q -U -t -w 8 -v -g -c  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -k -Q -i -t -q -g -S .lrzip -c -L 5 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -U -i -w 8 -q -v -g -S .lrzip -H -c -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -Q -i -t -w 8 -q -v -g -H -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -U -t -w 8 -q -g -S .lrzip -N 8 -L 5 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -t -S .lrzip -c -L 5 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -k -t -w 8 -v -g -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -U -i -v -g -N 8 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -k -Q -U -i -t -w 8 -v -g -H -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -k -Q -U -t -q -v -S .lrzip -H -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -k -Q -U -i -q -v -S .lrzip -N 8 -c --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -i -v -g -H -c -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -Q -t -w 8 -v -g -H -N 8 -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -Q -U -i -t -w 8 -q -v -g -N 8 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -Q -i -t -q -v -S .lrzip -H -L 5 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -U -i -t -w 8 -q -S .lrzip -c -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -Q -U -i -t -g -H -c -L 5 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -Q -U -i -t -w 8 -q -v -S .lrzip -N 8 -L 5 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -Q -U -w 8 -q -g -S .lrzip -r  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -i -q -g -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -Q -i -w 8 -S .lrzip -N 8 -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -U -w 8 -q -v -H -N 8 -c  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -U -v -N 8 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -Q -U -t -v -g -S .lrzip -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -Q -v -S .lrzip -c  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -U -g -S .lrzip -N 8 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -i -w 8 -g -S .lrzip -c -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -i -t -w 8 -S .lrzip -H -c -L 5 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -Q -t -w 8 -v -c -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -t -w 8 -N 8 -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -i -t -q -v -H -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -Q -t -q -g -H -N 8 -c -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -Q -i -g -S .lrzip -H -N 8 -c -L 5 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -Q -t -w 8 -q -g -S .lrzip -N 8 -c -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -U -t -w 8 -q -g -H -L 5 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -i -t -q -g -N 8 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -Q -U -i -t -v -g -S .lrzip -H -N 8 -c --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -i -t -w 8 -q -v -g -S .lrzip -N 8 -c -L 5 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -U -w 8 -q -v --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -Q -U -t -q -v -N 8 -c -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -t -g -H -N 8 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -t -w 8 -v -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -U -i -t -w 8 -g -H  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -U -t -q -S .lrzip -N 8 -c -L 5 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -Q -U -i -S .lrzip -H -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -Q -i -t -w 8 -q -g -S .lrzip -H -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -Q -U -t -w 8 -q -g -S .lrzip -H -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -Q -U -i -w 8 -q -v -S .lrzip --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -Q -U -w 8 -q -H -c -L 5 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -U -i -q -S .lrzip -N 8 -c  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -Q -U -t -w 8 -q -g -S .lrzip -H -c -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -Q -U -i -t -w 8 -q -v -g -S .lrzip -H -c -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -i -t -v -S .lrzip -N 8 -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -i -t -q -c --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -Q -w 8 -q -v -g -H -N 8  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -U -g -c --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -U -i -w 8 -v -S .lrzip -H -c -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -Q -t -w 8 -q -v -g -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -Q -U -i -t -N 8 -c -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -U -t -H -N 8 -c -r  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -i -q -S .lrzip -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -Q -q -v -S .lrzip -H -c -L 5 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -Q -i -S .lrzip -c -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -U -i -w 8 -q -v -H -N 8 -c -L 5 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -U -t -w 8 -v -g -S .lrzip -H -N 8 -c -L 5 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -U -v -g -S .lrzip -c -r  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -U -i -t -q -v -c -L 5 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -i -t -w 8 -q -v -g -S .lrzip -H -N 8 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -S .lrzip -N 8 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -Q -i -w 8 -S .lrzip -H -N 8 -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -Q -i -t -q -v -g -c -L 5 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -Q -U -t -g -H -L 5 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -i -w 8 -g -H -N 8 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -Q -U -i -w 8 -q -H -N 8 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -U -i -q -N 8  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -U -i -t -w 8 -g -H -N 8 -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -U -i -q -g -S .lrzip -N 8 -c -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -Q -w 8 -q -v -g -S .lrzip -H -c -r  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -i -t -w 8 -q -v -H -N 8 -c -L 5 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -i -v -g -H -c -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -Q -U -t -v -g -H -N 8 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -w 8 -q -S .lrzip -c -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -t -w 8 -q -v -S .lrzip -H -N 8 -L 5 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -U -t -w 8 -q -v -g -N 8 -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -Q -U -i -q -v -g -N 8 -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -Q -i -t -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -Q -g -S .lrzip -N 8 -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -Q -w 8 -q -v -c -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -i -t -q -S .lrzip -H -N 8 -c -r  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -U -i -t -g -L 5 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -t -w 8 -q -N 8 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -Q -U -i -w 8 -q -v -g -H -N 8 -c -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -U -t -q -v -g -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -Q -U -w 8 -q -S .lrzip -H -N 8 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -Q -i -q -S .lrzip -N 8 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -t -q -g -N 8 -c --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -k -Q -U -i -t -v -H -N 8 -c -L 5 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -z -k -Q -g -c  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -Q -U -i -t -w 8 -q -g -H -N 8 -c -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -i -t -w 8 -q -b -v -g -S .lrzip --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -Q -U -i -t -w 8 -q -g -N 8 -L 5 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -U -i -t -n -w 8 -q -g -H -N 8 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -Q -U -i -t -w 8 -q -v -g -S .lrzip -H -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -i -t -n -w 8 -q -v -g -S .lrzip -N 8 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -Q -U -i -n -w 8 -q -v -S .lrzip -H -c --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -U -t -q -b -S .lrzip -c -L 5 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -w 8 -b -v -g -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -Q -U -t -b -g -S .lrzip -H -N 8 -c -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -t -q -b -v -g -S .lrzip -r  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -Q -i -n -v -g -S .lrzip -N 8 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -Q -U -i -t -b -H -c -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -U -i -b -v -g -H -N 8 -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -Q -U -i -t -w 8 -b -v -N 8 -c -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -Q -i -t -w 8 -q -v -g -H -N 8 -c -L 5 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -i -t -w 8 -q -b -g -S .lrzip -H -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -U -t -n -w 8 -g -H -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -Q -n -q -S .lrzip -N 8 -c -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -U -i -b -v -S .lrzip -H  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -i -t -n -w 8 -S .lrzip -c -r  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -U -i -n -g -N 8 -c  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -i -w 8 -q -b -S .lrzip -N 8 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -Q -U -n -q -v -g -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -Q -i -q -b -v -g -H -N 8 -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -U -t -n -w 8 -v -g -S .lrzip -H --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -U -t -w 8 -q -v -g -H -c -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -U -q -b -g -H --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -Q -U -i -t -n -v -N 8 -c -L 5 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -U -t -n -w 8 -g -S .lrzip -H -N 8 -c -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -Q -U -t -b -g -S .lrzip -N 8 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -t -w 8 -b -v -g -S .lrzip -H -c -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -Q -U -t -w 8 -q -b -v -N 8 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -U -n -q -S .lrzip -c -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -U -n -w 8 -q -v -g -N 8 -c -L 5 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -i -t -n -q -v -g -H -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -Q -U -i -t -w 8 -q -b -v -H -N 8 -c -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -Q -t -n -q -g -H -c -L 5 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -Q -w 8 -q -b -v -g -S .lrzip -H -c -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -Q -i -t -n -w 8 -g -N 8 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -Q -i -n -q -H -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -Q -t -b -g -H  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -Q -U -i -t -n -w 8 -q -v -g -S .lrzip -N 8 -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -U -i -t -n -w 8 -q -v -g -N 8 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -U -t -n -w 8 -q -N 8 -L 5 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -Q -i -t -b -S .lrzip -N 8 -c -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -i -n -w 8 -v -S .lrzip -H -N 8  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -Q -U -q -b -S .lrzip -N 8 -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -n -w 8 -g -S .lrzip -H -L 5 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -U -i -t -b -v -g -S .lrzip -N 8 -c --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -U -t -w 8 -q -b -v -S .lrzip -H -N 8 -c -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -t -w 8 -q -S .lrzip -H -c -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -Q -i -n -q -g -S .lrzip -N 8 -L 5 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -t -n -v -H -N 8 -c -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -Q -U -i -t -w 8 -q -b -v -g -S .lrzip -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -Q -U -i -n -w 8 -q -g -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -U -i -n -v -H -N 8 -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -Q -i -t -b -v -g -H -N 8 -c -r  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -U -w 8 -b -H -c -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -Q -U -i -t -n -g -N 8 -c -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -Q -b -N 8 -c  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -Q -i -n -w 8 -v -g -N 8 -L 5 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -Q -U -n -w 8 -H -N 8 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -n -q -g -S .lrzip -H -c -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -Q -U -i -t -n -v -S .lrzip -c -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -U -t -n -w 8 -q -H  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -Q -U -w 8 -v -N 8 -c -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -U -t -q -b -g -c -r  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -Q -U -i -t -w 8 -q -b -g -N 8 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -Q -U -w 8 -q -b -g -S .lrzip --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -U -t -b -v -g -S .lrzip -c -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -i -q -b -v -S .lrzip -H -N 8 -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -Q -g -H -N 8 -c -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -i -t -n -w 8 -q -v -S .lrzip -N 8 -c --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -U -t -n -w 8 -q -g -S .lrzip -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -Q -n -v -S .lrzip -N 8 -c -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -U -i -n -w 8 -v -S .lrzip -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -i -w 8 -q -b -S .lrzip -c -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -i -n -w 8 -q -H -N 8 -c -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -U -n -w 8 -v -g -S .lrzip -N 8 -c -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -t -w 8 -b -H -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -U -t -n -q -v -g -S .lrzip -N 8 -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -i -t -n -w 8 -q -v -g -S .lrzip -H -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -Q -i -t -w 8 -b -v -g -c -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -Q -U -i -w 8 -q -b -v -H -N 8 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -t -n -v -S .lrzip -H -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -U -i -w 8 -q -b -v -g -H -c --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -Q -t -q -b -S .lrzip -N 8 -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -Q -U -t -n -w 8 -q -g -S .lrzip -H -c -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -T -k -i -w 8 -q -b -g -c -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -i -t -n -w 8 -q -H -N 8 -c -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -U -t -n -v  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -U -i -q -b -v -g -S .lrzip -N 8 -c -L 5 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -w 8 -b -N 8 -c -L 5 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -k -i -t -w 8 -b -g -S .lrzip -H -N 8 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -U -t -w 8 -q -b -g -H -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -i -t -n -w 8 -q -v -g -L 5 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -t -n -w 8 -q -g -S .lrzip -N 8 -c -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -U -i -t -n -q -g -H -N 8 -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -b -H -c -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -U -i -t -n -q -v -g -S .lrzip -c --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -k -U -w 8 -q -b -v -H -c -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -U -t -n -q -v -S .lrzip -H -N 8 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -U -i -t -w 8 -v -g -S .lrzip -c -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -k -n -q -v -N 8 -c -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -U -i -n -w 8 -H -N 8 -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -i -n -w 8 -v -g -S .lrzip -H -N 8 -c -L 5 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -U -t -n -S .lrzip -H -c -L 5 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -t -q -b -v -S .lrzip -N 8 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -n -w 8 -v -S .lrzip -H -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -U -i -n -w 8 -q -v -g -S .lrzip -H -N 8 -c -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -t -n -w 8 -v -g -c -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -t -q -b -v -g -N 8 -c --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -U -i -w 8 -q -b -S .lrzip -c -r  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -U -i -t -w 8 -q -b -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -b -v -g -S .lrzip -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -i -t -w 8 -v -g -S .lrzip -N 8 -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -n -g -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -U -i -t -q -b -v -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -U -n -w 8 -q -c -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -U -i -t -n -S .lrzip -N 8 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -t -w 8 -q -b -g -N 8 -c  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -i -t -n -q -S .lrzip -H -c -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -U -w 8 -b -v -g -H -N 8 -c  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -i -w 8 -q -b -S .lrzip -H -L 5 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -Q -i -t -w 8 -v -g -S .lrzip -N 8 -c -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -U -i -n -w 8 -q -g -S .lrzip -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -i -b -g -N 8 -c -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -n -g -S .lrzip -H -N 8 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -k -U -i -t -q -b -g -H -N 8 -c -L 5 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -k -t -w 8 -b -g -S .lrzip -c -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -U -n -v -S .lrzip -H -c -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -U -i -q -b -v -g -S .lrzip -H -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -Q -i -t -q -v -g -S .lrzip -H -N 8 -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -U -i -t -w 8 -g -c -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -i -t -w 8 -v -g -H -N 8 -c -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -k -U -i -b -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -k -U -i -t -n -g -S .lrzip -H -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -k -U -i -b -S .lrzip -H -N 8 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -t -w 8 -b -v -S .lrzip -H -N 8 -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -i -t -n -w 8 -v -c --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -U -i -t -w 8 -g -S .lrzip -H -c -L 5 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -i -t -w 8 -q -b -N 8 -c -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -t -n -w 8 -q -v -g -H -N 8 -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -i -t -b -v -S .lrzip -H -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -w 8 -q -b -g -H -r  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -U -t -n -w 8 -S .lrzip -c -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -i -w 8 -b -v -g -N 8 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -t -n -w 8 -q -v -g -S .lrzip -c -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -i -t -n -q -v -S .lrzip -N 8 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -k -n -q --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -U -i -w 8 -b -v -g -H -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -U -n -w 8 -q -S .lrzip -N 8 -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -U -i -t -q -b -v -g -S .lrzip -H -N 8 -c -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -U -b -v -S .lrzip -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -i -n -w 8 -v -g -H -c -r  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -U -t -w 8 -q -b -v -g -N 8 -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -U -i -t -n -w 8 -v -g -c -L 5 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -U -i -w 8 -v -H -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -k -w 8 -b -v -g -S .lrzip -H -N 8 -c -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -U -t -w 8 -b -S .lrzip -N 8 -c -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -i -q -b -g -H -c --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -U -i -t -b -v -c --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -k -i -n -w 8 -v -S .lrzip -c -L 5 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -k -t -q -b -g -H -N 8 -c -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -U -t -w 8 -b -v -g -S .lrzip -c -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -U -i -n -q -v -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -k -U -i -t -n -w 8 -v -S .lrzip -H -N 8 -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -i -t -n -w 8 -q -g -H -c  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -U -t -n -v -g -H -N 8 -c  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -Q -t -w 8 -q -g -S .lrzip -H -N 8 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -b -v -H -N 8 -c -L 5 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -n -q -v -g -S .lrzip -H -c -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -t -n -w 8 -v -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -t -n -g -N 8 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -i -t -w 8 -b -g -H -N 8 -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -k -U -i -t -w 8 -q -b -v -g -S .lrzip -H -N 8 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -U -i -t -n -w 8 -q -v -g -N 8 -c -L 5 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -k -t -n -w 8 -H -c -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -i -t -q -b -v -S .lrzip -N 8 -c -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -t -n -q -g -S .lrzip -H -N 8 -L 5 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -k -n -w 8 -q -v -g -N 8 -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -i -n -q -v -g --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -i -t -n -q -S .lrzip -H -N 8 -c  -f -p 1 @@ -o /tmp/foo
+lrzip -k -U -w 8 -q -b -g -H -N 8 -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -T -U -i -t -q -b -v -g -S .lrzip -H -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -i -b -g -S .lrzip -H -c -L 5 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -U -t -q -b -v -H -N 8  -f -p 1 @@ -o /tmp/foo
+lrzip -k -t -q -b -H -N 8 -c --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -k -Q -U -n -q -g -N 8 -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -i -t -w 8 -b -v -g -H -c -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -i -w 8 -q -b -v -g -c -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -t -n -q -v -g -S .lrzip -L 5 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -i -t -w 8 -b -g -N 8 -c -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -Q -t -w 8 -g -S .lrzip -L 5 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -U -i -w 8 -q -v -g -H -L 5 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -U -t -n -q -v -g -S .lrzip -H -N 8 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -U -t -q -v -g -H -c -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -U -i -t -q -b -g -S .lrzip -H -c -r  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -U -t -w 8 -g -H -N 8 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -U -i -t -n -q -g -S .lrzip -N 8 -c -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -U -i -t -b -v -g -H --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -U -t -n -q -v -g -H -N 8 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -Q -t -q -v -g -S .lrzip -N 8 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -U -i -t -q -b -v -g -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -T -i -t -w 8 -b -g -S .lrzip  -f -p 1 @@ -o /tmp/foo
+lrzip -l -Q -U -i -w 8 -q -v -g -c -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -i -t -n -w 8 -q -g -H -N 8 -L 5 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -U -t -q -b -v -g -H -N 8 -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -z -Q -i -t -w 8 -g -N 8 -c  -f -p 1 @@ -o /tmp/foo
+lrzip -l -U -i -t -q -v -g -S .lrzip -H -N 8 -c -r  -f -p 1 @@ -o /tmp/foo
+lrzip -l -Q -U -t -w 8 -g -S .lrzip -N 8  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -i -t -w 8 -g -H -c -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -Q -i -t -w 8 -g -H -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -U -i -n -w 8 -g -S .lrzip -H -c -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -z -U -i -t -v -g -S .lrzip -N 8 -c -r  -f -p 1 @@ -o /tmp/foo
+lrzip -U -t -w 8 -b -g -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -i -t -b -g -S .lrzip -H -N 8 -c -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -U -i -t -g -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -U -t -w 8 -g -H -N 8 -c -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -t -n -w 8 -q -g -S .lrzip -N 8  -f -p 1 @@ -o /tmp/foo
+lrzip -z -U -i -t -q -g -S .lrzip -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -l -Q -U -t -v -g -S .lrzip --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -t -w 8 -q -g -S .lrzip -H --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -z -U -i -w 8 -q -v -g -S .lrzip -N 8 -c -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -i -t -n -v -g -S .lrzip -N 8 -c -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -t -w 8 -g -N 8 -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -U -w 8 -b -v -g -S .lrzip -N 8 -c -L 5 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -U -i -w 8 -q -v -g -H -N 8 -c --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -Q -U -i -w 8 -q -g -S .lrzip -c --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -U -t -n -v -g -H -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -Q -U -w 8 -q -v -g -S .lrzip -H -N 8 -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -U -t -w 8 -g -S .lrzip -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -U -w 8 -q -b -g -N 8 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -U -w 8 -q -b -v -g -S .lrzip -H -N 8 -c -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -U -i -w 8 -b -g -S .lrzip -c --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -z -Q -w 8 -q -v -g -S .lrzip -H --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -Q -U -w 8 -v -g -N 8 -c -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -U -i -w 8 -q -g -S .lrzip -H -N 8 -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -i -t -n -g -S .lrzip -H -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -t -b -v -g -H -c -L 5 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -i -w 8 -q -b -g -S .lrzip -N 8 -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -Q -U -i -w 8 -g -S .lrzip -H -N 8 -c -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -Q -w 8 -q -g -S .lrzip -c -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -n -w 8 -q -g -H -N 8 -c -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -i -w 8 -q -v -g -r  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -t -b -g -S .lrzip -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -U -i -q -v -g -N 8 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -Q -i -w 8 -v -g -H -c -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -U -w 8 -q -v -g -c -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -U -n -w 8 -q -v -g -S .lrzip -H -L 5 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -U -i -w 8 -b -g -S .lrzip -N 8 -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -t -q -g -N 8 -c -L 5 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -Q -t -v -g -c -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -T -i -t -n -g -S .lrzip -H -N 8 -c -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -U -w 8 -v -g -S .lrzip -N 8 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -t -n -g -S .lrzip -H -N 8 -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -n -w 8 -q -v -g -S .lrzip -N 8 -c -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -Q -U -t -g -S .lrzip -H -N 8 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -U -w 8 -q -g -H -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -t -n -v -g -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -U -i -q -v -g -S .lrzip -N 8 -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -T -i -t -n -g -H -c -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -Q -w 8 -q -g -S .lrzip -H -N 8 -c -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -U -i -q -v -g -S .lrzip -H -N 8 -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -Q -U -q -g -N 8 -c --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -t -g -S .lrzip -H -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -U -n -w 8 -v -g -H -N 8 -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -U -i -q -b -g -N 8 -c -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -T -i -n -w 8 -g -S .lrzip -c --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -U -i -n -v -g -S .lrzip -N 8 -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -w 8 -q -b -v -g -N 8 -L 5 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -z -Q -U -w 8 -g -H -c -L 5 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -U -n -w 8 -g -S .lrzip -N 8 -c -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -T -i -n -q -v -g -S .lrzip -H -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -w 8 -b -g -H -N 8 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -Q -i -q -g -S .lrzip -c --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -Q -w 8 -v -g -S .lrzip -N 8 -L 5 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -Q -U -i -g -S .lrzip -N 8 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -Q -q -v -g -N 8 -c -L 5 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -U -w 8 -g -H -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -T -U -q -b -v -g -S .lrzip -H -c -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -i -w 8 -b -g -H -N 8 -c --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -T -i -q -b -v -g -N 8  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -U -n -w 8 -g -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -i -t -b -g -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -Q -n -v -g -H -N 8 -c -r  -f -p 1 @@ -o /tmp/foo
+lrzip -T -i -q -b -g -S .lrzip -H -N 8 -c -D  -f -p 1 @@ -o /tmp/foo
+lrzip -U -i -n -q -g -H -c -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -Q -U -q -g -L 5 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -Q -i -g -N 8 -L 5 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -T -U -n -v -g -c -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -i -v -g -H -L 5 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -U -w 8 -b -g -S .lrzip -H -N 8 -c -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -T -U -b -v -g -r  -f -p 1 @@ -o /tmp/foo
+lrzip -i -n -q -v -g -H -N 8 -c  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -U -n -q -g -H -N 8 --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -Q -q -g -H -N 8 -c -r  -f -p 1 @@ -o /tmp/foo
+lrzip -l -Q -U -i -g -N 8 -c -L 5 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -U -i -n -g -c -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -i -w 8 -g -H -L 5 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -i -n -w 8 -g -S .lrzip -N 8 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -w 8 -v -g -S .lrzip -N 8 -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -z -Q -U -v -g -H -N 8 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -q -b -v -g -N 8 -c -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -Q -U -g -H -N 8 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -Q -i -q -g -S .lrzip -H -c -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -q -v -g -S .lrzip -H -N 8 -L 5 -r  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -Q -g -S .lrzip -c -L 5 -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -l -U -v -g -S .lrzip -H -c -L 5 -r -D  -f -p 1 @@ -o /tmp/foo
+lrzip -U -i -b -g -N 8 -c --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -U -q -b -g -S .lrzip -H -L 5 --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -T -q -g -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -T -Q -g -S .lrzip -H -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -Q -n -q -g -L 5  -f -p 1 @@ -o /tmp/foo
+lrzip -z -q -g -S .lrzip -c -L 5 -r --encrypt=123456 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -z -i -g -S .lrzip -H -N 8 -L 5 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -l -v -g -H -N 8 -D  -f -p 1 @@ -o /tmp/foo
+lrzip -q -b -g -S .lrzip -r --encrypt=123456  -f -p 1 @@ -o /tmp/foo
+lrzip -z -Q -g -H -c -D  -f -p 1 @@ -o /tmp/foo

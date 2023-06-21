@@ -1,0 +1,585 @@
+584
+tiff2pdf -i -q 90 -k 123456 -l 10 -w 10 -F -n -f -t title -p legal -d -c creator -r o -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -s subject -w 10 -F -u i -n -p A4 -b -r o -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -l 10 -w 10 -F -u m -n -f -t title -p legal -c creator -m 512 -y 480 -z -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -s subject -w 10 -F -n -f -p A4 -b -c creator -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -k 123456 -s subject -F -n -f -p A4 -b -c creator -r d -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -s subject -l 10 -w 10 -F -n -f -p A4 -b -r d -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -s subject -l 10 -w 10 -F -n -t title -p A4 -b -r d -m 512 -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -s subject -l 10 -w 10 -n -f -p legal -c creator -m 512 -z -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -k 123456 -l 10 -w 10 -F -u m -n -f -b -c creator -r o -m 512 -y 480  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -l 10 -w 10 -u i -n -t title -p letter -c creator -r o -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -k 123456 -s subject -F -u i -n -f -p A4 -b -c creator -x 720  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -k 123456 -F -u i -n -f -t title -p letter -r o -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -l 10 -w 10 -F -u i -n -p legal -b -m 512 -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -i -w 10 -F -u m -n -f -p legal -b -d -c creator -r o -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -k 123456 -l 10 -u i -n -f -p letter -c creator -r o -y 480 -z -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -k 123456 -l 10 -n -f -t title -p A4 -b -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -s subject -w 10 -F -u m -n -p A4 -c creator -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -w 10 -n -f -t title -p A4 -b -d -c creator -x 720  @@ -o /tmp/foo
+tiff2pdf -j -k 123456 -w 10 -u m -n -f -p legal -b -r o -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -k 123456 -l 10 -w 10 -u i -n -f -t title -b -d -c creator -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -l 10 -w 10 -F -n -f -b -m 512 -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -s subject -l 10 -F -e 20220909220000 -u i -n -f -p A4 -c creator -r d -m 512 -y 480 -z -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -s subject -w 10 -n -f -p A4 -b -d -c creator -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -k 123456 -w 10 -u i -n -f -t title -p A4 -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -k 123456 -l 10 -F -u m -n -f -t title -c creator -r o -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -k 123456 -s subject -l 10 -w 10 -F -u m -n -f -b -d -c creator -r o -m 512 -y 480  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -s subject -l 10 -w 10 -n -f -t title -p letter -b -c creator -m 512 -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -q 90 -l 10 -u i -n -f -p letter -b -d -c creator -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -s subject -l 10 -F -n -f -p A4 -b -d -r o -x 720  @@ -o /tmp/foo
+tiff2pdf -j -s subject -l 10 -w 10 -F -u m -n -p A4 -c creator -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -k 123456 -l 10 -F -u i -n -f -t title -p legal -d -c creator -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -j -k 123456 -s subject -l 10 -F -n -f -p legal -c creator -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -k 123456 -l 10 -w 10 -F -n -t title -p legal -r o -x 720  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -s subject -l 10 -w 10 -F -u m -n -f -r o -m 512 -y 480 -z -a author  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -k 123456 -l 10 -F -n -p A4 -r o -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -k 123456 -F -n -f -p letter -b -c creator -r d -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -k 123456 -s subject -l 10 -F -u i -n -f -t title -p A4 -b -r d -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -s subject -l 10 -w 10 -u i -n -f -p letter -b -c creator -m 512  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -s subject -F -n -p A4 -d -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -s subject -l 10 -u m -n -f -t title -p A4 -b -d -r d -y 480  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -w 10 -n -t title -b -c creator -r o -m 512 -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -l 10 -u i -n -p letter -b -m 512 -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -w 10 -F -n -f -p A4 -c creator -r o -y 480 -z  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -s subject -w 10 -F -n -p A4 -d -c creator -r d  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -w 10 -F -n -t title -b -c creator -m 512 -y 480 -z -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -s subject -l 10 -F -n -p letter -d -r o -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -s subject -l 10 -F -u m -n -t title -p A4 -b -d -c creator -r d -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -s subject -l 10 -w 10 -u m -n -b -d -c creator -r o -x 720  @@ -o /tmp/foo
+tiff2pdf -k 123456 -l 10 -u i -n -p legal -d -c creator -r o -m 512 -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -s subject -l 10 -w 10 -e 20220909220000 -u i -n -f -p A4 -b -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -w 10 -F -e 20220909220000 -u i -n -p A4 -b -c creator -r d -y 480 -z -a author  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -s subject -w 10 -e 20220909220000 -u m -n -f -p A4 -b -c creator -r o -m 512 -y 480 -z  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -l 10 -u m -n -f -t title -c creator -m 512 -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -k 123456 -s subject -w 10 -F -u m -n -t title -p letter -c creator -m 512 -y 480  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -s subject -n -f -t title -p A4 -b -m 512 -y 480 -z -a author  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -s subject -l 10 -w 10 -u m -n -t title -p letter -b -d -m 512 -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -k 123456 -s subject -w 10 -F -u m -n -f -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -s subject -F -u m -n -p A4 -b -r d -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -k 123456 -l 10 -w 10 -F -n -t title -b -r o -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -q 90 -l 10 -w 10 -F -n -f -b -d -c creator -r d -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -s subject -w 10 -n -f -p legal -r d -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -w 10 -F -u m -n -f -t title -b -c creator -r o -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -i -s subject -l 10 -F -n -t title -p letter -b -c creator -r d -m 512 -y 480 -z  @@ -o /tmp/foo
+tiff2pdf -j -k 123456 -l 10 -F -u m -n -f -t title -p letter -r d -y 480  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -k 123456 -l 10 -n -p legal -b -r o -m 512 -y 480  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -s subject -l 10 -F -u i -n -f -t title -b -c creator -r o -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -F -n -t title -p legal -b -r o -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -k 123456 -s subject -F -n -f -t title -p legal -d -c creator -r o -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -l 10 -w 10 -u m -n -p legal -r d -z  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -w 10 -F -u i -n -t title -p legal -b -y 480  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -F -n -f -c creator -r d -m 512 -y 480 -z -a author  @@ -o /tmp/foo
+tiff2pdf -i -s subject -l 10 -F -u m -n -f -t title -p A4 -d -c creator -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -s subject -l 10 -w 10 -F -n -t title -p legal -b -d -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -k 123456 -l 10 -F -e 20220909220000 -u i -n -t title -p A4 -b -c creator -r d -m 512 -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -w 10 -u m -n -f -t title -b -c creator -z -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -k 123456 -l 10 -w 10 -F -e 20220909220000 -u i -n -f -p legal -c creator -m 512 -y 480  @@ -o /tmp/foo
+tiff2pdf -j -i -k 123456 -n -p legal -c creator -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -i -l 10 -F -u i -n -f -t title -b -m 512 -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -w 10 -u m -n -f -t title -d -c creator -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -w 10 -F -e 20220909220000 -u m -n -f -t title -p legal -d -c creator -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -k 123456 -s subject -F -u i -n -f -p letter -b -y 480 -z  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -l 10 -u m -n -b -d -c creator -r o -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -s subject -l 10 -w 10 -u i -n -t title -m 512 -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -l 10 -F -u m -n -f -c creator -r o -y 480 -z  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -s subject -l 10 -F -e 20220909220000 -u m -n -t title -p A4 -b -c creator -m 512 -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -s subject -l 10 -w 10 -e 20220909220000 -n -f -t title -p A4 -d -c creator -r d -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -l 10 -F -n -f -p legal -r o -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -j -i -s subject -l 10 -w 10 -F -n -t title -b -c creator -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -w 10 -F -n -p letter -b -d -c creator -m 512 -y 480  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -s subject -w 10 -u i -n -f -r o -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -k 123456 -s subject -l 10 -e 20220909220000 -u m -n -t title -p legal -b -c creator -r o -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -l 10 -w 10 -F -e 20220909220000 -u i -n -t title -p A4 -d -c creator -r d -y 480  @@ -o /tmp/foo
+tiff2pdf -l 10 -w 10 -u i -n -p A4 -d -r o -x 720  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -F -u i -n -f -p A4 -b -r d -a author  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -w 10 -n -p A4 -b -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -j -i -k 123456 -s subject -l 10 -w 10 -e 20220909220000 -u i -n -f -p letter -b -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -l 10 -w 10 -n -b -c creator -y 480 -z  @@ -o /tmp/foo
+tiff2pdf -j -i -k 123456 -l 10 -w 10 -e 20220909220000 -n -p A4 -c creator -r o -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -l 10 -u m -n -f -b -c creator -r d -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -s subject -l 10 -F -u i -n -f -b -r o -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -w 10 -F -e 20220909220000 -u m -n -f -t title -p A4 -d -c creator -y 480  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -l 10 -F -u i -n -b -d -c creator -x 720  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -l 10 -w 10 -u i -n -t title -c creator -r d -y 480  @@ -o /tmp/foo
+tiff2pdf -q 90 -s subject -l 10 -w 10 -e 20220909220000 -n -p letter -c creator -r o -m 512 -y 480 -z -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -s subject -l 10 -w 10 -F -n -t title -d -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -u m -n -t title -b -c creator -m 512 -y 480 -z  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -l 10 -n -f -b -c creator -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -s subject -w 10 -e 20220909220000 -n -f -p legal -b -d -c creator -r o -a author  @@ -o /tmp/foo
+tiff2pdf -k 123456 -l 10 -w 10 -n -t title -c creator -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -i -s subject -F -n -p A4 -m 512 -y 480 -z  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -s subject -l 10 -w 10 -u i -n -f -c creator -y 480  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -l 10 -F -e 20220909220000 -u m -n -f -t title -p letter -b -y 480 -z  @@ -o /tmp/foo
+tiff2pdf -j -s subject -u i -n -f -p letter -r d -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -k 123456 -s subject -l 10 -w 10 -e 20220909220000 -n -f -t title -p A4 -b -c creator -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -q 90 -s subject -u i -n -f -p legal -m 512 -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -k 123456 -u m -n -p legal -d -c creator -r d -y 480  @@ -o /tmp/foo
+tiff2pdf -s subject -w 10 -u m -n -t title -b -c creator -r o -m 512 -y 480 -z -a author  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -s subject -l 10 -n -f -b -d -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -j -k 123456 -s subject -w 10 -F -u m -n -b -c creator -y 480  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -s subject -l 10 -w 10 -e 20220909220000 -n -p letter -c creator -r d -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -j -k 123456 -l 10 -w 10 -u i -n -f -t title -c creator -r d  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -k 123456 -s subject -l 10 -n -b -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -i -s subject -n -f -p letter -d -c creator -r o -x 720  @@ -o /tmp/foo
+tiff2pdf -j -l 10 -w 10 -e 20220909220000 -n -f -t title -p A4 -b -r o -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -s subject -l 10 -e 20220909220000 -n -p letter -c creator -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -k 123456 -w 10 -F -n -r o -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -i -l 10 -w 10 -F -e 20220909220000 -n -f -t title -p legal -b -d -r o -m 512 -y 480  @@ -o /tmp/foo
+tiff2pdf -i -s subject -l 10 -w 10 -F -n -t title -b -y 480 -z -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -s subject -e 20220909220000 -u i -n -f -b -c creator -r o -m 512 -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -s subject -l 10 -w 10 -F -e 20220909220000 -u i -n -f -p legal -d -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -i -s subject -F -u i -n -f -d -r d -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -s subject -l 10 -n -f -t title -d -c creator -r d -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -k 123456 -l 10 -F -u m -n -d -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -l 10 -w 10 -F -e 20220909220000 -u m -n -t title -p letter -d -c creator -m 512 -a author  @@ -o /tmp/foo
+tiff2pdf -j -s subject -w 10 -F -e 20220909220000 -n -p A4 -b -c creator -r o -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -s subject -n -t title -p A4 -c creator -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -s subject -l 10 -w 10 -n -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -s subject -F -e 20220909220000 -u m -n -f -p A4 -c creator -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -q 90 -s subject -l 10 -F -u m -n -t title -p legal -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -j -i -n -p A4 -b -c creator -r d -m 512  @@ -o /tmp/foo
+tiff2pdf -k 123456 -s subject -l 10 -u i -n -t title -r d -m 512 -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -l 10 -w 10 -n -f -t title -b -m 512 -y 480  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -s subject -l 10 -F -n -b -d -c creator -r o  @@ -o /tmp/foo
+tiff2pdf -i -w 10 -u m -n -t title -r o -m 512 -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -s subject -l 10 -w 10 -e 20220909220000 -n -p letter -r d -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -s subject -w 10 -F -u m -n -f -t title -b -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -s subject -u i -n -f -c creator -y 480 -z -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -k 123456 -w 10 -e 20220909220000 -u m -n -f -t title -p letter -m 512 -a author  @@ -o /tmp/foo
+tiff2pdf -k 123456 -s subject -n -f -t title -p letter -r d -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -s subject -l 10 -F -e 20220909220000 -u m -n -f -t title -p A4 -b -r d -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -k 123456 -s subject -l 10 -F -e 20220909220000 -n -p letter -c creator -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -s subject -w 10 -F -e 20220909220000 -u i -n -f -t title -p legal -d -r d -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -i -F -n -t title -b -d -c creator -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -s subject -l 10 -w 10 -F -e 20220909220000 -u i -n -f -b -d -r o -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -l 10 -w 10 -e 20220909220000 -n -f -p A4 -d -m 512 -y 480  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -s subject -n -b -c creator -r o -y 480 -z  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -k 123456 -l 10 -w 10 -F -e 20220909220000 -u m -n -t title -r d -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -s subject -l 10 -w 10 -F -e 20220909220000 -u m -n -f -r d -m 512 -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -l 10 -e 20220909220000 -n -f -p letter -b -c creator -r o -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -k 123456 -s subject -l 10 -w 10 -F -e 20220909220000 -n -p legal -b -d -r o -x 720  @@ -o /tmp/foo
+tiff2pdf -l 10 -w 10 -F -e 20220909220000 -u m -n -p letter -m 512 -y 480 -z -a author  @@ -o /tmp/foo
+tiff2pdf -j -k 123456 -s subject -w 10 -F -e 20220909220000 -n -f -t title -p legal -b -c creator -r d -m 512 -a author  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -F -u i -n -t title -b -d -m 512 -y 480  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -s subject -l 10 -w 10 -e 20220909220000 -u i -n -d -c creator -r o -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -l 10 -w 10 -e 20220909220000 -n -t title -p legal -r o -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -s subject -l 10 -e 20220909220000 -u m -n -f -b -c creator -m 512 -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -l 10 -w 10 -F -e 20220909220000 -n -f -t title -r o -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -F -u i -n -r o -m 512 -y 480 -z  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -n -f -t title -b -d -r o -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -F -e 20220909220000 -u i -n -p A4 -c creator -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -j -k 123456 -s subject -w 10 -e 20220909220000 -u m -n -f -c creator -r d -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -k 123456 -s subject -l 10 -w 10 -n -t title -b -r d -m 512  @@ -o /tmp/foo
+tiff2pdf -i -l 10 -w 10 -e 20220909220000 -n -t title -p legal -b -d -c creator -x 720  @@ -o /tmp/foo
+tiff2pdf -j -w 10 -F -e 20220909220000 -u i -n -f -p A4 -c creator -r o -x 720  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -s subject -w 10 -F -n -t title -c creator -r o -m 512 -y 480  @@ -o /tmp/foo
+tiff2pdf -j -l 10 -F -u m -n -t title -c creator -x 720  @@ -o /tmp/foo
+tiff2pdf -F -e 20220909220000 -u m -n -f -t title -p letter -b -c creator -r o -z -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -w 10 -n -d -r o -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -w 10 -u m -n -d -y 480  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -F -e 20220909220000 -u m -n -t title -p letter -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -l 10 -w 10 -e 20220909220000 -n -c creator -r d -m 512 -y 480 -z -a author  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -s subject -w 10 -e 20220909220000 -u i -n -t title -p legal -d -c creator -r d -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -q 90 -l 10 -e 20220909220000 -n -f -t title -p letter -b -c creator -y 480 -z  @@ -o /tmp/foo
+tiff2pdf -q 90 -l 10 -w 10 -F -e 20220909220000 -n -p legal -c creator -r o -m 512 -y 480  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -k 123456 -s subject -l 10 -F -n -t title -b -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -s subject -F -e 20220909220000 -n -p legal -b -c creator -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -k 123456 -l 10 -w 10 -e 20220909220000 -n -f -b -c creator -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -s subject -w 10 -e 20220909220000 -n -f -b -d -c creator -r o -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -i -l 10 -w 10 -F -n -f -b -d -m 512  @@ -o /tmp/foo
+tiff2pdf -i -s subject -w 10 -F -e 20220909220000 -u m -n -p legal -d -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -k 123456 -w 10 -e 20220909220000 -u i -n -f -b -c creator -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -s subject -l 10 -w 10 -e 20220909220000 -n -t title -p legal -d -c creator -r o -y 480  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -s subject -F -e 20220909220000 -n -t title -p legal -d -c creator -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -k 123456 -s subject -l 10 -F -e 20220909220000 -n -b -r o -m 512 -y 480 -z -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -s subject -l 10 -e 20220909220000 -n -f -t title -p legal -r d -y 480 -z -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -l 10 -F -u i -n -b -r d -z  @@ -o /tmp/foo
+tiff2pdf -k 123456 -w 10 -e 20220909220000 -n -t title -p legal -r d -m 512 -y 480 -z  @@ -o /tmp/foo
+tiff2pdf -j -i -s subject -u i -n -t title -b -r d -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -n -t title -d -r d -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -s subject -l 10 -e 20220909220000 -u i -n -t title -p legal -b -d -c creator -r o -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -l 10 -w 10 -e 20220909220000 -u i -n -b -c creator -m 512 -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -k 123456 -s subject -w 10 -F -n -t title -r d -x 720  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -k 123456 -l 10 -e 20220909220000 -n -t title -p legal -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -F -u i -n -b -c creator -r o -m 512  @@ -o /tmp/foo
+tiff2pdf -i -s subject -l 10 -w 10 -F -e 20220909220000 -n -d -c creator -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -k 123456 -w 10 -F -e 20220909220000 -n -f -t title -p A4 -b -d -m 512  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -s subject -l 10 -e 20220909220000 -u i -n -f -t title -d -c creator -r d -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -w 10 -F -e 20220909220000 -u m -n -t title -b -d -r o -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -s subject -w 10 -F -e 20220909220000 -u m -n -f -t title -b -d -c creator -r d -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -e 20220909220000 -u i -n -f -t title -p legal -b -c creator -r o -y 480  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -w 10 -F -e 20220909220000 -n -f -p letter -m 512 -z  @@ -o /tmp/foo
+tiff2pdf -j -k 123456 -l 10 -F -e 20220909220000 -n -f -b -c creator -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -j -k 123456 -s subject -F -e 20220909220000 -n -f -t title -p A4 -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -k 123456 -e 20220909220000 -n -f -t title -b -c creator -r o -m 512 -y 480  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -l 10 -F -e 20220909220000 -n -t title -c creator -r o -m 512 -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -q 90 -s subject -n -f -t title -p letter -b -r d -m 512  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -e 20220909220000 -n -p A4 -b -d -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -j -k 123456 -s subject -l 10 -F -e 20220909220000 -n -t title -p A4 -b -r d -y 480  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -s subject -w 10 -e 20220909220000 -u m -n -b -d -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -e 20220909220000 -n -f -p letter -c creator -r o -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -l 10 -e 20220909220000 -n -f -t title -b -d -c creator -r o -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -w 10 -F -e 20220909220000 -u i -n -f -t title -m 512 -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -i -s subject -w 10 -F -e 20220909220000 -u m -n -f -t title -p legal -r o -y 480 -z  @@ -o /tmp/foo
+tiff2pdf -j -i -s subject -l 10 -F -e 20220909220000 -u m -n -f -t title -p legal -r d -m 512 -y 480  @@ -o /tmp/foo
+tiff2pdf -q 90 -n -f -b -d -m 512 -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -s subject -l 10 -w 10 -e 20220909220000 -u m -n -f -t title -b -r o -m 512 -y 480 -z  @@ -o /tmp/foo
+tiff2pdf -k 123456 -w 10 -F -e 20220909220000 -n -f -d -c creator -r o -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -s subject -w 10 -F -e 20220909220000 -n -f -t title -c creator -y 480 -z  @@ -o /tmp/foo
+tiff2pdf -j -i -l 10 -e 20220909220000 -u m -n -f -t title -c creator -r d -m 512 -y 480  @@ -o /tmp/foo
+tiff2pdf -i -l 10 -F -e 20220909220000 -u m -n -f -p legal -d -y 480  @@ -o /tmp/foo
+tiff2pdf -s subject -w 10 -F -u i -n -f -t title -d -y 480  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -s subject -e 20220909220000 -n -f -t title -p letter -d -r d -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -k 123456 -s subject -l 10 -F -e 20220909220000 -u i -n -t title -p legal -d -r o -x 720  @@ -o /tmp/foo
+tiff2pdf -j -i -k 123456 -s subject -l 10 -e 20220909220000 -u m -n -t title -c creator -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -j -k 123456 -l 10 -F -e 20220909220000 -n -f -b -r d -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -l 10 -e 20220909220000 -u i -n -t title -p legal -r o -x 720  @@ -o /tmp/foo
+tiff2pdf -s subject -w 10 -e 20220909220000 -n -t title -p letter -b -d -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -s subject -l 10 -e 20220909220000 -u m -n -d -c creator -m 512 -y 480  @@ -o /tmp/foo
+tiff2pdf -i -w 10 -e 20220909220000 -n -f -b -c creator -m 512 -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -F -e 20220909220000 -u m -n -f -t title -b -d -r o -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -F -n -f -y 480  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -s subject -l 10 -F -e 20220909220000 -u m -n -f -z -a author  @@ -o /tmp/foo
+tiff2pdf -s subject -w 10 -F -e 20220909220000 -n -f -d -c creator -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -k 123456 -w 10 -e 20220909220000 -n -f -t title -b -r o -x 720  @@ -o /tmp/foo
+tiff2pdf -j -s subject -l 10 -e 20220909220000 -u i -n -t title -p letter -b -c creator -x 720  @@ -o /tmp/foo
+tiff2pdf -i -w 10 -F -e 20220909220000 -u i -n -t title -r d -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -s subject -l 10 -F -e 20220909220000 -n -f -t title -b -c creator -r o -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -j -i -s subject -l 10 -F -e 20220909220000 -u i -n -f -b -r o -y 480  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -w 10 -F -e 20220909220000 -n -f -t title -c creator -y 480  @@ -o /tmp/foo
+tiff2pdf -s subject -l 10 -n -t title -d -c creator -x 720  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -e 20220909220000 -u i -n -f -t title -d -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -k 123456 -s subject -l 10 -e 20220909220000 -n -f -b -m 512 -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -s subject -l 10 -e 20220909220000 -u i -n -t title -c creator -r d -m 512 -z  @@ -o /tmp/foo
+tiff2pdf -j -i -w 10 -F -e 20220909220000 -n -c creator -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -w 10 -F -e 20220909220000 -n -f -b -d -r o -y 480  @@ -o /tmp/foo
+tiff2pdf -l 10 -w 10 -F -e 20220909220000 -n -f -b -m 512 -y 480 -z  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -l 10 -F -e 20220909220000 -n -t title -d -x 720  @@ -o /tmp/foo
+tiff2pdf -q 90 -e 20220909220000 -u m -n -p legal -b -d -r o -x 720  @@ -o /tmp/foo
+tiff2pdf -j -e 20220909220000 -u i -n -f -p letter -b -m 512 -y 480  @@ -o /tmp/foo
+tiff2pdf -j -i -s subject -l 10 -F -e 20220909220000 -n -r d -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -j -s subject -l 10 -w 10 -F -e 20220909220000 -n -f -t title -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -s subject -w 10 -e 20220909220000 -u i -n -b -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -k 123456 -l 10 -F -e 20220909220000 -n -f -d -c creator -y 480  @@ -o /tmp/foo
+tiff2pdf -j -i -s subject -l 10 -w 10 -F -e 20220909220000 -u i -n -t title -r o -a author  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -s subject -w 10 -F -e 20220909220000 -u i -n -t title -b -d -c creator  @@ -o /tmp/foo
+tiff2pdf -q 90 -s subject -F -e 20220909220000 -u m -n -b -d -c creator -y 480  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -e 20220909220000 -n -b -d -c creator -r o -x 720  @@ -o /tmp/foo
+tiff2pdf -k 123456 -s subject -l 10 -e 20220909220000 -u i -n -t title -b -r o -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -w 10 -e 20220909220000 -n -b -r o -z -a author  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -e 20220909220000 -u i -n -f -t title -r o -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -k 123456 -s subject -F -e 20220909220000 -n -f -t title -b -d -c creator -r d -y 480  @@ -o /tmp/foo
+tiff2pdf -l 10 -e 20220909220000 -n -f -b -r o -m 512 -z -a author  @@ -o /tmp/foo
+tiff2pdf -j -k 123456 -l 10 -e 20220909220000 -u i -n -f -x 720  @@ -o /tmp/foo
+tiff2pdf -k 123456 -s subject -e 20220909220000 -u i -n -f -t title -b -d -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -s subject -l 10 -e 20220909220000 -n -f -p legal -d  @@ -o /tmp/foo
+tiff2pdf -i -s subject -F -e 20220909220000 -n -f -b -c creator -a author  @@ -o /tmp/foo
+tiff2pdf -j -k 123456 -w 10 -e 20220909220000 -u m -n -b -x 720  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -w 10 -e 20220909220000 -u m -n -y 480 -z  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -k 123456 -s subject -e 20220909220000 -n -t title -c creator -r o -y 480  @@ -o /tmp/foo
+tiff2pdf -s subject -e 20220909220000 -u i -n -t title -p letter -b -m 512 -z  @@ -o /tmp/foo
+tiff2pdf -q 90 -s subject -w 10 -F -e 20220909220000 -n -t title -m 512 -z -a author  @@ -o /tmp/foo
+tiff2pdf -F -e 20220909220000 -n -t title -b -r d -y 480 -z  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -s subject -F -e 20220909220000 -n -t title -d -r o -m 512 -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -F -e 20220909220000 -u i -n -r d -m 512 -y 480  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -k 123456 -s subject -e 20220909220000 -u m -n  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -s subject -w 10 -e 20220909220000 -u i -n -t title -c creator  @@ -o /tmp/foo
+tiff2pdf -F -e 20220909220000 -n -t title -d -c creator -r d -m 512  @@ -o /tmp/foo
+tiff2pdf -w 10 -e 20220909220000 -n -t title -d -r d -y 480  @@ -o /tmp/foo
+tiff2pdf -j -s subject -w 10 -e 20220909220000 -n -t title -c creator -m 512  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -k 123456 -s subject -l 10 -w 10 -F -u i -t title -p A4 -b -c creator -r o -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -s subject -l 10 -F -u m -f -p A4 -b -r d -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -k 123456 -s subject -w 10 -u i -f -t title -p A4 -c creator -r o -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -w 10 -F -t title -p legal -b -d -c creator -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -l 10 -w 10 -f -p A4 -d -c creator -r o -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -l 10 -w 10 -u i -p letter -b -r o -m 512 -y 480 -z -a author  @@ -o /tmp/foo
+tiff2pdf -i -s subject -w 10 -F -u m -p legal -b -d -c creator -r o -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -l 10 -f -t title -p legal -b -r d -m 512 -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -l 10 -w 10 -F -f -p letter -b -c creator -r o -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -s subject -w 10 -F -u m -t title -p letter -c creator -r d -m 512 -y 480 -z -a author  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -l 10 -F -u i -p letter -b -c creator -m 512 -y 480 -z  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -s subject -l 10 -u m -p legal -b -c creator -r o -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -l 10 -w 10 -F -f -t title -p legal -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -w 10 -u i -f -t title -p legal -b -r d -y 480 -z  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -s subject -l 10 -w 10 -u m -f -t title -p legal -b -d -c creator -m 512 -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -s subject -F -t title -p A4 -b -c creator -r d -m 512 -z -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -l 10 -w 10 -u m -f -p letter -b -d -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -k 123456 -l 10 -w 10 -F -u i -f -t title -c creator -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -l 10 -w 10 -F -e 20220909220000 -p A4 -c creator -r d -m 512 -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -k 123456 -s subject -l 10 -w 10 -p letter -d -c creator -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -k 123456 -w 10 -F -t title -p A4 -b -d -r o -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -w 10 -F -u i -f -t title -p A4 -b -c creator -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -j -w 10 -F -f -t title -p A4 -c creator -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -l 10 -F -f -p legal -d -c creator -r o -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -s subject -l 10 -w 10 -f -p legal -r o -y 480 -z  @@ -o /tmp/foo
+tiff2pdf -j -i -k 123456 -s subject -l 10 -u i -p letter -c creator -r d -y 480  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -w 10 -F -u i -t title -p legal -b -d -c creator -r o -m 512  @@ -o /tmp/foo
+tiff2pdf -F -u i -f -p legal -c creator -r d -m 512 -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -j -k 123456 -s subject -l 10 -w 10 -b -c creator -r o -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -l 10 -F -u m -f -t title -p letter -d -r o -y 480  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -s subject -l 10 -w 10 -F -f -b -d -r o -m 512 -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -s subject -l 10 -F -u m -t title -p legal -b -d -c creator -x 720  @@ -o /tmp/foo
+tiff2pdf -i -s subject -l 10 -w 10 -F -e 20220909220000 -u m -f -p legal -b -c creator -r o -y 480 -z -a author  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -k 123456 -l 10 -w 10 -u i -f -p letter -r o -x 720  @@ -o /tmp/foo
+tiff2pdf -j -i -k 123456 -l 10 -u m -f -p letter -b -c creator -x 720  @@ -o /tmp/foo
+tiff2pdf -q 90 -s subject -w 10 -F -f -t title -p letter -c creator -r d -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -k 123456 -l 10 -u m -f -p A4 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -w 10 -p legal -b -c creator -r o -y 480 -z -a author  @@ -o /tmp/foo
+tiff2pdf -k 123456 -s subject -w 10 -F -u m -f -p legal -b -d -y 480  @@ -o /tmp/foo
+tiff2pdf -q 90 -l 10 -w 10 -t title -p legal -r o -m 512 -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -F -t title -p A4 -y 480 -z -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -s subject -l 10 -w 10 -F -u i -t title -d -c creator -r o -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -s subject -f -p A4 -d -c creator -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -k 123456 -s subject -u i -p legal -b -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -l 10 -u m -f -p A4 -b -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -s subject -l 10 -u i -t title -p letter -c creator -r d -m 512 -y 480 -z  @@ -o /tmp/foo
+tiff2pdf -i -s subject -w 10 -p letter -b -m 512 -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -k 123456 -s subject -l 10 -w 10 -F -u m -p A4 -x 720  @@ -o /tmp/foo
+tiff2pdf -i -l 10 -w 10 -F -u i -f -t title -b -d -r d -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -k 123456 -l 10 -w 10 -e 20220909220000 -t title -p legal -b -c creator -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -k 123456 -s subject -l 10 -w 10 -f -t title -p letter -d -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -u i -t title -p A4 -b -d -r o -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -s subject -p letter -c creator -r d -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -l 10 -F -u m -p A4 -m 512 -z  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -l 10 -F -u m -f -r o -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -s subject -l 10 -w 10 -f -m 512 -y 480 -z  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -f -t title -p legal -d -c creator -m 512 -y 480  @@ -o /tmp/foo
+tiff2pdf -j -k 123456 -F -u i -t title -p A4 -b -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -j -i -s subject -w 10 -f -t title -p A4 -b -c creator -r d -y 480  @@ -o /tmp/foo
+tiff2pdf -j -k 123456 -F -p A4 -c creator -r d -m 512 -a author  @@ -o /tmp/foo
+tiff2pdf -k 123456 -w 10 -F -f -b -c creator -r d -m 512 -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -k 123456 -s subject -w 10 -e 20220909220000 -u i -f -p A4 -b -c creator -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -s subject -w 10 -u i -p legal -b -d -r o -m 512 -y 480  @@ -o /tmp/foo
+tiff2pdf -l 10 -f -t title -p legal -b -d -r o -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -l 10 -F -u m -p letter -b -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -k 123456 -w 10 -u i -f -t title -b -c creator -r o -x 720  @@ -o /tmp/foo
+tiff2pdf -q 90 -w 10 -F -u i -p legal -r o -m 512 -z -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -f -t title -b -c creator -r o -m 512 -y 480 -z  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -k 123456 -s subject -l 10 -w 10 -u i -c creator -m 512 -a author  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -w 10 -b -c creator -m 512 -y 480 -z -a author  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -l 10 -w 10 -e 20220909220000 -u m -p letter -b -d -r o -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -F -e 20220909220000 -u i -f -t title -p letter -d -c creator -r d -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -l 10 -w 10 -e 20220909220000 -u m -f -t title -b -c creator -r o -y 480 -z -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -s subject -l 10 -w 10 -f -t title -b -c creator -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -s subject -l 10 -w 10 -F -e 20220909220000 -f -t title -p legal -d -c creator -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -s subject -l 10 -F -f -t title -b -r d -m 512 -y 480 -z -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -s subject -l 10 -w 10 -F -u i -c creator -y 480 -z  @@ -o /tmp/foo
+tiff2pdf -j -i -w 10 -F -e 20220909220000 -u m -f -p legal -b -c creator -r o -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -s subject -l 10 -F -e 20220909220000 -p A4 -b -y 480 -z -a author  @@ -o /tmp/foo
+tiff2pdf -i -l 10 -w 10 -e 20220909220000 -f -t title -p letter -b -c creator -r o -m 512 -z -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -l 10 -w 10 -F -u i -b -c creator -r d -y 480  @@ -o /tmp/foo
+tiff2pdf -j -i -s subject -w 10 -F -u i -p A4 -b -m 512  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -F -u m -b -c creator -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -s subject -l 10 -u m -f -c creator -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -l 10 -w 10 -b -d -r d -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -l 10 -w 10 -F -e 20220909220000 -t title -p A4 -d -c creator -r o -x 720  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -k 123456 -w 10 -t title -b -r d -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -k 123456 -s subject -F -u m -f -t title -p legal -c creator -a author  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -s subject -l 10 -w 10 -F -e 20220909220000 -p legal -b -c creator -r o -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -s subject -l 10 -w 10 -F -u i -t title -b -d -c creator -m 512  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -s subject -l 10 -w 10 -F -t title -b -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -i -l 10 -t title -p A4 -b -r o -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -k 123456 -w 10 -c creator -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -k 123456 -s subject -l 10 -w 10 -F -e 20220909220000 -f -t title -p legal -c creator -r o -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -l 10 -w 10 -F -e 20220909220000 -u m -t title -b -c creator -m 512 -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -l 10 -F -e 20220909220000 -f -t title -p legal -b -d -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -k 123456 -s subject -w 10 -F -u m -f -t title -b -r o -m 512 -z -a author  @@ -o /tmp/foo
+tiff2pdf -k 123456 -s subject -l 10 -F -t title -c creator -m 512 -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -i -l 10 -e 20220909220000 -u i -f -t title -p letter -b -d -c creator -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -l 10 -u i -t title -d -r d -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -l 10 -w 10 -u i -t title -m 512 -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -s subject -w 10 -t title -b -d -c creator -r d -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -w 10 -F -u i -d -c creator -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -k 123456 -l 10 -w 10 -F -t title -r d -y 480 -z  @@ -o /tmp/foo
+tiff2pdf -j -i -s subject -l 10 -u i -f -c creator -r d -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -k 123456 -s subject -l 10 -F -f -r o -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -s subject -F -t title -p legal -b -c creator -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -i -F -f -t title -b -c creator -y 480 -z -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -l 10 -F -f -b -d -r d -m 512 -y 480  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -w 10 -e 20220909220000 -u i -t title -p A4 -b -r d -m 512 -y 480 -z  @@ -o /tmp/foo
+tiff2pdf -k 123456 -s subject -l 10 -w 10 -F -e 20220909220000 -f -t title -p legal -c creator -r d -m 512 -y 480 -z  @@ -o /tmp/foo
+tiff2pdf -q 90 -l 10 -w 10 -e 20220909220000 -f -t title -p A4 -b -r o -m 512 -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -s subject -l 10 -w 10 -F -e 20220909220000 -u m -t title -p letter -b -m 512 -y 480 -z -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -s subject -l 10 -f -t title -p A4 -d -c creator -y 480  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -k 123456 -l 10 -t title -r o -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -i -s subject -l 10 -F -b -d -c creator -r d -y 480  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -l 10 -e 20220909220000 -u m -t title -p A4 -b -c creator -r o -x 720  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -k 123456 -s subject -F -u i -r o -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -s subject -u m -b -y 480 -z -a author  @@ -o /tmp/foo
+tiff2pdf -j -w 10 -f -t title -c creator -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -w 10 -e 20220909220000 -u m -f -t title -p letter -m 512 -y 480 -z -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -s subject -w 10 -F -e 20220909220000 -u i -t title -p letter -b -c creator -r d -m 512 -a author  @@ -o /tmp/foo
+tiff2pdf -k 123456 -F -u m -f -b -d -c creator -r d -x 720  @@ -o /tmp/foo
+tiff2pdf -k 123456 -l 10 -w 10 -F -f -t title -d -c creator  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -k 123456 -l 10 -F -e 20220909220000 -u i -f -t title -p legal -r o -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -s subject -w 10 -u m -t title -p A4 -d -m 512  @@ -o /tmp/foo
+tiff2pdf -q 90 -s subject -l 10 -F -e 20220909220000 -p A4 -b -d -c creator -r d -m 512 -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -k 123456 -s subject -l 10 -f -t title -b -c creator -y 480  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -l 10 -e 20220909220000 -u i -f -p legal -b -c creator -r d -m 512 -z  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -s subject -l 10 -w 10 -F -e 20220909220000 -u i -f -d -c creator -r o -x 720  @@ -o /tmp/foo
+tiff2pdf -j -s subject -l 10 -t title -p legal -b -r d -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -i -s subject -l 10 -w 10 -c creator -z -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -s subject -p A4 -c creator -x 720  @@ -o /tmp/foo
+tiff2pdf -q 90 -l 10 -w 10 -e 20220909220000 -f -t title -p A4 -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -w 10 -F -e 20220909220000 -u i -p letter -c creator -z -a author  @@ -o /tmp/foo
+tiff2pdf -k 123456 -s subject -F -e 20220909220000 -f -p legal -b -d -c creator -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -k 123456 -s subject -f -b -d -r d -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -l 10 -w 10 -F -e 20220909220000 -u m -f -t title -c creator -r d -m 512 -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -j -k 123456 -l 10 -F -e 20220909220000 -u m -p legal -b -c creator -r d -m 512 -y 480  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -s subject -l 10 -w 10 -F -u i -f -t title -b -z  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -s subject -l 10 -w 10 -u i -f -t title -r o -m 512 -z  @@ -o /tmp/foo
+tiff2pdf -s subject -w 10 -F -f -t title -c creator -r d -y 480 -z -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -k 123456 -s subject -l 10 -F -e 20220909220000 -t title -p letter -c creator -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -s subject -l 10 -F -f -t title -p letter -c creator  @@ -o /tmp/foo
+tiff2pdf -s subject -l 10 -e 20220909220000 -f -p A4 -c creator -r o -m 512 -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -k 123456 -s subject -l 10 -F -e 20220909220000 -u i -f -t title -p legal -b -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -j -s subject -l 10 -w 10 -F -e 20220909220000 -u i -p A4 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -i -s subject -F -e 20220909220000 -u i -p A4 -r d -m 512 -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -u m -b -c creator -r d -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -F -f -t title -b -c creator -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -i -l 10 -e 20220909220000 -f -t title -p A4 -c creator -r o -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -w 10 -u m -f -d -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -j -k 123456 -s subject -l 10 -w 10 -u i -f -t title -m 512 -y 480  @@ -o /tmp/foo
+tiff2pdf -k 123456 -F -u i -f -t title -b -c creator -y 480  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -w 10 -F -e 20220909220000 -f -t title -b -m 512 -y 480 -z -a author  @@ -o /tmp/foo
+tiff2pdf -s subject -w 10 -F -u m -f -d -c creator -r d -m 512  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -l 10 -F -e 20220909220000 -u i -b -d -c creator -r d -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -k 123456 -s subject -l 10 -e 20220909220000 -p letter -b -c creator -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -l 10 -F -c creator -m 512 -z  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -w 10 -F -e 20220909220000 -u i -f -p legal -c creator -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -s subject -w 10 -f -r d -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -u m -f -t title -d -c creator -r d -y 480  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -l 10 -w 10 -F -e 20220909220000 -p legal -d -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -i -l 10 -w 10 -F -t title -b -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -l 10 -w 10 -F -e 20220909220000 -u i -t title -b -m 512 -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -i -p legal -b -r o -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -e 20220909220000 -u i -t title -p legal -b -c creator -r o -m 512 -y 480 -z  @@ -o /tmp/foo
+tiff2pdf -q 90 -s subject -l 10 -u m -f -d -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -e 20220909220000 -t title -p A4 -d -c creator -r o -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -k 123456 -s subject -l 10 -w 10 -e 20220909220000 -u i -t title -p legal -c creator -y 480 -z  @@ -o /tmp/foo
+tiff2pdf -i -s subject -u m -t title -p letter -d -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -k 123456 -l 10 -w 10 -F -e 20220909220000 -p letter -b -c creator  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -F -f -t title -c creator -r o -z  @@ -o /tmp/foo
+tiff2pdf -l 10 -w 10 -F -b -d -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -q 90 -s subject -F -e 20220909220000 -f -p letter -b -c creator -m 512 -y 480 -z  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -k 123456 -w 10 -e 20220909220000 -f -p letter -r d -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -k 123456 -s subject -l 10 -w 10 -F -e 20220909220000 -f -b -r o -y 480  @@ -o /tmp/foo
+tiff2pdf -s subject -f -b -d -c creator -r d -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -j -k 123456 -s subject -F -f -r d -m 512 -y 480  @@ -o /tmp/foo
+tiff2pdf -q 90 -s subject -l 10 -e 20220909220000 -u m -p letter -d -c creator -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -l 10 -w 10 -e 20220909220000 -u m -f -p A4 -b -r o -m 512  @@ -o /tmp/foo
+tiff2pdf -l 10 -w 10 -F -u i -b -r d -a author  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -u i -f -b -d -r d -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -s subject -w 10 -e 20220909220000 -u m -f -c creator -r o -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -w 10 -F -e 20220909220000 -u i -t title -p letter -b -r o -m 512 -y 480  @@ -o /tmp/foo
+tiff2pdf -q 90 -l 10 -w 10 -t title -b -d -y 480  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -s subject -F -e 20220909220000 -u m -p legal -d -c creator -r d -x 720  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -s subject -F -e 20220909220000 -f -p letter -d -c creator -m 512 -y 480  @@ -o /tmp/foo
+tiff2pdf -j -i -k 123456 -s subject -l 10 -w 10 -F -e 20220909220000 -u i -f -t title -b -r d -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -k 123456 -s subject -f -b -r d -a author  @@ -o /tmp/foo
+tiff2pdf -s subject -l 10 -F -f -t title -p letter -r o -z  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -s subject -l 10 -w 10 -F -e 20220909220000 -f -t title -b -d -c creator -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -s subject -e 20220909220000 -f -p letter -b -d -c creator -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -l 10 -F -e 20220909220000 -t title -p letter -r o -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -s subject -l 10 -F -e 20220909220000 -p letter -d -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -k 123456 -s subject -w 10 -F -e 20220909220000 -f -b -c creator -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -s subject -F -e 20220909220000 -u i -f -t title -p legal -b -m 512 -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -k 123456 -w 10 -F -e 20220909220000 -t title -b -d -c creator -r o -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -k 123456 -s subject -F -y 480 -z -a author  @@ -o /tmp/foo
+tiff2pdf -i -s subject -F -f -t title -c creator -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -j -s subject -l 10 -F -e 20220909220000 -u m -f -b -c creator -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -l 10 -u i -t title -m 512 -y 480  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -k 123456 -s subject -w 10 -F -e 20220909220000 -u m -t title -p letter -r o -y 480  @@ -o /tmp/foo
+tiff2pdf -s subject -l 10 -w 10 -u i -f -t title -d -r o -x 720  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -F -e 20220909220000 -u m -f -b -d -c creator -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -k 123456 -s subject -l 10 -F -e 20220909220000 -u m -f -t title -b -c creator -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -F -e 20220909220000 -p A4 -b -d -r d -y 480  @@ -o /tmp/foo
+tiff2pdf -l 10 -u i -f -r d -y 480 -z  @@ -o /tmp/foo
+tiff2pdf -i -l 10 -F -e 20220909220000 -p legal -d -c creator -r d -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -i -e 20220909220000 -t title -p A4 -c creator -y 480 -z -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -e 20220909220000 -u m -p legal -d -c creator -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -i -l 10 -t title -d -r o -m 512 -y 480  @@ -o /tmp/foo
+tiff2pdf -j -F -t title -p letter -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -s subject -w 10 -e 20220909220000 -b -c creator -r d -m 512 -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -s subject -f -t title -r d -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -k 123456 -s subject -w 10 -F -e 20220909220000 -f -t title -p legal -c creator -x 720  @@ -o /tmp/foo
+tiff2pdf -k 123456 -w 10 -e 20220909220000 -f -p legal -b -m 512 -y 480 -z  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -s subject -w 10 -F -e 20220909220000 -u i -t title -p letter -b -d -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -k 123456 -s subject -w 10 -f -t title -y 480  @@ -o /tmp/foo
+tiff2pdf -k 123456 -s subject -F -u m -t title -b -m 512 -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -j -i -k 123456 -F -e 20220909220000 -u i -p letter -c creator -m 512 -y 480  @@ -o /tmp/foo
+tiff2pdf -j -k 123456 -e 20220909220000 -f -p letter -b -c creator -r d -m 512 -y 480  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -s subject -l 10 -e 20220909220000 -f -d -r d -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -w 10 -e 20220909220000 -u m -f -c creator -m 512 -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -i -s subject -w 10 -F -e 20220909220000 -t title -p A4 -b -r o -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -k 123456 -l 10 -e 20220909220000 -u m -f -t title -m 512 -y 480 -z -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -s subject -F -e 20220909220000 -u m -t title -b -c creator -r o -y 480 -z -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -k 123456 -e 20220909220000 -u m -p legal -c creator -r d -x 720  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -k 123456 -s subject -w 10 -e 20220909220000 -u i -t title -p A4 -b -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -w 10 -e 20220909220000 -u m -f -p legal -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -e 20220909220000 -u i -f -t title -p letter -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -s subject -w 10 -e 20220909220000 -f -t title -b -d -c creator -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -s subject -e 20220909220000 -f -p legal -b -r o -x 720  @@ -o /tmp/foo
+tiff2pdf -i -w 10 -e 20220909220000 -u m -f -d -c creator -r o -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -j -l 10 -e 20220909220000 -t title -b -c creator -r o -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -w 10 -F -e 20220909220000 -u m -b -c creator -r d -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -j -i -k 123456 -w 10 -F -e 20220909220000 -b -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -s subject -w 10 -e 20220909220000 -u i -t title -p legal -c creator -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -j -k 123456 -s subject -f -x 720  @@ -o /tmp/foo
+tiff2pdf -s subject -w 10 -F -e 20220909220000 -u m -f -t title -p legal -d -r d -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -F -e 20220909220000 -f -p legal -d -r o -m 512 -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -e 20220909220000 -u i -f -p letter -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -w 10 -e 20220909220000 -u i -f -t title -p A4 -d -r d  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -s subject -F -e 20220909220000 -u m -b -d -c creator -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -s subject -w 10 -e 20220909220000 -f -p legal -m 512 -y 480  @@ -o /tmp/foo
+tiff2pdf -k 123456 -s subject -w 10 -t title -d -m 512 -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -l 10 -w 10 -e 20220909220000 -f -d -c creator -r d -y 480  @@ -o /tmp/foo
+tiff2pdf -j -i -w 10 -e 20220909220000 -t title -p A4 -x 720  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -s subject -F -f -t title -d -x 720  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -k 123456 -l 10 -e 20220909220000 -f -r d -m 512 -a author  @@ -o /tmp/foo
+tiff2pdf -k 123456 -s subject -w 10 -F -e 20220909220000 -u m -c creator -r d -z  @@ -o /tmp/foo
+tiff2pdf -j -i -k 123456 -l 10 -F -e 20220909220000 -c creator -m 512 -y 480  @@ -o /tmp/foo
+tiff2pdf -j -i -l 10 -w 10 -e 20220909220000 -u i -b -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -w 10 -e 20220909220000 -u m -f -t title -b -d -c creator -x 720  @@ -o /tmp/foo
+tiff2pdf -s subject -w 10 -e 20220909220000 -u m -f -p legal -b -z  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -e 20220909220000 -t title -p A4 -d -c creator -m 512  @@ -o /tmp/foo
+tiff2pdf -q 90 -s subject -w 10 -F -e 20220909220000 -d -r o -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -k 123456 -s subject -F -e 20220909220000 -t title -c creator -r d -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -l 10 -F -e 20220909220000 -u i -t title -b -d -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -l 10 -w 10 -F -e 20220909220000 -f -b -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -j -w 10 -c creator  @@ -o /tmp/foo
+tiff2pdf -j -i -e 20220909220000 -u i -f -t title -b -c creator -m 512 -a author  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -s subject -l 10 -w 10 -e 20220909220000 -f -t title -c creator -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -e 20220909220000 -r d -m 512 -y 480 -z -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -F -e 20220909220000 -u i -b -r d -m 512 -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -k 123456 -e 20220909220000 -t title -d -c creator -m 512 -x 720 -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -k 123456 -l 10 -F -e 20220909220000 -u m -d -a author  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -s subject -l 10 -e 20220909220000 -f -t title -b -d -c creator -m 512 -y 480  @@ -o /tmp/foo
+tiff2pdf -j -i -q 90 -s subject -l 10 -w 10 -e 20220909220000 -t title -c creator -r d -x 720  @@ -o /tmp/foo
+tiff2pdf -f -z -a author  @@ -o /tmp/foo
+tiff2pdf -j -w 10 -F -e 20220909220000 -f -t title -b -r d -y 480  @@ -o /tmp/foo
+tiff2pdf -k 123456 -s subject -l 10 -e 20220909220000 -u i -t title -b -d -r o -m 512 -y 480  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -s subject -F -e 20220909220000 -f -t title -b -r d -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -s subject -e 20220909220000 -f -t title -c creator -m 512 -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -s subject -e 20220909220000 -u m -t title -r d -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -k 123456 -w 10 -F -e 20220909220000 -f -t title -b -x 720  @@ -o /tmp/foo
+tiff2pdf -i -s subject -l 10 -e 20220909220000 -u m -t title -r d -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -j -e 20220909220000 -u i -t title -b -c creator -y 480 -a author  @@ -o /tmp/foo
+tiff2pdf -q 90 -s subject -w 10 -e 20220909220000 -t title -r o -m 512 -x 720 -z -a author  @@ -o /tmp/foo
+tiff2pdf -k 123456 -s subject -l 10 -e 20220909220000 -u m -f -b -d -r d  @@ -o /tmp/foo
+tiff2pdf -q 90 -k 123456 -l 10 -e 20220909220000 -t title -b -z  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -s subject -l 10 -w 10 -e 20220909220000 -t title -b -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -i -q 90 -s subject -e 20220909220000 -u i -t title -b -c creator -x 720 -z  @@ -o /tmp/foo
+tiff2pdf -s subject -w 10 -e 20220909220000 -f -t title -p letter -b -y 480  @@ -o /tmp/foo
+tiff2pdf -j -i -F -e 20220909220000 -u i -f -b -m 512 -x 720  @@ -o /tmp/foo
+tiff2pdf -i -s subject -F -e 20220909220000 -u i -f -t title -m 512 -y 480 -z  @@ -o /tmp/foo
+tiff2pdf -j -i -s subject -l 10 -e 20220909220000 -m 512 -y 480  @@ -o /tmp/foo
+tiff2pdf -i -k 123456 -s subject -w 10 -e 20220909220000 -t title -d -y 480  @@ -o /tmp/foo
+tiff2pdf -j -s subject -l 10 -F -e 20220909220000 -u m -f -t title -r d -m 512  @@ -o /tmp/foo
+tiff2pdf -i -s subject -e 20220909220000 -t title -p letter -b -d -r d  @@ -o /tmp/foo
+tiff2pdf -l 10 -e 20220909220000 -u i -b -d -c creator  @@ -o /tmp/foo
+tiff2pdf -j -q 90 -s subject -w 10 -e 20220909220000 -t title -b -m 512 -y 480  @@ -o /tmp/foo
+tiff2pdf -j -i -s subject -w 10 -e 20220909220000 -f -b  @@ -o /tmp/foo
+tiff2pdf  @@ -o /tmp/foo
+tiff2pdf -e 20220909220000 -x 720 -z -a author  @@ -o /tmp/foo
