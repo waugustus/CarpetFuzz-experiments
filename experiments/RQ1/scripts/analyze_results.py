@@ -21,10 +21,6 @@ if __name__ == "__main__":
         
         program, fuzzer, index = filename.split("_")
 
-        # Already read
-        if program in coverage_data and fuzzer in coverage_data[program]:
-            continue
-
         if program not in coverage_data:
             coverage_data[program] = {}
 

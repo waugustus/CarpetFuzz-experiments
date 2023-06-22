@@ -15,10 +15,10 @@ from multiprocessing import Pool
 from sysv_ipc import SharedMemory, IPC_PRIVATE, IPC_CREX
 
 
-rq1_path = os.path.abspath(os.path.join(sys.path[0], ".."))
-repo_path = os.path.abspath(os.path.join(rq1_path, "..", ".."))
-stubs_dir = os.path.join(rq1_path, "results", "stubs")
-coverage_dir = os.path.join(rq1_path, "results", "coverage")
+rq4_path = os.path.abspath(os.path.join(sys.path[0], ".."))
+repo_path = os.path.abspath(os.path.join(rq4_path, "..", ".."))
+stubs_dir = os.path.join(rq4_path, "results", "stubs")
+coverage_dir = os.path.join(rq4_path, "results", "coverage")
 
 MAP_SIZE = 8 * 1024 * 1024
 

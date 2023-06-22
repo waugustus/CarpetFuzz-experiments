@@ -26,7 +26,7 @@ def scanStubs():
     for dir in dir_list:
         if dir.startswith("."):
             continue
-        if "_random" not in dir > 3:
+        if "_random" not in dir:
             continue
 
         print("[*] Processing %s ..." % dir)
