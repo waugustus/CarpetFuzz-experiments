@@ -74,11 +74,13 @@ RUN update-alternatives --install /usr/bin/clang clang /usr/bin/clang-12 100 && 
 RUN mkdir /root/fuzzer
 WORKDIR /root/fuzzer
 ## AFL++
-RUN git clone https://github.com/AFLplusplus/AFLplusplus afl++; cd afl++; make clean all
+RUN git clone https://github.com/AFLplusplus/AFLplusplus afl++; cd afl++; git reset --hard  2d640558a09b03e9416b5d87e98cf938b38def9e; \
+    make clean all
 ## AFL
-RUN git clone https://github.com/google/AFL afl; cd afl; make clean all; cd llvm_mode; make clean all
+RUN git clone https://github.com/google/AFL afl; cd afl; git reset --hard 61037103ae3722c8060ff7082994836a794f978e; \
+    make clean all; cd llvm_mode; make clean all
 ## AFLfast
-RUN git clone https://github.com/mboehme/aflfast; cd aflfast; \
+RUN git clone https://github.com/mboehme/aflfast; cd aflfast; git reset --hard d1d54caf9850ca4afe2ac634a2a212aa6bb40032; \
     ### Add CPU binding support
     sed -i "7938i \      case 'b': { /* bind CPU core */\n\n        if (cpu_to_bind_given) FATAL(\"Multiple -b options not supported\");\n        cpu_to_bind_given = 1;\n\n        if (sscanf(optarg, \"%u\", &cpu_to_bind) < 1 ||\n            optarg[0] == '-') FATAL(\"Bad syntax used for -b\");\n\n        break;\n\n        }\n" afl-fuzz.c; \
     sed -i "7824s/.*/\  while ((opt = getopt(argc, argv, \"+i:o:f:m:t:b:T:dnCB:S:M:x:Qp:\")) > 0)/" afl-fuzz.c; \
@@ -88,7 +90,8 @@ RUN git clone https://github.com/mboehme/aflfast; cd aflfast; \
     sed -i "99i EXP_ST u32 cpu_to_bind = 0;           /* id of free CPU core to bind      */\n" afl-fuzz.c; \
     make clean all; cd llvm_mode; make clean all; exit 0
 ## MOPT
-RUN git clone https://github.com/puppet-meteor/MOpt-AFL; mv MOpt-AFL/MOpt/ mopt; rm -rf MOpt-AFL/; cd mopt; \
+RUN git clone https://github.com/puppet-meteor/MOpt-AFL; cd MOpt-AFL; git reset --hard a9a5dc5c0c291c1cdb09b2b7b27d7cbf1db7ce7b; \
+    cd ..; mv MOpt-AFL/MOpt/ mopt; rm -rf MOpt-AFL/; cd mopt; \
     ### Add CPU binding support
     sed -i "11933i \      case 'b': { /* bind CPU core */\n\n        if (cpu_to_bind_given) FATAL(\"Multiple -b options not supported\");\n        cpu_to_bind_given = 1;\n\n        if (sscanf(optarg, \"%u\", &cpu_to_bind) < 1 ||\n            optarg[0] == '-') FATAL(\"Bad syntax used for -b\");\n\n        break;\n\n        }\n" afl-fuzz.c; \
     sed -i "11819s/.*/\  while ((opt = getopt(argc, argv, \"+i:o:f:m:t:b:V:T:L:dnCB:S:M:x:Q\")) > 0)/" afl-fuzz.c; \

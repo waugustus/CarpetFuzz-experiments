@@ -39,7 +39,7 @@ runOnCarpetFuzzDataset() {
     cpu_bind=0
 
     # 48 hours
-    timeout_seconds=172800
+    timeout_seconds=1800
     programs_dir=${programs_carpetfuzz_dataset_dir}
 
     for key in $(echo $config_carpetfuzz_dataset|jq keys[]); do
@@ -62,7 +62,6 @@ runOnCarpetFuzzDataset() {
                 fi
 
                 output_path="${output_dir}/carpetfuzz_dataset/${task}"
-                build_path="${programs_dir}/${package}/build_${fuzzer}"
                 stub=$(echo $config_carpetfuzz_dataset | jq .${key}.stub |tr -d '"')
 
                 timeout=$(echo $config_carpetfuzz_dataset | jq .${key}.timeout|tr -d '"')
@@ -74,6 +73,7 @@ runOnCarpetFuzzDataset() {
 
                 if [[ "$fuzzer" == carpetfuzz* ]]; then
                     fuzzer_path="${fuzzer_dir}/CarpetFuzz/fuzzer_afl"
+                    build_path="${programs_dir}/${package}/build_carpetfuzz"
                     if [[ "$fuzzer" == "carpetfuzz_random" ]]; then
                         argvs_path="${configures_dir}/carpetfuzz_dataset/argvs/${package}/random_stubs_${program}_${index}.txt"
                     else
@@ -82,13 +82,19 @@ runOnCarpetFuzzDataset() {
                     cmd="screen -dmS ${task} timeout ${timeout_seconds}s ${fuzzer_path}/afl-fuzz -i ${input_path} -o ${output_path} -b ${cpu_bind} -m none ${slice} -K ${argvs_path} -- ${build_path}/bin/${stub}; echo \"Fuzzing ${task}\"; sleep ${timeout_seconds}"
                 else
                     fuzzer_path="${fuzzer_dir}/${fuzzer}"
+                    build_path="${programs_dir}/${package}/build_${fuzzer}"
                     cmd="screen -dmS ${task} timeout ${timeout_seconds}s ${fuzzer_path}/afl-fuzz -i ${input_path} -o ${output_path} -b ${cpu_bind} -m none ${slice} -- ${build_path}/bin/${stub}; echo \"Fuzzing ${task}\"; sleep ${timeout_seconds}"
                 fi
+
+                # Wait for other instances to startup
+                delay_time=$(expr $cpu_bind \* 1)
 
                 cmd="LD_LIBRARY_PATH=${build_path}/lib $cmd"
                 if [[ $program == "editcap" ]]; then
                     cmd="AFL_IGNORE_PROBLEMS=1 $cmd"
                 fi
+
+                cmd="sleep ${delay_time}; $cmd"
 
                 total_runs+=("${cmd}")
                 cpu_bind=`expr ${cpu_bind} + 1`
@@ -115,7 +121,7 @@ runOnPowerDataset() {
     total_runs=()
 
     # 24 hours
-    timeout_seconds=86400
+    timeout_seconds=1800
     programs_dir=${programs_power_dataset_dir}
 
     for key in $(echo $config_power_dataset|jq keys[]); do
