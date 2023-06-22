@@ -6,9 +6,6 @@
 import os
 import sys
 import json
-import argparse
-
-sys.path.append('/path/to/library_directory')
 
 repo_dir = sys.path[0]
 programs_dir = os.path.abspath(os.path.join(repo_dir, "..", "programs"))
@@ -23,7 +20,7 @@ project_dir = carpetfuzz_dir
 model_dir = os.path.join(project_dir, "models")
 script_dir = os.path.join(project_dir, "scripts")
 
-sys.path.append(os.path.join(script_dir, "utils"))
+sys.path.append(os.path.join(script_dir))
 
 from utils.groff_util import GroffUtil
 from utils.nlp_util import NLPUtil
