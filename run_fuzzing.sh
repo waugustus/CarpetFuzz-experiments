@@ -39,7 +39,7 @@ runOnCarpetFuzzDataset() {
     cpu_bind=0
 
     # 48 hours
-    timeout_seconds=1800
+    timeout_seconds=172800
     programs_dir=${programs_carpetfuzz_dataset_dir}
 
     for key in $(echo $config_carpetfuzz_dataset|jq keys[]); do
@@ -121,7 +121,7 @@ runOnPowerDataset() {
     total_runs=()
 
     # 24 hours
-    timeout_seconds=1800
+    timeout_seconds=86400
     programs_dir=${programs_power_dataset_dir}
 
     for key in $(echo $config_power_dataset|jq keys[]); do
@@ -150,6 +150,11 @@ runOnPowerDataset() {
             cmd="screen -dmS ${task} timeout ${timeout_seconds}s ${fuzzer_path}/afl-fuzz -i ${input_path} -o ${output_path} -b ${cpu_bind} -m none ${slice} -K ${argvs_path} -- ${build_path}/bin/${stub}; echo \"Fuzzing ${task}\"; sleep ${timeout_seconds}"
 
             cmd="LD_LIBRARY_PATH=${build_path}/lib $cmd"
+
+            # Wait for other instances to startup
+            delay_time=$(expr $cpu_bind \* 1)
+
+            cmd="sleep ${delay_time}; $cmd"
 
             total_runs+=("${cmd}")
 
