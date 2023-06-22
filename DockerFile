@@ -29,6 +29,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt install -y \
     libtool \
     screen \
     jq \
+    asciidoctor \
     lsb-release
 
 # Install clang-12
