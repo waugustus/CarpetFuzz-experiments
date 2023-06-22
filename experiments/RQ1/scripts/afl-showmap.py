@@ -129,6 +129,8 @@ if __name__ == "__main__":
         if stub_file.startswith("."):
             continue
         print("[*] Processing %s ..." % stub_file)
+
+        program, fuzzer, index = stub_file.split("_")
         
         stub_file_path = os.path.join(stubs_dir, stub_file)
         output_path = os.path.join(coverage_dir, stub_file)
@@ -136,7 +138,11 @@ if __name__ == "__main__":
         with open(stub_file_path, "r") as f:
             stub_list = [stub for stub in f.read().splitlines() if len(stub) > 0 and not stub.isspace()]
 
+        if program == "editcap":
+            os.environ['AFL_IGNORE_PROBLEMS']="1"
+
         os.environ['LD_LIBRARY_PATH'] = "%s:%s" % (os.path.abspath(os.path.join(stub_list[0].split(" ")[0], "../../", "lib")), os.environ.get('LD_LIBRARY_PATH'))
+
         calibrateMapSize(stub_list[0].split(" ")[0])
         print("[*] Target Map Size: %d" % (MAP_SIZE))
 

@@ -58,7 +58,7 @@ The fuzzing results will be saved in [output/carpetfuzz_dataset](output/carpetfu
 To replicate the experiments in Sections 5.2 and 5.3, relationship identification and extraction need to be performed on the documents in the program's compilation directory (about **1 hour**).
 
 ```
-screen -dmS python3 analyzing_manpages.py
+screen -dmS bash -c "python3 analyzing_manpages.py 2>&1 | tee analyze.log"
 ```
 
 After completing the preprocessing step, the results of all experiments can be obtained using the corresponding scripts in their respective directories.
