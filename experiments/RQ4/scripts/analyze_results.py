@@ -72,7 +72,7 @@ if __name__ == "__main__":
             edge_list = [line.split(":")[0] for line in showmap_list if len(line) != 0]
             coverage_data[program][fuzzer].append(edge_list)
     
-    print ("{:<20} {:<24} {:<24}".format('','Compare to AFL', 'Compare to ALL'))
+    print ("{:<20} {:<26} {:<24}".format('','Compare to AFL', 'Compare to ALL'))
     print ("{:<20} {:<8} {:<8} {:<8} {:<8} {:<8} {:<8}".format('Program','Ranked', 'Random', 'Rate', 'Ranked', 'Random', 'Rate'))
     
     sum_list = [0] * 6
