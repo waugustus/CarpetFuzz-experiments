@@ -1419,5 +1419,675 @@
         "Force the specified domains to log at the noisy level.",
         "List of domains must be comma-separated.",
         "Write log messages and stderr output to the specified file."
+    ],
+    "IDC": [
+        [
+            "Force output to be written with Big-Endian byte order.",
+            "Force output to be written with Little-Endian byte order."
+        ],
+        [
+            "Force the output file to be written with data organized in strips (rather than tiles).",
+            "Force the output file to be written with data organized in tiles (rather than strips)."
+        ],
+        [
+            "Render soft breaks (newlines inside paragraphs in the CommonMark source) as hard line breaks in the target format.",
+            "Render soft breaks as spaces."
+        ],
+        [
+            "These options encrypt the private key with the DES, triple DES, IDEA or any other cipher supported by OpenSSL before outputting it.",
+            "These options encrypt the private key with the DES, triple DES, IDEA or any other cipher supported by OpenSSL before outputting it."
+        ],
+        [
+            "Enable Strong PVK encoding level (default).",
+            "Enable Weak PVK encoding level."
+        ],
+        [
+            "These options encrypt the private key with the specified cipher before outputting it.",
+            "These options encrypt the private key with the specified cipher before outputting it."
+        ],
+        [
+            "Enable Strong PVK encoding level (default).",
+            "Dont enforce PVK encoding."
+        ],
+        [
+            "Enable Weak PVK encoding level.",
+            "Dont enforce PVK encoding."
+        ],
+        [
+            "generate a sixel image for 7bit terminals or printers (default).",
+            "generate a sixel image for 8bit terminals or printers."
+        ],
+        [
+            "output monochrome sixel image.",
+            "output 15bpp sixel image"
+        ],
+        [
+            "Generate grayscale Level 2 PostScript.",
+            "Generate Level 3 separable PostScript."
+        ],
+        [
+            "Generate Level 2 PostScript.",
+            "Generate Level 3 PostScript."
+        ],
+        [
+            "Generate Level 2 separable PostScript.",
+            "Generate Level 3 separable PostScript."
+        ],
+        [
+            "Generate Level 2 PostScript.",
+            "Generate grayscale Level 3 PostScript."
+        ],
+        [
+            "Generate grayscale Level 2 PostScript.",
+            "Generate Level 2 separable PostScript."
+        ],
+        [
+            "Generate Level 1 PostScript.",
+            "Generate grayscale Level 3 PostScript."
+        ],
+        [
+            "Generate grayscale Level 3 PostScript.",
+            "Generate Level 3 separable PostScript."
+        ],
+        [
+            "Generate Level 1 separable PostScript.",
+            "Generate Level 3 PostScript."
+        ],
+        [
+            "Generate Level 1 PostScript.",
+            "Generate grayscale Level 2 PostScript."
+        ],
+        [
+            "Generate grayscale Level 2 PostScript.",
+            "Generate grayscale Level 3 PostScript."
+        ],
+        [
+            "Generate Level 2 PostScript.",
+            "Generate Level 3 separable PostScript."
+        ],
+        [
+            "Generate Level 2 separable PostScript.",
+            "Generate Level 3 PostScript."
+        ],
+        [
+            "Generate Level 1 PostScript.",
+            "Generate Level 3 separable PostScript."
+        ],
+        [
+            "Generate Level 1 separable PostScript.",
+            "Generate Level 2 separable PostScript."
+        ],
+        [
+            "Generate Level 1 PostScript.",
+            "Generate Level 2 separable PostScript."
+        ],
+        [
+            "Generate Level 2 PostScript.",
+            "Generate grayscale Level 2 PostScript."
+        ],
+        [
+            "Generate Level 1 separable PostScript.",
+            "Generate Level 3 separable PostScript."
+        ],
+        [
+            "Generate Level 1 PostScript.",
+            "Generate Level 1 separable PostScript."
+        ],
+        [
+            "Generate Level 1 separable PostScript.",
+            "Generate grayscale Level 2 PostScript."
+        ],
+        [
+            "Generate Level 1 PostScript.",
+            "Generate Level 3 PostScript."
+        ],
+        [
+            "Generate Level 3 PostScript.",
+            "Generate grayscale Level 3 PostScript."
+        ],
+        [
+            "Generate Level 3 PostScript.",
+            "Generate Level 3 separable PostScript."
+        ],
+        [
+            "Generate Level 2 PostScript.",
+            "Generate Level 2 separable PostScript."
+        ],
+        [
+            "Generate Level 2 separable PostScript.",
+            "Generate grayscale Level 3 PostScript."
+        ],
+        [
+            "Generate grayscale Level 2 PostScript.",
+            "Generate Level 3 PostScript."
+        ],
+        [
+            "Generate Level 1 separable PostScript.",
+            "Generate grayscale Level 3 PostScript."
+        ],
+        [
+            "Generate Level 1 separable PostScript.",
+            "Generate Level 2 PostScript."
+        ],
+        [
+            "Generate Level 1 PostScript.",
+            "Generate Level 2 PostScript."
+        ],
+        [
+            "Play files in pseudo-random order.",
+            "Play files in pseudo-random order forever."
+        ],
+        [
+            "Use rc4v1 encryption",
+            "Use rc4v2 encryption (Default value)"
+        ],
+        [
+            "Bzip2 compression.",
+            "LZO Compression."
+        ],
+        [
+            "Bzip2 compression.",
+            "No 2nd stage compression."
+        ],
+        [
+            "Bzip2 compression.",
+            "ZPAQ compression."
+        ],
+        [
+            "LZO Compression.",
+            "No 2nd stage compression."
+        ],
+        [
+            "LZO Compression.",
+            "ZPAQ compression."
+        ],
+        [
+            "No 2nd stage compression.",
+            "ZPAQ compression."
+        ],
+        [
+            "Gzip compression.",
+            "Bzip2 compression."
+        ],
+        [
+            "Gzip compression.",
+            "LZO Compression."
+        ],
+        [
+            "Gzip compression.",
+            "No 2nd stage compression."
+        ],
+        [
+            "Gzip compression.",
+            "ZPAQ compression."
+        ],
+        [
+            "Enable perceptual enhancement (default)",
+            "Disable perceptual enhancement"
+        ],
+        [
+            "Force decoding in narrowband",
+            "Force decoding in wideband"
+        ],
+        [
+            "Force decoding in narrowband",
+            "Force decoding in ultra-wideband"
+        ],
+        [
+            "Force decoding in narrowband",
+            "Force decoding in mono"
+        ],
+        [
+            "Force decoding in narrowband",
+            "Force decoding in stereo"
+        ],
+        [
+            "Force decoding in narrowband",
+            "Force decoding at sampling rate n Hz"
+        ],
+        [
+            "Force decoding in wideband",
+            "Force decoding in ultra-wideband"
+        ],
+        [
+            "Force decoding in wideband",
+            "Force decoding in mono"
+        ],
+        [
+            "Force decoding in wideband",
+            "Force decoding in stereo"
+        ],
+        [
+            "Force decoding in wideband",
+            "Force decoding at sampling rate n Hz"
+        ],
+        [
+            "Force decoding in ultra-wideband",
+            "Force decoding in mono"
+        ],
+        [
+            "Force decoding in ultra-wideband",
+            "Force decoding in stereo"
+        ],
+        [
+            "Force decoding in ultra-wideband",
+            "Force decoding at sampling rate n Hz"
+        ],
+        [
+            "Force decoding in mono",
+            "Force decoding in stereo"
+        ],
+        [
+            "Force decoding in mono",
+            "Force decoding at sampling rate n Hz"
+        ],
+        [
+            "Force decoding in stereo",
+            "Force decoding at sampling rate n Hz"
+        ],
+        [
+            "Strip all markers from output file.",
+            "Strip Comment (COM) markers from output file."
+        ],
+        [
+            "Strip all markers from output file.",
+            "Strip EXIF markers from output file."
+        ],
+        [
+            "Strip all markers from output file.",
+            "Strip IPTC / Adobe Photoshop (APP13) markers from output file."
+        ],
+        [
+            "Strip all markers from output file.",
+            "Strip ICC profiles from output file."
+        ],
+        [
+            "Strip all markers from output file.",
+            "Strip XMP profiles from output file."
+        ],
+        [
+            "Strip all markers from output file.",
+            "Do not strip any JFXX (JFIF Extensions) from output file."
+        ],
+        [
+            "Strip all markers from output file.",
+            "Strip Adobe markers from output file."
+        ],
+        [
+            "Strip Comment (COM) markers from output file.",
+            "Do not strip any Comment (COM) markers from output file."
+        ],
+        [
+            "Strip EXIF markers from output file.",
+            "Do not strip any EXIF markers from output file."
+        ],
+        [
+            "Strip IPTC / Adobe Photoshop (APP13) markers from output file.",
+            "Do not strip any IPTC / Adobe Photoshop (APP13) markers from output file."
+        ],
+        [
+            "Strip ICC profiles from output file.",
+            "Do not strip any ICC profiles from output file."
+        ],
+        [
+            "Strip XMP profiles from output file.",
+            "Do not strip any XMP profiles from output file."
+        ],
+        [
+            "Strip Adobe markers from output file.",
+            "Do not strip Adobe markers from output file."
+        ],
+        [
+            "Force all output files to be non-progressive.",
+            "Force all output files to be progressive."
+        ],
+        [
+            "Force all output files to use Arithmetic Coding.",
+            "Force all output files to use (traditional)"
+        ],
+        [
+            "By default, jq outputs colored JSON if writing to a terminal.",
+            "By default, jq outputs colored JSON if writing to a terminal."
+        ],
+        [
+            "Remaining arguments are positional string arguments.",
+            "Remaining arguments are positional JSON text arguments."
+        ],
+        [
+            "Embedded cache file comment.",
+            "Do not embed any cache file comment."
+        ],
+        [
+            "Auto-split mode.",
+            "CIDR-split mode."
+        ],
+        [
+            "Auto-split mode.",
+            "Regex-split mode."
+        ],
+        [
+            "Auto-split mode.",
+            "Port-split mode."
+        ],
+        [
+            "Auto-split mode.",
+            "Source MAC split mode."
+        ],
+        [
+            "CIDR-split mode.", 
+            "Regex-split mode."
+        ],
+        [
+            "CIDR-split mode.", 
+            "Port-split mode."
+        ],
+        [   
+            "CIDR-split mode.", 
+            "Source MAC split mode."
+        ],
+        [
+            "Regex-split mode.", 
+            "Port-split mode."
+        ],
+        [
+            "Regex-split mode.", 
+            "Source MAC split mode."
+        ],
+        [
+            "Replay packets at a given packets/sec.", 
+            "Replay packets at a given Mbps."
+        ],
+        [
+            "Replay packets at a given packets/sec.", 
+            "Replay packets as fast as possible."
+        ],
+        [
+            "Replay packets at a given Mbps.", 
+            "Replay packets as fast as possible."
+        ],
+        [
+            "File is an ELF core dump file.",
+            "File is a debug only ELF file (separate or dwz multi-file)."
+        ],
+        [
+            "File is an ELF core dump file.",
+            "File looks like an ELF object or archive/static library (default)."
+        ],
+        [
+            "File is an ELF core dump file.",
+            "File is an ELF archive or static library."
+        ],
+        [
+            "File is an ELF core dump file.",
+            "File is an regular ELF object (not an archive/static library)."
+        ],
+        [
+            "File is an ELF core dump file.",
+            "File is (primarily) an ELF program executable (not primarily a DSO)"
+        ],
+        [
+            "File is an ELF core dump file.",
+            "File is an ELF shared object (DSO) (might also be an executable)."
+        ],
+        [
+            "File is an ELF core dump file.",
+            "File is a linux kernel module."
+        ],
+        [
+            "File is an ELF core dump file.",
+            "File is a loadable ELF object (program or shared object)."
+        ],
+        [
+            "File is an ELF core dump file.",
+            "File is an ELF program executable (might also be a DSO)."
+        ],
+        [
+            "File is an ELF core dump file.",
+            "File is (primarily) an ELF shared object (DSO) (not primarily an executable)."
+        ],
+        [
+            "File is an ELF core dump file.",
+            "File is an ELF file with symbol table or sections and can be stripped further."
+        ],
+        [
+            "File is a debug only ELF file (separate or dwz multi-file).",
+            "File looks like an ELF object or archive/static library (default)."
+        ],
+        [
+            "File is a debug only ELF file (separate or dwz multi-file).",
+            "File is an ELF archive or static library."
+        ],
+        [
+            "File is a debug only ELF file (separate or dwz multi-file).",
+            "File is an regular ELF object (not an archive/static library)."
+        ],
+        [
+            "File is a debug only ELF file (separate or dwz multi-file).",
+            "File is (primarily) an ELF program executable (not primarily a DSO)"
+        ],
+        [
+            "File is a debug only ELF file (separate or dwz multi-file).",
+            "File is an ELF shared object (DSO) (might also be an executable)."
+        ],
+        [
+            "File is a debug only ELF file (separate or dwz multi-file).",
+            "File is a linux kernel module."
+        ],
+        [
+            "File is a debug only ELF file (separate or dwz multi-file).",
+            "File is a loadable ELF object (program or shared object)."
+        ],
+        [
+            "File is a debug only ELF file (separate or dwz multi-file).",
+            "File is an ELF program executable (might also be a DSO)."
+        ],
+        [
+            "File is a debug only ELF file (separate or dwz multi-file).",
+            "File is (primarily) an ELF shared object (DSO) (not primarily an executable)."
+        ],
+        [
+            "File is a debug only ELF file (separate or dwz multi-file).",
+            "File is an ELF file with symbol table or sections and can be stripped further."
+        ],
+        [
+            "File looks like an ELF object or archive/static library (default).",
+            "File is an ELF archive or static library."
+        ],
+        [
+            "File looks like an ELF object or archive/static library (default).",
+            "File is an regular ELF object (not an archive/static library)."
+        ],
+        [
+            "File looks like an ELF object or archive/static library (default).",
+            "File is (primarily) an ELF program executable (not primarily a DSO)"
+        ],
+        [
+            "File looks like an ELF object or archive/static library (default).",
+            "File is an ELF shared object (DSO) (might also be an executable)."
+        ],
+        [
+            "File looks like an ELF object or archive/static library (default).",
+            "File is a linux kernel module."
+        ],
+        [
+            "File looks like an ELF object or archive/static library (default).",
+            "File is a loadable ELF object (program or shared object)."
+        ],
+        [
+            "File looks like an ELF object or archive/static library (default).",
+            "File is an ELF program executable (might also be a DSO)."
+        ],
+        [
+            "File looks like an ELF object or archive/static library (default).",
+            "File is (primarily) an ELF shared object (DSO) (not primarily an executable)."
+        ],
+        [
+            "File looks like an ELF object or archive/static library (default).",
+            "File is an ELF file with symbol table or sections and can be stripped further."
+        ],
+        [
+            "File is an ELF archive or static library.",
+            "File is an regular ELF object (not an archive/static library)."
+        ],
+        [
+            "File is an ELF archive or static library.",
+            "File is (primarily) an ELF program executable (not primarily a DSO)"
+        ],
+        [
+            "File is an ELF archive or static library.",
+            "File is an ELF shared object (DSO) (might also be an executable)."
+        ],
+        [
+            "File is an ELF archive or static library.",
+            "File is a linux kernel module."
+        ],
+        [
+            "File is an ELF archive or static library.",
+            "File is a loadable ELF object (program or shared object)."
+        ],
+        [
+            "File is an ELF archive or static library.",
+            "File is an ELF program executable (might also be a DSO)."
+        ],
+        [
+            "File is an ELF archive or static library.",
+            "File is (primarily) an ELF shared object (DSO) (not primarily an executable)."
+        ],
+        [
+            "File is an ELF archive or static library.",
+            "File is an ELF file with symbol table or sections and can be stripped further."
+        ],
+        [
+            "File is an regular ELF object (not an archive/static library).",
+            "File is (primarily) an ELF program executable (not primarily a DSO)"
+        ],
+        [
+            "File is an regular ELF object (not an archive/static library).",
+            "File is an ELF shared object (DSO) (might also be an executable)."
+        ],
+        [
+            "File is an regular ELF object (not an archive/static library).",
+            "File is a linux kernel module."
+        ],
+        [
+            "File is an regular ELF object (not an archive/static library).",
+            "File is a loadable ELF object (program or shared object)."
+        ],
+        [
+            "File is an regular ELF object (not an archive/static library).",
+            "File is an ELF program executable (might also be a DSO)."
+        ],
+        [
+            "File is an regular ELF object (not an archive/static library).",
+            "File is (primarily) an ELF shared object (DSO) (not primarily an executable)."
+        ],
+        [
+            "File is an regular ELF object (not an archive/static library).",
+            "File is an ELF file with symbol table or sections and can be stripped further."
+        ],
+        [
+            "File is (primarily) an ELF program executable (not primarily a DSO)",
+            "File is an ELF shared object (DSO) (might also be an executable)."
+        ],
+        [
+            "File is (primarily) an ELF program executable (not primarily a DSO)",
+            "File is a linux kernel module."
+        ],
+        [
+            "File is (primarily) an ELF program executable (not primarily a DSO)",
+            "File is a loadable ELF object (program or shared object)."
+        ],
+        [
+            "File is (primarily) an ELF program executable (not primarily a DSO)",
+            "File is an ELF program executable (might also be a DSO)."
+        ],
+        [
+            "File is (primarily) an ELF program executable (not primarily a DSO)",
+            "File is (primarily) an ELF shared object (DSO) (not primarily an executable)."
+        ],
+        [
+            "File is (primarily) an ELF program executable (not primarily a DSO)",
+            "File is an ELF file with symbol table or sections and can be stripped further."
+        ],
+        [
+            "File is an ELF shared object (DSO) (might also be an executable).",
+            "File is a linux kernel module."
+        ],
+        [
+            "File is an ELF shared object (DSO) (might also be an executable).",
+            "File is a loadable ELF object (program or shared object)."
+        ],
+        [
+            "File is an ELF shared object (DSO) (might also be an executable).",
+            "File is an ELF program executable (might also be a DSO)."
+        ],
+        [
+            "File is an ELF shared object (DSO) (might also be an executable).",
+            "File is (primarily) an ELF shared object (DSO) (not primarily an executable)."
+        ],
+        [
+            "File is an ELF shared object (DSO) (might also be an executable).",
+            "File is an ELF file with symbol table or sections and can be stripped further."
+        ],
+        [
+            "File is a linux kernel module.",
+            "File is a loadable ELF object (program or shared object)."
+        ],
+        [
+            "File is a linux kernel module.",
+            "File is an ELF program executable (might also be a DSO)."
+        ],
+        [
+            "File is a linux kernel module.",
+            "File is (primarily) an ELF shared object (DSO) (not primarily an executable)."
+        ],
+        [
+            "File is a linux kernel module.",
+            "File is an ELF file with symbol table or sections and can be stripped further."
+        ],
+        [
+            "File is a loadable ELF object (program or shared object).",
+            "File is an ELF program executable (might also be a DSO)."
+        ],
+        [
+            "File is a loadable ELF object (program or shared object).",
+            "File is (primarily) an ELF shared object (DSO) (not primarily an executable)."
+        ],
+        [
+            "File is a loadable ELF object (program or shared object).",
+            "File is an ELF file with symbol table or sections and can be stripped further."
+        ],
+        [
+            "File is an ELF program executable (might also be a DSO).",
+            "File is (primarily) an ELF shared object (DSO) (not primarily an executable)."
+        ],
+        [
+            "File is an ELF program executable (might also be a DSO).",
+            "File is an ELF file with symbol table or sections and can be stripped further."
+        ],
+        [
+            "File is (primarily) an ELF shared object (DSO) (not primarily an executable).",
+            "File is an ELF file with symbol table or sections and can be stripped further."
+        ],
+        [
+            "Also read file names to process from standard input, separated by newlines.",
+            "Also read file names to process from standard input, separated by ASCII NUL bytes."
+        ],
+        [
+            "Do not output file names.",
+            "Output names of files, separated by newline."
+        ],
+        [
+            "Do not output file names.",
+            "Output names of files, separated by ASCII NUL."
+        ],
+        [
+            "Output names of files, separated by newline.",
+            "Output names of files, separated by ASCII NUL."
+        ],
+        [
+            "Attempts to remove duplicate packets.",
+            "Attempts to remove duplicate packets."
+        ]
     ]
 }
