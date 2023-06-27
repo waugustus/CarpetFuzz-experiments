@@ -2,6 +2,14 @@
     "tiffcp": {
         "conflict": [
             [
+                "-B",
+                "-L"
+            ],
+            [
+                "-s",
+                "-t"
+            ],
+            [
                 "-a",
                 "-B"
             ],
@@ -10,33 +18,21 @@
                 "-L"
             ]
         ],
-        "IDC": [
-            [
-                "-B",
-                "-L"
-            ],
-            [
-                "-s",
-                "-t"
-            ]
-        ],
         "dependent": {}
     },
     "tiffcrop": {
         "conflict": [
             [
-                "-z",
-                "-E"
-            ]
-        ],
-        "IDC": [
-            [
                 "-B",
                 "-L"
             ],
             [
                 "-s",
                 "-t"
+            ],
+            [
+                "-z",
+                "-E"
             ]
         ],
         "dependent": {
@@ -48,6 +44,10 @@
     "cmark": {
         "conflict": [
             [
+                "--hardbreaks",
+                "--nobreaks"
+            ],
+            [
                 "--safe",
                 "--unsafe"
             ],
@@ -56,17 +56,10 @@
                 "--width"
             ]
         ],
-        "IDC": [
-            [
-                "--hardbreaks",
-                "--nobreaks"
-            ]
-        ],
         "dependent": {}
     },
     "openssl-ec": {
-        "conflict": [],
-        "IDC": [
+        "conflict": [
             [
                 "-des",
                 "-idea"
@@ -84,16 +77,6 @@
     },
     "openssl-rsa": {
         "conflict": [
-            [
-                "-RSAPublicKey_in",
-                "-pubin"
-            ],
-            [
-                "-pubout",
-                "-RSAPublicKey_out"
-            ]
-        ],
-        "IDC": [
             [
                 "-pvk-strong",
                 "-pvk-weak"
@@ -363,19 +346,26 @@
                 "-camellia256"
             ],
             [
+                "-RSAPublicKey_in",
+                "-pubin"
+            ],
+            [
                 "-pvk-strong",
                 "-pvk-none"
             ],
             [
                 "-pvk-weak",
                 "-pvk-none"
+            ],
+            [
+                "-pubout",
+                "-RSAPublicKey_out"
             ]
         ],
         "dependent": {}
     },
     "img2sixel": {
-        "conflict": [],
-        "IDC": [
+        "conflict": [
             [
                 "-7",
                 "-8"
@@ -394,16 +384,6 @@
     },
     "pdftops": {
         "conflict": [
-            [
-                "-eps",
-                "-form"
-            ],
-            [
-                "-form",
-                "-level1"
-            ]
-        ],
-        "IDC": [
             [
                 "-level2gray",
                 "-level3sep"
@@ -515,6 +495,14 @@
             [
                 "-level1",
                 "-level2"
+            ],
+            [
+                "-eps",
+                "-form"
+            ],
+            [
+                "-form",
+                "-level1"
             ]
         ],
         "dependent": {}
@@ -530,15 +518,13 @@
                 "-simple2"
             ]
         ],
-        "IDC": [],
         "dependent": {
             "-fixed": "-layout||-table||-lineprinter",
             "-linespacing": "-lineprinter"
         }
     },
     "ogg123": {
-        "conflict": [],
-        "IDC": [
+        "conflict": [
             [
                 "-z",
                 "-Z"
@@ -557,12 +543,10 @@
                 "-dump"
             ]
         ],
-        "IDC": [],
         "dependent": {}
     },
     "podofoencrypt": {
-        "conflict": [],
-        "IDC": [
+        "conflict": [
             [
                 "--rc4v1",
                 "--rc4v2"
@@ -571,8 +555,7 @@
         "dependent": {}
     },
     "lrzip": {
-        "conflict": [],
-        "IDC": [
+        "conflict": [
             [
                 "-b",
                 "-l"
@@ -618,16 +601,6 @@
     },
     "speexdec": {
         "conflict": [
-            [
-                "--pf",
-                "--enh"
-            ],
-            [
-                "--no-pf",
-                "--no-enh"
-            ]
-        ],
-        "IDC": [
             [
                 "--enh",
                 "--no-enh"
@@ -691,6 +664,14 @@
             [
                 "--stereo",
                 "--rate"
+            ],
+            [
+                "--pf",
+                "--enh"
+            ],
+            [
+                "--no-pf",
+                "--no-enh"
             ]
         ],
         "dependent": {}
@@ -702,61 +683,59 @@
                 "--strip-none"
             ],
             [
-                "--strip-none",
+                "-s",
                 "--strip-com"
             ],
             [
-                "--strip-none",
+                "-s",
                 "--strip-exif"
             ],
             [
-                "--strip-none",
+                "-s",
                 "--strip-iptc"
             ],
             [
-                "--strip-none",
+                "-s",
                 "--strip-icc"
             ],
             [
-                "--strip-none",
+                "-s",
                 "--strip-xmp"
             ],
             [
-                "--strip-none",
+                "-s",
                 "--strip-jfxx"
             ],
             [
-                "--strip-none",
+                "-s",
                 "--strip-Adobe"
-            ]
-        ],
-        "IDC": [
+            ],
             [
-                "-s",
+                "--strip-none",
                 "--strip-com"
             ],
             [
-                "-s",
+                "--strip-none",
                 "--strip-exif"
             ],
             [
-                "-s",
+                "--strip-none",
                 "--strip-iptc"
             ],
             [
-                "-s",
+                "--strip-none",
                 "--strip-icc"
             ],
             [
-                "-s",
+                "--strip-none",
                 "--strip-xmp"
             ],
             [
-                "-s",
+                "--strip-none",
                 "--strip-jfxx"
             ],
             [
-                "-s",
+                "--strip-none",
                 "--strip-Adobe"
             ],
             [
@@ -827,9 +806,7 @@
             [
                 "--argfile",
                 "--slurpfile"
-            ]
-        ],
-        "IDC": [
+            ],
             [
                 "--color-output",
                 "--monochrome-output"
@@ -848,7 +825,6 @@
                 "-verbose"
             ]
         ],
-        "IDC": [],
         "dependent": {}
     },
     "tcpreplay": {
@@ -883,7 +859,7 @@
             ],
             [
                 "-p",
-                "-p"
+                "-o"
             ],
             [
                 "-M",
@@ -902,7 +878,6 @@
                 "--no-flow-stats"
             ]
         ],
-        "IDC": [],
         "dependent": {
             "-A": "-v",
             "-c": "-I",
@@ -911,7 +886,7 @@
             "--loopdelay-ms": "-l",
             "--pps-multi": "-p",
             "--unique-ip": "-l",
-            "--unique-ip-loops": "-l&&--unique-ip"
+            "--unique-ip-loops": "--unique-ip&&-l"
         }
     },
     "tcpprep": {
@@ -959,9 +934,7 @@
             [
                 "-x",
                 "-X"
-            ]
-        ],
-        "IDC": [
+            ],
             [
                 "-C",
                 "--no-arg-comment"
@@ -977,12 +950,6 @@
     },
     "eu-elfclassify": {
         "conflict": [
-            [
-                "-q",
-                "-v"
-            ]
-        ],
-        "IDC": [
             [
                 "--core",
                 "--debug-only"
@@ -1262,6 +1229,10 @@
             [
                 "--print",
                 "--print0"
+            ],
+            [
+                "-q",
+                "-v"
             ]
         ],
         "dependent": {}
@@ -1271,9 +1242,7 @@
             [
                 "-c",
                 "-i"
-            ]
-        ],
-        "IDC": [
+            ],
             [
                 "-d",
                 "-D"
