@@ -14,7 +14,7 @@ usage() {
     echo "CarpetFuzz-experiments - CarpetFuzz's experiments."
     echo "run_fuzzing.sh - Run all fuzzing instances in the paper."
     echo
-    echo "Usage: $0 [-c CORES] [-r REPEAT] [-s] [-h]"
+    echo "Usage: $0 [-c CORES] [-r REPETITIONS] [-e] [-s] [-p PROGRAMS] [-h]"
     echo
     echo "Options:"
     echo "  -c CORES   Number of cores to be used (default: number of available CPU cores)."
