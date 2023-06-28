@@ -19,7 +19,9 @@ usage() {
     echo "Options:"
     echo "  -c CORES   Number of cores to be used (default: number of available CPU cores)."
     echo "  -r REPEAT  Number of repetitions (default: 5)."
-    echo "  -s         Simplified mode. Only fuzz programs in CarpetFuzz's dataset."
+    echo "  -e         Extended mode. Also fuzz programs in Power's dataset."
+    echo "  -s         Simplified mode. Only fuzz programs in Table 2. (can be combined with -p)"
+    echo "  -p         Number of programs to be fuzzed (only work with -s)"
     echo "  -h         Display this help message."
 }
 
@@ -33,6 +35,8 @@ runFuzzing() {
 runOnCarpetFuzzDataset() {
     cores=$1
     repeat=$2
+    simplified_flag=$3
+    num_programs=$4
 
     total_runs=()
 
@@ -46,9 +50,22 @@ runOnCarpetFuzzDataset() {
         
         program=$(echo $key|tr -d '"')
         package=$(echo $config_carpetfuzz_dataset|jq .${key}.package|tr -d '"')
+
+        prioritization=$(echo $config_carpetfuzz_dataset | jq .${key}.prioritization)
+        if [[ ${simplified_flag} == true ]];then
+            if [[ "${prioritization}" == null ]];then
+                continue
+            fi
+
+            num_programs=`expr ${num_programs} - 1`
+            if [[ ${num_programs} < 0 ]]; then
+                break
+            fi
+        fi
+
         for index in $(seq 1 "${repeat}"); do
             for fuzzer in "afl" "aflfast" "mopt" "afl++" "carpetfuzz" "carpetfuzz_random"; do
-                prioritization=$(echo $config_carpetfuzz_dataset | jq .${key}.prioritization)
+                
                 if [[ "$fuzzer" == "carpetfuzz_random" && "${prioritization}" == null ]]; then
                     continue
                 fi
@@ -172,10 +189,15 @@ runOnPowerDataset() {
 
 }
 
-while getopts "c:r:sh" opt; do
+extended_flag=false
+simplified_flag=false
+
+while getopts "c:r:p:seh" opt; do
     case $opt in
         c) cores=$OPTARG ;;
         r) repeat=$OPTARG ;;
+        p) programs=$OPTARG ;;
+        e) extended_flag=true ;;
         s) simplified_flag=true ;;
         h)
             usage
@@ -191,21 +213,27 @@ done
 
 cores=${cores:-$(nproc)}
 repeat=${repeat:-5}
+programs=${programs:-10}
 
 if (( cores > $(nproc) )); then
     echo "[x] Not enough cores!"
     exit 1
 fi
 
+if (( programs > 10 )); then
+    echo "[x] Not enough programs in Table 2!"
+    exit 1
+fi
+
 echo "[*] Number of cores to be used: ${cores}, repeat ${repeat} times"
 
 echo "[*] Get the commands list for CarpetFuzz dataset ..."
-IFS=$'\n' read -rd '' -a total_runs <<<"$(runOnCarpetFuzzDataset ${cores} ${repeat})"
+IFS=$'\n' read -rd '' -a total_runs <<<"$(runOnCarpetFuzzDataset ${cores} ${repeat} ${simplified_flag} ${programs})"
 
 cpu_bind=${total_runs[-1]}
 unset total_runs[-1]
 
-if [[ ${simplified_flag} != true ]]; then
+if [[ ${extended_flag} == true ]]; then
     echo "[*] Get the commands list for Power dataset ..."
     IFS=$'\n' read -rd '' -a power_runs <<<"$(runOnPowerDataset ${cores} ${repeat} ${cpu_bind})"
     total_runs+=("${power_runs[@]}")
