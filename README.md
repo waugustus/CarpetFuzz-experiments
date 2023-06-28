@@ -36,8 +36,8 @@ To replicate the experiments described in the paper, the first step is to initia
 
 ```
 chmod +x ./run_fuzzing.sh
-# Repeat 5 times
-screen -dmS fuzzing bash -c "./run_fuzzing.sh 2>&1 |tee fuzzing.log" 
+# Repeat 5 times, under CarpetFuzz and POWER dataset
+screen -dmS fuzzing bash -c "./run_fuzzing.sh -r 5 -e 2>&1 |tee fuzzing.log" 
 ```
 
 Note that due to the unavailability of a license from the authors of POWER, we are unable to utilize their tools for conducting comparative experiments in this repo. Therefore, it is optional to perform the comparative experiments, resulting in a reduction of 7200 CPU hours. 
@@ -48,8 +48,18 @@ Therefore, the experiments can be simplified to (about **15,840 CPU-hours**),
 
 ```
 # Repeat 3 times, without POWER dataset
-screen -dmS fuzzing bash -c "./run_fuzzing.sh -r 3 -s 2>&1 |tee fuzzing.log" 
+screen -dmS fuzzing bash -c "./run_fuzzing.sh -r 3 2>&1 |tee fuzzing.log" 
 ```
+
+If you don't intend to run the entire benchmark, you can try using the `-s` and `-p` options, which will reduce the time to approximately `48 * 6 * PROGRAMS * REPETITIONS`. You can customize the number of programs and repetitions based on your specific requirements and available resources. For instance, if you choose to run experiments on 5 programs from Table 2, with 5 repetitions each, the estimated CPU hours would be around 4320.
+
+```
+# Repeat 5 times, only use 5 programs from Table 5
+screen -dmS fuzzing bash -c "./run_fuzzing.sh -r 5 -s -p 5 2>&1 |tee fuzzing.log" 
+```
+
+Considering the inherent stochastic nature of fuzzing, we **strongly recommend** conducting at least **5** repetitions of the experiments whenever feasible. This will help ensure better reproducibility of the results presented in the paper and provide more robust insights into the effectiveness of our approach.
+
 
 The fuzzing results will be saved in [output/carpetfuzz_dataset](output/carpetfuzz_dataset) and [output/power_dataset](output/power_dataset)
 
