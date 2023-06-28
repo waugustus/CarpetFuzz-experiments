@@ -18,14 +18,10 @@ script_dir = os.path.join(project_dir, "scripts")
 
 sys.path.append(os.path.join(script_dir))
 
-from utils.groff_util import GroffUtil
 from utils.nlp_util import NLPUtil
 from utils.model_util import ModelUtil
-from utils.relationship_util import RelationshipUtil
 
-groff_util = GroffUtil()
 nlp_util = NLPUtil("%s/elmo-constituency-parser-2020.02.10.tar.gz" % model_dir)
-relationship_util = RelationshipUtil(nlp_util)
 
 def evaluateOnValidationDataset():
     # Validation dataset
@@ -35,13 +31,9 @@ def evaluateOnValidationDataset():
 
     positive_sents = label_data["positive"]
     negative_sents = label_data["negative"]
-
-    formatted_list = []
-    for sents in [positive_sents, negative_sents]:
-        for sent in sents:
-            formatted_list.append({'cmd': '', 'option': '', 'sent': sent})
     
-    preprocessed_list = nlp_util.preprocessing(formatted_list, {}, [])
+    preprocessed_positive_list = nlp_util.preprocessing(positive_sents, {}, [])
+    preprocessed_negative_list = nlp_util.preprocessing(negative_sents, {}, [])
 
     sent2vec_model_path = "%s/linux_w2v_300d.model" % model_dir
     xgb_model_path = "%s/xgb.m" % model_dir
@@ -49,30 +41,20 @@ def evaluateOnValidationDataset():
     threshold = 0.5
     model_util = ModelUtil(xgb_model_path, sent2vec_model_path, feature_num, threshold)
     # Explicit R-sentences
-    prediction_positive_list, prediction_negative_list = model_util.prediction(preprocessed_list)
+    prediction_TP_list, prediction_FN_list = model_util.prediction(preprocessed_positive_list)
+    prediction_FP_list, prediction_TN_list = model_util.prediction(preprocessed_negative_list)
 
-    TP = 0
-    TN = 0
-    FP = 0
-    FN = 0
-    for d in prediction_positive_list:
-        if d['sent'] in positive_sents:
-            TP += 1
-        elif d['sent'] in negative_sents:
-            FP += 1
-    
-    for d in prediction_negative_list:
-        if d['sent'] in negative_sents:
-            TN += 1
-        elif d['sent'] in positive_sents:
-            FN += 1
-    
+    TP = len(prediction_TP_list)
+    TN = len(prediction_TN_list)
+    FP = len(prediction_FP_list)
+    FN = len(prediction_FN_list)
+
     acc, fpr, recall = (TP + TN)/(TP + TN + FP + FN), FP/(FP + TN), TP/(TP + FN)
 
     return acc, fpr, recall
 
 def evaluateOnCarpetFuzzDataset():
-    # Validation dataset
+    # CarpetFuzz dataset
     label_path = os.path.join(groundtruth_dir, "label_carpetfuzz_dataset.json")
     with open(label_path, "r") as f:
         label_data = json.loads(f.read())
