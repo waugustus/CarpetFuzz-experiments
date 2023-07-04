@@ -75,11 +75,11 @@ After completing the preprocessing step, the results of all experiments can be o
 
 ## Structure
 
-|Subdirectory|Section|Research Question|
-|----|----|----|
-|[experiments/RQ1](experiments/RQ1)|5.1|What is the performance of CarpetFuzz?|
-|[experiments/RQ2](experiments/RQ2)|5.2|What is the accuracy of relationship identification?|
-|[experiments/RQ3](experiments/RQ3)|5.3|What is the accuracy of relationship extraction?|
-|[experiments/RQ4](experiments/RQ4)|5.4|What is the effectiveness of CarpetFuzz’s prioritization technique?|
-|[experiments/RQ5](experiments/RQ5)|5.5|What is the fuzzing performance of CarpetFuzz com- pared to the state-of-the-art techniques?|
-|[experiments/RQ6](experiments/RQ6)|5.6|Can CarpetFuzz discover real-world vulnerabilities?|
+|Subdirectory|Section|Research Question|Time Required|Space Required|
+|----|----|----|----|----|
+|[experiments/RQ1](experiments/RQ1)|5.1|What is the performance of CarpetFuzz?| < 1 hour| < 100MB|
+|[experiments/RQ2](experiments/RQ2)|5.2|What is the accuracy of relationship identification?| < 10 minutes | < 100MB |
+|[experiments/RQ3](experiments/RQ3)|5.3|What is the accuracy of relationship extraction?| < 10 minutes | < 100MB |
+|[experiments/RQ4](experiments/RQ4)|5.4|What is the effectiveness of CarpetFuzz’s prioritization technique?| < 1 hour | < 100MB
+|[experiments/RQ5](experiments/RQ5)|5.5|What is the fuzzing performance of CarpetFuzz com- pared to the state-of-the-art techniques?| N/A | N/A |
+|[experiments/RQ6](experiments/RQ6)|5.6|Can CarpetFuzz discover real-world vulnerabilities?| < 10 minutes | None |
