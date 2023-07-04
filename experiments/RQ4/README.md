@@ -17,7 +17,7 @@ This subdirectory contains the script and data to reproduce the RQ4 in the paper
 Execute the following commands:
 
 ```
-$ python3 get_stubs.py
-$ python3 afl-showmap.py
-$ python3 analyze_results.py
+$ python3 scripts/get_stubs.py
+$ python3 scripts/afl-showmap.py
+$ python3 scripts/analyze_results.py
 ```

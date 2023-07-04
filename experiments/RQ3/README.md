@@ -14,5 +14,5 @@ This subdirectory contains the script and data to reproduce the RQ3 in the paper
 Execute the following commands:
 
 ```
-$ python3 analyze_results.py
+$ python3 scripts/analyze_results.py
 ```
