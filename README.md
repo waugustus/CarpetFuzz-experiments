@@ -3,6 +3,8 @@ This repo contains the data required to reproduce the experiments from our USENI
 
 In our paper, we evaluated CarpetFuzz through a total of six experiments, including an end-to-end experiment, a comparative experiment, and four submodule experiments, which collectively required 33,600 CPU hours.
 
+The CarpetFuzz version used in the experiment is commit 50f09eb94d33abbfe3e18184988a0c3a8f0f5612.
+
 ## Environment
 
 We conducted the experiment on a server with 128 cores, 256GB of memory, and 11TB of disk space. The server was running the Ubuntu 20.04 operating system.
