@@ -85,3 +85,7 @@ After completing the preprocessing step, the results of all experiments can be o
 |[experiments/RQ4](experiments/RQ4)|5.4|What is the effectiveness of CarpetFuzz’s prioritization technique?| < 1 hour | < 100MB
 |[experiments/RQ5](experiments/RQ5)|5.5|What is the fuzzing performance of CarpetFuzz com- pared to the state-of-the-art techniques?| N/A | N/A |
 |[experiments/RQ6](experiments/RQ6)|5.6|Can CarpetFuzz discover real-world vulnerabilities?| < 10 minutes | None |
+
+## Badges
+
+Thanks to the USENIX Security 2023 Artifact Evaluation Committee's efforts, our work earned the Available Badge and the Functional Badge. However, due to limitations in reviewers' computing resources, our experiments' reproducibility was **not evaluated**, resulting in the absence of the Reproducible Badge. It's essential to note that this **doesn't imply** our experiments are not reproducible.
