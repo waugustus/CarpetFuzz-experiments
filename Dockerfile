@@ -355,7 +355,7 @@ RUN wget -O- https://github.com/jasper-software/jasper/releases/download/version
 ## Mpg123
 RUN wget -O- https://sourceforge.net/projects/mpg123/files/mpg123/1.28.2/mpg123-1.28.2.tar.bz2/download |tar xvj; cd mpg123-1.28.2; \
     gclang_configure --with-cpu=generic; \
-    export program="mpg123";export build_flag="-lpulse-simple -lpulse -lm -lc -lpthread -ldbus-1 -ldl -lxcb -lrt -lXau -lXdmcp -llzma -llz4 -lgcrypt -lnsl -lFLAC -logg -lvorbis -lvorbisenc -lresolv -lgpg-error";carpetfuzz++_process;afl++_process;seed_process;
+    export program="mpg123";export build_flag="-lpulse-simple -lpulse -lm -lc -lpthread -ldbus-1 -ldl -lxcb -lrt -lXau -lXdmcp -llzma -llz4 -lgcrypt -lnsl -lFLAC -logg -lvorbis -lvorbisenc -lresolv -lgpg-error";carpetfuzz++_process;afl++_process;seed_process
 ## Mupdf
 RUN git clone --recursive git://git.ghostscript.com/mupdf.git mupdf-git-d00de0e;cd mupdf-git-d00de0e; git reset --hard d00de0e; git submodule update --init; \
     CC=gclang CXX=gclang++ make HAVE_X11=no HAVE_GLUT=no shared=no prefix=$PWD/build_orig install; \
